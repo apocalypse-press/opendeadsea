@@ -3,7 +3,8 @@
 Versioned Dead Sea Scrolls corpus. Public reading first. Gatekept community
 edits through GitHub pull requests.
 
-Spec: `docs/ARCH-DSS-2026-CF-FREE.md`.
+Spec: `docs/ARCH-DSS-2026-CF-FREE.md`.  
+Repo: https://github.com/apocalypse-press/opendeadsea
 
 ## Layout
 
