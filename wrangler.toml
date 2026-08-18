@@ -1,0 +1,14 @@
+name = "opendeadsea"
+compatibility_date = "2026-08-18"
+pages_build_output_dir = "site"
+
+# Account 0008b5fcd92c808c166ce6fb25c4a12f (set via CLOUDFLARE_ACCOUNT_ID).
+# Pages config rejects account_id in this file.
+
+[[d1_databases]]
+binding = "DB"
+database_name = "opendeadsea-trust"
+database_id = "e927cf87-b4d0-48f2-b950-f63832b3f5b1"
+
+# GitHub App secrets stay in Wrangler / GitHub Actions, never in the corpus.
+# Required later: GITHUB_APP_ID, GITHUB_APP_PRIVATE_KEY, GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET

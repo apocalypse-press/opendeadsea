@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opendeadsea.org/schema/fragment.schema.json",
+  "title": "Open Dead Sea fragment record",
+  "type": "object",
+  "required": ["id", "label", "script", "tokens"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "minLength": 1, "pattern": "^[A-Za-z0-9._:-]+$" },
+    "label": { "type": "string", "minLength": 1 },
+    "script": { "type": "string", "enum": ["hebrew", "aramaic", "greek", "nabataean", "other"] },
+    "language": { "type": "string" },
+    "notes": { "type": "string" },
+    "tokens": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["i", "t"],
+        "additionalProperties": false,
+        "properties": {
+          "i": { "type": "integer", "minimum": 0 },
+          "t": { "type": "string", "minLength": 1 },
+          "uncertain": { "type": "boolean" },
+          "vacat": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

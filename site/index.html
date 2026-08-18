@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Open Dead Sea. Coming soon.</title>
+  <meta name="description" content="A versioned corpus of the Dead Sea Scrolls. Public reading now. Community edits, reviewed in the open.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=Inter:wght@400;500;600&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="mast">
+    <p class="mark">Open Dead Sea</p>
+    <p class="status"><span class="sr-only">Status: </span>Coming soon</p>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">The scrolls, versioned.</h1>
+      <p class="lede">A public corpus of the Dead Sea Scrolls. Consensus text, translations, and multi-spectral images. Edits proposed in the open and merged only after review.</p>
+      <p class="witness" lang="he" dir="rtl">קול קורא במדבר</p>
+      <p class="witness-cap">Isaiah 40:3. Wording attested among the Qumran Isaiah copies.</p>
+    </section>
+
+    <section class="split" aria-labelledby="what-title">
+      <div>
+        <h2 id="what-title">What you will be able to do</h2>
+        <p>Read the consensus text without an account. Export data. Follow every proposed reading as a public pull request.</p>
+        <p>When the editor opens, a free GitHub account is enough to suggest a line or token change. Reviewers vote. Merges rebuild the static site.</p>
+      </div>
+      <ol class="tiers">
+        <li>
+          <h3>Public reader</h3>
+          <p>No login. Consensus text, translations, images, and the full discussion history.</p>
+        </li>
+        <li>
+          <h3>Contributor</h3>
+          <p>GitHub OAuth. Submit an edit request. Comment on diffs. Earn reputation when work is accepted.</p>
+        </li>
+        <li>
+          <h3>Peer reviewer</h3>
+          <p>Reputation above 500, or academic verification. Vote on incoming requests. Two approvals merge a contributor request.</p>
+        </li>
+        <li>
+          <h3>Maintainer</h3>
+          <p>SSH key in CODEOWNERS. Emergency hotfixes, trust overrides, and academic verification.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="band" aria-labelledby="host-title">
+      <h2 id="host-title">Hosted on the free edge</h2>
+      <p>The corpus lives in Git. Images live in object storage. Reputation lives in D1. The public site is Cloudflare Pages. There is no paid compute in the edit path. Your GitHub identity opens the pull request.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>opendeadsea.org. Corpus work has not opened for public edits yet.</p>
+  </footer>
+</body>
+</html>
