@@ -59,6 +59,15 @@ for (const file of files) {
     }
     seen.add(tok.i);
   }
+  if (Array.isArray(data.viewers)) {
+    for (const v of data.viewers) {
+      if (!v || typeof v.label !== "string" || typeof v.url !== "string" || !v.url.startsWith("https://")) {
+        console.error(`FAIL ${rel}: viewer needs label and https url`);
+        bad = true;
+        break;
+      }
+    }
+  }
   if (bad) {
     failed += 1;
     continue;

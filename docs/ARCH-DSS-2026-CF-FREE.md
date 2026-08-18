@@ -10,7 +10,7 @@ is at the bottom.
 
 | Tier | Name | Auth | Permissions |
 |---|---|---|---|
-| 0 | Public reader | None | Read consensus text, translations, images. Export. View public PR history. |
+| 0 | Public reader | None | Read consensus text and translations. Follow outbound links to official plate viewers. Export. View public PR history. |
 | 1 | Contributor | GitHub OAuth | Open an edit request (GitHub PR under the user). Comment. Earn +10 per merged PR, +2 per accepted comment. |
 | 2 | Peer reviewer | GitHub OAuth plus reputation above 500 or academic verification | Vote on PRs. Trigger preview builds. Two Tier 2 approvals merge a Tier 1 PR. |
 | 3 | Maintainer | SSH key listed in CODEOWNERS | Emergency hotfix, trust override, write to `main`, academic verification. |
@@ -26,7 +26,19 @@ No Cloudflare Worker is required to create the PR.
 
 ## Trust storage
 
-Cloudflare D1 only. Schema: `schema/d1.sql`. Corpus text stays in Git. Images stay in R2 (not provisioned yet).
+Cloudflare D1 only. Schema: `schema/d1.sql`. Corpus text stays in Git.
+
+## Official plates
+
+We do **not** host multi-spectral or other gated imagery. Rights sit with
+the IAA, the Shrine of the Book, and the libraries that published the
+plates.
+
+Each fragment record may include a `viewers` array of outbound `https`
+links (label, url, optional note). The reader UI must open those in a
+new browsing context and must never hotlink or proxy the image bytes.
+
+Schema: `schema/fragment.schema.json` field `viewers`.
 
 ## Implementation status
 
@@ -37,6 +49,5 @@ Cloudflare D1 only. Schema: `schema/d1.sql`. Corpus text stays in Git. Images st
 - [ ] GitHub App registration and OAuth
 - [ ] D1 wired to CI for live reputation comments
 - [ ] Side-by-side editor
-- [ ] Visual alignment overlays
-- [ ] R2 image bucket
+- [ ] Reader UI for `viewers` outbound plate links
 - [ ] Academic verification workflow
