@@ -35,6 +35,15 @@
         "properties": {
           "i": { "type": "integer", "minimum": 0 },
           "t": { "type": "string", "minLength": 1 },
+          "lex": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Consonantal Unicode lexeme. Not a Strong's number."
+          },
+          "lex_etcbc": {
+            "type": "string",
+            "description": "Optional ETCBC lex transcription for Text-Fabric joins."
+          },
           "uncertain": { "type": "boolean" },
           "vacat": { "type": "boolean" }
         }

@@ -52,6 +52,18 @@ for (const file of files) {
       bad = true;
       break;
     }
+    if (tok.lex != null) {
+      if (typeof tok.lex !== "string" || !tok.lex.length) {
+        console.error(`FAIL ${rel}: empty lex on token ${tok.i}`);
+        bad = true;
+        break;
+      }
+      if (/^[HG]\d+/i.test(tok.lex) || /^strongs/i.test(tok.lex)) {
+        console.error(`FAIL ${rel}: Strong's IDs are not allowed (${tok.lex})`);
+        bad = true;
+        break;
+      }
+    }
     if (seen.has(tok.i)) {
       console.error(`FAIL ${rel}: duplicate token index ${tok.i}`);
       bad = true;
