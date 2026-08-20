@@ -1,0 +1,95 @@
+{
+ "id": "4Q131",
+ "label": "4Q131",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 11,
+ "scroll_id": 922,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q131 f1c+2R:1": {
+   "en": "to the commandments which I command",
+   "notes": "The phrase 'commandments which I' is supported by repeated phrase evidence. The verb 'command' is reconstructed from the visible form and supported by phrase evidence.",
+   "line_id": 49335,
+   "source_hash": "9f6c80fd722743be9dd74c8ed5659ae1aaccbbe7e9e90a6028dd49190f10c9d8",
+   "source_condition": "reconstructed"
+  },
+  "4Q131 f1c+2R:2": {
+   "en": "you the day to love YHWH",
+   "notes": "Uncertainty in transcription and reconstruction affects positions 1, 2, 4, and 6. Phrase evidence suggests possible renderings for segments, but the overall syntax remains ambiguous.",
+   "line_id": 49336,
+   "source_hash": "9201c061e001e43236b4d4bdd93d99850f4dedcfa14c45c48f7f90f131023a0e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q131 f1c+2R:3": {
+   "en": "your gods and to serve in all heart",
+   "notes": "Reconstructed and uncertain elements include the plural suffix on 'gods', the infinitive 'serve', and the phrase 'all heart'. The phrase 'with all heart' is supported by repeated evidence.",
+   "line_id": 49337,
+   "source_hash": "75ead63631bd4958d59a051911af6d4929fffec2b33f32e7fce84672a988ff30",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q131 f2V:1": {
+   "en": "In the time of the early rain and the spring-rain, you gathered corn",
+   "notes": "Reconstructed text includes '[ ב' and 'מל##ק##ו#?[ ש'. Uncertainty in the transcription affects the translation of 'מַלְקֹושׁ'.",
+   "line_id": 49338,
+   "source_hash": "5dc5e6833053addc7d7b6824b7043a80d086a3909bc1c968f1e9acb14f475677",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q131 f2V:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. No meaningful translation is possible.",
+   "line_id": 49339,
+   "source_hash": "de2e6a1c3a42461ef1344a661c12a5b6927a65bda7b15840de0bf843399b81cb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q131 f1a:1": {
+   "en": "Your hearts turned aside and you served other gods",
+   "notes": "The transcription is partially reconstructed and uncertain. The phrase 'other gods' is supported by repeated phrase evidence.",
+   "line_id": 49340,
+   "source_hash": "8f20b7d7dd1bf30dac833bb3fb0c53ae0a78605ad79060a30269449e82e96b04",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q131 f1a:2": {
+   "en": "And you bowed down to them. And it burned the anger of Yahweh",
+   "notes": "Uncertainty in the suffix of 'to them' and the verb 'it burned'. The phrase 'it burned the anger of Yahweh' is supported by repeated evidence, but 'burned' is a reconstruction. The noun 'anger' is a common gloss for 'nose' in this context.",
+   "line_id": 49341,
+   "source_hash": "7c0733fb1918f9cf018f34174018f775e6e5b8b5564d690718c34dc302c84210",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q131 f1a:3": {
+   "en": "In you and he restrained the heavens and not it will be rain",
+   "notes": "Uncertainty in the reconstruction of 'ל##[ א' (position 8) and the phrase 'not it will be rain' is supported by repeated phrase evidence but with moderate confidence.",
+   "line_id": 49342,
+   "source_hash": "263cb6687c95d50e40b5cdeafa8a7194a4ddd33a778a30816a546e531a5b32b3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q131 f3:1": {
+   "en": "and you have taught your sons",
+   "notes": "The transcription contains a Greek letter epsilon at the start, which cannot be translated independently and is omitted. The verb 'learn' is reconstructed and uncertain, but the phrase evidence supports 'teach' as a dominant contextual rendering. The object markers and suffixed pronouns are translated as possessive 'your' to maintain grammatical relationships.",
+   "line_id": 49343,
+   "source_hash": "cc1b93da825d6ded69b54e05a883cf47339aa4a7533e6f03eb5af9668e6b8db0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q131 f3:2": {
+   "en": "to speak in them in [sit in] your house and in [walk in] the way",
+   "notes": "Uncertain reconstruction and damage in positions 5 and 10. Phrase evidence suggests possible contextual renderings, but the translation retains visible lexical items conservatively.",
+   "line_id": 49344,
+   "source_hash": "7e922c71fdb6ae3988fd61dad500aa27073404aba9d147945a10bacc8145a3e4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q131 f1b+2R:1": {
+   "en": "to give to them as the days of the heavens upon the earth",
+   "notes": "The transcription contains reconstructed characters and a final punctuation mark with no trusted gloss.",
+   "line_id": 49345,
+   "source_hash": "34e67e85e21e9ccfb75d7ebd94cccaecf21c3d370483c73be3624edc284093b9",
+   "source_condition": "reconstructed"
+  }
+ }
+}

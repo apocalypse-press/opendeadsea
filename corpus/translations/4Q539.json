@@ -1,0 +1,151 @@
+{
+ "id": "4Q539",
+ "label": "4Q539",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 19,
+ "scroll_id": 577,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q539 f1:1": {
+   "en": "in [uncertain fragment] compassion",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged word (רגג ]ת#). The particle 'in' is certain, but the following noun and the final particle are incomplete. The noun 'compassion' is clear, but its relationship to the preceding material is uncertain due to damage.",
+   "line_id": 29830,
+   "source_hash": "37cc09dbd41d006e837db3c44d0e2ab9d41d8a5743ae314d6251f0ca50a54a0b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f1:2": {
+   "en": "Memphis opened",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form. The translation reflects the visible lexical items, but the exact meaning remains uncertain due to the fragmentary state of the text.",
+   "line_id": 29831,
+   "source_hash": "295ef6b9c981c4e76966f3877daf823555487dfa987dce62f8eae9e2d73ea1c0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew, with all characters being either damaged or untranslatable.",
+   "line_id": 29832,
+   "source_hash": "0e93e6e9746a2ca31cf3abfcc5bf778e27d3e98a7ad6052d893ae88df8475e52",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f2_3:1": {
+   "en": "In year one of Jacob he wept upon Joseph",
+   "notes": "Uncertain transcription and reconstruction in 'Jacob' and two unknown characters omitted from translation.",
+   "line_id": 29833,
+   "source_hash": "89c5d1a682a3d88fccb34493ade05745811c2a6c6904d3103e783b0063c8618d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f2_3:2": {
+   "en": "And now hear, sons, to the word of Joseph your father, and kindle to me, my beloved, and I [no recoverable text]",
+   "notes": "Uncertainty in the translation of several words due to damage and unclear context. The phrase 'he repeated Job' is a repeated phrase evidence for the sequence 'Joseph your father', but it is not directly reflected in the translation due to the lack of explicit support in the source text. The word 'קושט' and the particle 'א' have no trusted gloss, and their meaning is unclear. The translation '[no recoverable text]' is used for the final part of the sentence due to the inability to recover any defensible English words.",
+   "line_id": 29834,
+   "source_hash": "1c2889337ba03848b388adff014c7c9f4a8301bf5207b04595ad15dc9b36d998",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f2_3:3": {
+   "en": "[In order] sons of the breast Ishmael [to buy to Egypt and he] mourning father [of Jacob and sent the official ]",
+   "notes": "The translation includes reconstructed text and uncertain elements. The phrase '[In order] sons of the breast Ishmael [to buy to Egypt and he] mourning father [of Jacob and sent the official ]' reflects the fragmented nature of the source text, with some words and phrases incomplete or uncertain. The notes provide context for the reconstruction and uncertainty.",
+   "line_id": 29835,
+   "source_hash": "a627c19037d010c63505973af98233064c3633be88fc026b51ee522dea6ec02d",
+   "source_condition": "reconstructed"
+  },
+  "4Q539 f2_3:4": {
+   "en": "To complete eighty minas and a servant to bring near to him. And he completed eighty in kinds of shekels of gold. And they agreed",
+   "notes": "The phrase 'to bring near to him' is supported by repeated phrase evidence. The translation of 'אסכמו' as 'they agreed' is uncertain due to lack of a trusted gloss.",
+   "line_id": 29836,
+   "source_hash": "6fe1c637f3c801d19a1c1b0d750fb715dc601f04c136050548d5d74e84a503f5",
+   "source_condition": "reconstructed"
+  },
+  "4Q539 f2_3:5": {
+   "en": "Upon the number of their slaughter, you will intend [no recoverable text] announce, my messenger",
+   "notes": "Uncertain elements include the glosses for 'זבנו' (position 3), 'אֶן' (position 4), and multiple unknown or damaged tokens (positions 6, 7, 10, 11, 12). The phrase '[no recoverable text]' replaces positions 6-7 due to irretrievable content. Reconstructed characters are present in positions 1, 5, and 9.",
+   "line_id": 29837,
+   "source_hash": "62da8e98a1c81f5ee528e3d6384196e0de21f4cd50af3a45a1aaf69df853aadf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f2_3:6": {
+   "en": "See, sons of Obed, what I bear, not to the fathers' brothers, one announcing that I, he is a servant.",
+   "notes": "The translation conservatively follows the recoverable text, preserving grammatical structure and semantic relationships. Uncertainty arises from the fragmented nature of the text, particularly in the reconstruction of 'חזו' (see) and 'מבשר' (announcing), and the interpretation of 'אנה הוא עבד' (I, he is a servant), which may reflect a shift in speaker or a descriptive clause. The phrase 'לא לאבהת׳הל אח׳ילמבשר' (not to the fathers' brothers, one announcing) is translated literally, maintaining the negative particle and prepositional relationships. No additional subjects or connectors are introduced beyond what is licensed by the source.",
+   "line_id": 29838,
+   "source_hash": "2937a2fd80c8674828a3a34c50e49189f39b1eee4319a38761e061066c24b943",
+   "source_condition": "reconstructed"
+  },
+  "4Q539 f2_3:7": {
+   "en": "mercies of man",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters and unclear particles. The translation reflects recoverable words but omits unsupported elements. Uncertainty in the transcription is noted but not signaled in the translation.",
+   "line_id": 29839,
+   "source_hash": "5ebdde6f5d9090ed0f8ee37fd8ec5fd813fa2a2e855041f3a4c8cf8a956d637a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f4:1": {
+   "en": "perishing",
+   "notes": "The transcription is damaged, and the first character 'ε' is untranslatable. The verb 'אבד' is rendered as 'perishing' based on the provided lexical gloss, but its exact form and context are uncertain.",
+   "line_id": 29840,
+   "source_hash": "9e9c1f5265e84b6498af5dce86f22b6be34875a80f8360f486124eb18e0fd8f7",
+   "source_condition": "uncertain"
+  },
+  "4Q539 f4:2": {
+   "en": "he came",
+   "notes": "The initial character 'ε' is untranslatable and omitted; its presence is noted here.",
+   "line_id": 29841,
+   "source_hash": "c8364d230e5ed32f9de64f146d05fa08ae7c86beb5ed0ed5f51e916092864bd8",
+   "source_condition": "clean"
+  },
+  "4Q539 f4:3": {
+   "en": "ten and Timnite",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged numeral and a partially preserved proper noun. The initial character 'ε' is untranslatable and omitted. The proper noun 'תמ#נ#?[ יה ]' is reconstructed as 'Timnite' based on lexical evidence, but its integrity is uncertain.",
+   "line_id": 29842,
+   "source_hash": "9b3f9cf073b3dd30da0388fe25c86c95d870a545ac4b4d2ea7fcfe739e2ea349",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f4:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain lexical items with no trusted glosses. The visible forms and reconstructions do not provide sufficient evidence for a defensible English translation.",
+   "line_id": 29843,
+   "source_hash": "df0a6d50f6e8df33a0a8421a2b58f5fd724ecf50fbcee4cff437a485d490ddf1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f4:5": {
+   "en": "from generation first",
+   "notes": "The transcription is heavily damaged, with many uncertain characters. The phrase 'from generation' is supported by repeated evidence, but the overall meaning remains unclear due to the fragmented state of the text.",
+   "line_id": 29844,
+   "source_hash": "13d29f7e66275bf8fb7847434ecadad5d30c3d867897901e68286c5989d68e62",
+   "source_condition": "uncertain"
+  },
+  "4Q539 f4:6": {
+   "en": "and to the idol priest",
+   "notes": "Translation is highly uncertain due to extensive damage and reconstruction. The preposition 'to' and the conjunction 'and' are reconstructed. The term 'idol priest' is based on the lemma 'כֹּמֶר' but its context is unclear. Other elements are untranslatable fragments or uncertain.",
+   "line_id": 29845,
+   "source_hash": "7b2d92fc8fd0dbeabd7e684e0e9c9dfcd242eeb68126c852f074f7bdd9e3e711",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items or semantic constraints to support a translation. The visible forms are either incomplete or untranslatable, and the reconstructed material is too uncertain to provide meaningful content.",
+   "line_id": 29846,
+   "source_hash": "a27741a11e94b1f92efbb52f7a9492992ccd5aefdabd0b15ccc28004da30cb84",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f5:2": {
+   "en": "In the word of his mouth, he hunts the spirit of mankind",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the prefix 'ε' and the particle 'א#[', which are omitted in translation. The verb 'צאד' is translated as 'hunts' based on its morphology and lexical gloss, despite uncertainty. The phrase reflects a conservative interpretation of recoverable material.",
+   "line_id": 29847,
+   "source_hash": "bf0b32220f533084a7eff31f3ae16ccd639317e8d7442a217aab7391d36dcf82",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q539 f5:3": {
+   "en": "She will cling to and dominate the best",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged suffix (׳הא). The final punctuation mark (׃) is omitted from the translation as it cannot be rendered independently in English.",
+   "line_id": 29848,
+   "source_hash": "f98367f6884cd91ee85493f2141c765d5c490dd1f81aa479b79b33d23b99373b",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

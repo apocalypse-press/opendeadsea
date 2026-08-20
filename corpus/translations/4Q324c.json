@@ -1,0 +1,60 @@
+{
+ "id": "4Q324c",
+ "label": "4Q324c",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 307,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q324c f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too damaged to translate independently.",
+   "line_id": 13662,
+   "source_hash": "1c77a573a5848e691c6e13477897b16e60dd84a4e1d11316acb37ab8b8c368e8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324c f1:2": {
+   "en": "Jeshua fourth day",
+   "notes": "The transcription includes untranslatable characters (ε) and a damaged word (רביע[ י), reconstructed as 'fourth'. The phrase is fragmentary, and the exact relationship between 'Jeshua' and 'fourth day' is unclear.",
+   "line_id": 13663,
+   "source_hash": "2a9296264b1604511556c6ad81c2ad5b3dadb36a75e06b1faf83cef53f9222a0",
+   "source_condition": "reconstructed"
+  },
+  "4Q324c f1:3": {
+   "en": "this ten",
+   "notes": "The transcription includes untranslatable characters (ε, ː) and a reconstructed word (עש[ ר). The phrase 'this ten' is supported by repeated phrase evidence.",
+   "line_id": 13664,
+   "source_hash": "24fd51fd338c20931204e291194e326f648ba1df2a21ba4eac1f6220ab717729",
+   "source_condition": "reconstructed"
+  },
+  "4Q324c f2:1": {
+   "en": "first",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged adjective 'רִאשֹׁון' (first). The other characters (ε] and ןε) are untranslatable and omitted. The translation retains only the recoverable word 'first' with noted uncertainty.",
+   "line_id": 13665,
+   "source_hash": "9cab51256ab06a2220512a09bfdb17b604ea5384a0062849a87c66448a6733ec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324c f2:2": {
+   "en": "two and",
+   "notes": "The transcription contains uncertain and reconstructed elements, including two untranslatable characters (ε) and a partially damaged conjunction (ו#?[). The translation reflects only the recoverable words 'two' and 'and'.",
+   "line_id": 13666,
+   "source_hash": "247090097be74226ea045cfc89f608f6f25ad40b82bfb712b627106299753f51",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324c f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment with no clear meaning. No defensible English words survive.",
+   "line_id": 13667,
+   "source_hash": "cd80fec92a0bc27e6f831816cbddcee2e6250197b111927ee27ee4bf9ff1f972",
+   "source_condition": "reconstructed"
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "4Q19",
+ "label": "4Q19",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 797,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q19 f1:1": {
+   "en": "And the name of Yahweh I did not make known to them. And even I arose to establish a covenant with them to give to them the earth.",
+   "notes": "Uncertain reconstruction of 'know' (position 5) and 'to' (position 6). Uncertain reconstruction of 'arise/stand' (position 10).",
+   "line_id": 41048,
+   "source_hash": "17fee53374c25e650cbbf44f5944e9cfdc471ff5966ceb5e495c64161d2741a1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q19 f1:2": {
+   "en": "Canaan the land of the horrors which they sojourned in and also I have heard the groaning of the people of Israel",
+   "notes": "Uncertain transcription at position 7. Reconstructed text at positions 1 and 9.",
+   "line_id": 41049,
+   "source_hash": "e08a381b3cccfa3ce4b5586373382bf42e37c2ae7cce6a6373b3a03c1866a901",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q19 f1:3": {
+   "en": "Which Egypt served, and I will remember my covenant. Thus say to the people of Israel I",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence guiding contextual rendering where available. Uncertainty arises from reconstructed text and ambiguous lexical items, particularly in the rendering of 'מע ]בידים' as 'served' based on lexical gloss and phrase evidence. The final clause 'to the people of Israel I' is supported by high-confidence phrase evidence, though 'I' is reconstructed.",
+   "line_id": 41050,
+   "source_hash": "c88e73163dcd83116862fdc8df7087836c5c67e472d4ff98f558467686590236",
+   "source_condition": "reconstructed"
+  },
+  "4Q19 f1:4": {
+   "en": "YHWH and I brought out you from under the forced labor of Egypt and I delivered you from their work and I redeemed",
+   "notes": "The phrase 'from under the forced labor of Egypt' is supported by repeated phrase evidence. The translation retains the first-person singular agency and perfect tense of the verbs. Uncertainty in object markers and the final verb's tense is not signaled in the translation.",
+   "line_id": 41051,
+   "source_hash": "86b84eae72ef3f244cb40e1849c8af9fc3ee8cd48b4d5828bb0ad8b42a9c80ba",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

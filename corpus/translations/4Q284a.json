@@ -1,0 +1,158 @@
+{
+ "id": "4Q284a",
+ "label": "4Q284a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 20,
+ "scroll_id": 271,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q284a f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' with no clear Hebrew or Aramaic context. No recoverable text can be confidently translated.",
+   "line_id": 11603,
+   "source_hash": "dcb116c8934e92f82c8e01a945df602d754295caef107cdff05082e032c2d604",
+   "source_condition": "clean"
+  },
+  "4Q284a f1:2": {
+   "en": "A basket and they shall not gather any unclean thing and whole",
+   "notes": "Uncertainty in transcription and reconstruction of several words. The phrase 'any unclean thing' is supported by repeated evidence. The final 'whole' is uncertain due to damage.",
+   "line_id": 11604,
+   "source_hash": "730192a3ed592de2fb137d3c6dcae56ac3b9b69c4813006bea5b76f899db4fc0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f1:3": {
+   "en": "Whichever touches the butlers of the many, because of these, they will be unclean",
+   "notes": "The phrase 'because of these, they will be unclean' is supported by repeated phrase evidence. The text contains two reconstructed words and one uncertain word.",
+   "line_id": 11605,
+   "source_hash": "c34eda5a0270495c6035bce9e9913fe72c39c42e91535f1ab349163482f1c069",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f1:4": {
+   "en": "the basket and the figs and the pomegranates",
+   "notes": "Uncertainty in transcription and reconstruction affects 'figs' and 'pomegranates'.",
+   "line_id": 11606,
+   "source_hash": "6ecec521a72caee590256a24c3efb05135d1bb3c120d7807190b2c50c2a6b79d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f1:5": {
+   "en": "Their butler goes out as that which squeezes all of them and gathers them",
+   "notes": "Uncertainty in reconstruction and transcription affects the translation of 'squeezes' and 'gathers'. The relative particle 'which' is inferred from context but not explicitly present in the text.",
+   "line_id": 11607,
+   "source_hash": "e83d01ba9b2aed7cb4d9759056b287b47df74f0cb237f6a868f6a50efcac09d2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f1:6": {
+   "en": "A man who has not come in the covenant, and if they press olives",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly 'ב ]ר##ית' (covenant) and the final phrase involving olives.",
+   "line_id": 11608,
+   "source_hash": "84d862b6fadc18c577f9d73be6568d28e4f7a1aebe3876377094cb6bca754c00",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f1:7": {
+   "en": "In linen, not redeeming in all strength to burst out unto which he pours out to linen.",
+   "notes": "Uncertain terms: linen/part/stave/idle talk (positions 2, 14), not/where/nothingness (position 3), might (position 7). Reconstructed terms: in (position 1), whole (position 6), pour out (position 12). Phrase evidence supported 'with all strength' and 'all strength' for positions 5-7 and 6-7 respectively.",
+   "line_id": 11609,
+   "source_hash": "359274af25028e3d33cf2ade3f7eac7873707797fa664840849834e272e9e3e1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f1:8": {
+   "en": "And they squeezed out in purification, and she completed their work, and they will eat in purification.",
+   "notes": "The verb 'יא##כ#[ לו' is reconstructed and uncertain, with the lemma 'אכל' suggesting 'eat'. The final word 'טהרה ]' is a repeated noun, 'purification', with no additional context to suggest a different sense.",
+   "line_id": 11610,
+   "source_hash": "1b18a9090a88c192b11690d8b8282a2f4302312b301b1a789416cc8cbfb31d65",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible forms include incomplete and reconstructed characters (ε, ]מ##א##, ]ם##, ל, כו#?[) with no clear lexical meaning. The only identifiable element is the preposition 'ל' (to), but it lacks context for meaningful translation.",
+   "line_id": 11611,
+   "source_hash": "ab86dfc6821f0d0adfe15ba20531bfe5cdfca9f8feaa234bb3b0cf4152c56adc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f2:2": {
+   "en": "They gather in purification",
+   "notes": "The transcription contains uncertain and damaged elements, including an untranslatable Greek character (ε) and a reconstructed term (טהר#[). The translation reflects recoverable content conservatively, omitting unsupported material.",
+   "line_id": 11612,
+   "source_hash": "1d04aadc0791fa904684ffe4e7b13e791312c4986336cc4814581213d104c9bd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f2:3": {
+   "en": "and dew he gathered a man",
+   "notes": "Uncertain transcription and reconstruction in the source. The initial 'ε' and final 'ε' are untranslatable and omitted. The particle 'ו' is repeated, both instances translated as 'and' for consistency.",
+   "line_id": 11613,
+   "source_hash": "76c9dd0619072feb3d18028c6fdd0c0f075711e7e91fe59b67522e020a6e07cd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f2:4": {
+   "en": "from the men of the gathering",
+   "notes": "Uncertain reconstruction of 'man' (אִישׁ) and 'gathering' (יַחַד_9). Two untranslatable characters (ε) omitted.",
+   "line_id": 11614,
+   "source_hash": "3a7a0c3735982c39065dbe9ca9bab5a880868264199d005c7629d953f58beb05",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f2:5": {
+   "en": "purification",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged initial character and a partially legible word. The translation reflects the recoverable lexical item 'purification' but omits untranslatable characters. Uncertainty is noted due to the fragmentary state of the text.",
+   "line_id": 11615,
+   "source_hash": "8de4de15556fefd9bba0a5f39aacfccb4adbbb7392d27d0deb1cc1724d5f0fc8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f2:6": {
+   "en": "innocent",
+   "notes": "The transcription contains uncertain and untranslatable elements, including Greek characters and damaged Hebrew text. The only recoverable word is 'נקיאים', translated as 'innocent'.",
+   "line_id": 11616,
+   "source_hash": "f4566957768f0cab7d05792bb6e59144023e180d92755b1c0fe8add1c0155c2f",
+   "source_condition": "uncertain"
+  },
+  "4Q284a f2:7": {
+   "en": "that if",
+   "notes": "The transcription contains untranslatable characters (ε, ː, #) and a reconstructed section, limiting recoverable text. The translation reflects only the certain particles 'כִּי' (that) and 'אִם' (if).",
+   "line_id": 11617,
+   "source_hash": "daf627dd1700779fed1de01075779974a2ce595d08c55271d36d1917838c501c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε, ]נ[, ε) with no recoverable lexical content. The reconstructed ]נ[ is insufficient for meaningful translation.",
+   "line_id": 11618,
+   "source_hash": "3d1ec68a42f7a3ce7d35d20e4703dbbcd209151149208535da6f484aa18f0aef",
+   "source_condition": "reconstructed"
+  },
+  "4Q284a f3:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε, ]צע[, ε) with no clear lexical or semantic content. The reconstructed portion ]צע[ is incomplete and lacks context for meaningful translation.",
+   "line_id": 11619,
+   "source_hash": "7cb24a1b8e84d06540fc24a9b14bd10d161d0e3d761b66b182452bbff0fa4a98",
+   "source_condition": "reconstructed"
+  },
+  "4Q284a f3:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε, ]ונ[, ε, ׃) with no clear lexical or semantic content. The reconstructed element ]ונ[ is incomplete and lacks context. No defensible English words can be derived from the available evidence.",
+   "line_id": 11620,
+   "source_hash": "ee2e8f50e117258c39ce7275e44ca3992f342b99af35ddfc7c416fdd4c2ce428",
+   "source_condition": "reconstructed"
+  },
+  "4Q284a f4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed but uncertain fragment. No defensible English words survive.",
+   "line_id": 11621,
+   "source_hash": "b6f42939b47cd68056460cdd2df64ee108aa824e95091c5d65695aa0ca6e3b79",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q284a f4:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible characters do not form recoverable lexical units.",
+   "line_id": 11622,
+   "source_hash": "106687dd8269825b6d1a2687b85b7eda0e39a4907f3dc37b5dbf2ecfcb5d22e7",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

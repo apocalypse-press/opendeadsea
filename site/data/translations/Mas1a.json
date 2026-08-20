@@ -1,0 +1,74 @@
+{
+ "id": "Mas1a",
+ "label": "Mas1a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 992,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "Mas1a f1_2:1": {
+   "en": "If the anointed priest misses the people's guiltiness, and he approached upon",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The phrase 'priest (the) anointed' is supported by repeated evidence. The final preposition 'על' is translated conservatively as 'upon' without adding an object.",
+   "line_id": 52491,
+   "source_hash": "90d76f2e65e7fb1ee372dd20cbdee2e1e3bfb058a5e090b095d09bf474f56e0e",
+   "source_condition": "clean"
+  },
+  "Mas1a f1_2:2": {
+   "en": "His sin offering which he missed a young bull a young one of the herd unblemished to YHWH for sin and he brought the bull to the entrance of the tent of meeting",
+   "notes": "Reconstructed text in positions 1 and 21. Uncertain text in positions 13, 14, 18, and 21.",
+   "line_id": 52492,
+   "source_hash": "09877a0f71cc71d1a54e1e31a976d0c5a8168ee9652ad667330441a57857b79e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1a f1_2:3": {
+   "en": "before YHWH and he supported his hand upon the head of the bull and slaughtered the bull before YHWH and the anointed priest took",
+   "notes": "The translation follows the visible transcription and morphology. The phrase evidence supports the rendering of key phrases, including 'before YHWH,' 'the head of the bull,' and 'the anointed priest.' The verb 'supported' is used for 'סמך' based on its visible morphology and the context-free gloss. The object marker 'את' is translated as 'his' based on the suffix 'יד׳ו.' The translation preserves the grammatical person, number, and semantic relationships. No uncertainty is present in the source text, and all recoverable words are accounted for.",
+   "line_id": 52493,
+   "source_hash": "f746b2471a63d368b3d5f9460c67aec2bb48e585173993ee87dddfa013898c43",
+   "source_condition": "reconstructed"
+  },
+  "Mas1a f1_2:4": {
+   "en": "from the blood of the young bull he brought it to the tent of appointment and he dipped the priest his finger in the blood and he spattered from the blood seven",
+   "notes": "Uncertain terms: dip, seven. Reconstructed term: from. Omitted untranslatable characters: ː, #.",
+   "line_id": 52494,
+   "source_hash": "5496d682f5f6cc87e48853589d49a1e6f701277411993a5019f4dd8420a52b08",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1a f1_2:5": {
+   "en": "Times before the face of Yahweh with the face of the curtain of the holy place and he will put the priest from the blood on the horns of the altar the smoke of the incense of the perfumes",
+   "notes": "Uncertain reconstruction of 'curtain' (פר ]כ#ת#) and 'holy place' (ה קדש). The phrase 'he will put the priest' is a paraphrase based on repeated phrase evidence, not a direct translation.",
+   "line_id": 52495,
+   "source_hash": "f221aa7dec5c4a86ef632f8860695e8deba7243c51f0d004527f1a69ed722f0d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1a f1_2:6": {
+   "en": "to the face of YHWH who [is] in the tent of meeting and all the blood of the young bull he will pour out to the base of the altar of the burnt offering which [is] the entrance",
+   "notes": "Uncertain reconstruction of 'כ ]ל#' as 'all' and 'מז?ב#ח' as 'altar'; phrase evidence supports 'to the base of the altar' and 'burnt offering which [is] the entrance'",
+   "line_id": 52496,
+   "source_hash": "f24ea407114f2813fa1e5464af5af6a5fed451d6ad3b5515c8f62ae4e83035ff",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1a f1_2:7": {
+   "en": "The tent of meeting. And all the fat of the bull of the sin offering he will lift up from the fat which covers the interior and all the fat",
+   "notes": "Positions 3, 22 contain untranslatable characters. Positions 1, 25 are reconstructed.",
+   "line_id": 52497,
+   "source_hash": "15648c0a55da7d0911ae41902f94c2030ab3d84ec58c652656b238a715fcf582",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1a f1_2:8": {
+   "en": "which [is] upon the interior and the two kidneys and the fat that [is] upon them which [is] upon the loins and the appendage of liver upon [no recoverable text]",
+   "notes": "The translation includes reconstructed text for positions 1 and 24. Position 15 is uncertain. The final phrase is incomplete due to damage, indicated by '[no recoverable text]' at the end.",
+   "line_id": 52498,
+   "source_hash": "ca5ec8614ba251a41084645a4c3a0012a7f5aded81a77242e875e2e3d699ac3f",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

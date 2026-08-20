@@ -23,6 +23,15 @@ jobs:
       - name: Validate changed fragment JSON
         run: node scripts/validate-fragments.mjs
 
+      - name: Validate lexicons and fragment cross-links
+        run: node scripts/validate-lexicon.mjs
+
+      - name: Validate manuscript registry and bible coverage
+        run: node scripts/validate-manuscripts.mjs
+
+      - name: Validate first-draft translation packs
+        run: node scripts/validate-translations.mjs
+
       - name: Post trust badge stub
         if: github.event_name == 'pull_request'
         env:

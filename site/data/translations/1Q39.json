@@ -1,0 +1,81 @@
+{
+ "id": "1Q39",
+ "label": "1Q39",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 32,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q39 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and damaged fragments with no clear lexical or semantic content.",
+   "line_id": 3653,
+   "source_hash": "8396beb3bb0a3e89ce98877af0d71232eba62db04d5f3def42c5ac607d16fb06",
+   "source_condition": "uncertain"
+  },
+  "1Q39 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the visible lexical items.",
+   "line_id": 3654,
+   "source_hash": "6dc4e8c14964efac78d7ea736ee57ec761817db3e7a553dc344ea55f2f481976",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q39 f1:3": {
+   "en": "to the face of all the days",
+   "notes": "Uncertain reconstruction of 'days' due to damage. Phrase evidence supports 'the surface of all the' and 'all the day', but 'face' is directly visible. Conservative translation retains visible morphology.",
+   "line_id": 3655,
+   "source_hash": "00d271edb8b73cdc2b136dc7b01a78a06a36275af40ad1c0a14ef5f8669031d8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q39 f1:4": {
+   "en": "and be honored",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The only recoverable word is 'נכבד' (be honored), which is translated conservatively. All other elements are either unknown or too damaged to translate confidently.",
+   "line_id": 3656,
+   "source_hash": "a81952ee3815d192916ca3be4868ac644dcd3765ce09d0064993aaec4b4a6cd4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q39 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The line contains heavily damaged and uncertain fragments with no clear lexical or syntactic structure. Visible forms include partial characters and reconstructions with no defensible translation. All recoverable elements are too fragmentary to yield meaningful English.",
+   "line_id": 3657,
+   "source_hash": "4de021a31d351373d9b9d8e3021264729bd311e3f6f3e3812c6bb1da163321e8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q39 f1:6": {
+   "en": "in the spirit of his holiness",
+   "notes": "The phrase 'the spirit his holiness' is supported by repeated phrase evidence. The initial and final characters are untranslatable and omitted.",
+   "line_id": 3658,
+   "source_hash": "758c05966e4f3e29d2ff54a1943b732233373b26e19a344ef0cb72929bc7e6d8",
+   "source_condition": "uncertain"
+  },
+  "1Q39 f10:1": {
+   "en": "to touch",
+   "notes": "The transcription includes an uncertain prefix 'ε' and a damaged verb form 'ה#גיע'. The verb is identified as 'נגע' in the hifil stem, infinitive construct, meaning 'to touch'. The prefix 'ε' is omitted from the translation due to uncertainty and lack of clear meaning.",
+   "line_id": 3659,
+   "source_hash": "44d55fecfd81aad17b102503ca747cde353aa5632139ec4803e529c5889609d6",
+   "source_condition": "uncertain"
+  },
+  "1Q39 f10:2": {
+   "en": "being weighty",
+   "notes": "The initial characters are untranslatable due to damage and uncertainty. The final word is translated based on its morphology and lexical gloss.",
+   "line_id": 3660,
+   "source_hash": "fad23bba524449f08c3b78326df13b80ffd18d42e84fac02dddacee4686ded9c",
+   "source_condition": "uncertain"
+  },
+  "1Q39 f10:3": {
+   "en": "his sanctuary",
+   "notes": "The transcription contains untranslatable characters and punctuation. The translation reflects the recoverable lexical item 'מקדש׳ו' (sanctuary, suffixed with third-person masculine singular possessive).",
+   "line_id": 3661,
+   "source_hash": "360bdb5cd34a214acdeceaefb745391fad89098fc44a739070efcaaa51a3d65a",
+   "source_condition": "clean"
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "4Q282q",
+ "label": "4Q282q",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 266,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q282q f1:1": {
+   "en": "the counting",
+   "notes": "Uncertain reconstruction and damaged text limit translation confidence. Phrase evidence suggests 'the scribe' but lacks direct support here. The final character ε is omitted as untranslatable.",
+   "line_id": 11547,
+   "source_hash": "ada87215632fe8f4e49fa87efd91f114d6717958fc3f43265312c67278d79e95",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282q f1:2": {
+   "en": "priest and elder he shall",
+   "notes": "Uncertain transcription and reconstruction in 'and' (ו?), 'elder' (שבו?), and the verb (ישת##[ε]). The verb's gloss is unknown, and the final character (ε) is untranslatable. The translation reflects recoverable elements with acknowledged uncertainties.",
+   "line_id": 11548,
+   "source_hash": "7bd14c4f9eca3073c0f787182a89ff3b34c601f70a8a9cabc87a86cafd46f28b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282q f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with only fragmentary Hebrew and Greek characters surviving. No defensible English translation can be constructed from the visible lexical items.",
+   "line_id": 11549,
+   "source_hash": "b95b5927b795bd48933f2c8199e479564d54f735fec4fefde8a7767fca9a5c48",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282q f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Greek lexical units, only damaged or untranslatable characters (ε, #, ׃). All visible forms are either unknown or reconstructed with uncertainty.",
+   "line_id": 11550,
+   "source_hash": "b013394e905eda7cef835bf52b28077c528f5bc27d8009f0af09bcde5f457896",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

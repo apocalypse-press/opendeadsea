@@ -1,0 +1,74 @@
+{
+ "id": "4Q360",
+ "label": "4Q360",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 347,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q360 f1rt:1": {
+   "en": "to the L[ord]",
+   "notes": "The transcription is fragmentary, with a reconstructed 'יה' representing 'the Lord' and an uncertain final character 'ε' omitted from the translation.",
+   "line_id": 14072,
+   "source_hash": "bde49c7027eaa477951b9267ee1365ba9951119eea5914d56b0705886c5dbd6b",
+   "source_condition": "reconstructed"
+  },
+  "4Q360 f1rt:2": {
+   "en": "Menahem",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 14073,
+   "source_hash": "eeeaad3a334aee9b1c355fb8cce899ac246e5738226992214a8880422bf5dbea",
+   "source_condition": "reconstructed"
+  },
+  "4Q360 f1rt:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (נ, נ # [, ε) with no clear lexical or grammatical meaning. The reconstructed and uncertain elements do not provide sufficient basis for translation.",
+   "line_id": 14074,
+   "source_hash": "39d0f97bea66f8e01b82a34915e0b3da1344cdc99f9d9c05fa4c333d67ebbe90",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q360 f1rt:4": {
+   "en": "Menahem",
+   "notes": "The second word is unrecoverable due to damage, represented by 'ε'.",
+   "line_id": 14075,
+   "source_hash": "89efb43f5c7287c6a6aaa7e7e321880329c8ec8c89f766fcbd03250f66029735",
+   "source_condition": "reconstructed"
+  },
+  "4Q360 f1rt:5": {
+   "en": "Meshech",
+   "notes": "The transcription is fragmentary, with only the first word 'מש[ε׃' partially recoverable. The first part is reconstructed as 'Meshech' based on the lemma and lexical gloss. The remaining characters 'ε׃' are untranslatable and omitted from the translation.",
+   "line_id": 14076,
+   "source_hash": "e6474b6bf8a776c482c897565a00e12d23f74fb37328eeb9f7bf742ea53f7dd5",
+   "source_condition": "reconstructed"
+  },
+  "4Q360 f1lft:1": {
+   "en": "Menahem",
+   "notes": "The transcription contains uncertain and unknown elements, including damaged characters and an untranslatable 'ε'. The only recoverable word is 'Menahem'.",
+   "line_id": 14077,
+   "source_hash": "7015d8c642e87576973f8a98c43cdca335c75edbe59c63465118adb64efef93a",
+   "source_condition": "uncertain"
+  },
+  "4Q360 f1lft:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too fragmentary to convey meaningful content.",
+   "line_id": 14078,
+   "source_hash": "8336c41655a3996d6250f6425eae9ffc6c58f5d96cab40429059cfa99c78e7ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q360 f1bot:1": {
+   "en": "to",
+   "notes": "The transcription contains untranslatable characters and an uncertain lexical gloss for most words. Only the preposition 'to' is recoverable.",
+   "line_id": 14079,
+   "source_hash": "cb7026232dca57e0aebda9155669ed3c350332c2cf33c7bd1bd1a6e9928fc6b3",
+   "source_condition": "clean"
+  }
+ }
+}

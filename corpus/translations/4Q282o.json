@@ -1,0 +1,46 @@
+{
+ "id": "4Q282o",
+ "label": "4Q282o",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 264,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q282o f1:1": {
+   "en": "this one raised",
+   "notes": "Uncertain due to damaged transcription and ambiguous lexical items. The form 'ε' is untranslatable and omitted. The verb 'הקים' is reconstructed but certain.",
+   "line_id": 11539,
+   "source_hash": "5dc983b9c2610e196ceba74d8373df6bb1c4e05e71f5403bb3a4e90e7c1952d5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282o f1:2": {
+   "en": "not he will die in",
+   "notes": "Uncertain reconstruction and transcription damage affect the translation. The phrase 'not he will die in' is supported by repeated phrase evidence and visible morphology, but the exact wording remains tentative due to the fragmentary state of the text.",
+   "line_id": 11540,
+   "source_hash": "31b2494b65b21d3841c18db5ff9814d60dc577524ef35abda1fb6c8f0ffc9fed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282o f1:3": {
+   "en": "and there is none to Israel [insult]",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged final word. The initial 'ε' characters are omitted as untranslatable. The phrase structure is fragmented, with no recoverable syntax connecting 'Israel' and 'insult'.",
+   "line_id": 11541,
+   "source_hash": "650f0623edd065e3c701a360d58e711a72a8ee2492ed4a0ea8c25aae273b757f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282o f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and reconstructions with no clear meaning. The visible characters do not form coherent lexical units in Hebrew or Greek. The sole surviving Hebrew character (ז) and Greek letters (ε) cannot be independently translated. The punctuation mark (׃) is omitted as it lacks independent meaning.",
+   "line_id": 11542,
+   "source_hash": "512b1c373370867c6d1d63cb5905c8b8b417668ae1d1b4d97640e593c31a48d0",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

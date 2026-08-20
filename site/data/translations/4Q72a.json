@@ -1,0 +1,81 @@
+{
+ "id": "4Q72a",
+ "label": "4Q72a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 863,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q72a f1:1": {
+   "en": "God to say not you will come Egypt to dwell there that Baruch incited you in because of give us",
+   "notes": "Uncertain reconstruction of 'there' (position 9), 'that' (position 11), 'Baruch' (position 12), 'incited' (position 13), and 'in' (position 15). Unclear syntax and relationships between phrases.",
+   "line_id": 46828,
+   "source_hash": "bc1182f05cb4be4c8cc5a803e3bbaf3ee64459e6d21fbb56672bb230539f7ed3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q72a f1:2": {
+   "en": "in the hand of the Chaldeans to put to death us and to uncover us in Babylon and he did not hear Johanan and all the commanders of the armies and all",
+   "notes": "Uncertain reconstruction of damaged or fragmentary text at positions 12, 16, 22, 23. Omitted untranslatable characters at position 13.",
+   "line_id": 46829,
+   "source_hash": "b5ed6d146acc91d205513a57dbf2fad6cc3f273b6a09175a6c25008bd5c8e4ba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q72a f1:3": {
+   "en": "The people in the voice of Yahweh to dwell in the land of Judah and Johanan took and all the commanders of the armies the whole remnant",
+   "notes": "Uncertain reconstruction and damage throughout, especially in the second half of the line. The phrase 'to dwell in the land of Judah' is supported by repeated evidence. 'Johanan took' is uncertain due to damage. 'Commanders of the armies' is a supported phrase, but 'whole remnant' is less certain due to lower pattern support.",
+   "line_id": 46830,
+   "source_hash": "0decbb45b254c7126c2b611a561a67cf32a0f9917b5db83e077c704b317b47a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q72a f1:4": {
+   "en": "Judah who returned from all the nations there the men and the women and the children and the daughters",
+   "notes": "Uncertain elements include the relative pronoun 'who' (position 8), the verb 'wield' (position 9), and the object marker (positions 12, 16, 20, 24). The phrase 'all the nations' is supported by repeated evidence, but 'nations where I' and 'he will turn away from all' are less certain. The translation conservatively retains all recoverable words without adding implied subjects or connectors.",
+   "line_id": 46831,
+   "source_hash": "6f5c809cf7a046ed4250099d8e9825cd30b7e59de084c11d4df71b8430108199",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q72a f1:5": {
+   "en": "The king and every soul whom Nebuzaradan settled, Gedaliah the son of Ahikam, and Jeremiah the prophet",
+   "notes": "The phrase 'whom Nebuzaradan settled' reflects a reconstructed verb form with uncertain gloss. The phrase 'every soul' is a contextual paraphrase of 'whole the soul' based on repeated evidence.",
+   "line_id": 46832,
+   "source_hash": "738b3f0d2da4f0d0d597c594ee434c046478ba790078ca283fe72e7190e95638",
+   "source_condition": "reconstructed"
+  },
+  "4Q72a f1:6": {
+   "en": "And Baruch the son of Neriah came to the land of Egypt, for they did not listen to the voice of Yahweh, and they came to Tahpanhes.",
+   "notes": "The phrase 'they came to Tahpanhes' is uncertain due to damage in the source text.",
+   "line_id": 46833,
+   "source_hash": "7c355a2234e7f810a0235f065014d60f15bf24065f9b3f40504e1935b9a396e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q72a f1:7": {
+   "en": "And it came the word of Yahweh to Jeremiah in Tahpanhes, saying: Take in your hand large stones and hide them.",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 46834,
+   "source_hash": "1721ccf8a6494a3a2fed94f5a7221c48311d6f541fedc6a6eda34ecd867a0fc7",
+   "source_condition": "reconstructed"
+  },
+  "4Q72a f1:8": {
+   "en": "In mortar in brick which is in the opening in Tahpanhes to the eyes of men Jews",
+   "notes": "Uncertain reconstruction of 'מלט' and 'אנ#?שים'. Phrase evidence suggests 'eyes of [the] people' and 'a man a Jew', but the translation retains the visible lexical items in order.",
+   "line_id": 46835,
+   "source_hash": "de2535e5c7d7716f583f61f59f4ecd2570e6161e854fdd3310d6874cebd381e4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q72a f1:9": {
+   "en": "And you shall say, Thus says Yahweh of hosts the God of Israel: Behold, I have sent and taken Nebuchadnezzar the king of Babylon.",
+   "notes": "The phrase 'of hosts the God of Israel' is a high-confidence repeated pattern. 'Thus says Yahweh' is a dominant contextual rendering with strong support. 'The king of Babylon' is a frequent canonical collocation.",
+   "line_id": 46836,
+   "source_hash": "ed609b203eab759019f8ac0d41528e335ce3545a12a1eaa635cb497a17eb793a",
+   "source_condition": "reconstructed"
+  }
+ }
+}

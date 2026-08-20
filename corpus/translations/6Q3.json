@@ -1,0 +1,32 @@
+{
+ "id": "6Q3",
+ "label": "6Q3",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 956,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "6Q3 f1:1": {
+   "en": "and to give you the Most High above all the nations which he has made for praise and for name",
+   "notes": "The transcription is partially damaged and reconstructed. The term 'ו?לתת׳ךע##[' is uncertain and translated as 'and to give you' based on visible morphology. The phrase 'ליוןעלכלהגויםאשרעשהלתהלהולשם' is translated with support from repeated phrase evidence for 'all the nations which he has made' and 'most high above all'.",
+   "line_id": 49920,
+   "source_hash": "bc06bb300e08e16b0e51f480a3a580d35195aeb2f4c0c34c4eecf4ec3942207d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q3 f1:2": {
+   "en": "And to the splendour to be with a people holy to Yahweh God as he spoke",
+   "notes": "Uncertain reconstruction of ת##[ פארת. Phrase evidence supports 'to Yahweh God' and 'a people holy to Yahweh', but the overall syntax is uncertain.",
+   "line_id": 49921,
+   "source_hash": "f598f7ed8f952e140a5aa39d3f7f92733b7b9674951486c59e3705bd85c3e070",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

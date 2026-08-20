@@ -1,0 +1,46 @@
+{
+ "id": "4Q468r",
+ "label": "4Q468r",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 484,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468r f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items surviving. The reconstructed term 'אַהֲבָה' (love) is incomplete and cannot be confidently translated. All other elements are unknown or uncertain.",
+   "line_id": 22559,
+   "source_hash": "19ab95f96cd0a49846b617921141f4f67c653b8cf10f29b2b08273fc410df2b2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468r f1:2": {
+   "en": "to the rich and",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character 'ε' and a damaged fragment 'ר # ['. The translation reflects only the recoverable words 'לְ' (to), 'עָשִׁיר' (rich), and 'וְ' (and).",
+   "line_id": 22560,
+   "source_hash": "82c981b5f5ca2fac5e21b30892ed98c9089254589a4fbd558bfe2e4645248134",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468r f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items translatable into English. The visible forms are either incomplete or unidentified, and the reconstructed verb 'חרץ_1' lacks sufficient context for a confident translation.",
+   "line_id": 22561,
+   "source_hash": "871128d1d2dacde2f952b5b93474ffb53fe3292551fd47bf81050aef28206556",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468r f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ה## # [, ε, ׃) with no clear lexical or grammatical meaning. The reconstructed and uncertain elements provide no basis for translation. No defensible English words can be derived from the available evidence.",
+   "line_id": 22562,
+   "source_hash": "bc8c7746f1f0be36191978c886a1540aeb482772c28b0a33c0b438d65744ce86",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

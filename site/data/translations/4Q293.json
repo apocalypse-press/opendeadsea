@@ -1,0 +1,74 @@
+{
+ "id": "4Q293",
+ "label": "4Q293",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 280,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q293 f1:1": {
+   "en": "holiness",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged form of 'holiness' and untranslatable characters. The translation reflects only the recoverable lexical item.",
+   "line_id": 11913,
+   "source_hash": "14641ef1bd29157ad6fb2f30637ee4338d285da55d013ff1649e05699e98fe07",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q293 f1:2": {
+   "en": "in preciousness horn",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged preposition 'in' (ב##), a clear noun 'preciousness/dignity' (יקר), and a reconstructed feminine singular noun 'horn' (קר#ן?[). Two untranslatable characters (ε) are omitted. The phrase is fragmentary, and word order follows the source.",
+   "line_id": 11914,
+   "source_hash": "04f04cd34e46f78b3aaf508e9ab14e8130e19c59ef5ad11568b41e9b7bb0f1d7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q293 f1:3": {
+   "en": "Name of holiness, the honored one of eternity until",
+   "notes": "Uncertain reconstruction of 'holiness' and 'until'; phrase evidence supports 'antiquity until' and 'the name my holiness' but visible morphology and transcription are prioritized.",
+   "line_id": 11915,
+   "source_hash": "126e764bae960ecc975ad492e42f040ef61cd4e9f7e92adde949819bc1ae2338",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q293 f1:4": {
+   "en": "and the firmaments",
+   "notes": "The transcription contains uncertain and untranslatable characters, including ε and ]י#?ם, which are omitted from the translation. The firmament is reconstructed from רקיעי[.",
+   "line_id": 11916,
+   "source_hash": "8605e5c6f92636eb69ce8f28cd5310cf6996362deb0407677e31edeb10d61a63",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q293 f2:1": {
+   "en": "light and darkness and whole",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the initial and final 'ε' and the damaged 'א##ור' and 'כול#'. The translation reflects recoverable words in order, omitting untranslatable fragments.",
+   "line_id": 11917,
+   "source_hash": "a7045e34dec49b64f7395dbb49e72475db4423c9fe4825814c78b26c9e98596a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q293 f2:2": {
+   "en": "Surely surely",
+   "notes": "The transcription includes untranslatable characters (ε) and a punctuation mark (׃) not reflected in the translation.",
+   "line_id": 11918,
+   "source_hash": "d524a36180ccd8546c1040c46a50c9eb8dac2e93bc6145f82fe3a6c74d9b88d1",
+   "source_condition": "clean"
+  },
+  "4Q293 f3:1": {
+   "en": "whole",
+   "notes": "The transcription contains untranslatable characters (ε) and an uncertain word (כ#ול). The translation reflects the recoverable lexical item 'whole' with uncertainty noted.",
+   "line_id": 11919,
+   "source_hash": "ff903381bd799719f06873f306321e16f54dc95435a9793a10e44534198e74be",
+   "source_condition": "uncertain"
+  },
+  "4Q293 f3:2": {
+   "en": "cistern whole",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged suffix (בור׳כה). The final punctuation mark (׃) is omitted from the translation. The word 'כול' is reconstructed but certain.",
+   "line_id": 11920,
+   "source_hash": "dc3672e0a0468ef08188f23681973efcc2c276de29dbe255d9f20c09b45b4d42",
+   "source_condition": "reconstructed"
+  }
+ }
+}

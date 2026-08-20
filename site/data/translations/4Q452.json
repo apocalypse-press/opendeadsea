@@ -1,0 +1,39 @@
+{
+ "id": "4Q452",
+ "label": "4Q452",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 450,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q452 f1:1": {
+   "en": "what have you grown strong",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a possible reference to 'wailing' and two untranslatable characters (ε). The verb 'grown strong' is reconstructed and uncertain.",
+   "line_id": 22142,
+   "source_hash": "7da9be1abfc563c60ecf208f721279a5fffc45dc51738b8cfdd3276e5ad9f36f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q452 f1:2": {
+   "en": "the power",
+   "notes": "The initial and final characters are untranslatable fragments. The object marker is uncertain and omitted. The phrase 'the power' is supported by repeated evidence.",
+   "line_id": 22143,
+   "source_hash": "f4247f424e859499a08b97451cd1e2d248a194449e50a463f6efece9802f157f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q452 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions. The visible characters (ε, ]ל[, ׃) do not form translatable lexical units.",
+   "line_id": 22144,
+   "source_hash": "ba12e1428a496f04906418789294c2c114e2b6c6d5599b68d6dcd77f0f4d5e9c",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

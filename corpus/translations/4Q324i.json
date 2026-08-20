@@ -1,0 +1,74 @@
+{
+ "id": "4Q324i",
+ "label": "4Q324i",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 313,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q324i f1a:1": {
+   "en": "Shecaniah Eliashib",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters and incomplete forms. The names 'Shecaniah' and 'Eliashib' are partially recoverable but with significant uncertainty. No additional context or constraints are available to clarify the relationship between the names or their grammatical function.",
+   "line_id": 13762,
+   "source_hash": "a92dec56d426eb3a633ccfc408747e65cf74f17bf5a9df2109307b3a2b102209",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324i f1a:2": {
+   "en": "Jeshebeab",
+   "notes": "The transcription contains uncertain and untranslatable elements, including damaged characters and unknown glosses. The only recoverable word is 'Jeshebeab', which is translated directly from the lemma.",
+   "line_id": 13763,
+   "source_hash": "1f02b4fcb47f75bea46786d5657d7b836ceeab7a74317f8d9260e5fbb601c46c",
+   "source_condition": "uncertain"
+  },
+  "4Q324i f1b:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 13764,
+   "source_hash": "827050090bf434b063ca28f506ed7e77a94da50113736b4fa188afa73aff8a68",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324i f1b:2": {
+   "en": "Bilgah",
+   "notes": "The transcription contains untranslatable characters (ε, ː) and a source-script punctuation mark (׃) which are omitted from the translation.",
+   "line_id": 13765,
+   "source_hash": "52c1c15bad9a520ca84b61a63890b311b161f51cb0d384218074844a1f872753",
+   "source_condition": "clean"
+  },
+  "4Q324i f1c:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain characters.",
+   "line_id": 13766,
+   "source_hash": "b3f1e89ddff69579e44a76f67b041c906ea69ebf346c12d47a53c992842aef6f",
+   "source_condition": "uncertain"
+  },
+  "4Q324i f1c:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only untranslatable fragments and punctuation.",
+   "line_id": 13767,
+   "source_hash": "9c65127c9c1f6c140beb52b1c433620bc5fb46e26c6a5ba9580b2f6f9e68442a",
+   "source_condition": "uncertain"
+  },
+  "4Q324i f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (ε, #, brackets) with no recoverable lexical content. No defensible English translation is possible.",
+   "line_id": 13768,
+   "source_hash": "a862f14a48d065618039a7f923bfd5e1fdd56bae8fd83850d73fbe8cc7f58d95",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324i f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments of Greek letters (ε) and uncertain symbols. No meaningful translation is possible.",
+   "line_id": 13769,
+   "source_hash": "2e8ffc5ef2e068001450d905763cce123d527a8628d4d00271a17bd0aa3ea931",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

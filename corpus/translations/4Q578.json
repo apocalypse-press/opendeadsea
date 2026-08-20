@@ -1,0 +1,46 @@
+{
+ "id": "4Q578",
+ "label": "4Q578",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 620,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q578 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items surviving. The reconstructed form 'ת##[   ]נ#?ה##[' suggests a possible root related to 'recount,' but it is too fragmentary to translate confidently. The remaining characters (ε) are untranslatable in this context.",
+   "line_id": 31639,
+   "source_hash": "98f22c80417c485b846c4e592205e7f607750237fed1f35a993604de6a3329d2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q578 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items or semantic constraints to support a translation. The only partially reconstructed word, 'פתלמיס', is too uncertain to translate confidently.",
+   "line_id": 31640,
+   "source_hash": "4e50c81ae267f25eea711b7cc0cf3b8ccceddde33eab3eafb8b7a06df9b8ae01",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q578 f1:3": {
+   "en": "his son",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The visible form 'ב#נ׳ו#?' is interpreted as 'his son' based on the lemma 'בֵּן_1' and morphology 'ncmscX3ms', indicating a masculine singular construct form. Other elements are either unknown or too damaged to translate confidently.",
+   "line_id": 31641,
+   "source_hash": "a59ea7a678df4441a1986beb2b97b07535ad52df04cacc98c992b0f6397f0fd4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q578 f1:4": {
+   "en": "Pethalmis",
+   "notes": "The transcription contains uncertain and untranslatable elements, including Greek and Hebrew fragments. The recoverable word 'פתלמיס' is translated as 'Pethalmis', with uncertainty due to the damaged and mixed-language context.",
+   "line_id": 31642,
+   "source_hash": "be92fe55a7b5c7a8521f406a8cdfbf96613092ca4dace294876564e4aa5cb21b",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

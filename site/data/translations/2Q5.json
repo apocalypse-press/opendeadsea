@@ -1,0 +1,81 @@
+{
+ "id": "2Q5",
+ "label": "2Q5",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 759,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q5 f1:1": {
+   "en": "You will eat these from the locust to its kind",
+   "notes": "The initial 'ε' is untranslatable and omitted. The phrase 'these from' is supported by repeated phrase evidence. The verb 'eat' is in the second-person masculine plural imperative form. The object marker 'את' is translated as 'from' based on the context. The preposition 'ל' is translated as 'to'. The final 'מ ]ינ׳ו' is translated as 'its kind' based on the lexical gloss.",
+   "line_id": 39584,
+   "source_hash": "823349b66f248e7c3ac04adddc358e3bf4f2caa64b01f55069d7a06fc947291b",
+   "source_condition": "clean"
+  },
+  "2Q5 f1:2": {
+   "en": "And the rock-locust of its kind, and the migratory-locust of its kind, and the Hagab of its kind.",
+   "notes": "The transcription contains a final damaged character (׃) with no trusted gloss, so it is omitted from the translation.",
+   "line_id": 39585,
+   "source_hash": "7642676439ff99da173b3cf9b04524c3f4030aa655d764fc70e570473cf26c67",
+   "source_condition": "reconstructed"
+  },
+  "2Q5 f1:3": {
+   "en": "And all the swarming creatures of the bird which has four feet, it is a detestable thing to you. And to these you will make yourselves unclean.",
+   "notes": "The phrase 'it is a detestable thing to you' is supported by repeated phrase evidence. The phrase 'all the swarming creatures' is supported by repeated phrase evidence. The phrase 'to these you will make yourselves unclean' is supported by repeated phrase evidence.",
+   "line_id": 39586,
+   "source_hash": "47231b249e089564a389229daf1ac66fe31ac8b5f9cd20a0695579824964e3d1",
+   "source_condition": "reconstructed"
+  },
+  "2Q5 f1:4": {
+   "en": "Anyone who touches their carcass will be unclean until evening. And anyone who carries their carcass shall wash his clothes.",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence supporting 'every (the) [one who] touches' and 'he will wash garments'. The lexical glosses for 'evening' and 'garment' are used where no stronger evidence is available. The text's repetition of 'every (the) [one who]' is preserved, and no unlicensed subjects or connectors are added.",
+   "line_id": 39587,
+   "source_hash": "bf50a62349e1bb1a8657fd1b5d78d7d8b8510dd98650bbb9a0d3f68130b8c12b",
+   "source_condition": "reconstructed"
+  },
+  "2Q5 f1:5": {
+   "en": "And he shall wash in water and be unclean until the evening, for all the cattle which she divides in two a hoof and cleaves",
+   "notes": "The phrase 'she divides in two a hoof and cleaves' is a reconstruction based on repeated phrase evidence and contextual constraints. The verb 'wash' is reconstructed from the damaged form '[ ו.",
+   "line_id": 39588,
+   "source_hash": "a0d7eb3e67ecc624035587094fc1b23d8fce4c0594771d316918293eb55c67b5",
+   "source_condition": "reconstructed"
+  },
+  "2Q5 f1:6": {
+   "en": "A cleft of hooves and cud, it does not ascend, unclean they to all the one who touches in them",
+   "notes": "The translation follows the visible morphology and phrase evidence, retaining the supplied context-free glosses where necessary. The phrase 'a cleft of hooves' is supported by repeated phrase evidence. The verb 'ascend' is translated based on its morphology and lexical gloss. The phrase 'unclean they' is supported by high-confidence phrase evidence. The prepositional phrase 'to all the one who touches in them' is constructed based on the available evidence, with 'in them' reflecting the suffix morphology.",
+   "line_id": 39589,
+   "source_hash": "bfc38da50451684d9096e645a10f34871b93493156cebe488b7be61e27c84907",
+   "source_condition": "reconstructed"
+  },
+  "2Q5 f1:7": {
+   "en": "He will be unclean and any one which walks on its palm in all the life the walking on four [legs] unclean they",
+   "notes": "The translation preserves the order and content of recoverable words. Uncertainty arises from the damaged state of the text, particularly around the phrase 'על כפיו' and the repetition of 'כל' and 'הלכת'. The phrase '[are] unclean they' is supported by repeated phrase evidence. The translation avoids adding unlicensed connectors or subjects.",
+   "line_id": 39590,
+   "source_hash": "b356b89cbe01dcf040e0ec68c65bf8808637531664265b3cc5aa0d02f614ab1c",
+   "source_condition": "reconstructed"
+  },
+  "2Q5 f1:8": {
+   "en": "To all the men who touch a corpse, they will be unclean until evening. And the one who carries the corpse will wash his garments.",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence guiding contextual disambiguation. Uncertainty arises from reconstructed text in positions 1 and 17, noted but not bracketed in the translation.",
+   "line_id": 39591,
+   "source_hash": "e8c737ad59a8c8a904082ba2db72628aeee25b6e8b71fb0bd26a6b9a39720a6b",
+   "source_condition": "reconstructed"
+  },
+  "2Q5 f1:9": {
+   "en": "And it was unclean until the evening, unclean they to you. And this to you, the unclean in the thing which swarms on the earth.",
+   "notes": "The phrase 'unclean they to you' reflects repeated phrase evidence for positions 6-8. The phrase 'this to you' reflects repeated phrase evidence for positions 11-12. The phrase 'the unclean' reflects repeated phrase evidence for positions 12-14. The phrase 'thing which swarms' reflects repeated phrase evidence for positions 16-18. The final word 'earth' is uncertain due to damage in the transcription.",
+   "line_id": 39592,
+   "source_hash": "d6f2be3821e5688eacfae28e0c5bc20355ac1fbf1a67895b135d36e705cb4113",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

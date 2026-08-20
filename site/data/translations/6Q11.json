@@ -1,0 +1,60 @@
+{
+ "id": "6Q11",
+ "label": "6Q11",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 649,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "6Q11 f1:1": {
+   "en": "Naioth",
+   "notes": "The transcription is heavily damaged, with only the term 'נ?יות' (Naioth) partially recoverable. The surrounding characters (ε] and ε) are untranslatable and likely represent damage or editorial marks. The term 'Naioth' is retained based on the lexical gloss, but its context and completeness are uncertain.",
+   "line_id": 32538,
+   "source_hash": "5002a8ffeede032b286a7feeed1b708ccf401094930ba011e8031d32557cb7c3",
+   "source_condition": "uncertain"
+  },
+  "6Q11 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The phrase evidence suggests 'the people' but lacks sufficient support for a confident rendering.",
+   "line_id": 32539,
+   "source_hash": "87265b9376a61508ce35eec5af77a4ca6895ceec5c14991c515c59076d38205f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q11 f1:3": {
+   "en": "and in harvest I came",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form and an unknown character. The translation reflects recoverable words in order, with uncertainty noted.",
+   "line_id": 32540,
+   "source_hash": "8087ce9ecc7b5947f924853693cdb2f732b22af81671b8fe1e3aa63eb1d9d802",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q11 f1:4": {
+   "en": "from the morning until the evening",
+   "notes": "The initial and final characters are untranslatable fragments. The reconstruction at position 8 is omitted as it does not contribute to the translation.",
+   "line_id": 32541,
+   "source_hash": "df66b3307b3dd8c0f76374dfed6aa72aaee9f3898ddeb3091d6d07f5948b48c9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q11 f1:5": {
+   "en": "She took a pledge of the girl, he took a pledge of the boy",
+   "notes": "The phrase 'חבל' is translated based on the provided gloss 'take a pledge'. The repeated phrase evidence suggests a context related to childbirth, but the visible morphology and transcription do not support a direct translation of 'labor-pains'. The final 'ית[' is reconstructed and uncertain, so it is omitted from the translation. The initial and final 'ε' are untranslatable and omitted.",
+   "line_id": 32542,
+   "source_hash": "a4bf6c47e44f82d67e787fd489dddbc5f9cf0a45e4b951cec65ea0dbcc19b869",
+   "source_condition": "reconstructed"
+  },
+  "6Q11 f1:6": {
+   "en": "And you said, 'The vine you planted, I will keep.'",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form at the end. The translation reflects the recoverable text, but the exact wording of the final verb is uncertain.",
+   "line_id": 32543,
+   "source_hash": "02949dec900818edc2fca7659f8a4a8c7e05d3030f57bd5a0d2b3bdf90b79297",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

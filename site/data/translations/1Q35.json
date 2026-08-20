@@ -1,0 +1,116 @@
+{
+ "id": "1Q35",
+ "label": "1Q35",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 14,
+ "scroll_id": 28,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q35 f1:1": {
+   "en": "to the fort",
+   "notes": "Uncertainty in transcription and gloss for 'ε' and 'מ#ע#ו?ז?'. The particle 'ל#' is translated as 'to' based on its morphology and lexical gloss.",
+   "line_id": 3556,
+   "source_hash": "d0f2fc74b268eb618439350adfcff5242f4e8c77a94e857eebd17743e9349e89",
+   "source_condition": "uncertain"
+  },
+  "1Q35 f1:2": {
+   "en": "in judging",
+   "notes": "The transcription contains uncertain and unknown elements, including an initial Greek letter (ε) and a damaged Hebrew prefix (ה). The verb 'judging' is based on the recoverable lemma 'שׁפט' in the nifal infinitive construct form. The translation omits untranslatable characters and retains only the context-free gloss for the preposition 'בְּ'.",
+   "line_id": 3557,
+   "source_hash": "0aa0392315276a9ab3412d5bea7fe614de00107f205620a739569b6c9963419a",
+   "source_condition": "uncertain"
+  },
+  "1Q35 f1:3": {
+   "en": "to faces",
+   "notes": "The initial character 'ε' is not independently translatable and is omitted. The translation reflects the recoverable words 'ל' (to) and 'פני' (faces).",
+   "line_id": 3558,
+   "source_hash": "ffd3a07d5524d080da69640ac110275aabd85c33e16755ef023362ed350ebfa2",
+   "source_condition": "clean"
+  },
+  "1Q35 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a Greek letter epsilon (ε) and a damaged Hebrew suffix ]׳הם, neither of which can be independently translated or combined into a coherent English phrase.",
+   "line_id": 3559,
+   "source_hash": "e0bd74e3e73f6b77c84cc97f6addae34d634c198be60afc51718a5591a3a27a8",
+   "source_condition": "clean"
+  },
+  "1Q35 f1:5": {
+   "en": "god",
+   "notes": "The transcription contains untranslatable characters (ε]א) and a surviving word 'אל' (god). The phrase evidence 'or to' is not applicable here due to lack of context. The translation retains only the recoverable word 'god'.",
+   "line_id": 3560,
+   "source_hash": "0902bebb02c0723fd18a3d6f81d3e5d3ace8059983e741acb89ba2725ea2bc8a",
+   "source_condition": "clean"
+  },
+  "1Q35 f1:6": {
+   "en": "the great",
+   "notes": "Uncertain transcription and missing context prevent a complete translation. The word 'great' is confidently recovered, but the preceding elements are unclear.",
+   "line_id": 3561,
+   "source_hash": "0a0c776ce4ee6c0e1600e61cc3f1c3834c39a8b53a41dfed38f65537652f82e4",
+   "source_condition": "uncertain"
+  },
+  "1Q35 f1:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) with no clear lexical or contextual meaning in Hebrew. No defensible English translation is possible.",
+   "line_id": 3562,
+   "source_hash": "6bb960b382e3c45b04f2c3fe7bf35cca8f3f13cb6bfd60e580a17d4316b257d4",
+   "source_condition": "clean"
+  },
+  "1Q35 f1:8": {
+   "en": "and in [a] hand hidden not",
+   "notes": "Uncertain transcription and morphology in positions 2, 4, and 5. Position 1 contains an untranslatable Greek character. Position 5's 'hand' is reconstructed from damaged 'י?ד'.",
+   "line_id": 3563,
+   "source_hash": "cf03e4bf084a6719b73ade619322941c824cbba82894db233f314f93c4b64714",
+   "source_condition": "uncertain"
+  },
+  "1Q35 f1:9": {
+   "en": "I cast in",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The verb 'ה#וריתי' is translated as 'cast' based on the lexical gloss, but its exact meaning is unclear. The particle 'ב' is translated as 'in'. The remaining elements are uncertain and cannot be reliably translated.",
+   "line_id": 3564,
+   "source_hash": "47193d7ac62014db5870d92458d5345bd79822fb3f478319d40c02c0ed88f772",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q35 f1:10": {
+   "en": "from youth in blood and unto",
+   "notes": "The initial 'ε' is untranslatable and omitted. The particle ']מ##' is uncertain but translated as 'from'. The phrase 'נעור׳י' is rendered as 'youth'. 'ב' is translated as 'in'. 'דמים' is plural 'blood'. 'ו' is 'and'. 'עד' is translated as 'unto' based on available glosses.",
+   "line_id": 3565,
+   "source_hash": "5f64fc42aa823707b480b2f05b3db4584ccdd83e66ca2b85150d33985a6908db",
+   "source_condition": "uncertain"
+  },
+  "1Q35 f1:11": {
+   "en": "heart and to report",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The first two words are untranslatable due to damage, represented as 'ε' and '] #'. The final word 'שמועת##[' is reconstructed and uncertain, translated as 'report' based on its lemma and gloss.",
+   "line_id": 3566,
+   "source_hash": "c36f31c4a3a54d9ffe05d8bfbcc12652ccd6b4f6d78dfc65359fe5f25e81805b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q35 f1:12": {
+   "en": "good",
+   "notes": "The transcription is heavily damaged, with only the adjective 'good' (ט#וב#ה) recoverable. The preceding characters (ε]ת##) are uncertain and cannot be translated independently. The final punctuation mark (׃) is omitted as it has no direct English equivalent.",
+   "line_id": 3567,
+   "source_hash": "e7f3b71ea9afacfd22f2c2d48769ce60de4d4039ba1a8873e335edeeade9f95e",
+   "source_condition": "uncertain"
+  },
+  "1Q35 f2:1": {
+   "en": "in a well of lives",
+   "notes": "The transcription includes an uncertain character (ε) and a damaged sequence (#  #) that cannot be translated independently. The phrase 'במעיןחיים' is rendered conservatively, preserving the visible lexical items.",
+   "line_id": 3568,
+   "source_hash": "27b5093651e0a8de004e70a24c809bd0f8d6f54e65838e43d146c3ba3749ecee",
+   "source_condition": "uncertain"
+  },
+  "1Q35 f2:2": {
+   "en": "With tree of eternity he will not drink",
+   "notes": "The transcription contains an uncertain character at the beginning (ε) and a damaged word (ע#צי), which may affect the translation. The word 'עֹולָם' is reconstructed but certain. The final mark (׃) is untranslatable and omitted.",
+   "line_id": 3569,
+   "source_hash": "7f5d6c5d5df33a26ab63ff1e72929f32032dfb9f31b4faa8861fa95eb899f713",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

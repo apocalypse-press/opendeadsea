@@ -1,0 +1,46 @@
+{
+ "id": "11Q9",
+ "label": "11Q9",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 973,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "11Q9 f1:1": {
+   "en": "To his face she will eat and surrounding her knew might. He will call to the heavens from above and to the earth to judge his people. Gather to",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'she will eat' is based on a reconstructed verb form with uncertain gender. 'Surrounding her knew might' is a literal rendering of the available words, but the exact relationship between them is unclear. The phrase 'he will judge people' is supported by repeated phrase evidence, but the subject 'he' is not explicitly stated in the source. The final phrase 'gather to' is incomplete due to the damaged text.",
+   "line_id": 51208,
+   "source_hash": "93241bc25ac0317951d0005df0cd5c287b6a21fb9383b947101a7daa22b56171",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q9 f1:2": {
+   "en": "Loyal ones will make a covenant upon sacrifice and report heavens' justice that God judges he sela hear people",
+   "notes": "Uncertain reconstruction of damaged tokens at positions 2-3, 5, and 17. Phrase evidence suggests 'let us make a covenant' (positions 2-3), 'upon sacrifice' (position 5), and 'listen O peoples' (positions 17-18), but these are not adopted due to low support. The translation follows visible morphology and glosses where possible.",
+   "line_id": 51209,
+   "source_hash": "ac135c95e59d58e574a18a20b78fd7851a72cb79532736464303f7843b55a6f6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q9 f1:3": {
+   "en": "And I will speak, O Israel, and I will warn you in God, your God, I.",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the name 'Israel' and the final characters '׃ε'. The phrase 'in God, your God' is supported by repeated evidence, but the overall syntax is fragmented. No recoverable text survives for the final characters.",
+   "line_id": 51210,
+   "source_hash": "8aed950af9131edf2435ecefc5d69b78e9592dd6a6a8e2b38aeb4e8d3f1514db",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q9 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and punctuation marks. The visible characters (ε, ׃) and reconstructed elements do not form translatable lexical units.",
+   "line_id": 51211,
+   "source_hash": "618919c97cf954253f845dbaa04541b21e64fe114b58531dc972221d7e0f6f7c",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

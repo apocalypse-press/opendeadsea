@@ -1,0 +1,39 @@
+{
+ "id": "4Q468z",
+ "label": "4Q468z",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 492,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468z f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a Greek letter fragment (ε) and uncertain symbols.",
+   "line_id": 22578,
+   "source_hash": "5e60c251478cbf1441eb3c6fe8779b6b839113274cc9b4a412fca462eb14b1aa",
+   "source_condition": "uncertain"
+  },
+  "4Q468z f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a Greek letter (ε) and a partial Hebrew root (רו) without sufficient context for translation.",
+   "line_id": 22579,
+   "source_hash": "49ce8c2d19492268290553518dc83626a04406c58d3aea7d2f5971c0281740f9",
+   "source_condition": "clean"
+  },
+  "4Q468z f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or translatable fragments. The visible characters (ε, ר, ׃) do not form a recoverable lexical unit in this context.",
+   "line_id": 22580,
+   "source_hash": "2224e1711561b5b43ef1711a2cffb5a60404150b09d4e903b1ea20b2880bbaa1",
+   "source_condition": "uncertain"
+  }
+ }
+}

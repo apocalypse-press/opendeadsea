@@ -1,0 +1,144 @@
+{
+ "id": "4Q142",
+ "label": "4Q142",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 18,
+ "scroll_id": 933,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q142 f1:1": {
+   "en": "And he called Moses to all Israel and said to them, Hear, Israel, the statutes and the judgments which I speak in your ears today, and you shall teach them.",
+   "notes": "Uncertain transcription at position 3 (Moses). Reconstructed text at position 5 (all).",
+   "line_id": 49600,
+   "source_hash": "11df40851e8638b8ea3811262c305db9a5505d8ca5a181fa8db28bd7de7ed480",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:2": {
+   "en": "And you kept to make YHWH our God cut a covenant with us at Horeb Not our fathers YHWH cut this covenant that we are here this day all of us alive",
+   "notes": "Uncertain reconstruction at position 4. Phrase evidence suggests possible renderings for positions 6-7, 8-9, 17-18, 17-19, 29-30-31, 30-31, 31-32, and 2-3-4, but these are not adopted due to low support or lack of direct evidence. The translation follows visible morphology and lexical glosses where phrase evidence is insufficient.",
+   "line_id": 49601,
+   "source_hash": "e1cdc35a836923cc0c4173cdf936a96b3885370514e6f66d1ed8291235d4c1be",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:3": {
+   "en": "Face to face he spoke YHWH with you in the mountain from the midst of the fire. I stand between YHWH and you at that time to declare to you the word of YHWH, that you may fear from the face of the fire.",
+   "notes": "The phrase 'face to face' is reconstructed and uncertain. The name 'YHWH' is uncertain in its first occurrence. The phrase 'that you may fear' is a contextual paraphrase, not a direct translation.",
+   "line_id": 49602,
+   "source_hash": "ae9771055066dea1bba791fa6d88fc861390b94f2a5b10de548dca8e0c431a8e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:4": {
+   "en": "And not ascend to the mountain to say I YHWH your God who brought you from the land of Egypt from a house of slaves Not be to you gods other upon face Not make to you an idol",
+   "notes": "Uncertain reconstruction in positions 5, 7. Positions 8, 20, 28 contain untranslatable source punctuation.",
+   "line_id": 49603,
+   "source_hash": "3c4e9ff237dd755dea87d21f1f27fb27269da945d352145ee1535aa204b378ba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:5": {
+   "en": "And every form which in the heavens from above and which on earth from beneath and which in the waters from under the earth. Not you must bow down to them and not you must serve them because I am Yahweh your God, a jealous God who punishes sin.",
+   "notes": "The translation follows the visible transcription and morphology where possible, incorporating high-confidence phrase evidence for contextual disambiguation. Uncertainty remains regarding the exact sense of some particles and the reconstruction of damaged syntax, particularly around the relative clauses and the verb forms. The notes do not speculate on missing subjects or objects but preserve the recoverable material as closely as possible.",
+   "line_id": 49604,
+   "source_hash": "559985224077f90e4e1db5e0f0e34ed2bada54d74026839126671b736b59bf8c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:6": {
+   "en": "Upon fathers and upon sons and upon grandsons and upon a fourth generation of those who hate, and covenant loyalty to thousands of those who love and keep commandments. Do not lift the name of Yahweh your God to vanity, for not he will leave unpunished Yahweh.",
+   "notes": "The transcription is partially damaged, with two reconstructed words (positions 1 and 6) and two uncertain words (positions 1 and 6). The phrase evidence and semantic constraints were considered in the translation, but no additional information was provided for semantic constraints. The translation follows the visible morphology and lexical glosses, with some adjustments based on phrase evidence.",
+   "line_id": 49605,
+   "source_hash": "33829075d96513d182983b063816b349827f763962de29e379d5fc1eac3a9c5b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:7": {
+   "en": "[whole] which carries [name] to vanity. Keep the day of the sabbath to be holy, as he had commanded Yahweh your god. Six days you will labor and do all your work. And the seventh day",
+   "notes": "Uncertain or reconstructed words: את]כ##ולאשרישא(< א >)ת#[ שמ׳ו (whole, name, carry); קדש׳ו (be holy); צו׳ך (he had commanded); אלהי׳ך (your god); מלאכת׳ך (your work). Untranslated characters: ##, (, ), #, ʼ, ].",
+   "line_id": 49606,
+   "source_hash": "5e76ffd0b692c8ee8f5bcf8a6ce94262594643b06e329158d18b04bdb7c86884",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:8": {
+   "en": "[Sabbath] to Yahweh God, you must not do any work: you, your son, your daughter, your male servant, your female servant, your bullock, your he-ass, all your cattle, and the sojourner within your gates, so that your male servant may rest.",
+   "notes": "The transcription is heavily damaged. The first word is a reconstructed plural form of \"sabbath.\" The phrase \"Yahweh God\" is supported by repeated phrase evidence but is uncertain due to damage. The verb \"must not do\" is reconstructed and uncertain. The list of participants is incomplete and partially reconstructed. The final clause is truncated and its syntax is uncertain.",
+   "line_id": 49607,
+   "source_hash": "3050edbd21af9e8c70172125de665db85be88141443e13b766b6a96b16c54ee6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:9": {
+   "en": "And you will remember that you were a slave in the land of Egypt, and Yahweh your God brought you out from there by a strong hand and by an arm outstretched. Thus Yahweh your God commanded you to make the day of the sabbath.",
+   "notes": "Positions 2, 3, 38 are uncertain. Positions 1, 3 are reconstructed.",
+   "line_id": 49608,
+   "source_hash": "d10f1350addc3fe43808cf61ce6a66117aa475557b02b89c11b9312b5a148d70",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:10": {
+   "en": "Be holy and honor your father and your mother, as Yahweh your God commanded, so that your days may be long and that it may go well for you upon the land which Yahweh your God gave you.",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 49609,
+   "source_hash": "a6aa50722c4b9b20417167e679cdcfeb3f2fe7850a06856874d375fc050fe66b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:11": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. The visible characters (ε, ׃) do not form translatable lexical units.",
+   "line_id": 49610,
+   "source_hash": "ea2b28487da689c5c3b813c5ef3009e15db21393d916588c2bdb2545547575ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:18": {
+   "en": "and you have repeated to the sons",
+   "notes": "The transcription contains an uncertain character (ε) and a reconstructed word (בני ]׳כ##[ ה ]); the translation omits the uncertain character and reflects the reconstructed word as 'sons'.",
+   "line_id": 49611,
+   "source_hash": "26a6605ef7940e44b9eccab0fb7a80ad8e3e8c13ffb87e365239cedadfad9b1c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:19": {
+   "en": "And you spoke in the sitting in the house",
+   "notes": "The phrase 'in the sitting' reflects the reconstructed infinitive construct form of 'sit' (שבת׳כה). The final 'ל' is untranslatable and omitted. The translation conservatively follows the recoverable text without adding implied subjects or objects.",
+   "line_id": 49612,
+   "source_hash": "c5cb6196494804a386b2a87494158d40082f9736e1941ac8de8097cf730ae2fc",
+   "source_condition": "reconstructed"
+  },
+  "4Q142 f1:20": {
+   "en": "to walk in the way and to lie down and in arising",
+   "notes": "Reconstructed and uncertain elements are present in the transcription. The phrase 'he walked in the way' is supported by repeated evidence, but the translation retains the infinitive forms as per the visible morphology.",
+   "line_id": 49613,
+   "source_hash": "0c07832f230cc15af63af446c5f2626a5eff578b665343705da032017d905761",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:21": {
+   "en": "And you tied to a sign upon your hands and they were",
+   "notes": "Uncertainty in the preposition 'ל#'; phrase 'a sign on hand' supported by repeated evidence but adapted for grammatical number.",
+   "line_id": 49614,
+   "source_hash": "2da10e22bf1f70290924b0ae182f2d346f317bd45d2f7b64b59fbbfce584b47c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:22": {
+   "en": "to marks between your eyes",
+   "notes": "The term 'טוטפ' is uncertain and lacks a trusted gloss. The phrase 'marks between eyes' is supported by repeated evidence. The final punctuation mark is omitted as it cannot be translated independently.",
+   "line_id": 49615,
+   "source_hash": "ac7733b848ef88921abcfb93a8c333e8393ea26da9bce350a2f3d07bf073652b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:23": {
+   "en": "and you wrote on the doorposts of the houses",
+   "notes": "Uncertainty in transcription and reconstruction affects the verb 'write' and the phrase 'doorposts of the houses'.",
+   "line_id": 49616,
+   "source_hash": "5a13392fb64c7ec28d1f3b0ae7a031213d3ddd235e0f38c6929545f5bffbe596",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q142 f1:24": {
+   "en": "and in its gate",
+   "notes": "The transcription is partially damaged and reconstructed, with uncertainty in the third word. The translation reflects the recoverable elements, but the exact meaning of 'ש ]ע##[ רי׳כה ]' remains uncertain.",
+   "line_id": 49617,
+   "source_hash": "125ac55d3c5766f4bc93a3537e416ab08d9710d81c6f3644636aa030c4ed9b63",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

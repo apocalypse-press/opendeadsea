@@ -1,0 +1,74 @@
+{
+ "id": "4Q43",
+ "label": "4Q43",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 828,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q43 f1+2i+3:1": {
+   "en": "Hear, Israel, Yahweh God, Yahweh is one. And you loved Yahweh",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged divine name and a possible numeral. The phrase 'love (et) Yahweh' is supported by repeated evidence, but the object marker 'et' is omitted in the translation due to uncertainty. The sequence 'Yahweh God, Yahweh' reflects visible repetition despite low pattern support. Untranslated elements include an unknown character 'ε' and a damaged word 'אלה ]י#?׳נ?ו', noted as uncertain in the source.",
+   "line_id": 43786,
+   "source_hash": "de00d03ef7ea4c84f06e1a252c558da0ae4864fea28b811994573a6125332743",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q43 f1+2i+3:2": {
+   "en": "your God with all heart and with all being and with all strength and were the words these",
+   "notes": "Uncertain reconstruction of damaged text at positions 14, 15, 17, and 20. Phrase evidence supports 'with all heart,' 'with all being,' and 'with all strength.' Relative pronoun 'which' omitted due to uncertainty in position 20.",
+   "line_id": 43787,
+   "source_hash": "1e40cb73ad8a4c71d7d04ec0203a271750f79dce8b680bb769256965cc7e8466",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q43 f1+2i+3:3": {
+   "en": "I command you this day upon your heart. And you shall repeat them to your sons and speak of them when you sit in your house, and when you walk on the way, and when you lie down.",
+   "notes": "The phrase 'I command you' is supported by repeated phrase evidence. The phrase 'when you walk on the way' is supported by repeated phrase evidence, though with lower confidence. The phrase 'when you sit in your house' is supported by repeated phrase evidence, though with lower confidence. The final phrase 'and when you lie down' is uncertain due to damage in the source text.",
+   "line_id": 43788,
+   "source_hash": "d1118011c2af8a30bbb5fd7e3921aa255380f33f98612d69c7033afec3b44d21",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q43 f1+2i+3:4": {
+   "en": "And in your standing, tie signs upon your hand and they will be for marks between your eyes. And write them upon the doorposts of your house.",
+   "notes": "Uncertainty in the transcription is reflected in the translation of 'they will be for marks' and 'doorposts of your house', where damaged text is reconstructed based on repeated phrase evidence.",
+   "line_id": 43789,
+   "source_hash": "f5fc7575d5d8ebb1b3583df022f86d68986e840dc8393df898669b86604dfc47",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q43 f1+2i+3:5": {
+   "en": "and in your gates",
+   "notes": "The transcription includes a reconstructed particle 'ו' (and) and a suffixed form 'שערי׳ך' (your gates). The final mark '׃' is omitted as it has no recoverable gloss.",
+   "line_id": 43790,
+   "source_hash": "cf6a716b567cc7201813551ee8ad41037516d47d9ecac445289f402c31a08105",
+   "source_condition": "reconstructed"
+  },
+  "4Q43 f1+2i+3:6": {
+   "en": "And it will be that YHWH will bring you to the land that he swore to your ancestors, to Abraham, to Isaac, and to Jacob",
+   "notes": "Uncertainty in the transcription is reflected in the translation of 'YHWH' and the conjunction 'and' before 'to Jacob'.",
+   "line_id": 43791,
+   "source_hash": "b7343d4f3573b7039ecbfb216391db4407eb0fe5b3e55bcc927a61a17d2476c8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q43 f1+2i+3:7": {
+   "en": "to give you great towns and good things which you did not build and houses full of every good thing",
+   "notes": "Uncertain reconstruction of 'great' (גד ]ל#[ ות) and 'fill' (מ##ל##[ א ]ת##). Phrase evidence supports 'houses full every' and 'full every good thing'.",
+   "line_id": 43792,
+   "source_hash": "2faa766481f6b92a4335c301a4ca892cc8e7da98590824f02005d804a13b14e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q43 f2ii:1": {
+   "en": "and [no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with only the conjunction 'and' (ו) being recoverable. The remaining characters (הב##[ε׃) are either reconstructed, uncertain, or untranslatable. The final punctuation mark (׃) is omitted from the translation as it cannot be independently rendered in English.",
+   "line_id": 43793,
+   "source_hash": "4cabc6b73a0ea95113bc5c2ab053e0e1fd5b35489a18bd71bd32d7cd1968d647",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

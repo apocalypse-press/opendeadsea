@@ -1,0 +1,74 @@
+{
+ "id": "3Q11",
+ "label": "3Q11",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 84,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "3Q11 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 4132,
+   "source_hash": "25e6fb40515472fd8c3e82fa99cf5b193f644c4917263d8ea032aaed9a298752",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q11 f1:2": {
+   "en": "and in",
+   "notes": "The transcription contains uncertain and damaged elements, including untranslatable characters (ε) and a partially preserved word (צ##י). The particle 'ו' is translated as 'and', and the preposition 'ב' is translated as 'in'. The remaining elements are not recoverable.",
+   "line_id": 4133,
+   "source_hash": "9bb47fa2e484a11c29ad0a66abcc3e68c5ddbcaef6d9b6cdeca89bb9b1eef23b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q11 f1:3": {
+   "en": "the officials of all",
+   "notes": "Translation based on repeated phrase evidence for positions 2-3. Position 1, 4, and 5 contain no recoverable text.",
+   "line_id": 4134,
+   "source_hash": "3c3d82eb5e2ddc1a83bb6acdfc4b3eebfb98e2d89c23da9f16b50fa14b6ebd9c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q11 f1:4": {
+   "en": "to",
+   "notes": "The transcription contains damaged and untranslatable characters (ε, ׃) which are omitted from the translation. The only recoverable word is a reconstructed preposition 'to'.",
+   "line_id": 4135,
+   "source_hash": "4b74c950f883d0087623bf886d349a3f99f5128f125fdcfae8e1def1a25cf393",
+   "source_condition": "reconstructed"
+  },
+  "3Q11 f2:1": {
+   "en": "to make",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged final segment (מ[). The 'to' particle (ל) and the infinitive 'make' (עשות) are recoverable. The reconstruction and damage are not reflected in the translation.",
+   "line_id": 4136,
+   "source_hash": "ce97df3cf126da28325485be1005f7c10e4b6be24dd652d9ac02efe0e0a022d5",
+   "source_condition": "reconstructed"
+  },
+  "3Q11 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains fragmented and uncertain characters (ε, ]ל[, ] # ן, א # [), with no clear lexical or grammatical structure. Reconstructed and uncertain elements lack sufficient context for translation. No defensible English words can be derived from the visible material.",
+   "line_id": 4137,
+   "source_hash": "87266ea78c1fbee3e7049688756065e6492ce317535541d35517facdd3fdab4c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q11 f2:3": {
+   "en": "and no escape",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged word (פלי[ טה). The translation reflects the recoverable words 'and' (ו) and 'no' (אין) with 'escape' (פְּלֵיטָה) as the best available gloss for the damaged noun.",
+   "line_id": 4138,
+   "source_hash": "bf3947c884069cc9533cef5e61605aece738a339864f5964355f59b0ab322947",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q11 f2:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε, ]ל[, ε) with no recoverable lexical content. The reconstructed ]ל[ is incomplete and lacks context for translation.",
+   "line_id": 4139,
+   "source_hash": "f7baa8b9f8a9f86185f72d505adeae4b2d20753dd90b14004c9da7512c4f6c20",
+   "source_condition": "reconstructed"
+  }
+ }
+}

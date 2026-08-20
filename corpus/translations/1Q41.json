@@ -1,0 +1,46 @@
+{
+ "id": "1Q41",
+ "label": "1Q41",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 34,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q41 f1:1": {
+   "en": "and they rebel",
+   "notes": "The transcription contains untranslatable characters and damage, including ε and # marks. The verb 'ימרו' is clearly recoverable, but the surrounding material is uncertain. No defensible English words survive for the damaged and reconstructed portions, but the verb's morphology and gloss are sufficient for a conservative translation.",
+   "line_id": 3676,
+   "source_hash": "a25e75867781e5190aa4e2e55a5bfbb6efb25c350377ef733a7f088fb5d8a655",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q41 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible characters do not form recoverable words or meaningful phrases.",
+   "line_id": 3677,
+   "source_hash": "ee3cb8be0512e28438ceff0b3b0f2486dd5d956def565d092509bf265eeb2eb9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q41 f3:1": {
+   "en": "all the earth",
+   "notes": "The transcription includes uncertain and reconstructed elements, with a dominant phrase evidence supporting 'all the earth'.",
+   "line_id": 3678,
+   "source_hash": "bfe364347703ac41e39e7d0055a0428bc1138f170eaf136fe3a1961b8209646b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q41 f3:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and reconstructions with high uncertainty. No defensible English words survive.",
+   "line_id": 3679,
+   "source_hash": "c940cc3d4eb2bbb967003d67f1403e323e6c98709fc15ee73bfc54cbfa7b8b86",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

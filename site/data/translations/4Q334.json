@@ -1,0 +1,172 @@
+{
+ "id": "4Q334",
+ "label": "4Q334",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 22,
+ "scroll_id": 324,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q334 f1:1": {
+   "en": "in the night",
+   "notes": "Uncertain characters and reconstructions present; translation based on recoverable elements.",
+   "line_id": 13894,
+   "source_hash": "4274f2c1399a5af9d1b3a3a421e8e93207a3c6074cd4bb23652be68418e5ef12",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f1:2": {
+   "en": "and the word [no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain reconstructions. The word 'דָּבָר' is translated as 'word', but the surrounding material is too damaged for a confident translation.",
+   "line_id": 13895,
+   "source_hash": "08489a2a7ea59388a14e8d20a75f4ab624cd27f0cbdef2f7bce371cfe7f37f65",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f2_4:1": {
+   "en": "In eight of the night, songs, eight and words of praise, and forty.",
+   "notes": "Several words are reconstructed or uncertain, including 'songs' (שי ]ר##ות), 'eight' (second instance), 'and' (ו#?[), 'words' (ד ]ב#ר##י#?), and 'forty' (ארבע##ים). The phrase 'תשבו#?[ חות' has no trusted gloss and is omitted. A surviving source character ']ה##' is omitted as it cannot be translated independently.",
+   "line_id": 13896,
+   "source_hash": "eb9ac9af82a49a3926083d7d4a77121ce535041e13b0b935a3b02eb348352a0f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f2_4:2": {
+   "en": "And in the day of songs and words of praises six-teen in nine in night",
+   "notes": "Uncertain reconstruction and gloss for 'ε', 'דב ]ר##י#?[', and 'תשבוחות ]'. Phrase evidence supports 'six-teen' and 'ninth in' but the latter is not fully recoverable. Uncertain gloss for 'ש##שה' and 'עש##[ ר'.",
+   "line_id": 13897,
+   "source_hash": "42e32fde1ce46dca609d4fb2f19568fe69b8e74e24ab1ba70e5aa9e3ae26ebec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f2_4:3": {
+   "en": "[Songs and words of praises two] and forty [in a day] songs",
+   "notes": "Reconstructed and uncertain elements include the initial 'songs,' the number 'two,' the number 'forty,' and the final 'songs'; the fragment's syntax is incomplete and uncertain.",
+   "line_id": 13898,
+   "source_hash": "93cf344a9ef4f6bfb08ea29de2bed0dbef08baf2f12116725b5a87b809144f05",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f2_4:4": {
+   "en": "And words of praises in ten and in the night of songs eight",
+   "notes": "Uncertain reconstruction and damaged text affect the flow and clarity. The translation conservatively preserves recoverable elements without adding conjectured material.",
+   "line_id": 13899,
+   "source_hash": "d63eaa81b59a6dffcc882b6693572f20daf8b9de64231f670e721985cda6bbd6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f2_4:5": {
+   "en": "And words of praises and in the day of songs and words of praises twenty",
+   "notes": "The transcription contains uncertain and unknown elements, including a Greek letter (ε) and damaged text. The phrase 'תשבוחות' and its repetition are translated conservatively as 'praises' despite lexical uncertainty. The number 'עשר#[ י ]ם#' is reconstructed as 'twenty' but is uncertain. The translation omits untranslatable characters and preserves the structure of the recoverable text.",
+   "line_id": 13900,
+   "source_hash": "93ecb3f1fb5b987f4d817f5f25d4546d7a2580df7257975afbee105f11f9f5ca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f5:1": {
+   "en": "teen in day",
+   "notes": "The transcription contains untranslatable characters and damage, with one reconstructed word. The translation reflects recoverable content conservatively, omitting unsupported elements.",
+   "line_id": 13901,
+   "source_hash": "64f0f93bc1da8c91a3083e5acb9c08004b0d2ed79119964840c2039f6c1a2f6f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f5:2": {
+   "en": "and twenty",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The word 'עשר##[ ים' is reconstructed as 'twenty' based on the lemma 'עֶשְׂרִים'. Other elements, including 'ε' and '׃', are untranslatable and omitted. The particle 'ו' is translated as 'and'.",
+   "line_id": 13902,
+   "source_hash": "560aa9b6a75bded2f81394d7a48bd6d2995d0406f0bccf935d7081544e4d3e79",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f6+7:1": {
+   "en": "In six[teen] in night songs and words of praises",
+   "notes": "Uncertain reconstruction of 'teen'; two untranslatable characters (ε) omitted.",
+   "line_id": 13903,
+   "source_hash": "4156aa37c85d54ec30a93336bb26675558b58090f4b6a99c8bc6c942c1e93c7d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f6+7:2": {
+   "en": "And in a day of songs and words of praises in seven-teen",
+   "notes": "Uncertain reconstruction of 'songs' and 'day'; unknown meaning for 'תשבוחות'; possible lacuna after 'seven-teen'.",
+   "line_id": 13904,
+   "source_hash": "8a1abba3ec0535662f8ada4aecc02187d94f081407a33e72ca2f618fc753ad35",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f6+7:3": {
+   "en": "In night songs and words of praises and in the day songs",
+   "notes": "The transcription contains uncertain characters (ε, ]ו#?ם) and a reconstructed particle ([ ב). The term 'תשבוחות' has no trusted gloss, but is translated as 'praises' based on context. The final word 'שירות' is repeated from earlier in the line.",
+   "line_id": 13905,
+   "source_hash": "b5f44cdfac60b87c17156182cba167c09d5c1d2a77b9d77bcae193a0871a054c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f6+7:4": {
+   "en": "And words of praises in eighteen",
+   "notes": "Uncertain characters and punctuation omitted. 'Eight-teen' is a supported phrase rendering for positions 8-9.",
+   "line_id": 13906,
+   "source_hash": "3a74cfae5520d157b68bf9dc68520ac2aeb232f6de9eb21d1215a1773d2f019d",
+   "source_condition": "clean"
+  },
+  "4Q334 f6+7:5": {
+   "en": "In the night, songs and words of praise, and in the day, songs",
+   "notes": "The translation includes a reconstructed preposition 'in' at the beginning, and the final word 'songs' is marked as uncertain in the source. Two untranslatable characters 'ε' are omitted.",
+   "line_id": 13907,
+   "source_hash": "d6f85d930b5f3dfe4f42ea5ca30d4a63b350d399023bf5f4b150cd00fb0dfc6d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f8i:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) with no clear Hebrew or Aramaic context. No recoverable text can be confidently translated.",
+   "line_id": 13908,
+   "source_hash": "44f71ceea66aedc91db7525b4e83ac79a566ac8f94d9a5d68ca92fc135c7c113",
+   "source_condition": "clean"
+  },
+  "4Q334 f8i:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) with no clear Hebrew or Aramaic context. No recoverable lexical content survives for translation.",
+   "line_id": 13909,
+   "source_hash": "ebc2bed9b17c52f036ad98b7716cc20ba41870e98f6dfb2d19099c40ee536329",
+   "source_condition": "clean"
+  },
+  "4Q334 f8i:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or fragments that can be translated into English.",
+   "line_id": 13910,
+   "source_hash": "6a07f1a79393906acfb35c6682aacd03839f953c07d66e2a36708479e261ed85",
+   "source_condition": "uncertain"
+  },
+  "4Q334 f8i:4": {
+   "en": "songs",
+   "notes": "The initial character 'ε' and the final punctuation mark '׃' are omitted from the translation as they cannot be independently translated. The word 'שירו ]ת' is translated as 'songs' based on the provided lexical gloss.",
+   "line_id": 13911,
+   "source_hash": "c4a7ac236bbbcf3eff272ae4c966fe27b635d25b434e738c76493b3123e4fde6",
+   "source_condition": "clean"
+  },
+  "4Q334 f8ii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a reconstructed fragment and an untranslatable character.",
+   "line_id": 13912,
+   "source_hash": "7df958698d5d6c6aa20c03ae546a7bc6d9650c7c753870e3791d8717d032e8a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f8ii:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only a reconstructed relative particle ('ש') and an untranslatable character ('ε'), with no defensible English words surviving.",
+   "line_id": 13913,
+   "source_hash": "1a13ec699679604beeb240b7dba8bcd38e963e8971b6b24ea27a769bb47bc6c4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f8ii:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only a reconstructed fragment (# [) and an untranslatable character (ε), with no defensible English words surviving.",
+   "line_id": 13914,
+   "source_hash": "2574a1b8a55779cd29815b9ae07a8eba45f70cee0e171f9cca39916597ee345c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q334 f8ii:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no translatable lexical items. The characters 'ε' and '׃' do not form a recoverable word or phrase in Hebrew.",
+   "line_id": 13915,
+   "source_hash": "7c850626016d15dec1215909e24ab1117e8b06277cca7280f3acc14af8bd7f34",
+   "source_condition": "clean"
+  }
+ }
+}

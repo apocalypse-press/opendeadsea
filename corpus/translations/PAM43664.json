@@ -1,0 +1,116 @@
+{
+ "id": "PAM43664",
+ "label": "PAM43664",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 14,
+ "scroll_id": 696,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "PAM43664 f8:1": {
+   "en": "power",
+   "notes": "The second character 'ε' is untranslatable and omitted.",
+   "line_id": 35472,
+   "source_hash": "c694ee2200de6766314f800cf0487c7206ea3db8cdacd3f4f9af738a7f9ec170",
+   "source_condition": "clean"
+  },
+  "PAM43664 f8:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only damaged or untranslatable characters (ε,  #,  #, [, ], ׃) with no recoverable lexical content.",
+   "line_id": 35473,
+   "source_hash": "782a9ce52d8656fed934417bda1c6232e00b5a90009755c875ba16434b76ba58",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43664 f10:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions.",
+   "line_id": 35474,
+   "source_hash": "3d47d25eed782021a741a9ab67cd045eac52303300a69383d3d90d12df71ac53",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43664 f10:2": {
+   "en": "he cuts",
+   "notes": "The transcription is heavily damaged, with uncertain characters and incomplete words. The verb 'כרת' is partially recoverable, translated as 'cuts' in the third-person singular masculine imperfect form. The surrounding characters (ε and ε]י?) are untranslatable and omitted. Uncertainty is noted but not bracketed in the translation.",
+   "line_id": 35475,
+   "source_hash": "6efb23ef57849e4ba79f5e272dc2851c98ec5829c297e7aa6408040eb0d81664",
+   "source_condition": "uncertain"
+  },
+  "PAM43664 f10:3": {
+   "en": "and [no recoverable text]",
+   "notes": "The transcription contains mostly untranslatable fragments. Only the conjunction 'and' is recoverable. The remaining text is too damaged to yield defensible English words.",
+   "line_id": 35476,
+   "source_hash": "20ffa0cd04e661b4a0d8399e8c3704e1e561aba2308292e3d8b8ec4a6e14ad1a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43664 f10:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic lexical items, only damaged or untranslatable characters (ε, ׃) and reconstructed placeholders.",
+   "line_id": 35477,
+   "source_hash": "59696e105288e9c9edbac8cbabca6b3cabaec18fa4aa0077d21e418de583b8cb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43664 f18:1": {
+   "en": "under his part",
+   "notes": "The transcription is heavily damaged, with uncertain reconstructions and unrecoverable elements. The term 'תַּחַת_1' is translated as 'under' based on its lexical gloss, but the context is unclear. The remaining elements (ε, ː) are untranslatable and omitted from the translation.",
+   "line_id": 35478,
+   "source_hash": "61b1ddb9a0da77a66023742b961425885e5a39149971f5e3946e70a0ec355dad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43664 f21:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 35479,
+   "source_hash": "c27eb36a7f6824d35fedbd7a6c6f04c9da26ba5c4cba2fdff3a0a6862ca48926",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43664 f21:2": {
+   "en": "he would be to",
+   "notes": "Uncertain reconstruction and transcription damage affect the translation. The phrase 'Yahweh to' is a possible contextual rendering, but it is not strongly supported by the evidence. The translation retains the recoverable words 'would be' and 'to' based on the provided data.",
+   "line_id": 35480,
+   "source_hash": "86eddc34e1ab8af3e11d64fcc0cd68534a5d269f5a3d5df94ce943467d960b83",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43664 f21:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε, ]ד # [, ε, ׃) with no clear lexical or grammatical meaning. The reconstructed and uncertain elements provide no defensible English wording.",
+   "line_id": 35481,
+   "source_hash": "f9be3b02a645228006352b0045ddc56a5d5ede4b944ec57c1321d0aae7023241",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43664 f37:1": {
+   "en": "her knees",
+   "notes": "Uncertain transcription and damaged lexical units limit recoverable content. The translation reflects the visible morphology of the second word, treating it as a feminine dual suffix form. Other elements are omitted due to insufficient evidence.",
+   "line_id": 35482,
+   "source_hash": "d09425c2a194a0637a57ef4141bdb9690ee7b6423fc66cc3fd1665eee35df20a",
+   "source_condition": "uncertain"
+  },
+  "PAM43664 f47:1": {
+   "en": "not",
+   "notes": "The transcription contains untranslatable characters (ε) and a punctuation mark (׃) which are omitted in the translation. The particle 'אין' is translated as 'not', reflecting its negating function.",
+   "line_id": 35483,
+   "source_hash": "921d58f64b082e5fcb7e3002c6beb8034db5b3e07654dcf787462754c34b31fa",
+   "source_condition": "clean"
+  },
+  "PAM43664 f63:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε, ]כיא#, ε, ׃) with no clear lexical or grammatical meaning. The uncertain particle 'כִּי_2' lacks sufficient context for translation.",
+   "line_id": 35484,
+   "source_hash": "83d3df5a4767ad38b452356ff3cee3e6ca628885c7969b4f47efd83938061f1a",
+   "source_condition": "uncertain"
+  },
+  "PAM43664 f82:1": {
+   "en": "Greece",
+   "notes": "The transcription contains untranslatable characters and punctuation. The recoverable word 'יון' is translated as 'Greece'.",
+   "line_id": 35485,
+   "source_hash": "d4aa5ae67800f2a99acc7e9883aa987bee2ad636c5327310c6b275a863f437b4",
+   "source_condition": "clean"
+  }
+ }
+}

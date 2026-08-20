@@ -1,0 +1,53 @@
+{
+ "id": "1Q66",
+ "label": "1Q66",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 55,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q66 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of fragmented and uncertain characters (ε, ], #, [, ε) with no clear lexical or semantic content. No defensible English translation can be derived from the surviving material.",
+   "line_id": 3760,
+   "source_hash": "4570d0d8990888107d2d475018eabd1366a16b98a02ff2813a7268c19bb4797b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q66 f1:2": {
+   "en": "You have bestowed",
+   "notes": "The transcription includes untranslatable characters (ε) at the beginning and end, likely scribal errors or damage; omitted from translation. The verb 'זבדתון' is a second-person masculine plural perfect form of 'זבד', meaning 'bestow'.",
+   "line_id": 3761,
+   "source_hash": "fceb28a6f58a223443c32867d2e8e68355db47b0a20db5f86f691fc952cc5648",
+   "source_condition": "clean"
+  },
+  "1Q66 f1:3": {
+   "en": "to fall",
+   "notes": "The transcription contains uncertain and unknown elements, including a damaged verb form 'מפל׳ה#' (likely 'נפל' in peal infinitive construct) and two untranslatable characters 'ε'. The translation preserves the recoverable particle 'ל' (to) and the verb root, but omits the untranslatable elements. Uncertainty in the verb's exact form is noted.",
+   "line_id": 3762,
+   "source_hash": "f407873aa1c904cc65548c9e8f002372263c6c186887c050fe937133a2b260c1",
+   "source_condition": "uncertain"
+  },
+  "1Q66 f2:1": {
+   "en": "producing in abundance and",
+   "notes": "The initial 'ε' and final 'ε' are untranslatable fragments. The reconstructed 'א' is uncertain and omitted from the translation.",
+   "line_id": 3763,
+   "source_hash": "de4ca3affe927a40b61d695e79d4f86ab0fd4e319a1fda20cd34e0ddfc755c59",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q66 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment with no clear meaning. The visible forms do not provide sufficient evidence for a defensible English translation.",
+   "line_id": 3764,
+   "source_hash": "5fd026e8751aff37feb3167ff856078018c416b6f05a23039adb265a5902d8e3",
+   "source_condition": "reconstructed"
+  }
+ }
+}

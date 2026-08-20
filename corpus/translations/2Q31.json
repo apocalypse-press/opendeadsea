@@ -1,0 +1,39 @@
+{
+ "id": "2Q31",
+ "label": "2Q31",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 74,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q31 f1:1": {
+   "en": "a sword or",
+   "notes": "Translation based on visible transcription and phrase evidence. Uncertain characters and reconstructions are omitted.",
+   "line_id": 4028,
+   "source_hash": "120a256b231a60d48d49ad318e3aace5cca8f7f310d203a41c8153fe8ea4ea94",
+   "source_condition": "reconstructed"
+  },
+  "2Q31 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only damaged or untranslatable characters (ε,  #, ׃).",
+   "line_id": 4029,
+   "source_hash": "16083fb08997d46b4667e0f62d18fcbb24151a7d2a7ec4a7aa7d516f2cb85ef1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q31 f2:1": {
+   "en": "I",
+   "notes": "The transcription contains untranslatable characters and a reconstructed pronoun 'I'. The final mark is omitted as it has no independent meaning.",
+   "line_id": 4030,
+   "source_hash": "ca35e8365b61828cfc464adba4251fcd43b1b4f3513ba02da4a00cd7e6294709",
+   "source_condition": "reconstructed"
+  }
+ }
+}

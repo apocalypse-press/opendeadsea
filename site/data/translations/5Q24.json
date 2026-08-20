@@ -1,0 +1,39 @@
+{
+ "id": "5Q24",
+ "label": "5Q24",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 644,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "5Q24 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic lexical items. All visible characters are either damaged or untranslatable fragments.",
+   "line_id": 32232,
+   "source_hash": "0b5c663cfc252dc8830e73399250b64f45a5f81b244aa2b23d86cdcae2feb2d8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q24 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains fragmented and uncertain characters (ε, ] # בא, ת # [, ε) with no clear lexical or grammatical meaning. The reconstructed and uncertain elements do not provide sufficient evidence for a defensible translation.",
+   "line_id": 32233,
+   "source_hash": "56b58825104636e8c61d1eb7a43dfc7be2fd70f71ab35b5a161f5ff579c34284",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q24 f1:3": {
+   "en": "upon",
+   "notes": "The transcription contains untranslatable characters (ε, ׃) and a damaged preposition ]עלי׳כון. The preposition 'upon' is retained based on the lemma 'עַל' and its lexical gloss. Untranslatable characters and damage are not reflected in the translation.",
+   "line_id": 32234,
+   "source_hash": "cd5d44a037bde4e59246b99561ea1d382f2f3e067cca3721da70aedae121e49b",
+   "source_condition": "clean"
+  }
+ }
+}

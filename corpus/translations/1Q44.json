@@ -1,0 +1,39 @@
+{
+ "id": "1Q44",
+ "label": "1Q44",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 37,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q44 f1:1": {
+   "en": "in coming",
+   "notes": "The transcription is heavily damaged, with only partial recovery of the preposition 'in' and the infinitive 'coming'. The remaining characters are untranslatable fragments. The reconstruction of 'coming' is tentative due to the damaged state of the text.",
+   "line_id": 3688,
+   "source_hash": "97e6a503906fd60296dbcf38c34dd21a63e1c34ed2fe8ede4fb1f8befb8aaa34",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q44 f1:2": {
+   "en": "honor to",
+   "notes": "The translation is based on the phrase evidence for 'honor to' supported by the visible morphology and repeated phrase evidence. The initial and final 'ε' are omitted as they cannot be translated independently. The reconstruction of 'לו' is noted but not explicitly marked in the translation.",
+   "line_id": 3689,
+   "source_hash": "d0096928cb990c0c3ad0d42ee106b887eb297fa82af1032e98c04f27d36b9127",
+   "source_condition": "reconstructed"
+  },
+  "1Q44 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments and reconstructions with no recoverable lexical content.",
+   "line_id": 3690,
+   "source_hash": "d92a772508f5aa3dd6bb4aa2a5c815ec754b86a467374152ca042cca0d60330c",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

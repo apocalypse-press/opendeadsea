@@ -1,0 +1,67 @@
+{
+ "id": "4Q324f",
+ "label": "4Q324f",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 310,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q324f f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain reconstructions, with no defensible English words surviving.",
+   "line_id": 13738,
+   "source_hash": "b9d7b7d0a316a2975d02c65aca2d3bc6e27955dc88b9e6c3b0829c0436f1b6b3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324f f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment with no clear meaning. The visible material does not provide sufficient evidence for a defensible English translation.",
+   "line_id": 13739,
+   "source_hash": "0e595e97e56fe774a5eb370c441470ae757e57c60a2e21776bd4d9fa1608e730",
+   "source_condition": "reconstructed"
+  },
+  "4Q324f f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments with no clear lexical or semantic value. The visible forms (ε, ], #, ר[) do not provide sufficient evidence for a defensible English translation.",
+   "line_id": 13740,
+   "source_hash": "ffb5577fc5db559bef619177e8febffe5b5a782a20cb445c5d0a03b9ceec6e6b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324f f3:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only damaged or untranslatable fragments (ε, ב, and brackets). No recoverable lexical items survive for translation.",
+   "line_id": 13741,
+   "source_hash": "824f95d432fc69f320117412623db6e4774a02aed19ec24464c2a9cccb8227dd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324f f3:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic lexical items, only untranslatable fragments and punctuation.",
+   "line_id": 13742,
+   "source_hash": "d82405c4652efeb2d3be622099a4d86888d32a01254d86d88d9969dba9c011ca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324f f4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and no recoverable lexical items.",
+   "line_id": 13743,
+   "source_hash": "ed5bf578d8e8f6d7e5de2973689843355be204a10ce83885db6e98f733ce298f",
+   "source_condition": "clean"
+  },
+  "4Q324f f4:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. The visible material does not support a meaningful English translation.",
+   "line_id": 13744,
+   "source_hash": "2152fa2bd903d40dd4c10550aeb94e8a9a3071a0f9792924cd1bc8bd9573c7c3",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

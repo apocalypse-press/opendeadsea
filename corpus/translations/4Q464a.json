@@ -1,0 +1,60 @@
+{
+ "id": "4Q464a",
+ "label": "4Q464a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 464,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q464a f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too damaged to interpret.",
+   "line_id": 22462,
+   "source_hash": "d6f1ff523a4f128510d8796707aa83c6fed34938417ec2b6e278dd0881a36f18",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q464a f1:2": {
+   "en": "and he stood and he judged",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters and incomplete forms. The translation reflects recoverable words in order, preserving uncertainty without speculative additions.",
+   "line_id": 22463,
+   "source_hash": "e19434583b89a601ff8c1d2d2a7071195e3eb1f18ead1c0d543696b8c9ece1cd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q464a f1:3": {
+   "en": "in secret to them",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged prefix and suffix. The phrase 'in secret to them' is supported by repeated phrase evidence, but the exact wording remains uncertain due to the fragmentary nature of the text.",
+   "line_id": 22464,
+   "source_hash": "6257aeafd52024e77caa5cf2400f85cefc7aa2c90a1f16a6eb93c4f84ea92f1a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q464a f1:4": {
+   "en": "bearing to pharaoh",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The verb 'bearing' is based on the visible morphology of the second word, but its exact sense is uncertain. The preposition 'to' is clear, and 'pharaoh' is a reconstructed proper noun. The surrounding characters (ε) are untranslatable and omitted.",
+   "line_id": 22465,
+   "source_hash": "0b17c3f0470eea3ee54324332b6af9e06521676bec4988e3818d2fb5dfd3ccb1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q464a f1:5": {
+   "en": "until the end",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation.",
+   "line_id": 22466,
+   "source_hash": "136dddf43a885eec4e424971d6e6adae9b4fc2a1b1cea11df3b40e4eab312454",
+   "source_condition": "reconstructed"
+  },
+  "4Q464a f1:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment with uncertain meaning. No defensible English words survive.",
+   "line_id": 22467,
+   "source_hash": "33437b85242c9219a99031c1c793b3fceec80a8f78bdfec7f907225d79d6a4f2",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

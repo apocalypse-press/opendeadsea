@@ -1,0 +1,88 @@
+{
+ "id": "1Q46",
+ "label": "1Q46",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 39,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q46 f1:1": {
+   "en": "confidential talk",
+   "notes": "The transcription is heavily damaged, with only the word 'סוד' (confidential talk) partially recoverable. The remaining characters are uncertain or reconstructed, and no further translation is defensible.",
+   "line_id": 3697,
+   "source_hash": "e8f238ff88c897a83a09fb2edd6c41f47b136b2877365bc848b432c54cdfe3d5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q46 f1:2": {
+   "en": "stones",
+   "notes": "The transcription is heavily damaged, with only the word 'stones' (א#בני) partially recoverable. The remaining characters (# [ε) are uncertain and cannot be translated independently. The translation reflects the sole recoverable lexical item.",
+   "line_id": 3698,
+   "source_hash": "675be4b44ba8fb4cb0795b90726c89b5297e3bf3251baa73c87865863cb63d14",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q46 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed 'to' preposition, but no defensible English words survive.",
+   "line_id": 3699,
+   "source_hash": "ea3a1eb3f727ec461e08d0d469b8af1da3185dde3a90d87e22781f264cce233c",
+   "source_condition": "reconstructed"
+  },
+  "1Q46 f2:1": {
+   "en": "when",
+   "notes": "The translation is based on the recoverable word 'מתי' (position 3), which is reconstructed and has a lexical gloss of 'when'. The other characters are either uncertain, unknown, or untranslatable, including the Greek letter 'ε' and the damaged or uncertain elements.",
+   "line_id": 3700,
+   "source_hash": "b0826b4305b68ec9ed667721d952002b1297f075b8b42c8ed66268f18e349c58",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q46 f3:1": {
+   "en": "valley",
+   "notes": "The transcription contains uncertain and untranslatable elements, including damaged characters and reconstructions. Only the word 'גיא' (valley) is recoverable with certainty.",
+   "line_id": 3701,
+   "source_hash": "fc9840f71d7b9fd2dae02390824b626ca3ca0c7d2303eb21e0dae98d2f8aeb32",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q46 f3:2": {
+   "en": "not",
+   "notes": "The transcription is heavily damaged, with only the particle 'לֹא' (not) recoverable. Other characters are uncertain or untranslatable fragments. The translation reflects only the single identifiable word.",
+   "line_id": 3702,
+   "source_hash": "158843fa7373e5d05f7236b6474cc26daeb84f7a8f5e6602e842c4d656c457ae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q46 f4:1": {
+   "en": "and they came",
+   "notes": "The transcription contains untranslatable characters (ε, ː) and a damaged letter (]ת); these are omitted from the translation. The verb 'come' is in the perfect tense, third-person plural, indicating a completed action by multiple subjects.",
+   "line_id": 3703,
+   "source_hash": "75302079d71b5c6d1f29f2d7f35908355e39f69d188feb21f5342ebb815bd212",
+   "source_condition": "clean"
+  },
+  "1Q46 f5:1": {
+   "en": "from sons",
+   "notes": "Uncertain due to damaged transcription and reconstructed text. The phrase 'a son or' is partially supported by repeated evidence, but the full context is unclear.",
+   "line_id": 3704,
+   "source_hash": "23391d5ed556457d103a20be81c70fcf807a4817dd25d33b59e43ccdf441e2e6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q46 f6:1": {
+   "en": "in all",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted from the translation.",
+   "line_id": 3705,
+   "source_hash": "3f093d209a4e2641b0d8fb038198b05dca5cee2f06701270ffe9c53f4c58876e",
+   "source_condition": "clean"
+  },
+  "1Q46 f6:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. No meaningful translation is possible.",
+   "line_id": 3706,
+   "source_hash": "25e80c0dca8bdfefe273f05790b2549abc2ab4e735883d8035b8eb4c5a4812e1",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

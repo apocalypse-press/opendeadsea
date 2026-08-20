@@ -1,0 +1,32 @@
+{
+ "id": "4Q468t",
+ "label": "4Q468t",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 486,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468t f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 22566,
+   "source_hash": "fba74dd8bc4b13f852049cfc29084a012df15fd3e6f91be47de7260147b14180",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468t f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only damaged or untranslatable characters (ε, ׃) and reconstructed placeholders.",
+   "line_id": 22567,
+   "source_hash": "99762aabc65aae174137180b8207f552a1c2d6050868954f3bced3df22ab5b14",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

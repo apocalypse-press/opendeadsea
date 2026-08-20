@@ -1,0 +1,81 @@
+{
+ "id": "PAM43666",
+ "label": "PAM43666",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 698,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "PAM43666 f18:1": {
+   "en": "sons",
+   "notes": "The transcription is heavily damaged, with only the plural form of 'sons' recoverable. The phrase evidence suggests a possible contextual rendering of 'between the,' but this is not supported by the visible text. The remaining characters are untranslatable fragments.",
+   "line_id": 35495,
+   "source_hash": "5eeea25d4a5714311589c396d43e5052fdf3595aadec9b675102b3a6380fb9c0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43666 f30:1": {
+   "en": "he separates",
+   "notes": "The transcription contains untranslatable characters and a reconstructed verb form. The verb 'יבד[ ל' is reconstructed as 'he separates' based on the provided lemma and morphology. The other characters (ε, ː) are omitted as they cannot be translated independently.",
+   "line_id": 35496,
+   "source_hash": "1f531b449145c50f250a423fa490bf06f6c72977865de17841fa40395d63cb08",
+   "source_condition": "reconstructed"
+  },
+  "PAM43666 f59:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments (ε] #  #  #ε) with no clear lexical or morphological basis for translation.",
+   "line_id": 35497,
+   "source_hash": "4cc9bbfd03e3a4b68c940068b5e595f62702585a732ba83149b8e49eee055c82",
+   "source_condition": "uncertain"
+  },
+  "PAM43666 f59:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible characters do not form recoverable lexical units.",
+   "line_id": 35498,
+   "source_hash": "9f46f89e31380f585ed567899165d42c46f398700a3570ce189d64fdc73542dc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43666 f59:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible English words due to extensive damage and uncertainty.",
+   "line_id": 35499,
+   "source_hash": "681c5795fcb64420227142b8602e41e7db5ac6f36eefec85a77762f975237b7e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43666 f79:1": {
+   "en": "Levites",
+   "notes": "The transcription is heavily damaged, with only a reconstructed plural form of 'Levi' or 'Levite' recoverable. The surrounding characters (ε and ː) are untranslatable and likely represent damage or editorial marks. The translation reflects the sole recoverable lexical item, 'Levites', with uncertainty noted.",
+   "line_id": 35500,
+   "source_hash": "0de5c82667f959075a09a273b6544bfdd0231fed960c991292dd1603c085542c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43666 f87:1": {
+   "en": "not",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged word (י #  #  # [). The only recoverable word is 'לוא' (not). The final character (׃) is an untranslatable punctuation mark and is omitted from the translation.",
+   "line_id": 35501,
+   "source_hash": "4e5facd0a67fb470407bc83a634c972dfc2abbfb6c747d1e29a9fd1183f58628",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43666 f91:1": {
+   "en": "examine",
+   "notes": "The transcription contains uncertain and untranslatable elements, including damaged characters and an unknown lemma. The verb 'examine' is based on the lemma 'בחר_2' with qal stem and infinitive construct morphology, but its certainty is low due to the damaged form. Other elements are omitted as they cannot be reliably translated.",
+   "line_id": 35502,
+   "source_hash": "fd2b22e540e992b5ea1b08c37b44b64726b423c5bdaaba70a6abdd8c610391ca",
+   "source_condition": "uncertain"
+  },
+  "PAM43666 f91:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain marks.",
+   "line_id": 35503,
+   "source_hash": "3db0d3d84e093130a53d6d165481c8a7e6c3e6015d3964dd3491431e2da836b5",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "id": "4Q227",
+ "label": "4Q227",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 12,
+ "scroll_id": 160,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q227 f1:1": {
+   "en": "the whole just",
+   "notes": "Uncertain due to damaged characters (ε) at the beginning and end of the line, which are omitted from the translation.",
+   "line_id": 8275,
+   "source_hash": "7a8bffdb962951648a4c1fc305bd4f170090da9f2e83eb42591ab2c00a21aa69",
+   "source_condition": "uncertain"
+  },
+  "4Q227 f1:2": {
+   "en": "before Moses",
+   "notes": "The transcription is heavily damaged, with only the phrase 'before Moses' recoverable from the visible text and phrase evidence. The surrounding characters (ε, #, and reconstructions) do not contribute to a defensible translation.",
+   "line_id": 8276,
+   "source_hash": "66abcc5012034716180b239a19fb375f98dd0a16281ea1d7cbc51ad3fc982d1c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q227 f1:3": {
+   "en": "the whole days",
+   "notes": "The initial and final ε characters are untranslatable and omitted. The phrase 'all the days' is supported by repeated phrase evidence, but 'whole' is used to reflect the visible morphology of 'כול'.",
+   "line_id": 8277,
+   "source_hash": "5e0b043bbd3b7f1b839d172cee58a4b9731c50c93df1342a9fbc07776c567663",
+   "source_condition": "clean"
+  },
+  "4Q227 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of two untranslatable Greek letters (epsilon) with no identifiable lexical or semantic content in Hebrew.",
+   "line_id": 8278,
+   "source_hash": "b32e1fa383b2f07da9fd5c1355e9bdc43a577f4e7ff952ae6f48df2c7e9f8288",
+   "source_condition": "clean"
+  },
+  "4Q227 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items translatable into English. The visible forms (ε, ] # כו, שנ?י?[, ε) do not provide sufficient evidence for a defensible translation. The reconstructed term 'שנ?י?[' (possibly 'years') is too uncertain to use.",
+   "line_id": 8279,
+   "source_hash": "31e8305bf477c88d9559c310a39afea4c48e89f74ccb7ff87c73d48b179672f5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q227 f1:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the visible lexical items.",
+   "line_id": 8280,
+   "source_hash": "fcf488ed03cde34ef75db544797888767d8835e7a0e04ee5f0abf97b25cc4720",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q227 f2:1": {
+   "en": "Enoch after who we learned",
+   "notes": "The transcription contains uncertain characters and an unknown lemma at the beginning. The translation reflects the recoverable words in order, with 'Enoch' as the proper noun, 'after' as a preposition, 'who' as a relative pronoun, and 'we learned' as a verb phrase. Uncertainty in the transcription is noted but not bracketed in the translation.",
+   "line_id": 8281,
+   "source_hash": "935bffd9779b41b771616ce578e6025b5c2abc9fa3a2da1b37b173ae0bd7e1df",
+   "source_condition": "uncertain"
+  },
+  "4Q227 f2:2": {
+   "en": "six jubilee years",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters and ambiguous morphology. The term 'יובלי' is translated as 'jubilee' based on its lexical gloss, despite the gloss suggesting 'ram'. The number 'six' is derived from 'שֵׁשׁ_1', though its exact sense is uncertain. The phrase 'שנים' confirms 'years' in the plural.",
+   "line_id": 8282,
+   "source_hash": "4b1941378e0e0b612965a5d721bbd2bf76801826f48b3de27b44f5103af0f6e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q227 f2:3": {
+   "en": "to the midst of the sons of man and he will warn upon all of them",
+   "notes": "The transcription contains an uncertain character ε at the beginning, which is omitted in the translation. The phrase 'among the sons of' is supported by repeated phrase evidence. The verb 'יעד' is translated as 'warn' based on the provided lexical gloss, but its exact sense is uncertain.",
+   "line_id": 8283,
+   "source_hash": "1b01a459a4fc7047c151bf00821acf88ab5c88a1991d827f4ffbdd3b200f4764",
+   "source_condition": "uncertain"
+  },
+  "4Q227 f2:4": {
+   "en": "And also upon the towns, and he will write the whole",
+   "notes": "The first word is a Greek letter epsilon, likely a scribal error or intrusion, and is omitted from the translation. The term 'עירים' is translated as 'towns' based on the provided gloss, though it has multiple possible meanings. The final word 'כול' is translated as 'whole' but could also mean 'all' depending on context.",
+   "line_id": 8284,
+   "source_hash": "66d4ebcd78390a10d763e134ffed2563595ca60f2df94092fbc5e05b3450208e",
+   "source_condition": "clean"
+  },
+  "4Q227 f2:5": {
+   "en": "heavens and their ways of service and the months",
+   "notes": "Uncertainty in transcription and reconstruction affects 'heavens' and 'the months'. The term 'service' is a context-free gloss for 'צבא׳ם', which could also mean 'gazelle' but is interpreted here based on typical usage in similar contexts.",
+   "line_id": 8285,
+   "source_hash": "251feecf37b2481f754c395a96dea3c39e7ee77e56ab51a08cad38446d75dd34",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q227 f2:6": {
+   "en": "[no recoverable text]",
+   "notes": "The line contains heavily damaged and uncertain text with no defensible English translation. Visible forms include uncertain particles, a negated verb form with uncertain reading, and a reconstructed adjective. No coherent phrase can be constructed from the surviving material.",
+   "line_id": 8286,
+   "source_hash": "d842f5e4190b9fbf8d48f2f7d2c3a7f4b014f0d3c14501acdfb0351dc32c7778",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

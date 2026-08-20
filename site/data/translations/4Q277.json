@@ -1,0 +1,172 @@
+{
+ "id": "4Q277",
+ "label": "4Q277",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 22,
+ "scroll_id": 240,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q277 f1i:1": {
+   "en": "unclean",
+   "notes": "The first character 'ε' is untranslatable and omitted. The word 'ט##מאי' is rendered as 'unclean' based on its lexical gloss, but its uncertainty is noted in the source.",
+   "line_id": 11372,
+   "source_hash": "91c944bdec3a9b20d65b1172f3a2df40755c057e1875d72cfd33e8ca62f09135",
+   "source_condition": "uncertain"
+  },
+  "4Q277 f1i:2": {
+   "en": "touching",
+   "notes": "The transcription is heavily damaged, with only the verb 'נגע' (touch) partially recoverable. The initial 'ε' and other characters are uncertain and omitted from the translation. The verb is in the qal participle masculine singular form, rendered as a present participle in English.",
+   "line_id": 11373,
+   "source_hash": "49071383bc2c6579914d938dbb27a3fa945a1023835a2c6f9b40f79c26c73faf",
+   "source_condition": "uncertain"
+  },
+  "4Q277 f1ii:0": {
+   "en": "and he took the priest",
+   "notes": "The initial character 'ε' is untranslatable and omitted. Phrase evidence strongly supports 'he will take the priest' but the visible morphology indicates past tense, so 'he took' is used instead.",
+   "line_id": 11374,
+   "source_hash": "d670ca5b79c9ba5b85c28437abcac3a92583b7fb4e2daad544853707dfca89ec",
+   "source_condition": "clean"
+  },
+  "4Q277 f1ii:1": {
+   "en": "the hyssop and the scarlet maggot he threw into the midst of the burning of the cow",
+   "notes": "Uncertain transcription at position 5; reconstructed text at positions 1 and 6.",
+   "line_id": 11375,
+   "source_hash": "33d96fd6ddc48cbcba6f9a16ae0bfc591f49f45521c6ba5af34b6d0d5c7ae972",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:2": {
+   "en": "And he gathered a man clean from all uncleanness of evening the ashes of the heifer and gave it",
+   "notes": "Uncertain elements include the reconstruction of 'and he gathered' and the meaning of 'evening' (position 8). The phrase 'a man clean' is supported by repeated evidence but with moderate confidence. The object marker 'it' at the end is uncertain due to the suffix form.",
+   "line_id": 11376,
+   "source_hash": "c4a5e64136484fea77785ee7cb3dd8ec8ec7f64c39198ca667231b00a1145ee5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:3": {
+   "en": "In the hand of the priest who covers in the blood of the cow and all the one who touches in the dust and the lifting",
+   "notes": "Uncertain reconstruction of 'covers' (position 6) and 'whole' (position 12). Phrase evidence suggests 'every (the) [one who] touches' for positions 12-14, but this introduces an unsupported participant; retained as 'all the one who touches' to preserve source material. No recoverable text for the final verb's direct object.",
+   "line_id": 11377,
+   "source_hash": "2fac0244fdbebba39141141d82031b3c40afa7552010af9910b39e427df7872b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:4": {
+   "en": "The [object marker] tools of [uncertain term] which they covered in the justice of the sin and washed",
+   "notes": "The term 'חלמה' is uncertain and has no trusted gloss. The phrase 'כפרו בם' is translated based on repeated phrase evidence as 'covered in'. The object marker 'את' is retained as '[object marker]' due to its uncertain function in this context. The final verb 'רחץ' is translated as 'washed' based on its lexical gloss.",
+   "line_id": 11378,
+   "source_hash": "199757baf1d4245f01bc57f58edaed890a4e93596c5975ac25c44d14aee71ff4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:5": {
+   "en": "In waters and he will be unclean unto the evening and he who touches the moist water of impurity will be unclean and not spatter",
+   "notes": "Uncertain elements include the transcription and gloss of 'מים##' (waters?), the reconstruction of '[ ו' (and), the gloss of 'ער ]ב##' (evening?), the heavily damaged 'ה#?ו#?ג#?ע##[' (touches), the gloss of ']לחת' (moist?), and the final verb 'יז ]' (spatter). Phrase evidence supports '(of) the water of (the) impurity' for positions 15-17.",
+   "line_id": 11379,
+   "source_hash": "92dd4e4bf7db7ee2b41290a0486f9bfc4dc6b42952739c8d231752d6f6144f1a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:6": {
+   "en": "A man [will take] the water of impurity upon the unclean person, because a man, a pure priest, spatters",
+   "notes": "Uncertain reconstruction of object marker 'אֵת' and preposition 'עַל'. Unclear lexical gloss for 'טָהֹור'. Phrase evidence supports 'water of impurity' and 'unclean of a corpse', but the latter is not fully recoverable here. Reconstruction of 'נזה' is certain but its exact sense is context-dependent.",
+   "line_id": 11380,
+   "source_hash": "3d4a5afca2c4b229cb8b7b228891c877b1d5395c8a0f461e7b00ade82b6e6af1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:7": {
+   "en": "upon them that you make atonement for him upon the unclean and he deals with not spattering upon the unclean and the receivers",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'you make atonement' is supported by repeated phrase evidence. The verb 'spatter' is uncertain due to damage. The final verb 'receivers' is uncertain due to truncation.",
+   "line_id": 11381,
+   "source_hash": "d802f6e12e4a2064eae44bf62c914967123e774216ea6e88a187e04542317706",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:8": {
+   "en": "The water of impurity shall come in waters and they shall cleanse from the uncleanness of the soul of man and from all",
+   "notes": "Translation follows high-confidence phrase evidence for positions 2-4 and 9-11. Positions 1, 5, 14 are reconstructed; uncertainty noted but not bracketed in translation. Position 18 is damaged; 'and from all' is a conservative rendering of the visible 'from all' with lacuna.",
+   "line_id": 11382,
+   "source_hash": "9575a33d5064e10cb1b877679d610233d1c73c1fe044f0b601c4a4692cf38e22",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:9": {
+   "en": "Other uncleanness in tossing on the priests the water of impurity to be clean that not",
+   "notes": "Uncertain reconstruction of 'other' (א##חרת), 'toss' (ז ]ר##וק#), 'upon them' (עלי?׳ה#ם), 'priest' (כו ]ה#ן?), and 'to be clean' (טהר##׳[ ם). Phrase evidence supports 'the water of impurity' (מי ה נדה) and 'on the priests' (עלי?׳ה#ם הכו ]ה#ן?). No recoverable text for final fragment (כיא לוא ]).",
+   "line_id": 11383,
+   "source_hash": "ef36d9279ded7b3f0615fb8a0788fa28d9933e2aca7248f2c6c49c56769336e1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:10": {
+   "en": "They shall be holy, that if they purify themselves and the flesh, and all who touches it",
+   "notes": "Uncertain particles and conjunctions omitted. 'Flesh' is singular in the source but treated as collective. Relative clause structure is uncertain due to damage.",
+   "line_id": 11384,
+   "source_hash": "3a5a448233202679ea9743d6f601cb2e3e37d4fa7e81d7f0c084629faa849ef4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:11": {
+   "en": "The man who has a flux, and there is no hand washing in water, is unclean",
+   "notes": "Several words are reconstructed or uncertain, including 'hand' and 'wash off'. The phrase 'and there is no' is inferred from the context and may not be accurate.",
+   "line_id": 11385,
+   "source_hash": "6b769f187504cfecc68e0bec487464b3ab6288678101ccecfe80f17045f9b683",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:12": {
+   "en": "couch and seat touched flux as contact uncleanness",
+   "notes": "Uncertain reconstruction and transcription damage affect multiple words, including 'seat', 'touched', 'flux', and 'as'. The phrase is fragmented and some elements are unclear.",
+   "line_id": 11386,
+   "source_hash": "4630c3394c261fe89f3ab89b2c4de50e329be6ac57cebfab4fae0a99f275ab0e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f1ii:13": {
+   "en": "And he will be unclean until the evening, and the one who lifts the garment and washes it will be unclean until the evening.",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'until the evening' is repeated, and the verb 'wash' is uncertain due to damage. The object marker 'את' is reconstructed, and the conjunction 'and' is uncertain in one instance.",
+   "line_id": 11387,
+   "source_hash": "6b9c1c6f10ec55d5ae7335fbbae2c6f985b93321fe87b097160fa5c5b5a2c6a0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains fragmented and uncertain characters (ε, ]ה, א) with no clear lexical or semantic recoverable content. Phrase evidence suggests 'the islands' but lacks direct support from visible morphology or transcription. Reconstruction is speculative and not reflected in translation.",
+   "line_id": 11388,
+   "source_hash": "815bb712b00af89ccea1b4aa2f6365ebb878e5b4b64beaf9132d779fc4edd329",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f2:2": {
+   "en": "from his sacrifice",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged preposition (מ##). The translation reflects the recoverable words 'from' (מִן) and 'his sacrifice' (זֶבַח_1 with suffix). Untranslated elements are omitted, and uncertainty is noted here.",
+   "line_id": 11389,
+   "source_hash": "6702403529892aa05ebf50393cd7a49de47a15e328ce838925c9e732b95d1b79",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f2:3": {
+   "en": "which were written in the instruction",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged word (ת##[ ורה), likely a reconstruction of 'תורה' (instruction). The phrase 'written in the instruction' is supported by repeated evidence.",
+   "line_id": 11390,
+   "source_hash": "c9a5f435dd293b9e0697b7572964e28a497d7d3a742f57e108e9f66fe2e1f6c9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f2:4": {
+   "en": "all the touching in",
+   "notes": "Uncertain transcription and missing context prevent a confident translation. The phrase 'all the touching in' is a conservative rendering of the recoverable words, but the exact meaning is unclear.",
+   "line_id": 11391,
+   "source_hash": "928ee495df2aa3ef70868c891be8671b6e0758b757a3300f32e66a5860353640",
+   "source_condition": "uncertain"
+  },
+  "4Q277 f2:5": {
+   "en": "of the meat of the sacrifice",
+   "notes": "Translation based on phrase evidence for positions 3-4. Positions 1, 2, and 5 contain no recoverable text.",
+   "line_id": 11392,
+   "source_hash": "e68c6cc8dcb800a1f2632d0e20fa050841ae79707770b5aa4f21d8b2969ac1b6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q277 f2:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible. All visible forms are either unknown or too fragmented to interpret.",
+   "line_id": 11393,
+   "source_hash": "ecc47f8e6a3728683eed2c5b4a86efdb3ab027db7588728141aff4de82a1c463",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

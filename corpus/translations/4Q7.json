@@ -1,0 +1,207 @@
+{
+ "id": "4Q7",
+ "label": "4Q7",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 27,
+ "scroll_id": 781,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q7 f1:1": {
+   "en": "In the beginning, God created the heavens and the earth. And the earth was emptiness and emptiness and darkness.",
+   "notes": "The phrase 'he created God' is a repeated pattern, but it contradicts the visible morphology and semantic context. The translation follows the visible transcription and morphology instead.",
+   "line_id": 40228,
+   "source_hash": "3553ad6f86bf5ce828f91fe5cedc80e69d04aba1e37d20531a8e547c7db420b7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f1:2": {
+   "en": "over the surface of the deep and the spirit of God shaking upon the surface of the waters and he said God let it be light",
+   "notes": "Uncertain reconstruction of initial preposition. 'Spirit of God' preferred over 'wind of gods' based on phrase evidence. 'Shaking' retained as context-free gloss for 'marching' verb form.",
+   "line_id": 40229,
+   "source_hash": "dd43cca1a51d1eaf409212fa66c28b069ded02340f1bcd0d9d6007d19b0cce79",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f1:3": {
+   "en": "And there was light and he saw the gods the light that it was good and he separated the gods between the light and between the darkness",
+   "notes": "Uncertain reconstruction of damaged verbs and nouns; uncertain referent for 'the gods'",
+   "line_id": 40230,
+   "source_hash": "7e7d78479c6eb027c2dfbc451fc92d53046e0c2f09d8189913861e6f8e0c480f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f1:4": {
+   "en": "And God called the light Day, and the darkness he called Night. And it was evening, and it was morning.",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence supporting the renderings 'he called God,' 'it was evening,' and 'it was morning.' The verb 'called' is used for 'קרא' based on the lexical gloss and repeated phrase evidence. The sequence preserves the original's grammatical person, number, and semantic relationships without adding unlicensed connectors or participants.",
+   "line_id": 40231,
+   "source_hash": "08d3d3b89884b6feb8e4e6c54a3ff72fa6addec38945dace09b15bcb7f102f63",
+   "source_condition": "reconstructed"
+  },
+  "4Q7 f1:5": {
+   "en": "one day",
+   "notes": "",
+   "line_id": 40232,
+   "source_hash": "82bca5cc83886f4de914bbd3a398cbcd6285c9a9767211126c44225f38db8a9a",
+   "source_condition": "clean"
+  },
+  "4Q7 f1:6": {
+   "en": "And he said, God let there be a firmament in the midst of the waters, and let it be separating between waters and waters.",
+   "notes": "The verb 'יאמר' is uncertain. The phrase 'מב[ דיל' is reconstructed.",
+   "line_id": 40233,
+   "source_hash": "30de22acb83e0b113c362a080e3f73e7d66df5eaac3734b641be09ac52d0741d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f1:7": {
+   "en": "God, the firmament and separated between the waters which [are] from under the firmament and between the waters which",
+   "notes": "The translation includes a reconstructed term 'from' based on the lemma provided for the damaged word. The sentence is incomplete due to the fragment's condition.",
+   "line_id": 40234,
+   "source_hash": "eae71c22f8d862d85246cc45aec4e6e8076b3939fb4ddf20a86fbd1d2051fbd5",
+   "source_condition": "reconstructed"
+  },
+  "4Q7 f1:8": {
+   "en": "Above to the firmament and it was thus. And he called God to the firmament heavens and it was evening and it was morning",
+   "notes": "Uncertain reconstruction of 'heavens' (position 14). Phrase evidence supports 'it was evening' and 'it was morning' for positions 16-17 and 19-20, respectively. Phrase evidence also supports 'he called God' for positions 10-11, with an additional 'to' at position 12.",
+   "line_id": 40235,
+   "source_hash": "1d4ecc93a747c0387d0d246b2c7f80b82a8f701b866efc3f7d8f2af378e2b0da",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f1:9": {
+   "en": "day second",
+   "notes": "The phrase 'days a second' is supported by repeated phrase evidence, but the transcription does not include the plural marker or the preposition 'a'. The translation conservatively reflects only the recoverable words 'day' and 'second'.",
+   "line_id": 40236,
+   "source_hash": "b5eb04c3794fbd1fb31da166f5a38a72c4c7e10f5be721d6b7cbe6f82cede214",
+   "source_condition": "clean"
+  },
+  "4Q7 f1:10": {
+   "en": "And he said God let the waters be collected from under the heavens to a place one and be seen",
+   "notes": "The phrase 'waters from under' is supported by repeated evidence. The phrase 'to a place one' is partially supported by repeated evidence, with 'a place one' being more strongly supported. The verb 'be seen' is a passive form of 'see', matching the visible morphology.",
+   "line_id": 40237,
+   "source_hash": "0ba6f9bacce47c49f7ef9ca947d4a419b942fdaf601ccf815a42fe895271fcf4",
+   "source_condition": "reconstructed"
+  },
+  "4Q7 f1:11": {
+   "en": "And the dry land was thus. And he called God to the dry land and to the gathering of the waters.",
+   "notes": "Uncertainty in the transcription is reflected in the translation of 'was thus' and 'to the dry land'. The phrase 'he called God' is supported by repeated phrase evidence.",
+   "line_id": 40238,
+   "source_hash": "cdec1cd2bf26c2706fb7c81e16c33ca28ab6ffa5056e2a3f69eb3bc70ebd3454",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f1:12": {
+   "en": "And he saw gods that [it was] good And he said gods let the earth grow green vegetation",
+   "notes": "The translation follows the visible morphology and phrase evidence. The phrase 'he saw God (dm) that' and 'God (dm) that [it was] good' are supported by high-confidence phrase evidence. The phrase 'the earth vegetation' is also supported by phrase evidence. The verb 'grow green' is translated based on its visible morphology and lexical gloss. The translation preserves the grammatical person, number, and semantic relationships. Uncertainty is noted for the reconstructed and uncertain word 'יאמ##[ ר'.",
+   "line_id": 40239,
+   "source_hash": "c1651b80490d2f08c11ada7228a3b35275bcf82b31d3216d0e7d5aaf9360fbf3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:1": {
+   "en": "And it was morning, the third day",
+   "notes": "Uncertainty in transcription and reconstruction of 'morning' (ב#ק#ר) and 'day' (י?ום). The character 'ε' and the final punctuation mark are omitted as they cannot be translated independently.",
+   "line_id": 40240,
+   "source_hash": "04fa0b8f237c70ed58bf98131d2d06ea0a4b37a7cba8d858a443af85deec2c38",
+   "source_condition": "uncertain"
+  },
+  "4Q7 f2:2": {
+   "en": "And he said, 'God, let there be luminaries in the firmament of the heavens to separate between the day.'",
+   "notes": "The transcription contains a reconstructed word (firmament) and an uncertain word. The translation follows the highest-supported repeated phrase evidence for the sequence 'he said God let it be' and 'luminaries in the firmament.' The firmament of the heavens is a dominant pattern with strong support. The final clause follows the context-free glosses for the remaining words.",
+   "line_id": 40241,
+   "source_hash": "24d852f2ef5e9b541798263e7f0545ac78491ac5e0a0b7b83d5a771888d61112",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:3": {
+   "en": "And between the night and they will be for signs and for appointments for days and years and they were for lamps",
+   "notes": "Uncertainty in the transcription is noted at positions 8 and 12. The phrase 'it will become (into) a sign' is supported by repeated evidence for positions 6-8, but the translation retains the visible morphology and lexical items. The final verb 'were' is a conservative rendering of the perfect tense, preserving the semantic relationship without adding implied subjects.",
+   "line_id": 40242,
+   "source_hash": "398b83dbd70e794e7d22aa253430c6a7993ab69435dd0d65893ff4311f04e63a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:4": {
+   "en": "In the firmament of the heavens to give light upon the earth and it was thus and God made",
+   "notes": "The phrase 'the firmament of the heavens' is supported by repeated evidence. 'To give light' is a high-confidence rendering of the infinitive construction. 'Thus' is a reconstructed particle with uncertainty. The final clause 'and God made' is literal but incomplete due to damage.",
+   "line_id": 40243,
+   "source_hash": "b2190045b098ead253136bc904921a924bc2ad8c76d8a8f30fa333cb31a08d04",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:5": {
+   "en": "The two lamps, the great ones, the luminary of the dominion of the day, and",
+   "notes": "Uncertainty in transcription and reconstruction affects 'two' (שנ?י), 'great' (ג?[ ד ]ל#ים), and 'the' (ה##). The phrase 'luminaries (the) great' is supported by repeated evidence.",
+   "line_id": 40244,
+   "source_hash": "4e8243da8e9812d48ec266a450971c05abfed67a36a5995874ea3b8d49f51dd9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:6": {
+   "en": "the lamp the small to dominion the night and the stars and he gave them gods",
+   "notes": "Uncertain reconstruction and damage in 'small' (קטו#?ן#?), 'dominion' (ממשל#[ ת), and 'stars' (כוכב##[ ים). Phrase evidence suggests 'they have put (et) gods' or 'I will give (et)'; translation retains 'gave them gods' based on visible morphology and lexical glosses.",
+   "line_id": 40245,
+   "source_hash": "acab288b5a0a441da14c0d20fb232b249e11ecd23f6ca28cd052321d9f4f1156",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:7": {
+   "en": "In the firmament of the heavens to give light upon the earth and to rule in day and night and to separate",
+   "notes": "Uncertain particles and damaged syntax prevent full recovery of the intended relationships between clauses.",
+   "line_id": 40246,
+   "source_hash": "09746976098f33a4d50bf81e0aa40f4981c48a5ce2c2c4283c4be094c7742b5b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:8": {
+   "en": "And between the light and between the darkness, he saw God(s) that [it was] good. And it was evening, and it was morning.",
+   "notes": "The transcription contains reconstructed text and uncertain characters. The phrase 'he saw God(s) that [it was] good' is supported by high-confidence phrase evidence. The phrases 'it was evening' and 'it was morning' are also supported by phrase evidence, though with slightly lower confidence.",
+   "line_id": 40247,
+   "source_hash": "d1348e6c8fb7a57e58751704351e642afdf80e041381f46895d2dcf611fe11cb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:9": {
+   "en": "the fourth day",
+   "notes": "The transcription is partially damaged, and the final character is untranslatable. The word 'רבי' is uncertain due to damage, but its gloss as 'fourth' is retained based on visible morphology.",
+   "line_id": 40248,
+   "source_hash": "497bb6971781885be7ea13b252529d48682a0cd30496ee2381f97625d42f5664",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:10": {
+   "en": "And he said to the gods, Let them swarm, the waters, swarming creatures, a living soul, and let the bird fly upon the earth",
+   "notes": "Uncertain elements include the reconstruction of 'gods' and the exact sense of 'living soul'; the phrase 'let them swarm the waters' is supported by repeated evidence but its syntax is uncertain.",
+   "line_id": 40249,
+   "source_hash": "f9743f95cf5c746a042734b02a42d077f8970a7f15ad51b36e512abc8ab496b1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:11": {
+   "en": "Upon the face of the firmament of the heavens and he created the gods the great sea-monsters",
+   "notes": "The phrase 'he created the gods' follows repeated phrase evidence for positions 8-9. The object marker 'the' before 'great sea-monsters' is implied by the gloss but not directly recoverable.",
+   "line_id": 40250,
+   "source_hash": "97e8a9d8adb436f37be13610c293bc62cdb831b4694ceafac4124c81f9df8de1",
+   "source_condition": "reconstructed"
+  },
+  "4Q7 f2:12": {
+   "en": "Every living creature that swarms the waters of their kinds and every winged bird",
+   "notes": "Uncertain reconstruction of 'creep' (position 6) and damage at position 5. Phrase evidence supports 'every living creature' and 'every winged bird' but the connection between clauses is uncertain.",
+   "line_id": 40251,
+   "source_hash": "7ddfdf4c9a5bfbb069a9796e1fddff95e18e726c4d67e93bf1fa72e0b18e648d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:13": {
+   "en": "To his kind and he saw gods that good and he blessed them gods saying be fertile and be many",
+   "notes": "Uncertain reconstruction of 'bless' and damaged syntax at 'he blessed them gods'. Phrase evidence supports 'God (cmp) saying' and 'he saw God (dm) that' but the plural 'gods' is visible. No recoverable text for the final punctuation mark.",
+   "line_id": 40252,
+   "source_hash": "8e4871b460b2501998b6151c92edb9b943b66c16b2ea5278f129dd5d292fc698",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f2:14": {
+   "en": "And fill the waters in the seas and the birds multiply in the earth",
+   "notes": "Uncertainty in the transcription affects the translation of 'ימי ]ם##' (seas) and 'י?ר##בה' (multiply). The final punctuation mark '׃' is omitted as it has no clear translation.",
+   "line_id": 40253,
+   "source_hash": "61a7a9aa260b53d11bdcfd683341260570d53351b0c0a41520cc6e851846e11d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q7 f3:1": {
+   "en": "And he shaped Yahweh God the human, dust from the soil",
+   "notes": "Uncertain reconstruction of initial characters. Phrase evidence supports 'he shaped Yahweh God' and 'Yahweh God (et)'",
+   "line_id": 40254,
+   "source_hash": "9e898569e3e6d55a11faf9eaf0f166745628dff1cba6361b30ffc7476432b847",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

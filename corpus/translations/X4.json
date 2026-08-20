@@ -1,0 +1,53 @@
+{
+ "id": "X4",
+ "label": "X4",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 1001,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "X4 f1:1": {
+   "en": "I will not go",
+   "notes": "The transcription contains uncertain and reconstructed elements, including untranslatable characters (ε) and placeholders (#). The verb 'אלך' is translated as 'go' based on its morphology and lexical gloss. The particle 'לא' is translated as 'not'. The remaining elements do not contribute to the translation.",
+   "line_id": 52891,
+   "source_hash": "1fbdae61f45c4082f6b2bb442128c9e5fd67adf4f9b29e695998d9576d140a6f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "X4 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and punctuation, with no defensible English words surviving.",
+   "line_id": 52892,
+   "source_hash": "e071978fef5eb793b96bfcb62602ea8e2fa5bc4b6c8f1f10852da3302fc0a5cb",
+   "source_condition": "clean"
+  },
+  "X4 f2:1": {
+   "en": "spring rain",
+   "notes": "The transcription is heavily damaged, with only the reconstructed word 'מַלְקֹושׁ' (spring-rain) recoverable. Two untranslatable characters (ε) are omitted. The reconstruction is uncertain.",
+   "line_id": 52893,
+   "source_hash": "3648bd0a3298b160cc146bbc6ba4ed31d3da2631978cee7b3ec88245f4126736",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "X4 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain fragments, with no defensible English words surviving.",
+   "line_id": 52894,
+   "source_hash": "2e01db10a236de7a80bed5f1842bb52e6f2e150db373f1c469ee741de1a9988b",
+   "source_condition": "uncertain"
+  },
+  "X4 f2:3": {
+   "en": "swear",
+   "notes": "The transcription contains damaged and uncertain elements, including reconstructed characters and unknown glosses. The translation reflects the recoverable lexical item 'אלה', which is glossed as 'swear' among other possibilities. Other elements (ε, ׃) are omitted as they cannot be translated independently.",
+   "line_id": 52895,
+   "source_hash": "560fca32eb5b903d51619dc30a03ef5a7130cb00567f72b57ac4977f3f0e9fa6",
+   "source_condition": "reconstructed"
+  }
+ }
+}

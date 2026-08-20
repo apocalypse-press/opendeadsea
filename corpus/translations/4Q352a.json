@@ -1,0 +1,74 @@
+{
+ "id": "4Q352a",
+ "label": "4Q352a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 340,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q352a fa:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible English words due to extensive damage and uncertainty in the source text.",
+   "line_id": 14051,
+   "source_hash": "ac9880171bb0ed5f46b8c7f757e52d9b7e6b2c2b05a4215102da96859689f528",
+   "source_condition": "uncertain"
+  },
+  "4Q352a fb:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic or Greek lexical units. The visible characters are either untranslatable or uncertain, with no recoverable meaning.",
+   "line_id": 14052,
+   "source_hash": "afdbbc889b20146da7fa849bef42f3fc0e529cb03366bb6aa3735ed5fdf8bcc9",
+   "source_condition": "uncertain"
+  },
+  "4Q352a fb:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew. The visible characters (ε, ], ׃) do not form translatable words.",
+   "line_id": 14053,
+   "source_hash": "6c88f3ede8d6d06548a25ebccffcbe99e5ac950008256617a5d288aa87de09b1",
+   "source_condition": "uncertain"
+  },
+  "4Q352a fc:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain or reconstructed elements, leaving no defensible English words.",
+   "line_id": 14054,
+   "source_hash": "629ca121b08ab4b46a3d0815ae3d00ae249cf56e46394301b9cd832ce0b9974d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q352a fc:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in a translatable form. The visible characters include a Greek letter (ε), a damaged marker (] #), and a Hebrew punctuation mark (׃), none of which can be independently translated into meaningful English.",
+   "line_id": 14055,
+   "source_hash": "dbd87ec52417d3ef430fae635abc257fcce8050c75b47d572cca6f1717391441",
+   "source_condition": "uncertain"
+  },
+  "4Q352a fd:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, including a reconstructed numeral and unidentifiable characters. No defensible English translation can be derived from the surviving material.",
+   "line_id": 14056,
+   "source_hash": "91b11effc9ecc56ddee7a1f34dd3498ff8185269490f1738a78596041d67d513",
+   "source_condition": "reconstructed"
+  },
+  "4Q352a fe:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only damaged or untranslatable characters (ε, #, brackets), with no recoverable lexical content. The reconstructed and uncertain elements provide no translatable material.",
+   "line_id": 14057,
+   "source_hash": "68bd170516a300f1c88316541ba4b7145ec96eb1771d91c1ed42673be20654cd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q352a fe:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and no defensible English words survive.",
+   "line_id": 14058,
+   "source_hash": "02d753dad37bb3a3f96cc08a76e9ff675ee84f2df0a52db60f3192c1bf2f62fc",
+   "source_condition": "clean"
+  }
+ }
+}

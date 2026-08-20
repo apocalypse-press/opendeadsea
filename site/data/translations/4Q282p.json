@@ -1,0 +1,46 @@
+{
+ "id": "4Q282p",
+ "label": "4Q282p",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 265,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q282p f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain characters. Phrase evidence 'living [which]' is unsupported by recoverable tokens. No translation is possible beyond noting the uncertainty.",
+   "line_id": 11543,
+   "source_hash": "57b5b67f4c5f2bc5c120999359783770508122b7e9be90e79962a0929530a52b",
+   "source_condition": "uncertain"
+  },
+  "4Q282p f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a Greek letter (ε) and an uncertain, damaged fragment (]ואן?). No meaningful translation is possible.",
+   "line_id": 11544,
+   "source_hash": "d6aca6b9d32b5ec0931b0c81453e270dbf4fbfeb8974dc7f92aad53ed1c1366e",
+   "source_condition": "uncertain"
+  },
+  "4Q282p f1:3": {
+   "en": "you see",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The verb 'ראה' is translated as 'you see' based on its morphology (2ms, qal, impf). Uncertainty in the transcription is noted but does not affect the translation.",
+   "line_id": 11545,
+   "source_hash": "48b092d5d3cca6854746418209134d4249f54dde64b2e0da81626527a438e755",
+   "source_condition": "uncertain"
+  },
+  "4Q282p f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. The visible characters (ε, ל, ׃) cannot be independently translated into meaningful English.",
+   "line_id": 11546,
+   "source_hash": "29b61db5d9b3cc6673d0f04f3bbe85233d2d6aeb371485297aff8e2a33ea7569",
+   "source_condition": "uncertain"
+  }
+ }
+}

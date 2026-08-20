@@ -1,0 +1,158 @@
+{
+ "id": "8Q2",
+ "label": "8Q2",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 20,
+ "scroll_id": 962,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "8Q2 f1_6:1": {
+   "en": "grasp [uncertain plural form of 'ashur'] in [plural form of 'ma'gal']",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character 'ε', a damaged verb 'תמך', and uncertain suffixed forms 'א ]ש##ר׳י[' and 'מעג ]ל[ ותי׳ך ]'. The lexical glosses for 'אָשֻׁר' and the unknown character are unclear. The translation preserves recoverable elements but notes significant uncertainty.",
+   "line_id": 50142,
+   "source_hash": "a0b5a7a53b3e060cb2a6ca8d44d508cfe828e8355bc2efae3f6a40c4811e2976",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q2 f1_6:2": {
+   "en": "Not they totter at my feet. I will call you that you will sing to God.",
+   "notes": "The phrase 'he will sing to' is supported by repeated evidence for positions 8-9. 'I I will call' is a repeated pattern for positions 5-6, but the second 'I' is redundant in English. The final word 'God' is a context-free gloss for 'אל'.",
+   "line_id": 50143,
+   "source_hash": "b488896d826a39fee67b4b566ce29b752319f29bf47f2f0356341fe10b6a9f20",
+   "source_condition": "reconstructed"
+  },
+  "8Q2 f1_6:3": {
+   "en": "Extend your ear to hear the word. Be special in loyalty.",
+   "notes": "The translation follows the visible morphology and phrase evidence, prioritizing 'incline ear' and 'hear utterance' for positions 1-2 and 4-5. The verb 'be special' is rendered conservatively, and 'loyalty' is chosen from the gloss options for the final term.",
+   "line_id": 50144,
+   "source_hash": "e5eb4a8f632716024f17b411040563978f54e0fb4858db41c1f6fdb39b38ac44",
+   "source_condition": "reconstructed"
+  },
+  "8Q2 f1_6:4": {
+   "en": "Helping, those who seek refuge, arising in his days",
+   "notes": "The transcription is partially damaged, with reconstructions and uncertainty. The phrase 'מת#[ קוממים' is reconstructed and uncertain, and the final word 'ימי ]נ׳ך' is uncertain. The translation reflects the recoverable text, but the exact meaning of the damaged and uncertain portions remains unclear.",
+   "line_id": 50145,
+   "source_hash": "62447cc5f629b643b54ac43350853f39f5f4314c609fd2b2c4aad95f871c572f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q2 f1_6:5": {
+   "en": "Keep me as the pupil, in the shadow of your wings you hide me",
+   "notes": "The phrase 'in the shadow of your wings' is supported by repeated phrase evidence. The phrase 'the pupil' is a literal translation of 'אישון', but the context suggests a metaphorical sense related to the eye. The verb 'תסתיר׳ני' is translated as 'you hide me' to maintain the second-person singular agency and semantic relationship.",
+   "line_id": 50146,
+   "source_hash": "ec743f8204d808d53131db26cd240660eb77ef2e1c75cbb983fe2088b77dfe42",
+   "source_condition": "reconstructed"
+  },
+  "8Q2 f1_6:6": {
+   "en": "from the faces of the guilty who despoil, enemies in the soul they surrounded upon",
+   "notes": "Uncertain reconstruction of initial 'מ' and 'אֹיֵב'; phrase 'they surrounded upon' supported by repeated evidence but with low confidence; 'upon' may indicate height or position.",
+   "line_id": 50147,
+   "source_hash": "e5c707a43a9913f0b14c1a1a13ac8bfce874a3e02a699a6b278c3bde17a901ba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q2 f7:1": {
+   "en": "and your hidden",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The word 'צפונ׳ך' is translated as 'your hidden' based on its morphology and lexical gloss, but the context is unclear. The particle 'ו' is translated as 'and'. The other elements (ε, ] # [, ε) are either unknown or reconstructed and do not contribute to a defensible translation.",
+   "line_id": 50148,
+   "source_hash": "dad87dc2af0db2132de3483c40a0d765036d72f4c1692ccba3b3e3c5ec857013",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q2 f7:2": {
+   "en": "You fill their belly, let the sons be sated, and settle their remainder to their children",
+   "notes": "The phrase 'fill belly' is supported by repeated evidence. 'Sheba the son' is a low-confidence contextual rendering and is not used. The translation follows visible morphology and lexical glosses, with no uncertainty in the source text.",
+   "line_id": 50149,
+   "source_hash": "cb8ec235af6f91a1b29241d916fb7ce68a97771e54febfcc06d4f07ed6bf1f74",
+   "source_condition": "reconstructed"
+  },
+  "8Q2 f8_10:1": {
+   "en": "The cords of Sheol they turned, they met snares of death",
+   "notes": "Translation follows high-confidence phrase evidence for 'the cords of Sheol they' and 'snares of death'. Verb forms 'turned' and 'met' reflect visible morphology. No uncertainty in recoverable text.",
+   "line_id": 50150,
+   "source_hash": "d0cbbde2fb69875069a83209ca21207f1ce7b87b68021576be11f4732dd958c0",
+   "source_condition": "reconstructed"
+  },
+  "8Q2 f8_10:2": {
+   "en": "In the distress of, I call to YHWH and to the gods, I cry",
+   "notes": "The phrase 'to meet' is a high-confidence contextual rendering of positions 3-4, but it does not fit the overall context. 'Distress of' is chosen for positions 2-3 based on repeated phrase evidence. 'O God our salvation' is a possible rendering of positions 8-9, but it introduces unsupported possessives and is not selected. The translation retains the context-free glosses for 'gods' and 'cry' due to lack of stronger evidence.",
+   "line_id": 50151,
+   "source_hash": "41646048a486fe0d7aa6ed3cfa9e7ac00656f75c292516338fe3586d7cb34bc0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q2 f8_10:3": {
+   "en": "He hears from the palace a cry before it comes in his ears",
+   "notes": "Translation follows high-confidence phrase evidence for positions 1-3 and context-free glosses elsewhere. Untranslated source punctuation omitted per instructions.",
+   "line_id": 50152,
+   "source_hash": "65c829a3df3ba0efb4de27bea5cd08eff1d8a094724d591de01a2193c848e817",
+   "source_condition": "reconstructed"
+  },
+  "8Q2 f8_10:4": {
+   "en": "And the earth shook and quaked, and the foundations of the mountains trembled",
+   "notes": "The phrase 'the foundations of the mountains' is supported by repeated phrase evidence. The verbs 'shake' and 'quake' are translated based on their lexical glosses, with 'quake' preferred for consistency in the repeated phrase.",
+   "line_id": 50153,
+   "source_hash": "d39db2eee57af24a490ebee8ce19786f444a6618d112caf825f35170ed6bafda",
+   "source_condition": "reconstructed"
+  },
+  "8Q2 f8_10:5": {
+   "en": "And they shook back and forth because it burned to him; smoke rose in his nose.",
+   "notes": "The phrase 'they shook back and forth because it burned to him' follows repeated phrase evidence for positions 2-5. 'Smoke rose in his nose' follows repeated phrase evidence for positions 7-10. The translation preserves all recoverable lexical items and their order, with no added subjects or connectors.",
+   "line_id": 50154,
+   "source_hash": "91a6092b1c87a5950ae791a2d1ebd3dbf4b20dd524aba0d31281bc41d1646cdb",
+   "source_condition": "reconstructed"
+  },
+  "8Q2 f8_10:6": {
+   "en": "And fire from the mouth will eat coals they burned from",
+   "notes": "The translation follows the highest-supported phrase evidence for the sequence of words, preserving the grammatical structure and semantic relationships. No uncertainty or lacunae are present in the recoverable text.",
+   "line_id": 50155,
+   "source_hash": "b0a5e27ab85f66fdb49bae0d9d3f17a67e4fb1ccead261a7060a36ef7e4cb12e",
+   "source_condition": "reconstructed"
+  },
+  "8Q2 f11_13:1": {
+   "en": "And he extended [the] heavens, and descended, and [there was] thick darkness under his feet.",
+   "notes": "Uncertainty in the reconstruction of 'heavens' and the presence of a final punctuation mark.",
+   "line_id": 50156,
+   "source_hash": "5e40837c459ee34a6ac5ef3928e6882d2d85cf52393a2ea5fb2d17a535b0e051",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q2 f11_13:2": {
+   "en": "And he rode upon a cherub and he flew and he pounced upon the wings of the wind",
+   "notes": "Uncertainty in the reconstruction of 'pounced' and 'upon' due to damage. The phrase 'on the wings of the wind' is supported by repeated evidence.",
+   "line_id": 50157,
+   "source_hash": "6ee1c841d6919911db15c10ad973c5cd3a81df0963cf37b3877574e4d2948c2b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q2 f11_13:3": {
+   "en": "He put darkness in a hiding place, surrounding its cover of foliage",
+   "notes": "Reconstructed and uncertain elements include the hiding place and surrounding details.",
+   "line_id": 50158,
+   "source_hash": "7d1e2675496f87ff4c5184a5ba295e40a3dbd5e1fa4bb5a099f67a74bc18ba5a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q2 f11_13:4": {
+   "en": "Darkness of waters dark clouds of clouds from brightness before their clouds they passed",
+   "notes": "Reconstructed and uncertain elements include the first word 'darkness' and the phrase 'dark clouds of clouds'. The translation conservatively follows the recoverable order and evidence, preserving repetition and syntax as licensed by the source.",
+   "line_id": 50159,
+   "source_hash": "b06ac38f56a055754cbc4202f46f7de838d0c0f70fa9a63fbbc4f306da96d730",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q2 f11_13:5": {
+   "en": "hail and coals of fire",
+   "notes": "The phrase 'coals of fire' is supported by repeated phrase evidence. The transcription includes uncertain and unknown elements, but all recoverable words are translated.",
+   "line_id": 50160,
+   "source_hash": "3449645d5477c83c8f3aa35afa2e36263f7196304959965402495037d8d0a5c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q2 f14:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions.",
+   "line_id": 50161,
+   "source_hash": "31939e14e14f00222cf73d9e227b64978d3f214eb5a39e7aac957a301c970946",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

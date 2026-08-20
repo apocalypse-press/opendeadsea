@@ -1,0 +1,53 @@
+{
+ "id": "4Q249k",
+ "label": "4Q249k",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 184,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q249k f1:1": {
+   "en": "And the inflammation of all, and their eyes pine away, and the soul, and you sowed your seed, and they ate it",
+   "notes": "Uncertain reconstruction of 'מכל##[ ות' as 'of all' and 'אכל׳הו ]' as 'they ate it'. Phrase evidence suggests 'bears seed seed' for 'זרעתם זרע׳כם', but context favors 'you sowed your seed'.",
+   "line_id": 8786,
+   "source_hash": "a1f300bb55cac22374577d85080dc984be151b7bd53a4e343fb3fa08ff73ad54",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249k f1:2": {
+   "en": "Your enemies to emptiness I gave faces in you and you hurt before your enemies",
+   "notes": "Uncertain reconstruction of initial 'your enemies' and conjunction 'and'; contextual phrase evidence supports 'I gave faces' and 'before your enemies'",
+   "line_id": 8787,
+   "source_hash": "af3c6eb297f201389476d9270e1aa3651aad51a9cf1a0acc73a945d52a002f73",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249k f1:3": {
+   "en": "And they ruled over those who hate you, and you fled, and there is no one pursuing you",
+   "notes": "Uncertain reconstruction of 'שונאי׳כ##[' as 'who hate you'; 'ε' at the end is untranslatable and omitted.",
+   "line_id": 8788,
+   "source_hash": "7d6cc80fe804fb4c11fb5465af576478dc821f29cb40e4099c25fb5a89412225",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249k f1:4": {
+   "en": "the guilty",
+   "notes": "Translation based on partially recoverable text. Uncertain characters and reconstructions are not reflected in the translation.",
+   "line_id": 8789,
+   "source_hash": "c54cea3827f73d526a0f9ba0bd32b033dd09fa16aa0956b39dce3cf08398d712",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249k f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions. The visible characters (ε, ש, ː) do not form translatable lexical units.",
+   "line_id": 8790,
+   "source_hash": "3e62c2ea002695a05b9a0605a217f188733426ce8110861ca14539e2f7a85b96",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

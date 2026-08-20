@@ -1,0 +1,95 @@
+{
+ "id": "4Q105",
+ "label": "4Q105",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 11,
+ "scroll_id": 905,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q105 f1_3:1": {
+   "en": "he and his woman and two",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The suffix on 'אשת׳ו' indicates possession by the third-person masculine singular antecedent.",
+   "line_id": 48697,
+   "source_hash": "70528f3d77ae92efb1075b857c2af2c81c2340509f1e455aa0b3253ed44121f3",
+   "source_condition": "clean"
+  },
+  "4Q105 f1_3:2": {
+   "en": "Their sons, the name of the man Elimelech and the name of his wife Naomi and the names of his two sons Mahlon and Kilion the Ephrathites",
+   "notes": "The translation follows the visible transcription and morphology, with high-confidence phrase evidence for 'the name of the man' and 'the name his wife'. The phrase 'there the two the sons' is omitted as it introduces unlicensed participants and connectors. The phrase 'the two sons' is retained as it matches the visible morphology and does not introduce unlicensed content. The final translation accounts for every recoverable word in order, preserving the grammatical person, number, and semantic relationships.",
+   "line_id": 48698,
+   "source_hash": "6764642c0c484ab091ba1e5ed13e6819f2b5e64dad4fdf4f8222b0c7e37fc48a",
+   "source_condition": "reconstructed"
+  },
+  "4Q105 f1_3:3": {
+   "en": "From bread of Judah and they came to the region of Moab and they were there and Elimelech the man of Naomi died and she remained and two sons and they took to wives",
+   "notes": "Positions 3, 7, 23 are reconstructed. Positions 3, 7 are uncertain.",
+   "line_id": 48699,
+   "source_hash": "8c0cd751e3505b04332406d0df478ba480a50df80e827bbd49eca57c01b00c0c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q105 f1_3:4": {
+   "en": "Moabite and the name of the one Orpah and the name of the second Ruth and they sat there as ten years and they will die even both",
+   "notes": "Uncertain reconstruction of 'Moabite' and 'they sat'. Damaged syntax at 'as ten years' and 'they will die even both'. Phrase evidence supports 'ten years', 'the name of the one', 'the name of the second', and 'they will die also both'.",
+   "line_id": 48700,
+   "source_hash": "384b135d092d66c0a95f9e7a7b15e97a2a6e342b17cd4ce531df2a34a10c24f2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q105 f1_3:5": {
+   "en": "Mahlon and Kilion, the woman remained from two boys and from a man, and she arose",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 13, 17, 18, 19. Phrase evidence supports 'two boys' for positions 9-10.",
+   "line_id": 48701,
+   "source_hash": "fe363a749bd26c13e21cab71310bbe9448cd419d1e73e57cbdc391a8b1f87cef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q105 f1_3:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters, with no defensible English translation possible.",
+   "line_id": 48702,
+   "source_hash": "66ee6407591b09e5f31381b387be7b1ff31e523482dc3e82895219f34b4a85dc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q105 f4:1": {
+   "en": "I bore the second sons. Therefore, you will examine them until they grow strong.",
+   "notes": "The transcription is heavily damaged, with several uncertain and reconstructed words. The translation reflects the recoverable text, but the exact meaning remains uncertain due to the damage.",
+   "line_id": 48703,
+   "source_hash": "f4e9be347de2aae03b46ca40753c297a5b33689f7ce53c1a5a58e24bf435d9c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q105 f4:2": {
+   "en": "Therefore will you withdraw to not be to a man to daughters that he was bitter to from",
+   "notes": "Uncertain reconstruction and gloss at positions 3 and 5. Position 10 has a suffixed form with uncertain interpretation. Position 13 has a suffixed preposition with uncertain referent. Position 15 has a suffixed preposition with uncertain referent.",
+   "line_id": 48704,
+   "source_hash": "53dddc665f9544527bbfb32a4ec7e181d8f8b31be7480b10f5a4708c49b7547f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q105 f4:3": {
+   "en": "For she went out in the hand of Yahweh. And they lifted up voice and wept still and kissed",
+   "notes": "Uncertain transcription at positions 4, 5, and 7. Reconstructed text at position 8. Phrase evidence supports 'in the hand of Yahweh' and 'they lifted up voice'",
+   "line_id": 48705,
+   "source_hash": "7e74614d1eab3152897857c922d3d0884e209ae0dee7458061506de9ed0b2421",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q105 f4:4": {
+   "en": "Orpah to her mother-in-law and Ruth clung to it. And she said, Behold, she has returned.",
+   "notes": "The transcription contains a reconstructed word (Ruth) and an uncertain word. The phrase 'it will cling to' is supported by repeated phrase evidence, but the context here suggests a past action, so 'clung to' is used instead. The final word 'returned' is a perfect verb, but the context suggests a past action, so 'has returned' is used to maintain the correct tense.",
+   "line_id": 48706,
+   "source_hash": "9b5510ced9aa7b41fbb66ffcbd043a332de0bed8dc207dedddb28d9a10871c99",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q105 f4:5": {
+   "en": "To your sister-in-law to the people and to God return after your sister-in-law",
+   "notes": "Uncertain reconstruction of 'people' and 'God'. Phrase evidence suggests 'God [is] dwelling' but is not directly applicable here. Translation retains all recoverable words in order, preserving uncertainty and reconstruction.",
+   "line_id": 48707,
+   "source_hash": "63dc535d4355638e82c17142983c35f1185978c0e16cbc3f572c5a2822425ccc",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

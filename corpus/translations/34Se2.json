@@ -1,0 +1,32 @@
+{
+ "id": "34Se2",
+ "label": "34Se2",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 990,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "34Se2 f2i:1": {
+   "en": "to the sons of Levi",
+   "notes": "Uncertainty in transcription and morphology of 'ל#' and 'ב##נ#?י#?' resolved by repeated phrase evidence.",
+   "line_id": 52484,
+   "source_hash": "8ba1455916be79e8eb4ebd4bfcd914088020f4368a2c268a06cc10f8d5171ff2",
+   "source_condition": "uncertain"
+  },
+  "34Se2 f2ii:1": {
+   "en": "to all soul",
+   "notes": "The phrase 'all soul' is uncertain due to damage in the source text. The character 'ε' and the final punctuation mark are omitted as they cannot be translated independently.",
+   "line_id": 52485,
+   "source_hash": "b6444a966e8720603180541c1eadb20d4c59f4a5aec525f7ec5fa12a4e35b5c3",
+   "source_condition": "uncertain"
+  }
+ }
+}

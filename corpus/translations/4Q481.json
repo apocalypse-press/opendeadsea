@@ -1,0 +1,60 @@
+{
+ "id": "4Q481",
+ "label": "4Q481",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 514,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q481 f1:1": {
+   "en": "old men",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The only recoverable word is 'זקנים' (old men). The surrounding characters and fragments are too incomplete to translate confidently.",
+   "line_id": 22832,
+   "source_hash": "b0c5217cc1b6261c42075d2be38e0c5bd4b1d359c064fd0d73767e87c8e3bab6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q481 f1:2": {
+   "en": "judges of doubleness",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters and unclear word boundaries. The translation reflects recoverable lexical items but omits unsupported material.",
+   "line_id": 22833,
+   "source_hash": "272bcef9809ac500cb96657c7be8e966092ef180f229efc3b132e1c7c83b95d1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q481 f1:3": {
+   "en": "taking captive the guilty",
+   "notes": "The transcription includes untranslatable characters (ε) and a reconstructed term (רשעים). The final source character (׃) is a punctuation mark and not translated.",
+   "line_id": 22834,
+   "source_hash": "9b4b4cafe7d9a60e1cfbf86d48ce35c35f41919631ef8547b82e4c9104ffa59c",
+   "source_condition": "reconstructed"
+  },
+  "4Q481 f2:1": {
+   "en": "sea",
+   "notes": "The transcription contains uncertain and reconstructed elements, with only the word 'sea' recoverable. The other characters (ε) are untranslatable and omitted.",
+   "line_id": 22835,
+   "source_hash": "9cecaedcf155a91d8acd08b65d10b032ce2cac1067d89797ac0dc1217387f01f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q481 f2:2": {
+   "en": "Zion will ascend",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The verb 'תעלינ' is reconstructed and uncertain, but its gloss 'ascend' is retained based on morphology. The final 'ε' characters are omitted as they cannot be translated independently.",
+   "line_id": 22836,
+   "source_hash": "d839f95594bd3d977e76ecd371066407d3553462ef9db95dfc220cf58453b6bf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q481 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain characters, with no recoverable lexical items.",
+   "line_id": 22837,
+   "source_hash": "8786958a422ba6c2d9a4890e68d750072457d2b5b8a0a77a9685f2117b6607cb",
+   "source_condition": "uncertain"
+  }
+ }
+}

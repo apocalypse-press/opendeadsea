@@ -1,0 +1,130 @@
+{
+ "id": "4Q560",
+ "label": "4Q560",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 16,
+ "scroll_id": 602,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q560 f1i:1": {
+   "en": "and heart and [no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged lexical unit (כ##[ לין) with no trusted gloss. The lemma 'כְּוּלְיָה' is reconstructed and uncertain, so its translation is omitted. The visible morphology of 'לְבַב' is treated as 'heart'.",
+   "line_id": 31248,
+   "source_hash": "930dd076879aa778664c18b3de55c112c0730b0a513431178bb4756e4e9b23c9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q560 f1i:2": {
+   "en": "to bear her rebellion they bore the abandoned in the bad",
+   "notes": "Uncertain transcription and glosses limit confidence. The translation conservatively reflects visible morphology and lexical items, but meaning remains ambiguous.",
+   "line_id": 31249,
+   "source_hash": "b04fe2b19527a8d51e71ad35deb1d4b633fed50b73607d6dc19196b506637dce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q560 f1i:3": {
+   "en": "He dealt with in the flesh of the males and the female",
+   "notes": "Uncertain meaning of 'לחלחי' and 'חלחלית'; transcription begins with Greek letter epsilon, omitted from translation as it cannot be independently translated.",
+   "line_id": 31250,
+   "source_hash": "8f8268d78771e5e593cfdea15643d9b29d3541403e1d48870b2eb2a6e24de96e",
+   "source_condition": "clean"
+  },
+  "4Q560 f1i:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged and contains untranslatable characters. The visible words 'די', 'עואן', 'פשע', 'אשא', 'עריא', 'אשת', and 'לבב' are insufficient to construct a coherent translation. The verb 'ברא' is uncertain and cannot be reliably translated. No contextual evidence or constraints are available to disambiguate the fragment.",
+   "line_id": 31251,
+   "source_hash": "29547335e3465034037d96de11552484ce0a57ee624e912843cae525c972cedb",
+   "source_condition": "uncertain"
+  },
+  "4Q560 f1i:5": {
+   "en": "He came in the year of violence, the ram and the male, the female who wipes",
+   "notes": "Uncertain elements include the particle 'ε' and the relative particle 'ד##י'. The translation conservatively omits unsupported connectors and retains recoverable words in order.",
+   "line_id": 31252,
+   "source_hash": "b880692d856565415cd3d7e8497c989f805b44ed468cf7869d754aa4f5e94582",
+   "source_condition": "uncertain"
+  },
+  "4Q560 f1i:6": {
+   "en": "[no recoverable text]",
+   "notes": "The line contains heavily damaged and uncertain fragments with no clear lexical items that can be confidently translated into English. The visible transcription and morphology do not provide sufficient evidence for a defensible translation.",
+   "line_id": 31253,
+   "source_hash": "d7b49c6cf86d6456e154cf5c8c543201644469fdce0cbd365773b695f9144349",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q560 f1i:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ע##, א##, ו#?[, ε, ׃) with no clear lexical or grammatical meaning. The only reconstructable particle (וְ, 'and') is insufficient for translation. All other elements are either unknown or too fragmented to interpret.",
+   "line_id": 31254,
+   "source_hash": "3a40234a2db5f6c755311ea7bb67ae4106ce36acd13ed2b8ef76d390244c5733",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q560 f1ii:2": {
+   "en": "before him",
+   "notes": "The transcription is damaged and partially reconstructed. The word 'קודמו' is translated as 'before' based on its lemma and morphology, with the suffix indicating a third-person masculine singular form, likely 'him'. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 31255,
+   "source_hash": "3c43102ff1402d6540991d39dcdd24bd48854898cfac0b4332e442901697076b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q560 f1ii:3": {
+   "en": "And they bless",
+   "notes": "The pronoun 'they' is uncertain due to damage in the source text. The verb 'bless' is reconstructed and uncertain. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 31256,
+   "source_hash": "e9775e85a35fcd7e9c72863ebd0029396f8a58ac47e05a5e882300c3e1974a9f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q560 f1ii:4": {
+   "en": "Before and they circumcise",
+   "notes": "The verb 'מלל' is reconstructed and uncertain, with possible meanings including 'circumcise', 'make signs', 'wither', or 'speak'. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 31257,
+   "source_hash": "da9a2693d5f9e50346ea60c00ccfbde9289b78f1c1e09d4a30d2db9bbc74f3bc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q560 f1ii:5": {
+   "en": "And I wind disturbed",
+   "notes": "The final character 'ε' is untranslatable and omitted. The verb 'מומה' is reconstructed as 'ימה' (disturbed) based on visible morphology.",
+   "line_id": 31258,
+   "source_hash": "b8db638802b34d4b7d61859d0bc7a94d9596152ed0268b8bc2a1f95ddc3fcb46",
+   "source_condition": "reconstructed"
+  },
+  "4Q560 f1ii:6": {
+   "en": "I will make wind a bad man",
+   "notes": "The transcription is partially damaged and reconstructed, with uncertainty in the fourth word. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 31259,
+   "source_hash": "3447a1f1fd8272295cd988f0bab49d20cc21f80cc59910c2c97810df374c1785",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q560 f1ii:7": {
+   "en": "upon earth in clouds",
+   "notes": "The transcription is heavily damaged, with uncertain readings for several words. The particle 'ע##ל#' is translated as 'upon' based on its visible form and morphology. 'א##רע' is rendered as 'earth' following its lexical gloss. The particles 'א' and 'ב' are translated as 'in' based on their morphology and lexical glosses. 'עננין?' is translated as 'clouds' despite the uncertain gloss, as it is the best available interpretation. The final character 'ε' is omitted from the translation as it cannot be independently translated.",
+   "line_id": 31260,
+   "source_hash": "93f5f6f22d42fcded5557a3120939337b5949b68d1e5c170c6844e55853117be",
+   "source_condition": "uncertain"
+  },
+  "4Q560 f1ii:8": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters with no clear lexical or syntactic structure. No defensible English translation can be derived from the surviving fragments.",
+   "line_id": 31261,
+   "source_hash": "832c05c3f951048a70be4ceb9128f5c7c6c8c225b5d41365e415281de5336689",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q560 f2:1": {
+   "en": "they were able to",
+   "notes": "Uncertain reconstruction and missing text in the source. The translation reflects the recoverable verb form 'were able' with a plural feminine subject, but the exact object or purpose is unclear due to damage.",
+   "line_id": 31262,
+   "source_hash": "af23f16d41e848c291ffbb533c25d722917db8ad34c75c2dbca7a199368e0853",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q560 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, including unknown characters (ε, ː), fragmented words, and uncertain morphology. No coherent English translation can be reliably constructed from the recoverable material.",
+   "line_id": 31263,
+   "source_hash": "6a909091f8b898bf9a1399c3a3ee9b6d70ef5cbbd1e9f6fb49af3850803cb371",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "4Q576",
+ "label": "4Q576",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 946,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q576 f1:1": {
+   "en": "And the sons of Jacob came from the field as they heard, and the men were hurt",
+   "notes": "The transcription contains a damaged character at the start, which is omitted in translation. The name 'Jacob' is reconstructed and uncertain. The verb 'heard' is an infinitive construct, and its subject is unclear. The verb 'were hurt' is in the hitpael stem, indicating a reflexive or passive sense.",
+   "line_id": 49754,
+   "source_hash": "088f2062ce92c13bd37f5b99e6f9684fe9beb262e48722f045e0fae81c4dec97",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q576 f1:2": {
+   "en": "And it burned to them mightily that stupidity was made in Israel to lie down with the daughter of Jacob, and thus it is not made. And Hamor spoke to them, saying Shechem.",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence informing the rendering of key sequences. Uncertainty arises from the reconstructed particles and the ambiguous glosses for 'חרה' and 'מאד', which are translated conservatively. The notes clarify these choices without altering the translation's commitment to recoverable text.",
+   "line_id": 49755,
+   "source_hash": "f932e3fb681360150cf1c32a287efe31ccee892d3ba4d74914fabb068143435e",
+   "source_condition": "reconstructed"
+  },
+  "4Q576 f1:3": {
+   "en": "She loved her soul in your daughter, give now her to the woman and be father-in-law, give the house you give to us and take our daughters",
+   "notes": "Uncertain reconstruction of damaged text at positions 1, 15. Phrase evidence and semantic constraints were considered but not directly applied due to lack of high-confidence support. Translation preserves visible morphology and lexical items, omitting unsupported relations and participants.",
+   "line_id": 49756,
+   "source_hash": "f0518bc6b82551f67bf37596d4c554fec58783c2d512070b16ed674c9435d0e7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q576 f1:4": {
+   "en": "To you, and you will dwell, and the land it will belong to your faces, dwell and go about, and seize in it.",
+   "notes": "Uncertainty in reconstruction and damage is present, particularly around the verb 'seize' and the following preposition. The phrase evidence suggests a possible dominant rendering for some word combinations, but the overall sentence structure remains uncertain.",
+   "line_id": 49757,
+   "source_hash": "368d5f47b256e0c242a142a855f8e572f4f3c3e0007b0e495f4f3f114534f384",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q576 f2:1": {
+   "en": "And they were filled for forty days, that thus they were completed the days of the embalmed, and they wept for Egypt seventy days.",
+   "notes": "Uncertain reconstruction in 'embalmed' (חנטי?[ ם); phrase evidence supports 'thus they were completed the days' and 'weep for (et) Egypt'.",
+   "line_id": 49758,
+   "source_hash": "f3502cde1a851413b50c53b2c93c5079da336005365d596692a328a524ca5231",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

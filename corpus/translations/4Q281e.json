@@ -1,0 +1,53 @@
+{
+ "id": "4Q281e",
+ "label": "4Q281e",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 248,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q281e f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items surviving. The visible forms are either incomplete or untranslatable independently, and the reconstruction is speculative. No defensible English words can be derived from the provided evidence.",
+   "line_id": 11452,
+   "source_hash": "147da6b32a2700002742c638c28728f96543d45fdca80c0efda98e150396bba9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q281e f1:2": {
+   "en": "know the evil",
+   "notes": "Uncertain transcription and reconstruction in the source text. The first and last characters are unclear, and the middle section is partially damaged. The verb 'know' is uncertain due to damage, and the article 'the' is implied by the morphology of 'evil'.",
+   "line_id": 11453,
+   "source_hash": "18c73c40fd82ce757fa01aa4feeb94148a956ba72e8b6b9b5e02aa24e9fa061c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q281e f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or fragments that can be translated into English. All visible forms are either uncertain, reconstructed, or lack a trusted gloss.",
+   "line_id": 11454,
+   "source_hash": "a474d881b29577c467e2c73f7f4691de41052dc423f37adc7e363087f91f2131",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q281e f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 11455,
+   "source_hash": "ced2fba6f106cf81fb6e2dca0af21ad060ca53673dca2e7a6da2e80771080391",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q281e f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, including untranslatable characters (ε), uncertain reconstructions (פקי?ד, ח#י[), and unclear punctuation (׃). No defensible English words survive due to the fragmentary nature of the text.",
+   "line_id": 11456,
+   "source_hash": "ddbfcd8583cc2e220da4bff69532b91f22fda70780e307d9e452dfb25a200aa9",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

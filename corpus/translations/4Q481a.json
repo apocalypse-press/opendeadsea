@@ -1,0 +1,116 @@
+{
+ "id": "4Q481a",
+ "label": "4Q481a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 14,
+ "scroll_id": 515,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q481a f1:1": {
+   "en": "help to here",
+   "notes": "Uncertain transcription and reconstruction; possible phrase 'a deliverer for' based on repeated evidence, but not directly supported by visible morphology.",
+   "line_id": 22838,
+   "source_hash": "7d416780e74857d120cc067bf830ffa056bf1dc3844f8c521e5eb98a3ee76456",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q481a f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. The visible characters (ε, ׃) and reconstructed placeholders do not form translatable lexical units.",
+   "line_id": 22839,
+   "source_hash": "6a1bf061ae6f66a6dba66e2dae3b49e92c2212bd0e442dda1511fedda2859c33",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q481a f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain fragments. The visible Hebrew particle 'כי' (ki) is recoverable but lacks context for a meaningful translation. All other elements are either unknown or too damaged to interpret.",
+   "line_id": 22840,
+   "source_hash": "cfb15871b703f1d4311014d78c7f5a8c4cbd8e84648197d6eae30339f01b317b",
+   "source_condition": "uncertain"
+  },
+  "4Q481a f2:2": {
+   "en": "Elisha",
+   "notes": "The transcription includes an uncertain prefix 'ε' and a damaged form of the name Elisha. The prefix is omitted in translation due to uncertainty, and the name is translated based on the provided lemma and gloss.",
+   "line_id": 22841,
+   "source_hash": "e5b257c5873630401fe7854f809d83d7fe5ce2d432f11203de76162ddbaaa18a",
+   "source_condition": "uncertain"
+  },
+  "4Q481a f2:3": {
+   "en": "and he ascended Elisha and they saw",
+   "notes": "The initial character ε is omitted as it cannot be translated independently. The form ]י?על is uncertain, but the visible morphology indicates a third-person masculine singular verb in the qal stem, wayy tense, suggesting 'he ascended'. The final character ː is omitted as it cannot be translated independently.",
+   "line_id": 22842,
+   "source_hash": "6e0dc63d8b86a7c7633bb765ee58119d5c89fab8f5283e3bbbef6448408ad735",
+   "source_condition": "uncertain"
+  },
+  "4Q481a f2:4": {
+   "en": "The sons of the prophets who were in Jericho said to him, 'A spirit has settled upon Elijah and Elisha,' and they came to meet him",
+   "notes": "The phrase 'a spirit of gods' is a contextual rendering of 'רוח אליהו' (a spirit of Elijah), but the text only supports 'a spirit upon Elijah and Elisha'. The verb 'נחה' (settle) is feminine singular, agreeing with 'רוח' (spirit), not 'אליהו' (Elijah). The final verb 'קרת' is an infinitive construct, but the translation uses a finite verb 'to meet' for clarity. The object marker 'אות׳ו' is omitted in the translation as it does not add meaning. The uncertain character at the end of 'אליש ]ע##' is not translated.",
+   "line_id": 22843,
+   "source_hash": "7cd4720427a770c55190ca72b0d07a96a2aef7687d14876ff37b6aff9b48f160",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q481a f2:5": {
+   "en": "Elisha and they bowed down to his own and he said to behold yeah existence the your servants fifty men",
+   "notes": "Uncertain reconstruction at positions 15 and 16. The phrase 'to his own' is a high-confidence contextual rendering of positions 4 and 5. The phrase 'they bowed down to' is a high-confidence contextual rendering of positions 3 and 4. The phrase 'he said to' is a high-confidence contextual rendering of positions 8 and 9.",
+   "line_id": 22844,
+   "source_hash": "8795da9fce18e51c52f65a9b96733b956e67b666b2704de53a370c20747b324b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q481a f2:6": {
+   "en": "The sons of strength will go, yeah, and they will seek the lord, lest he lifted the spirit of Yahweh, and he will throw in one of the mountains.",
+   "notes": "The phrase 'one of the mountains' is supported by repeated phrase evidence. 'The spirit of Yahweh' is also supported by repeated phrase evidence. The translation follows the visible morphology and lexical glosses, with some phrases supported by repeated evidence.",
+   "line_id": 22845,
+   "source_hash": "3b97aa64d1a66309819fca5d4e7ec148d647857ede2b8d66a09efd20f615200e",
+   "source_condition": "reconstructed"
+  },
+  "4Q481a f3:1": {
+   "en": "and he",
+   "notes": "The initial characters are uncertain and not translated. The conjunction 'and' is certain, followed by the pronoun 'he'.",
+   "line_id": 22846,
+   "source_hash": "635b8f5eeddec877907e930d5a4813a28869fe2c1dd956046a3bc6ec84c86662",
+   "source_condition": "uncertain"
+  },
+  "4Q481a f3:2": {
+   "en": "to his counterpart",
+   "notes": "The initial character 'ε' is not translated as it does not contribute to a recoverable word. The translation is based on the visible morphology and lexical gloss of the remaining words.",
+   "line_id": 22847,
+   "source_hash": "0f7a3f03a43e3716a74467acf964654e312fce457edd0990eadf40880223db21",
+   "source_condition": "clean"
+  },
+  "4Q481a f3:3": {
+   "en": "in an elegy and he will say",
+   "notes": "The transcription contains uncertain characters and an unknown prefix, which are omitted from the translation.",
+   "line_id": 22848,
+   "source_hash": "31af344e689f80ed815e483f049434e95ca39d8a4009045105f272650ef9cf50",
+   "source_condition": "uncertain"
+  },
+  "4Q481a f3:4": {
+   "en": "multitude and lord and not",
+   "notes": "The transcription contains an uncertain character (ε) and a damaged word (]ר##ב), which may affect the translation. The word 'multitude' is based on the lemma 'רֹב' but is uncertain due to damage. The translation preserves the recoverable words in order, without adding conjectural material.",
+   "line_id": 22849,
+   "source_hash": "3cdb2a6e14424f99be3070c26d0fd87a2cac758561895a59188a7e6e262cdc1b",
+   "source_condition": "uncertain"
+  },
+  "4Q481a f3:5": {
+   "en": "He lifted in Judah",
+   "notes": "The verb 'lift' is uncertain due to damage in the transcription. The preposition 'in' is certain, and 'Judah' is a proper noun.",
+   "line_id": 22850,
+   "source_hash": "4ca9dcfc2196b771db6b04c99431d17bf401dd9f9ba54450692106333c6742c0",
+   "source_condition": "uncertain"
+  },
+  "4Q481a f3:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a Greek letter epsilon (ε) and a Hebrew sof pasuq (׃), neither of which can be independently translated into meaningful English words.",
+   "line_id": 22851,
+   "source_hash": "0fd58e8ddf51a2a2d9018be538f5c75c7f0ba213945b96bf1621228566ca3513",
+   "source_condition": "clean"
+  }
+ }
+}

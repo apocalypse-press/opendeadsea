@@ -1,0 +1,137 @@
+{
+ "id": "8Q1",
+ "label": "8Q1",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 17,
+ "scroll_id": 961,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "8Q1 f1a:1": {
+   "en": "And Abram ascended from Egypt, he and his woman, and all that was to him and to Lot, to the south. And Abram was heavy.",
+   "notes": "The phrase 'from Egypt that' is a high-confidence reconstruction based on repeated phrase evidence. The phrase 'all that [belongs] to' is a high-confidence reconstruction based on repeated phrase evidence. The term 'heavy' is translated conservatively, preserving the ambiguity of the original text.",
+   "line_id": 50125,
+   "source_hash": "8bbd69ee5c26fefd1f46c31aa9558854d3aa2b63f8842062f31c8ad32a567f50",
+   "source_condition": "reconstructed"
+  },
+  "8Q1 f1a:2": {
+   "en": "Very much in purchase in silver and in gold. And he went to journeying from the south and unto the house to the place which",
+   "notes": "Uncertain transcription in positions 5, 8; reconstructed text in positions 1, 8.",
+   "line_id": 50126,
+   "source_hash": "beb50c7339b33fb1ac435cf37814564651b5fd487b694659412d20460a0b419b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q1 f1a:3": {
+   "en": "It was there his tent in the beginning between the house to and between the Ai",
+   "notes": "Uncertain reconstruction of 'תח ]ל#[ ה' as 'beginning'; phrase 'the house to' supported by repeated evidence; 'אל' translated as 'to' based on repeated phrase evidence; 'עי' translated as 'Ai' per lexical gloss.",
+   "line_id": 50127,
+   "source_hash": "f4794132192cf56c3ee2f69ef809107c7c87b52d45ffa7ad8882a6a1e33f97e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q1 f1+4:0": {
+   "en": "And a son of eight days will be circumcised to all",
+   "notes": "The initial 'ε' is untranslatable and omitted. The phrase 'a son of eight days' is supported by repeated phrase evidence. The verb 'will be circumcised' is a conservative rendering of the nifal stem with imperative force. The prepositional phrase 'to all' is supported by repeated phrase evidence, though its support is partial.",
+   "line_id": 50128,
+   "source_hash": "c54b10d9a7fa3789e53c5628f55393a52cdb12e722cbf8f3c00687ac5e112eb6",
+   "source_condition": "clean"
+  },
+  "8Q1 f1+4:1": {
+   "en": "A male to your generations, one born of the house and a purchase of silver from any son of foreignness who is not from your seed: he shall circumcise one born of your house and a purchase",
+   "notes": "Uncertain transcription and reconstruction in initial word. Lacuna at end of line indicated by closing bracket.",
+   "line_id": 50129,
+   "source_hash": "a0ac7c6d6ce55f063bb4888cabf2ac5dfabfd544f98e3c25f67ba87c5ad872f3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q1 f1+4:2": {
+   "en": "And silver and it will be a covenant in your flesh to a covenant of perpetuity. And an uncircumcised male who is not circumcised the flesh of his foreskin and it will be cut off the person.",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence guiding contextual disambiguation. The phrase 'to a covenant of perpetuity' is supported by repeated evidence for positions 7-9. The rendering of 'the flesh his foreskin' is supported by evidence for positions 18-19. The final clause 'it will be cut off the person' is supported by evidence for positions 21-23. No uncertainty is signaled in the transcription or words_in_order data.",
+   "line_id": 50130,
+   "source_hash": "15447c37e0162f292e6642a5640848a73def2a3c6f6734e3be2a98d6d33f26b9",
+   "source_condition": "reconstructed"
+  },
+  "8Q1 f1+4:3": {
+   "en": "She from the people of my covenant has broken, and he said God to Abraham Sarai your wife not",
+   "notes": "The translation preserves all recoverable words in order. The phrase 'God to Abraham' is supported by repeated evidence. 'Sarai wife' is a supported phrase, but 'your' is added for fluency without altering the proposition. The final 'not' is directly translated from the source.",
+   "line_id": 50131,
+   "source_hash": "5e57212573f8c7c32eeca86a47543a881df0ae15fe0af83b0d8d4b55d37f13ed",
+   "source_condition": "reconstructed"
+  },
+  "8Q1 f1+4:4": {
+   "en": "You will call the name Sarai, for Sarah is her name. And I have blessed her, and also given you a son from her, and I have blessed her, and she has become nations, kings.",
+   "notes": "The translation follows the recoverable text closely, preserving grammatical person, number, and semantic relationships. Uncertainty arises from the damaged transcription and reconstructed words, particularly in the initial phrase. The phrase evidence and lexical glosses guide the rendering of ambiguous terms, but some relationships remain uncertain due to the fragmentary nature of the text.",
+   "line_id": 50132,
+   "source_hash": "139c8ec98eb6251bff0048c6a28f3e09b625804602d75ab644b3872bbbc6a6cb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q1 f1+4:5": {
+   "en": "People from will be. And Abraham fell upon his face. And Isaac laughed. And he said in his heart: To a son of a hundred years will he be born. And if Sarah the daughter.",
+   "notes": "The phrase 'from will be' reflects uncertain syntax in the source. The phrase 'to a son of a hundred years will he be born' follows repeated phrase evidence for positions 18-21. The final sentence is incomplete due to the fragmentary state of the source.",
+   "line_id": 50133,
+   "source_hash": "5d397a97bb84bcbece44f5dc09ed4c0984cafd4e4f691e39995ea8d063645956",
+   "source_condition": "reconstructed"
+  },
+  "8Q1 f1+4:6": {
+   "en": "Ninety years she will bear. And he said, Abraham to the gods, if only Ishmael might live before your faces. And he said, God, verily",
+   "notes": "The phrase 'Ninety years she will bear' is a reconstruction based on the visible text and morphological analysis. The phrase 'before your faces' uses a plural form of 'face' as indicated by the source morphology. The translation 'verily' for 'אבל' is taken from the lexical gloss, as no contextual evidence was provided to suggest an alternative.",
+   "line_id": 50134,
+   "source_hash": "c7ad9fac298aa4f1abc3fe4dc47a955d4ec03547dcd5b6c71bd8cee7a4bbf144",
+   "source_condition": "reconstructed"
+  },
+  "8Q1 f1+4:7": {
+   "en": "Sarah your wife bore to you a son and you called his name Isaac and I established my covenant with him to a covenant of perpetuity for his seed after him",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 50135,
+   "source_hash": "5b3171be6adbf6e3d9f6016608ec7e8a4016754dd9ccfbd565d12c5d3f843fc5",
+   "source_condition": "reconstructed"
+  },
+  "8Q1 f2_3:1": {
+   "en": "And he says YHWH, the cry of Sodom and Gomorrah, that their sin is great, that it is heavy.",
+   "notes": "The transcription contains an uncertain reconstruction at position 7, marked as 'ו#?['. The translation follows the visible morphology and lexical glosses, with 'he says YHWH' supported by repeated phrase evidence.",
+   "line_id": 50136,
+   "source_hash": "608e9abf6ef0b8ec5acc9973c45ebfe1ad54cbfd0833b0b4c1f77234b0f4bbc5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q1 f2_3:2": {
+   "en": "Might I descend now and see as the cry comes to make destruction and if I do not know they turned from there",
+   "notes": "Uncertain elements include the reconstruction of 'מאד' and 'כל#', the gloss of the unknown lemma at position 2, and the uncertain status of ']א#ל׳י'. Phrase evidence was considered but not applied due to low support or lack of direct match.",
+   "line_id": 50137,
+   "source_hash": "145f3fe289f15d74572a8db4a3fcbc2806f3c36f57cc135aad5626b189323119",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q1 f2_3:3": {
+   "en": "The men and they went to Sodom and Abraham still stood before YHWH and Abraham approached and said Even you sweep away",
+   "notes": "Uncertain reconstruction of YHWH in position 12. Phrase evidence suggests 'until stands' for positions 8-9 and 'before Yahweh' for positions 10-12, but the translation follows the visible transcription and morphology.",
+   "line_id": 50138,
+   "source_hash": "45ccf28a3e26434c9ff7c0331941ba93fbe16b74364056557c34ad71702fd2d8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q1 f2_3:4": {
+   "en": "The righteous with the wicked: perhaps there are fifty righteous people in the midst of the city. Even you will sweep away and not lift up a place because of",
+   "notes": "Uncertain reconstruction of initial 'the' and damaged final word. Number 'fifty' is contextually implied but lexically uncertain.",
+   "line_id": 50139,
+   "source_hash": "7a286242b7de547ef4234841ffb6b8167dae3c59c978ac8d06cf90094f8a160b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q1 f2_3:5": {
+   "en": "Fifty the just who are in its midst to cease from making the word as this thing to put to death the just with the guilty and it was",
+   "notes": "The translation includes reconstructed text for positions 1 and 12. The phrase 'the just with the guilty' is supported by repeated phrase evidence. The verb 'to cease' is a conservative rendering of the uncertain gloss for position 8, supported by phrase evidence. The phrase 'this thing to put to death' is supported by phrase evidence, though with lower confidence.",
+   "line_id": 50140,
+   "source_hash": "354e6beb553a839e669300dd97084bb4c5b7ac77923b7fe2c5c736a749435f58",
+   "source_condition": "reconstructed"
+  },
+  "8Q1 f2_3:6": {
+   "en": "As the just, as the guilty, he began to judge all the earth not he will do justice",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'all the earth' is supported by repeated evidence. 'He began to' and 'he will do justice' are contextual renderings of the repeated phrases. The final 'ε' and '׃' are omitted as they cannot be translated independently.",
+   "line_id": 50141,
+   "source_hash": "85db1095b6d4c8fb2b5ced332722839e278c557e2022a1d732cc7672563a1e44",
+   "source_condition": "reconstructed"
+  }
+ }
+}

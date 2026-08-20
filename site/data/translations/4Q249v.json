@@ -1,0 +1,39 @@
+{
+ "id": "4Q249v",
+ "label": "4Q249v",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 195,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q249v f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and no recoverable lexical items.",
+   "line_id": 8852,
+   "source_hash": "066f198fe030b667328e79a56810b7f628832f65b571a48921826c0126785293",
+   "source_condition": "clean"
+  },
+  "4Q249v f1:2": {
+   "en": "for",
+   "notes": "The translation is based on the reconstructed word 'בַּעַד' (distance), but the surrounding characters are uncertain and not independently translatable. The initial and final 'ε' are omitted as they do not contribute to the meaning.",
+   "line_id": 8853,
+   "source_hash": "c040bfb39cd79850ecc4c83fa32e423cc98318b5d6a98769e84232e24c35181c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249v f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (ε, ׃) with no clear lexical or semantic content. Reconstructed elements are speculative and do not provide translatable material.",
+   "line_id": 8854,
+   "source_hash": "f0f1aeab38349cfe5658b9383d640aa23c0acf2b0d78528d8e88ff01eb5d4822",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

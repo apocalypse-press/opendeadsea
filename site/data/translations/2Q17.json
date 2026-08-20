@@ -1,0 +1,81 @@
+{
+ "id": "2Q17",
+ "label": "2Q17",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 771,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q17 f1:1": {
+   "en": "He desires to redeem you and I am alive by the life of Yahweh lie down until the morning and she lay down",
+   "notes": "The phrase 'by the life of Yahweh' is a high-confidence repeated phrase. The verb 'desire' is reconstructed. The suffix on 'redeem' is uncertain. The translation conservatively retains all recoverable elements without adding implied subjects or connectors.",
+   "line_id": 39789,
+   "source_hash": "a8753fa65c1349cb5f78c1bbb8e66f11366fbb809839759a9ceaeb4ebbb3a451",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q17 f1:2": {
+   "en": "Until the morning and she will arise in, before he recognises the man his fellow and he will say not",
+   "notes": "The phrase 'each (et) neighbor' is a repeated pattern, but it does not fit the context here. The translation follows the visible morphology and lexical glosses, with uncertainty in the meaning of 'מ[ רג ]לתי׳ו' and 'טרום'.",
+   "line_id": 39790,
+   "source_hash": "89914dfa4250195a4a07f5cc9d106e8747e55062aa780a118e75577def2ab125",
+   "source_condition": "reconstructed"
+  },
+  "2Q17 f1:3": {
+   "en": "He knows that the threshing-floor has come, and he said, 'Give the cloak that is upon you, and seize it, and she seized it.'",
+   "notes": "The translation follows the visible morphology and phrase evidence. The phrase 'he said give' is supported by repeated evidence (positions 8-9). The clause 'he knows that the threshing-floor has come' is reconstructed based on semantic constraints and phrase evidence (positions 1-3). The verbs 'seize' and 'she seized' are translated based on their morphology and lexical gloss, with the latter supported by phrase evidence (positions 15-16 and 18).",
+   "line_id": 39791,
+   "source_hash": "4288a0968dd6c1bb8d35e6bb0811a87980119d7e1bf3b2ad840f97ba86c2791b",
+   "source_condition": "reconstructed"
+  },
+  "2Q17 f1:4": {
+   "en": "And he measured there six barley and he put upon and he came the city and she came to the mother-in-law",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'he came the city' is supported by repeated phrase evidence. The word 'barley' is a context-free gloss for the reconstructed form 'שערי[ ם'. The final phrase 'she came to the mother-in-law' is a direct translation of the visible words, though the relationship between this phrase and the preceding text is unclear.",
+   "line_id": 39792,
+   "source_hash": "213977659f6aa415164800c36389cd9408823680b68a2d6ea65512111a85c095",
+   "source_condition": "reconstructed"
+  },
+  "2Q17 f1:5": {
+   "en": "And she said, What, you daughter? And she reported to her all that the man did. And she said",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence informing the rendering of 'what, you daughter?' and 'all that the man did.' The final 'and she said' is incomplete due to the damaged transcription.",
+   "line_id": 39793,
+   "source_hash": "cf757180210e5671ad0d63a67c8790b73ad62e585b09899a7591d1f1c5502c87",
+   "source_condition": "reconstructed"
+  },
+  "2Q17 f1:6": {
+   "en": "Six the barley these I gave to that she might not come with empty hands to your mother-in-law and she said",
+   "notes": "The phrase 'these I gave' is supported by repeated phrase evidence. The verb 'gave' is reconstructed and uncertain. The phrase 'to your mother-in-law' is uncertain due to the suffix form. The final 'and she said' is incomplete due to the fragment's end.",
+   "line_id": 39794,
+   "source_hash": "f4b64b691f78273c283911a6f7a63dc71a1dd3d5a2cccaae69a9841e6bc09a6d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q17 f1:7": {
+   "en": "Sit, O inhabitant of the daughter, until you know how a word has fallen",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'it has fallen a word' and 'O inhabitant[s] of the daughter'. The final clause combines recoverable elements with necessary English syntax, preserving the source's grammatical person and number. Uncertainty in the transcription and reconstruction is noted but does not alter the translation's structure.",
+   "line_id": 39795,
+   "source_hash": "7a90ba93c49f74a31d259840676021924c2890f4bc238671818f0e5c3581c8ac",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q17 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible forms include damaged Greek and Hebrew letters without clear lexical meaning. Repeated phrase evidence and lexical glosses do not provide sufficient context for translation.",
+   "line_id": 39796,
+   "source_hash": "675f9ad0e20abfcd5008cb415c9a9bde958210636edcc347173305cbe09c25d5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q17 f2:2": {
+   "en": "all which",
+   "notes": "The transcription is heavily damaged, with uncertain reconstructions and unrecoverable text. The translation reflects only the recoverable words 'כול' (all) and 'אשר' (which), with uncertainty noted.",
+   "line_id": 39797,
+   "source_hash": "aefc414839d8332e018ad5b7db95f24f6319a63ca32bdbb34c11eb9f2f267a6e",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

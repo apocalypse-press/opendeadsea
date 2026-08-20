@@ -1,0 +1,53 @@
+{
+ "id": "11Q26",
+ "label": "11Q26",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 689,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "11Q26 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments without sufficient context or identifiable lexical items.",
+   "line_id": 35388,
+   "source_hash": "dbe850568f6bb5936588cf41059394e001e7acc8488055711506aa65c4559be6",
+   "source_condition": "clean"
+  },
+  "11Q26 f1:2": {
+   "en": "and [no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged verb form (התבל[). The only recoverable word is the conjunction 'and' (וְ).",
+   "line_id": 35389,
+   "source_hash": "d746a699dbef5229632be281c1cedf87318b6dd04eabd391676d008da8669d9f",
+   "source_condition": "reconstructed"
+  },
+  "11Q26 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]יתנ?[) with no clear lexical or morphological basis for translation. The reconstructed element ]יתנ?[ is too fragmentary to determine meaning. No contextual or repeated phrase evidence is available to aid interpretation.",
+   "line_id": 35390,
+   "source_hash": "b9c17afe659a756f916e455ce5e9bd09cf68c2cced24497730125f8451f88e7b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q26 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and punctuation marks. The visible characters (ε, #, ׃) do not form translatable lexical units. The reconstruction is speculative and cannot be translated with confidence.",
+   "line_id": 35391,
+   "source_hash": "abbd595efaa8d65e38de0915c03eb66cd7f1c073acb3659738befa2482efdb63",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q26 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions.",
+   "line_id": 35392,
+   "source_hash": "32b4d79ad69ee78d0a819a8d90eceb2cdf3df796c46bf004da6658eaf996113e",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

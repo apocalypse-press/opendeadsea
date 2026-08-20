@@ -1,0 +1,88 @@
+{
+ "id": "4Q292",
+ "label": "4Q292",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 279,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q292 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε) and an uncertain suffix (]בי׳ה##) with no clear meaning. No defensible English words survive.",
+   "line_id": 11903,
+   "source_hash": "2c9e3b201a3584c89e355a571e999717b4b7d0665c474a93a77d755d7bd76fc7",
+   "source_condition": "uncertain"
+  },
+  "4Q292 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions.",
+   "line_id": 11904,
+   "source_hash": "13a2d472539c29d7eaf7a927b46b10b1a1aaef462c75347619116b00e3e1d5c4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q292 f1:3": {
+   "en": "compassion",
+   "notes": "The transcription contains untranslatable characters and a reconstructed word. The word 'רחמי[' is reconstructed and translates to 'compassion'. The other characters (ε and ׃) cannot be translated independently and are omitted.",
+   "line_id": 11905,
+   "source_hash": "57319e975fdbd9dffcb308b25195b2bb699894628c1da6bc8393cb4d8ac0474f",
+   "source_condition": "reconstructed"
+  },
+  "4Q292 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragmented characters and uncertain marks.",
+   "line_id": 11906,
+   "source_hash": "fdcd907832e07f9e3ac462384054bad7f38093e2ebc5a894cf972fffbf2f39f6",
+   "source_condition": "uncertain"
+  },
+  "4Q292 f2:2": {
+   "en": "in her heritage that",
+   "notes": "The initial Greek letter epsilon (ε) and the damaged Hebrew characters are omitted due to uncertainty in their translation. The damaged Hebrew characters (ה##) are also omitted, as their meaning cannot be reliably determined.",
+   "line_id": 11907,
+   "source_hash": "2dad2e10d3c174f547f0ad7af3179c2167edba93cb9d5d1fbf892c12b0a92b32",
+   "source_condition": "uncertain"
+  },
+  "4Q292 f2:3": {
+   "en": "Add as from a thousand times and you have blessed",
+   "notes": "Uncertainty in the transcription and morphology of positions 3 and 4. The phrase 'from a thousand' is supported by repeated phrase evidence, but the exact relationship between 'add' and 'from a thousand' remains unclear.",
+   "line_id": 11908,
+   "source_hash": "5a664291b358938891b2168de7aae7219d32b944bb7a3af56635c0c8be3539f4",
+   "source_condition": "uncertain"
+  },
+  "4Q292 f2:4": {
+   "en": "to the hand of all the servants of the prophets",
+   "notes": "Uncertain elements include a damaged prefix and a partially preserved word. The phrase 'all the servants of' is supported by repeated evidence, though with moderate confidence.",
+   "line_id": 11909,
+   "source_hash": "35d92c1650638d44b50cbd62ca3b03e339716a0a1ebd485fbb6baf3c2bdd316e",
+   "source_condition": "uncertain"
+  },
+  "4Q292 f2:5": {
+   "en": "peace surely surely",
+   "notes": "The translation includes all recoverable words in order. Uncertain and reconstructed elements are omitted from the translation but noted here. The initial Greek letter 'ε' and the following uncertain fragments ]נ?י, המ##[, and ] # ד are not translated due to insufficient evidence. The final punctuation mark (׃) is omitted as it does not translate to English.",
+   "line_id": 11910,
+   "source_hash": "8f1c0e5fdaae26bcec750515ad582bfec3127da8508783d01ead0175e9722f68",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q292 f2:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' with no clear Hebrew or Aramaic context. No recoverable text can be defended.",
+   "line_id": 11911,
+   "source_hash": "50a2168ef37e1bdccafa3dc8ae3ace029def72f30c17098b5f8a903d01e65aea",
+   "source_condition": "clean"
+  },
+  "4Q292 f2:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a Greek letter epsilon (ε) and a Hebrew sof pasuq (׃), neither of which can be independently translated into meaningful English words.",
+   "line_id": 11912,
+   "source_hash": "a3a603a1686596fadbc10d02adf6f70a0d98843532e9501695b8238a69c55bed",
+   "source_condition": "clean"
+  }
+ }
+}

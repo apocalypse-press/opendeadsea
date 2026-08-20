@@ -1,0 +1,74 @@
+{
+ "id": "4Q12",
+ "label": "4Q12",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 789,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q12 f1:1": {
+   "en": "and they dug a well",
+   "notes": "The transcription includes uncertain and reconstructed elements, particularly in the verb 'י?חפר['. The phrase evidence supports the rendering 'they dug a well' despite the uncertainty in the verb form.",
+   "line_id": 40664,
+   "source_hash": "039767dfbeccc1661c70d4d2e127734283b1c71470fe495b116658aabb5d22a1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q12 f1:2": {
+   "en": "Another will contend even upon her and he called Shem Sitnah And he advanced from there and he dug a well of ends and not",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'he dug a well' is supported by repeated evidence, but 'of ends' is uncertain. 'Shem Sitnah' is a proper name with uncertain interpretation.",
+   "line_id": 40665,
+   "source_hash": "a77746591ac6a4906289e077e31c98703ac77af9614ba685ed06c5f234463f77",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q12 f1:3": {
+   "en": "And he called it Rehoboth, and said, 'Now Yahweh has made room for us, and we have become fertile in the land.' And he ascended from there, from Beer Sheba.",
+   "notes": "The phrase 'Beer Sheba' is a reconstruction based on repeated phrase evidence. The verb 'he will enlarge' is a possible interpretation of the phrase 'he will enlarge Yahweh', but it is not supported by the context. The phrase 'wide it will become (into)' is also a possible interpretation, but it is not supported by the context. The phrase 'Yahweh to' is a possible interpretation, but it is not supported by the context. The phrase 'she called name' is a possible interpretation, but it is not supported by the context.",
+   "line_id": 40666,
+   "source_hash": "4ea3126ab0fc376bc9b671412672fe2fc93e65e05066641a6a5b7650d7af5905",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q12 f1:4": {
+   "en": "And he saw to YHWH in the night that and he said I the God of Abraham father not fear",
+   "notes": "Uncertain reconstruction at the beginning and end of the line. Phrase evidence supports 'the night that', 'he said I [am] the God', 'the God of Abraham', and 'of Abraham father'.",
+   "line_id": 40667,
+   "source_hash": "99fade859354054f7a51e087329f10cf11743b1dcc13bc8c45ea191d742f19b3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q12 f1:5": {
+   "en": "For you I, and I blessed you, and I multiplied your seed for the sake of Abraham my servant. And he built there an altar and called it in the name of Yahweh and he extended",
+   "notes": "The translation follows visible morphology and phrase evidence where available. Uncertainty arises from reconstructed text and an uncertain verb form at the end. The phrase 'in the name of Yahweh' is supported by repeated evidence, as is 'he built there an altar.' 'Abraham my servant' is a less-supported but plausible rendering of the phrase evidence. The final verb 'he extended' is uncertain due to damage and reconstruction.",
+   "line_id": 40668,
+   "source_hash": "349493811536e14e03257276a2251f685132366fc0a2f11ef3e4620b6952b9a1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q12 f1:6": {
+   "en": "There his tent, and they dug there the servants of Isaac a well. And Abimelech went from Gerar and Ahuzzath his friend and Phicol",
+   "notes": "The translation preserves the reconstructed and uncertain elements as per the input. The phrase 'the servants of Isaac' is supported by repeated phrase evidence. The verb 'went' is translated based on the visible morphology and lexical gloss. The names 'Abimelech', 'Gerar', 'Ahuzzath', and 'Phicol' are translated directly from the input.",
+   "line_id": 40669,
+   "source_hash": "11426f20533d094412cb6529de741de84cb349983bca7c49ab316754bca6fe98",
+   "source_condition": "reconstructed"
+  },
+  "4Q12 f1:7": {
+   "en": "The commander of the army and he said to Isaac why have you come to and you you hate and send from",
+   "notes": "Uncertain reconstruction of damaged text at positions 18 and 21. Phrase evidence supports 'to Isaac' and 'why have you come to' but introduces unsupported subjects. Omitted uncertain objects and connectors not licensed by recoverable tokens.",
+   "line_id": 40670,
+   "source_hash": "0fda496575870d101ad13ad1257f5027e4a9e31e86a4a1315f5f93ed2dea47aa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q12 f1:8": {
+   "en": "see",
+   "notes": "The first word is a reconstructed fragment with no recoverable meaning. The Greek letter 'ε' and the final punctuation mark are omitted as they cannot be translated independently. The verb 'ראו' is translated as 'see' based on its lexical gloss.",
+   "line_id": 40671,
+   "source_hash": "5b50ca875a7a8ec1e28a19391d53be6d75ac37dcd77771ae65cdf3078b42424c",
+   "source_condition": "reconstructed"
+  }
+ }
+}

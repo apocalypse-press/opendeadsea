@@ -1,0 +1,151 @@
+{
+ "id": "4Q325",
+ "label": "4Q325",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 19,
+ "scroll_id": 314,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q325 f1:1": {
+   "en": "The Passover day, third, in eight-teen, in sabbath upon Jehoiarib",
+   "notes": "Uncertain reconstruction of 'שלי' as 'third'; uncertain reconstruction of 'ע#' as 'upon'; untranslatable character 'ε' at the end.",
+   "line_id": 13770,
+   "source_hash": "deff447d4c950c8f99474d1990104c7ad44403b2adc5266dc0f04ecd2c24e2ca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f1:2": {
+   "en": "In the evening, on the twenty-fifth, on the Sabbath, upon Jedaiah, and they ascended",
+   "notes": "The initial 'ε' and final 'ε' are untranslatable. The particle 'ב' is repeated and translated as 'in' or 'on' based on context. The phrase 'ב׳ו שבת' is translated as 'on the Sabbath' based on repeated phrase evidence. The verb 'עלו' is reconstructed and translated as 'they ascended'.",
+   "line_id": 13771,
+   "source_hash": "0a2bd2f0ec0c659c93b90846e4b4ac81a539bd92cf97c193e706fe4e8ca96889",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f1:3": {
+   "en": "An appointment of barley in twenty and six in after the sabbath. The head of the month the second",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the first word and the final numeral. The phrase 'the head of the month the second' is supported by repeated evidence, but 'I will rejoice in' for positions 6-7 is not applied as it does not fit the context. The translation conservatively preserves all recoverable words and their order, with no added connectors or subjects.",
+   "line_id": 13772,
+   "source_hash": "54b4743ab1903c126afd2e39caa267d831847df972508dce5c19038b8f313afe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f1:4": {
+   "en": "In six, in the sabbath, upon Jedaiah. Of two in the sabbath of Harim. In nine, in the sabbath.",
+   "notes": "Uncertainty in the transcription of 'Jedaiah' and the final 'sabbath'. Phrase evidence supports 'of two in' and 'ninth in', but the latter is less certain. The final 'in' is uncertain due to damage.",
+   "line_id": 13773,
+   "source_hash": "29f4093c933646e0cc8d502663f8a31b857d6a064bf05f5c1be29eb73e159bed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f1:5": {
+   "en": "Barley in six-teen in sabbath Malkijah in twenty and three",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'six-teen' is supported by repeated phrase evidence. 'In sabbath' is a plausible rendering based on the provided data. The final part 'twenty and three' is a direct translation of the visible words, though the exact relationship between these numbers is unclear.",
+   "line_id": 13774,
+   "source_hash": "7eac972e8615750bf1a4eee7f881aa8890f8cd546a9375dbd62b55b95af7d58f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f1:6": {
+   "en": "[sabbath] who. In three days ago when the sabbath of the thorn-bush. Head of the month",
+   "notes": "Uncertain reconstruction at position 5; no recoverable text for positions 3 and 10.",
+   "line_id": 13775,
+   "source_hash": "b8ef1eebf067ecfca5f83bb2f4537a8d9c251a8bbe1db04d4c658676c761e667",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f1:7": {
+   "en": "the third after the sabbath",
+   "notes": "",
+   "line_id": 13776,
+   "source_hash": "6e3dcb3e22ae155b5e01a29cd467c9bf62e8c6a962871925f64c42c478297e49",
+   "source_condition": "clean"
+  },
+  "4Q325 f2:1": {
+   "en": "In six, in sabbath, upon Bilgah. In two, in sabbath, upon Immer. In three",
+   "notes": "Uncertain reconstruction of 'Immer' and 'three'. Phrase evidence suggests 'of two in' and 'three by', but these are not fully supported by the visible text.",
+   "line_id": 13777,
+   "source_hash": "73723cf78c6f698dfdfb102da98666371f0142b86e16782c1c40726efff7ed49",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f2:2": {
+   "en": "The appointment of wine after the sabbath upon Immer. In the ninth in sabbath Hezir.",
+   "notes": "The phrase 'ninth in sabbath' is supported by repeated phrase evidence. The proper names 'Immer' and 'Hezir' are retained from the lexical gloss.",
+   "line_id": 13778,
+   "source_hash": "a34cad15ae66c671817dd58e546422c6b6de4677a66fc8c208999679ed0197fb",
+   "source_condition": "reconstructed"
+  },
+  "4Q325 f2:3": {
+   "en": "In six teen in the sabbath shatter in twenty and three in the sabbath",
+   "notes": "Uncertain reconstruction of 'twenty' (position 10). Phrase evidence suggests 'six-teen' (positions 2-3) and 'in sabbath' (positions 13-14), but the overall syntax is fragmented.",
+   "line_id": 13779,
+   "source_hash": "d6257bac11a22ed1e35c6b28bf95790f0218b1d4d73104f971532b180b25185e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f2:4": {
+   "en": "Pethahiah in thirty in sabbath upon Ezekiel head of the sixth month",
+   "notes": "The phrase 'head of the sixth month' is a reconstruction based on repeated phrase evidence. The word 'שלושים' is translated as 'thirty' rather than 'grandsons' based on its morphological tagging as a number.",
+   "line_id": 13780,
+   "source_hash": "1c5ab3783308d60a6a213e5a395011998ea01152f05cde30d1972883808ebe05",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f2:5": {
+   "en": "After the sabbath upon Ezekiel. In seven in sabbath Jakin. On four-teen",
+   "notes": "Uncertain reconstruction of 'four-teen' and damaged characters at the end of the line.",
+   "line_id": 13781,
+   "source_hash": "2bf7744fd02da3936ed195e8e8f538171184221cf467fff94220cceb0bef5455",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f2:6": {
+   "en": "In the sabbath of Gamul, in twenty and one in the sabbath of Delaiah, in twenty and two",
+   "notes": "The transcription contains reconstructed elements and punctuation marks that cannot be translated independently. The phrase 'in the sabbath of' is supported by repeated phrase evidence.",
+   "line_id": 13782,
+   "source_hash": "72352975bee3fa6d6404a5b97558457e098e516fe4198bd0817d350fa9dc13db",
+   "source_condition": "reconstructed"
+  },
+  "4Q325 f2:7": {
+   "en": "In the appointment of the oil after the sabbath upon Delaiah. After its appointment the offering of the wood(s)",
+   "notes": "The phrase 'at its appointed' is a repeated phrase evidence for positions 1-2, but 'in the appointment' is chosen to match the visible morphology and context. The phrase 'the offering of the wood(s)' is a repeated phrase evidence for positions 12-14.",
+   "line_id": 13783,
+   "source_hash": "92e30880845682410cb2af58a13e8b960f251d32c784fff2d8619c4f3c511d30",
+   "source_condition": "reconstructed"
+  },
+  "4Q325 f3:0": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 13784,
+   "source_hash": "05a98863a6f3826eb7058affb6e68be6b5646081b907b6b44ed51db689577fdc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f3:1": {
+   "en": "sabbath Bilgah",
+   "notes": "The transcription contains untranslatable characters and a damaged lexical unit. The lemma 'בִּלְגָּה' is reconstructed and uncertain.",
+   "line_id": 13785,
+   "source_hash": "016c87d043e284bcf44033f1805eb57db1bb8caa9f7e04475a1e0b2b4a7e4fbf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f3:2": {
+   "en": "the head of the month",
+   "notes": "Uncertain transcription and reconstruction in 'the' and 'month'. Two unrecoverable characters omitted.",
+   "line_id": 13786,
+   "source_hash": "8a4a48ed992d0f27235b67da420b167e3a078cef3f8d89066ba81f1ff1e0fcc1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f3:3": {
+   "en": "these the appointed times of Yahweh convocations holiness",
+   "notes": "Uncertain reconstruction of 'appointed times' and ambiguous phrase structure. Omitted connectors and possessives due to lack of explicit evidence.",
+   "line_id": 13787,
+   "source_hash": "44dcdc2ba1c38945474b6172f13bca7d43023159af3ead604ddeebb0d30d8e61",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q325 f3:4": {
+   "en": "which you will call them in their appointment",
+   "notes": "The phrase 'which you will call' is supported by repeated phrase evidence. The object marker 'them' is directly translated from the suffix. 'Appointment' is a context-free gloss for the noun. Uncertain characters and punctuation are omitted.",
+   "line_id": 13788,
+   "source_hash": "3fca3a08b177699171b4267ed25110509dc637c9a0e4bebe602758e919d7dba5",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

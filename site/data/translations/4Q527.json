@@ -1,0 +1,39 @@
+{
+ "id": "4Q527",
+ "label": "4Q527",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 565,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q527 f1:1": {
+   "en": "Which were hidden to the festival of the Lord",
+   "notes": "Uncertain reconstruction of 'נ?צפנים' and 'א#ד#[ ( ו )ני'. The final 'ε' is untranslatable and omitted.",
+   "line_id": 29307,
+   "source_hash": "b421710c5fd52e82e33be996fe35bfc37bc77f5916e907b9b164d7b480aa6095",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q527 f1:2": {
+   "en": "to the peace thus",
+   "notes": "The transcription is heavily damaged, with one reconstructed word and one uncertain word. The phrase 'to the peace' is supported by repeated evidence, but its contextual rendering is not strongly dominant. The final 'thus' is a conservative translation of 'כן', though its exact sense is uncertain.",
+   "line_id": 29308,
+   "source_hash": "5d4cc3ba2903c792498810784d7d30555523ff7c131d020c8b438b391ed9dddf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q527 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged and uncertain, with multiple unknown or reconstructed elements. No defensible English translation can be derived from the surviving fragments.",
+   "line_id": 29309,
+   "source_hash": "32902609ff03a2ddbb580e68d54a0ddf9f891e3aeac054fac2636a3a6275ffdd",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

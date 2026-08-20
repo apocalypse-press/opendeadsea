@@ -1,0 +1,130 @@
+{
+ "id": "1Q72",
+ "label": "1Q72",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 16,
+ "scroll_id": 754,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q72 f1_2:1": {
+   "en": "They killed the flame of fire and the men these three Shadrach Meshach and servant fell to the back",
+   "notes": "Uncertain reconstruction of 'flame of fire'; uncertain gloss for 'נגו'; uncertain gloss for 'עבד' as 'servant'.",
+   "line_id": 39447,
+   "source_hash": "72f809934f580075ccf940dddb8276826e29460bf5760aa2633eedaefdc400b1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q72 f1_2:2": {
+   "en": "the furnace of the fire burning the bound ones",
+   "notes": "Uncertainty in transcription and reconstruction of some words; 'כפתי?ן' is tentatively translated as 'bound ones' based on visible morphology and lexical gloss.",
+   "line_id": 39448,
+   "source_hash": "44e60db0c67a99411515f677825279298d8e3e72f9d888561a3c5016e99c7879",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q72 f1_2:3": {
+   "en": "Nebuchadnezzar the king arose in disturbance and answered and said to the companions not three men threw",
+   "notes": "Uncertain reconstruction of 'Nebuchadnezzar' and 'threw'; unclear meaning of 'א' and 'ה' particles; 'הדברו׳הי' glossed as 'companion' but context uncertain.",
+   "line_id": 39449,
+   "source_hash": "2d634bcab939599e7b816710796773790f763e0a5e58f2a59cd439f4261a9ed0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q72 f1_2:4": {
+   "en": "To his back, fire, bound, they answer, and they say to the reliable king, and he said, behold",
+   "notes": "Uncertain gloss for 'ג?ו' (back?) and 'ָא' (unknown particle). Reconstructed '[ ל ]' and 'מ[ לכ]' with high confidence. Phrase evidence supports 'he said to the king' but is not mandatory; retained context-free glosses for other verbs. Omitted untranslatable final ']' and '׃'.",
+   "line_id": 39450,
+   "source_hash": "eab3d4680601881f064227b5c50f8cafb49124b00b216fd1d3186959b5185dbf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q72 f1_2:5": {
+   "en": "I saw four men let loose walking in fire and damage not existing in them and their appearance",
+   "notes": "Uncertain transcription and reconstruction in 'saw' (position 2). The particle 'א' (position 10) has no trusted gloss and is omitted. The suffix 'רו׳ה' (position 17) is translated as 'their appearance' based on its lexical gloss, but its exact meaning in context is uncertain.",
+   "line_id": 39451,
+   "source_hash": "e7828d9568a9c0767ad08c8f52d6d3ff157bd6b5a74f69a46c4fb47bbbee6b90",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q72 f1_2:6": {
+   "en": "The fourth, being like a son of gods. Then Nebuchadnezzar approached the door of the furnace of the fire burning.",
+   "notes": "Reconstructed and uncertain elements include 'רביע#[ י' (fourth) and 'אלה#[ ין' (gods). The phrase 'of the fire (the)' and 'of the furnace of the fire' are supported by repeated phrase evidence.",
+   "line_id": 39452,
+   "source_hash": "54d06f0614cdd8760171e6ca925314816d46cba3732f06be11ba95e9d88db896",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q72 f1_2:7": {
+   "en": "And Shadrach said, Meshach and servant of the highest God, go out and come.",
+   "notes": "Reconstructed and uncertain terms: Shadrach, Meshach. Uncertain glosses: נגו, א. Phrase evidence supported 'Shadrach Meshach' and '(the) God (the) Most'.",
+   "line_id": 39453,
+   "source_hash": "15a0e79f2f61e4ab97de23993ae4c4a156b9c7540794aab94cb45d2aae3e3706",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q72 f1_2:8": {
+   "en": "Then Shadrach Meshach and servant from back of fire and [were] gathered the satraps the prefects",
+   "notes": "Uncertain reconstruction of Shadrach's name. Unclear meaning of 'נְגֹו' and 'ָא'. Phrase evidence supports 'Shadrach Meshach' and 'the satraps the prefects'. Uncertain if 'gathered' applies to satraps and prefects.",
+   "line_id": 39454,
+   "source_hash": "7f4aaeddd2dcf21e33a2c69d22377c4b5e06cc3b69ef50407eb4cdcfeca1655d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q72 f1_2:9": {
+   "en": "And governors and the companions of the king seeing to the men these who did not rule fire in their bodies and the hair of their heads",
+   "notes": "Uncertain particles and damaged words reconstructed based on context. Phrase evidence applied for 'the men these' and 'the hair his head'.",
+   "line_id": 39455,
+   "source_hash": "f98cee93a9305f8a526469ec5b1ab979285825ff2b90e11fb1df53960566d98e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q72 f1_2:10": {
+   "en": "Not burned and Sarball not changed and scent of fire not gone it had touched on",
+   "notes": "Reconstructed text includes 'Sarball' and 'on'; phrase evidence supports 'it had touched on' for positions 11-12.",
+   "line_id": 39456,
+   "source_hash": "d07e2c7e4d88b923508e5a04e4a6f4f88c7cbd804d217737fc735f68f2fae552",
+   "source_condition": "reconstructed"
+  },
+  "1Q72 f1_2:11": {
+   "en": "Replying Nebuchadnezzar and he said blessed the god of Shadrach and Meshach and servant of the one who sent a messenger",
+   "notes": "The phrase 'replying Nebuchadnezzar' is supported by repeated phrase evidence. 'Servant' is reconstructed. The term 'נגו' has no trusted gloss and is omitted. The translation follows the visible morphology and lexical glosses, with 'blessed' preferred over 'kneel' based on repeated phrase evidence.",
+   "line_id": 39457,
+   "source_hash": "16b5ab484c94b170c62bc62c338519631a9f6edc563ad47de73ebbb4edfbcd69",
+   "source_condition": "reconstructed"
+  },
+  "1Q72 f1_2:12": {
+   "en": "And he swallowed to the servants who trusted on and the matter of the king they changed and they gave bodies of those who do not serve",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'they trusted on' is supported by repeated evidence. 'The matter of the king' is a dominant contextual rendering. 'Bodies' is a tentative gloss for a reconstructed term.",
+   "line_id": 39458,
+   "source_hash": "70055d78ea09bb970a1d8d346ea5460622c0ae765f7ac033544f919d23dfdb1e",
+   "source_condition": "reconstructed"
+  },
+  "1Q72 f1_2:13": {
+   "en": "And they shall not bow to all these gods therefore to their god And from there it is made a decree that every people and nation and tongue",
+   "notes": "Uncertain reconstruction of 'from there' (positions 12-13). Uncertain verb form at position 13. Uncertain noun form at position 18. The phrase 'it is made a decree that' is a high-confidence contextual rendering for positions 13-15. The phrase 'every' is a high-confidence contextual rendering for positions 14-16. The phrase 'all people' is a high-confidence contextual rendering for positions 16-17.",
+   "line_id": 39459,
+   "source_hash": "6fa39fa6c52e08b92ef8eb2ea38c2a75f0e26d87f9ddf1c299b93229043196a1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q72 f1_2:14": {
+   "en": "Who said to her upon their god of Shadrach, Meshach, and servant Negu? The limbs will be made, and upon me, Nwali.",
+   "notes": "Uncertain elements include the gloss for 'שלה' (position 3), the meaning of 'נ ]גו?' (position 11), and the reconstruction of 'בית#׳[ ה' (position 15). The phrase 'members you will be made' is a contextual rendering for positions 12-13, but 'limbs will be made' is used here to maintain grammatical consistency with the available evidence.",
+   "line_id": 39460,
+   "source_hash": "045efa693146fef37fc547cc117b4f1f0f4e0b728d00887b9c00918e5595bfd8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q72 f1_2:15": {
+   "en": "He will be like all who do not have another god who is able to deliver like this. Then the king",
+   "notes": "The phrase 'he will be able to deliver' is supported by repeated evidence. The translation conservatively follows the recoverable text, preserving the structure and participants without adding unlicensed elements.",
+   "line_id": 39461,
+   "source_hash": "d3d57c6f8f80656875d52f1805297b6999951c748523d39dbd01bbbf31c59afa",
+   "source_condition": "reconstructed"
+  },
+  "1Q72 f1_2:16": {
+   "en": "He prospered, Shadrach Meshach and a servant in the province of Babylon",
+   "notes": "The word 'נגו' (position 7) has no trusted gloss and is omitted. The character 'ε' (position 11) and the unknown punctuation (position 12) are omitted as they cannot be translated independently.",
+   "line_id": 39462,
+   "source_hash": "dd37c4d2bda3b7306bc1628774c42f98675a6325a3057bb077de4e5490848966",
+   "source_condition": "reconstructed"
+  }
+ }
+}

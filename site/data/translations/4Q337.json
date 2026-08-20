@@ -1,0 +1,46 @@
+{
+ "id": "4Q337",
+ "label": "4Q337",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 325,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q337 f1:1": {
+   "en": "in the sabbath",
+   "notes": "The transcription is damaged, and the final character 'ε' is untranslatable. The word 'שב#[ ת' is a reconstructed form of 'sabbath', marked as uncertain.",
+   "line_id": 13916,
+   "source_hash": "1b99851258b8b954f7111fb82d9e2d65c2a19daa966bd166a1ca38c77579ffa9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q337 f1:2": {
+   "en": "on the Sabbath",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 13917,
+   "source_hash": "2a3ddf34e2ac8e825c585790cc397929d72c59c36a7b6f961e75ab990ae1f4fd",
+   "source_condition": "reconstructed"
+  },
+  "4Q337 f1:3": {
+   "en": "at the back",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 13918,
+   "source_hash": "418ef5760cc85f0c3ecf386e154fd6c5ce107c3319104b21b44e0a247d10aba5",
+   "source_condition": "clean"
+  },
+  "4Q337 f1:4": {
+   "en": "and in the sabbath",
+   "notes": "The transcription is damaged, with a reconstructed word and an uncertain character. The final characters 'ε' and '׃' are omitted as they cannot be translated independently.",
+   "line_id": 13919,
+   "source_hash": "12fc23d26a8d4213a439e2a2d844ff6bf05b02f9b402a4ecc58283ec46b92bd5",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

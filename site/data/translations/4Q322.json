@@ -1,0 +1,67 @@
+{
+ "id": "4Q322",
+ "label": "4Q322",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 301,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q322 f1:1": {
+   "en": "in the eighth in the ninth in",
+   "notes": "Uncertain reconstruction of 'ninth' and two untranslatable characters.",
+   "line_id": 13587,
+   "source_hash": "0910cc5cdbcc97eafc9cecb3febfab33f6404fc166cae0df424884c202527d06",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q322 f1:2": {
+   "en": "The entrance of Shecaniah upon me in Shecaniah this in two in Jakim this",
+   "notes": "The translation includes uncertain and reconstructed elements, particularly around the damaged and unclear portions of the text. The particles 'in' and the names 'Shecaniah' and 'Jakim' are repeated due to the fragmented nature of the source. The final 'this' is uncertain due to damage.",
+   "line_id": 13588,
+   "source_hash": "b69b868962b81c334db09aa519b4a61d9f50bf306855acb6f5467d5fb9ff06a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q322 f1:3": {
+   "en": "In twenty and three in its entrance Jakim and day fourth in Jakim days a second in balcony he two in ninth",
+   "notes": "Uncertain elements: three, entrance, Jakim, balcony, he. Reconstructed elements: day, fourth, days, second, two. Unrecoverable text at positions 1, 14, 15, 16, 17, 27, 28, 29, 30, 31, 32, 33.",
+   "line_id": 13589,
+   "source_hash": "76296487a751e859c85c358c7fc5a25989b9a6d3bf2436c0882a8da04efe37f4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q322 fA:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed but uncertain word, leaving no defensible English translation.",
+   "line_id": 13590,
+   "source_hash": "134d9cb1849938f8163932418b5963d721f266b4047d58065dc90a5f171fa903",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q322 fA:2": {
+   "en": "the this",
+   "notes": "The transcription contains uncertain and untranslatable elements, including a damaged prefix and suffix. The phrase 'the this' reflects the recoverable words but is incomplete and contextually ambiguous.",
+   "line_id": 13591,
+   "source_hash": "e627c0677252964ff21d63901af447f1be6d95e0453c883389897a4721c8492d",
+   "source_condition": "uncertain"
+  },
+  "4Q322 fA:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The phrase evidence 'or who?' is not sufficiently supported to be used in translation.",
+   "line_id": 13592,
+   "source_hash": "9d09b94a1e3477122f922555a8343aaf82044726389597790bf4dab8899ab55b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q322 fA:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic lexical items, only untranslatable fragments and punctuation.",
+   "line_id": 13593,
+   "source_hash": "507c6bd03b867e1262434ddb5eb4e994c0f70328922ececa40dd5ddb10628e90",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

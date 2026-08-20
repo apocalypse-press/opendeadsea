@@ -1,0 +1,60 @@
+{
+ "id": "1Q67",
+ "label": "1Q67",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 56,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q67 f1:1": {
+   "en": "you were destroyed",
+   "notes": "The transcription contains an untranslatable Greek letter 'ε' at the beginning, which is omitted from the translation. The Aramaic verb 'מחעך' is translated based on its morphology and lexical gloss, but its exact meaning is uncertain.",
+   "line_id": 3765,
+   "source_hash": "9ebbdeec8bbe4aca257aea9774367c12a33b3b57bce5e9a73c556465d3db02cc",
+   "source_condition": "clean"
+  },
+  "1Q67 f1:2": {
+   "en": "in their scent",
+   "notes": "The initial character 'ε' is omitted as it cannot be translated independently. The particle 'ב#' is translated as 'in' based on its morphology and lexical gloss, with uncertainty noted. 'ריחו׳הי' is rendered as 'their scent' based on its suffixed form and lexical gloss.",
+   "line_id": 3766,
+   "source_hash": "e187663b5ecec22428f5389b11277b23adbf62ce5282c2638c01e2c561d8c8c5",
+   "source_condition": "uncertain"
+  },
+  "1Q67 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only a partial Greek letter 'ε' and a damaged Aramaic letter 'ל', neither of which can be translated independently or in combination. No defensible English words survive.",
+   "line_id": 3767,
+   "source_hash": "82aad4a4d6f0ab5e66ad31aef881dc66946b936d65f6ee466607a2d275d585fe",
+   "source_condition": "clean"
+  },
+  "1Q67 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ר, #) with no clear lexical or grammatical meaning. The reconstructed element (# [) is speculative. No defensible English translation can be derived from the surviving material.",
+   "line_id": 3768,
+   "source_hash": "40f2feba8d44ab3cdbf9471797539bdb44386a4f58ab0090d0a59c399a32955f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q67 f5:2": {
+   "en": "third",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation. The central word 'תליתי' is rendered as 'third' based on its lexical gloss.",
+   "line_id": 3769,
+   "source_hash": "84a8027f75471ffc0048f402f50b032e86a81b0d843043b8e82baec6eb54ac08",
+   "source_condition": "clean"
+  },
+  "1Q67 f5:3": {
+   "en": "they",
+   "notes": "The transcription contains untranslatable characters (ε, ː) and a damaged word (]ו) which are omitted from the translation. The recoverable word 'אנון' is translated as 'they'.",
+   "line_id": 3770,
+   "source_hash": "808b9a3fd6fd180fc6ced1b4c2f8cdd92dde7dfb419cff7b47c54d61e958933e",
+   "source_condition": "clean"
+  }
+ }
+}

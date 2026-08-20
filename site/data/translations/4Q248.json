@@ -1,0 +1,88 @@
+{
+ "id": "4Q248",
+ "label": "4Q248",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 172,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q248 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content in Hebrew or Aramaic. All visible forms are either unknown or reconstructed with high uncertainty.",
+   "line_id": 8598,
+   "source_hash": "4b55f552608252aa397f8c9d6747551e2c19d2b882bcf99ca67211a0f33f35ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q248 f1:2": {
+   "en": "And he ruled in Egypt and in Greece. And upon God.",
+   "notes": "The transcription contains uncertain and damaged elements, including the first character (ε), the preposition 'in' before Greece, and the final word 'God'. The translation conservatively reflects recoverable content without adding uncertain subjects or connectors.",
+   "line_id": 8599,
+   "source_hash": "e0ef5a171ea223965b14127b3352b63ae0807a225a14e7eb179ee07e39b4bf8c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q248 f1:3": {
+   "en": "Gods, he made strong, and in this they will eat",
+   "notes": "Uncertain reconstruction of 'אלי' to 'gods' and 'ה#גדי#?[ ל' to 'he made strong'. The phrase 'a God great' is supported by repeated evidence but does not fit the visible morphology. The object marker 'את' is omitted as it does not add clarity in English.",
+   "line_id": 8600,
+   "source_hash": "7b73a520db26b9de58136eb75ab0baf44b0f792de7a34518dced7fabf17deec1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q248 f1:4": {
+   "en": "the flesh your sons and your daughters in siege in Thebes Amon",
+   "notes": "Uncertain reconstruction of 'your sons' and 'your daughters'; 'siege' may also refer to Egypt.",
+   "line_id": 8601,
+   "source_hash": "144e2c6413ff967825d8b56884a6364d307ef6d9a69d463f2a14dbfd0778f131",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q248 f1:5": {
+   "en": "And he passed by YHWH a spirit in their earth and he returned from Thebes",
+   "notes": "Uncertain reconstruction of 'he passed by' and 'their earth'; uncertain gloss for 'Thebes'.",
+   "line_id": 8602,
+   "source_hash": "38d692b4eb2ef90bf1f918661f4a87caaa99b560fa746563c2dbc99bade1984f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q248 f1:6": {
+   "en": "And he came to Egypt and sold his dust and he came",
+   "notes": "The transcription is partially reconstructed and contains uncertain readings. The verb 'came' is repeated at the end, which may indicate a textual issue or emphasis. The phrase 'sold his dust' is literal, but the meaning of 'dust' in this context is unclear.",
+   "line_id": 8603,
+   "source_hash": "c5d9f939f7f6b0315dd2b0c048749c597f6174bee795e667fc5805f019369061",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q248 f1:7": {
+   "en": "to the town of the sanctuary and he seized with all its treasures",
+   "notes": "The phrase 'all the treasures' is supported by repeated phrase evidence. The verb 'seized' is reconstructed from the visible form 'תפש׳ה'.",
+   "line_id": 8604,
+   "source_hash": "e990e11c569cca943b6787e56d81710abfb9dbab22e9b8c4d83e8a525213cc9a",
+   "source_condition": "reconstructed"
+  },
+  "4Q248 f1:8": {
+   "en": "And he turned in the lands of the peoples and returned to Egypt and as completing",
+   "notes": "The transcription is partially damaged, with uncertain characters marked. The phrase 'ground back' is suggested by repeated evidence for 'lands of the peoples' but is not adopted due to insufficient support. The final verb 'completing' is an infinitive with no clear subject or object, and its exact sense is uncertain.",
+   "line_id": 8605,
+   "source_hash": "1950325a8594fe006fc6035e6655172e41cdac8eb8adf87c4340074245ebec31",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q248 f1:9": {
+   "en": "A pattering hand of the people of the holiness, they will be complete",
+   "notes": "Uncertain transcription and reconstruction in positions 1 and 5. Position 6 contains an untranslatable character. Phrase evidence suggests 'the hands of the people of' and 'with the male cult prostitutes', but the latter is not supported by the visible morphology. The translation retains the context-free glosses and visible morphology where possible.",
+   "line_id": 8606,
+   "source_hash": "83150aa0013d2cc31b2462ef07ea7e2f7ea8483ba0ccc107027c0732e95c559b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q248 f1:10": {
+   "en": "All these return, the people of Israel",
+   "notes": "The phrase 'the people of Israel' is a high-confidence contextual rendering for positions 4-5. 'All these' is supported for positions 1-2, and 'return' is the visible morphology at position 3, though uncertain.",
+   "line_id": 8607,
+   "source_hash": "5f4b1608e237fc4299f2cb351a5d71d7b9583c33e5d7cb185d5439eade9d59dd",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

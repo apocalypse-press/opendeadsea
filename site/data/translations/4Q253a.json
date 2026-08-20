@@ -1,0 +1,81 @@
+{
+ "id": "4Q253a",
+ "label": "4Q253a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 214,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q253a f1i:1": {
+   "en": "Then those afraid of YHWH spoke, each to his neighbor, and he gave attention",
+   "notes": "Uncertain reconstruction of רע׳ה ]ו#? as 'each to his neighbor' based on phrase evidence. The phrase 'each to neighbor' has strong pattern support (0.8) but only one occurrence in the DSS corpus. The translation assumes a contextual sense for 'רע׳ה' as 'neighbor' despite its uncertain transcription.",
+   "line_id": 9503,
+   "source_hash": "4c21255c79d140cb0e76b78ba99e38fa11f15990fad5948a25557148e8b454c4",
+   "source_condition": "uncertain"
+  },
+  "4Q253a f1i:2": {
+   "en": "YHWH and he heard and he wrote a book of remembrance before his face and to those fearing YHWH and to account his name and they were to him",
+   "notes": "The phrase 'book of remembrance' is a reconstruction based on repeated phrase evidence. The phrase 'those fearing YHWH' is a common rendering of 'יראי יהוה'. The final phrase 'they were to him' is uncertain due to the fragmentary nature of the text.",
+   "line_id": 9504,
+   "source_hash": "dd41a6d57cce57ecf21bb497fe95834563af829c6c21b0d78a6f8fde815dbe79",
+   "source_condition": "reconstructed"
+  },
+  "4Q253a f1i:3": {
+   "en": "He says Yahweh of hosts to the day when I make a property and have compassion upon them as",
+   "notes": "The phrase 'he says Yahweh of hosts' is supported by repeated phrase evidence. The phrase 'day when I' is also supported by repeated phrase evidence. The translation of 'make a property' is based on the context-free lexical gloss of 'סגלה' as 'property'. The phrase 'have compassion upon' is supported by repeated phrase evidence. The final 'as' is a translation of the particle 'כְּ', which is supported by the context-free lexical gloss.",
+   "line_id": 9505,
+   "source_hash": "9d0a8731844d689491ff7e9872867ae71effbc8b8af48562cdabfb742e498381",
+   "source_condition": "reconstructed"
+  },
+  "4Q253a f1i:4": {
+   "en": "He will have compassion on a man upon his son the servant and you returned and you saw between the just and the guilty",
+   "notes": "The phrase 'the servant' is a high-confidence reconstruction based on repeated phrase evidence. The translation preserves the original grammatical person, number, and tense shifts.",
+   "line_id": 9506,
+   "source_hash": "03157079938cfdb0604b4c3998074f7ef49b045a96465cf5e45a2aaafd17c1fa",
+   "source_condition": "reconstructed"
+  },
+  "4Q253a f1i:5": {
+   "en": "Between serving gods and not serving, justice and upon",
+   "notes": "The translation includes all recoverable text, but the phrase is fragmented and uncertain due to damage and unclear context. The word 'על' (upon) is translated based on its common usage, but its exact role in the sentence is unclear. The symbols 'ε' and '#' are omitted from the translation as they do not contribute to a defensible English rendering.",
+   "line_id": 9507,
+   "source_hash": "60214275899847b74de6bda6f2b0173f5e8d4bc369f8ec4805a33e6a07f26fe8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q253a f1ii:1": {
+   "en": "And a man from Israel who",
+   "notes": "The final two characters are untranslatable fragments; their meaning is uncertain.",
+   "line_id": 9508,
+   "source_hash": "d7b315b085c44ca508232b629f45cb75806578a8fbd9c277d243991a7061096c",
+   "source_condition": "reconstructed"
+  },
+  "4Q253a f1ii:2": {
+   "en": "He will approach his blood to",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 9509,
+   "source_hash": "8af7fe13cf7a1f74f157ae7c4fafa0bf884581582b12ea0944622eff8f3194ae",
+   "source_condition": "clean"
+  },
+  "4Q253a f1ii:3": {
+   "en": "that [no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements. Positions 3 and 5 are untranslatable fragments (ε). Position 4 is a reconstructed preposition 'to' but lacks context for confident translation. The initial 'that' is a partial reconstruction of 'הוא[' (he) with a damaged article 'ה', yielding uncertain syntax. No coherent English phrase can be recovered beyond 'that'.",
+   "line_id": 9510,
+   "source_hash": "c845902b652dfe959a9b5d38822ced07ebd278272071143bd23d6e9d34c06b33",
+   "source_condition": "reconstructed"
+  },
+  "4Q253a f1ii:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or translatable fragments. The visible characters are a reconstructed bracket, a Greek letter epsilon, and a Hebrew punctuation mark, none of which form a recoverable lexical unit.",
+   "line_id": 9511,
+   "source_hash": "e591693c080cb4bfe535a1137017c07cb3ed2fdadfe0e414d512794907336762",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

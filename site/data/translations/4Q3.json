@@ -1,0 +1,165 @@
+{
+ "id": "4Q3",
+ "label": "4Q3",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 21,
+ "scroll_id": 777,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q3 f1i:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a Greek letter fragment (ε) and uncertain markers.",
+   "line_id": 40120,
+   "source_hash": "daf25efc4de3f031e19d2492051c3cb72ebc975d36c80881e4d6a1a9e22b1070",
+   "source_condition": "uncertain"
+  },
+  "4Q3 f1i:2": {
+   "en": "And he said to Joseph this",
+   "notes": "The initial 'ε' and '׃' are untranslatable and omitted. The phrase 'he said to' is supported by repeated evidence. 'To Joseph' is a high-confidence contextual rendering.",
+   "line_id": 40121,
+   "source_hash": "628d76dc17a7e4a4463a08ccb6f0db0415feb2d501a5acea07bcb2ba1f052028",
+   "source_condition": "clean"
+  },
+  "4Q3 f1i:3": {
+   "en": "The interpretation of the three tendrils is three days. In three more days he will lift up Pharaoh.",
+   "notes": "The phrase 'he will lift up Pharaoh' is a high-confidence contextual rendering of the uncertain verb form 'יש ]א##' (position 13). The word 'Serug' in the phrase evidence for positions 4 and 5 is likely a misinterpretation of the lexical gloss 'tendril' and is not reflected in the translation.",
+   "line_id": 40122,
+   "source_hash": "4e84f3e26869394a7c260c46dd607b5dfb3c61e009f1929821499f6ea9173039",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:1": {
+   "en": "And he answered Joseph and said this interpretation of the three baskets",
+   "notes": "Uncertain reconstruction of initial conjunction. Damaged final word reconstructed as 'three'.",
+   "line_id": 40123,
+   "source_hash": "85b28c508761d779a90386cb3049900277f3edd7dfcffa52bfae6d020a7f6ab0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:2": {
+   "en": "Days they, yet three days he will lift up Pharaoh your head from upon you and hang you upon",
+   "notes": "Uncertain reconstruction of initial word 'days' and final preposition 'upon'. Phrase evidence supports 'three days he will lift up Pharaoh' and 'yet three days'.",
+   "line_id": 40124,
+   "source_hash": "cf59d4f659e476a805e6d467ed215b7554ce3d7abd43f0dee787858bc639934e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:3": {
+   "en": "and the tree was eaten the bird your flesh from upon you and it was on the third day the day of bearing pharaoh",
+   "notes": "Uncertain reconstruction of 'tree' and 'pharaoh'. The phrase 'the day of bearing pharaoh' is uncertain due to the uncertain gloss of 'pharaoh'.",
+   "line_id": 40125,
+   "source_hash": "bb45fa1128865f89b4f03222f26ea7c8ab8a605718dd1c6bb57da9c841d8210a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:4": {
+   "en": "And he made a feast for all his servants, and lifted up the head of the chief of the butlers and the head",
+   "notes": "The phrase 'he made a feast for' is supported by repeated phrase evidence for positions 2-4. 'A feast for all' is similarly supported for positions 3-5. 'Lift up (et) the head' is supported for positions 8-10. 'The head of the chief' is supported for positions 9-11 and 10-12. The text is damaged at the end, with the final word incomplete.",
+   "line_id": 40126,
+   "source_hash": "e4862e19244d0b9aed82eb06391a2edfc9dd57aa5a6ed03d4b564ff8244e5b4c",
+   "source_condition": "reconstructed"
+  },
+  "4Q3 f1ii:5": {
+   "en": "The chief of the bakers in the midst of his servants. And he gathered the chief of the butlers upon his butler, and gave the cup upon",
+   "notes": "The phrase 'the chief of the bakers' is supported by repeated phrase evidence. The translation follows the visible morphology and lexical glosses, with no significant uncertainties.",
+   "line_id": 40127,
+   "source_hash": "97a575a54c7af7801ec82f648060ccb718d6998d4f04605b7553d8040cd462db",
+   "source_condition": "reconstructed"
+  },
+  "4Q3 f1ii:6": {
+   "en": "the palm of Pharaoh and the chief of the bakers he hanged as he had interpreted for them to Joseph and did not remember the butler",
+   "notes": "The phrase 'the palm of Pharaoh' is a reconstruction based on repeated phrase evidence. The phrase 'the chief of the bakers' is supported by high-confidence semantic constraints. The phrase 'as he had interpreted for them to Joseph' is a paraphrase based on repeated phrase evidence. The final clause 'and did not remember the butler' is a conservative translation, preserving the negation and the object.",
+   "line_id": 40128,
+   "source_hash": "151949f07a88a04bd880f2f3098738a61465213a4ee81720e25752bc14c2a8b1",
+   "source_condition": "reconstructed"
+  },
+  "4Q3 f1ii:7": {
+   "en": "Joseph and he forgot him. And it was from the end of two years days and Pharaoh dreamed behold he stood upon",
+   "notes": "Uncertain reconstruction at positions 14, 15, and 16. Phrase evidence supported 'it was from [the] end', 'end of years', and 'two years days'. 'Pharaoh [was] dreaming' had lower support but was used for coherence.",
+   "line_id": 40129,
+   "source_hash": "9465ad5f26bc361b8bf140db8995bb60e5a7270e94de6f779d9efeb7f943f889",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:8": {
+   "en": "The river and behold from the river were coming up seven beautiful cows in appearance and fat of flesh",
+   "notes": "Uncertain reconstruction and damage markers present. Phrase evidence supported 'seven cows', 'fat of flesh', and 'beautiful of appearance'. Contextual rendering of 'River [were] coming up seven' and 'the River [were] coming up' guided the translation. Uncertainty in the final verb 'pasture/deal with' led to its omission.",
+   "line_id": 40130,
+   "source_hash": "d2577fca84398c3a7d867b806d14c6c9164075b31fe22d6461aa6f32bf50a41e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:9": {
+   "en": "In the reed and behold seven cows other coming up after from the Nile evil sight",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'seven cows' is supported by repeated evidence. 'Other coming up after' reflects the sequence 'another [were] coming up after'. 'From the Nile' is a direct translation of 'from the' with 'Nile' as the gloss for 'יאר'. 'Evil sight' combines the adjectives and noun in sequence. The punctuation mark '׃' is omitted as it cannot be translated independently.",
+   "line_id": 40131,
+   "source_hash": "ddd1dad1aa83089bde5ca138d1a57ca5238c14fcf2e4d4c1504328fbb9e85c5c",
+   "source_condition": "reconstructed"
+  },
+  "4Q3 f1ii:10": {
+   "en": "And thin flesh and they stood by the cows upon the bank of the River and they ate the evil cows",
+   "notes": "Uncertain terms: 'י(# א #)ר' (Nile/stream), 'פרות#' (cows), 'רע#ו(# ת #)' (evil). Phrase evidence supported 'the bank of the River' and 'they ate the cows'.",
+   "line_id": 40132,
+   "source_hash": "42a4896ecdbfaac90ae8709abbb6e95f3990a8b5f8c42a6cd2affe4414f11ad3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:11": {
+   "en": "The sight and the thin flesh of seven the cows good looking the sight and the fat",
+   "notes": "Uncertain reconstruction of 'and' (position 17) and verb 'awake' (position 18). Damaged adjective 'fat' (position 16) lacks a clear subject.",
+   "line_id": 40133,
+   "source_hash": "693e2b1191b3abe4900eeec061e514e68be915b97ef9d89668ae2f9a893c2197",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:12": {
+   "en": "Pharaoh slept and dreamed a second time: behold, seven ears of grain were coming up on one stalk, healthy.",
+   "notes": "The phrase 'behold, seven ears of grain' is supported by repeated evidence. The sequence 'ears of grain were coming up on one stalk' is also evidenced, with 'healthy' closing the description.",
+   "line_id": 40134,
+   "source_hash": "aa1b2e6f018c862a34c631a93dc8c75fd688954591b5f6742418583faf0efb3b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:13": {
+   "en": "And good. And behold seven ears of grain thin and scorched of an east wind were springing up after and they swallowed",
+   "notes": "The translation follows high-confidence phrase evidence for positions 5-7 and 10-13. The final verb 'swallowed' is uncertain due to damage and lacks a clear object.",
+   "line_id": 40135,
+   "source_hash": "0a4c4484e4a6f1d469533800ac4c0c2822cc4a0f41aabd16e462ffb054957fee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:14": {
+   "en": "the ears of grain the thin and the scorched seven the ears of grain the fat and the full and he awoke",
+   "notes": "Uncertain reconstruction in 'thin' and 'full'; damaged text in 'and the scorched'",
+   "line_id": 40136,
+   "source_hash": "cf7b7de0a82b69da9bbdc54ef91030babd111deb11fa6461adeac393b5334c36",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:15": {
+   "en": "Pharaoh and behold a dream and it was in the morning and it was troubled spirit and he sent and he invited (et) all the soothsayer-priests of Egypt",
+   "notes": "The translation includes reconstructed and uncertain words. The phrase 'it was troubled spirit' is supported by repeated phrase evidence. The phrase 'the soothsayer-priests of Egypt' is also supported by repeated phrase evidence. The phrase 'he invited (et) all' is partially supported by repeated phrase evidence, but the object marker 'et' is uncertain. The word 'dream' is uncertain due to damage in the transcription.",
+   "line_id": 40137,
+   "source_hash": "14ea980d0671238dd28ce0ed86f405c44f0bb830dcb5a42ae44653316db15943",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q3 f1ii:16": {
+   "en": "And all the wise men and he recounted to Pharaoh his dream and there was no one who interpreted them to Pharaoh And he spoke the chief",
+   "notes": "Uncertainty in object marker usage and some lexical items. Phrase evidence and semantic constraints guided translation choices.",
+   "line_id": 40138,
+   "source_hash": "0e8b987d737561122ffc23416145533a59580f256cad5b9a0080b6d6dcf1e6e7",
+   "source_condition": "uncertain"
+  },
+  "4Q3 f1ii:17": {
+   "en": "The butlers said to Pharaoh, \"Our offense I remember on the day Pharaoh was angry upon his servants and gave me in the custody of the house of the commander of the bodyguards.\"",
+   "notes": "Positions 13 and 18 are untranslatable punctuation. Position 8 is a suffixed form of offence (חֵטְא) but its person/number features are uncertain. Position 20 is a suffixed object marker with uncertain person/number features.",
+   "line_id": 40139,
+   "source_hash": "7cfda1ba72eb84a76024c3bdbe3cf1713875ddf9fd2da66631f4fb25a04973c1",
+   "source_condition": "clean"
+  },
+  "4Q3 f1ii:18": {
+   "en": "And the object marker chief of the bakers and a dream I have dreamed in a night one",
+   "notes": "The transcription contains a reconstructed object marker (את##[) and an uncertain word (ש ]ר). The phrase 'in a night one' is supported by repeated phrase evidence, while 'the chief of the bakers' and 'a dream I have dreamed' are partially supported by repeated phrase evidence.",
+   "line_id": 40140,
+   "source_hash": "85d56388624008879c5e942082e7cfe0aad0fe429a543af3a5e060dc89390a5d",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

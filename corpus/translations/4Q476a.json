@@ -1,0 +1,53 @@
+{
+ "id": "4Q476a",
+ "label": "4Q476a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 509,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q476a f1:1": {
+   "en": "justice with secret",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the final 'ε' and 'רז#?['. The translation reflects recoverable words in order, but the fragment's meaning remains uncertain due to damage and ambiguous context.",
+   "line_id": 22777,
+   "source_hash": "bb530a578f87000c99ed0edf954e44f2c77ac2d786b7aee9467f6a867767d8d9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q476a f1:2": {
+   "en": "the high place whole",
+   "notes": "Uncertain reconstruction and unrecoverable text present.",
+   "line_id": 22778,
+   "source_hash": "d62a50bf6964e34ee48affdcacf8e6db6a83117384b82df2b979c470f28e33a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q476a f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content.",
+   "line_id": 22779,
+   "source_hash": "04912186af24c636bca4da3b8730587e45b7bcd389dea69a6a4b6015c29c28c4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q476a f2:1": {
+   "en": "serving God",
+   "notes": "The transcription is damaged and partially reconstructed. The verb 'serving' is uncertain, and the noun 'God' is reconstructed. The initial and final characters are untranslatable.",
+   "line_id": 22780,
+   "source_hash": "adce31f79587b01988df64f3cbfff73078871d0ffcbbd74f55f847f59527fca5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q476a f2:2": {
+   "en": "holiness",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed form (קוד[ ש) identified as 'holiness'. The final character (׃) is a punctuation mark and not translated.",
+   "line_id": 22781,
+   "source_hash": "f0eeeb68c095736c0e5d8850755e61b294865132a229ce5e35e501f3d845f9bd",
+   "source_condition": "reconstructed"
+  }
+ }
+}

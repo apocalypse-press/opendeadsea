@@ -1,0 +1,81 @@
+{
+ "id": "4Q475",
+ "label": "4Q475",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 507,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q475 f1:1": {
+   "en": "Zion he examines and in life justice",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The translation reflects recoverable words in order, preserving uncertainty and damage. The initial 'ε' and final 'ε' are omitted as they cannot be translated independently. The verb 'examine' is in the third-person masculine singular imperfect form. 'Life' and 'justice' are plural and singular nouns, respectively, with uncertain reconstructions.",
+   "line_id": 22744,
+   "source_hash": "878e38fd24325084cd4d75d1964a92e2b323b950e793bc7bc6c185b89f3deef1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q475 f1:2": {
+   "en": "His regulations, they forgot, and not they seek, and earth",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly 'ש##כחו׳ם' and 'א##רץ#['. The final 'ε' is untranslatable and omitted.",
+   "line_id": 22745,
+   "source_hash": "155d88f5faad1dcd0bf6c92af856830f46c9d8ea0306e56374c5768d3a3c224e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q475 f1:3": {
+   "en": "And he stretched out a hand in their midst, and he reported to them all the justice",
+   "notes": "Uncertain reconstruction of 'and' (position 1) and 'the' (position 12). Phrase evidence supports 'he stretched out a hand' and 'he reported to' but does not fully resolve the syntax or participants.",
+   "line_id": 22746,
+   "source_hash": "977a7ce5dd187af3ab7a5d079aac537f7236e59f99f2d722d407c4823aa38082",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q475 f1:4": {
+   "en": "All the world and there will not be still guiltiness in the earth and there will not be still",
+   "notes": "The translation includes uncertain and reconstructed elements. The initial 'ε' and final '׃' are omitted as they cannot be translated independently. The repeated 'יה##[ יה' is translated as 'will not be still' based on visible morphology and lexical gloss.",
+   "line_id": 22747,
+   "source_hash": "7f1371b164fd8dc44e66aea830d1ba7a7f9802561b8bb3be0d08e7f54006f404",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q475 f1:5": {
+   "en": "And there was destruction, and the whole of their judgment, and it was the whole world as Eden, and all its inhabitants in her",
+   "notes": "Uncertain elements include the lemma 'מַשְׁחִית' (destruction), the particle 'וְ' (and) at position 13, the noun 'כֹּל' (whole) at position 14, and the verb 'ישׁב' (sit/dwell) at position 15. The final character 'ε' is untranslatable and omitted. Phrase evidence suggests 'all the inhabitants' and 'all [those who] dwell in' for positions 14-15 and 14-16, respectively, but the translation retains the context-free glosses due to low pattern support.",
+   "line_id": 22748,
+   "source_hash": "fef30822c125a882215c0036b59521a9d209a481d916e1fd0266944299342588",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q475 f1:6": {
+   "en": "And the land was at peace forever and they inquire",
+   "notes": "Uncertain transcription and reconstruction in 'was at peace' and 'inquire'. Phrase evidence supports 'the land was at peace'. Remaining text is fragmentary and uncertain.",
+   "line_id": 22749,
+   "source_hash": "e8e33210ac015deb8f15e50249ebd4dff9fc2a2c56d00af95abf27079667e341",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q475 f1:7": {
+   "en": "And Israel will be to him a beloved son and they will inquire all his justice",
+   "notes": "Uncertain reconstruction and damage affect 'to him' (position 5), 'son' (position 6), 'they will inquire' (position 9), and 'justice' (position 13). Phrase evidence suggests 'Yahweh to' for positions 3-4 and 'Israel it will be' for positions 2-3, but visible morphology and transcription take precedence.",
+   "line_id": 22750,
+   "source_hash": "2fcff3248a612dd7788d4d6742188e59a8258c506db0163fa208f51d64dd0703",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q475 f1:8": {
+   "en": "that",
+   "notes": "The transcription is heavily damaged, with only the particle 'כיא' (that) recoverable. The remaining characters are uncertain or reconstructed, including Greek letters (ε) and fragmented Hebrew script. No defensible English words survive beyond 'that'.",
+   "line_id": 22751,
+   "source_hash": "2dc05083de4fdd1f05e24d59bef31d935141e1cb36d815088b41b1018b1da831",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q475 f1:9": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible characters (ε, ל, ׃) do not form recoverable lexical units, and the reconstruction is speculative.",
+   "line_id": 22752,
+   "source_hash": "8650f03dce99d4195aff0f0b114f38332bec9c5e01161f1b8210f88e3853be11",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

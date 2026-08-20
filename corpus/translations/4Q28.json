@@ -1,0 +1,109 @@
+{
+ "id": "4Q28",
+ "label": "4Q28",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 13,
+ "scroll_id": 809,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q28 f1:1": {
+   "en": "Swing upon the standing grain your neighbor",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the verb 'swing' and the phrase 'the standing grain your neighbor'. The Greek letter 'ε' at the beginning is omitted as it cannot be translated independently. The translation follows the highest-supported repeated phrase evidence for positions 4 and 5.",
+   "line_id": 42808,
+   "source_hash": "b442469705298f66727fbe4e4cce769a8c7e8500d40769211a527bb9359898b1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q28 f1:2": {
+   "en": "When a man takes a woman and owns her, and it was if she did not find favor in his eyes, that he found in her nakedness",
+   "notes": "Uncertain reconstruction of 'that' (position 1) and 'nakedness' (position 18). Phrase evidence supports 'favor in eyes' (positions 12-14) and 'he will take a man a wife' (positions 2-4).",
+   "line_id": 42809,
+   "source_hash": "5bebe529819dc7042d875677850d6a005a3de44b5b9b35cfd9f89049c10b9820",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q28 f1:3": {
+   "en": "The word was written to her a document of divorce and it has been given in her hand and he sent from his house and she went and she will belong to a man",
+   "notes": "The phrase 'a document of divorce' is a contextual rendering of 'ספר כריתת'. The phrase 'it has been given in her hand' is a contextual rendering of 'נתן ביד׳ה'. The phrase 'she will belong to a man' is a contextual rendering of 'היתה לאיש'.",
+   "line_id": 42810,
+   "source_hash": "bfdbe5465a82c6c8e92220836c85f27af510675f2cf4af61955b74617d6f080b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q28 f1:4": {
+   "en": "And he hated the latter man and wrote a document of divorce and gave it in her hand and sent from his house",
+   "notes": "Positions 2, 9: Untranslated punctuation. Positions 11-13: 'to recount a document of divorce' is a plausible phrase, but 'a document of divorce' is better supported. Position 17: 'her hand' is licensed by suffixed morphology.",
+   "line_id": 42811,
+   "source_hash": "e422664cf184cef34629aafc2a67e0676cbac526675db8e30aa274fe79a5a79f",
+   "source_condition": "reconstructed"
+  },
+  "4Q28 f1:5": {
+   "en": "Or that the latter man dies, who took to himself a woman. Not able the lord, the first",
+   "notes": "Uncertain reconstruction and damage affect positions 1, 8, 13, 18. Phrase evidence partially constrains positions 3-7, 9-10, 15-16. No high-confidence constraints apply.",
+   "line_id": 42812,
+   "source_hash": "2d92d6e22a1576c8df0be998eda5a0857d604c24061c7cacd566245085f3ce67",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q28 f1:6": {
+   "en": "who sent her to return to take to be for a woman after who was unclean that",
+   "notes": "Uncertain reconstruction of 'return' (ש#וב) and 'take' (קחת#׳ה). Repeated phrase evidence supports 'return to take' for positions 4-6. High uncertainty in positions 4-6 due to damaged transcription.",
+   "line_id": 42813,
+   "source_hash": "a39eb2b7ebe1f831642e1bf4688fa08d7c6b6f8cdcf7bfe47e91babdd578e4eb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q28 f1:7": {
+   "en": "It is an abomination before Yahweh and you shall not miss the land which Yahweh your God gave to you",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 42814,
+   "source_hash": "7432cf87e3a60d4a5f319fcd7cbd54f50ec119a9f790668607713e581d3c18d5",
+   "source_condition": "reconstructed"
+  },
+  "4Q28 f1:8": {
+   "en": "An inheritance: that a man takes a new wife, he shall not go out in service, and he shall not pass on all",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'he will take a man a wife' is supported by repeated phrase evidence. The phrase 'on all' is supported by repeated phrase evidence. The phrase 'not it will pass on' is supported by repeated phrase evidence. The phrase 'each man wife' is supported by repeated phrase evidence. The phrase 'they took each' is supported by repeated phrase evidence. The phrase '[one who] passes by at' is supported by repeated phrase evidence. The phrase '(dm) he will take a man' is supported by repeated phrase evidence.",
+   "line_id": 42815,
+   "source_hash": "0b38c7c8f98056b623b38b9e3b0d8d9e46bcc221107ddd9a868ecba171a36f40",
+   "source_condition": "reconstructed"
+  },
+  "4Q28 f1:9": {
+   "en": "An innocent word shall be to the house one year, and he rejoiced with the woman whom he took, not",
+   "notes": "Uncertain reconstruction of 'יהי?ה' and 'ל#[ א'. Phrase evidence suggests 'a daughter its year' and 'a year one', but the translation follows the visible morphology and lexical gloss. The final 'not' is a tentative rendering of the uncertain 'ל#[ א' based on its lemma and morphology.",
+   "line_id": 42816,
+   "source_hash": "57cf35121bf04ecc0a7edb69b8050a612ff6c0e68e4e5af9b79f1708de069817",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q28 f1:10": {
+   "en": "Millstones and a chariot that his soul is pledged because he will find a man stealing a soul from his brothers from his sons",
+   "notes": "The translation includes reconstructed and uncertain words. The phrase 'like his own self' is a dominant contextual rendering for positions 4-6, but it is not directly reflected in the translation due to the conservative approach. The phrase 'he will find anyone' is a dominant contextual rendering for positions 9-11, but 'a man' is used instead to maintain conservatism. The phrase 'self my' is a dominant contextual rendering for positions 5-6, but it is not directly reflected in the translation. The phrase 'him the region' is a dominant contextual rendering for positions 6-7, but it is not directly reflected in the translation. The phrase 'he found a man' is a dominant contextual rendering for positions 10-11, but 'will find' is used instead to maintain the imperative mood.",
+   "line_id": 42817,
+   "source_hash": "7f129341b0be32ac9b59f3ea8a0441644869ff24948b6b5cb9fb08ca875998a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q28 f1:11": {
+   "en": "Israel and he dealt violently in and sold and died the thief he and you will remove the evil from your midst",
+   "notes": "Uncertain reconstruction of 'הת ]ע##מר' and 'גנ#?[ ב'. The phrase 'you will remove the evil' is supported by repeated evidence. The phrase 'evil from midst' is also supported by repeated evidence.",
+   "line_id": 42818,
+   "source_hash": "814a96108f5f5e9d4eb10ed7b0fc156729e48a0f035b565a970d1cbe987d73bd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q28 f1:12": {
+   "en": "Be on guard in the stroke of the skin disease to keep with might and to do as all that they will teach you the priests",
+   "notes": "Uncertain transcription and reconstruction in 'be on guard' (position 1), 'skin disease' (position 5), 'to keep' (position 7), and the preposition at position 10. The phrase 'as all that they will teach you the priests' is supported by repeated evidence but with moderate confidence. The term 'skin disease' is a gloss for a damaged word.",
+   "line_id": 42819,
+   "source_hash": "f7430a36edbdbf4f8c5dc1ee7995238492cbb09e1d1ab1b6b495b7d1752ba7f2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q28 f1:13": {
+   "en": "The Levites, as I have commanded, you will take care to observe to make",
+   "notes": "Uncertainty in the reconstruction of 'צוי ]ת##׳ם##' and the presence of untranslatable characters '׃' and 'ε' at the end of the line.",
+   "line_id": 42820,
+   "source_hash": "445320fe5caec81abd2f87f38d673b5002f6acae72f08474fe133acd7a0870f1",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

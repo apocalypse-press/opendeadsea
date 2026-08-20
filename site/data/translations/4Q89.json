@@ -1,0 +1,165 @@
+{
+ "id": "4Q89",
+ "label": "4Q89",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 21,
+ "scroll_id": 881,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q89 f1i:1": {
+   "en": "Pass my eyes from seeing vanity in your ways, let me live",
+   "notes": "The transcription contains a damaged word (דרכ׳ך#) and an uncertain punctuation mark (׃) at the end. The phrase 'see falsehood' is supported by repeated evidence for 'ראות שוא'.",
+   "line_id": 48362,
+   "source_hash": "c73a65fc480b3151a6dc35300e8a8ec0fffb1a81e9d9b6d5c26fc38fdd4b2994",
+   "source_condition": "uncertain"
+  },
+  "4Q89 f1i:2": {
+   "en": "Arise to your servant, your word which is to your fear",
+   "notes": "The translation follows the visible morphology and lexical glosses. The phrase 'to your fear' is a direct rendering of the preposition 'ל' followed by the suffixed form 'יראת׳ך'. No uncertainty or reconstruction is present in the source.",
+   "line_id": 48363,
+   "source_hash": "56b8314cb1855b5e2095ab8877b6d821e4dfc1c0142f58cdb477679bbc76d3d7",
+   "source_condition": "clean"
+  },
+  "4Q89 f1i:3": {
+   "en": "Pass over my reproach, which I feared, that your judgments are good",
+   "notes": "Uncertainty in the transcription of 'חרפת#׳י' and reconstruction of 'ט[ ובים ]'.",
+   "line_id": 48364,
+   "source_hash": "78bbda070622657b64c42a52940df0450cc9eb86e41ca703daa17eac698d55e1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f1i:4": {
+   "en": "Behold, I long for your orders in your justice, live",
+   "notes": "The final word 'חי׳ני#?' is uncertain due to damage in the manuscript.",
+   "line_id": 48365,
+   "source_hash": "6138672ac7df88c3b09385bfd8c3bee52afdb66105d620d652aac9f672a749d4",
+   "source_condition": "uncertain"
+  },
+  "4Q89 f1i:6": {
+   "en": "And he will bring your loyalty, Yahweh, your salvation, as your word.",
+   "notes": "The transcription contains a reconstructed character (#) and an uncertain character (׳) in positions 5 and 7, respectively. The phrase evidence suggests possible contextual renderings, but these are not directly applied to the translation due to the conservative approach.",
+   "line_id": 48367,
+   "source_hash": "b96a11aac31c49ea9f591193308eb88c746343d4c3900fba2262e1c2d555ffb8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f1i:7": {
+   "en": "And I will answer, spending autumn, the word, that your orders, I watched.",
+   "notes": "The verb 'נצ#רתי' (watched) is marked as uncertain in the source. The translation follows the visible morphology and lexical gloss, but the exact sense remains unclear.",
+   "line_id": 48368,
+   "source_hash": "f45c9b04cf834ea5817a0333cbbedca6229da9f8af9f1192c447173b0c07d648",
+   "source_condition": "uncertain"
+  },
+  "4Q89 f1i:8": {
+   "en": "And do not deliver from the mouth, the word of your trustworthiness, until might that to your justice I have waited.",
+   "notes": "Uncertain elements include a damaged conjunction (position 10) and a suffixed form (position 12). The phrase 'do not deliver from the mouth' is supported by repeated evidence, but its contextual rendering is not fully certain. The translation preserves all recoverable elements but notes uncertainty in the conjunction and suffix.",
+   "line_id": 48369,
+   "source_hash": "2a8b8789edd88ca6c7fee89fbe3ec11a3137829e4a6f97bc17815d7dcd31d3ab",
+   "source_condition": "uncertain"
+  },
+  "4Q89 f1ii_3:1": {
+   "en": "And I will keep your instructions always, unto eternity and forever",
+   "notes": "The phrase 'your instructions' is reconstructed and uncertain. The word 'always' translates 'continuity' (תמיד), and 'unto eternity and forever' combines 'eternity' (עולם) and 'until/unto' (עד) with a repeated 'and' (ו) for emphasis.",
+   "line_id": 48370,
+   "source_hash": "f06d6889c8eefd6ca5ed47ab43bd4a20af54c087d4848e0bc0f22432b54d0f8a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f1ii_3:2": {
+   "en": "And I will walk in the wide place, for I have inquired about your orders.",
+   "notes": "The transcription contains reconstructed and uncertain elements, particularly in positions 3 and 4, which may affect the precise meaning of 'in the wide place'. The final punctuation mark (position 8) is untranslatable and omitted.",
+   "line_id": 48371,
+   "source_hash": "662e9c136a26e9e119d83baf672b32286750da59dedcd733cad1c932118fd333",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f1ii_3:3": {
+   "en": "And I will speak in my reminder against kings and I will not be ashamed",
+   "notes": "The transcription is partially damaged, with reconstructed and uncertain elements. The term 'עֵדוּת' (reminder) is uncertain due to damage. The final punctuation mark is untranslatable.",
+   "line_id": 48372,
+   "source_hash": "34c6ebc17eb9aea8f1a17161e8a05fa680f30a130755b9bb01f4e83fb5256564",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f1ii_3:7": {
+   "en": "Remember the word to your servants upon which you hoped",
+   "notes": "The transcription is partially reconstructed, with uncertainty around the relative particle 'which' (אש#ר). The phrase 'you spoke to servant' is supported by repeated evidence but is not directly reflected in the translation due to the visible morphology and lexical items. The translation conservatively follows the recoverable text, preserving the imperative 'remember' and the relative clause structure.",
+   "line_id": 48373,
+   "source_hash": "9b280f3ab84c0b6239a1b46bf234d09ef2409a23edce0a8b761c7a6bc1073196",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f1ii_3:8": {
+   "en": "This my comfort in my poverty that your word has lived",
+   "notes": "Uncertain reconstruction of 'this' (ז#?[ אות); uncertain suffix on 'word' (אמ ]ר##ת׳ך); uncertain reconstruction of 'has lived' (חית##׳[ ני ]); final punctuation mark (׃) omitted from translation.",
+   "line_id": 48374,
+   "source_hash": "6a921722b51679aff1011c49d321d4d1546b0d1e2fa31cddcfc6c88d01deb13d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f4:2": {
+   "en": "Your hands have made and established me; let me understand, and I will learn your commandments",
+   "notes": "The phrase 'Your hands have made' is a reconstruction based on the visible transcription and morphological analysis. The verb 'establish' is translated from 'יכוננו׳ני' with uncertainty due to the damaged form. The imperative 'let me understand' is a reconstruction of the damaged form 'הבינ׳ני'. The final verb 'I will learn' is uncertain due to the damaged transcription 'אלמד##[ ה'.",
+   "line_id": 48376,
+   "source_hash": "44805ebf53ad3ba339d662ad2863c56d5690d11b21bd3266569ec4bc1171716c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f4:3": {
+   "en": "Those fearing you will see me and rejoice, for in your word I hoped.",
+   "notes": "The transcription contains reconstructed and uncertain elements, including a damaged conjunction (כ##י#?) and a suffixed form (ד##ב##[ ר׳ך). The final characters (ε, ׃) are untranslatable and omitted. The translation conserves recoverable syntax and semantics without adding unlicensed connectors or subjects.",
+   "line_id": 48377,
+   "source_hash": "4bb52f6874d1db1f9c8a289975c5014e6a35a7ba0359107f1c675d9f4c28dbd9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f5:3": {
+   "en": "I waited for the completion of your salvation, my soul, to your word.",
+   "notes": "The transcription is partially reconstructed and uncertain. The translation reflects the visible morphology and lexical glosses, with 'completion' used for the verb 'be complete' in its perfect tense, and 'salvation' for the noun 'תְּשׁוּעָה'. The possessive 'your' and 'my' are added based on the suffixed forms, but their exact referents are uncertain. The final punctuation mark is omitted as it has no clear translation.",
+   "line_id": 48379,
+   "source_hash": "3bb152c504b0c4bb9fe2919f7a77dc0bbefc24173d5273b1013de48181dbbf23",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f5:4": {
+   "en": "they have failed eyes to your word to say when you console me",
+   "notes": "The phrase 'they have failed eyes' is supported by repeated evidence. The reconstruction of 'word' and the form of the verb 'be complete' are uncertain.",
+   "line_id": 48380,
+   "source_hash": "79f66740e42c4f7f5211659a334969a99af8d8e240099ceb49fa92e3205152ec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f5:5": {
+   "en": "For I was like a skin-bottle in smoke, your statutes I did not forget",
+   "notes": "Uncertainty in transcription and reconstruction affects the translation of 'ה##ייתי' and 'קי#?[ טור'. The final mark '׃' is omitted as it does not contribute to the translation.",
+   "line_id": 48381,
+   "source_hash": "7c2219ed9f51358c45b3a305ec72496e240a4ab5eab737bcaa5bf73ae8a94e82",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f6:4": {
+   "en": "To eternity, YHWH's word stands in the heavens",
+   "notes": "The transcription is partially reconstructed and uncertain, particularly the final word 'heavens' which is damaged and reconstructed. The phrase 'YHWH's word' is supported by repeated evidence, though its exact syntax is ambiguous.",
+   "line_id": 48382,
+   "source_hash": "a767f4c472e11a47a2cb0709e288da8e3a9ed379b7059b0d90a0bdfd655b3979",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f6:5": {
+   "en": "To a generation and a generation your faithfulness has been established, and the earth stood",
+   "notes": "The phrase 'a generation and a generation' is supported by repeated phrase evidence. The verb 'stood' is reconstructed and uncertain. The preposition 'to' is reconstructed but certain.",
+   "line_id": 48383,
+   "source_hash": "21e4c72470ace2663340ffccd7daa3fc096a7b935202279a9b9496503e00e25e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q89 f6:6": {
+   "en": "To your judgments they stand this day, that all your servants",
+   "notes": "The phrase 'all your servants' is supported by repeated phrase evidence. The verb 'stand' is translated based on the provided gloss and morphological information. The particle 'to' is reconstructed and translated accordingly.",
+   "line_id": 48384,
+   "source_hash": "bed329d2b529a4526caaa37850e4a2ff6cdebb617cee6ef24eec06aa905db771",
+   "source_condition": "reconstructed"
+  },
+  "4Q89 f6:7": {
+   "en": "Unless your instruction, my delights, then I perished in my poverty",
+   "notes": "The translation includes reconstructed and uncertain terms. 'שעשע׳י' has no trusted gloss, but its morphology suggests a plural form, translated as 'delights' based on context. 'אבד ]ת##י' is uncertain but translated as 'I perished' based on visible morphology. 'ב##' and 'ע##נ#?י#?׳[ י ]' are uncertain but translated as 'in my poverty' based on visible transcription and morphology.",
+   "line_id": 48385,
+   "source_hash": "ea03aaf4513bce6485b5154c165d69fb03a52a9ee85e3ce8959279a562cb8a6d",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

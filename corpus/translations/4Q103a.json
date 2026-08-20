@@ -1,0 +1,46 @@
+{
+ "id": "4Q103a",
+ "label": "4Q103a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 903,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q103a f1:1": {
+   "en": "Who is naive let him turn aside and lacking of heart and she said to",
+   "notes": "The translation follows the highest-supported phrase evidence for positions 1-3 and 6-7, and the context-free gloss for the remaining words. The final 'to' is retained as a preposition despite low pattern support, as it is the only listed gloss for the suffix.",
+   "line_id": 48679,
+   "source_hash": "506371acbd44e861b9ec8cd7a258c487ba8d36a3ed32e49277061eadab862242",
+   "source_condition": "reconstructed"
+  },
+  "4Q103a f1:2": {
+   "en": "Stolen waters will be sweet, and bread in hiding places will be pleasant",
+   "notes": "The transcription is partially reconstructed, with uncertainty around the word 'bread' (לח ]ם##). The translation preserves the visible morphology and lexical items, with no additional smoothing or invented relations.",
+   "line_id": 48680,
+   "source_hash": "587b6cf275c25ccadcaed81f31dc87f4b2678e212407f8dc8cb6f63536c1a748",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103a f2:1": {
+   "en": "A just one to eternity will not totter and guilty ones will not dwell on earth mouth of a just one",
+   "notes": "The translation follows the visible transcription and morphology, preserving the order of recoverable words. The phrase evidence and lexical glosses were used to disambiguate the meaning where possible. The lacuna at the beginning and end of the transcription is not indicated in the translation, as per the instructions. The translation is conservative, without smoothing away repetition or adding missing subjects.",
+   "line_id": 48681,
+   "source_hash": "bb3b39d1c44a2e4760b2f4ef55e612994526daf4ab173527353b9bdcf4599361",
+   "source_condition": "reconstructed"
+  },
+  "4Q103a f2:2": {
+   "en": "Wisdom will thrive and the tongue of upheavals will be cut off. The lips of the just know pleasure.",
+   "notes": "The phrase 'the lips of the just' is supported by repeated evidence. The verb 'will thrive' is reconstructed. The noun 'upheavals' is uncertain due to lack of gloss. The verb 'will be cut off' is uncertain due to damage.",
+   "line_id": 48682,
+   "source_hash": "2748ff77e56701b9f48ae145eedb55eaa9909a252ab361d329426a6feecce76f",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

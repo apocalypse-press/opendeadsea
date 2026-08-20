@@ -1,0 +1,32 @@
+{
+ "id": "4Q108",
+ "label": "4Q108",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 908,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q108 f1:1": {
+   "en": "Behold the couch of Solomon, sixty vigorous men surrounding from the vigorous ones",
+   "notes": "Uncertain elements include the lemma 'שְׁלֹמֹה' (Solomon) and the number 'שִׁשִּׁים' (sixty). The transcription is heavily damaged, and the translation is based on recoverable fragments.",
+   "line_id": 48790,
+   "source_hash": "d06d8777bf49cbdb6af613d993a40034158d75e665087cd78bfc494e8f4888ec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q108 f1:2": {
+   "en": "All Israel, seized by sword, trained for war, each his sword",
+   "notes": "The phrase 'each his sword' is supported by repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, with no added subjects or connectors.",
+   "line_id": 48791,
+   "source_hash": "4504cfd7f2944e1c8a254a9c3c49748bf967ee178524660f3c0f57a2089b5dc6",
+   "source_condition": "reconstructed"
+  }
+ }
+}

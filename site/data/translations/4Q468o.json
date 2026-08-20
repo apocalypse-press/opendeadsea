@@ -1,0 +1,32 @@
+{
+ "id": "4Q468o",
+ "label": "4Q468o",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 481,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468o f1:1": {
+   "en": "and he will go",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The visible 'ו' is translated as 'and'. The verb 'יז[' is reconstructed and translated as 'he will go', but its exact form and meaning are uncertain. Other characters (ε, ]ג#?) are untranslatable and omitted.",
+   "line_id": 22552,
+   "source_hash": "7cb87284551735a7825888d7c14900383115e7776c46738374581a139a094121",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468o f1:2": {
+   "en": "one",
+   "notes": "The transcription includes untranslatable characters (ε) and a source-script punctuation mark (׃) which are omitted from the translation.",
+   "line_id": 22553,
+   "source_hash": "d478315b52f16cb02f9e07b15d84a5ce787d47c4b151f8c8913f7b384469d473",
+   "source_condition": "clean"
+  }
+ }
+}

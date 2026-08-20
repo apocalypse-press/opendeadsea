@@ -1,0 +1,53 @@
+{
+ "id": "1Q58",
+ "label": "1Q58",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 50,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q58 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain characters, with no recoverable lexical items that can be confidently rendered into English.",
+   "line_id": 3744,
+   "source_hash": "06ab42d4d3bfa8f6a4ecd5e7be61d20bb60286e97de6e84b126e2941f0e4a273",
+   "source_condition": "uncertain"
+  },
+  "1Q58 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and reconstructions with no defensible English equivalents.",
+   "line_id": 3745,
+   "source_hash": "c113c0e90f17342275ee812efa6f99db250c052dd9dc62597ea30cb93dd483ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q58 f1:3": {
+   "en": "Israel",
+   "notes": "The transcription contains untranslatable characters and damage, with only 'Israel' recoverable.",
+   "line_id": 3746,
+   "source_hash": "62a018a1cd861965458da796fb88a50edefd0d7617d82252bd50ea04afbaa9c1",
+   "source_condition": "uncertain"
+  },
+  "1Q58 f2:1": {
+   "en": "upon",
+   "notes": "The transcription contains two untranslatable characters (ε) at the beginning and end of the line, which are omitted from the translation. Their presence and meaning are uncertain.",
+   "line_id": 3747,
+   "source_hash": "b3d621dfdd151645244e15d5a0099441c4101fcf108a1677c15686547918d5c7",
+   "source_condition": "clean"
+  },
+  "1Q58 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only damaged or untranslatable characters.",
+   "line_id": 3748,
+   "source_hash": "e655f7dbf4d3892411608f94721db33a35774ff893ed0b6702117b1b108bd1cd",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

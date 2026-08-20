@@ -1,0 +1,67 @@
+{
+ "id": "3Q4",
+ "label": "3Q4",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 77,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "3Q4 f1:1": {
+   "en": "The vision of Isaiah the son of Amoz, who saw concerning Judah and Jerusalem in the days of Uzziah.",
+   "notes": "Reconstructed text within damaged word 'א[ מוץ' supplied as 'Amoz'.",
+   "line_id": 4058,
+   "source_hash": "18845ffb2ac8c6e05d99a23e0526f073cf95935803a6af13cfd39f12464ae97a",
+   "source_condition": "reconstructed"
+  },
+  "3Q4 f1:2": {
+   "en": "And Jotham, Ahaz, and Hezekiah, the kings of Judah",
+   "notes": "The transcription contains damage and uncertainty markers. The phrase evidence supports the rendering of 'Hezekiah the king of Judah' and 'Jotham Ahaz' as repeated patterns. The final 'ε' is an untranslatable character, likely a scribal error or damage, and is omitted from the translation.",
+   "line_id": 4059,
+   "source_hash": "60bf7e8337646a2e0cb55ec5d29cfccbf408453b001f20fae847aedaeea463ae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q4 f1:3": {
+   "en": "Isaiah prophesied upon Judah and Jerusalem",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 4060,
+   "source_hash": "fd7be752a29eec7f1ce55e6087592ad1e9f9f41050abd65e883601e553a61872",
+   "source_condition": "reconstructed"
+  },
+  "3Q4 f1:4": {
+   "en": "to Uzziah the king of Judah",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 4061,
+   "source_hash": "e396d3b15b2fb1131631e48f4d4ea33c25c30b8509e6c2bd3ccf3b1b28567f4d",
+   "source_condition": "reconstructed"
+  },
+  "3Q4 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of two untranslatable characters (ε), with no recoverable lexical content or defensible English equivalents.",
+   "line_id": 4062,
+   "source_hash": "408b1be6cf7a355c78b25f8f35101161bfc02fc4d1ae64e8d4eba21c8fcbfe8e",
+   "source_condition": "clean"
+  },
+  "3Q4 f1:6": {
+   "en": "the day of justice",
+   "notes": "The transcription is partially damaged and reconstructed, with uncertainty in the first word and the final character. The translation reflects the recoverable lexical items.",
+   "line_id": 4063,
+   "source_hash": "7a7958f31e3e106d287cf766f6e95f300a255cde0f0ae7384adffd53c3b8e253",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q4 f1:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Reconstructed and visible characters do not form translatable lexical units.",
+   "line_id": 4064,
+   "source_hash": "4ca68a1a8bb6364332be3ded182d16f6580a323f81f4165afa0efd433d4533f7",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

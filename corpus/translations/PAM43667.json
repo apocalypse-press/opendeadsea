@@ -1,0 +1,39 @@
+{
+ "id": "PAM43667",
+ "label": "PAM43667",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 699,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "PAM43667 f55:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments (ε] # [ε) with no recoverable lexical content. All visible forms are either unknown or reconstructed with uncertainty.",
+   "line_id": 35504,
+   "source_hash": "8348b46022efa6ddfd8f858d013cf803030f8c3537e196600d9aad4ab3da7587",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43667 f55:2": {
+   "en": "and interval",
+   "notes": "The transcription contains uncertain and reconstructed elements, including untranslatable characters (ε, ׃) and a damaged conjunction (]ו). The phrase 'and interval' reflects the recoverable words 'וְ' (and) and 'בין' (interval), but the overall meaning is unclear due to extensive damage and uncertainty.",
+   "line_id": 35505,
+   "source_hash": "d63619b90e2a1714a883e7b5046ab7d76dfbdb8c06ecc73759d0113b13f787f2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43667 f77:1": {
+   "en": "he sees",
+   "notes": "Uncertain transcription and morphology; translation based on visible verb form 'י?ראה' with third-person masculine singular imperfect tense.",
+   "line_id": 35506,
+   "source_hash": "7573c877ad559cb77c56f46368f80f6a4ee6ebf1a8279abe88648f5c44643bba",
+   "source_condition": "uncertain"
+  }
+ }
+}

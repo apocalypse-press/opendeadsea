@@ -1,0 +1,39 @@
+{
+ "id": "4Q250c",
+ "label": "4Q250c",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 203,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q250c f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]י?[) with no clear lexical or semantic content. The reconstructed and uncertain elements do not provide sufficient evidence for a defensible translation.",
+   "line_id": 9294,
+   "source_hash": "27257ae00a6251c6af240a5864a8be47a7697d5675a73c0d789658a32243a156",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q250c f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic lexical items, only untranslatable fragments and punctuation.",
+   "line_id": 9295,
+   "source_hash": "43b7c14508aa65e68cb569f1aec11ff89c3e33a6d317b311213de3ad659e71f6",
+   "source_condition": "uncertain"
+  },
+  "4Q250c f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 9296,
+   "source_hash": "50d6b85b0be048808249145b8da61e3525335f9afd020e05c5c9ce5fafd0aa8d",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

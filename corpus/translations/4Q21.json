@@ -1,0 +1,39 @@
+{
+ "id": "4Q21",
+ "label": "4Q21",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 799,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q21 f1:1": {
+   "en": "the curtain the one eight and twenty in cubit and breadth",
+   "notes": "Uncertain transcription and reconstruction in 'eight' (ש##מ##ו#?נ#?ה##), 'and' (ו#?), and 'twenty' (ע##[ שרים). Phrase evidence suggests possible renderings for 'the curtain the one' and 'one [will be] eight', but these are not adopted due to low pattern support and lack of direct evidence for future tense.",
+   "line_id": 41064,
+   "source_hash": "aa73147b639672c3c527164fd2e7897ed71f89ff1eb51e53d1e9207aaeb3a27d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q21 f1:2": {
+   "en": "Four in a cubit the curtain the one size one to all the curtains",
+   "notes": "The transcription is partially damaged, with one reconstructed word and two uncertain words. The phrase 'the one size one' is supported by repeated phrase evidence. The translation conservatively follows the recoverable text without adding missing subjects or smoothing repetition.",
+   "line_id": 41065,
+   "source_hash": "e6c73ee032b4c65f5291c579b29c0fe6a6eba3c68d3a97cb8962920ac0411030",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q21 f1:3": {
+   "en": "And he joined five of the curtains one to one and five curtains",
+   "notes": "The translation follows high-confidence phrase evidence for 'five of the curtains' and 'five curtains'. The object marker 'et' is omitted due to uncertainty and lack of strong evidence. The phrase 'one to one' is supported by repeated evidence, though its exact relationship is unclear.",
+   "line_id": 41066,
+   "source_hash": "d6e66913193d410362e2abaec68543cdd3dec85ce908df2e2373a949ed4d82be",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

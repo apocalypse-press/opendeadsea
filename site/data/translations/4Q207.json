@@ -1,0 +1,60 @@
+{
+ "id": "4Q207",
+ "label": "4Q207",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 136,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q207 f1:0": {
+   "en": "and still I became",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The verb 'הוית' is translated as 'I became' based on its morphology.",
+   "line_id": 7053,
+   "source_hash": "1cc581184d7fc04d52ab2b63819d61b16c9b7739c2bf82b62a4729adc9ec818a",
+   "source_condition": "clean"
+  },
+  "4Q207 f1:1": {
+   "en": "I lifted up my eyes in a dream and behold, and I saw the heavens from above, and a star fell from the heavens to the middle",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'נטלעינ׳יבחלמאוחזיתשמיא' is partially reconstructed. The words 'כו?כ#ב##' (star) and 'ח##[ ד' (one/sharp) are uncertain. The lexical gloss for 'מציע' is unclear, translated as 'middle' based on context.",
+   "line_id": 7054,
+   "source_hash": "acd7d3c407cffa7755acda797733828cb40dfe1819488e9483212f3fbf4b1fe5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q207 f1:2": {
+   "en": "Doves, great ones, and he ate and pastured among them. Behold, then I saw these great doves.",
+   "notes": "The translation includes reconstructed and uncertain elements, particularly in the verb 'חז?י#?[' (see) and the particle 'א' (unknown gloss). The phrase 'ביני׳הון' is translated as 'among them' based on the suffix indicating a plural masculine context, though the exact referent is unclear.",
+   "line_id": 7055,
+   "source_hash": "9f644cde65557ce2410a21d2a4d3aab10b2ff615f27aa1909854ccd85197096e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q207 f1:3": {
+   "en": "And their whole pasture, and their pens, and their [no recoverable text] passed by, and they let loose to live one to one.",
+   "notes": "The transcription contains significant damage and uncertainty, particularly in positions 11 and 20. Position 11 is heavily reconstructed and uncertain, rendering its translation as '[no recoverable text]'. Position 20 is an unknown punctuation mark and is omitted from the translation. The phrase 'one to one' at the end is a literal translation of the repeated 'חד ל חד', though its exact meaning is unclear.",
+   "line_id": 7056,
+   "source_hash": "937a17d8500eb18473839499eed34915c33d2db39a2914b74b99a86436aa47bc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q207 f1:4": {
+   "en": "And still I saw in a dream, and I crushed the heavens, and behold, the exalted stars came down and were thrown from the heavens.",
+   "notes": "The transcription is partially damaged, with two reconstructed words and one uncertain word. The lexical gloss for the particle 'א' is unclear, but it is omitted in the translation as it does not significantly alter the meaning. The verb 'מתרמין' is translated as 'were thrown' based on the context, though its exact sense is uncertain.",
+   "line_id": 7057,
+   "source_hash": "d2ccc6b5c43524f3f6770ef895c742992e5988c4bcb24aab3598a067ef6be67c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q207 f1:5": {
+   "en": "With the star, first, and they turned, doves in the midst, these with them, they pastured between them.",
+   "notes": "Uncertain elements include the particle 'א' (positions 3, 5, 9, 13), the preposition 'ב##' (position 10), and the noun 'מ##צ##[' (position 11). The term 'תו ]ר#י' (position 8) is translated as 'doves' based on the lexical gloss, but it could also mean 'turn' or 'ox'. The noun 'עגלי' (position 12) is uncertain, and the final punctuation mark '׃' (position 19) is of unknown significance.",
+   "line_id": 7058,
+   "source_hash": "09618a415cf4bf44811ea3cb0d6f7b49aaf37cdf20de2113adc42a9d76883ebb",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

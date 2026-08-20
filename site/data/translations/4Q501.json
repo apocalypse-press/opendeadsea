@@ -1,0 +1,81 @@
+{
+ "id": "4Q501",
+ "label": "4Q501",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 539,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q501 f1:1": {
+   "en": "Do not give to strangers our heritage and our toil to the sons of foreignness. Remember that",
+   "notes": "The transcription contains uncertain and reconstructed elements, including positions 2, 3, and 14, which are omitted from the translation. The phrase 'sons of foreignness' is supported by repeated phrase evidence.",
+   "line_id": 24054,
+   "source_hash": "e07e3566c441601f716f451b60414ef115edd8e1d039254535f9329e30a4eb37",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q501 f1:2": {
+   "en": "We restrain the people and leave the heritage. Remember the sons of the covenant, the desolate ones.",
+   "notes": "The transcription contains a reconstructed word ('[ אנחנו') and a punctuation mark (׃) that cannot be translated independently. The phrase 'זכורבניברית׳כההשוממים' is translated based on the provided phrase evidence, but the dominant contextual rendering is not directly applied due to the absence of 'Zaccur' in the source text.",
+   "line_id": 24055,
+   "source_hash": "71eeead566077f05c5ad9daa90f54a4aa46f84c2d254731af9aeed762d8f2492",
+   "source_condition": "reconstructed"
+  },
+  "4Q501 f1:3": {
+   "en": "incited they err and there is no returning broken and there is no binding",
+   "notes": "The initial 'ε' and '׳כ ]ה' are untranslatable; their meaning is unclear. The phrase 'go back buy' from repeated evidence is not supported by the visible text, so it is not used. The translation follows the visible morphology and lexical glosses.",
+   "line_id": 24056,
+   "source_hash": "6c2405e680e11f5e36039903f3a967d7006c5f1d26f2a51126127035e0f2588b",
+   "source_condition": "clean"
+  },
+  "4Q501 f1:4": {
+   "en": "Bent and not raised up, they turned around. With a people in a tongue of falsehood, and they are turned.",
+   "notes": "The phrase 'a tongue of falsehood' is supported by repeated evidence. The word 'חי?לכיא' is uncertain and omitted from the translation. The transcription contains a reconstructed word and an uncertain word.",
+   "line_id": 24057,
+   "source_hash": "2bfa64ecd98f568ba08bd1bee000e8e20ca9e45e660476c6c81ac13d47267913",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q501 f1:5": {
+   "en": "Upon you and your shoot, one born of a woman. Look and see the reproach of my sons.",
+   "notes": "The phrase 'one born of a woman' is supported by repeated evidence. The transcription contains uncertain and reconstructed elements, particularly around positions 2-3 and 9.",
+   "line_id": 24058,
+   "source_hash": "27222384262c3619f8902c97dfad7982ae4679b0078040b79575e497847f3af9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q501 f1:6": {
+   "en": "Because our people grew hot with anger, and irritations seized us from the face of the tongue of their reviling.",
+   "notes": "The transcription contains reconstructed text (position 1) and an uncertain reading (position 7). The translation preserves the visible morphology and lexical items, with uncertainty noted.",
+   "line_id": 24059,
+   "source_hash": "5cb8352785c56f8eddef8982a62a5d5675bd70b7865301f16f0bf6946d858964",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q501 f1:7": {
+   "en": "In my commandments and it will be offspring from the sons of the covenant",
+   "notes": "Uncertain reconstruction of 'sons' and 'covenant' due to damaged text.",
+   "line_id": 24060,
+   "source_hash": "f183af864efea5e77ddd650fb20e3fbfe8cab2de1d571dece1090e2bcc8bd0d8",
+   "source_condition": "uncertain"
+  },
+  "4Q501 f1:8": {
+   "en": "to them in the commotion strength and make in vengeance",
+   "notes": "The initial 'ε' is untranslatable and omitted. The phrase 'כוח׳כה' combines 'strength' and a possible secondary meaning 'lizard,' but context favors 'strength.' The phrase 'עשה ב׳המה' is translated as 'make in' based on repeated phrase evidence, though the preposition 'in' is repeated for fluency.",
+   "line_id": 24061,
+   "source_hash": "7f5494226aa86a30c365a131a89c74f509ae647ebb9c6e691d18ba8243caa654",
+   "source_condition": "clean"
+  },
+  "4Q501 f1:9": {
+   "en": "For they will not place it before them, and they will be superior over the humble and the poor.",
+   "notes": "The transcription contains uncertain and damaged elements, particularly in positions 2, 3, and 15, which are omitted or reconstructed in the translation. The phrase 'כיאε]׳כ##ה##' is uncertain and not translated. The verb 'שמו׳כה' is reconstructed as 'place' based on context. The preposition 'ל' is translated as 'to' for clarity. The phrase 'נגד׳מה' is translated as 'before them' based on the gloss 'counterpart / toward' and contextual inference. The hitpael form 'יתגברו' is translated as 'will be superior' to reflect the reflexive sense. The adjectives 'עני' and 'אביון' are translated as 'humble' and 'poor' respectively, based on their glosses.",
+   "line_id": 24062,
+   "source_hash": "60f1624ae4fcb7fc95f68555e16ae9bad08023751ea4d55c2ecee5252a3d8b0c",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

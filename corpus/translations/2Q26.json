@@ -1,0 +1,46 @@
+{
+ "id": "2Q26",
+ "label": "2Q26",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 69,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q26 f1:1": {
+   "en": "Rinse the tablet to skin",
+   "notes": "Uncertain transcription and reconstruction in multiple words. The verb 'skin' is reconstructed and uncertain. The particles 'א' and 'ε' are unclear and omitted from the translation.",
+   "line_id": 3992,
+   "source_hash": "b175d062ac1509641f8c11435c2c4e56106b82855be9f9396e69245cfc0950bd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q26 f1:2": {
+   "en": "and they ascended kinds above from the tablet",
+   "notes": "Uncertain reconstruction of 'tablet' (לו ]ח##). Two untranslatable characters (ε) omitted. Phrase evidence suggests 'take up from' but is not binding; visible morphology retained.",
+   "line_id": 3993,
+   "source_hash": "af6115bb0168bced3cb1ded690aad97b259b604128411fbf9c43fe4da81bc76d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q26 f1:3": {
+   "en": "They lifted up the tablet from the kinds of tablets",
+   "notes": "The translation is highly uncertain due to extensive damage and unclear syntax. The verb 'lifted up' is reconstructed from נ?ט#לו, which may also mean 'lay upon'. The phrase 'kinds of tablets' is a tentative interpretation of 'לוח...מי...לוח', assuming a possessive relationship not explicitly stated in the text. The relative particle 'די#?[' is omitted as its function is unclear. Several untranslatable characters and uncertain forms are present, including ε, ו#?, and א.",
+   "line_id": 3994,
+   "source_hash": "dac45791c07340aed77c7aa95f932dec1c21430e140e0416571b5baf2b31455f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q26 f1:4": {
+   "en": "to all",
+   "notes": "The translation is based on the phrase evidence for positions 3 and 4, which strongly supports 'to all'. The remaining text is uncertain and fragmented, with no recoverable content beyond this phrase.",
+   "line_id": 3995,
+   "source_hash": "de56ef88812c6207e1e335e053dd1bbfc323596b1cea1e0ef21fcb01927b7aea",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

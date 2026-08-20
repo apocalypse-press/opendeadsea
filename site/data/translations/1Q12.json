@@ -1,0 +1,88 @@
+{
+ "id": "1Q12",
+ "label": "1Q12",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 751,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q12 f1_2+8:1": {
+   "en": "We heard our fathers recount to us about a deed I am about to do in days of antiquity. Your hand [upon] peoples.",
+   "notes": "The phrase 'days of antiquity' is a high-confidence contextual rendering of 'ימי קדם'. The phrase 'a deed I am about to do in' is a high-confidence contextual rendering of 'פ[ ועל פעלת ב'. The translation preserves the grammatical person and number shifts in the source text. The final phrase 'Your hand [upon] peoples' is a literal translation, but the preposition 'upon' is uncertain due to the damaged text.",
+   "line_id": 39324,
+   "source_hash": "ecc0834aec783ed6587739b3b8c88c63f98ef6e898ba53636e1a2ea9e7f73314",
+   "source_condition": "reconstructed"
+  },
+  "1Q12 f1_2+8:2": {
+   "en": "You have trampled down and planted evil among the people and sent. That not in their dagger they have trampled down.",
+   "notes": "The translation follows the visible morphology and lexical glosses, preserving the grammatical person, number, and semantic relationships. Uncertainty in the transcription is noted, particularly in the reconstruction of certain words and the interpretation of the final verb 'ירשו'.",
+   "line_id": 39325,
+   "source_hash": "2002450ed9a9f0ffd04a9cd01bfe406050ce141aeefa8401631942ad46493afc",
+   "source_condition": "reconstructed"
+  },
+  "1Q12 f1_2:3": {
+   "en": "The earth and their arm not she will deliver to that your right-hand side and arm and light your faces",
+   "notes": "Uncertain reconstruction of 'help' (position 5) and 'arm' (position 10). Phrase evidence suggests 'not they will deliver (to)' for positions 4-6, but the translation retains the literal sense of the visible tokens. Phrase evidence also suggests 'make shine face' for positions 12-13, but the translation follows the visible glosses.",
+   "line_id": 39326,
+   "source_hash": "5fbb71d6231ee59fa70906ac3fa98ddd531da0853740d4e0df153dcfad7fff9b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q12 f1_2:4": {
+   "en": "For you desired him, the king of gods commanded the salvations of Jacob",
+   "notes": "The transcription is partially damaged and reconstructed. The phrase 'he reigns God' is a high-confidence contextual rendering for 'the king of gods'. The verb 'commanded' is an imperative form, but the context suggests a past action. The translation preserves the original word order and grammatical structure as much as possible.",
+   "line_id": 39327,
+   "source_hash": "24d66b149036ff294447f20c275861e6db5624a822ca18de3a8fbff0c84e36e3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q12 f1_3:5": {
+   "en": "In our adversary we gore in the name we tread down before us for not in the bow I trust",
+   "notes": "The phrase 'at the rock' is omitted due to insufficient evidence. The translation retains all recoverable words in order, preserving grammatical structure and semantic relationships.",
+   "line_id": 39328,
+   "source_hash": "d7c9e91f5745f905a41a17684be67e671dd6cd21fc24957d2413f9184257e0fe",
+   "source_condition": "reconstructed"
+  },
+  "1Q12 f1_4:6": {
+   "en": "And a dagger will not help me, for you have helped us from our adversaries and from our haters, be ashamed in them, in the gods.",
+   "notes": "The translation includes reconstructed text and an uncertain particle. The phrase 'in the gods' is uncertain due to damage and reconstruction.",
+   "line_id": 39329,
+   "source_hash": "f3ba425e1fafddda9db2a9315530a23c7a5b6affda051e110ff1c3e4b6db92aa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q12 f5_6:1": {
+   "en": "For upon you we have killed all the day we were accounted as cattle for slaughter",
+   "notes": "The transcription is partially reconstructed and uncertain. The phrase 'all the day' is supported by repeated evidence. The sense of 'cattle' is uncertain, and the final word 'slaughtered meat' is translated conservatively.",
+   "line_id": 39330,
+   "source_hash": "b3980c59fb7a9b87826002494e23a3bee7b683afa4e3bb52fd98c957064bf786",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q12 f5_6:2": {
+   "en": "Why do you sleep, Lord? Do not reject us to perpetuity.",
+   "notes": "The phrase 'reject [us] to perpetuity' is supported by repeated phrase evidence. The verb 'sleep' is addressed to the Lord based on contextual rendering.",
+   "line_id": 39331,
+   "source_hash": "dfd5dbf7165105a3adec090e96008b0f6a483ae3a153b4f84fcc72eb70183a46",
+   "source_condition": "reconstructed"
+  },
+  "1Q12 f5_7:3": {
+   "en": "Why do you hide your face, forgetting our poverty and oppression?",
+   "notes": "The phrase 'forgetting our poverty' is supported by repeated phrase evidence. The verb 'forget' is uncertain due to damage, but the context supports this rendering. The final punctuation mark is omitted as it has no clear translation.",
+   "line_id": 39332,
+   "source_hash": "aaa1af1f2f1e3a7270eb8eb80e01d0846bbc194e4c6ce7f67015481de73c49b5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q12 f9:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too damaged to interpret.",
+   "line_id": 39333,
+   "source_hash": "5079fe8461c9966ce0684ee8033358a191704e1fed60ef2455f7d7e04ebe61ca",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "1Q45",
+ "label": "1Q45",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 38,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q45 f1:1": {
+   "en": "humble",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters (ε) and bracketed material. The only recoverable word is 'עני' (ʿānî), translated as 'humble'. All other elements are either untranslatable or too damaged to provide meaningful content.",
+   "line_id": 3691,
+   "source_hash": "217ce47ecb93488460d8b2274167d2a75bdcc0ffcafeaf7774e1ddf53189872a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q45 f1:2": {
+   "en": "you have bought off",
+   "notes": "The transcription contains untranslatable characters and a reconstructed verb form. The verb 'פדית' is translated based on its morphology and lexical gloss, but the surrounding characters (ε and ː) cannot be independently translated and are omitted.",
+   "line_id": 3692,
+   "source_hash": "c62492f45a387c87f7c52617540669534dbb8fd25cdc3474fd22e76b2b89a623",
+   "source_condition": "reconstructed"
+  },
+  "1Q45 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain elements, with no recoverable lexical items that can be confidently rendered into English.",
+   "line_id": 3693,
+   "source_hash": "f37eb6d232024eb8e302ea165cd97f9b8a5d7368cf6a005968d5721d36fbca10",
+   "source_condition": "uncertain"
+  },
+  "1Q45 f2:2": {
+   "en": "humble",
+   "notes": "The transcription contains multiple uncertain and unknown elements, including damaged characters and reconstructions. Only the word 'עני' (humble) is recoverable with certainty. All other elements are omitted due to insufficient evidence.",
+   "line_id": 3694,
+   "source_hash": "e62d1c7f7952288d340196bc97a955978a1b7a09bf0e39361baf7d69dfbc4d20",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q45 f4:1": {
+   "en": "and I will live",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged conjunction 'ו?' (and) and a reconstructed verb 'אחיה#' (I will live). The final 'ε' and '׃' are untranslatable and omitted.",
+   "line_id": 3695,
+   "source_hash": "7c070759e23f883b6a8c86352f925b576e2c1ea0d33519e2158cf9fbd15b16c3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q45 f9:1": {
+   "en": "sons",
+   "notes": "The transcription contains untranslatable characters (ε, ː) and a source-script punctuation mark (׃) that are omitted from the translation. The recoverable word 'בני' is translated as 'sons'.",
+   "line_id": 3696,
+   "source_hash": "4ba1a0d100479e691691dd39a9d3affd22f103640543667664ba39a181e5efd7",
+   "source_condition": "clean"
+  }
+ }
+}

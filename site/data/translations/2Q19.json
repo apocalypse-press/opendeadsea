@@ -1,0 +1,53 @@
+{
+ "id": "2Q19",
+ "label": "2Q19",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 62,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q19 f1:1": {
+   "en": "And they will bury him in the cave of Machpelah, by Sarah, his wife, and his sons",
+   "notes": "The phrase 'the cave of Machpelah' is supported by repeated phrase evidence. 'Sarah wife' is also supported, but the possessive 'his' is added based on contextual constraints. The final phrase 'and his sons' is a conservative translation of the surviving text, though the exact referent is uncertain.",
+   "line_id": 3863,
+   "source_hash": "5bb4044a65ae0ee979554b9d1784664bc7e9d6979ecc71fe5a7f21d60dd9bad3",
+   "source_condition": "reconstructed"
+  },
+  "2Q19 f1:2": {
+   "en": "Isaac and Ishmael and they wept for him forty days all the men of his house and Isaac and Ishmael and all their sons and all",
+   "notes": "The phrase 'all the men of his house' is a contextual rendering of positions 9-11. The phrase 'all their sons' is a contextual rendering of positions 17-18. The final 'and all' is incomplete due to damage.",
+   "line_id": 3864,
+   "source_hash": "66617c9e10fde0653c7a5d55bd6abb170a9d443cbd2ca6ad46178608d65f8da4",
+   "source_condition": "reconstructed"
+  },
+  "2Q19 f1:3": {
+   "en": "the sons of Keturah in their places",
+   "notes": "The phrase 'the sons of Keturah' is supported by repeated phrase evidence. The final two characters are untranslatable and omitted.",
+   "line_id": 3865,
+   "source_hash": "e1b9ce45364193ca1de00343bc27a15a179b6378537f37a59f3ce5b545164e81",
+   "source_condition": "reconstructed"
+  },
+  "2Q19 f1:4": {
+   "en": "And the days of weeping for Abraham were complete: three rams he lived, and four weeks of years, a hundred and seventy and five.",
+   "notes": "The term 'יובלים' is translated as 'rams' based on the provided lexical gloss, though it typically means 'jubilees' or 'trumpets'; 'שבעים' is uncertain but contextually fits as 'seventy'.",
+   "line_id": 3866,
+   "source_hash": "cb90aed63cec6eb1f4b8f309330dab7e9da331397e56adf08deef9a07525f133",
+   "source_condition": "reconstructed"
+  },
+  "2Q19 f1:5": {
+   "en": "Years and the days of his life old and sated days",
+   "notes": "The phrase 'seven days' is supported by repeated evidence, but 'sated' is retained as the context-free gloss for the adjective 'שבע'. The character 'ε' and the final punctuation mark are omitted as they cannot be translated independently.",
+   "line_id": 3867,
+   "source_hash": "c227eecc63d4984034c2a6c2d476d580aced1f4bc79d51a0ff9a493068f30286",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

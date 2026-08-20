@@ -1,0 +1,39 @@
+{
+ "id": "6Q21",
+ "label": "6Q21",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 659,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "6Q21 f1:1": {
+   "en": "souls",
+   "notes": "The transcription is damaged and partially reconstructed. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 32700,
+   "source_hash": "ff66c368497ff43bf802e617f7ab2f29062bf558bd21a7bf9b41c7b2c88f8893",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q21 f1:2": {
+   "en": "the people",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 32701,
+   "source_hash": "c5b4ff170b3d5ea6c52e9afcb704cac036ed334418434bfed37af4d477e2f99b",
+   "source_condition": "uncertain"
+  },
+  "6Q21 f1:3": {
+   "en": "to harvest for",
+   "notes": "The transcription is partially damaged, with uncertainty in the second word and an untranslatable final character (ε). The phrase 'a harvest for' is supported by repeated evidence, but 'a' is omitted as unlicensed. The preposition 'to' is retained from the first word. Uncertainty in the second word is not signaled in the translation.",
+   "line_id": 32702,
+   "source_hash": "706ffa0da3f377606eeb9acd5395efc29c6bfe4c169719b97181c6b12fbb9d7a",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

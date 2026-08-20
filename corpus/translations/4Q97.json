@@ -1,0 +1,67 @@
+{
+ "id": "4Q97",
+ "label": "4Q97",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 889,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q97 f1_2:1": {
+   "en": "your servant, that he will not be just to your face, every living",
+   "notes": "Uncertainty in transcription and reconstruction noted for positions 1, 7, and 10. Phrase evidence partially supported 'before before all' and 'the surface of all' but was not adopted due to lower confidence. Translation retains visible lexical items in order, omitting unsupported relations.",
+   "line_id": 48475,
+   "source_hash": "c98221f16498a93def7914052faf0fee911817ae4c5ef8d46c00d29a017543d1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q97 f1_2:2": {
+   "en": "An enemy soul oppressed to the earth they will bow down in dark places",
+   "notes": "Uncertainty in transcription and reconstruction affects positions 6, 7, 8, and 9. Phrase evidence partially supports 'an enemy life' and 'ground they will bow down' but is not fully determinative. The translation conservatively retains recoverable elements while noting ambiguities.",
+   "line_id": 48476,
+   "source_hash": "3fd0534e9287562a6d6c77a6b845078eb64a935e0bc02c047749266724570dff",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q97 f1_2:3": {
+   "en": "Like dead of eternity and fainted away on wind in midst be desolate",
+   "notes": "Uncertainty in reconstruction and transcription affects 'upon [ ]' and 'wind'; 'be desolate' is a possible rendering of the verb but context may suggest 'be astonished'.",
+   "line_id": 48477,
+   "source_hash": "e157ca5c6a95da1d02f5d67b94a35065fbceb518e3036a89ee1c133f41728019",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q97 f1_2:4": {
+   "en": "I remembered days from antiquity, I muttered in all your doing, in deed",
+   "notes": "The phrase 'days from antiquity' is a high-confidence reconstruction of positions 4-6. The sequence 'all your doing' reflects repeated phrase evidence for positions 9-10, though the possessive 'your' is not explicitly licensed by the source. The final 'in deed' is a conservative rendering of the surviving material, with no added connectors or subjects.",
+   "line_id": 48478,
+   "source_hash": "71b12d0da8f4beccbd800cb8e649ce79c82f7dbef2ed1d61ef9f4559bcab02b0",
+   "source_condition": "reconstructed"
+  },
+  "4Q97 f1_2:5": {
+   "en": "I will be concerned with your hands, I spread out a hand, to my soul as a weary land",
+   "notes": "The phrase 'to my soul' is a high-confidence contextual rendering of positions 6-7. 'A weary land' is a repeated phrase evidence for positions 9-10. The translation retains uncertainty due to damaged syntax and reconstructed words.",
+   "line_id": 48479,
+   "source_hash": "0b4ed03c519915689c065b230bc0325ac5ea51c1a05ee2b7434433e70e9243a4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q97 f1_2:6": {
+   "en": "To sela hasten answer YHWH be complete wind not hide face",
+   "notes": "Uncertain elements include the reconstruction of 'to' (ל׳ך), the meaning of the particle 'sela' (סלה), and the interpretation of damaged verbs and nouns. The phrase 'hasten answer' is supported by repeated evidence, while 'not hide face' is a dominant pattern. Other combinations are less certain due to low support or ambiguity.",
+   "line_id": 48480,
+   "source_hash": "b0582f7966df020226a759c2f56bd08c1b2c131b6cb06828443a9c97b60dd67d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q97 f1_2:7": {
+   "en": "From and I was ruled with [those who] go down of [the] pit. Hear in morning loyalty.",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly 'י#?רדי' and 'ב##ור#', may affect the translation. The phrase 'with [those who] go down of [the] pit' is supported by repeated phrase evidence, while 'morning loyalty' is a dominant contextual rendering of 'בקר חסד'.",
+   "line_id": 48481,
+   "source_hash": "41b9443ed7e0141113f12e0c5ef6c6a9da3d424c4ed020a0b54b9282848ecd64",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

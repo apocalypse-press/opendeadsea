@@ -1,0 +1,67 @@
+{
+ "id": "4Q385b",
+ "label": "4Q385b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 374,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q385b f1:1": {
+   "en": "And these words of Ezekiel and it came the word of Yahweh to",
+   "notes": "The phrase 'it came the word of Yahweh' is a high-confidence reconstruction based on repeated phrase evidence. The preposition 'to' is uncertain due to damage and reconstruction. The verb 'say' and the noun 'son' are uncertain due to damage and low phrase evidence support.",
+   "line_id": 16991,
+   "source_hash": "419a4285a94ec8890abd00e08be23f2a5f7763f57830e6f1751e124404f8283f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385b f1:2": {
+   "en": "Of humankind prophesy, and you said, Behold, the day of destruction of peoples has come.",
+   "notes": "The phrase 'of humankind prophesy' is supported by repeated phrase evidence. The sequence 'Behold, the day of destruction of peoples has come' is a conservative translation of the visible text, with 'destruction' marked as uncertain due to the damaged state of the word 'אב#דן'. The final 'ε' and '׃' are omitted as they cannot be translated independently.",
+   "line_id": 16992,
+   "source_hash": "fae7a7dbf2212e0a18adc99b2e84b455bee0c3967af36a6929c41fc99d034bb0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385b f1:3": {
+   "en": "Egypt will be anguish in Put and will be a dagger in Egypt",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the word 'חלחלה' (anguish) and the repetition of 'Egypt'. The phrase 'it will be anguish on' is supported by repeated evidence, but the preposition 'on' is not present in the recoverable text. The translation conservatively omits this preposition and retains the literal sense of the visible words.",
+   "line_id": 16993,
+   "source_hash": "e0b31cae2f9c93a6b0bea7baa0498f6d77330a35083dd868f182cc07bb3c8956",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385b f1:4": {
+   "en": "She is being slighted, and Cush, and Pul, and mighty Arabs, and even from the sons",
+   "notes": "The initial character ε is omitted as it cannot be translated independently. The verb 'be slight' is reconstructed and uncertain. The particles 'and' and 'even' are repeated, and the noun 'son' is reconstructed and uncertain. The translation preserves the visible lexical items and their order, with necessary reconstructions noted.",
+   "line_id": 16994,
+   "source_hash": "b5813bd1a8a0c64fec0a5daa2f7cd97683cc800c5823c4654d6793f2fcdb6637",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385b f1:5": {
+   "en": "The covenant and the Arabs will fall in the gates of Egypt and she will perish",
+   "notes": "Uncertain elements include the word 'Arabs' (position 4), the phrase 'gates' (position 7), and the verb 'perish' (position 10). The final character 'ε' (position 11) is untranslatable and omitted.",
+   "line_id": 16995,
+   "source_hash": "4521d128528bbfd011900244df833e27a9918608246772badef16ad830d99656",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385b f1:6": {
+   "en": "in dagger Egypt despoil",
+   "notes": "Uncertain transcription and reconstruction of several words. The translation reflects recoverable lexical items in order, but the exact syntax and relationships are unclear.",
+   "line_id": 16996,
+   "source_hash": "14cef981cfd0d7d9a3a0e6619566d3ee5928eb09c545c21d08bc971a8cc61b03",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385b f1:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 16997,
+   "source_hash": "07fceaecddaa745db0b4a18c6fe4681dd8eeb30cf41d3af964f293699edcd043",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "id": "4Q68",
+ "label": "4Q68",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 12,
+ "scroll_id": 856,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q68 f1:1": {
+   "en": "This rod of yours has been broken",
+   "notes": "Uncertain reconstruction and missing text due to damage. The phrase 'rod it' is supported by repeated evidence, but the exact relationship is unclear. The negation particle 'not' is advisory but not strongly supported.",
+   "line_id": 46387,
+   "source_hash": "15b4d0a2c281c031e170b9598e4771bd97870a079b261e20ace00aab594b4722",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q68 f1:2": {
+   "en": "From the root of a serpent it will go forth, a viper, and fruit: a serpent flying, and they will graze",
+   "notes": "Reconstructed text at positions 3 and 5. Uncertain reading at position 4. Phrase evidence supports 'a serpent flying' at positions 8-9.",
+   "line_id": 46388,
+   "source_hash": "875390a1fef21d7dd95892001b0831cacd8578484ff829134e73aab657271f68",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q68 f1:3": {
+   "en": "The firstborn of the poor and the needy to security they will lie down",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly 'דל#ים' and 'אביו#?[ ני ]ם##['.",
+   "line_id": 46389,
+   "source_hash": "1998a72c052be0e5195c598e4595da68f3abd4b55da109e4f2e293bd63d11b4e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q68 f1:4": {
+   "en": "And I will put to death by famine the root and the remnant it will kill. Wail, O gate",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 6, 7. Position 9 is an unknown punctuation mark and omitted from translation.",
+   "line_id": 46390,
+   "source_hash": "cc0b6ea2e97b97dd2512842d635de4d784ef727084d6006578953f5241464efc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q68 f1:5": {
+   "en": "Cry out, O city, Philistia has melted away, all of you, that from the north smoke is coming and there is not",
+   "notes": "The translation follows the visible transcription and morphology, with constraints applied. The phrase 'Philistia has melted away, all of you' is supported by repeated phrase evidence. The negation 'there is not' is a required constraint. Uncertainty in the first word is noted but not signaled in the translation. The prepositional phrase 'from the north' is a required semantic role.",
+   "line_id": 46391,
+   "source_hash": "5999b08e500ac71282e92bf8ae637a10092e335fc59f3cf6cec5b09f6c2cfb5f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q68 f1:6": {
+   "en": "An isolated one among those known, and what? will anyone answer the messengers of a nation (dm) Yahweh",
+   "notes": "Uncertain conjunction 'and' (position 5) and reconstructed verb 'will answer' (position 7). Unmatched word 'know' (position 3) omitted due to lack of context.",
+   "line_id": 46392,
+   "source_hash": "0303c4d5e9231d4d609494dfc32ec4b401f76eb8aa5d8c8fe76aee2d59280fcf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q68 f1:7": {
+   "en": "He has founded Zion, and in it the afflicted will take refuge, his people.",
+   "notes": "The phrase 'the affliction my people' is a reconstructed and uncertain rendering of the damaged text. The translation follows the required contextual senses and semantic constraints, preserving the grammatical person, number, and semantic relationships.",
+   "line_id": 46393,
+   "source_hash": "5309000ed9e2988c8a80802aeb83747b4e5adb4a21c975d0946200e65c983e91",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q68 f1:8": {
+   "en": "The burden of Moab, in the night it was despoiled, Ar of Moab it was destroyed",
+   "notes": "Uncertain reconstruction of 'night' and 'burden'. The phrase 'Ar of Moab it was destroyed' is supported by repeated evidence, but the exact syntax is uncertain due to damage.",
+   "line_id": 46394,
+   "source_hash": "b43f5daeefa3e51f3017dde49c57c2a2b50f6e0df036134912beb85c18943a96",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q68 f1:9": {
+   "en": "In the night Moab's wall was despoiled, it was destroyed, it has gone up to the house",
+   "notes": "Uncertain transcription and reconstruction in positions 2 and 5. Phrase evidence suggests 'of Moab it was destroyed' and 'room to the' but the latter is not fully supported. Semantic constraints advise 'in' for position 1 and 'subject' for position 5, with required contextual senses for positions 3, 6, 8, 9, and 10.",
+   "line_id": 46395,
+   "source_hash": "96b9502a6439db34788327fc195953799fe1722f5c77f77faa67ccaa037360e8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q68 f1:10": {
+   "en": "And Dibon, the high places for weeping on Nebo and on Medeba",
+   "notes": "Uncertain elements include the article before 'high places' and the exact form of 'weeping'. The word at position 2 remains untranslated due to lack of a trusted gloss.",
+   "line_id": 46396,
+   "source_hash": "d1787881000e3f37282ac3c3086782278f702314165e33028897ea0aa1d64e35",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q68 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible forms include damaged Greek and Hebrew characters, with no clear lexical items surviving.",
+   "line_id": 46397,
+   "source_hash": "debf801a5dc01b41f705a1aee972414ff25d36a9ba26fe82fba43604776c17e4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q68 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no translatable lexical items, only a Greek letter epsilon (ε) and a Hebrew sof pasuq (׃) with no clear semantic contribution.",
+   "line_id": 46398,
+   "source_hash": "29da2d97675d89f5e307e718e1c2b00b406f6ff4c2de0bd61b0707f65ee47a42",
+   "source_condition": "clean"
+  }
+ }
+}

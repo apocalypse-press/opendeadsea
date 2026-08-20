@@ -1,0 +1,53 @@
+{
+ "id": "4Q564",
+ "label": "4Q564",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 606,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q564 f1i:1": {
+   "en": "He becomes empty and also in it",
+   "notes": "The transcription contains uncertain and reconstructed elements, particularly in positions 2 and 3. The lexical gloss for position 3 is unclear, and the translation reflects the visible morphology. The particle 'even' is chosen for 'אף' based on context-free gloss, but its exact sense is uncertain.",
+   "line_id": 31355,
+   "source_hash": "2313d9f57c8db0b37434a1a77e2b7fbdc507282ce4cfaab87993400bbf7e19b3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q564 f1i:2": {
+   "en": "and not",
+   "notes": "Uncertain character ε and damaged ]ך# omitted from translation. Source punctuation mark ׃ omitted from translation.",
+   "line_id": 31356,
+   "source_hash": "f1f5f58cfcbafe15ef4acb2f971369df62cf6c017775394ede3c31adff5dda0d",
+   "source_condition": "uncertain"
+  },
+  "4Q564 f1ii:1": {
+   "en": "one from [no recoverable text]",
+   "notes": "The third word is heavily damaged and its meaning is uncertain. The fourth, fifth, and seventh words are too fragmented to translate. The sixth word is a reconstruction with no recoverable content.",
+   "line_id": 31357,
+   "source_hash": "d8bbc4909506db24f1de7e59599a4edcd047003086f4bae6aacd523f61d006cc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q564 f1ii:2": {
+   "en": "And we became demons to them",
+   "notes": "The phrase 'to them' is reconstructed and uncertain. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 31358,
+   "source_hash": "c3013d72fee99b2003856c9a07efd739cb37e64c6166314e7156e38fe6b233b2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q564 f1ii:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with most characters unrecoverable or uncertain. The visible forms do not provide sufficient information for a defensible translation. The 'ל' and 'א' fragments are insufficient for meaningful interpretation, and the Greek letter 'ε' and the punctuation mark '׃' do not contribute to a coherent English rendering.",
+   "line_id": 31359,
+   "source_hash": "a9b1366fb4e089a002a48bb53cdedb9aa8b1b95fc185bf60d7f37b9a9498e8dc",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

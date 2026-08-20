@@ -1,0 +1,32 @@
+{
+ "id": "4Q338",
+ "label": "4Q338",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 326,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q338 2:1": {
+   "en": "He bore",
+   "notes": "The verb 'bear' is translated from the visible form 'הוליד' with hifil stem and perfect tense. Surrounding text is damaged or uncertain, with no recoverable participants or objects. The translation preserves the third-person masculine singular agency from the morphology but omits implied subjects or objects due to insufficient evidence.",
+   "line_id": 13920,
+   "source_hash": "b2f26317d2685a0868ae51bc758c5556104e3407608d0b91d59fb15c38392d71",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q338 3:1": {
+   "en": "he has borne",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The verb 'ילד' is in the perfect tense, third-person masculine singular, hifil stem, meaning 'he has borne'.",
+   "line_id": 13921,
+   "source_hash": "c94cf6cfcec4acf6214628955ab990f40b6b0f7f2b1d3bd732cf787696ac09b8",
+   "source_condition": "clean"
+  }
+ }
+}

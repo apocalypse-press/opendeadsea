@@ -1,0 +1,95 @@
+{
+ "id": "2Q20",
+ "label": "2Q20",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 11,
+ "scroll_id": 63,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q20 f1:0": {
+   "en": "and they were fertile",
+   "notes": "The initial character 'ε' is untranslatable and likely a scribal error or damage; it is omitted from the translation. The verb 'יפרו' is in the third-person masculine plural form, indicating a plural subject.",
+   "line_id": 3868,
+   "source_hash": "209df1c7d1ef1f21d0430aebafa4d71385a4075b3c04a67d5f202fc16d520994",
+   "source_condition": "clean"
+  },
+  "2Q20 f1:1": {
+   "en": "And they greatly increased ten weeks years all the days of the life of Joseph",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'years all the days' and 'greatly increased'. The final preposition is omitted due to uncertainty in the source.",
+   "line_id": 3869,
+   "source_hash": "8af62825364ec88bf065f15fa53b9c76234c66887e6c1dc8d8e1ac86d6dfb689",
+   "source_condition": "reconstructed"
+  },
+  "2Q20 f1:2": {
+   "en": "And there is no adversary and no all wickedness all the days his life Joseph who lived after",
+   "notes": "The phrase 'all the days his life' is a reconstruction based on repeated phrase evidence. The lexical gloss for 'אחרי' is uncertain, but it is translated here as 'after' based on its common usage.",
+   "line_id": 3870,
+   "source_hash": "43313fa725ea35365951ee9df862fd3150210e17e7e87dfd36239d3f15d5ed7f",
+   "source_condition": "reconstructed"
+  },
+  "2Q20 f1:3": {
+   "en": "The father of Jacob, that all Egypt was giving honor to the people of Israel",
+   "notes": "The phrase 'all Egypt' is a high-confidence contextual rendering of 'כול מצרים'. The phrase 'the people of Israel' is a high-confidence contextual rendering of 'בני ישראל'. The verb 'were giving' is a conservative translation of 'היו נותנים', preserving the visible morphology. The term 'honor' is a context-free gloss for 'כבוד', supported by repeated phrase evidence.",
+   "line_id": 3871,
+   "source_hash": "b41d492f0b668a81026cd008dd172da8a0576b929810b2d358dd0b2ab899856c",
+   "source_condition": "reconstructed"
+  },
+  "2Q20 f1:4": {
+   "en": "All the days of the life of Joseph, and Joseph died a hundred and ten years.",
+   "notes": "The phrase 'a hundred and ten years' is a reconstruction based on repeated phrase evidence. The word 'son' in the phrase 'a son of one hundred' is omitted as it does not fit the context and has low support.",
+   "line_id": 3872,
+   "source_hash": "784d77b7549be17a3208d615590327a0758c3f39152354649fa5387472c53f64",
+   "source_condition": "reconstructed"
+  },
+  "2Q20 f2:1": {
+   "en": "they divide",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed characters. The verb 'פרד' (divide) is partially recoverable, but the surrounding context is unclear. The translation reflects only the visible and defensible lexical item.",
+   "line_id": 3873,
+   "source_hash": "35077bb51acd0060d3906536e96d602d0f5451f0f20da84821a7871a40020643",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q20 f2:2": {
+   "en": "their father who",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The word 'ε' at the beginning and end is untranslatable and omitted. The suffix ']ב##י׳נו' is interpreted as 'their father' based on the lemma 'אָב' and morphology. 'אשר' is translated as the relative particle 'who'. The final 'ה##מ##[' is too damaged to translate confidently and is omitted.",
+   "line_id": 3874,
+   "source_hash": "c3d71bc6fda48757af4f6b904089a774df12047554e99c4d1e8c54d1ae4bc281",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q20 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 3875,
+   "source_hash": "aca6b44542d8da83d43e8f286ac1558344b0ba7712428732989a61745af4dd8f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q20 f2:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ל##[, ׃) with no clear lexical or grammatical meaning. The reconstructed element ]ל##[ is speculative and lacks sufficient evidence for translation. No defensible English words can be derived from the surviving material.",
+   "line_id": 3876,
+   "source_hash": "04a40a927168aeccf36a738276adb3a13bd4658c736c12025e9d20e620c2d260",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q20 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 3877,
+   "source_hash": "d961828058884e33fb2675d5be41e013dfc7182e6a0c4810e3e36249e2ce11fe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q20 f3:2": {
+   "en": "command",
+   "notes": "The translation is based on the recoverable verb 'צוה' (command). The surrounding characters (ε, ː) are untranslatable and omitted. Uncertainty in the verb's form and context is noted.",
+   "line_id": 3878,
+   "source_hash": "0ed07fbc06adb250f312a3c6fed0cbd6e3ad8811cc0c1879466ec57ee756903d",
+   "source_condition": "uncertain"
+  }
+ }
+}

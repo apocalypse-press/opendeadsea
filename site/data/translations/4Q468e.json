@@ -1,0 +1,39 @@
+{
+ "id": "4Q468e",
+ "label": "4Q468e",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 472,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468e f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no identifiable lexical items or meaningful content that can be confidently translated into English.",
+   "line_id": 22511,
+   "source_hash": "c7e03649f9d9dd936f131bc55411f8d0c8a97d2ae005179c495551bc76b60f97",
+   "source_condition": "uncertain"
+  },
+  "4Q468e f1:2": {
+   "en": "kill the multitude of the vigorous men",
+   "notes": "Uncertain reconstruction of 'kill' and 'vigorous men'. Two untranslatable characters omitted.",
+   "line_id": 22512,
+   "source_hash": "15db1b3df8a40839e8236eafee5ab7704c8bfd97a889e177a449fdbac4bc7506",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468e f1:3": {
+   "en": "and the soul which",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown prefix and suffix. The translation reflects recoverable words but omits untranslatable characters and uncertain reconstructions.",
+   "line_id": 22513,
+   "source_hash": "cc04760e431d8393b993d4ddf505ffe1e7a3463c085fd06c80d30a8586248bbc",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

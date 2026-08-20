@@ -1,0 +1,53 @@
+{
+ "id": "XQ6",
+ "label": "XQ6",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 736,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "XQ6 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible. The visible forms are fragmented and lack sufficient context for meaningful interpretation.",
+   "line_id": 36616,
+   "source_hash": "6d83fe8e2516f998a84544878ee2bd1afb3a96513ce8444c8eb674995dff9267",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "XQ6 f1:2": {
+   "en": "they stumbled and [no recoverable text]",
+   "notes": "The transcription contains uncertain and untranslatable characters (ε, ]ו#?, ו#?, ε). The verb 'כשלו' is clearly translated as 'they stumbled,' but the surrounding material is too damaged to recover meaningful English.",
+   "line_id": 36617,
+   "source_hash": "c05191c74eb841d0718a9d00cfbdbfcdeeecb9f8b03290f1f9880b4f0d6210ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "XQ6 f1:3": {
+   "en": "to approach",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The only recoverable lexical items are 'ל' (to) and 'קורבא' (approach). All other elements are either unknown or too damaged to translate confidently. The translation reflects only the verifiable content.",
+   "line_id": 36618,
+   "source_hash": "3623616bb3010612571d0e065baaf9f9b0b0201d177cb960a5da8dee34709481",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "XQ6 f1:4": {
+   "en": "to deceive",
+   "notes": "The transcription contains uncertain characters (ε) at the beginning and end, which are omitted in the translation. The verb 'ארמא' is reconstructed and translated based on its lemma and morphology.",
+   "line_id": 36619,
+   "source_hash": "943e30db316d9366985e4e418316ef79552ad33038a32e686f139517ba1a673f",
+   "source_condition": "reconstructed"
+  },
+  "XQ6 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible lexical items surviving for translation.",
+   "line_id": 36620,
+   "source_hash": "1db08cfd46aa9747899ae72bfe17c46c76ae02d62b99918033f104fed6f735bf",
+   "source_condition": "uncertain"
+  }
+ }
+}

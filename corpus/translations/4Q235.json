@@ -1,0 +1,46 @@
+{
+ "id": "4Q235",
+ "label": "4Q235",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 164,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q235 fa+b:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic words or phrases. All visible forms are either damaged, reconstructed, or unidentified fragments.",
+   "line_id": 8361,
+   "source_hash": "41f0103ac94ee064148923871487cee2df9e546c0b425f2f5f492da6833b9074",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q235 fa+b:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic or Hebrew words. The visible forms are either damaged, uncertain, or lack trusted lexical glosses. The only identifiable element is 'בית' (position 6), but it is untranslatable in this context due to lack of recoverable surrounding text.",
+   "line_id": 8362,
+   "source_hash": "ca8b117288b759658a6936e867673e855c1ceed0491d337077829b6330cb5555",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q235 fa+b:3": {
+   "en": "because eyes",
+   "notes": "Translation is highly uncertain due to extensive damage and reconstruction. The word 'eyes' is based on the visible form ]ע#יני, but its context and relationship to other fragments are unclear. Other elements are too damaged to recover meaningful content.",
+   "line_id": 8363,
+   "source_hash": "490d1f98ab4d68be2c10e44fc7c9d3682591c53d8e4009cbf8bc82adb0b57373",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q235 fa+b:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew, with all characters being either untranslatable or uncertain.",
+   "line_id": 8364,
+   "source_hash": "66e71244cf1e19f82835ba92d0497f59a779a76a1fa121a94f1e435fc3d1cc49",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

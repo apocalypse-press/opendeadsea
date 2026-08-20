@@ -1,0 +1,46 @@
+{
+ "id": "4Q249q",
+ "label": "4Q249q",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 190,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q249q f1:1": {
+   "en": "they planted",
+   "notes": "The transcription is heavily damaged, with only the verb 'planted' (נטע) partially recoverable. The subject 'they' is inferred from the third-person plural morphology of the verb, but its presence is uncertain due to the fragmentary state of the text.",
+   "line_id": 8829,
+   "source_hash": "196999b23c0d74286ab92939872fd77511f7c08f2dbe4ba4403f1db58cbdb59c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249q f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible characters do not form recoverable lexical units.",
+   "line_id": 8830,
+   "source_hash": "93109d507d79b91538083ca489565b9ff439d19cae56e499a78b5bc48c3d8286",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249q f1:3": {
+   "en": "and he did falsely to",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged preposition and two unknown characters (ε). The phrase 'he did falsely to' is supported by repeated phrase evidence, but the exact object or recipient is unclear due to the damaged preposition and missing text.",
+   "line_id": 8831,
+   "source_hash": "f3fc5a63f751cae85d14857695a65764e9126bbf7efe7e07b52ec89ea8c3f91a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249q f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items surviving. The visible forms include uncertain particles, a damaged noun, and untranslatable characters. No defensible English words can be derived from the provided evidence.",
+   "line_id": 8832,
+   "source_hash": "b504bdf5bde14e4af82cfecdeb9991bbd0201d7f4b61f97bb2d743131b8fd43a",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

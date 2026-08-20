@@ -1,0 +1,53 @@
+{
+ "id": "4Q282h",
+ "label": "4Q282h",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 257,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q282h f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of two untranslatable Greek letters (epsilon) with no identifiable lexical or semantic content in Hebrew.",
+   "line_id": 11506,
+   "source_hash": "513f88d507499c47e89b5f3ba72a5007331e20d90f37d778915ba71df1887cfb",
+   "source_condition": "clean"
+  },
+  "4Q282h f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε) and an uncertain, damaged form of 'salvation' (ישועת׳ו?). No defensible English words survive.",
+   "line_id": 11507,
+   "source_hash": "c407a3110d020b8c90ed8664bee7aab89d564a5dcb69cc81140d876bb3eb5c1f",
+   "source_condition": "uncertain"
+  },
+  "4Q282h f1:3": {
+   "en": "men a man",
+   "notes": "The initial and final 'ε' are untranslatable and likely represent damage or editorial marks. The phrase 'אנשי{{ איש }}' combines a plural and singular form of 'man', translated conservatively as 'men a man'.",
+   "line_id": 11508,
+   "source_hash": "ba00deebf20f8ac5958aec63a78419ca1a73f2d6b1c5e618202a9eb17c80205e",
+   "source_condition": "clean"
+  },
+  "4Q282h f1:4": {
+   "en": "great",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters (ε, #) and a partial word (פ#[). Only the word 'great' (גדול) is recoverable with certainty.",
+   "line_id": 11509,
+   "source_hash": "35028f9ea904fe8ff53c926fe7b36a18eb2a1223db6de06b0c3ae5be23843c26",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282h f1:5": {
+   "en": "of the exile",
+   "notes": "The phrase 'of the exile' is supported by repeated phrase evidence. The transcription includes uncertain and unknown elements, but the core phrase is recoverable.",
+   "line_id": 11510,
+   "source_hash": "5596188166db7965e266a4d48560fec03a00aa05b6938f53ea38e0b1fe7a2a3a",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

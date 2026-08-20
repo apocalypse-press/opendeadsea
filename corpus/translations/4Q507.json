@@ -1,0 +1,88 @@
+{
+ "id": "4Q507",
+ "label": "4Q507",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 545,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q507 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with most characters uncertain or missing. No defensible English words can be recovered from the provided evidence.",
+   "line_id": 26033,
+   "source_hash": "16bb43ed68601514d1ea147464020e42a5f4874125ad69cdac3e2b695c36b788",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q507 f1:2": {
+   "en": "And we in wickedness from the womb and from breasts in guiltiness",
+   "notes": "The transcription contains a reconstructed term (position 11) and an uncertain character (ε). The pronoun 'we' is supported by the first-person plural morphology of 'אנו'. The translation conservatively follows the visible morphology and lexical glosses, preserving the structure and order of the source text.",
+   "line_id": 26034,
+   "source_hash": "34007f98cd22084d8d02482a4415e8880b57c8a6f648a3f7658f48f8d34b1f28",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q507 f1:3": {
+   "en": "And unto our marching with menstruation in",
+   "notes": "Uncertain transcription and reconstruction in 'ו?', 'ע#ם', 'י?ב##[', and 'ε׃'. The phrase is fragmented, and the exact meaning of 'ε׃' is unclear.",
+   "line_id": 26035,
+   "source_hash": "90bb60d5688282097c7fa04064cab74dc37ae863ea66ec2ee8c6fe8d619c8bea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q507 f2:1": {
+   "en": "the whole",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed particle (ה[). The translation reflects only the recoverable lexical items 'כול' (whole) and 'ה[' (the).",
+   "line_id": 26036,
+   "source_hash": "a52a4b8a22a24ea101f98a00143312eda1506fca06fad1703c2bac33d029cfc1",
+   "source_condition": "reconstructed"
+  },
+  "4Q507 f2:2": {
+   "en": "blessed be the Lord",
+   "notes": "The transcription includes uncertain characters (ε) and a damaged verb form (ב ]ר##וך). The verb 'ברך' is translated as 'bless' based on its visible morphology and lexical gloss. The name 'אדוני' is translated as 'the Lord' based on its lexical gloss. The uncertain characters (ε) are omitted from the translation.",
+   "line_id": 26037,
+   "source_hash": "ea047ea696cab4c75bcfa83f8dabcf1c11ccfdbd8f09d8169b4b29f6711502e5",
+   "source_condition": "uncertain"
+  },
+  "4Q507 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable symbols (ε, ׃, ε) with no recoverable lexical content.",
+   "line_id": 26038,
+   "source_hash": "296caa877d988ff77991dd64fd42d7e95c03938e03fe81debcb0b2070b453295",
+   "source_condition": "clean"
+  },
+  "4Q507 f2:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too damaged to interpret.",
+   "line_id": 26039,
+   "source_hash": "57667d63acb47128742498bca402188f74702875582be76691953fa01f78fd33",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q507 f3:1": {
+   "en": "blessing the Lord",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The phrase 'ב ]ר##ו#?ךאד#[ וני' is partially recoverable, suggesting 'blessing the Lord'. The remaining elements (ε, ]כ##ה##[, ε) are indeterminate and omitted from the translation. Uncertainty is high due to extensive damage and reconstruction.",
+   "line_id": 26040,
+   "source_hash": "b645d36c59ae71b92a4009b3167834a2be9930e41bbee5f44da3e613acb6b629",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q507 f3:2": {
+   "en": "Generations of perpetuity, surely, surely",
+   "notes": "The phrase 'generations of perpetuity' is supported by repeated phrase evidence. The transcription contains uncertain and reconstructed elements, including a damaged word and two instances of 'surely' with the second instance being reconstructed.",
+   "line_id": 26041,
+   "source_hash": "7266983e5a7e04f19b36ade0aaa9d5ca5d9cae1422588e0818ebac849cc55753",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q507 f3:3": {
+   "en": "Remember Lord that",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and unknown elements. The verb 'remember' is reconstructed and uncertain. The particle 'that' is certain, but the overall meaning is fragmented due to missing text. No recoverable content follows 'that'.",
+   "line_id": 26042,
+   "source_hash": "b6ba1fa1bbf00834c9d1fc6cc199b1ef85069065397fbd60e7938616a1bbc3f0",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

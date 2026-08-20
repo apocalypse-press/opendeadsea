@@ -1,0 +1,74 @@
+{
+ "id": "4Q132",
+ "label": "4Q132",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 923,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q132 f1a+2:1": {
+   "en": "And he spoke to Yahweh, to Moses, saying: Be holy to me, every firstborn, the firstborn of every womb among the sons.",
+   "notes": "Uncertain reconstruction of damaged tokens at positions 3, 4, 5, and 11. Phrase evidence supports 'Yahweh to Moses' and 'every firstborn [the] firstborn' but cannot fully resolve syntax. Omitted untranslatable source characters and punctuation.",
+   "line_id": 49346,
+   "source_hash": "0af96175fea276874b67260defb605910afc72c6b508502dfc163d88c22ed05f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q132 f1a+2:2": {
+   "en": "Israel in man and in animal he",
+   "notes": "Uncertain reconstruction and gloss for 'בהמ ]ה##' (cattle), 'ל׳י#?' (to), and 'ה#[ וא' (he). Phrase evidence suggests 'livestock [belongs] to me' but is not strongly supported. The final 'ε' and '׃' are untranslatable and omitted.",
+   "line_id": 49347,
+   "source_hash": "db81222ef6ac00639adfbb388be5d17613b78c78ea9cc747b7f36a72ef5d4695",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q132 f3_4:1": {
+   "en": "a land flowing with milk and honey you worked this work in this month",
+   "notes": "The phrase 'a land flowing with milk and honey' follows repeated phrase evidence. The verb 'worked' is reconstructed and uncertain. The phrase 'this month' follows repeated phrase evidence. The fragment 'ש ]שת##י#?[ מים ]' is uncertain and not translated.",
+   "line_id": 49348,
+   "source_hash": "4c34362e6a7aca9756ead5aa7fa7e72f50008987aa6c37cb780a8f0b3bda9a63",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q132 f3_4:2": {
+   "en": "You will eat matzo on the seventh day, a festival of YHWH. Matzo will be eaten for seven days, and not seen.",
+   "notes": "The phrase 'a festival of YHWH' is supported by repeated phrase evidence. The verb 'seen' is uncertain due to damage in the source text.",
+   "line_id": 49349,
+   "source_hash": "8d5ee40f9738facdbc219ffea8ef8005cf000ad8732359a6f283d7f516d436f6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q132 f1b+5_6:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists entirely of fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content in Hebrew or Aramaic. All visible forms are either damaged or reconstructed, leaving no defensible basis for translation.",
+   "line_id": 49350,
+   "source_hash": "170f16cb5d216aa8e556acf007a355d69498e44d1bd06f36872ed14345b4d13e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q132 f1b+5_6:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists entirely of fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content in Hebrew or Aramaic. No defensible English translation is possible.",
+   "line_id": 49351,
+   "source_hash": "ec2b22ee38a875e736dcc788d071a9e5b95d3939d195084ff2e5ab19af6131d3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q132 f1b+5_6:3": {
+   "en": "in the way of this he did Yahweh to go out from Egypt and was",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'in the way of this' is based on visible morphology and lexical glosses. 'He did Yahweh' follows repeated phrase evidence. 'To go out from Egypt' is a conservative rendering of the infinitive construction. The final 'and was' reflects the visible verb form with uncertainty about its intended completion.",
+   "line_id": 49352,
+   "source_hash": "5af4b8e98b5398132dfa631a89ca2da91ea8679ec2187188f83058937ec9c824",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q132 f1b+5_6:4": {
+   "en": "to a sign upon your hand and to remembrance between your eyes because it may be the law of Yahweh in your mouth that by a hand strong",
+   "notes": "Uncertain reconstruction of 'hand' (position 5), 'remembrance' (position 8), and 'it may be' (position 12). The phrase 'by a hand strong' is supported by high-confidence repeated evidence, but its connection to the preceding material is uncertain.",
+   "line_id": 49353,
+   "source_hash": "4489a9e7ab4d76d11cd9fa9603bea97c8f0d6b32a563d680bb1567ada1f24a50",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

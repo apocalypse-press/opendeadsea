@@ -1,0 +1,88 @@
+{
+ "id": "1Q18",
+ "label": "1Q18",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 12,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q18 f1_2:1": {
+   "en": "with your death",
+   "notes": "The transcription includes untranslatable characters (ε) at the beginning and end, which are omitted from the translation. The preposition 'with' and the noun 'death' are directly translated from the recoverable Hebrew words.",
+   "line_id": 2464,
+   "source_hash": "0fe55965ff02204297b5865c3d232c4b834e9288462c6848e35264f9e1ac13ed",
+   "source_condition": "clean"
+  },
+  "1Q18 f1_2:2": {
+   "en": "And come to Isaac and say to one request I seek from the swearing Esau who",
+   "notes": "The phrase 'to one request' is a high-confidence repeated pattern. The verb 'swearing' is uncertain due to damage. The relative clause 'who' is incomplete due to lacuna.",
+   "line_id": 2465,
+   "source_hash": "80f30b39730bec35932c4817283941f349c9800d285fa7f853570f13747c7689",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q18 f1_2:3": {
+   "en": "He will answer Jacob his brother and not pursue him in enmity, that you have known the form of Esau who is he",
+   "notes": "Uncertain elements include the preposition 'in' (position 8), the verb 'know' (position 12), and the noun 'form' (position 15). The phrase 'you have known you' (positions 12-13) is a high-confidence repeated pattern, but its exact syntax is unclear. The translation assumes a coherent sentence structure, but the original text is fragmented and uncertain.",
+   "line_id": 2466,
+   "source_hash": "72d11c3aa871124c2a24a408d8ebdc2e9439343fe3eb30f2949568164f51c1c7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q18 f1_2:4": {
+   "en": "Evil from his youth and you know all that he did from the day of going to Haran until the day he is humbled",
+   "notes": "Positions 9, 16, and 21 are uncertain. Positions 1, 12, and 17 are reconstructed.",
+   "line_id": 2467,
+   "source_hash": "37591e9d9e0f235f461cd2a1b9f2ec78dccba2cfbeb976d2b4d56073699c2dcd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q18 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged word (]קח) with an uncertain gloss ('willow'). The reconstructed word (פלג[) has a gloss ('divide') but lacks context for a coherent translation. The final character (׃) is a punctuation mark with no translatable value.",
+   "line_id": 2468,
+   "source_hash": "928c78db3fa73fe950f684bd63b500752ec7e27605ea245e29600767a2009f54",
+   "source_condition": "reconstructed"
+  },
+  "1Q18 f4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. The reconstructed and uncertain elements provide no basis for defensible English wording.",
+   "line_id": 2469,
+   "source_hash": "9f4a692120d692331951c09f3e67666eac2b8808e48f5aa084ce34008471c3ec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q18 f4:2": {
+   "en": "arise",
+   "notes": "The transcription is heavily damaged, with only the verb 'arise' (from the root 'qwm') recoverable. The remaining characters are uncertain or untranslatable, including possible remnants of a Greek letter (ε) and Hebrew script. The phrase evidence suggests a possible connection to 'the existence,' but this is not directly reflected in the surviving text.",
+   "line_id": 2470,
+   "source_hash": "0134b0df6f91629c91b1966073482bee74a5a94c3ce175f27878dfbfb7900e09",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q18 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]המ##[, ε) with no clear lexical or morphological basis for translation. The reconstructed element ]המ##[ is too fragmentary to interpret confidently.",
+   "line_id": 2471,
+   "source_hash": "27311e959563e30456d97ea3843b9fe4feab499c77fab65a831c17d3b8d43efc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q18 f5:2": {
+   "en": "and praise",
+   "notes": "The transcription is heavily damaged, with only partial words recoverable. The verb 'הלל' is reconstructed and uncertain, translated here as 'praise' based on its common usage. The particle 'ו' is clearly visible and translated as 'and'. The other characters (ε) are untranslatable and omitted.",
+   "line_id": 2472,
+   "source_hash": "5d5e4f4a66615b64018c581bc69ad5a1f2efb08c90f8a95c80a447d27b546aca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q18 f5:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and untranslatable fragments. The visible characters do not form defensible lexical units in Hebrew or Greek. The sole reconstructed element is a preposition 'to', but it lacks context for meaningful translation.",
+   "line_id": 2473,
+   "source_hash": "3ed43c0420c0120f7ddb101f02c1f2838e4b3c9682a85d308862d0d0508eb65d",
+   "source_condition": "reconstructed"
+  }
+ }
+}

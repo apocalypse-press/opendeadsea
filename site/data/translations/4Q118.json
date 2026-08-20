@@ -1,0 +1,81 @@
+{
+ "id": "4Q118",
+ "label": "4Q118",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 918,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q118 f1i:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain characters. The Greek letter epsilon (ε) and the Hebrew letter kaf (ך) cannot be translated independently without context.",
+   "line_id": 49214,
+   "source_hash": "fbb8e4b8043d3fceaea0ad9b3f2c2a4dcf1645a754d65770f0398a47ddfd45ab",
+   "source_condition": "uncertain"
+  },
+  "4Q118 f1i:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain characters.",
+   "line_id": 49215,
+   "source_hash": "30126546efbd7957f67049c16b616675809304cac23f8fed0467983e3570e889",
+   "source_condition": "uncertain"
+  },
+  "4Q118 f1i:6": {
+   "en": "and you ascend",
+   "notes": "The transcription is heavily damaged, with uncertain readings. The word 'ε' is untranslatable and omitted. The form ']ת##י' is too damaged to recover. The verb 'תעל׳נ#?י' is partially reconstructed as 'you ascend' but remains uncertain.",
+   "line_id": 49216,
+   "source_hash": "2b9761a515c7f39b82fbeee4f906feb2d12298f5b29e885556b0cae0ecea5c58",
+   "source_condition": "uncertain"
+  },
+  "4Q118 f1ii:1": {
+   "en": "And they buried him in the city of Jerusalem to the graves of the kings of Israel",
+   "notes": "The phrase 'he was buried in the city' is supported by repeated evidence for positions 3-5. 'The kings of Israel' is supported by repeated evidence for positions 13-14. The initial and final untranslatable characters are omitted. The reconstruction and uncertainty in the source are noted but do not affect the translation.",
+   "line_id": 49217,
+   "source_hash": "1fc317d850dcf0783127bea8ed21f09f851757254c1e85a1a0d7f9eb3ea0110a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q118 f1ii:2": {
+   "en": "And Hezekiah became king, son of Ahaz",
+   "notes": "Uncertain reconstruction of damaged text affects 'Hezekiah' and 'under part / Tahath'. The phrase 'Hezekiah became king, son of Ahaz' is supported by repeated evidence but remains uncertain due to textual damage.",
+   "line_id": 49218,
+   "source_hash": "319e5446b4a688c61687000f940528a14a638f4c534f74eda7a93dfef68f06d2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q118 f1ii:3": {
+   "en": "And five years and twenty and nine years he reigned in Jerusalem and the name his mother",
+   "notes": "Uncertain transcription at position 4. Reconstructed text at positions 1, 5, 9.",
+   "line_id": 49219,
+   "source_hash": "57098f947861d291672dd0c0ecf76dec3c784cf38d47f9218cc2f165495d50f2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q118 f1ii:4": {
+   "en": "Abijah the daughter of Zechariah and he did the right in the eyes of YHWH according to all",
+   "notes": "Uncertain reconstruction of 'Zechariah' and 'right'; supported phrase 'in the eyes of YHWH' used for positions 9-11; supported phrase 'the daughter of Zechariah' used for positions 2-3.",
+   "line_id": 49220,
+   "source_hash": "7f709c5b2ef20084fc981906c32a969b0d76766d7d13c2269d6b97a8d91175cf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q118 f1ii:5": {
+   "en": "He had done David ancestor and he in year the first to be king in month the first",
+   "notes": "Uncertain reconstruction of 'David' and 'ancestor'; uncertain gloss for 'year'; 'be king' is an infinitive construct with uncertain gloss; 'month the first' is a repeated phrase with high support.",
+   "line_id": 49221,
+   "source_hash": "1bce855bc626d84e4ae26a9de24283515f4e404ea86a653caa9f0a60f7e586e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q118 f1ii:6": {
+   "en": "He opened the doors of the house of Yahweh and he strengthened them",
+   "notes": "The phrase 'the doors of the house of Yahweh' is supported by repeated phrase evidence. The verb 'strengthened' is reconstructed from the visible form 'יחזק׳ם'. The final 'ε' and '׃' are untranslatable and omitted.",
+   "line_id": 49222,
+   "source_hash": "07ad4d4016e28034db9589754271828997e1657024c72a255064ea8431c2f4fb",
+   "source_condition": "reconstructed"
+  }
+ }
+}

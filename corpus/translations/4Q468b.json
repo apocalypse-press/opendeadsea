@@ -1,0 +1,67 @@
+{
+ "id": "4Q468b",
+ "label": "4Q468b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 470,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468b f1:1": {
+   "en": "I approached to Nogah",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation. The term 'נוגה׳ו' is treated as a proper noun, 'Nogah', based on the lexical gloss.",
+   "line_id": 22492,
+   "source_hash": "cb2696ff98377fd940f0e480ae7cbee21ea29ebaf7a14baadc96c43dcfd6b031",
+   "source_condition": "clean"
+  },
+  "4Q468b f1:2": {
+   "en": "In light settings they went all",
+   "notes": "Uncertain transcription and reconstruction in positions 4 and 7. Position 1 and 8 are untranslatable fragments.",
+   "line_id": 22493,
+   "source_hash": "70184aa996f09d291ca6ad094edcbfb6354927a452214d5316d3b29dafe96deb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468b f1:3": {
+   "en": "He was king over light and its brightness",
+   "notes": "Uncertain transcription and reconstruction; phrase evidence supports 'king over' and 'a light it will shine', but the latter is not directly reflected in the translation due to conservative approach.",
+   "line_id": 22494,
+   "source_hash": "02f6cd6af5fc43cd3e158cdeafcc211349163ded3e4d036cfd0ca5ed83f0ab73",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468b f1:4": {
+   "en": "the sun in going out from Zebul",
+   "notes": "Uncertain reconstruction of 'Zebul'; damaged or incomplete text.",
+   "line_id": 22495,
+   "source_hash": "c04866fcc77b698486ede11472ab3e5b6f612c7cf4d88c91bc63a78cbcd5b4ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468b f1:5": {
+   "en": "sons of injustice and sons of justic",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed term (צד##[ ק) with uncertainty. The phrase 'sons of injustice and sons of justic' reflects the recoverable words, omitting uncertain or untranslatable elements. The term 'justic' is incomplete due to damage, and 'the son of Zadok' or 'the sons of Eli' are not directly supported by the visible text.",
+   "line_id": 22496,
+   "source_hash": "7b2f030c890b1105a0ff610132e7f4375016c8e1f4e58e0985d08c67e1a22569",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468b f1:6": {
+   "en": "holiness a holy thing of holy things",
+   "notes": "The transcription contains uncertain and reconstructed elements, with two instances of 'holiness' translated based on repeated phrase evidence. The initial and final characters are untranslatable and omitted.",
+   "line_id": 22497,
+   "source_hash": "4b359b986716fb3b9e111dfb880087778ae4f229868e3a2d7f540f089d8a3b3d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468b f1:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and untranslatable fragments, including uncertain characters (ε) and incomplete forms (]י׳ך, לו[). The only partially reconstructable element is 'לו[', glossed as 'if only', but it lacks sufficient context for a coherent translation. All other elements are indeterminate or untranslatable.",
+   "line_id": 22498,
+   "source_hash": "d912535b6c90090cf5bf0ce384ddbef26f77e296404de846dc0cde2fe8339d91",
+   "source_condition": "reconstructed"
+  }
+ }
+}

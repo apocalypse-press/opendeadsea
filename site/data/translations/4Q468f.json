@@ -1,0 +1,60 @@
+{
+ "id": "4Q468f",
+ "label": "4Q468f",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 473,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468f f1:1": {
+   "en": "the son of Gilead",
+   "notes": "The transcription includes an uncertain prefix (ε) and a damaged form of 'son' (]ב##נ#?י?). The phrase 'the son of Gilead' is supported by repeated evidence, though the exact form of 'son' is unclear.",
+   "line_id": 22514,
+   "source_hash": "c98f751e641ed665feb88bd5429c00d84f3eb517f8e957d168c7ffaeb2dc5b0a",
+   "source_condition": "uncertain"
+  },
+  "4Q468f f1:2": {
+   "en": "the earth",
+   "notes": "The initial character 'ε' is untranslatable and omitted.",
+   "line_id": 22515,
+   "source_hash": "83b5898667210ffa50acf8215d23433f5a8f5c9641df329274f34da958af4efe",
+   "source_condition": "clean"
+  },
+  "4Q468f f1:3": {
+   "en": "to give in earth",
+   "notes": "The translation is highly uncertain due to extensive damage and unclear context. The phrase 'to give in earth' is based on recoverable lexical items, but its meaning remains ambiguous. The phrase evidence suggests a possible rendering as 'you must make in land,' but this is not definitively supported by the visible text.",
+   "line_id": 22516,
+   "source_hash": "fd09ff7d0b9a8f7f5f71db76611caf0adba3e286c789603bab3a316eec379091",
+   "source_condition": "uncertain"
+  },
+  "4Q468f f1:4": {
+   "en": "to Edom",
+   "notes": "The transcription contains uncertain and unknown elements, including a Greek letter epsilon (ε) and damaged Hebrew characters. The particle 'ל' is translated as 'to,' and 'אֱדֹום' is rendered as 'Edom' based on the lexical gloss. Uncertainty in the transcription is noted but does not affect the recoverable translation.",
+   "line_id": 22517,
+   "source_hash": "48fec693bd07ddc5f4df7c81bc6db0f2f3c2b2edff6845df2d2a3bbb42b797c6",
+   "source_condition": "uncertain"
+  },
+  "4Q468f f1:5": {
+   "en": "seven",
+   "notes": "The first character 'ε' is untranslatable and omitted; its presence is noted here.",
+   "line_id": 22518,
+   "source_hash": "7701d50733ea0d02b68ddce0529ef59c36180c720a26a87234445fccc7653681",
+   "source_condition": "clean"
+  },
+  "4Q468f f1:6": {
+   "en": "you",
+   "notes": "The initial character 'ε' and the final punctuation mark '׃' are not independently translatable and are omitted from the translation.",
+   "line_id": 22519,
+   "source_hash": "40eca36319fa6660e7295737d6ee8735b572d293d992d2ab425b8590f46e9829",
+   "source_condition": "clean"
+  }
+ }
+}

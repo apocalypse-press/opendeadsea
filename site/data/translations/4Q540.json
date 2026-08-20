@@ -1,0 +1,81 @@
+{
+ "id": "4Q540",
+ "label": "4Q540",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 578,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q540 f1:1": {
+   "en": "Come, pressure upon him, and diminish little possessions, and he seeks",
+   "notes": "Uncertain reconstruction and gloss for several words, including the first and last tokens.",
+   "line_id": 29849,
+   "source_hash": "a6b4909770cbf32c84efe01d10352423d7a480fb4fbef129dab9ccd3ea31bbca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q540 f1:2": {
+   "en": "Weeks fifty two come to its want and diminish assets",
+   "notes": "Uncertain elements include the transcription and meaning of several words, particularly the numerical value and the particles. The phrase 'come to' is a high-confidence reconstruction based on repeated evidence, but its exact wording is not mandatory. The translation conservatively retains all recoverable elements without adding unlicensed connectors or participants.",
+   "line_id": 29850,
+   "source_hash": "04eab96a50f82c330bfecc5a59883b28f461b9c336ac63010053871c2e888a9d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q540 f1:3": {
+   "en": "which is not like to all the mighty [men] who diminish assets therefore as the great sea",
+   "notes": "The phrase 'all the mighty [men]' is supported by repeated evidence. The verb 'diminish' is a context-free gloss for the verb form 'כסר'. The noun 'נכסין' is uncertain and left untranslated. The particles 'א' and 'ε' are omitted as they cannot be translated independently. The reconstruction and uncertainty are noted but not bracketed in the translation.",
+   "line_id": 29851,
+   "source_hash": "f41ea7e36571c7d18844c3c4e30c7e30c862770998fbfa8440c187ef92fb29b5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q540 f1:4": {
+   "en": "The house upon which he who is born in his right goes out and another dwelling",
+   "notes": "Uncertain elements include the initial and final characters (ε), a damaged conjunction (ו?), and a reconstructed verb (יפו[ ק). The phrase 'born in his right' is supported by repeated phrase evidence, but its exact meaning remains unclear.",
+   "line_id": 29852,
+   "source_hash": "28961512a24821c2361a9e5732b571bca5021bb449ff9e184b10f52c37dd40ed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q540 f1:5": {
+   "en": "And he will build as a temple servant in the sanctuary from which they will be destroyed",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the initial 'ε' and the damaged forms 'נכ ]ס#ו׳הי' and 'יחרב##[ ונ׳ה'. The translation reflects recoverable content but omits untranslatable fragments.",
+   "line_id": 29853,
+   "source_hash": "8cd27959e338bbe61e1cd3d52da89a34cf37e1472da1042ee319c4ad8055d9cb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q540 f1:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters with no recoverable lexical items. All words are marked as unknown or uncertain, and no contextual constraints or repeated phrases provide additional evidence for translation.",
+   "line_id": 29854,
+   "source_hash": "ae8fbab3db3f770ad2250cd60e42407c5b05121086350a3a53760a0db532f322",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q540 f2:1": {
+   "en": "he opens",
+   "notes": "The transcription is heavily damaged, with only a partially recoverable verb form. The verb 'פתח' (open / engrave) is reconstructed and uncertain. The translation reflects the visible morphology but omits untranslatable characters. Uncertainty is noted here.",
+   "line_id": 29855,
+   "source_hash": "4bad6af216bf004aa34f329c8667f327b5eda7ae0d5de7ddedfd66ec236f5b34",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q540 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments without sufficient context or identifiable lexical items. The form ']ע##ב#ר' is uncertain and lacks clear meaning. No recoverable words survive for translation.",
+   "line_id": 29856,
+   "source_hash": "2d4ad53928a1ab4105720128ada430a2313d6706f220223aad9415f446c8476e",
+   "source_condition": "uncertain"
+  },
+  "4Q540 f3:1": {
+   "en": "people",
+   "notes": "The transcription contains uncertain and untranslatable elements, including damaged characters and unknown symbols. The only recoverable word is 'people' (עַם), which is translated directly. Other elements (ε, א[, ׃) are omitted due to lack of defensible translation.",
+   "line_id": 29857,
+   "source_hash": "23f55818b9eaf922e281ddd90c981358535a476e548548062dcecb17a9c9406a",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

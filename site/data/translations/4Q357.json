@@ -1,0 +1,32 @@
+{
+ "id": "4Q357",
+ "label": "4Q357",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 344,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q357 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain or reconstructed elements, leaving no defensible English words.",
+   "line_id": 14063,
+   "source_hash": "87bbcad4e00c79cb3d668e14d47c4ef8f674e975fa65a01731971b4c13619bf2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q357 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain or unknown lexical items. No defensible English words survive.",
+   "line_id": 14064,
+   "source_hash": "8068332272abb5a1bd7270e538f34434602954f5a2e5548032eb53a7689c7018",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "3Q12",
+ "label": "3Q12",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 85,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "3Q12 f1:1": {
+   "en": "to days",
+   "notes": "Reconstructed and uncertain text with limited recoverable content. The phrase 'to days' is supported by repeated evidence, though with low confidence. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 4140,
+   "source_hash": "ce24992f1eea8d361434458517800080d4436674aa6560796b80bfc6d8dd9e7b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q12 f1:2": {
+   "en": "and to the next day",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The word 'ב##ת##' is uncertain and omitted from the translation. The final character 'ε' is untranslatable and omitted. The phrase 'למחרת' is reconstructed and translated as 'to the next day'.",
+   "line_id": 4141,
+   "source_hash": "ea060e645a91df6191e955c5dbc222dc433de8557b3641835e3b681d531039a2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q12 f1:3": {
+   "en": "Heavens and earth",
+   "notes": "The transcription contains damaged and uncertain elements, including a reconstructed word (earth) and an unknown character (ε). The particle 'א' is translated as a connective, but its function is unclear.",
+   "line_id": 4142,
+   "source_hash": "7d1b5f0192f4c18375d5badc3e9786bffd3c1aa91791a2be6d549d8cbb78227e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q12 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items. The visible characters are either reconstructed, uncertain, or lack clear semantic value.",
+   "line_id": 4143,
+   "source_hash": "ed2fbbfcc6a40240832336704be677ff066b9353de77cdfa20556bfdcda919de",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q12 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain characters, with no recoverable lexical items that can be confidently rendered into English.",
+   "line_id": 4144,
+   "source_hash": "0aeb95cb67ce098b02421294abf0a1ae287f669c99377e240171b17462137fa4",
+   "source_condition": "uncertain"
+  },
+  "3Q12 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain characters, with no defensible English words surviving.",
+   "line_id": 4145,
+   "source_hash": "537558619691c4979362399dbb44e343327ec15394eef19e1df73be17c70002d",
+   "source_condition": "uncertain"
+  }
+ }
+}

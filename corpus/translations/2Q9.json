@@ -1,0 +1,39 @@
+{
+ "id": "2Q9",
+ "label": "2Q9",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 763,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q9 f1:1": {
+   "en": "And he spoke to Aaron and I, behold, I have given to you the guard-post of my contributions to all",
+   "notes": "The verb 'ידב##[ ר' is reconstructed and uncertain, but the context suggests 'speak'. The phrase 'תרומות׳י' is a suffixed form of 'contribution', indicating possession. The final word 'כול ]' is incomplete but translated as 'all' based on the context.",
+   "line_id": 39621,
+   "source_hash": "360306a06be9ee5535761c65db2efb31b51a281a5df6fcb93569f30bc984ff57",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q9 f1:2": {
+   "en": "Holy sons of Israel I have given to anointment and to your sons to a prescribed portion of perpetuity This will be",
+   "notes": "The phrase 'to a prescribed portion of perpetuity' is a high-confidence rendering of positions 11-13. The sequence 'the people of Israel' is a high-confidence rendering of positions 2-3, but 'sons of Israel' is retained for literal accuracy. The final verb 'will be' is incomplete in the source.",
+   "line_id": 39622,
+   "source_hash": "e6273e787b85af8cbe7bba9d3e954cc79e68b8b12cc96da8de87d2f74120a1ea",
+   "source_condition": "reconstructed"
+  },
+  "2Q9 f1:3": {
+   "en": "to him from the holy place of the holy places",
+   "notes": "The phrase 'the holy place of the holy places' is supported by repeated phrase evidence. The preposition 'to' is reconstructed.",
+   "line_id": 39623,
+   "source_hash": "c1acb63069ca70cafc1ed48431e6059e04cb6f23cbb4dd7040356cad1fb7d60f",
+   "source_condition": "reconstructed"
+  }
+ }
+}

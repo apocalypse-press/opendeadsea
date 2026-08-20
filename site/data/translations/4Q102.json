@@ -1,0 +1,74 @@
+{
+ "id": "4Q102",
+ "label": "4Q102",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 901,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q102 f1_2:29": {
+   "en": "In coming upon them distress and distress then they called me and I did not answer",
+   "notes": "The transcription is heavily damaged, with many uncertain and reconstructed words. The phrase 'it will come on' is supported by repeated evidence, but the context does not license a fluent English connector. The translation retains all recoverable words in order, preserving uncertainty and damage without smoothing.",
+   "line_id": 48635,
+   "source_hash": "c92b85b4145199ff3142c5ae3ce1127058d8b5576140fcd0bbfa4a19a00cbedc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q102 f1_2:30": {
+   "en": "They will look for me and not find me under that they hate knowledge",
+   "notes": "Uncertainty in transcription and reconstruction of several words. The phrase 'will they hate? knowledge' is a repeated pattern but its contextual rendering is not fully certain.",
+   "line_id": 48636,
+   "source_hash": "beef962ec195df7e3b2e7e248e66b866ede2a708f7ad23a9786230e7072754dd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q102 f1_2:31": {
+   "en": "And the fear of YHWH, they did not examine, nor did they want his counsel.",
+   "notes": "The phrase 'the fear of YHWH' is supported by repeated evidence. The final word 'counsel' is reconstructed and uncertain. The transcription contains damaged and uncertain characters, particularly in the divine name and the final word.",
+   "line_id": 48637,
+   "source_hash": "1bda20148efc97ea232fd3de9ce90289807eb523e67387b67200bd12066992da",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q102 f1_2:32": {
+   "en": "They have despised all my rebuke and will eat from its fruit their way",
+   "notes": "Uncertainty in 'כ#ל##' (whole) and 'יאכל#ו' (eat). Reconstructed '[ פרי' (fruit).",
+   "line_id": 48638,
+   "source_hash": "af18a70635dea38370f0add1b47e6745dc88377ab476bfa0ac717d2c1fd6a881",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q102 f1_2:33": {
+   "en": "And from their counsel they will be sated, that she draws young men to kill them",
+   "notes": "The transcription contains damaged and uncertain characters, particularly in the first word (ו?) and the phrase 'פ##[ תים'. The translation reflects the visible morphology and lexical glosses, with 'young men' as the best available interpretation of the reconstructed term. The sentence structure is conservative, preserving the original word order and grammatical relationships.",
+   "line_id": 48639,
+   "source_hash": "f860df508a1b662a03636ddc1b0fd09fca8b2bc01ad34951b082352955a6f1b8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q102 f1_2:34": {
+   "en": "And the ease of fools will perish them",
+   "notes": "The initial conjunction 'and' is uncertain due to damage. The verb 'will perish' is a third-person feminine singular form, but the subject 'ease' is feminine singular, and the suffix '-ם' indicates a third-person masculine plural object, creating a grammatical discrepancy. The term 'כסילים' is translated as 'fools' based on the lexical gloss, but it could also refer to the constellation Orion or mean 'insolent'.",
+   "line_id": 48640,
+   "source_hash": "10e506bf310943582ed6f34cd4de6f2bf98d7d9fab83cb576f3afe1da4e63471",
+   "source_condition": "uncertain"
+  },
+  "4Q102 f1_2:35": {
+   "en": "And he who listens to will dwell in trust and be at ease from the trembling of evil.",
+   "notes": "The phrase 'to cause to dwell' is a high-confidence contextual rendering of the lemma 'שׁכן' in positions 3-4. The phrase 'listen to' is a high-confidence contextual rendering of the lemma 'שׁמע' in positions 2-3. The translation follows the visible morphology and lexical glosses, with the reconstructed verb 'שא[ נן' translated as 'be at ease' based on its lexical gloss.",
+   "line_id": 48641,
+   "source_hash": "8db1eb634bb9aebe6dee033b7727ee54750164bba0b7345af03a995fbfd629ef",
+   "source_condition": "reconstructed"
+  },
+  "4Q102 f1_2:36": {
+   "en": "If you take words and commandments, you will treasure with",
+   "notes": "Uncertainty in transcription and reconstruction at positions 4, 5, and 6. Phrase evidence supports 'you will receive words' and 'you will treasure with' but the latter is chosen for higher pattern support. The translation conservatively follows recoverable text, preserving uncertainty and avoiding additions.",
+   "line_id": 48642,
+   "source_hash": "3c084928d19059b69769cb953966899a8f99437c5e5ddc65934fb675a7aef5e4",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

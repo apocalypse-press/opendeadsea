@@ -1,0 +1,32 @@
+{
+ "id": "4Q468q",
+ "label": "4Q468q",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 483,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468q f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 22557,
+   "source_hash": "28c724b60a93a52876f13ac689c66e77b3e34055d2f352e3096d759d8d1ae5ba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468q f1:2": {
+   "en": "stubble",
+   "notes": "The transcription is heavily damaged, with only 'קש' (stubble) recoverable. The other characters are either untranslatable fragments or uncertain. The final '׃' is a punctuation mark and not translated.",
+   "line_id": 22558,
+   "source_hash": "2719efb15d1a7b28488c1530c0223d1a2478a6daabf10f3ba6267ba5180f469b",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "2Q25",
+ "label": "2Q25",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 68,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q25 f1:1": {
+   "en": "it will be filled mouth",
+   "notes": "Translation follows high-confidence phrase evidence for positions 2-3. Position 1 and 4 are untranslatable fragments, omitted with uncertainty noted here.",
+   "line_id": 3982,
+   "source_hash": "608d1430b35fe9b5d901ace4a2d9f3617501502790a7bfba76fa7fe98e147b58",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q25 f1:2": {
+   "en": "the obligations these",
+   "notes": "The transcription contains uncertain and damaged elements, including an untranslatable Greek character (ε) and a partially preserved Hebrew word. The translation reflects only the recoverable Hebrew terms.",
+   "line_id": 3983,
+   "source_hash": "06e6baf4179f8c8b1057a96bf124a6a0d0ac9a233273f0006b9a469fa92775d1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q25 f1:3": {
+   "en": "that thus written in the scroll of Moses",
+   "notes": "The phrase 'in the scroll of Moses' is supported by repeated phrase evidence. The transcription contains uncertain and reconstructed elements, including a damaged lemma for Moses and two unknown characters (ε).",
+   "line_id": 3984,
+   "source_hash": "915a13626b50b1dc3c914a10a7c393774be704f5398c4b9d6d0db4f7802ec18d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q25 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and reconstructions with high uncertainty. No defensible English words survive.",
+   "line_id": 3985,
+   "source_hash": "59aaecf0d9127da68709c865b9cec48e23fe856c87d035a85e4c98db950d724b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q25 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and reconstructions with no clear lexical meaning. The visible forms (ε, ], #, לכ[) do not provide sufficient evidence for a defensible English translation.",
+   "line_id": 3986,
+   "source_hash": "67607f9e79bf2d0e01c13b181bff7e69cf6faec20e97a52b52ea499d2347f7fd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q25 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible English words due to extensive damage and uncertainty. The only recoverable lexical item, 'בקע', is reconstructed and uncertain, with a gloss 'split' that cannot be confidently translated in this context.",
+   "line_id": 3987,
+   "source_hash": "e7e1cefe6bff7e3fa3ce3b533424cc7c9480b5b6d2e6ae0667ce108e6bb1bae8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q25 f2:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with only fragments of letters and uncertain reconstructions. No defensible English translation can be derived from the surviving material.",
+   "line_id": 3988,
+   "source_hash": "5e9140402004a04ec848d357c05029b1db0bbdeb72b2b35e24443c5c7c2e1c1f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q25 f2:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and untranslatable fragments, including Greek and Hebrew characters that cannot be independently translated. The reconstructed ]ל[ suggests a preposition 'to,' but without context or recoverable surrounding words, no defensible English translation can be formed.",
+   "line_id": 3989,
+   "source_hash": "c67cc0d750e8be6fe82d715072ce886fa69e400922e5d98d30288709355bda7d",
+   "source_condition": "reconstructed"
+  },
+  "2Q25 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements with no clear lexical or syntactic structure. The visible forms (ε, ]לי, מצ) do not provide sufficient evidence for a defensible translation. The reconstructed and uncertain status of key tokens prevents meaningful English rendering.",
+   "line_id": 3990,
+   "source_hash": "986c4b18604c608c86da1f90ec299c913ea69e52c7a3d4eaeb7c5259f6bac7ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q25 f3:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a damaged form of 'whole' (כֹּל), with no context to restore meaning.",
+   "line_id": 3991,
+   "source_hash": "751790632a55f2496b0f00919d7e5e9fc2b43569bfba4e57e33c7e40192a2049",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

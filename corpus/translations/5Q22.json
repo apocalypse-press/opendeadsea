@@ -1,0 +1,53 @@
+{
+ "id": "5Q22",
+ "label": "5Q22",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 642,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "5Q22 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters with no clear lexical or grammatical content. The first word is a reconstructed placeholder, and the second character (ε) is untranslatable in this context.",
+   "line_id": 32226,
+   "source_hash": "8aa820295569647fc69569ceee02d36914b8b495c0ccfe38f755c980db50d8ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q22 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with only fragmentary characters surviving. The first word is a partial reconstruction of 'YH[', possibly referring to 'the Lord', but this is uncertain. The second character 'ε' has no clear meaning or context. No defensible English translation can be derived from the available evidence.",
+   "line_id": 32227,
+   "source_hash": "12a988538c887953ae95bf78f8deb28f47133f048a0b93e097338916c2d5e106",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q22 f1:3": {
+   "en": "And it was to",
+   "notes": "The transcription is damaged, with a reconstructed 'to' and an untranslatable Greek letter 'ε'. The phrase 'Yahweh to' is a possible contextual rendering, but it is not certain. The translation conservatively retains the recoverable words without adding uncertain elements.",
+   "line_id": 32228,
+   "source_hash": "caa80da09ce460346058f3f1ab117e297e80fd28b3cc2030f9303962c2aa625c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q22 f1:4": {
+   "en": "whole",
+   "notes": "The transcription is fragmentary, with only the word 'כול' (whole) clearly recoverable. The initial 'א' and the reconstructed 'א[' are uncertain and not translated. The final 'ε' is untranslatable and omitted. Phrase evidence suggests possible contextual renderings, but they are not supported by the visible text.",
+   "line_id": 32229,
+   "source_hash": "c3dc62dff893b31db75d7e9aeb80936529b72fdfc81be663697a3828bda817d3",
+   "source_condition": "reconstructed"
+  },
+  "5Q22 f1:5": {
+   "en": "Abraham",
+   "notes": "The transcription includes a reconstructed proper noun 'Abraham' and two untranslatable characters, one of which is a possible separator mark.",
+   "line_id": 32230,
+   "source_hash": "a07c4ba61bd6e530e5a35f86e82c44d21b5b324fa7d8ff6d1c7a0ea2f2dcb049",
+   "source_condition": "reconstructed"
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "3Q6",
+ "label": "3Q6",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 79,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "3Q6 f1:1": {
+   "en": "all who rejoice in",
+   "notes": "Uncertain transcription and reconstruction in 'rejoice'; preposition 'in' is certain but its object is incomplete.",
+   "line_id": 4086,
+   "source_hash": "6323bb56ef686e4995b13cf2243669ecbe7c53d8eab5487da220a7bc86be45e3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q6 f1:2": {
+   "en": "and their song will be pleasing upon",
+   "notes": "The initial 'ε' and final 'ε' are untranslatable; the phrase 'evening on' is a repeated pattern but not supported by visible morphology here.",
+   "line_id": 4087,
+   "source_hash": "46372bfbefd8bed102666bc4d1b4e43901e7964a5763f74f1aa2622ab82f6880",
+   "source_condition": "reconstructed"
+  },
+  "3Q6 f1:3": {
+   "en": "to eternity they will praise him",
+   "notes": "The phrase 'to eternity they will praise him' is supported by repeated phrase evidence. The transcription includes uncertain characters and a reconstructed verb form.",
+   "line_id": 4088,
+   "source_hash": "cc02119db129374efae6d036445569c9310e7e53217c81dd9d7548cffdafd72b",
+   "source_condition": "reconstructed"
+  },
+  "3Q6 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a reconstructed fragment and an uncertain character.",
+   "line_id": 4089,
+   "source_hash": "092f1de7d48e89338d43b99a8b0bd2182a607e97fb8a2328aab27e0c49affa70",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q6 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (ע, #, [, ε) with no clear lexical or grammatical meaning. The first word is reconstructed and marked as uncertain, while the second character (ε) is incomplete and lacks context. No defensible English translation can be derived from the available evidence.",
+   "line_id": 4090,
+   "source_hash": "726caad3ef1095f54bf33582c0392f2488542c6d40bacc2c85c15c9a8867474a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q6 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a reconstructed fragment (# [) and an uncertain character (ε) with no clear lexical meaning. The final character (׃) is a punctuation mark with no translatable content. No defensible English words survive.",
+   "line_id": 4091,
+   "source_hash": "c0f4f8f89dc8c2d73431b3ed518b8db5fa4083e2bfad22d6d5e1112e11fdb1cb",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "1Q54",
+ "label": "1Q54",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 46,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q54 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain characters. The visible forms (ε, ] #  # ד#ך, ε) do not provide sufficient evidence for translation.",
+   "line_id": 3733,
+   "source_hash": "88019cac9aad962ea29940b2330aeb9e8d97327554d5fd8399b8cd07adb6b110",
+   "source_condition": "uncertain"
+  },
+  "1Q54 f1:2": {
+   "en": "covenant his weight",
+   "notes": "The transcription contains uncertain and unknown elements, including a damaged 'covenant' and suffixed 'weight'. The prefix 'ε' and suffix 'ε' are omitted as they cannot be translated independently.",
+   "line_id": 3734,
+   "source_hash": "173b4aa58159a76a1c421ede4d1ecf972ea621e13942bbff1bc4ec9318ba815e",
+   "source_condition": "uncertain"
+  },
+  "1Q54 f1:3": {
+   "en": "and [no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with only the conjunction 'and' (ו) being clearly identifiable. The remaining characters are either unknown, reconstructed, or too damaged to translate confidently.",
+   "line_id": 3735,
+   "source_hash": "b763682716b7b16374f37b0424e5a90c26b9cc7b4aad60135790f3b813cb0a56",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

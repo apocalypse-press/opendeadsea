@@ -1,0 +1,32 @@
+{
+ "id": "4Q12a",
+ "label": "4Q12a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 790,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q12a f1:1": {
+   "en": "Joseph that father died and they said if only Joseph bears a grudge and return he will return to us",
+   "notes": "The phrase 'may he add (dm) surely (die)' is a possible interpretation of the first three words, but it is not supported by the context. The phrase 'that he had died Joab' is also a possible interpretation of the second, third, and fourth words, but it is not supported by the context. The phrase 'certainly (send back) you will send back to' is a possible interpretation of the eleventh, twelfth, and thirteenth words, but it is not supported by the context. The phrase 'they will be put to death parents' is a possible interpretation of the third and fourth words, but it is not supported by the context. The phrase 'ever (return) you will return' is a possible interpretation of the eleventh and twelfth words, but it is not supported by the context. The phrase 'he will return to' is a possible interpretation of the twelfth and thirteenth words, but it is not supported by the context.",
+   "line_id": 40672,
+   "source_hash": "a3ae9c5e1f3c668221b52d7a26e8f808007b6a9691db210956081bfba1366128",
+   "source_condition": "reconstructed"
+  },
+  "4Q12a f1:2": {
+   "en": "the whole evil which we have dealt with and they commanded Joseph saying your father",
+   "notes": "Uncertain reconstruction of object marker at position 7. Phrase evidence supports 'all the calamity' for positions 2-4, but visible morphology indicates 'whole' and 'evil'. Phrase evidence suggests 'was weaned' for positions 6-7, but visible verb form is 'we have dealt'.",
+   "line_id": 40673,
+   "source_hash": "fab989bc13f979601975f007dcf8cd5ff00bb15296243753e8c26cc0ad9287e7",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

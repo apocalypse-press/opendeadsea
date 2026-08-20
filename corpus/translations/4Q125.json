@@ -1,0 +1,46 @@
+{
+ "id": "4Q125",
+ "label": "4Q125",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 92,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q125 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments of Greek letters (ε) and a reconstructed symbol (# ד #) with uncertain meaning. No recoverable lexical items survive for translation.",
+   "line_id": 4562,
+   "source_hash": "442ec45738f945cf76af8555784c86d0b072e512636590901b14b0e043f9a99c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q125 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments of letters and symbols that cannot be translated independently.",
+   "line_id": 4563,
+   "source_hash": "8a4b117f9c82202c0ab2be7ad9e4464c7ba2bfdc743e2f4fb8646fa3d35d87ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q125 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. All words are marked as unknown or reconstructed with uncertainty.",
+   "line_id": 4564,
+   "source_hash": "f359830e16c5e1a8bc185318dc1202bf4ddafaf05a0c446b5a0d7b1d3483109e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q125 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. No meaningful translation is possible.",
+   "line_id": 4565,
+   "source_hash": "c84b2b0e5a84892637bb24161beef6c6e0f8647b3fbc150e88710aa113e024a2",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

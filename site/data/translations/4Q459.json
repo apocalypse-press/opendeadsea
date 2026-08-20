@@ -1,0 +1,60 @@
+{
+ "id": "4Q459",
+ "label": "4Q459",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 458,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q459 f1:1": {
+   "en": "Lebanon, heart, they exalted, pleasure",
+   "notes": "The transcription contains damaged and uncertain elements. 'לב##[' is reconstructed as 'heart' but is uncertain. 'רצון?[' is reconstructed as 'pleasure' but is uncertain. The final character 'ε' is untranslatable and omitted. No contextual constraints or repeated phrases are available to disambiguate the translation.",
+   "line_id": 22267,
+   "source_hash": "3b9c77890bdce5d28b00a48c4996da165d747a524d9c3b62da3cd5e40c09a1e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q459 f1:2": {
+   "en": "They knew the Lord their gods",
+   "notes": "The final 'ε' is untranslatable and omitted. 'אלהי׳[ הם' is reconstructed as 'their gods'.",
+   "line_id": 22268,
+   "source_hash": "8111d2adc026dcebe5808434daaadca8088a4ab9f827763c402b00d90e721321",
+   "source_condition": "reconstructed"
+  },
+  "4Q459 f1:3": {
+   "en": "He gave to the messengers and",
+   "notes": "The final characters are damaged and cannot be translated independently. The word 'את' is reconstructed and its meaning is uncertain.",
+   "line_id": 22269,
+   "source_hash": "8d1873b4987c1996598a898142f8794d34ada261a33b53d729f6e556ecd6ab17",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q459 f1:4": {
+   "en": "not this",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters (ε, ]ף) and a reconstructed word (ד##א). The translation reflects only the recoverable words 'לא' (not) and 'דא' (this), with uncertainty noted.",
+   "line_id": 22270,
+   "source_hash": "7002d52b425df6f324b97e028f3d3a395ac0129b9fd2d1e459730ee17185c651",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q459 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible lexical items surviving for translation.",
+   "line_id": 22271,
+   "source_hash": "56ffbd1d34e061587bd888f05e96d158f67a7fc1a34402850ac615b42801e691",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q459 f2:2": {
+   "en": "And they were",
+   "notes": "The final characters 'ε׃' are untranslatable and may indicate damage or an unknown symbol.",
+   "line_id": 22272,
+   "source_hash": "4e0f687176b375d68e99627c5399439b95f0cd90d62a2333706dc971d2f7bba0",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

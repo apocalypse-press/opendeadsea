@@ -1,0 +1,39 @@
+{
+ "id": "3Q1",
+ "label": "3Q1",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 772,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "3Q1 f1:1": {
+   "en": "In building sides and at the head of all ways and your high place",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown initial character and damaged words. The phrase 'all ways' is supported by repeated evidence, while 'at the head of all' is a plausible contextual rendering. The final word 'רמת׳ך' is translated as 'your high place' based on its morphology and gloss.",
+   "line_id": 39798,
+   "source_hash": "b3b5c98df58aae0f8b13b741ecd8f406239d406ae38bbe376398ee166ac1e62f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q1 f1:2": {
+   "en": "You have acted in every open place and were not like this prostitute to scorn a gift the adulterous woman",
+   "notes": "The phrase 'in every open place' is supported by repeated evidence. The term 'prostitute' is uncertain due to damage in the source text. The translation assumes a coherent whole despite the uncertainty.",
+   "line_id": 39799,
+   "source_hash": "7b8e261918017f556a44e414a6da822b6c9c0d50cdff4c22e057b80d9018e8c8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q1 f1:3": {
+   "en": "under husband she takes the strange to all prostitutes they give gift and you gave the gifts",
+   "notes": "Uncertain syntax and relationships between clauses. The phrase 'under husband' is a dominant contextual rendering for the first two words, but its connection to the rest of the sentence is unclear. 'All prostitutes' is a dominant contextual rendering for words 8-9, but the gloss for 'זנות' is uncertain. The object of 'they give' is unclear, and 'gift' is a gloss for 'נדה'. The phrase '(et) Nathan' is a dominant contextual rendering for words 13-14, but it does not fit the context, so the context-free gloss 'you' is used instead. The final word 'נדני׳ך' is translated as 'gifts' based on its gloss, but its relationship to the previous clause is uncertain.",
+   "line_id": 39800,
+   "source_hash": "79b2d243ec6204a038e53f93d3e392761feb8d3ea65fe8b5b592528205411977",
+   "source_condition": "reconstructed"
+  }
+ }
+}

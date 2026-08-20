@@ -1,0 +1,60 @@
+{
+ "id": "4Q328",
+ "label": "4Q328",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 316,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q328 f1:1": {
+   "en": "Jeshebeab in the sixth the shatter these heads of years",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'these heads of' is supported by repeated phrase evidence. The final word 'years' is plural, matching the source morphology.",
+   "line_id": 13794,
+   "source_hash": "766a12d4e269335de2b7366478b7e28375ad09a22428ba773a81450e034966ad",
+   "source_condition": "reconstructed"
+  },
+  "4Q328 f1:2": {
+   "en": "In the first year of Gamul, Eliashib, Maaziah",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly 'ה#' and 'אליש##[ יב ]'.",
+   "line_id": 13795,
+   "source_hash": "078af96974e199b3d35b5433b7c04b7a8d2fe3e66f1f3493a495b40e07a3c9d9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q328 f1:3": {
+   "en": "Balcony in the second Jedaiah Bilgah Seorim Hezir",
+   "notes": "Reconstructed and uncertain elements include 'חופה' (balcony/Huppah), 'ש[ עו ]ר##ים' (Seorim), and 'ח[ זיר ]' (Hezir). The transcription contains untranslatable punctuation marks, which are omitted in the translation.",
+   "line_id": 13796,
+   "source_hash": "779d42ef2262511b8ed63680e9d2361546f1df86feba94dfa835f3f08bdf2f04",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q328 f1:4": {
+   "en": "In the third of Myamin Pethahiah Pethahiah Abijah Jakin",
+   "notes": "Uncertain reconstructions and glosses for 'מי ]מ##[ ין ]' and 'אב#[ יה'. The final mark '׃' is omitted from the translation as it cannot be translated independently.",
+   "line_id": 13797,
+   "source_hash": "f2811e0606449feb37388bf18f88eaba97a448fce3fd7629c438946c2a0b6610",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q328 f1:5": {
+   "en": "In the fourth, Shecaniah, Delaiah, Jakim, Jehoiarib. In the fifth",
+   "notes": "The transcription is partially damaged, with reconstructions in positions 1 and 6. The name 'Jehoiarib' in position 6 is uncertain. The final word 'fifth' is cut off but clearly identifiable.",
+   "line_id": 13798,
+   "source_hash": "b6c11f20bcfea835bc5a11ccf9b3a9146fe672eeb7c537e018dec36cf7261a34",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q328 f1:6": {
+   "en": "Jeshebeab, Harim, Immer, Malkijah. In the sixth, the shatter.",
+   "notes": "The transcription contains two uncertain punctuation marks and a reconstructed word 'שית' (sixth). The translation preserves the order of the proper nouns and the phrase 'in the sixth, the shatter' as per the source.",
+   "line_id": 13799,
+   "source_hash": "c91695c985bbae8cb51c6193dcd02a2c6ee94875716e0248ff0a83ee34d06119",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "4Q249b",
+ "label": "4Q249b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 175,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q249b f1:1": {
+   "en": "to justice or to counsel of gathering or to attestation",
+   "notes": "Reconstructed and uncertain elements include the preposition 'to' and the noun 'attestation'. The phrase reflects a series of alternatives, each introduced by 'or'.",
+   "line_id": 8699,
+   "source_hash": "32252da5da3205699e1e96315beac9dedb5351716d74d580c4a84165a2eff8c7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249b f1:2": {
+   "en": "War and they were sanctified three days to be",
+   "notes": "The transcription is partially reconstructed and uncertain. The phrase 'three days' is supported by repeated evidence, but the exact relationship between 'war' and 'they were sanctified' is unclear. The final prepositional phrase 'to be' is uncertain due to damage and low contextual support.",
+   "line_id": 8700,
+   "source_hash": "63533ddf066a83e491cf4c0e53cd8cf9012d1e23055f99575b6c076414677a7c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249b f1:3": {
+   "en": "All the ready to come here these the men",
+   "notes": "Uncertain reconstruction and transcription damage affect the translation. The phrase 'every (the) [one who] comes' is partially supported by repeated evidence but not fully reflected in the surviving text. The final two characters are untranslatable and omitted.",
+   "line_id": 8701,
+   "source_hash": "61a4919333197601abf9247da1ec6b3518fb96c2d8f78e3c7e8aa46c675983fe",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

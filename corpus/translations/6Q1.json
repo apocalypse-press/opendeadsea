@@ -1,0 +1,88 @@
+{
+ "id": "6Q1",
+ "label": "6Q1",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 954,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "6Q1 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable characters (εε׃) with no recoverable lexical content.",
+   "line_id": 49906,
+   "source_hash": "e783ce6c632d589efe5bdfe3b848eccec5f2c30b09b7a83e4d508e325621e50d",
+   "source_condition": "clean"
+  },
+  "6Q1 f1:2": {
+   "en": "And he said to God, to Noah, the end of all flesh that comes before my face, that the earth is full of violence from their face, and behold, I will destroy them",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence supporting 'he said God to' and 'all flesh'. The phrase 'the earth violence' is supported by canonical evidence. Uncertainty arises from the reconstruction of '[ ו' and 'פ ]ני׳הם[', which are noted but not bracketed in the translation.",
+   "line_id": 49907,
+   "source_hash": "c61605fdc0bed1fd9a50516dd7ce06bd0d7fd3513975ac81f54a3ef45d4578a8",
+   "source_condition": "reconstructed"
+  },
+  "6Q1 f1:3": {
+   "en": "The earth: make for yourself an ark of gopher wood planks. Make the ark, and cover it from inside and outside with pitch. And this",
+   "notes": "The translation follows the visible transcription and morphology, preserving the imperative and second-person singular forms. The object marker 'את' is rendered contextually. The verb 'כפרת' is translated as 'cover' based on its lexical gloss and repeated phrase evidence. The prepositions 'מ' and 'ב' are translated as 'from' and 'with' respectively, following their morphological indicators. The final 'זה' is translated as 'this' to maintain the fragment's flow, though its connection to preceding material is uncertain.",
+   "line_id": 49908,
+   "source_hash": "8f8e1676b1779c9b5b7786edbeb31cd6fb6188d9256994b3662eabc424d0a026",
+   "source_condition": "reconstructed"
+  },
+  "6Q1 f1:4": {
+   "en": "You shall make it three hundred cubits the length of the ark, fifty cubits its breadth, and thirty cubits its height. Make a roof for it.",
+   "notes": "The translation follows high-confidence phrase evidence for 'three hundred cubits' and 'cubits the length of'. The gloss 'roof' is preferred over 'window' for צֹהַר based on contextual constraints from Genesis 6:16.",
+   "line_id": 49909,
+   "source_hash": "118484562fed187dad812f679e562f1734a519e69c5a2c56fd3023b82109e476",
+   "source_condition": "reconstructed"
+  },
+  "6Q1 f1:5": {
+   "en": "To the ark and to the cubit you shall complete from the top and the opening of the ark in its side you shall put the lower second and third you shall make",
+   "notes": "Uncertain elements include the reconstruction of the preposition 'to' at the start, the numbers 'second' and 'third', and the final particle. The phrase 'I here!' is a supported contextual rendering but lacks direct evidence in this line.",
+   "line_id": 49910,
+   "source_hash": "a618761318895f2b836dc192519369c202ad72e25020f70c1080d618ff884d72",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q1 f1:6": {
+   "en": "Bringing the deluge of waters upon the earth to destroy all flesh which [is] in the breath of life from under the heavens",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'under the heavens' (positions 18-20), 'to destroy all' (positions 9-11), and 'all flesh which' (positions 11-13). The verb 'bringing' reflects the hifil participle of 'come' (position 1). The phrase 'breath of life' is a conservative rendering of 'wind' (position 15) in this context, supported by the gloss 'alive/living' for 'חיים' (position 16). No uncertainty is signaled in the translation as all recoverable words are accounted for.",
+   "line_id": 49911,
+   "source_hash": "17d55bdb6faa7fddab07583c3f74a4b92b8e5604b7ad534200c4aa756dacfd9b",
+   "source_condition": "reconstructed"
+  },
+  "6Q1 f1:7": {
+   "en": "As all that is in the land expires, I established my covenant with you and brought you to the ark, you and your sons and your wife and the wives of your sons.",
+   "notes": "The phrase 'the ark you' is supported by repeated evidence. 'A covenant with' is a high-confidence pattern. The translation conservatively follows visible morphology and lexical glosses, preserving grammatical relationships and participants directly licensed by the source.",
+   "line_id": 49912,
+   "source_hash": "046e9e4ed9bee1da25905d961c68b9edc6ca4d1121a0e398c08b4da70722eb5f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q1 f1:8": {
+   "en": "With you, and from all the living, from all flesh, two of everything, bring into the ark to preserve alive, male and female.",
+   "notes": "The translation incorporates repeated phrase evidence for 'all the living,' 'all flesh,' and 'two of everything.' The phrase 'to preserve alive' is supported by contextual evidence. The final phrase 'male and female' is directly translated from the visible text.",
+   "line_id": 49913,
+   "source_hash": "4473bba5c60520bf749f78c78d4f44c50ceb5079fa55d6cf28b04384b00191ab",
+   "source_condition": "reconstructed"
+  },
+  "6Q1 f1:9": {
+   "en": "Let there be from the birds to kind, and from the cattle to kind, from every creeping thing of the ground to kind, two of everything that comes to you.",
+   "notes": "Positions 2, 20, and 25 contain untranslatable characters. Positions 20 and 21 are reconstructed.",
+   "line_id": 49914,
+   "source_hash": "c4ea744e72d8127799ecf56c67fdbaa43914c86981938782afa77f35a085d7d8",
+   "source_condition": "reconstructed"
+  },
+  "6Q1 f1:10": {
+   "en": "To be alive and you take to yourself from all food that is eaten and you gathered to yourself and it was to them for food",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'to be alive' is a literal rendering of the infinitive construct 'להחיות'. The sequence 'ל׳ך מ כל מאכל' is translated as 'to yourself from all food' based on repeated phrase evidence. The verb 'יאכל' is rendered as 'is eaten' to maintain the passive voice indicated by the Nifal stem. The sequence 'אספת אלי׳ך' is translated as 'you gathered to yourself' based on repeated phrase evidence. The final sequence 'הי ]ה ל׳ך ו ל׳הם#[ לאכלה' is rendered as 'and it was to them for food', with the lacuna and uncertainty noted.",
+   "line_id": 49915,
+   "source_hash": "69d3ce7bc47261cb9f67237d9cd585bee86cdae90d4b1f13f40170bda787e999",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

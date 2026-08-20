@@ -1,0 +1,137 @@
+{
+ "id": "4Q94",
+ "label": "4Q94",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 17,
+ "scroll_id": 886,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q94 f1_2:1": {
+   "en": "They lifted up the streams of YHWH they lifted up the streams their sound",
+   "notes": "The phrase 'they have lifted up rivers' is supported by repeated evidence. The sequence 'of Yahweh they' is less strongly supported but retained for fidelity to the source. The initial 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 48439,
+   "source_hash": "791e6e91f55c4138668144d360ca1d50694164801e4cb6c1c9e7b040f45d196c",
+   "source_condition": "reconstructed"
+  },
+  "4Q94 f1_2:2": {
+   "en": "They have lifted up rivers dashing from the sound of waters, many mighty breakers",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'waters many' is supported by repeated evidence. The verb 'lift' is reconstructed but follows the lemma and morphology. The punctuation mark is omitted as it cannot be translated independently.",
+   "line_id": 48440,
+   "source_hash": "accf00fc62f54ca6de721c413de48243a8ee833afc817168ea929c176e616965",
+   "source_condition": "reconstructed"
+  },
+  "4Q94 f1_2:3": {
+   "en": "Mighty sea in the high place, YHWH. Your testimonies be firm might to your house.",
+   "notes": "The transcription contains a reconstructed word ('[ ים') and a damaged word ('נא[ מנו'). The translation preserves the visible morphology and lexical items, with uncertainty in the damaged word 'נא[ מנו' reflected in the notes.",
+   "line_id": 48441,
+   "source_hash": "2fd288a68f24659fb72d618319df0f42efda7fe536edd701f0571791e4f55aea",
+   "source_condition": "reconstructed"
+  },
+  "4Q94 f1_2:4": {
+   "en": "It was lovely, the holiness of Yahweh for length of days.",
+   "notes": "The phrase 'for length of days' is supported by repeated phrase evidence. The sequence 'of holiness it will be to' is partially supported, but 'it will be' is omitted due to lack of direct evidence in the transcription. The verb 'was lovely' is reconstructed and noted as such.",
+   "line_id": 48442,
+   "source_hash": "a21f76a2c362a860f0698707062cd713b64b664d78e206c88e9bfec1526284f5",
+   "source_condition": "reconstructed"
+  },
+  "4Q94 f3_4:1": {
+   "en": "And a great king above all gods, whose hand is in the earth's investigations",
+   "notes": "The phrase 'above all gods' is supported by repeated phrase evidence. The term 'investigations' is used for 'מחקרי' due to lack of a trusted gloss, and 'hand' is translated based on visible morphology. Uncertainty in 'אלה ]י#?ם' and 'אשר#' is noted but does not affect the translation.",
+   "line_id": 48443,
+   "source_hash": "ce92f9140ea348c43a8d91a6668e384735b5012103e97443e675aba10fe356e7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q94 f3_4:2": {
+   "en": "And the horns of mountains to him, which to the sea and he made and dry land by his hand",
+   "notes": "Uncertain reconstruction at positions 7 and 12. Phrase evidence suggests possible renderings for positions 3-4, 7-9, and 11-12, but these are not adopted due to lack of direct support in the transcription.",
+   "line_id": 48444,
+   "source_hash": "2555aa16fd406f18f0396990a366a132ee705b69e6fabbf806a5f80879a6882e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q94 f3_4:3": {
+   "en": "They shaped come let us bow down and kneel we will bless to the faces of YHWH who made",
+   "notes": "Uncertain reconstruction and damage in positions 6, 9, 10, 11. Phrase evidence supported 'before YHWH' but the preposition 'before' was not present in the source. Omitted unsupported connector 'before' and retained only recoverable wording.",
+   "line_id": 48445,
+   "source_hash": "17fd6a3177343c681574c830cd6ace9a7b651fa34c26aaf4c5334c0d5c58214e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q94 f3_4:4": {
+   "en": "He our God and we the people his pasturage and his cattle the day if in his sound hear",
+   "notes": "Uncertain reconstruction of 'sound' (קל׳ו#?) and 'hear' (ת##[ שמעו ]); phrase evidence suggests 'sound it was heard' but is not binding. Two reconstructed words and two uncertain words in the source.",
+   "line_id": 48446,
+   "source_hash": "0b2210030fcf76541c8487f6ab59937966fe466caef7bc8e65a7c5288f8c5393",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q94 f5_6:1": {
+   "en": "They reported the heavens' righteousness and saw all the people's weight",
+   "notes": "Uncertain reconstruction of 'saw' (position 7). Phrase evidence supports 'all the people' (positions 8-10) and 'heavens' righteousness' (positions 4-5).",
+   "line_id": 48447,
+   "source_hash": "49bd82225e4bcc3699a91bb7a9810e5ce1ba0b7eca15cc3980c0304e246bbe0e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q94 f5_6:2": {
+   "en": "Let all who serve the idol be put to shame, who praise in vain gods.",
+   "notes": "Reconstructed text in positions 1 and 8. Uncertainty in position 8 due to damaged transcription. Phrase evidence supports 'all servants' and 'he is put to shame every', but the translation prioritizes visible morphology and lexical glosses.",
+   "line_id": 48448,
+   "source_hash": "407786cfddc7a8cc89b479b0bb52cfb1d1ffa8deeb244c8204852a2d14898af9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q94 f5_6:3": {
+   "en": "Bow down to all the gods and Zion rejoices and they rejoice",
+   "notes": "The phrase 'he bowed down to all' is a high-confidence contextual rendering for the first three words, but it introduces an unsupported participant 'he'. The translation retains the imperative 'bow down' without specifying the subject. The sequence 'all the gods' is supported by repeated phrase evidence, though the gloss for 'gods' is plural while the morphology is singular; the translation uses the plural form. The final two verbs are both 'rejoice' in the third-person feminine, with the second verb being plural; the translation reflects this as 'Zion rejoices and they rejoice' to preserve grammatical number.",
+   "line_id": 48449,
+   "source_hash": "7b93d4ac8bfd326d1af202d2ca288dff9c3c5ba9ee4e3ce6ec74f8c9ccb2d8d8",
+   "source_condition": "reconstructed"
+  },
+  "4Q94 f5_6:4": {
+   "en": "The daughters of Judah on account of your judgments, O Yahweh, that you are Yahweh.",
+   "notes": "The phrase 'the daughters of Judah on account of' and 'of Judah on account of judgments' are supported by repeated phrase evidence. The rendering 'you O Yahweh' is supported by repeated phrase evidence, though the second occurrence of 'Yahweh' is uncertain. The final two words are uncertain due to damage in the transcription.",
+   "line_id": 48450,
+   "source_hash": "9b385aca7a1137ad1635f8c46cc0695c0f235e15d325c7b2649613cbdfc993ba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q94 f7_9:1": {
+   "en": "Shout for joy to Yahweh, all the earth, be serene and cry out, and sing.",
+   "notes": "The phrase 'shout for joy to Yahweh' is supported by repeated evidence. 'All the earth' is a high-confidence contextual rendering. The verbs 'be serene,' 'cry out,' and 'sing' are imperative forms, with 'be serene' chosen as the gloss for 'פצחו' based on the provided lexical aid, though its sense is uncertain.",
+   "line_id": 48451,
+   "source_hash": "58c14fd18f48c57b1ca09e71642e0db8337cd33477b35f932404ff74bb230e47",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q94 f7_9:2": {
+   "en": "Sing to Yahweh with harp and sound of music",
+   "notes": "The verb 'sing' is reconstructed and uncertain. The phrase 'sound of music' is supported by repeated evidence. 'Yahweh with harp' is a possible but less certain interpretation.",
+   "line_id": 48452,
+   "source_hash": "2499689a99d52d8999166c74c074b14d557dc4f3511d1c44664c2ef7ce2e0303",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q94 f7_9:3": {
+   "en": "In clarions and the sound of a horn, shout to his face",
+   "notes": "Reconstructed text in positions 1 and 6. Uncertainty in position 6 due to damage. Phrase evidence suggests 'the trumpet they will shout' for positions 5-6, but visible morphology and transcription are prioritized.",
+   "line_id": 48453,
+   "source_hash": "aa7847f463a54ec4c781228a25ae2f6c384754cc55297694e1cfbe61a6b28d92",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q94 f7_9:4": {
+   "en": "The king Yahweh, let it thunder the sea and the fullness of the world",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly around the 'fullness' suffix and the following word.",
+   "line_id": 48454,
+   "source_hash": "f7b9c7792274e7fd80475801f6afe440e12e87b3bf0de7b35d3273e03bfef06c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q94 f7_9:5": {
+   "en": "And they dwelt in streams, they will clap a palm, gathering mountains",
+   "notes": "The phrase 'they will clap a palm' is supported by repeated phrase evidence. The phrase 'they dwelt in' is supported by repeated phrase evidence. The translation conservatively preserves all recoverable words in order, including the conjunction 'and' and the particle 'gathering'. Uncertainty in the transcription is noted for the word 'palm'.",
+   "line_id": 48455,
+   "source_hash": "bbe69f695c54da81110874b53b410174862b1c5c16a4c3736029f98dc27b1d46",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

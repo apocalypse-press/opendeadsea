@@ -1,0 +1,158 @@
+{
+ "id": "4Q324a",
+ "label": "4Q324a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 20,
+ "scroll_id": 305,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q324a f1i:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and an uncertain pronoun 'הוא' (he), with no recoverable context or evidence to support a translation.",
+   "line_id": 13629,
+   "source_hash": "4bd1ed63dbd45f34443e9fb506fd7c2900aba9c5cbed5b07301707816c1164e9",
+   "source_condition": "uncertain"
+  },
+  "4Q324a f1i:2": {
+   "en": "this day to",
+   "notes": "Uncertain reconstruction and damaged text limit recoverable meaning. The phrase 'this day' is supported by repeated evidence, but the preposition 'to' is reconstructed and uncertain.",
+   "line_id": 13630,
+   "source_hash": "c33f6374e0f78d0304d7dc4912b8951ba89393e14b186dd553cfe7a43d25b2e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a f1ii:1": {
+   "en": "Day of the entrance of Harim, on the fourteenth, in twenty and one",
+   "notes": "The transcription is heavily damaged and reconstructed, with uncertain readings. The phrase 'four- teen in' is supported by repeated evidence, but its exact placement is unclear. The translation conservatively preserves recoverable elements without adding unlicensed connectors or subjects.",
+   "line_id": 13631,
+   "source_hash": "210f0c21c937f1cc6866ced740be92a30a11e7d69eac76a4672f55524ef7afa3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a f1ii:2": {
+   "en": "In its entrance of Seorim in twenty and in eight in the entrance of Malkijah",
+   "notes": "Several words are reconstructed or uncertain. The transcription contains damaged or ambiguous characters, and some lexical items are contextually unclear.",
+   "line_id": 13632,
+   "source_hash": "f1c008b2ac62b5babe3cc0c02cdcc466f5064fa351142571f54763994eb7ad4d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a f1ii:3": {
+   "en": "Day fourth in Malkijah this one in month the tenth",
+   "notes": "Uncertain transcription and reconstruction in positions 1, 2, 4, 5, 8, 11, 12. Phrase evidence supports 'month (the) tenth' and 'this one'.",
+   "line_id": 13633,
+   "source_hash": "1a2e03623c30190d1f5e9d610470734acb1fc7850cef1c87f5c978de4eb30842",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a f1ii:4": {
+   "en": "In four in tenth of entrance of right in one ten in the thorn-bush",
+   "notes": "Uncertain reconstruction and gloss for 'מִיָּמִין' (right); phrase evidence suggests 'in the summer' for positions 11-13, but it is not directly supported by the visible transcription; 'one plus ten' is a possible interpretation for positions 9-10, but it is not certain.",
+   "line_id": 13634,
+   "source_hash": "b8f21125d8fe4569daecd67b516f1b4257242071dd6d03bdb373693f3ec44ffd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a fA:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 13635,
+   "source_hash": "77738485cff4fbf9a6798568ced8fb7ba4c64ce58845c08794d6717381158f86",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a fA:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and damaged lexical units. No defensible English words survive.",
+   "line_id": 13636,
+   "source_hash": "1bd611d330b29f7a802029518e472e603aa15c5791bf7d8a6b003e0444f17f2a",
+   "source_condition": "clean"
+  },
+  "4Q324a fA:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible forms are either incomplete or untranslatable, and the reconstructed material is too uncertain to support meaningful English output.",
+   "line_id": 13637,
+   "source_hash": "cd0b805c4f0aa37ddb60cfd9cc7042506a13d8695a63fdc728e65b31721c896d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a fB:1": {
+   "en": "month",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a possible month reference. Untranslatable characters and damage are omitted.",
+   "line_id": 13638,
+   "source_hash": "04805871b9e98c04da0e6aeaf94266059a31c1eba1c2517a3cfc39e9a22e53a7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a fB:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (ε, #) with no recoverable lexical content. All words are marked as unknown or reconstructed with high uncertainty.",
+   "line_id": 13639,
+   "source_hash": "83ff332568fd45928cb630a944204f1f3c40096c32008067b213dc272b361f17",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a fB:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or fragments that can be translated into English. All visible forms are either unknown, damaged, or reconstructed with high uncertainty.",
+   "line_id": 13640,
+   "source_hash": "9b210dacd970afeb08cdc26d6bc8d93834de9db1aa5ae8c03dee117aa4d47283",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a fCi:1": {
+   "en": "two",
+   "notes": "The transcription includes an uncertain character ε and a damaged numeral ]שנ?י?ם#. The numeral is translated as 'two' based on its lemma and lexical gloss, but the uncertainty is noted.",
+   "line_id": 13641,
+   "source_hash": "defe10e8a2005c54eeedf55cdd0baefcdad1a9f745245cdda2a135b498757681",
+   "source_condition": "uncertain"
+  },
+  "4Q324a fCii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a reconstructed fragment and an untranslatable character.",
+   "line_id": 13642,
+   "source_hash": "c63488ff2b46e234518dae3ae4748a011d9bf94876a1ff1c9e6331992136f7f1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a fCii:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a reconstructed fragment and an uncertain character.",
+   "line_id": 13643,
+   "source_hash": "b7f8419d5cff6f291220b476c1660d4eb995d39b84255a81fc50cd53d44d40e4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a fCii:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' with no clear Hebrew or Aramaic context. No recoverable text can be confidently translated.",
+   "line_id": 13644,
+   "source_hash": "1d5ec68f2a6ae5189d304b910de1ac9be4274998d63e27a74ccc884fec8d9137",
+   "source_condition": "clean"
+  },
+  "4Q324a fCii:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items. The first character is a reconstructed fragment, the second is an untranslatable symbol, and the third is a punctuation mark with no independent meaning.",
+   "line_id": 13645,
+   "source_hash": "1046908798dbd5921cf9aed6ea2f78fd0cf0f8a7a61005fb3412876ee93fcb6d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a fDi:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a Greek letter fragment (ε) and uncertain markers.",
+   "line_id": 13646,
+   "source_hash": "ec80778e47cd0a03701d293fce5cfb712d9706ab33d97503b9ea2ed5cdcb1313",
+   "source_condition": "uncertain"
+  },
+  "4Q324a fDi:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a damaged word '# שׁר[' with an uncertain reconstruction, an untranslatable character 'ε', and a punctuation mark '׃'. No defensible English words survive.",
+   "line_id": 13647,
+   "source_hash": "a59d2b31097b794d8c41355a72bb8e090194bca0e644fac27715bbdde1deb094",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324a fDii:1": {
+   "en": "day",
+   "notes": "The transcription is heavily damaged, with only the word 'day' recoverable. The remaining characters are uncertain or untranslatable.",
+   "line_id": 13648,
+   "source_hash": "1720eb90a7514d8460c6578d42ec2cf2cf97cb207ec330ad6899ba3674da3c62",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

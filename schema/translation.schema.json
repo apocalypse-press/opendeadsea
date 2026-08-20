@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opendeadsea.org/schema/translation.schema.json",
+  "title": "Open Dead Sea first-draft translation pack",
+  "type": "object",
+  "required": ["id", "label", "status", "review", "lines"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "label": { "type": "string", "minLength": 1 },
+    "status": { "type": "string", "const": "first-draft" },
+    "review": { "type": "string", "const": "human-pending" },
+    "line_count": { "type": "integer", "minimum": 0 },
+    "lines": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["en"],
+        "properties": {
+          "en": { "type": "string" },
+          "notes": { "type": "string" },
+          "line_id": { "type": ["integer", "null"] },
+          "source_hash": { "type": "string" },
+          "source_condition": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+ "id": "4Q8c",
+ "label": "4Q8c",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 784,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q8c f1:1": {
+   "en": "Abraham son",
+   "notes": "The transcription is heavily damaged, with only 'Abraham' and 'son' recoverable. The phrase 'Abraham [was] a son' is supported by repeated evidence, but the verb is not present in the source. The translation preserves the recoverable elements without inventing relations or adding missing subjects.",
+   "line_id": 40261,
+   "source_hash": "846547af03a3acf0313af6bef4358c55886cb977979282c68ec6a262b2feb15d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q8c f1:2": {
+   "en": "in Haran",
+   "notes": "The transcription is heavily damaged, with only the preposition 'in' and the town name 'Haran' recoverable. The remaining characters are uncertain or untranslatable.",
+   "line_id": 40262,
+   "source_hash": "9e1913ed15d9ae35864d60effb956bd5dc6bf219dc3dd61f00922875e07d1f51",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

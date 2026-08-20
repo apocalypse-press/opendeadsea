@@ -1,0 +1,39 @@
+{
+ "id": "6Q5",
+ "label": "6Q5",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 958,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "6Q5 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and punctuation marks. No meaningful translation is possible.",
+   "line_id": 50073,
+   "source_hash": "4be6f8f5e4386be14c66b38b042128b24bc95b8996b2102be23cba1bb5b4668b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q5 f1:2": {
+   "en": "And they were enticed in their mouths and in their tongues they lied, falsehood to them, and not their hearts.",
+   "notes": "The phrase 'falsehood to them' is supported by repeated phrase evidence. The translation preserves the order and structure of the recoverable text, including the lacuna at the end.",
+   "line_id": 50074,
+   "source_hash": "11e4b436e3364a90f014547cbd5567ef66db20f10bf7a6874acc6c85f73e5cd4",
+   "source_condition": "reconstructed"
+  },
+  "6Q5 f1:3": {
+   "en": "Be firm with and not be firm in his covenant",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly positions 5 and 8, affects the translation's precision. The phrase 'peoples' from repeated phrase evidence was not applied as it does not fit the recoverable syntax. The final clause reflects the visible morphology and lexical glosses, but the overall meaning remains uncertain due to damage and reconstruction.",
+   "line_id": 50075,
+   "source_hash": "f0d883ecd07aab0b52afb372832fbe96080a19d0d27f422378152f05483b78cd",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "id": "4Q523",
+ "label": "4Q523",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 20,
+ "scroll_id": 561,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q523 f1_2:1": {
+   "en": "and they will help you",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a possible verb 'help' and a preposition 'to'. The phrase 'a deliverer for' is supported by repeated evidence but is not directly reflected in the recoverable text. The translation prioritizes visible morphology and lexical glosses, omitting unsupported elements.",
+   "line_id": 28912,
+   "source_hash": "f3ab454fe66e0a037f6732cfee2d99a1b2564afd0ead61fa3e2caa53705e2aaa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f1_2:2": {
+   "en": "They thrust away Jehonathan",
+   "notes": "The transcription is heavily damaged, with uncertain reconstructions and missing text. The verb 'thrust away' is based on the visible morphology and lexical gloss, but the context is unclear. The name 'Jehonathan' is reconstructed and uncertain.",
+   "line_id": 28913,
+   "source_hash": "b92c2cf5fa8712bdd79719f56d79231aca454593779238f2f46c367791ff02ca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f1_2:3": {
+   "en": "the gazelles stole",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation. The verb 'גנבו' is reconstructed but certain.",
+   "line_id": 28914,
+   "source_hash": "abf7f722e9198b103f3b1a000cb3e7ac59fb0666ffd2b425803d1cd80bff1143",
+   "source_condition": "reconstructed"
+  },
+  "4Q523 f1_2:4": {
+   "en": "They stole the forks and",
+   "notes": "Uncertain transcription and reconstruction in multiple words. The verb 'steal' is uncertain due to damage. The conjunction 'and' is reconstructed.",
+   "line_id": 28915,
+   "source_hash": "c28380680d35f6176449c8ec659e25df9c52b1921b190ca817d3761d8aae4b1e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f1_2:5": {
+   "en": "Gog and Magog",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an initial and final 'ε' of unknown meaning, which are omitted from the translation. The fragment is highly damaged, with only the proper nouns Gog and Magog recoverable.",
+   "line_id": 28916,
+   "source_hash": "cb8fec177d2436207cdc41358e52e007a512570841341bf13e8cbe4bb7e07966",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f1_2:6": {
+   "en": "in their children",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The word 'ב' is translated as 'in', and 'טפ##׳ם##[' is interpreted as 'their children' based on the lexical gloss and morphology. Other elements are either untranslatable or too damaged to provide meaningful content.",
+   "line_id": 28917,
+   "source_hash": "3620cacb83f7929c19eb9f919cb162d31a26bba560bd4d5b7ef9934f4b9681ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f1_2:7": {
+   "en": "given",
+   "notes": "The translation is based on the recoverable verb 'נתן' (give) in its participle form. The surrounding characters are uncertain or untranslatable, including a Greek epsilon (ε) and reconstructed or damaged symbols. The participle 'given' is retained as the sole defensible lexical item, with all other elements omitted due to uncertainty.",
+   "line_id": 28918,
+   "source_hash": "d32fbe8bba9a3e3bbe1d702a01f391141053dc319017b52a2239015f4f638012",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f1_2:8": {
+   "en": "you turn around",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The verb 'turn' is based on the lemma 'סבב' with visible morphology indicating a second-person masculine plural imperative. The object marker 'אֵת' is uncertain and may not be fully recoverable. The remaining characters are untranslatable fragments. No contextual constraints or repeated phrases are available to disambiguate further.",
+   "line_id": 28919,
+   "source_hash": "d93cf091b4e2b908cadc86524a30bc7a908ae51547978ac9e216e50d28e746fe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f1_2:9": {
+   "en": "their supply of signs",
+   "notes": "The transcription is heavily damaged, with uncertain reconstructions and unrecoverable text. The translation reflects the visible lexical items 'supply' and 'signs', but the overall meaning remains uncertain due to the fragmentary state of the text.",
+   "line_id": 28920,
+   "source_hash": "28b60799308c299a93186b98a6866e78556a5efba07b3ca659c42d6705e1db40",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f1_2:10": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a mix of Greek and Hebrew characters that do not form coherent lexical units. No defensible English translation can be derived from the visible forms.",
+   "line_id": 28921,
+   "source_hash": "c66b01725ed575c73b6b271156c8e99ba7d32a6d6fc3b3a24235bcf5501b9f9c",
+   "source_condition": "clean"
+  },
+  "4Q523 f1_2:11": {
+   "en": "to a deposit",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The word 'פקד#ן' is identified as 'פִּקָּדֹון' (deposit), but its integrity is uncertain. Other elements (ε, ט # [, ε) are untranslatable fragments. The preposition 'לְ' (to) is clear, but the overall meaning is fragmented and uncertain.",
+   "line_id": 28922,
+   "source_hash": "acdea052653b15fdfe8120a50b79422c2008b298329197143a41637f19d7c45a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f1_2:12": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible. The visible forms are either incomplete or untranslatable, and the reconstructed material is too uncertain to support meaningful translation.",
+   "line_id": 28923,
+   "source_hash": "9ac02e4948d1a60a57f98a73689876792452344011f7e1a999da9bf601f41bde",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain or reconstructed elements, leaving no defensible English words.",
+   "line_id": 28924,
+   "source_hash": "d632418ed5611419c5672878de40863a3d1e0be060d12d81df36ea24aa086412",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f3:2": {
+   "en": "they cease working palms",
+   "notes": "Uncertain reconstruction of 'palms' (סי[). Initial and final characters (ε) are untranslatable.",
+   "line_id": 28925,
+   "source_hash": "daeb07bf66200caed19beebfc82aa6eb698cfd02104160f6475dc1d6e97b189b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f3:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains fragmented and uncertain characters (ε, ם, ק, ׃) with no clear lexical or semantic meaning. No recoverable words or phrases can be confidently translated.",
+   "line_id": 28926,
+   "source_hash": "0676b6a90c3b523054b47ad771e3df839be3d36b94836fce8712702d22424fb8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f4:1": {
+   "en": "The if only",
+   "notes": "The transcription is heavily damaged, with only partial words recoverable. The second word is reconstructed and uncertain, and the third character is untranslatable. The translation reflects the visible and recoverable elements without speculation.",
+   "line_id": 28927,
+   "source_hash": "51d72774f93fcf794d593b9c57d3cda81378f0d4e585bb00873c7bd2140ac99c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f4:2": {
+   "en": "to [no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements. Only the preposition 'to' (לְ) is recoverable. The remaining characters are fragmentary and cannot be confidently translated.",
+   "line_id": 28928,
+   "source_hash": "dc7b973b52c9dea81939a8546f2f881b8d285aaedfb9db2095e32ce914b7d2b8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f4:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the surviving elements.",
+   "line_id": 28929,
+   "source_hash": "d14577013092c852ad6878f3a4c026c6f69508b65e9221171a7e28a47682d37e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q523 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed suffix, with no recoverable lexical content.",
+   "line_id": 28930,
+   "source_hash": "ca987ab3d43851f0d781f4882c31e6fa283698b6529923f29b676c6ea225819d",
+   "source_condition": "reconstructed"
+  },
+  "4Q523 f5:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only damaged or untranslatable characters (ε, ׃) and reconstructed placeholders.",
+   "line_id": 28931,
+   "source_hash": "8d38842e122bb379af94751a6eeaf40fbbd2062abeabfa955bd8b2f493da6e93",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

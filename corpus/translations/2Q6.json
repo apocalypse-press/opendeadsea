@@ -1,0 +1,151 @@
+{
+ "id": "2Q6",
+ "label": "2Q6",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 19,
+ "scroll_id": 760,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q6 f1:0": {
+   "en": "Moses and Aaron and his sons keep",
+   "notes": "The phrase 'his sons' is a reconstruction based on repeated phrase evidence. The initial character 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 39593,
+   "source_hash": "a3713b870d3df57b09f4b04c7f61436bd719ad8dc61ba4c4a3f8745ef1190b19",
+   "source_condition": "clean"
+  },
+  "2Q6 f1:1": {
+   "en": "the guard-post of the sanctuary for the duty of the people of Israel",
+   "notes": "Reconstructed and uncertain text in positions 1 and 2. Phrase evidence supports 'the duty of the people of Israel' for positions 5-7.",
+   "line_id": 39594,
+   "source_hash": "b6589478dc39236057b9908ed4d9a1b0754ec2e91ef3ef4f10f36999ec2ad54c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q6 f1:2": {
+   "en": "And the approaching stranger will be put to death: all the enrolled of the Levites",
+   "notes": "The phrase 'stranger (the) approaching' is supported by repeated evidence. The verb 'will be put to death' is a passive construction, and the subject 'stranger' is retained in the translation. The phrase 'all the enrolled of the Levites' is supported by repeated evidence, with 'enrolled' being a paraphrase of the participle 'miss' in the context of the Levites.",
+   "line_id": 39595,
+   "source_hash": "23003b8db407743dd793c35a93f67db6e1681a323548909032e9599331b1241d",
+   "source_condition": "reconstructed"
+  },
+  "2Q6 f1:3": {
+   "en": "whom he enrolled Moses and Aaron on the mouth of YHWH",
+   "notes": "The phrase 'on the mouth of YHWH' is supported by repeated phrase evidence. The verb 'enrolled' is a conservative rendering of the visible morphology. No uncertainty or lacunae are present.",
+   "line_id": 39596,
+   "source_hash": "a2569849a4be5bcebf92f88bdb1b07c43d469cbb2c910003b191e62b01ca3b13",
+   "source_condition": "reconstructed"
+  },
+  "2Q6 f1:4": {
+   "en": "to the clan every male from a son of a month and top",
+   "notes": "Uncertain reconstruction of 'clan'; phrase evidence supports 'from a son of a month'",
+   "line_id": 39597,
+   "source_hash": "7ee6279e2bd39064a46246e301fdc5352bd2343d17f0cb4c137230c4474fadcf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q6 f1:5": {
+   "en": "Two and twenty thousand",
+   "notes": "The transcription includes a reconstructed word and a punctuation mark with no clear gloss, which are omitted from the translation.",
+   "line_id": 39598,
+   "source_hash": "266d9dc60906078307bb4e3cc6810dda0672b5817f45fb9d3335cf1af0da065c",
+   "source_condition": "reconstructed"
+  },
+  "2Q6 f1:6": {
+   "en": "And he said to Moses, 'Charge every firstborn male.'",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 39599,
+   "source_hash": "fe37a0679c16c3a99b01c22e695e2eb154ba9f469296ae40f86dbf6650fd597b",
+   "source_condition": "reconstructed"
+  },
+  "2Q6 f1:7": {
+   "en": "to the people of Israel from a son of a month and unfaithfulness and lift the object marker",
+   "notes": "The phrase 'from a son of a month' is supported by repeated phrase evidence. 'The people of Israel' is a common rendering of 'בני ישראל'. 'Unfaithfulness' is a possible gloss for 'מעל׳ה' based on lexical evidence. The object marker 'את' is translated literally as it is a particle with no clear contextual meaning here.",
+   "line_id": 39600,
+   "source_hash": "e66a2364906d4d62f72be5ce7fc12dd0fe3b4f2d80d2584fc806182c9bbbd9fc",
+   "source_condition": "reconstructed"
+  },
+  "2Q6 f1:8": {
+   "en": "number of names and take the Levites to",
+   "notes": "Uncertainty in the reconstruction of 'מספ#[ ר' as 'number' and damage to the text may affect the exact meaning.",
+   "line_id": 39601,
+   "source_hash": "720901fff9ffcb7fbb6a703687f9724766a509c3d2688299b9599e08d239e354",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q6 f1:9": {
+   "en": "I [am] Yahweh in place of every firstborn among the people of Israel",
+   "notes": "The transcription is partially damaged, with the first word reconstructed. The phrase 'in place of every firstborn' and 'among the people of Israel' are supported by repeated phrase evidence. The translation conservatively follows the recoverable text without adding unlicensed material.",
+   "line_id": 39602,
+   "source_hash": "ade497d6986f404fbeef415a311ff2a0dbea1d0974ac1d7f016178ea125870e5",
+   "source_condition": "reconstructed"
+  },
+  "2Q6 f1:10": {
+   "en": "And the livestock of the Levites in place of every firstborn in cattle",
+   "notes": "The translation follows high-confidence phrase evidence for the sequence 'the livestock of the Levites' (positions 3-5) and 'in place of every firstborn' (positions 6-8). The final preposition 'in' (position 9) is retained with its context-free gloss, linking to the repeated 'cattle' (position 10). The object marker (position 2) is omitted as it does not contribute to the recoverable proposition. The sentence ends with a punctuation mark (position 11) that is not translated.",
+   "line_id": 39603,
+   "source_hash": "e790f547990c2a786e028569123697b132e8df28a4a266c50de7835f8b7f57bf",
+   "source_condition": "reconstructed"
+  },
+  "2Q6 f2:0": {
+   "en": "And he gave Moses the silver of the ransom",
+   "notes": "The initial character ε is untranslatable and omitted. Phrase evidence supports the sequence 'he gave Moses' and 'the silver of the ransom'.",
+   "line_id": 39604,
+   "source_hash": "df9d342e4c4e57a2a72656be3840922743c3ce9898c32e4c45d6d9a9a2b5d30d",
+   "source_condition": "clean"
+  },
+  "2Q6 f2:1": {
+   "en": "to Aaron and to his sons upon the mouth of YHWH as he commanded",
+   "notes": "Reconstructed text in positions 1 and 5. Phrase evidence supports 'upon the mouth of YHWH' as a fixed expression.",
+   "line_id": 39605,
+   "source_hash": "05ee2792ab918070363d3c15db0de5715c814a8dea0fa058a0b950276a65670c",
+   "source_condition": "reconstructed"
+  },
+  "2Q6 f2:2": {
+   "en": "Yahweh (et) Moses",
+   "notes": "The transcription is partially reconstructed, with the first and third words restored. The object marker 'et' is retained based on phrase evidence, though its function here is uncertain.",
+   "line_id": 39606,
+   "source_hash": "dd832f67d20519762a4dbab8b8f53d1ffc20cff796c9ca1b2341f9f065e3a012",
+   "source_condition": "reconstructed"
+  },
+  "2Q6 f2:3": {
+   "en": "And he spoke Yahweh to Moses and to Aaron saying",
+   "notes": "Uncertainty in the transcription of the verb 'speak' and the presence of a reconstructed particle 'and' at the beginning.",
+   "line_id": 39607,
+   "source_hash": "f1424d18dfdec016f3b75fe73a0525be69f110dc2deb28e0fb57c01ae70d9629",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q6 f2:4": {
+   "en": "Lift up the head of the descendants of Kohath from among the descendants of Levi",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 39608,
+   "source_hash": "6586b63e265af2ce84db8c024299365aa3f1960b4456243fea322b92427150fc",
+   "source_condition": "reconstructed"
+  },
+  "2Q6 f2:5": {
+   "en": "to the clan of the house of their fathers from the son of thirty",
+   "notes": "Uncertainty in 'clan' (מִשְׁפָּחָה) and 'house' (בַּיִת) due to damage and reconstruction. The phrase 'to the house of their fathers' is supported by repeated evidence. 'Son of thirty' is a literal translation of the visible text, though the sense is unclear.",
+   "line_id": 39609,
+   "source_hash": "2e91f512b76bbb81f9fc08e0fccb9261dd808d6aefcd20f1f296edebe179be76",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q6 f2:6": {
+   "en": "The year and above and unto the son of fifty years",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'מעל׳[ ה' is reconstructed and translated as 'above and' based on the provided lemma and gloss. The term 'חמשים' is translated as 'fifty' despite the gloss being uncertain, as it is a clear numeral. The final 'שנה' is translated as 'years' to match the plural context implied by 'חמשים'.",
+   "line_id": 39610,
+   "source_hash": "e64177add63f872dc040e9553733150a095a4f91a860e9f9fbde0a1d7af5664c",
+   "source_condition": "reconstructed"
+  },
+  "2Q6 f2:7": {
+   "en": "All who come to the service to do work in the tent of meeting",
+   "notes": "The phrase 'in the tent of meeting' is supported by repeated phrase evidence with high confidence. The verb 'come' is reconstructed but supported by visible morphology. The lexical gloss 'service' is preferred over 'gazelle' for 'tsava' based on contextual constraints.",
+   "line_id": 39611,
+   "source_hash": "fe860c1e772042bcd058336e7a4349d2b3a461a07ec09a843f599b8fa6e0c5cf",
+   "source_condition": "reconstructed"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "id": "11Q27",
+ "label": "11Q27",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 690,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "11Q27 f1:1": {
+   "en": "upon you that",
+   "notes": "The transcription contains untranslatable characters (ε, ː, ׃) and a damaged preposition (]עלי׳כה). The translation reflects only recoverable words in order, omitting uncertain elements.",
+   "line_id": 35393,
+   "source_hash": "b31c854b303ac1180464817cf98c6f2091d9c9601b7a64316caa26747f38c4e2",
+   "source_condition": "clean"
+  },
+  "11Q27 f2:1": {
+   "en": "gift",
+   "notes": "The transcription contains uncertain and untranslatable elements, including damaged characters and punctuation. The word 'gift' is based on the lexical gloss of the partially recoverable term 'שׁי'.",
+   "line_id": 35394,
+   "source_hash": "7c4b693329659f20fcdc8c0fcd9fa1261d5530e929dcf8fae1dd7cc73538deae",
+   "source_condition": "uncertain"
+  }
+ }
+}

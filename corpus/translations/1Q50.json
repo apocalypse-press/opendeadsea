@@ -1,0 +1,81 @@
+{
+ "id": "1Q50",
+ "label": "1Q50",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 42,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q50 f1:1": {
+   "en": "in [no recoverable text]",
+   "notes": "The second and third words are damaged beyond recovery, with the second word being a reconstruction and the third word untranslatable. The translation preserves the recoverable preposition 'in' and marks the unrecoverable portion as '[no recoverable text]'",
+   "line_id": 3715,
+   "source_hash": "2116ddc9c829b459ba034ed5006c8a7ba6fa2a744d38656f336a19fd724274d0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q50 f1:2": {
+   "en": "and [no recoverable text]",
+   "notes": "The transcription contains a damaged lexical unit 'הל[' with no trusted gloss, and an untranslatable character 'ε'. The only recoverable word is the conjunction 'ו' (and).",
+   "line_id": 3716,
+   "source_hash": "4f35c9ee6de94d7efb6e9fd8cbaace388ac6794416721d75e6cf32dec85d4c31",
+   "source_condition": "reconstructed"
+  },
+  "1Q50 f1:3": {
+   "en": "the",
+   "notes": "The transcription is heavily damaged, with only the definite article 'the' recoverable. The remaining characters are uncertain or untranslatable.",
+   "line_id": 3717,
+   "source_hash": "03490b18dc8d172697d79d20dfe0296ffe2065c5d971420d2b9390a3546e6447",
+   "source_condition": "reconstructed"
+  },
+  "1Q50 f1:4": {
+   "en": "and the tree",
+   "notes": "The transcription is damaged, with a reconstructed word and an uncertain character. The translation reflects the recoverable words in order, preserving uncertainty in the notes.",
+   "line_id": 3718,
+   "source_hash": "28966426864ee03f58ef73dac597baffd4b0050e3dc81090ba2b50976e0534fa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q50 f1:5": {
+   "en": "and stone",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The final characters (ε׃) are untranslatable and omitted. The word 'stone' is uncertain due to damage.",
+   "line_id": 3719,
+   "source_hash": "4f481a12a3a8ba9e0dec56f80c85bf8e9d0a25512fca2bef07cf9b29d61f53cb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q50 f2:1": {
+   "en": "sixth",
+   "notes": "The transcription contains untranslatable characters and damage, including an uncertain reconstruction and unknown elements. Only the word 'sixth' is recoverable.",
+   "line_id": 3720,
+   "source_hash": "7e8affbebb6152064df97d465c2a0328041d8c134d1c7fed3b0b77e763e13487",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q50 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible forms (ε, ]יש, מכ#[, ε) do not provide sufficient recoverable material to construct a meaningful translation.",
+   "line_id": 3721,
+   "source_hash": "0f3851688611de99985e64d52f0bd378c6dbd37c69acf6d0a2d36052887185c0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q50 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain fragments, with no defensible English words surviving.",
+   "line_id": 3722,
+   "source_hash": "b865d4abbd64d53717811d15ce2b05915db8c6c145bfa527effdaea12e703afa",
+   "source_condition": "uncertain"
+  },
+  "1Q50 f2:4": {
+   "en": "in",
+   "notes": "The transcription is heavily damaged, with only the preposition 'in' (בְּ) recoverable. The remaining characters are uncertain or untranslatable, including a reconstructed but unclear sequence (כ#נ?[) and unidentifiable marks (ε, ː). No contextual evidence supports further interpretation.",
+   "line_id": 3723,
+   "source_hash": "136e6757c6b29e6603aeba7e1bbed954b348e9dadfb07469d94d8707b5337062",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

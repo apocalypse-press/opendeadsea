@@ -1,0 +1,46 @@
+{
+ "id": "4Q442",
+ "label": "4Q442",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 440,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q442 f1:1": {
+   "en": "He will live to eternity I will praise",
+   "notes": "The initial 'ε' and damaged 'שׁבע' are omitted due to uncertainty. The phrase 'ל עולם אודה' is translated based on repeated phrase evidence, but the exact relationship between 'live' and 'praise' is unclear.",
+   "line_id": 21951,
+   "source_hash": "4dad6f9f1fcefe582d50e2e5f9096c610e1a5339d5a1298ce7e2b452374490b2",
+   "source_condition": "uncertain"
+  },
+  "4Q442 f1:2": {
+   "en": "He knew all this",
+   "notes": "The initial 'ε' is untranslatable and omitted. The verb 'ידע' is uncertain but rendered as 'knew' based on morphology. The phrase 'כול זואת' is supported by repeated evidence as 'all this'.",
+   "line_id": 21952,
+   "source_hash": "86174a5447aad5acb9642024ecf7fbca2bd9446a79df5d3a049bd9502a8582e7",
+   "source_condition": "uncertain"
+  },
+  "4Q442 f1:3": {
+   "en": "eternities",
+   "notes": "The transcription is heavily damaged, with only the Hebrew root for 'eternity' partially recoverable. The initial Greek letter 'ε' and the following symbols are untranslatable. The plural form is based on the morphology of the surviving Hebrew word.",
+   "line_id": 21953,
+   "source_hash": "6f53fc8a5a909227ceba425ee56be9cd1e34f054e31938087bcb0429521316a2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q442 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic lexical units. The visible characters include a Greek letter epsilon (ε), a damaged Hebrew letter (ך), and a punctuation mark (׃), none of which can be independently translated into meaningful English.",
+   "line_id": 21954,
+   "source_hash": "874db9abb2ee5c45b3cfe6467f35e06aa8bfb01c1ec71b52dafff62da9b7b068",
+   "source_condition": "uncertain"
+  }
+ }
+}

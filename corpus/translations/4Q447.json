@@ -1,0 +1,39 @@
+{
+ "id": "4Q447",
+ "label": "4Q447",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 445,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q447 f1:1": {
+   "en": "and to reject",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The visible Hebrew particles 'ו' (and) and 'ל' (to) are translated directly. The verb 'מאוס' is reconstructed and uncertain, but its infinitive form 'to reject' is retained based on the lexical gloss. The remaining characters (ε, #, and [) are untranslatable and omitted.",
+   "line_id": 22088,
+   "source_hash": "f4a6fc298a76943c3c39bbdd227dc0b2cc072a1bb0d565114ef5349bb7178e50",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q447 f1:2": {
+   "en": "consider us",
+   "notes": "The transcription is damaged, and the verb form is uncertain. The translation reflects the visible morphology and lexical gloss, but the exact sense is unclear.",
+   "line_id": 22089,
+   "source_hash": "0a44d8dd6b6d29427919999a790f2b3058c8b118a0e4cf520c3edef65e937a41",
+   "source_condition": "uncertain"
+  },
+  "4Q447 f1:3": {
+   "en": "because of",
+   "notes": "The transcription contains untranslatable characters and punctuation, and the particle 'לְמַעַן' is marked as uncertain. The translation retains the recoverable word 'because of' while omitting unsupported elements.",
+   "line_id": 22090,
+   "source_hash": "a43a3cb467f27618f57a5585546069140d660e0c61207d62e4746a05950be418",
+   "source_condition": "uncertain"
+  }
+ }
+}

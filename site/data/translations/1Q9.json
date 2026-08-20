@@ -1,0 +1,67 @@
+{
+ "id": "1Q9",
+ "label": "1Q9",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 748,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q9 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments and reconstructions with no recoverable lexical content.",
+   "line_id": 39260,
+   "source_hash": "19183f8766b734f3ad66c6c1fad5b53a681651c130cc679b62a8ea496ab74c23",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q9 f1:2": {
+   "en": "A staff of bread in Jerusalem, and they ate bread in weight, and in care, and water by measure, and in horror they will drink. Because of they will diminish.",
+   "notes": "The translation follows the recoverable text and phrase evidence, with 'staff of bread' and 'water by measure' supported by repeated patterns. 'In horror they will drink' is a dominant contextual rendering for positions 18-20. The final clause 'Because of they will diminish' is a literal translation of the visible tokens, though the prepositional relationship is unclear without further context.",
+   "line_id": 39261,
+   "source_hash": "05c2ba12c038c3ed9692089fd8e4a28e2456db79ffc67bc148203e66c3cac956",
+   "source_condition": "reconstructed"
+  },
+  "1Q9 f1:3": {
+   "en": "Bread and water, and men are desolate, and brothers, and they putrefy in sin. And you, O son of humankind, take for yourself a sharp dagger, a knife.",
+   "notes": "The phrase 'and men are desolate' is uncertain due to the reconstruction of the word 'לחם' and the uncertain gloss of 'נשמו'. The phrase 'and brothers' is uncertain due to the damaged form 'א ]ח##י׳ו'. The phrase 'they putrefy in sin' is supported by repeated phrase evidence but the preposition 'in' is uncertain. The phrase 'you, O son of humankind' is supported by repeated phrase evidence. The phrase 'a sharp dagger, a knife' is supported by repeated phrase evidence but the gender agreement between 'חרב' and 'חדה' is uncertain.",
+   "line_id": 39262,
+   "source_hash": "221ea9396ea4877d09c62fafe44abe45fea731c7be9edf2b958955c4108c4e0d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q9 f1:4": {
+   "en": "The barbers you will take to and you made pass upon your head and upon your beard and to take to you from balances of weight and they divided",
+   "notes": "Uncertain reconstruction at positions 8 and 9. Phrase evidence suggests 'you will make [it] pass over head' for positions 6-8, but this is not fully supported by the visible text. Positions 13-14 are supported by repeated phrase evidence as 'take for', but the visible text does not fully confirm this. The final verb 'חלקת׳ם' is uncertain and may mean 'divide' or 'be smooth'.",
+   "line_id": 39263,
+   "source_hash": "94e2c496461577b2f4c9e144a8922e70b1a71f5784ff9ab216c1ce29bd7286e3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q9 f2:1": {
+   "en": "from existence",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The word 'מן' is translated as 'from', but its uncertainty is noted. The term 'יש' is reconstructed and translated as 'existence', though its meaning is unclear. The surrounding characters (ε, #, [) are untranslatable and omitted.",
+   "line_id": 39264,
+   "source_hash": "b4141c071b4039ec8d6923e08369542e2e520e36b038aedf7190b79adcf396e9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q9 f2:2": {
+   "en": "and behold",
+   "notes": "The transcription contains untranslatable characters and damage, with one reconstructed word. The uncertain word ]ש#ת is omitted from the translation due to lack of recoverable meaning.",
+   "line_id": 39265,
+   "source_hash": "9d5c7cb730f526567e6608804bdf90992a29f4d92edc86bb80c0fc71935a1b67",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q9 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed 'to' preposition, but no defensible English words survive.",
+   "line_id": 39266,
+   "source_hash": "7bb0370cbb322c3060776e16775437e3a3c63892242eecff3ca51a2766489375",
+   "source_condition": "reconstructed"
+  }
+ }
+}

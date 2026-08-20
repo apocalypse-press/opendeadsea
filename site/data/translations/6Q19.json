@@ -1,0 +1,46 @@
+{
+ "id": "6Q19",
+ "label": "6Q19",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 657,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "6Q19 f1:0": {
+   "en": "earth",
+   "notes": "The initial character 'ε' and the final particle 'א ]' are omitted from the translation due to uncertainty in their independent translation. The particle 'א ]' is treated as a contextual marker and not translated directly.",
+   "line_id": 32685,
+   "source_hash": "1e02e50571bc2470a3eb75f2814fda375cb8c7b698157fd0cebde86a4be300fc",
+   "source_condition": "clean"
+  },
+  "6Q19 f1:1": {
+   "en": "who are the sons of Ham",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 32686,
+   "source_hash": "a6ed1aca7a248a356a9e5e210f6fdecaae07dd388f96e466d60903161853c3b6",
+   "source_condition": "reconstructed"
+  },
+  "6Q19 f1:2": {
+   "en": "people [no recoverable text]",
+   "notes": "The final character 'ε' is untranslatable and omitted. The particle 'א[' is reconstructed and uncertain, rendered as '[no recoverable text]'.",
+   "line_id": 32687,
+   "source_hash": "6394a5642546319d83110de77ede35e306f3f2f1d4378ca599ad0337f396f3b6",
+   "source_condition": "reconstructed"
+  },
+  "6Q19 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no clear lexical or semantic recoverable content. The phrase evidence for 'the God (the)' lacks sufficient support and cannot be confidently applied. No defensible English translation is possible from the surviving material.",
+   "line_id": 32688,
+   "source_hash": "6ff9b85661646c91d59fab070daa714bdb0b2dbfc1e49cbf196e8290ace28c12",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

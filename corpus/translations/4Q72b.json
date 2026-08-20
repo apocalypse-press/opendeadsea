@@ -1,0 +1,46 @@
+{
+ "id": "4Q72b",
+ "label": "4Q72b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 864,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q72b f1:1": {
+   "en": "And at that time, the speech of YHWH: they will come, the people of Israel, and the people of Judah together, and they will walk and weep",
+   "notes": "Uncertain elements include the definite articles and pronouns in positions 4-7, and the reconstruction of YHWH in position 9. The phrase 'the people of Israel' and 'the people of Judah together' are supported by repeated phrase evidence, though 'sons of Israel' and 'sons of Judah' are also possible translations for positions 11-12 and 15-16 respectively. The verb 'walk' in position 18 is an infinitive construct, and 'weep' in position 20 is an infinitive absolute, both following the conjunction 'and' in positions 14 and 19.",
+   "line_id": 46837,
+   "source_hash": "fec28cbe0b675f26c36adcf340e39d35ed0d37acafe6afffadd9e6f6b720a63e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q72b f1:2": {
+   "en": "And they will seek YHWH their God. Zion will ask the way before them, they came and were joined.",
+   "notes": "The object marker 'את' is uncertain and omitted. The phrase 'YHWH their God' is supported by repeated evidence. The verb 'נלוו' is translated as 'were joined' based on its morphology and lexical gloss.",
+   "line_id": 46838,
+   "source_hash": "3f7296f42e10cf5263a6f8a51e191cde4320ff0c775bb13d075d3962483979ca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q72b f1:3": {
+   "en": "To YHWH a covenant of perpetuity not it will be forgotten cattle perish and was my people their shepherds they caused to err mountains",
+   "notes": "Reconstructed text at position 5; uncertain reading at position 5.",
+   "line_id": 46839,
+   "source_hash": "69f23d8aa5324007aa97f73e440a468d440dc7507f06cb727f0064aaef6943bb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q72b f1:4": {
+   "en": "Apostates from the mountain to the hill they have gone they have forgotten their resting place",
+   "notes": "Uncertain transcription and reconstruction in 'from' (מ#) and 'hill' (גב##ע##[ ה). Untranslated characters 'ε' and '׃' due to unclear meaning. Phrase evidence supports 'hill they have gone' but is not mandatory phrasing.",
+   "line_id": 46840,
+   "source_hash": "60c3f85b0ea6f6953b7e3ef4bd99b2a4eec83b42b236a6033e1e7041e7866205",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

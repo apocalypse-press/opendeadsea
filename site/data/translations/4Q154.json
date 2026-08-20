@@ -1,0 +1,60 @@
+{
+ "id": "4Q154",
+ "label": "4Q154",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 943,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q154 f1:1": {
+   "en": "And he spoke, Yahweh to Moses, saying: Be holy to me, every firstborn, the firstborn of all.",
+   "notes": "The transcription is partially damaged, with reconstructions at positions 1 and 4. The verb at position 2 is uncertain. The phrase 'every firstborn, the firstborn' is supported by repeated phrase evidence.",
+   "line_id": 49731,
+   "source_hash": "e25785d989c8c808bec405762ca908dd5b479d5daceedab26223d1c7bddca308",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q154 f1:2": {
+   "en": "Womb among the people of Israel in [a human] and in cattle to him",
+   "notes": "Uncertain transcription and reconstruction in 'womb', 'among the people of Israel', and 'human'. The phrase 'among the people of Israel' is supported by repeated evidence. 'Cattle to him' is a paraphrase based on low-confidence evidence.",
+   "line_id": 49732,
+   "source_hash": "bc53cbc033055b4b2024fd798997faed2f014f155a59d4523276fe54b6db7a44",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q154 f1:3": {
+   "en": "Moses to the people remember the day this which you went out",
+   "notes": "Uncertain reconstruction of 'Moses' and 'to'; damaged and uncertain 'remember'; phrase 'the day this' supported by repeated evidence; 'went out' is certain.",
+   "line_id": 49733,
+   "source_hash": "93963887575e0ce8b60b719f985acaf3003ca4888444db0b56208549dfaffe03",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q154 f1:4": {
+   "en": "from Egypt from a house of slaves that in strength of hand brought out Yahweh you",
+   "notes": "Uncertain transcription and reconstruction in 'Egypt', 'from', 'house', and 'servants'. Phrase evidence supports 'from a house of slaves' and 'by strength of hand'. Object marker 'et' is implied by morphology but not explicitly translated.",
+   "line_id": 49734,
+   "source_hash": "d82d4dc7e9606acf8d2fc2a133c9f63a5c25b590931b5a7248c9eeef38861fcf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q154 f1:5": {
+   "en": "From this and not eat leaven the day you go out in the month of Abib",
+   "notes": "Uncertainty in transcription and reconstruction at several points, particularly around the verb 'eat' and the phrase 'the day you'; phrase evidence supports 'the month of Abib' as a consistent rendering.",
+   "line_id": 49735,
+   "source_hash": "b9341a041a204fece93da10298be59e58c3cdd614ede105a2f895be63cdc78b0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q154 f1:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. No meaningful translation is possible.",
+   "line_id": 49736,
+   "source_hash": "c8113688ccd97ea18f3cd9ada7fed180f667128e1413942a3f375705747f905f",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

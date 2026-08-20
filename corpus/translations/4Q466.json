@@ -1,0 +1,53 @@
+{
+ "id": "4Q466",
+ "label": "4Q466",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 467,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q466 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items surviving. The reconstructed verb form 'יניח' (settle / lament) is too fragmentary to translate confidently. All other characters are untranslatable or uncertain.",
+   "line_id": 22479,
+   "source_hash": "b8f44cd6ebd94dcdecf846d8f8ab57b65d4ceff8de61a11b6e3fb1048103860d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q466 f1:2": {
+   "en": "He said to the gods of Israel",
+   "notes": "The phrase 'the God of Israel' is supported by repeated phrase evidence, but the visible transcription suggests a plural form for 'gods'. The initial and final 'ε' characters are untranslatable and omitted.",
+   "line_id": 22480,
+   "source_hash": "0fc87a5a67b8f31356651fb92737d7699ce46838948c2b816350b7b2b8a7faff",
+   "source_condition": "reconstructed"
+  },
+  "4Q466 f1:3": {
+   "en": "the congregation of Yahweh",
+   "notes": "Translation based on phrase evidence for 'עדתיהוה'. Initial and final untranslatable characters (ε) omitted. Reconstruction and uncertainty in 'יהוה#[ε' noted but do not affect translation.",
+   "line_id": 22481,
+   "source_hash": "7bafa62b8828f969637c97856c155f6728be82bd303b406cd5d063e286165467",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q466 f1:4": {
+   "en": "the whole",
+   "notes": "Uncertain reconstruction and unrecoverable text present.",
+   "line_id": 22482,
+   "source_hash": "bc8a01db0061f0749eb27807e4cffc8ba78bff78ee3448ef6c5a1fb5245fb9c0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q466 f1:5": {
+   "en": "whole",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed word (כול). The translation reflects only the recoverable lexical item 'whole'.",
+   "line_id": 22483,
+   "source_hash": "62921314a188bdb4b90c2065035aad6074149255dd3eec2815612d43353fc10e",
+   "source_condition": "reconstructed"
+  }
+ }
+}

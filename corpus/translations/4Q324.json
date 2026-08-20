@@ -1,0 +1,81 @@
+{
+ "id": "4Q324",
+ "label": "4Q324",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 304,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q324 f1:1": {
+   "en": "The entrance of Shecaniah in twenty and three in the entrance of Eliashib in thirty",
+   "notes": "The phrase 'twenty and three' and 'in thirty' are literal translations of the numerical expressions. The exact meaning of the suffixed 'ב׳ה' is uncertain, but it is translated as 'in' based on the provided gloss. The translation assumes a list of entrances with associated numbers, but the exact relationship between the numbers and the entrances is unclear.",
+   "line_id": 13620,
+   "source_hash": "5c3693590d830d00778d66488d21f0ac509d3d89dd76bb2dc7eb0f4342dd37d3",
+   "source_condition": "reconstructed"
+  },
+  "4Q324 f1:2": {
+   "en": "Entrance of Jakim, one in Jakim, this one in the sixth in seven, in the entrance of the balcony",
+   "notes": "The phrase 'this one' is supported by repeated phrase evidence. The phrase 'in the sixth in seven' is uncertain due to the reconstruction of 'ש[ שי'. The term 'balcony' is a possible interpretation of 'חֻפָּה_2'.",
+   "line_id": 13621,
+   "source_hash": "932031463f1f66ac562bf29f5a7b130c4d7c6587097faf635807f6226105fa15",
+   "source_condition": "reconstructed"
+  },
+  "4Q324 f1:3": {
+   "en": "In four teen in entrance Jeshebeab in covenant in twenty",
+   "notes": "Uncertain reconstruction of 'covenant' and 'twenty'; damaged syntax and missing context prevent fluent phrasing.",
+   "line_id": 13622,
+   "source_hash": "a6141eac00fde655e0bdc095511420069fe30f7fc603f1fe7af40f81313dba58",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324 f1:4": {
+   "en": "And one in the entrance of Bilgah in twenty and eight in the entrance of Immer",
+   "notes": "Uncertain elements include the proper name Bilgah and the preposition marked as uncertain. The translation conservatively retains all recoverable words in order, with no added connectors or subjects.",
+   "line_id": 13623,
+   "source_hash": "19791fdb541bd18db6dd6aaf6633b2fa05fbcbd03de3df9d2eec8704f1b5eec0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324 f1:5": {
+   "en": "On the fourth day, in Immer, this one; in the seventh. In the four by its entrance Hezir",
+   "notes": "Uncertain reconstruction of 'one' (position 6), 'four' (position 11), and 'Hezir' (position 14). Phrase evidence suggests 'this one' (positions 5-6) and 'saying this' (positions 4-5), but the latter is not supported by the visible transcription. The translation conservatively retains all recoverable words in order.",
+   "line_id": 13624,
+   "source_hash": "edaa4a09d1583bde84ea42adeb3e476c918d98e3f078286c658a1b87efe4485f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324 f1:6": {
+   "en": "the sixth day Hezir who is ten in the seventh this day",
+   "notes": "Uncertain elements include the first character, the relative particle, and the final 'this day' phrase. The phrase 'this days' has some evidence but is not fully supported. The translation conservatively retains all recoverable words in order.",
+   "line_id": 13625,
+   "source_hash": "a56aa0b553e9e7f27a189b89c81b769fd18d7ddd8ce47a64d34b03794d87d85f",
+   "source_condition": "uncertain"
+  },
+  "4Q324 f1:7": {
+   "en": "the atonements covenant in one plus ten in seventh the entrance shatter",
+   "notes": "Uncertain reconstruction in 'one plus ten' and 'entrance'; damaged text in 'shatter'.",
+   "line_id": 13626,
+   "source_hash": "c997c91acdaa0c7f5d9b0ed5ae9d80527ccf4694b56fe653c7889650ed3d20f4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 13627,
+   "source_hash": "15342db3727b3bae6752d8450a6157b9f7a264ae8b58fe103aa26600ab56fd3f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q324 f2:2": {
+   "en": "three",
+   "notes": "The transcription contains untranslatable characters and a reconstructed word. The word 'ש ]לוש[' is reconstructed as 'שָׁלֹשׁ', meaning 'three'. The characters 'ε' and '׃' are not independently translatable and are omitted from the translation.",
+   "line_id": 13628,
+   "source_hash": "b0fb6e73088317ac71b9ba5ece26ecb749b9675e604f87111b8bd3af1a27c2ec",
+   "source_condition": "reconstructed"
+  }
+ }
+}

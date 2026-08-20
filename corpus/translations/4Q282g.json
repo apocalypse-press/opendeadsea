@@ -1,0 +1,53 @@
+{
+ "id": "4Q282g",
+ "label": "4Q282g",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 256,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q282g f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content.",
+   "line_id": 11501,
+   "source_hash": "85b67174bae21b8459d9c4a3874c512e4897ff569aff73f658e6bd43e13d7455",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282g f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no clear lexical or syntactic structure. The phrase evidence for 'the hand' is not supported by visible morphology or sufficient contextual repetition. All recoverable characters are either untranslatable or too fragmentary to form a defensible English phrase.",
+   "line_id": 11502,
+   "source_hash": "ad933cfc753a6d496d429dbec552e90c236c7b2edddc9ba33078a27e427a8871",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282g f1:3": {
+   "en": "from the heavens seven",
+   "notes": "Uncertain transcription and reconstruction of several words. The phrase 'the heavens seven' is supported by repeated evidence, but the exact meaning remains unclear due to damage and ambiguity.",
+   "line_id": 11503,
+   "source_hash": "85a43c99907a3b8b95cbdddb5a2ad2924c82024037debe10c3c68ce4693c79da",
+   "source_condition": "uncertain"
+  },
+  "4Q282g f1:4": {
+   "en": "only a young man",
+   "notes": "The transcription is heavily damaged, with uncertain readings. The word 'עלם' (young man) is partially recoverable, but the surrounding text is unclear. The translation reflects the visible lexical items, but the exact meaning and context are uncertain.",
+   "line_id": 11504,
+   "source_hash": "d0b57b0038d50decb5546e8a9a2fc694ade342bbd0f777d30c69f0e198b7d0cf",
+   "source_condition": "uncertain"
+  },
+  "4Q282g f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only a Greek letter (ε), a damaged symbol (#), and a possible Hebrew letter (ל) with uncertain meaning. No recoverable text survives for translation.",
+   "line_id": 11505,
+   "source_hash": "b6e23b90deb041a1ac7440a01c31189ebce4bdb1c2c3ef70afda6de8be1d7cd9",
+   "source_condition": "uncertain"
+  }
+ }
+}

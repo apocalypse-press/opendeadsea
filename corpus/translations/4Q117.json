@@ -1,0 +1,151 @@
+{
+ "id": "4Q117",
+ "label": "4Q117",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 19,
+ "scroll_id": 917,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q117 f1:1": {
+   "en": "As we inquire to God, and we do not slaughter from the days of Esar-Haddon king of Assyria, who brought us up",
+   "notes": "Positions 11-12: 'Esar-Haddon' is a reconstructed reading for the uncertain terms 'اسر' and 'חדן', likely referring to the Assyrian king Esarhaddon. Position 14: 'Asshur' is translated as 'Assyria' based on phrase evidence.",
+   "line_id": 49195,
+   "source_hash": "4d39bec7d0590e2d2445f50a0e522e9fbde94e912abf7a9af6d7201b083f9204",
+   "source_condition": "reconstructed"
+  },
+  "4Q117 f1:2": {
+   "en": "Here and he said to Zerubbabel and Jeshua and the rest of the heads of the fathers of Israel not to you and to us to build",
+   "notes": "Uncertain reconstruction of Zerubbabel's name and the final verb form.",
+   "line_id": 49196,
+   "source_hash": "0d647be68bc53b1fb6a21e0d766c65ef128c1b3f5fc911d39f1b1d2cd0f09621",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f1:3": {
+   "en": "To our God that we will build to Yahweh God of Israel as he commanded the king Cyrus the king",
+   "notes": "Uncertain reconstruction of א#נח#[ נו as 'that we will' and צו׳נו as 'he commanded'. Phrase evidence supports 'the king Cyrus' and 'the God of Israel'.",
+   "line_id": 49197,
+   "source_hash": "f90915c1cc1f95870f160a0717adbefb1bfa72e360ffbc5bf128dda779ef928e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f1:4": {
+   "en": "Persia and it was with the land [no recoverable text] slack hands of the people of Judah and [no recoverable text] them to build and stop",
+   "notes": "The phrase 'with the land' is uncertain due to damage and reconstruction. The verb 'be slack' is uncertain and may not be correctly translated. The phrase 'slack hands' is a reconstruction. The verb 'spend' is uncertain and may be incorrectly translated. The object marker 'them' is uncertain. The verbs 'build' and 'stop' are uncertain and may be incorrectly translated.",
+   "line_id": 49198,
+   "source_hash": "d0e7e230c18711f4b384718e72c139e57b2413ebd84739afe73985a93ac7d9fc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f1:5": {
+   "en": "Upon them who advise to break their counsel all the days of Cyrus king of Persia and unto the reign of Darius the king of Persia",
+   "notes": "Uncertain reconstruction of 'break' (position 4) and 'counsel' (position 5). Phrase evidence supports 'all the days', 'Cyrus the king of Persia', 'the reign of Darius', and 'the king of Persia'.",
+   "line_id": 49199,
+   "source_hash": "4f5cfa59fae206bbcb91bdbcb2a30b913183d5558e0425d95d35c898c17b9d49",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f1:6": {
+   "en": "And in the kingdom of Ahasuerus, at the beginning of his reign, they wrote an accusation against the inhabitants of Judah and Jerusalem.",
+   "notes": "The phrase 'the kingdom of Ahasuerus' is supported by repeated evidence. The verb 'dwelt' in 'it dwelt Judah' is uncertain and replaced with 'inhabitants' for clarity. The reconstruction and uncertainty of some words are noted but do not affect the overall translation.",
+   "line_id": 49200,
+   "source_hash": "5e8539e240283c9a697e78afdc19c6872c912167711c605549798d2e0e249b48",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f2:1": {
+   "en": "Scribe and the rest of his companions, judges, and Babylonian Erechites",
+   "notes": "Uncertain reconstruction and glosses for several terms; 'אפרסתכי', 'טרפלי', and 'אפרסי' are translated as part of the list despite unknown meanings.",
+   "line_id": 49201,
+   "source_hash": "4b4c2305b681c2956df6059a11e8a98b783129153783d6051c3233e8789f38ef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f2:2": {
+   "en": "Sushanchites, who are Elamites, and the rest of the nations, who revealed Assurbanipal, his great and precious one, and they sat",
+   "notes": "Uncertain elements include the transcription and gloss of 'א' (positions 2, 6, 11, 16, 19), the gloss of the punctuation mark (position 7), and the reconstruction of 'שאר' (position 9) with 'אמי' (position 10). The translation conservatively follows visible morphology and supplied glosses, omitting unsupported connectors or possessives.",
+   "line_id": 49202,
+   "source_hash": "f5cd864d5494af7a85a13d2c3829c561a60bfcef3b755579636ac80dd0d65079",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f2:3": {
+   "en": "In the town of Samaria, and the rest of the region beyond the river, now this is a copy of the letter which they sent to",
+   "notes": "The phrase 'the rest of the region beyond the' is supported by repeated phrase evidence. The phrase 'is a copy of the letter' is supported by repeated phrase evidence, though its pattern support is lower. The phrase 'which they sent to' is supported by repeated phrase evidence, though its pattern support is lower.",
+   "line_id": 49203,
+   "source_hash": "b60c4c64848db7af69c2cdb9e8db22a3c196f838594f76425d7496081896965f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f2:4": {
+   "en": "Upon Artaxerxes the king his servants mankind of the region beyond the river and now",
+   "notes": "Uncertain elements include the damaged particle 'א ]' and the suffixed form 'ע##ב##ד##י#?׳ך##'. The final characters 'ε' and '׃' are omitted as they cannot be translated independently. The phrase 'of the region beyond the' is supported by repeated phrase evidence for positions 7 and 8.",
+   "line_id": 49204,
+   "source_hash": "08d5c54660ba0bc436741bbd21c1449ea3792d412e1934bb94390ccaa32cbe44",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic or Greek words. The visible Hebrew particles (הֵן, אִיתַי, דִּי, מִן) are incomplete and lack context for translation.",
+   "line_id": 49205,
+   "source_hash": "41d9a82a9bb172607f0e54e04b3a26023f08b05b0de5c9d77f2124c02e985ebf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f3:2": {
+   "en": "Cyrus the king made a decree to build in Jerusalem and the king concerning this we have sent",
+   "notes": "Uncertain particles and damaged syntax prevent full recovery. Reconstructed 'Cyrus' and 'Jerusalem' are supported by context. The phrase 'the king concerning this we have sent' is a paraphrase based on repeated evidence, but its connection to prior clauses is uncertain.",
+   "line_id": 49206,
+   "source_hash": "df71c0e644400f85575f2f51c697127292b64efc0bd95234e47801277cb11760",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f3:3": {
+   "en": "Then Darius the king made a decree and attended to the books of the treasures that were there in Babylon, and he found",
+   "notes": "Uncertain elements include the transcription and gloss of positions 5, 7, 8, 11, 12, 13, 16, and 21. Positions 1 and 12 are reconstructed. The translation conservatively omits unsupported connectors and possessives, retaining only recoverable material.",
+   "line_id": 49207,
+   "source_hash": "a4e50957a4521ac78e61ae4e07ef4885a2b10e744863dbf304801eb4755066a7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f3:4": {
+   "en": "In Ecbatana, the citadel of the province of Media, one scroll and thus the written memorandum: in year one of Cyrus.",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'in year one' and 'year one of'. The particle 'א' at positions 5 and 10 is omitted as its function is unclear. The damaged verb form at position 15 is translated as 'written' based on the lexical gloss and context. The suffix 'ה' at position 19 is omitted as it cannot be translated independently. The source punctuation mark '׃' at position 20 is omitted as it has no English equivalent.",
+   "line_id": 49208,
+   "source_hash": "117ffc10e29f19d6ea582b50c12c34313b1c106c9d703061e63bc4556a1ac2c4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f3:5": {
+   "en": "Cyrus the king he made a decree upon the house of God in Jerusalem he will build the place where they sacrifice sacrifices",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'Cyrus the king' and 'the king he made a decree'. The phrase 'upon the house of God' is a conservative rendering of the uncertain lexical items. The final clause combines 'build', 'place', and 'sacrifice' with repeated phrase evidence for contextual clarity.",
+   "line_id": 49209,
+   "source_hash": "f50ded908f75177c7874af63fcade2758cf1be88dc93d6310781750dbdfc0414",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f3:6": {
+   "en": "And its foundations, bearing the height of sixty cubits in width, sixty cubits. Layers which of stone of rolling three.",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'stone of rolling' is based on repeated phrase evidence. The final 'three' is uncertain due to damage.",
+   "line_id": 49210,
+   "source_hash": "18ad831b45915400796be59b74430b73e29c42bbdb91f2e8a0e8991c409feaf2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f3:7": {
+   "en": "And a layer of new wood, and expenses from the king's house, she gives. And also vessels with these of gold.",
+   "notes": "Uncertain elements: 'upon me' (position 10), 'she gives' (position 13), and the final particle (position 23). Reconstructed elements: '[and]' (position 1), '[with]' (position 18).",
+   "line_id": 49211,
+   "source_hash": "3d3d04a7e556aa955f66f2d181737172532441d56a5a47fc6af350d26b783e72",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f3:8": {
+   "en": "And the silver which Nebuchadnezzar brought out from the palace that was in Jerusalem, and they brought to Babylon, they will not return, and he will go",
+   "notes": "Uncertain elements include the preposition 'from' (position 7), the noun 'palace' (position 8), and the particle 'that' (position 9). The verb 'he will go' (position 19) has an uncertain gloss.",
+   "line_id": 49212,
+   "source_hash": "06b406da2b287e134f36a93612e6105a6a2b89f0d7ca2c4032d2f80ac1e01b5f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q117 f3:9": {
+   "en": "To the palace in Jerusalem to its place and you shall come down in the house of God now",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'upon me' is omitted due to uncertainty in the source. The final 'ε' and punctuation marks are omitted as they cannot be translated independently.",
+   "line_id": 49213,
+   "source_hash": "67963889ce40a21eb08835d59bb0a62abecaf15332bbb17dc15696482e296368",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

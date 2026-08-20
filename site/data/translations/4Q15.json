@@ -1,0 +1,53 @@
+{
+ "id": "4Q15",
+ "label": "4Q15",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 793,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q15 f1:1": {
+   "en": "For it was hard for Pharaoh to send, and he killed YHWH, all the firstborn in the land of Egypt, from the firstborn of humankind to the firstborn of livestock, thus.",
+   "notes": "Uncertain transcription and reconstruction in 'was hard' (position 2), 'Pharaoh' (position 3), and 'to send' (position 5). Phrase evidence supported 'firstborn of humankind' (positions 15-16), 'the land of Egypt' (positions 12-13), and 'firstborn of livestock' (positions 19-20).",
+   "line_id": 40946,
+   "source_hash": "f8520a8fa35172292da38d7f03b8c1c76d39f003590b7721c0f9be11ae47b301",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q15 f1:2": {
+   "en": "I will slaughter to YHWH every firstborn of a womb of males and every firstborn of my sons I will buy off and it was a sign upon your hand",
+   "notes": "The phrase 'every firstborn of a womb' is supported by repeated phrase evidence. The phrase 'I will buy off' is a context-free gloss for the verb 'אפדה'. The phrase 'a sign upon your hand' is supported by repeated phrase evidence, but the possessive 'your' is not directly supported by the source text. The translation conservatively retains all recoverable words in order, with uncertainty noted for reconstructed or uncertain words.",
+   "line_id": 40947,
+   "source_hash": "96308c2f67ab4c2fb302310a895553df8fff90ba9ffcbf81412ef5a343588be3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q15 f1:3": {
+   "en": "And to marks between your eyes that by strength of hand Yahweh brought us out from Egypt",
+   "notes": "Uncertain elements: 'ט#טפות' (marks) and 'יד##[' (hand). Reconstructed elements: '[ ו' (and) and 'יד##[' (hand).",
+   "line_id": 40948,
+   "source_hash": "3cc6a083f53702c5c8cfb3d5ca2fc609a7b75a9fc6d6594562500453fdf7c7c2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q15 f1:4": {
+   "en": "Then will sing Moses and the sons of Israel this song to YHWH and they said saying I will sing to YHWH",
+   "notes": "The phrase 'the sons of Israel' is a high-confidence contextual rendering of 'sons Israel'. The phrase 'I will sing to YHWH' is a high-confidence contextual rendering of 'sing to YHWH'. The text has significant damage and reconstruction, particularly around the introduction of Moses, which is uncertain.",
+   "line_id": 40949,
+   "source_hash": "6eebbda35a1a47fb6a64e31d7bdfe10f001793b40e50af51f71fc504d811e67c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q15 f1:5": {
+   "en": "was high the horse and he rides he deceived in the sea",
+   "notes": "Uncertain reconstruction and transcription damage throughout. Phrase evidence partially supports 'he is exalted the horse' but does not license a fluent English restructuring. Retained all recoverable lexical items in order, including uncertain particles and verbs. Omitted untranslatable source characters and punctuation. Notes cannot resolve ambiguity in 'רמה' without context.",
+   "line_id": 40950,
+   "source_hash": "6949ba9204538e708574b40f3c52d8d3c77ec694cf8e4b1175494407ad701430",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

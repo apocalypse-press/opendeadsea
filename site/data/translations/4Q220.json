@@ -1,0 +1,95 @@
+{
+ "id": "4Q220",
+ "label": "4Q220",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 11,
+ "scroll_id": 154,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q220 f1:1": {
+   "en": "My regulations, and commandments, and judgments, do not walk after dung balls and after idols",
+   "notes": "The transcription is heavily damaged, with several reconstructed and uncertain words. The term 'גלולים' is translated as 'dung balls' based on its possible meaning, though the lexical gloss is uncertain. The repetition of 'after' is preserved as per the source, despite potential redundancy in English.",
+   "line_id": 7852,
+   "source_hash": "0a31a82b222031bf2b05b45efd9fefe71b8494eba6b515ca214e55184dd5bc17",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q220 f1:2": {
+   "en": "Molten images and do not eat any blood to wild animal and to cattle and to every bird which flies in the heavens",
+   "notes": "Uncertain transcription and reconstruction in positions 3, 5, and 17. Phrase evidence supported 'do not eat any' and 'every (the) bird' but could not fully resolve the syntax. Omitted uncertain particles and connectors not licensed by recoverable tokens.",
+   "line_id": 7853,
+   "source_hash": "083fc6a845ef8192cccf9217cf050d2e9d2ae78a41a69bb23890b24b707d82c3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q220 f1:3": {
+   "en": "And if you slaughter a burnt-offering, a sacrifice of peace offerings to the pleasure, slaughter and toss the blood upon the altar.",
+   "notes": "The phrase 'a sacrifice of peace offerings' is supported by repeated phrase evidence. The verb 'toss' is uncertain due to damage in the source text. The preposition 'upon' is uncertain due to damage in the source text.",
+   "line_id": 7854,
+   "source_hash": "9d04baed2b4eaa85f650ef7119ce4075ad03a2d8589e5ab289ff13c87847b946",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q220 f1:4": {
+   "en": "And all the flesh of the burnt-offering you shall burn on the altar with fine flour a grain offering mixed with oil",
+   "notes": "Uncertain reconstruction of 'flesh' (position 4), 'burnt-offering' (position 6), 'altar' (position 10), and 'oil' (position 16). High-confidence phrase evidence supports 'fine flour a grain offering mixed with oil' (positions 12-16).",
+   "line_id": 7855,
+   "source_hash": "84ffda7949345eccf7e8b39888d43b128ddfb19540de6dfbcbea5a83e05dbdca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q220 f1:5": {
+   "en": "With the drink offering you shall burn the whole upon the altar a fire offering of an odor of soothing to the face of the gods and the fat",
+   "notes": "The phrase 'a fire offering of an odor of soothing' is supported by repeated phrase evidence. The term 'gods' is a plural form, but the context suggests a singular reference, which is not reflected in the translation due to the strict evidence precedence rules.",
+   "line_id": 7856,
+   "source_hash": "fa6ced26f97473d6d8e3b178db5e402be58544d3fd3f06c1e3a70904257ffb33",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q220 f1:6": {
+   "en": "the sacrifice of the peace offerings, you shall smoke upon the fire which is upon the altar and the fat which is upon",
+   "notes": "Uncertain reconstruction of 'peace offerings' and 'fat'; relative clause structure inferred from repeated phrase evidence.",
+   "line_id": 7857,
+   "source_hash": "8de9dfed969f3301363f8bbe8929160d782a5bdd5da164c2e5e0bd49032a7237",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q220 f1:7": {
+   "en": "the interior and the fat which is upon the interiors and the kidneys and the fat which is upon them",
+   "notes": "Uncertainty in the object marker 'אֵת' and the noun 'חֵלֶב'.",
+   "line_id": 7858,
+   "source_hash": "33f2ac9609510892148c4ad4b3293ce66342f07ebca18bc7a7fcfa4864832814",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q220 f1:8": {
+   "en": "And the loins upon the [no recoverable text] and the lobe of the liver with the kidneys you shall remove. And you shall smoke it.",
+   "notes": "The transcription is heavily damaged, with two reconstructed words and one uncertain word. The phrase 'the lobe of the liver' and 'the kidneys he' are supported by repeated phrase evidence. The verb 'you shall remove' is reconstructed and uncertain. The final verb 'you shall smoke it' is certain, but its object is not recoverable.",
+   "line_id": 7859,
+   "source_hash": "274de19edb757885189af7e56a722525fb096e39e2d1d6c0f4b6ae4218cdcc5c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q220 f1:9": {
+   "en": "The whole to the scent of incense to the face of the gods with his present and his drink offering to an odor of soothing incense food of a fire offering",
+   "notes": "Uncertain reconstructions and damage affect 'gods' (position 9), 'his present' (position 11), and 'incense' (position 16). Phrase evidence supports 'to an odor of soothing' (positions 14-16) and 'food of a fire offering' (positions 17-18).",
+   "line_id": 7860,
+   "source_hash": "2c7cdc3970981d5a63f7b366912f2b960855c4c6b74043cd2fdfbb03db10cff6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q220 f1:10": {
+   "en": "To gods and flesh you will eat in the day that and the next day and not it will come upon the sun",
+   "notes": "Uncertain reconstruction at positions 10, 12, and 16. Phrase evidence guided rendering of 'day (the) that' and 'not it will come on'. Low support for 'flesh you will eat' and '[will] bring on the' considered but not applied due to lower confidence.",
+   "line_id": 7861,
+   "source_hash": "6efc1c48d3d95c5afd0a94494a0f4072e552bce0c262815bae38e715d443c57c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q220 f1:11": {
+   "en": "From the next day until eating, and not remaining to the third day",
+   "notes": "The transcription contains reconstructed and uncertain elements, including the preposition 'from' (מִן) and the number 'third' (שְׁלִישִׁי). The phrase 'day (the) third' is supported by repeated evidence. The translation conservatively follows the recoverable text, preserving uncertainty in the notes.",
+   "line_id": 7862,
+   "source_hash": "1782a2ed3aae627153848c6da6045db60776d959751ea84bb4de45daa4490f5d",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

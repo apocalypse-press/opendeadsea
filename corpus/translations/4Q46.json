@@ -1,0 +1,46 @@
+{
+ "id": "4Q46",
+ "label": "4Q46",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 831,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q46 f1:1": {
+   "en": "From and I did not burn from unclean and not I gave from to die I heard in sound",
+   "notes": "Uncertain reconstruction at positions 13 and 14. Phrase evidence suggests possible contextual renderings, but the translation adheres to recoverable words. Position 17 contains an untranslatable character.",
+   "line_id": 43991,
+   "source_hash": "059e0a3e2c3fb612db4af79a08660db9c7a81c5d5d78f789fb49885f49adfca9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q46 f1:2": {
+   "en": "Yahweh God I have done as all that you commanded me Look from your dwelling your holiness from the heavens",
+   "notes": "Uncertain reconstruction of 'dwelling' and 'your holiness' in the phrase 'from your dwelling your holiness'",
+   "line_id": 43992,
+   "source_hash": "64a2cf06809bc63704c0ddbf6f9752f8dbdc09657f9f173b3bd0f1773fbf374a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q46 f1:3": {
+   "en": "and bless your people and Israel and the land which you gave us as you swore",
+   "notes": "The initial damaged character is omitted. The translation preserves the visible morphology and lexical items, with uncertainty in the initial word handled by omission.",
+   "line_id": 43993,
+   "source_hash": "fc4f7320c766b3a39102d0473ccaf401c54e9639a88e4b8501c2b08d6da125fd",
+   "source_condition": "reconstructed"
+  },
+  "4Q46 f1:4": {
+   "en": "to our fathers a land flowing with milk and honey",
+   "notes": "The phrase 'a land flowing with milk and honey' is supported by repeated phrase evidence and canonical occurrences. The initial '[ ת' is omitted as it cannot be translated independently.",
+   "line_id": 43994,
+   "source_hash": "7d8a8cb5d8ca88e079c18138f24c29aa1b6f6f6ff10bbd3abdef9f5041b8e8ca",
+   "source_condition": "reconstructed"
+  }
+ }
+}

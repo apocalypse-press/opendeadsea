@@ -1,0 +1,60 @@
+{
+ "id": "1Q17",
+ "label": "1Q17",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 11,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q17 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable Greek letters (epsilon) with no identifiable lexical or semantic content.",
+   "line_id": 2458,
+   "source_hash": "ec0d880e422082f53d7e2738828c666b723b30d211b11e4fce57431e6aab061e",
+   "source_condition": "clean"
+  },
+  "1Q17 f1:2": {
+   "en": "And Jacob went out from Beer Sheba to go to Haran in one year to the second week in the ram of forty",
+   "notes": "Uncertain reconstruction of 'to go' (ל##כת) and 'one' (אחד#). High-confidence phrase evidence supports 'from Beer Sheba' and 'one year[s]'. The phrase 'ram of forty' is uncertain due to unclear context.",
+   "line_id": 2459,
+   "source_hash": "e562d5248431f4bd556f5337b51d43f34b32fb07a51a5bb0d8425df298ffeb16",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q17 f1:3": {
+   "en": "And four. And he will come to Luz which is the mountain of the house of God in the first of the month, in the first of the week.",
+   "notes": "The phrase 'which is the mountain of the house of God' is uncertain due to damage and low pattern support. The phrase 'in the first of the month, in the first of the week' is supported by high-confidence repeated phrase evidence.",
+   "line_id": 2460,
+   "source_hash": "1e57921a6077de378177ef4f426fcb12abc84f0920bb453dbcc382691a42a538",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q17 f1:4": {
+   "en": "This one will come to the place in the evening and extend from the way to the sea in this night and lodge there that he came",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged preposition (position 6), a reconstructed noun (position 7), and uncertain characters (positions 16). The phrase 'night (the) this' is supported by repeated evidence. The translation conservatively follows the recoverable text, preserving uncertainty and avoiding additions.",
+   "line_id": 2461,
+   "source_hash": "5265eaddc9787e6cebddc99c3128ca0dbdda6a10b7f580d89463c226d5b3232f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q17 f1:5": {
+   "en": "The sun and he took from the stones of the place this and he placed at the head of the big tree and he lay down there",
+   "notes": "Uncertain elements include the verb 'took' (position 5), the noun 'stones' (position 7), and the suffix in 'he placed' (position 13). The phrase 'place (the) this' (positions 9-11) and 'she put of its head' (positions 13-14) are supported by repeated phrase evidence, but the latter is adjusted to match the visible morphology and person.",
+   "line_id": 2462,
+   "source_hash": "ce57f3e798e8e6d1f1f541fcc3ab9c9c17a9599045982d2e8d59a470b3c01641",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q17 f1:6": {
+   "en": "For he to its part was going",
+   "notes": "Uncertain reconstruction of 'הול#[ ך' as 'going'; 'ε' and '׃' are untranslatable and omitted.",
+   "line_id": 2463,
+   "source_hash": "b5f07ce0ab973288f9514c6bb83fb682829f3ff7bc7011e5c5c7cbeb35bf252f",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

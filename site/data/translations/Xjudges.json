@@ -1,0 +1,179 @@
+{
+ "id": "Xjudges",
+ "label": "Xjudges",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 23,
+ "scroll_id": 1000,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "Xjudges f1:1": {
+   "en": "And Judah went to the Canaanite who dwelt in Hebron",
+   "notes": "Reconstructed text includes '[ וילךיהודה]א[ להכנעני]ה['. Phrase evidence supports 'he went Judah' and 'Canaanite[s] [who was] dwelling'.",
+   "line_id": 52868,
+   "source_hash": "c74d17fa9fdeb73dc66525bb27c8621b6f33d5ab0bfe39605980cdd38eb7be02",
+   "source_condition": "reconstructed"
+  },
+  "Xjudges f1:2": {
+   "en": "And the name of Hebron formerly, the faces of Kiriath Arba, and they struck the object marker",
+   "notes": "The phrase 'the name of Hebron formerly' is supported by repeated phrase evidence. 'The faces of Kiriath Arba' is a conservative translation of the recoverable words, though the exact relationship is uncertain. The verb 'struck' is translated based on the visible morphology, but the object is unclear due to the damaged text.",
+   "line_id": 52869,
+   "source_hash": "1c3ef520a9d20e7c1319374c86275e6ec64d51ac3549d021abf83d6cc68af2b6",
+   "source_condition": "reconstructed"
+  },
+  "Xjudges f1:3": {
+   "en": "Sheshai and Ahiman and Talmai and he went from there to",
+   "notes": "The translation includes reconstructed text for 'Sheshai' and 'and'. The final preposition 'to' is incomplete due to the damaged transcription.",
+   "line_id": 52870,
+   "source_hash": "5147f22783d96be359450acb716fa5306ba82985e4e530781ce7d19e824876dd",
+   "source_condition": "reconstructed"
+  },
+  "Xjudges f1:4": {
+   "en": "the inhabitants of Debir and the name of Debir formerly to faces Kiriath letter",
+   "notes": "The phrase 'the name of Debir formerly' is supported by repeated phrase evidence. The translation conservatively retains all recoverable words in order, including 'faces' and 'letter' which are context-free glosses. The transcription includes a reconstructed word 'ק[ רית' (Kiriath) and an unknown punctuation mark at the end, which are noted here but not translated.",
+   "line_id": 52871,
+   "source_hash": "6d1b306fe03e0d7aef656faa76a201e39a20429f740392dc3e59e8600ca2ab93",
+   "source_condition": "reconstructed"
+  },
+  "Xjudges f1:5": {
+   "en": "And he said, Caleb, who will strike Kiriath-sepher and seize it",
+   "notes": "Reconstructed text in positions 4 and 7. The phrase 'he said Caleb' is supported by repeated evidence, and the relative clause structure is inferred from the morphology of 'which' and 'strike'.",
+   "line_id": 52872,
+   "source_hash": "78618e60e8dc67fbdc157183f32a50c153fb43b58fd20bf1015b60b6ee50b35e",
+   "source_condition": "reconstructed"
+  },
+  "Xjudges f1:6": {
+   "en": "And I gave to Achsah daughter of woman and he seized",
+   "notes": "The translation follows the recoverable text, preserving the order and structure of the source. The phrase '(et) Achsah daughter' is supported by repeated phrase evidence. The verb 'seize' is in the wayyiqtol form, indicating a past action. The final punctuation marks are omitted as they do not contribute to the translation.",
+   "line_id": 52873,
+   "source_hash": "d1439845ec2031876325559e3dc45b050ee3b19768a394a7e38102cd0e696aba",
+   "source_condition": "reconstructed"
+  },
+  "Xjudges f2:1": {
+   "en": "And the parshdon went out, and Ehud went out the misdrone",
+   "notes": "Uncertain terms 'פרשדנ׳ה' and 'מס##ד#ר##ו#?נ#?' are translated based on provided lemmas and morphology, but their exact meaning is unclear. The transcription contains damaged and reconstructed elements, and the translation reflects the recoverable text conservatively.",
+   "line_id": 52874,
+   "source_hash": "f3c7c57a67c316a033eb8dbf308f5790d2e98d68ba365f9cae990c85413aae16",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f2:2": {
+   "en": "And he shut the doors of the upper room and locked",
+   "notes": "Uncertainty in the final pronoun 'he' due to damage in the source text.",
+   "line_id": 52875,
+   "source_hash": "b6fa3d31641d618981afe8d68a800f4783403ffea0768adb0fe8310dffc81cc7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f2:3": {
+   "en": "He went out, and his servants came and saw, behold, the doors",
+   "notes": "The transcription is partially damaged, and the word 'ד ]ל##ת##ו(# ת #)' is uncertain, likely referring to 'doors' based on the context-free gloss. The translation conservatively retains all recoverable elements without adding speculative details.",
+   "line_id": 52876,
+   "source_hash": "7281762cb787052073540e6598bbfafdba525aa85c7dbe0ce38700846808ac92",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f2:4": {
+   "en": "The upper room, having locked, and they said, 'Only he is covering.'",
+   "notes": "The phrase 'having locked' reflects the participle 'נעלות' in the plural feminine form, which is grammatically aligned with 'עליה' (upper room). The phrase '[is] covering he' is supported by repeated phrase evidence for 'מסיך הוא', though the hifil stem suggests an active sense of 'blocking' or 'weaving' rather than passive 'covering'. The final marker '׃' is omitted as it has no recoverable lexical content.",
+   "line_id": 52877,
+   "source_hash": "71b450da3b65114a4bdcc7cbd9d3a89fc6f816cdf9222c29d1d252cb78290691",
+   "source_condition": "reconstructed"
+  },
+  "Xjudges f3_7i:1": {
+   "en": "The high place and interval the house to god in the hill country of Ephraim and they ascended",
+   "notes": "Uncertain readings in positions 4, 5, 8, and 9. Phrase evidence supports 'the hill country of Ephraim' for positions 8-9 and 'in the hill country of Ephraim' for positions 7-9. Positions 5-6 suggest 'the house to' but with low support.",
+   "line_id": 52878,
+   "source_hash": "bb8ab4d786af6049607e35515506166dff9b48baecb57c1be67754ecbe950564",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7i:2": {
+   "en": "to the people of Israel for justice and she sent",
+   "notes": "Uncertain reconstruction of 'sons of Israel' and preposition 'to' in the first clause. Uncertain verb conjugation and lacuna in the second clause.",
+   "line_id": 52879,
+   "source_hash": "5edb9b5d800b6a9558a51969762cf7aad6424a8cb80de9dc4baf267d385cad4d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7i:3": {
+   "en": "To Barak the son of Abinoam from Kedesh Naphtali and she said",
+   "notes": "Uncertain readings for 'Barak', 'from', 'Kedesh', and 'Naphtali'. Reconstructed particles 'to' and 'and'.",
+   "line_id": 52880,
+   "source_hash": "e59de8ddc0c6b2639ad16af3bc36db2454e39f1eb8fc5549edf387faf56b8b9c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7i:4": {
+   "en": "To him not he commanded Yahweh the God of Israel",
+   "notes": "Uncertainty in transcription and morphology for positions 3 and 5. Reconstructed text in positions 1 and 7. Phrase evidence supports 'Yahweh the God of Israel' and 'he had commanded Yahweh', but the former is preferred due to higher pattern support and direct match with recoverable text.",
+   "line_id": 52881,
+   "source_hash": "f1755211a4b19ef7030f2894933fdf76783b4792a0a85127a39b2cdd2e63106c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7i:5": {
+   "en": "Go and draw in the mountain of Tabor and take",
+   "notes": "The transcription is partially reconstructed and uncertain. The phrase 'the mountain of Tabor' is supported by repeated evidence.",
+   "line_id": 52882,
+   "source_hash": "8a4883be1df4b976d22247c8b0da7e7de66d57918fdcccfbf24c9ea24ddc89b3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7i:6": {
+   "en": "with ten thousand men from the descendants of Naphtali",
+   "notes": "The phrase 'ten thousand men' is supported by repeated phrase evidence. 'The descendants of Naphtali' is a paraphrase based on the highest-supported repeated phrase evidence for positions 6 and 7.",
+   "line_id": 52883,
+   "source_hash": "e2d3c548fe55e49b193c81221b99d62815582e4c55f912179b6f95548130a4c9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7i:7": {
+   "en": "And from the sons of Zebulun, and I drew to the wadi of Kishon",
+   "notes": "Uncertain transcription and reconstruction in 'and from the sons of Zebulun' and 'wadi of Kishon'. Phrase evidence supports 'the descendants of Zebulun' and 'to the wadi of Kishon' but is not fully context-sensitive.",
+   "line_id": 52884,
+   "source_hash": "d18bebf62a2f7f87b55389c0862d184bc962218bd0ac181b2dc544a012484861",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7i:8": {
+   "en": "of Sisera the commander of the army of Jabin and his chariot",
+   "notes": "The transcription is partially damaged, with uncertainty around the name 'Sisera' and the final word 'chariot'. The phrase 'of Sisera the commander of the army' is supported by repeated evidence, while 'Jabin' and 'chariot' are directly recoverable from the transcription.",
+   "line_id": 52885,
+   "source_hash": "e5f29f0a7c3ab079f3b01fa0286340d7f0926ae4c0fe6e349dca99ed5cb68761",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7i:9": {
+   "en": "And the commotion, I gave in your hand. And he said to her",
+   "notes": "Uncertain reconstruction and transcription damage affect 'commotion' and 'I gave in your hand'. The phrase 'he said to her' is supported by repeated evidence.",
+   "line_id": 52886,
+   "source_hash": "ed31f78ea5c2a7b78d4faec63c443652da6ab1ff35de6409f09be476fa1e382d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7i:10": {
+   "en": "Barak, if you will go with and I went and if not you go",
+   "notes": "Uncertainty in transcription and reconstruction of 'בָּרָק_2' and 'אִם'. The phrase 'if you will go with' is supported by repeated phrase evidence, but its dominance is low. The translation conservatively retains all recoverable words in order, without adding unlicensed connectors or participants.",
+   "line_id": 52887,
+   "source_hash": "4550b7db82bc7e965998bb1c7d40758168b92dc1af2696d91893b1ab005248a6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7i:11": {
+   "en": "I will not go. And she said, Go.",
+   "notes": "Uncertainty in the transcription and reconstruction affects the translation's fluency. The phrase 'she said go' is supported by repeated evidence, but the full sentence structure is uncertain due to damage and reconstruction.",
+   "line_id": 52888,
+   "source_hash": "bf8cf98358211498f8e8712e42f3bd72f04caa91ade67901006eaacfc9fb33eb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7i:12": {
+   "en": "Only that not will be your splendour upon the way",
+   "notes": "Uncertain particles and damaged syntax prevent fluent reconstruction. The translation preserves recoverable words in order, omitting unsupported relations.",
+   "line_id": 52889,
+   "source_hash": "a7db7a7b03bf95751440e4e289d92c36c8602ffe7eb9c7ff62218073c59ab5d9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xjudges f3_7ii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and untranslatable characters (א[ε׃), with no recoverable lexical items. The first character is a reconstructed aleph, the second is an uncertain epsilon, and the third is a punctuation mark. No defensible English translation is possible.",
+   "line_id": 52890,
+   "source_hash": "d5f7a15534a64443f5f56e2ab4cfd0d1c19cbc224ea02b14709a972e6953f99d",
+   "source_condition": "reconstructed"
+  }
+ }
+}

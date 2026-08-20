@@ -1,0 +1,81 @@
+{
+ "id": "4Q95",
+ "label": "4Q95",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 887,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q95 f1:1": {
+   "en": "What Yahweh desired he made in the heavens and on earth to make he will make there is none like Yahweh and there is none who can make",
+   "notes": "The translation reflects the visible transcription and morphology, with uncertainty in the reconstruction of some words. The phrase evidence and lexical glosses were used to disambiguate the meaning of certain lexical items. The translation preserves the grammatical person, number, and semantic relationships, while allowing for natural synonyms and English category shifts where necessary.",
+   "line_id": 48456,
+   "source_hash": "2a8bf2a10b5a4e4251cb5726b032f87fdac4e1c0bcf0048a466d09eadc95a938",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q95 f1:2": {
+   "en": "As a king of gods in days and in all the deeps he brought up clouds from the end of the earth lightning flashes",
+   "notes": "Uncertain reconstruction of 'as' and 'ascend'; uncertain gloss for 'deeps'; phrase evidence supports 'he brought up clouds from the end of the earth lightning flashes'",
+   "line_id": 48457,
+   "source_hash": "0d88ffdb2957f0fa628f92cc775d7da179070aaa0590f6288b350ebc1e7d1c41",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q95 f1:3": {
+   "en": "To rain he made, he brought out [the] wind from storehouses who struck [the] first-born of Egypt from humankind unto cattle",
+   "notes": "Uncertain reconstruction of 'storehouses' and 'first-born'; damaged syntax in the relative clause.",
+   "line_id": 48458,
+   "source_hash": "e949d2c60e64d1a99c110fa8aed76bb94faecb3fc5299c1dedf4758209715082",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q95 f1:4": {
+   "en": "He sent signs and wonders in the midst of Egypt on Pharaoh and on all his servants",
+   "notes": "The phrase 'in the midst of Egypt' is a repeated pattern with high support. 'On all his servants' is a dominant contextual rendering with moderate support. The verb 'sent' is a context-free gloss for the visible morphology. The final 'ε' and '׃' are omitted as they cannot be translated independently.",
+   "line_id": 48459,
+   "source_hash": "b6bd125f16ced444533e4c348b7d566fdedccc29329177243c7a06262c2e9946",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q95 f2_3:1": {
+   "en": "For his loyalty is forever, and to Og the king of Bashan",
+   "notes": "Uncertainty in transcription and reconstruction noted at positions 10 and 11.",
+   "line_id": 48460,
+   "source_hash": "0b4a61d762089eb7396cee977260c7b0a587cb336c6a7ea1d3ebe0fcb39dc145",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q95 f2_3:2": {
+   "en": "His loyalty is forever, and he gave their land as an inheritance to us forever",
+   "notes": "The phrase '[is] forever loyalty' is supported by high-confidence repeated phrase evidence for positions 1-3. 'He gave land' is a contextual rendering for positions 6-7, though with lower support. 'An inheritance to' is a dominant pattern for positions 8-9. The final 'forever' is a direct translation of the recoverable word at position 12.",
+   "line_id": 48461,
+   "source_hash": "2c4fa222509b54333230fb393f541b1b8f2c967a9da7f058b30de2e39d0cad27",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q95 f2_3:3": {
+   "en": "His loyalty, an inheritance to Israel, his people, that forever loyalty",
+   "notes": "Uncertain reconstruction of 'כ#' as 'that' and damaged final word 'חסד׳ו' assumed complete.",
+   "line_id": 48462,
+   "source_hash": "1843562913e962efb89abac3a2e91f5496f31245ba52804ce44eb44e8ac5c5f6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q95 f2_3:4": {
+   "en": "In our low state, he remembered that his loyalty is forever.",
+   "notes": "The transcription is heavily damaged, with three reconstructed words and two uncertain words. The phrase 'his loyalty is forever' is supported by high-confidence repeated phrase evidence. The verb 'remembered' is uncertain due to damage but is retained based on the available lexical gloss and repeated phrase evidence.",
+   "line_id": 48463,
+   "source_hash": "7267927ef91201d1530a0d6a0eb037381c067a3ef0b2aa7ec1a9e68feb541b66",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q95 f2_3:5": {
+   "en": "And he tore us from our adversaries, for his loyalty forever, giving bread.",
+   "notes": "The phrase 'for his loyalty forever' is supported by repeated phrase evidence. Uncertainty in the transcription is noted at positions 6 and 7, and a reconstructed word is present at position 1.",
+   "line_id": 48464,
+   "source_hash": "ae15322e47513f5c3cea595060eeba6b50c973437698f49912b8f598bd37a133",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "4Q342",
+ "label": "4Q342",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 330,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q342 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic or Greek words, only fragments and uncertain reconstructions.",
+   "line_id": 13950,
+   "source_hash": "b9d930c167bb88148b618ac4a21167b885b99bd01ecadcee96ab58357005ff35",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q342 f1:2": {
+   "en": "in all that he worked",
+   "notes": "The phrase 'in all' is supported by repeated evidence. The verb 'worked' is a reconstruction of the damaged form 'עב[ ד'. The initial 'ε' and final 'ε' are untranslatable fragments.",
+   "line_id": 13951,
+   "source_hash": "1f3b655894e79842266e59e4b9c6b86001098fe199481d1aa400ddc4ba288e9b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q342 f1:3": {
+   "en": "Judah and Eleazar",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters (ε) and bracketed sections. The translation reflects only the recoverable proper nouns.",
+   "line_id": 13952,
+   "source_hash": "1c940d52891ae4f549b280ecd4eebec32368c0c39a835274516bd33f337277e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q342 f1:4": {
+   "en": "to Elishua",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and unknown elements. The only recoverable words are 'ל' (to) and 'אלישו?ע' (Elishua). The rest of the text is either illegible or too fragmentary to translate confidently. The translation reflects only the certain elements, with all uncertainty and damage noted here.",
+   "line_id": 13953,
+   "source_hash": "df0cfe4e5cf630903e8db795c6a81eae595b95ba05fc1f6fa727637ec0c9d693",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

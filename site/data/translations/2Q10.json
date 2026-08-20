@@ -1,0 +1,53 @@
+{
+ "id": "2Q10",
+ "label": "2Q10",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 764,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q10 f1:1": {
+   "en": "All the inhabitants in the desert and in the mountain and in the lowland and in the south and on the shore of the sea, the land of the Canaanite",
+   "notes": "Reconstructed text in positions 1 and 15. Uncertain reconstruction in position 15.",
+   "line_id": 39624,
+   "source_hash": "b6aa9f4d3503f373f9793339e101a5052e2187ab1b27c40882cf31c75ceff629",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q10 f1:2": {
+   "en": "And Lebanon unto the great river the Euphrates. See, I have set before your faces the land.",
+   "notes": "The phrase 'the great river the Euphrates' follows repeated phrase evidence. The verb 'see' is uncertain due to damage. The phrase 'I have set before your faces' follows repeated phrase evidence, with 'faces' reconstructed.",
+   "line_id": 39625,
+   "source_hash": "77ef117dffb40fa54af24cdc8d8400de96c0b0c614aced43e1e58feeb7888ddd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q10 f1:3": {
+   "en": "Come and trample the land which he swore to Yahweh, to my fathers, to Abraham",
+   "notes": "The phrase 'which he swore to Yahweh' is supported by repeated phrase evidence. The phrase 'to my fathers, to Abraham' is reconstructed and uncertain, but supported by the visible transcription and morphology.",
+   "line_id": 39626,
+   "source_hash": "cce3b0404e5328b0527b102151390400fdfe8f8270559dad0fdd2b59202c35f7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q10 f1:4": {
+   "en": "To Isaac and to Jacob to give to them and to their seed after them. And I said to you in the time",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence supporting 'Jacob to give' and 'to give to'. The verb 'say' is reconstructed but supported by the lemma and morphology. The preposition 'in' is added for fluency based on the lexical gloss of 'בְּ' as 'in', though it is not explicitly licensed by a recoverable source token.",
+   "line_id": 39627,
+   "source_hash": "825eff7836c0f01c9888586e3067a3dd5c5528466eb79345415c60e5de3d616e",
+   "source_condition": "reconstructed"
+  },
+  "2Q10 f1:5": {
+   "en": "The she to say not I am able to linen lift you",
+   "notes": "Uncertain reconstruction of initial 'ה'; 'בד׳י' translated conservatively as 'linen' based on lexical gloss; final punctuation mark omitted from translation.",
+   "line_id": 39628,
+   "source_hash": "f1a3ba40a7d84517199d8885b3a26061bd74320d54fc7880e7e1f95291174ac2",
+   "source_condition": "reconstructed"
+  }
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "id": "4Q40",
+ "label": "4Q40",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 17,
+ "scroll_id": 825,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q40 f1_3:1": {
+   "en": "The she to say YHWH gods gave to this earth to trample down pioneers you will pass",
+   "notes": "Uncertain reconstruction and gloss for 'אלוהי#?׳[ כמה' and 'א##מור'; phrase evidence suggests 'saying Yahweh' but visible morphology binds 'to say YHWH'; 'חלוצים' translated as 'pioneers' based on lexical gloss 'draw off' with uncertainty; 'תעברו' translated as 'you will pass' with uncertainty due to damaged context.",
+   "line_id": 43654,
+   "source_hash": "9dc0cf4b3d4b9d74db4f0dd7bed1350b47848ab4f41350ed497caf418b6b057b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f1_3:2": {
+   "en": "Before the faces of your brothers, sons of Israel, all the sons of strength, only the women and the children and the purchase, I knew that the purchase",
+   "notes": "Uncertain reconstruction of damaged terms: 'women', 'children', 'purchase' (3x). Phrase evidence partially supported 'sons of Israel' and 'sons of strength'. High damage and reconstruction count required conservative translation.",
+   "line_id": 43655,
+   "source_hash": "b647fac92d14a43559a7b2dc42e17dd56e9a26261588acdbc8778e61798cc4bd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f1_3:3": {
+   "en": "Much to you they will dwell in your towns which I gave to you until he will give rest Yahweh God to your brothers as and they trampled even",
+   "notes": "Uncertain relative pronoun (אש]ר##) and preposition (ל##׳כ##[ מ]ה##) reconstructed. Uncertain particles (׃ ע##ד## א##ש##ר##) omitted. Uncertain suffix (כ׳כמה##[) omitted. Uncertain phrase (אלו  הי׳כמה) translated as 'God' based on lexical gloss. Verb 'trample down' (ירשׁ) used for 'ירשו' based on lexical gloss.",
+   "line_id": 43656,
+   "source_hash": "1494c2512177e82a13f43d6b88c0bfb1d8e35490a791daf387416a40151b8abf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f1_3:4": {
+   "en": "They the land which Yahweh God give to in order the other side of the Jordan and return everyone",
+   "notes": "Reconstructed and uncertain elements include the pronoun 'they' and the verb 'return'. The phrase 'in order' is a contextual rendering of a repeated phrase with high support.",
+   "line_id": 43657,
+   "source_hash": "0a7f0d7d5affa3abf71d564341db3e3c76ccd424dc245479c80daec13242baee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f1_3:5": {
+   "en": "which I gave to you and I commanded Joshua at the time she to say to your eyes",
+   "notes": "Uncertain reconstruction of damaged text at positions 1, 2, 6, 8, 12, 14, 16. Phrase evidence suggests 'time (the) that' for positions 12-14, but 'she' is retained for grammatical person consistency. 'Saying eyes' at positions 15-17 is uncertain due to low pattern support.",
+   "line_id": 43658,
+   "source_hash": "2ec86907711962aba2a727e38e861c2de0c719d5b682beb54bc9218e0fc4b777",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f1_3:6": {
+   "en": "all that YHWH your God did to the two kings thus he will do",
+   "notes": "Uncertain reconstruction of initial [ את and final ] יהוה ] per transcription damage.",
+   "line_id": 43659,
+   "source_hash": "0d3cecb11846cf405c82c52cbffb7d39de4b056682c20a4339fe382f7fb0b859",
+   "source_condition": "reconstructed"
+  },
+  "4Q40 f1_3:7": {
+   "en": "To all the kingdoms which you [there] and not [you] fear that Yahweh your God",
+   "notes": "Uncertain reconstruction and damage in positions 7, 8, 9, 12, and 13. The phrase 'Yahweh your God' is supported by repeated evidence.",
+   "line_id": 43660,
+   "source_hash": "e77c896468f84eaba933ffdb34fc0230580a640978439edc27903f2240dac27e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f4:1": {
+   "en": "For ask the former days which were before from the day when he created God humankind",
+   "notes": "Uncertain reconstruction and damage in positions 10-12. Phrase evidence supports 'he created God' and 'God humankind' but the exact syntax is unclear.",
+   "line_id": 43661,
+   "source_hash": "0657467954b479460ea5453fde009b2a0675f3c46f1c934e228f8959584cd25f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f4:2": {
+   "en": "Upon the earth and from the end of the heavens and unto the end of the heavens was it as the word or was it heard",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'the end of the heavens' is supported by repeated evidence. The interrogative particle 'הֲ' is uncertain due to damage. The final verb 'נשמע' is translated as 'was it heard' to maintain the nifal passive voice, though its context is unclear.",
+   "line_id": 43662,
+   "source_hash": "7c0e72eff7e8aee2a61348b76a7acfeb1a40dfeadb927c28e3a8a93a5ed773a3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f4:3": {
+   "en": "Like this: Did a people hear the sound of gods speaking from the midst of the fire as you heard and lived?",
+   "notes": "Positions 14 and 16 are uncertain. Positions 1 and 19 are reconstructed.",
+   "line_id": 43663,
+   "source_hash": "af482aeab5ab7f27fd1c698898d433f95f3443a1f8efd3efab1afa8cbd9ba30e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f4:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only damaged or untranslatable characters (ε,  #, ׃).",
+   "line_id": 43664,
+   "source_hash": "bcd15a92d43128a73539685861269a18b79701f2ba466b9dca58404b13fec43e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f5:1": {
+   "en": "Remember what Yahweh God did to Pharaoh and all Egypt. The great trials",
+   "notes": "Uncertain reconstruction of 'God' (position 6). Phrase evidence supports 'Yahweh God' (positions 5-6), 'all Egypt' (positions 11-12), and 'trials (the) great' (positions 15-17).",
+   "line_id": 43665,
+   "source_hash": "653d93f11bc0f0cd42f05bc19cad9abf86971abc24166f8fe16eb3dd055ffee8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f5:2": {
+   "en": "which they saw with their eyes and the signs and the strong hand which the outstretched arm of YHWH brought you out",
+   "notes": "Uncertain reconstruction at position 15. Phrase evidence supports 'which they saw with their eyes' and 'strong hand'. Contextual rendering suggests 'he brought out YHWH' for positions 21-22, but the translation retains 'the outstretched arm of YHWH brought you out' to preserve agency and semantic relationships.",
+   "line_id": 43666,
+   "source_hash": "0c3fc91cc1604f3e7925ec95b480061315d5f0b636605c229385a83bf339109f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f5:3": {
+   "en": "Thus he will do Yahweh your God to all the people which you are afraid from their faces and even",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'all the people' is supported by repeated evidence. 'Thus he will do Yahweh' and 'Yahweh God' are contextual renderings with moderate support. 'You are afraid' is a plausible rendering of the visible morphology. The final 'and even' reflects the conjunction 'also' at the end of the fragment.",
+   "line_id": 43667,
+   "source_hash": "b2fe17d5ad98148885658270a36e107ea11b3d634733f52de4567902241961c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q40 f5:4": {
+   "en": "The hornet Yahweh your God will send against them until the survivors who remain and hide from you are destroyed.",
+   "notes": "The translation reconstructs damaged text at positions 1 and 11. The phrase 'he sent Yahweh' is supported by repeated evidence at positions 4-5. 'Yahweh God' is supported at positions 5-6. The verb 'perish' at position 9 is an infinitive construct, translated as a purpose clause.",
+   "line_id": 43668,
+   "source_hash": "6f92332196f51c4e396970f57e3d198cf3b977dda5049d7f5322c2613119881a",
+   "source_condition": "reconstructed"
+  },
+  "4Q40 f5:5": {
+   "en": "Fear from their faces that Yahweh your God is great and awesome. And he drew off Yahweh your God.",
+   "notes": "The phrase 'that Yahweh your God' is supported by repeated phrase evidence. The verb 'drew off' is a conservative translation of the visible morphology, though its exact sense is uncertain. The final clause is incomplete due to damage, and its meaning is unclear.",
+   "line_id": 43669,
+   "source_hash": "72ac6e5434b93e14afad0179fc12ff02c1de58490dc592341c5dcd37a2c5eb08",
+   "source_condition": "reconstructed"
+  },
+  "4Q40 f5:6": {
+   "en": "The nations of the gods from your face little little you will not be able to complete hasten lest I will multiply on you wild animal",
+   "notes": "Uncertain reconstruction and damage affect the translation. The phrase 'little little' is supported by repeated phrase evidence. The verb 'hasten' is uncertain due to damage. The phrase 'I will multiply on' is supported by repeated phrase evidence. The final word 'wild animal' is uncertain due to damage.",
+   "line_id": 43670,
+   "source_hash": "c56b268cc120acbcafb5eb0dc36dbb6567cbe909a9e734228791b6ba08dafcf3",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

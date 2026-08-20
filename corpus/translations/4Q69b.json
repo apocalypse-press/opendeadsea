@@ -1,0 +1,32 @@
+{
+ "id": "4Q69b",
+ "label": "4Q69b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 859,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q69b f1:1": {
+   "en": "And he will give the rain, your seed which you will sow the ground, and the produce of the ground",
+   "notes": "Uncertain elements include the object marker (et) and the terms 'ground' and 'food', which are advisory. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 46407,
+   "source_hash": "83726d84a8b258a6fc184af27dff91f05f9b93eec9db0a4671102f30416a8be2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q69b f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. The visible characters (ε, ׃) and reconstructed placeholders do not form translatable lexical units.",
+   "line_id": 46408,
+   "source_hash": "15030295091624fa1c221d600ffc0bc3b61174281332f115fe5e11c80c1f6942",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

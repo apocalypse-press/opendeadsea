@@ -1,0 +1,88 @@
+{
+ "id": "4Q66",
+ "label": "4Q66",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 854,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q66 f1_3:1": {
+   "en": "Not again will your sun come, and your moon not be removed, that Yahweh will be for a light of perpetuity, and they will be complete.",
+   "notes": "Positions 1, 12, and 13 contain no recoverable text. Positions 14 and 16 are reconstructed.",
+   "line_id": 46371,
+   "source_hash": "4ca12c1b465ca91238a30fdd80086fa3e64968e751fc3310f90f0d8b78c76287",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q66 f1_3:2": {
+   "en": "The days of your mourning, and the people of them, [will be] righteous forever of perpetuity. They will possess [the] land, [they are] the shoot of my planting(s), the work of my hands.",
+   "notes": "Position 12's translation is uncertain due to damage. Positions 1 and 13 are reconstructed.",
+   "line_id": 46372,
+   "source_hash": "1a54764027f98dd168ed198ff4f7c2b036745900fdb862f4c7ba80599194c36e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q66 f1_3:3": {
+   "en": "To glorify myself: the small will become to a thousand and the little to a mighty nation. I [am] Yahweh at its appropriate time.",
+   "notes": "Positions 16-17 reflect high-confidence phrase evidence. Position 18 is reconstructed.",
+   "line_id": 46373,
+   "source_hash": "ed499790a3cb5f0361b3bcd7d7894a84f0fae7703346112e446a396d11f3864a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q66 f1_3:4": {
+   "en": "The spirit of my Lord Yahweh is upon the anointed of Yahweh to announce to the humble he sent to bind up the broken.",
+   "notes": "Positions 1-2: Reconstructed and uncertain. Position 8: Reconstructed.",
+   "line_id": 46374,
+   "source_hash": "b4a4655635b5bbc669dc31aff3120c613c947522fe5ba6666a83837222708990",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q66 f1_3:5": {
+   "en": "To proclaim to the heart of those taken captive liberty and to prisoners opening. To proclaim a year of favor of Yahweh and a day",
+   "notes": "Uncertain reconstruction at position 5; phrase evidence applied to positions 15-17.",
+   "line_id": 46375,
+   "source_hash": "5aa3276a9bc4196d564b7326475b429bfd88b3a25b091233bc1927cb440d5142",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q66 f4_5:1": {
+   "en": "Vengeance of our God, to comfort all mourners. To put to the mourners of Zion, to give to them a turban in place of ashes.",
+   "notes": "Position 14 is uncertain. Position 19 is uncertain.",
+   "line_id": 46376,
+   "source_hash": "70b16531a5346e60af6336e859f1292c0ad2c4959990e15fba05c5cec32e78fe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q66 f4_5:2": {
+   "en": "Oil of joy in place of mourning, a mantle of praise in place of a faint spirit, and it will be called to the oaks of righteousness",
+   "notes": "The translation follows required contextual senses and repeated phrase evidence. Uncertainty in the verb 'it will be called' and the final noun 'righteousness' is noted but does not affect the overall structure. No recoverable text is omitted, and no unsupported elements are added.",
+   "line_id": 46377,
+   "source_hash": "f90b3bb4124b8aa36f96dd23135389eeeb020fe7f60ba39cd41910f80a8bc302",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q66 f4_5:3": {
+   "en": "The planting of Yahweh to glorify himself and they will rebuild the ruins of antiquity the desolate places of the forefathers they will raise up and they will renew the cities",
+   "notes": "Uncertain reconstruction and damage affect positions 11-15, with advisory contextual senses for 'of the forefathers', 'they will raise up', 'and', 'they will renew', and 'the cities'. The phrase 'the ruins of antiquity' is supported by repeated evidence, and 'they will rebuild the ruins' is a high-confidence constraint.",
+   "line_id": 46378,
+   "source_hash": "9d784f74f1e3acf91288fa9b0423d1bc765c8e973e8ab30946e937900a8f7e41",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q66 f4_5:4": {
+   "en": "[of devastation] the desolate of a generation and a generation and they will stand strangers and they will shepherd flock[s] and sons of foreignness [be your farmers]",
+   "notes": "The translation includes one reconstructed term ('[of devastation]') and one uncertain term ('[be your farmers]'). The phrase 'sons of foreignness' is supported by repeated evidence. The term 'flock[s]' is plural in the source but rendered as a singular 'flock' due to English usage.",
+   "line_id": 46379,
+   "source_hash": "06dbc0948a112c20e603dcb88b3ca423fef381fabc6cf93d01202363cd2aa62f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q66 f4_5:5": {
+   "en": "And vinedressers, and you priests of Yahweh, you will be called the servants of our God, it will be said of the wealth",
+   "notes": "Uncertain reconstruction and damage affect positions 1, 2, 11, 12, 13. Phrase evidence and semantic constraints guided rendering of uncertain tokens.",
+   "line_id": 46380,
+   "source_hash": "170ffc51d158e67d8fd70b477e2b01a55e97b328879f28efd20755f7917500e6",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

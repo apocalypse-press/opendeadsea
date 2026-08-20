@@ -1,0 +1,46 @@
+{
+ "id": "4Q69a",
+ "label": "4Q69a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 858,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q69a f1:1": {
+   "en": "From you not it will be removed and a covenant of my peace not it will shake he says compassionate Yahweh",
+   "notes": "The translation preserves the fragmented syntax and repeated negation of the source. Positions 11-12 use the highest-supported repeated phrase evidence 'compassionate Yahweh' (6 occurrences, 0.67 support). Positions 6-7 use the required contextual rendering 'a covenant of peace' (3 occurrences, 0.67 support). The translation follows all required semantic constraints for negation, participants, and roles. Uncertainty in position 11 is noted but does not alter the translation as the phrase evidence is high-confidence.",
+   "line_id": 46403,
+   "source_hash": "a72467c5db683f1630f544032c17eec0042d57d40bde1051baeaf1d1284648ba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q69a f1:2": {
+   "en": "Afflicted one, storm-tossed, not comforted, here! I am about to set in antimony stones",
+   "notes": "Uncertain reconstruction of 'antimony' and 'stones' due to damaged text.",
+   "line_id": 46404,
+   "source_hash": "81fbd943069f4556a1813e28f47ab3b76cc6d210abc2c0726a9c3074122f1d9c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q69a f1:3": {
+   "en": "And I founded you with sapphires, and I will make ruby battlements and gates.",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 46405,
+   "source_hash": "273f030cbf4a100d10d54b93a56782f489a3f78f775969e35ea3946006c328b7",
+   "source_condition": "reconstructed"
+  },
+  "4Q69a f1:4": {
+   "en": "to stones of beryl and all the border to stones of delight and all the children",
+   "notes": "The translation follows required contextual senses for key terms. The phrase 'all the border' reflects repeated phrase evidence for positions 5-6. The phrase 'all the children' reflects repeated phrase evidence for positions 12-13. The final word 'למו ]ד##י' is omitted as no defensible translation survives; its uncertainty is noted here.",
+   "line_id": 46406,
+   "source_hash": "4d7fafa174160da714bec1e4fbf9f43ca8433c28fb7e08cc81bd457c3a82d026",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

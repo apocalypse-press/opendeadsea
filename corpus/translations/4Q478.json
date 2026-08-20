@@ -1,0 +1,53 @@
+{
+ "id": "4Q478",
+ "label": "4Q478",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 511,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q478 f1:1": {
+   "en": "not stand",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form. The translation reflects the recoverable words in order, but the exact sense remains uncertain due to the fragmentary nature of the text.",
+   "line_id": 22800,
+   "source_hash": "93e6251dd561417135c1c099db75a808c718ffeaf5fd3e6697741d3d0d58f129",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q478 f1:2": {
+   "en": "and support",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed verb form (הסמך[). The untranslatable characters are omitted from the translation. The reconstruction of the verb 'support' is noted.",
+   "line_id": 22801,
+   "source_hash": "03d0e14b2ee603dc322e8d01bf3a568d395fa49917ec4c5bc501bd498df9c1af",
+   "source_condition": "reconstructed"
+  },
+  "4Q478 f1:3": {
+   "en": "and not forget",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The visible Hebrew words 'ו#?' (and) and 'לא ישכח' (not forget) are recoverable, but the rest of the line is too fragmented to provide a complete translation. The object marker 'את##[' is partially reconstructed and uncertain. No recoverable text survives beyond 'and not forget'.",
+   "line_id": 22802,
+   "source_hash": "47f763008b5a3a84b2ba7d83fa166d263642243bfa0dbe1d2b58b6cdffb60945",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q478 f1:4": {
+   "en": "its appointments and you",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The translation reflects recoverable words in order, omitting untranslatable characters (ε) and preserving uncertainty without brackets or placeholders.",
+   "line_id": 22803,
+   "source_hash": "5b953c3fa1c69c5bfd177b13c5ef92df964c38a7af949006325d60f40067fbba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q478 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek and Hebrew characters (ε, ׃) with no recoverable lexical content. All words are marked as unknown or uncertain, and no contextual evidence supports reconstruction.",
+   "line_id": 22804,
+   "source_hash": "7f9bf3aa468967e19f1c4fe499408468d62a2c3c55f947e8ac8c1a8fbe011430",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

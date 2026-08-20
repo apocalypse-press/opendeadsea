@@ -1,0 +1,53 @@
+{
+ "id": "PAM43660",
+ "label": "PAM43660",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 693,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "PAM43660 f23:1": {
+   "en": "men",
+   "notes": "The transcription includes uncertain characters (ε) and a reconstructed word (א ]נשים[). The translation reflects the recoverable word 'men' based on the lemma and morphology of the reconstructed term.",
+   "line_id": 35430,
+   "source_hash": "f924d9034f3c164f218e3643d4d9da43163cf738e10309d417c4eab9e4d38472",
+   "source_condition": "reconstructed"
+  },
+  "PAM43660 f35:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments and reconstructions with no recoverable lexical content.",
+   "line_id": 35431,
+   "source_hash": "ec3199c22e6293d662117dfc862ab45af3df7e629929909a1322bf401e442e9d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43660 f35:2": {
+   "en": "as which",
+   "notes": "The transcription contains damaged and uncertain elements, including untranslatable characters (ε) and a reconstructed relative particle (אשר). The translation reflects only the recoverable lexical items 'כְּ' (as/like) and 'אֲשֶׁר' (relative particle), with uncertainty noted.",
+   "line_id": 35432,
+   "source_hash": "b67a0000f4b26fdf560a4da83b513dd31ccd8111a2cc39137df8526c9dec3d39",
+   "source_condition": "reconstructed"
+  },
+  "PAM43660 f35:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 35433,
+   "source_hash": "edadb5f3fc4f45314059f08bde173f836aaa85bb4f71ef91219108d2bd7cc634",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43660 f35:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The phrase evidence 'Levites to' is not sufficiently supported to be used in translation.",
+   "line_id": 35434,
+   "source_hash": "4a416238cd9c80196e2c68d9f126b0609455e423c9c53aed84a08cb3e1c93155",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

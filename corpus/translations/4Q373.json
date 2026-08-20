@@ -1,0 +1,88 @@
+{
+ "id": "4Q373",
+ "label": "4Q373",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 359,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q373 f1a+b:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain characters. The visible forms ε, ן, and ו cannot be translated independently, and the reconstruction is speculative.",
+   "line_id": 15302,
+   "source_hash": "58327b02ca355d9ebd7c79c3164f4a7dc705ec661bb2e4e0d8092d9d40f50c0a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q373 f1a+b:2": {
+   "en": "all his servants Og",
+   "notes": "The final characters 'א[ε' are damaged and cannot be translated independently; their meaning is uncertain.",
+   "line_id": 15303,
+   "source_hash": "7505e39c30889acfbad7b134f3579316b53e8697c913dc4ce4f87d71bcf77e53",
+   "source_condition": "reconstructed"
+  },
+  "4Q373 f1a+b:3": {
+   "en": "Cubits and half its height and two cubits breadth of a lance as cedar",
+   "notes": "Uncertain characters 'ε' omitted from translation. Reconstructed text indicated by '[ ]' in transcription is translated as 'cubits'.",
+   "line_id": 15304,
+   "source_hash": "dbd11f5f26d3625688803d7c4b1356d17f26921816feda028f57d270d74fca51",
+   "source_condition": "reconstructed"
+  },
+  "4Q373 f1a+b:4": {
+   "en": "A shield like a tower. The light in [was] swift on feet",
+   "notes": "The phrase '[was] swift on feet' is a reconstruction based on repeated phrase evidence. The character 'ε' at the end of the transcription is omitted as it cannot be translated independently.",
+   "line_id": 15305,
+   "source_hash": "d4fc91d4bd3f2dc690f2307883317aa6f7ed984e54d2b114bf9e93649952d23f",
+   "source_condition": "reconstructed"
+  },
+  "4Q373 f1a+b:5": {
+   "en": "The one making them far, seven rissot, did not stand",
+   "notes": "Uncertain reconstruction of 'עמד##[' as 'did not stand'; 'ראסות' has no trusted gloss, translated as 'rissot'; final 'ε' omitted as untranslatable.",
+   "line_id": 15306,
+   "source_hash": "9591faf08a4f3bbeedf09aa11de950b09faa9a4a64a29e074e1ddc70c4e0409b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q373 f1a+b:6": {
+   "en": "And I have not changed, for he has broken Yahweh our God to the mouth of the sword.",
+   "notes": "The phrase 'to the mouth of the sword' is supported by repeated phrase evidence. The rendering of 'Yahweh our God' is supported by canonical evidence, though 'Yahweh God' is also attested. The verb 'he has broken' is uncertain due to the damaged suffix.",
+   "line_id": 15307,
+   "source_hash": "61943d25bb2cb1a27cd01f583b447c08ba9313ad532703b2f108b9f064a98c6a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q373 f1a+b:7": {
+   "en": "And I made curtains for an ulcer with bows and not",
+   "notes": "The final character 'ε' is untranslatable and omitted. The preposition 'with' is reconstructed from 'ע[ ם'.",
+   "line_id": 15308,
+   "source_hash": "a536e23fab346ff798f4f62d50088dfeff42601deebab60eae0c3498e4eaeb8a",
+   "source_condition": "reconstructed"
+  },
+  "4Q373 f1a+b:8": {
+   "en": "For war to seize fortified cities and to make strongholds tremble",
+   "notes": "The phrase 'a city of fortification' is supported by repeated evidence. The final characters 'ε׃' are untranslatable and likely represent damage or an editorial mark.",
+   "line_id": 15309,
+   "source_hash": "62405940f939dd53f98af25cb9f7f1fa9c1119419be4175575facc3f625ee503",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q373 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and reconstructions with no clear lexical meaning. The visible characters do not form recoverable words in Hebrew, and no contextual or semantic constraints provide further clarification.",
+   "line_id": 15310,
+   "source_hash": "8cea975ee775cff7f3f34c5183e6ae31bfca226c0a0222cc353c3ef4fb7e3a42",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q373 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 15311,
+   "source_hash": "8f8c15eff4a187f011924b82fcc29597b5fd45f7cf517a1e49d4c339404e4d86",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "id": "4Q104",
+ "label": "4Q104",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 14,
+ "scroll_id": 904,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q104 f1:1": {
+   "en": "And it was in the days of judging, the judges, and it was a famine in the land, and a man went from [bread]",
+   "notes": "Uncertain reconstruction of damaged verb at position 14 and preposition at position 16. Reconstructed noun at position 17.",
+   "line_id": 48683,
+   "source_hash": "29af8ebfe5d1eae0ec87e38195c6be4e12cbfb47bd7f61da745e0a08ec953576",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q104 f1:2": {
+   "en": "Judah to sojourn in the region of Moab he and his woman and the two sons and the name of the man Elimelech",
+   "notes": "Uncertain transcription in 'Moab' and 'man'. Reconstructed text in 'man'.",
+   "line_id": 48684,
+   "source_hash": "6ba286e864500af6a679f09a82e0d3a169764d2abddc94535f3129cd9f0f0a49",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q104 f1:3": {
+   "en": "And the name of his wife, Naomi, and the name of his two sons, Mahlon and Kilion, Ephrathites, from Bethlehem.",
+   "notes": "The phrase 'the name of his wife' is a reconstruction based on repeated phrase evidence. The particle 'from' is uncertain due to damage in the source text.",
+   "line_id": 48685,
+   "source_hash": "c5d921323ea19dfb010793f8a29b64f3596d6b6cfc259997e63c641ef2c5b6f9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q104 f1:4": {
+   "en": "And Judah came to the region of Moab and they sat there. And Elimelech died, a man, Naomi, and she remained.",
+   "notes": "The phrase 'the region of Moab' is supported by repeated phrase evidence. The text is damaged, and the reconstruction of 'א##[ יש' as 'איש' (man) is uncertain.",
+   "line_id": 48686,
+   "source_hash": "e3e2352446f6195bb5b68bcd4d9f2653e1c51d5c7d3e5d03f9e4799061e97c5a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q104 f1:5": {
+   "en": "She and the two sons and they lifted to wives Moabite the name Orpah and the name of the second",
+   "notes": "Uncertain reconstruction of 'two sons' and 'to wives'; damaged syntax in the middle of the line; high-confidence phrase evidence supports 'the name of the second' as a unit.",
+   "line_id": 48687,
+   "source_hash": "c2758a57f040858b2f65c1cbaad60b194f99b637b4084fde710507e4df65e958",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q104 f1:6": {
+   "en": "And Ruth dwelt there ten years. And they will die also both, Mahlon and Kilion, and she remained.",
+   "notes": "The phrase 'ten years' is supported by repeated evidence. The phrase 'they will die also both' is partially supported by repeated evidence, with 'also' and 'both' being uncertain due to damage. The final verb 'remained' is uncertain due to damage.",
+   "line_id": 48688,
+   "source_hash": "df9d49309541ccb1223db5ff8b63d2b6ee0d2ca10eabcfdb4705d6078259a2da",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q104 f1:7": {
+   "en": "The woman from two boys and from a man. And she arose and the brides and she returned from the region of Moab that",
+   "notes": "The translation follows the recoverable text closely, preserving the repetition of 'from' and the sequence of 'and' particles. The phrase 'from the region of Moab' is supported by repeated phrase evidence. The final 'that' corresponds to the particle 'כי' at the end of the line.",
+   "line_id": 48689,
+   "source_hash": "91db0a4d8b178cf1e4c6f2b84050a02812d2d6cffa14ee34f00b285ccbff13f4",
+   "source_condition": "reconstructed"
+  },
+  "4Q104 f1:8": {
+   "en": "She heard in the region of Moab that YHWH missed his people to give them bread and she went out from the place",
+   "notes": "Uncertain reconstruction of YHWH and 'missed'; uncertain gloss for 'missed'; 'to give them bread' is a high-confidence paraphrase of a repeated phrase; 'she went out' is a visible verb form with no contextual override.",
+   "line_id": 48690,
+   "source_hash": "a338cd284f0cfb966eda9826a32b72005f66b55bacf5fdb4e34e9120c21c37ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q104 f1:9": {
+   "en": "There were two brides with her and they walked in the way to return to the land of Judah and she said Naomi to two",
+   "notes": "Uncertain reconstruction of 'with her' and 'to two'",
+   "line_id": 48691,
+   "source_hash": "3fb10cb8ae601f2630aac383c0b396e6e72cf9ed67801b407818fde103f111d9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q104 f1:10": {
+   "en": "Brides, go return to the house of her mother. May he do, YHWH, with you loyalty, as you have done with",
+   "notes": "The phrase 'with you loyalty' reflects a repeated phrase evidence match for positions 10-11. The translation preserves the grammatical person and number shifts in the source. The final preposition 'with' is retained as the last recoverable word despite the sentence fragment.",
+   "line_id": 48692,
+   "source_hash": "3f23a20de2d43b2a7a36dca7c8dadab97ab6d782c52efe9ad0ef43159a8d4285",
+   "source_condition": "reconstructed"
+  },
+  "4Q104 f1:11": {
+   "en": "The dying and standing by, YHWH will give to you and find a resting place, a woman of a man's house, and she kissed them",
+   "notes": "Uncertain reconstruction of 'standing by' and 'kissed them'; phrase evidence suggests 'he kissed (to)' for positions 16-17, but the translation retains the visible morphology and participants.",
+   "line_id": 48693,
+   "source_hash": "6b09c388dbab89aec805b571fff839d219157e5ed0bcdf79f6cd56454e63aa4e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q104 f1:12": {
+   "en": "And they lifted up their voice and wept. And they said to her, 'That we may return to your people.' And she said, 'Naomi, return.'",
+   "notes": "Uncertainty in the transcription is reflected in the translation's structure. The phrase 'that we may return' is a reconstruction based on contextual evidence. The verb 'return' in the final clause is an imperative, but its subject is omitted in the source, leaving the agency ambiguous.",
+   "line_id": 48694,
+   "source_hash": "829436a4c85520b2550a4283387b23616c5276987240c1f9d2ddc1cd5ae1574e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q104 f1:13": {
+   "en": "Why will you go with still to the sons in the intestines and they were to the men Return O daughters",
+   "notes": "Uncertain reconstruction of 'בנו?ת׳י' and 'מע׳י'. The phrase 'to the sons in the intestines' is unclear and may be incomplete or damaged. The translation of 'מע׳י' as 'intestines' is uncertain due to lack of trusted gloss.",
+   "line_id": 48695,
+   "source_hash": "d2da24b2f61501e59feac3744e6fc41030381db1f63ea0cbf2326f035f85474e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q104 f1:14": {
+   "en": "For I was old from being to a man that I said there is to me hope even I was the night to a man and even I bore sons",
+   "notes": "The translation reflects visible morphology and lexical glosses, with uncertainty in reconstructing 'ז?ק#[ נתי' as 'was old' and potential ambiguity in 'הייתי' as 'I was the night to a man'. Phrase evidence and semantic constraints were considered but not overriding visible DSS variants. No brackets or placeholders used for uncertainty.",
+   "line_id": 48696,
+   "source_hash": "252125d0555298a5da61c9762d47b6e6eae88f00b250aef0f62c5b1e4d4cc0a5",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

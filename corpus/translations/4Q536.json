@@ -1,0 +1,193 @@
+{
+ "id": "4Q536",
+ "label": "4Q536",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 25,
+ "scroll_id": 574,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q536 f1:1": {
+   "en": "Days, you were silent until dividing his days",
+   "notes": "The translation includes reconstructed and uncertain elements. The initial 'ε' and final 'ε' are omitted as they cannot be translated independently. The form 'יומו?׳ה[ י' is reconstructed and uncertain, reflected in the translation as 'his days'.",
+   "line_id": 29729,
+   "source_hash": "b3079ea5dbfa94d456b77e0ade38a65c256bf3469a1b1108d7d4fa97d4e8a641",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f1:2": {
+   "en": "In adders until completing years of the Timnite",
+   "notes": "Uncertain reconstruction and gloss for 'adders' (יְמָם). Uncertain gloss for 'until' (עַד). Reconstructed and uncertain 'Timnite' (תְּמָנֵי). Untranslated damaged characters and uncertain particles.",
+   "line_id": 29730,
+   "source_hash": "c826c07b0fb8a964fcc157fbef12406030ca61627971bbe2104517b2049a50a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f1:3": {
+   "en": "She was exiled from and to the years of the Timnite",
+   "notes": "Uncertain reconstruction and meaning of several words, including the initial 'ε', 'ב ]ת#ר##', 'שנ#?[ י', and final 'ε'. Phrase evidence suggests 'to kind' for 'ל׳ה מנ׳ה', but context is unclear.",
+   "line_id": 29731,
+   "source_hash": "2f0817fe609b5ffea707e1e6b94811ec1f96f5fdcd680ed3c5426ce328f5ce31",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ל#[, ׃) with no clear lexical or grammatical meaning. The reconstructed element ]ל#[ is speculative and lacks sufficient evidence for translation. No defensible English words can be derived from the surviving material.",
+   "line_id": 29732,
+   "source_hash": "1a7aa9961727057aa478df8c85eab0b3ecc80450776083da17473934c5a39487",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2i+3:1": {
+   "en": "Ninth you will be",
+   "notes": "Uncertain due to damaged and reconstructed text. The verb form is incomplete, and the particle 'א' has no clear gloss.",
+   "line_id": 29733,
+   "source_hash": "7de384523c439f58a5deafe758583b7deb858c695a382455ab3a7868f25b1e61",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2i+3:2": {
+   "en": "holy he rams",
+   "notes": "The transcription contains uncertain and unknown elements, including an unresolved character 'ε' and an uncertain verb form 'ידכר#'. The translation reflects recoverable words in order, but the exact meaning remains unclear due to these uncertainties.",
+   "line_id": 29734,
+   "source_hash": "fe6a00ddc75fb3f4f5a67c78c30fecfc0f258d8921325e2a65f179860906f27c",
+   "source_condition": "uncertain"
+  },
+  "4Q536 f2i+3:3": {
+   "en": "to uncover them",
+   "notes": "The transcription is partially damaged, and the term 'נהיר##[ י' is reconstructed and uncertain. The phrase 'to uncover' is supported by repeated evidence, but the object 'them' is inferred from the verb's morphology.",
+   "line_id": 29735,
+   "source_hash": "b7e4289497d360ed8f028cfe842fe3abb499881372a7efc27c023a6bccef587b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2i+3:4": {
+   "en": "all of it",
+   "notes": "The initial 'ε' and the particle 'זי' are omitted due to lack of recoverable meaning. The transcription and glosses suggest a fragmented phrase with uncertain syntax.",
+   "line_id": 29736,
+   "source_hash": "e14d0b58b0fd6b333ab14880287bed7bea3871181f71620ad9efc07c01bd4fb9",
+   "source_condition": "clean"
+  },
+  "4Q536 f2i+3:5": {
+   "en": "wisdom mankind and all wise",
+   "notes": "Uncertain transcription and reconstruction in 'wisdom' and 'wise'. Phrase evidence suggests 'all the wise men' but lacks sufficient support. Omitted 'the' and 'men' due to insufficient evidence.",
+   "line_id": 29737,
+   "source_hash": "c0f8197d119faa7d6de423c0c490746e700fc3dedb34e1b3940b8deb81d83ec0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2i+3:6": {
+   "en": "in men and great he was",
+   "notes": "Uncertain transcription and gloss for initial 'ε' and 'ב#'; 'להוא' translated as 'he was' based on visible morphology; 'רב' rendered as 'great' from provided gloss options.",
+   "line_id": 29738,
+   "source_hash": "8b2359a78f3c364822a90cc11a9985ab3939b4bfc39b28a57786b63062d18fbf",
+   "source_condition": "uncertain"
+  },
+  "4Q536 f2i+3:7": {
+   "en": "You will tremble, mankind, and unto",
+   "notes": "The initial 'ε' is untranslatable and omitted. The particle 'א' is uncertain and omitted. The final 'עד' is translated as 'unto' based on its lexical gloss, but its exact sense is unclear.",
+   "line_id": 29739,
+   "source_hash": "28eb321534c27a6f31638b1e3aa19eca367d84ef75cac4095277918aaa9e5524",
+   "source_condition": "clean"
+  },
+  "4Q536 f2i+3:8": {
+   "en": "reveals secrets as upper ones",
+   "notes": "The initial 'ε' is untranslatable and omitted. The phrase 'reveals secrets' is supported by repeated evidence. 'כ' is translated as 'as' based on its lexical gloss. 'עליונין' is rendered as 'upper ones' following its lexical gloss.",
+   "line_id": 29740,
+   "source_hash": "d8abfc4caa7df45d4b74b65fd3ba74dc85c128436d9c9a219fb079a98180095a",
+   "source_condition": "clean"
+  },
+  "4Q536 f2i+3:9": {
+   "en": "and in sense secrets",
+   "notes": "The initial characters (ε] # ין) are uncertain and cannot be translated independently; they are omitted from the translation.",
+   "line_id": 29741,
+   "source_hash": "396ce4930a28c28d296d79d7b1bd2271a6faeeada9e5d160ab378803e7a9e9cb",
+   "source_condition": "uncertain"
+  },
+  "4Q536 f2i+3:10": {
+   "en": "[no recoverable text]",
+   "notes": "The line contains heavily damaged and uncertain fragments with no defensible English translation. Visible forms include Greek epsilon, Hebrew/Aramaic characters, and uncertain reconstructions, but no coherent lexical units survive.",
+   "line_id": 29742,
+   "source_hash": "0f111c834f9b1bb2fcb82de7bdae6d7b980bf64beab44e8e1f83af402773c7e8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2i+3:11": {
+   "en": "and in dust",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The word 'ε' at positions 1 and 3 is untranslatable, and the particle 'א' at position 6 is uncertain. The conjunction 'ו' and preposition 'ב' are partially recoverable, and 'עפר' is translated as 'dust' based on its lemma and morphology.",
+   "line_id": 29743,
+   "source_hash": "b7e5dba812028443b723fb0c030cf32ed981da0b0c506a9387fd0f1f8056d38d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2i+3:12": {
+   "en": "formerly to the secret",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged particle and an unclear prefix. The verb 'סלק' is translated as 'ascend' or 'go up,' but its exact form and subject are unclear. The final particle 'א' is uncertain and omitted from the translation.",
+   "line_id": 29744,
+   "source_hash": "d7337fd7bcdee060390190668872d899c012f8aa7a8a724b9f99fc4c345e4f73",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2i+3:13": {
+   "en": "The secret which he assigned to the rest of his portion",
+   "notes": "Uncertain reconstruction and transcription damage affect the translation. The phrase 'correction to' is supported by repeated evidence for the verb and preposition but is not used here to avoid adding unlicensed participants. The translation conservatively omits uncertain elements and retains only recoverable content.",
+   "line_id": 29745,
+   "source_hash": "852e769ec316d4425abf61aea93c4a4c2840d53b7a62c21df69ae6ef48308573",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2ii:7": {
+   "en": "from [no recoverable text]",
+   "notes": "The transcription contains a damaged word 'ה[' and an untranslatable character 'ε'. The word 'מן' is translated as 'from', but the rest of the text is irretrievable.",
+   "line_id": 29746,
+   "source_hash": "4f9a5dce82443dfe56c7cc5b3320897798cccae0ca7889105a591fa01bfd1eed",
+   "source_condition": "reconstructed"
+  },
+  "4Q536 f2ii:8": {
+   "en": "He worked, the best ones",
+   "notes": "The transcription includes a damaged suffix and an untranslatable character (ε). The verb 'worked' is a perfect third-person masculine singular form of 'עבד'. The following phrase is reconstructed as 'the best ones' based on the provided lemma and morphology.",
+   "line_id": 29747,
+   "source_hash": "8030a7b9f84bec75a0798f6749a5697205ca662956ecec7ab43d3994bcf7dd55",
+   "source_condition": "reconstructed"
+  },
+  "4Q536 f2ii:9": {
+   "en": "You who are appointed from the whole of mankind",
+   "notes": "The verb 'יצף' is uncertain and translated conservatively as 'appointed'. The phrase 'כול אנש' is supported by repeated phrase evidence as 'whole of mankind'. The remaining text is fragmentary and uncertain, with no recoverable content.",
+   "line_id": 29748,
+   "source_hash": "82b5dea5c276f5dbfe810540af68f18f600fbfb97592aa01338da0077ff08c87",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2ii:10": {
+   "en": "in the sword of your storerooms overpower. Good to all the man who chastening wisdom teaches the pure",
+   "notes": "Uncertain elements include 'כסו?ת׳ה' (position 1), 'סי#?ף' (position 3), '׃' (position 6), 'כ#ו#?ל##' (position 9), and 'א#[ נש' (position 10). Phrase evidence suggests 'every person' for positions 9-10 and 'do good to all' for positions 7-9, but these are not directly applied due to lack of direct support. The translation conservatively follows visible morphology and lexical glosses where available.",
+   "line_id": 29749,
+   "source_hash": "4a072136e6a0c071d3b466f7b16577f24aebf34995cb8376cb4adda9efd8a92b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2ii:11": {
+   "en": "And he will not die in the day of the wicked, and the fool who deceives in destruction, and upon you it will become",
+   "notes": "Uncertain elements include the verb 'die' and the particle 'in'. The phrase 'upon you it will become' is supported by repeated phrase evidence, but its exact meaning is unclear. The word 'רשע' has no trusted gloss, and its translation as 'wicked' is a best guess. The word 'אבדנ' is translated as 'destruction', but its exact meaning in this context is uncertain.",
+   "line_id": 29750,
+   "source_hash": "760486e90504c22bdc53e1c94f37ecb71195ee799f42a265f22bec74521f3fbb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2ii:12": {
+   "en": "Hobah to die who writes these words in the writing that will not be worn out and the words of Dan who will guard in the scroll that will not",
+   "notes": "Uncertain gloss for 'יבלא' and reconstructed word 'ד[ ן'",
+   "line_id": 29751,
+   "source_hash": "a0d93a65e819298de81a09eec8b0bd3a993512eaba1cc79b0031e3598e77db9c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f2ii:13": {
+   "en": "She strides, for the time of the wicked is extinguished for eternity. A man to your servants, to be angry, producing in abundance, he will perish for eternity.",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'of wicked [people] it is extinguished' is supported by repeated evidence. The verb 'בנס' is reconstructed and uncertain. The lemma 'אלף' is translated based on its context-free gloss.",
+   "line_id": 29752,
+   "source_hash": "b242d3b7ebdad67af08589e8680268ece1650a9fe3b9a472ef848804c36a7fb0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q536 f4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only a fragmentary preposition 'על' and untranslatable characters, leaving no defensible English words.",
+   "line_id": 29753,
+   "source_hash": "be63aba0b3f8722e4b7922112dc6da7b2f4a59a35d55fe4ade21ab4540811962",
+   "source_condition": "reconstructed"
+  }
+ }
+}

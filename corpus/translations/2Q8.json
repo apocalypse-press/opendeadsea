@@ -1,0 +1,32 @@
+{
+ "id": "2Q8",
+ "label": "2Q8",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 762,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q8 f1:1": {
+   "en": "And all the cattle of the sacrifice of the peace offerings, twenty and four young bulls",
+   "notes": "The phrase 'the sacrifice of the peace offerings' is supported by repeated phrase evidence. The number 'four' is reconstructed and uncertain. The final word 'young bulls' is uncertain.",
+   "line_id": 39619,
+   "source_hash": "4e9f5dbd0aa32dee8c993bb69117096339d4f7b139a20be7a4367b1cd795cb4b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q8 f1:2": {
+   "en": "rams sixty male goats sixty lambs sons of a year sixty",
+   "notes": "The phrase 'lambs sons of a year' is supported by repeated phrase evidence. The term 'sixty' is repeated three times, corresponding to the three occurrences in the transcription. The translation conservatively follows the order and content of the recoverable text.",
+   "line_id": 39620,
+   "source_hash": "a3047121243dcb17885463e4f3ca160cf9c8c2a2ccc72c375c8fbec5cba5d0af",
+   "source_condition": "reconstructed"
+  }
+ }
+}

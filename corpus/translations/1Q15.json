@@ -1,0 +1,60 @@
+{
+ "id": "1Q15",
+ "label": "1Q15",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 9,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q15 f1:1": {
+   "en": "On the day of the fury of YHWH and in the fire of his jealousy it will consume all the earth, for it is all destruction only",
+   "notes": "The phrase 'the day of the fury of YHWH' is supported by repeated evidence. 'In the fire of his jealousy' is partially supported, with 'his' reconstructed. 'It will consume all the earth' is partially supported, with 'it' and 'will' reconstructed. 'For it is all destruction only' is less certain, with 'for' and 'it' added for fluency, which may not be fully supported by the source.",
+   "line_id": 2422,
+   "source_hash": "e1c59934704a27145f82a6e7658a27a81c0b06c34e0c08ff771b7b298014353c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q15 f1:2": {
+   "en": "Disturbing, it will make all the inhabitants of the land. Gather, gather in, before bearing a portion, like chaff passed, a day.",
+   "notes": "Positions 12, 13, and 22 contain untranslatable characters. Positions 5, 7, 18, and 19 are uncertain. Phrase evidence supported 'all the inhabitants of the land' and 'like chaff [which] passes away'.",
+   "line_id": 2423,
+   "source_hash": "1b9595543b6d217d51f6568b125421e1e551bf52b90e2195062af736857dc908",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q15 f1:3": {
+   "en": "The people did not long for in the beginning not it will come upon them the burning of the anger of YHWH",
+   "notes": "The phrase 'the burning of the anger of YHWH' is supported by repeated phrase evidence. The reconstruction of 'ה' and the uncertainty of 'י?[ הוה ]' are noted. The translation conservatively follows the visible morphology and lexical glosses, preserving the structure and meaning of the original text.",
+   "line_id": 2424,
+   "source_hash": "d28b96f2fd4feb89a50b843def4547ae4dc145b3634711a5d86f4027a2c44538",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q15 f1:4": {
+   "en": "Before not it will come upon your day even of YHWH interpretation",
+   "notes": "Uncertain reconstruction of initial preposition and damaged word 'א ]ף#' with low-confidence glosses. Phrase evidence suggests 'the day of the anger of Yahweh' but lacks direct support in this fragment. Interpretation of 'פשר' is context-free.",
+   "line_id": 2425,
+   "source_hash": "ccfcbcebb82dda26a7ed34a9bfaaff739f4017467877d420f16ffb07dc62145a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q15 f1:5": {
+   "en": "The word upon all the inhabitants of the land of Judah even YHWH",
+   "notes": "Uncertainty in the sense of 'אף' (nose / even / also) and the reconstruction of 'ה' and 'יהוה'.",
+   "line_id": 2426,
+   "source_hash": "92589e86af055127eccf8f439df823811d708e7ee5c6c5d996e4279ba3bc635b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q15 f1:6": {
+   "en": "it will come upon them and they were to",
+   "notes": "The phrase 'it will come upon them' is supported by repeated phrase evidence. The final portion is highly uncertain due to damage and reconstruction, with no recoverable text beyond 'to'.",
+   "line_id": 2427,
+   "source_hash": "ad5a7f6f51738b2aed7a3a29b788a9161784b1efb592a189e61cb5d7f7225ccd",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "4Q152",
+ "label": "4Q152",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 941,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q152 f1:1": {
+   "en": "And you loved Yahweh your God",
+   "notes": "The transcription contains untranslatable characters and damage, with one reconstructed element. The phrase 'Yahweh your God' is supported by repeated evidence, but the final prepositional phrase 'in all' has weak support and is omitted to avoid speculation.",
+   "line_id": 49723,
+   "source_hash": "a327c3c4d2e6945760b216e7f74e6dfe77eb21aa1e1e25fa9ffbd5f5dc2c8fe8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q152 f1:2": {
+   "en": "[your heart] and in all your soul and with all strength. And [were] the words these which I",
+   "notes": "Two reconstructed words and one uncertain word. The phrase 'with all strength' is supported by repeated phrase evidence. The phrase 'and in all your soul' is a conservative translation of the visible morphology, with 'being' omitted to avoid adding an unsupported noun. The final clause follows the highest-supported repeated phrase evidence for the sequence 'these which I'.",
+   "line_id": 49724,
+   "source_hash": "d1627834d68826c126b68db5ce6f131a105556e4ea5efcdb708f230c084e2c1a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q152 f1:3": {
+   "en": "You shall command the day upon your heart and you shall repeat them to your sons and speak in them when you sit in your house",
+   "notes": "The transcription contains two reconstructed words and two uncertain words. The phrase 'when you sit in your house' is supported by repeated phrase evidence, but its dominant contextual rendering is not directly applied here. The translation conservatively follows the visible morphology and lexical glosses, preserving the grammatical person, number, and semantic relationships.",
+   "line_id": 49725,
+   "source_hash": "f97e8f91ff6d6ae9290697906ccb57ef0087b3cb8add1d5d4bb7301b28006bbf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q152 f1:4": {
+   "en": "And in your going in the way, and in your lying down",
+   "notes": "The translation reflects recoverable text, omitting untranslatable characters (ε, ː) and uncertain reconstructions. The phrase 'in your going in the way' is supported by repeated evidence, though its contextual sense is not mandatory.",
+   "line_id": 49726,
+   "source_hash": "9baf9a77f5a36127794a8fa357b35c22c86461c0bd6394f8561202a42dff89d4",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

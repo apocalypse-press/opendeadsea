@@ -1,0 +1,32 @@
+{
+ "id": "4Q98d",
+ "label": "4Q98d",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 894,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q98d f1:1": {
+   "en": "These I will remember and pour out on my soul, that I pass in cover until the house of God in sound",
+   "notes": "Uncertain reconstruction of 'אלה#' as 'these'; 'אדד׳ם' has no trusted gloss and is omitted; 'סך' translated as 'cover' based on lexical gloss; phrase evidence supported 'I will pour out on' and 'God to the voice' but the latter was adjusted to fit the syntax.",
+   "line_id": 48524,
+   "source_hash": "3d376e7823e04851996a2c408a4b906caa17af3668e690e189b179754936add2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q98d f1:2": {
+   "en": "A cry of joy and thanksgiving, a commotion, celebrating",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged conjunction (ו#?) and a partially reconstructed word (ת##[ ודה). The final character (ε) and punctuation mark (׃) are untranslatable and omitted. The verb 'חוגג' is translated as 'celebrating' based on its lexical gloss and morphology.",
+   "line_id": 48525,
+   "source_hash": "9e3aff739bdb2eb0fdedeb22dba97fe49c72e182ad6f9f72394a08e0263579c7",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

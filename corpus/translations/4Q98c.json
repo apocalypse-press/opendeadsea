@@ -1,0 +1,32 @@
+{
+ "id": "4Q98c",
+ "label": "4Q98c",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 893,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q98c f1:1": {
+   "en": "You will hide my face from me. Afflicted I, and expiring from youth, I have borne.",
+   "notes": "The transcription is heavily damaged, with two reconstructed words and two uncertain words. The phrase 'man the bearer' is a repeated pattern, but it does not fit the context, so it was not used. The translation follows the visible morphology and lexical glosses, with 'hide' chosen over 'demolish' for the verb 'סתר' based on the context. The word 'נוער' is translated as 'youth' rather than 'young man' to maintain the singular number.",
+   "line_id": 48522,
+   "source_hash": "6c8e7d12abbbe48e852f40728782f87d0ba81c3a9ae8153be4a3b69a69a45361",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q98c f1:2": {
+   "en": "I stir up fright upon their passing by in anger and terror",
+   "notes": "Uncertain reconstruction of damaged verbs and punctuation. Lacuna in preposition's object.",
+   "line_id": 48523,
+   "source_hash": "a06f1bcc0b9cb0f16145e8cc9da0d88839679aea2a6be87ff6970ca1fd723b8d",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

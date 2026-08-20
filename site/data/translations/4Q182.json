@@ -1,0 +1,67 @@
+{
+ "id": "4Q182",
+ "label": "4Q182",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 120,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q182 f1:1": {
+   "en": "the end of the days upon",
+   "notes": "Uncertain transcription and reconstruction in the source. The phrase 'the end of the days' is supported by repeated evidence, but the final word is incomplete and its meaning is unclear.",
+   "line_id": 6090,
+   "source_hash": "9a0f4814a713fd9bd77d16cb59a6bd939a1b786ab31888f158f49e612785346e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q182 f1:2": {
+   "en": "who made hard the neck",
+   "notes": "The phrase 'they stiffened (et) neck' is supported by repeated evidence, but the translation retains the visible morphology and lexical items. The initial and final characters (ε) are untranslatable and omitted.",
+   "line_id": 6091,
+   "source_hash": "1e2c6d898336ca33460c9ef2f1556a35dc61ee8cc6c81f5cc38c3fb73855b204",
+   "source_condition": "reconstructed"
+  },
+  "4Q182 f1:3": {
+   "en": "And they will let loose in a hand raised to defile",
+   "notes": "The phrase 'with a hand raised' is supported by repeated phrase evidence. The verb 'defile' is a possible sense of the lemma חלל_1 in this context.",
+   "line_id": 6092,
+   "source_hash": "59284330f6ba7b1a14eedb0cb0ee7a57f206812fd3eb8badab192e2b13864df8",
+   "source_condition": "reconstructed"
+  },
+  "4Q182 f1:4": {
+   "en": "which was written on the scroll of Jeremiah",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Phrase evidence supports 'written on' as a common rendering for the sequence at positions 4-5.",
+   "line_id": 6093,
+   "source_hash": "72ac24e12cd3a13a4a17bb409bbdac2a83d958aa27057cee63db82847dabf17c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q182 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no clear lexical or syntactic structure. The phrase evidence for '(the) Ai' is not supported by recoverable text in this line. All visible forms are either unknown, reconstructed, or uncertain, with no defensible English translation possible.",
+   "line_id": 6094,
+   "source_hash": "54bbd29611761ff72dab135daaf016bcd21de6748880c0f142e2ca7e504e17a0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q182 f2:1": {
+   "en": "to the end of the days",
+   "notes": "The transcription contains uncertain and damaged elements, including untranslatable characters (ε) and a reconstructed word (י[ מי ]ם##[). The phrase 'the end of the days' is supported by repeated phrase evidence, but the overall fragment remains uncertain due to missing and unclear text.",
+   "line_id": 6095,
+   "source_hash": "458899e9e5f876e137f52e9a1156d068a3f6872b082813c60719edf2e8aeeb64",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q182 f2:2": {
+   "en": "to strike them",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The translation is based on the recoverable verb 'הכות׳ם' (to strike them), but the surrounding context is unclear. The initial 'ε' and final 'ε׃' are untranslatable and omitted. The reconstruction and uncertainty are noted here.",
+   "line_id": 6096,
+   "source_hash": "b4a99429b0b8bce5a19ba4fc2cb76de80f7a7aa07f2c04463099e7f2e8556cdb",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "id": "4Q488",
+ "label": "4Q488",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 526,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q488 f1:1": {
+   "en": "I am oppressing",
+   "notes": "The translation is highly uncertain due to extensive damage and reconstruction. The verb 'oppress' is based on the reconstructed lemma 'עשׁק_1' in the ithpeel stem, but the context and subject are unclear. The phrase 'hand of an oppressor' from repeated evidence was not used as it introduces unlicensed participants. Surviving characters like 'ε' and '׃' are omitted as they cannot be translated independently.",
+   "line_id": 23167,
+   "source_hash": "c36e936fba64c162fb03009d2a2583cbb56db138311282b4521ae139d9009b59",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q488 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic lexical units. The visible characters (ε, ]ר, #, [) do not form translatable words, and the reconstruction is highly uncertain.",
+   "line_id": 23168,
+   "source_hash": "2b43a7d3fcd23d99b290bf18a6ebdd5ef7c622d661308038145fe15120394277",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q488 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and reconstructions with no defensible English equivalents.",
+   "line_id": 23169,
+   "source_hash": "9bd3db785f7482f87ced9b1e998fa3efda722b351fba59df1e7a2debf672116a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q488 f3:1": {
+   "en": "and [no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with only the conjunction 'ו' (and) being clearly identifiable. The remaining characters are either reconstructed, uncertain, or untranslatable. The '[no recoverable text]' placeholder is used for the untranslatable portion.",
+   "line_id": 23170,
+   "source_hash": "bf1ba7d66eb66f1a99ca292916417b114368d7275b9b72f6147c564804049da4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q488 f4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items surviving. The only recoverable word fragment, 'צ##ר', is associated with 'distress' but lacks sufficient context for a defensible translation. All other elements are either unknown or reconstructed with high uncertainty.",
+   "line_id": 23171,
+   "source_hash": "a2e26ade675960795e8cd3accee6f14ac6ddad4d466c775548804ae6264d23f8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q488 f4:2": {
+   "en": "trust",
+   "notes": "The transcription is heavily damaged, with only the reconstructed word 'בטח' (trust) recoverable. The other characters are uncertain or untranslatable. The translation reflects the sole defensible lexical item.",
+   "line_id": 23172,
+   "source_hash": "d1f249b6b215bad22e56409fac354930ecc403aa7e17923c7d5db83396739c86",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q488 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items or semantic constraints to support a translation. The visible forms are either incomplete or unidentifiable, leaving no defensible English words to recover.",
+   "line_id": 23173,
+   "source_hash": "8e4b3d49624811a45bc7878caae7e4052cf9619a7f0db0e8c7a98d2c5ce82732",
+   "source_condition": "uncertain"
+  },
+  "4Q488 f5:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ש##ו?ד##[, ׃) with no clear lexical or semantic recoverable content. The visible forms do not provide sufficient evidence for a defensible translation.",
+   "line_id": 23174,
+   "source_hash": "1b2273ad9894dc26e123c381f4de2e02c6d91d47337e691aff52093525cb3e63",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q488 f6:1": {
+   "en": "and",
+   "notes": "Most text is damaged or unrecoverable. The only translatable word is the conjunction 'and' (ו), with all other elements uncertain or reconstructed.",
+   "line_id": 23175,
+   "source_hash": "68f09c927abfa00b76f120d2a6e00c9057d32a9c43a29c1f4f6032c8dae6b391",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

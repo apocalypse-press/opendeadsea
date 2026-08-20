@@ -1,0 +1,39 @@
+{
+ "id": "PAM43701",
+ "label": "PAM43701",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 731,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "PAM43701 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements with no clear lexical or syntactic structure. The visible forms ε, ]א#ין, and כ # [ do not provide sufficient evidence for a defensible translation. The lemma אַיִן_1 suggests a negation or interrogative particle, but its context is unclear. All other elements are either unknown or reconstructed with high uncertainty. No recoverable text survives for translation.",
+   "line_id": 36534,
+   "source_hash": "8b5357e0182794afc0d2f37c6c2467c3700f60d252945d218521aba91718001e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43701 f103:1": {
+   "en": "we know",
+   "notes": "The transcription is heavily damaged, with uncertain characters and unrecoverable elements. The verb 'ידע' (know) is partially preserved, but the surrounding characters are unclear. The translation reflects the recoverable verb form, but the context and completeness of the phrase are uncertain.",
+   "line_id": 36535,
+   "source_hash": "91a11fc5ebe1e20f491b4a5e8ec405b3df942cf9a8fc1dc7d3d3fca44f4ec981",
+   "source_condition": "uncertain"
+  },
+  "PAM43701 f119:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains fragmented and uncertain characters (ε, ת, ה, אלה, ׃) with no clear lexical or syntactic structure. No defensible English translation can be derived from the visible material.",
+   "line_id": 36536,
+   "source_hash": "a2b67786f5169c0b06f2c7db89f351148725ad6b487500e47957abc2a7f98d62",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

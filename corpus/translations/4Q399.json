@@ -1,0 +1,74 @@
+{
+ "id": "4Q399",
+ "label": "4Q399",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 391,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q399 f1i:9": {
+   "en": "Remember David who was a man of loyal deeds and even he delivered",
+   "notes": "The phrase 'Yahweh he' is a repeated pattern but unsupported here. The phrase 'a man your faithful' is a repeated pattern but unsupported here. The verb 'deliver' is uncertain due to damage in the transcription.",
+   "line_id": 17939,
+   "source_hash": "a0887f0612632b8e29142ff714321ea40fb5c7e50e54b2a642e41eb583d2faca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q399 f1i:10": {
+   "en": "From many distresses and it will be forgiven to him. And even we wrote to you",
+   "notes": "The phrase 'it will be forgiven to him' is supported by repeated phrase evidence. The verb 'wrote' is uncertain due to damage in the transcription. The preposition 'to' at the end is also uncertain.",
+   "line_id": 17940,
+   "source_hash": "687006182e6affd5f4469594f8c813e2301878eb71fda9531ca791a5adc9e1f0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q399 f1i:11": {
+   "en": "From some of the deeds of the instruction that we accounted as good to you that we saw",
+   "notes": "The transcription is partially reconstructed and uncertain. The phrase 'for good to' is supported by repeated evidence, but its contextual rendering is not dominant. The term 'Tob' in the gloss for 'good' is omitted as it does not fit the context.",
+   "line_id": 17941,
+   "source_hash": "0f7de09af4e40be10abe6ea80db01ad919129214e0834e6cec110a14af89a1d1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q399 f1ii:1": {
+   "en": "With prudence and knowledge of instruction, understand these and seek from his face.",
+   "notes": "The transcription contains a reconstructed word ('[ עמ׳ך') and a punctuation mark (׃) with no clear gloss, which are omitted in the translation. The possessive 'his' is supported by the suffix on 'פני׳ו'.",
+   "line_id": 17942,
+   "source_hash": "888c5acecca11b28307eda39b866c0e15cd0ab83e8ec0f3c51e96af037f63c20",
+   "source_condition": "reconstructed"
+  },
+  "4Q399 f1ii:2": {
+   "en": "He will establish your counsel and keep you distant from evil thought",
+   "notes": "The phrase 'distant from' is supported by repeated phrase evidence. The word 'thought' is uncertain due to damage in the source text.",
+   "line_id": 17943,
+   "source_hash": "e24589d9f94f0917847d0a993b1f590a1f404eeab2e599320491ecbf8ca1c34a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q399 f1ii:3": {
+   "en": "In the end of time you will rejoice in finding from our words",
+   "notes": "The transcription is partially reconstructed and contains uncertain elements, particularly the particle 'ב#' and the lemma 'שֶׁל', which lacks a trusted gloss. The translation conservatively follows the recoverable text, preserving the grammatical structure and semantic relationships without adding unlicensed content.",
+   "line_id": 17944,
+   "source_hash": "7077572cb0322b3ec1e026affbd3e23e707a08ae3a985f7f33b09bff7a5e3b3d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q399 f1ii:4": {
+   "en": "Thus and it will be reckoned to you for justice in he did the right before him",
+   "notes": "The phrase 'he did the right' is a reconstruction based on repeated phrase evidence. The preposition 'to' is repeated due to separate source tokens. The translation conserves all recoverable words in order, including the uncertain suffix on 'make'.",
+   "line_id": 17945,
+   "source_hash": "ba50c5051ee6e40d8d9a10c3600bb9b7f864008820c4fa4f9894dd7c8e6128a3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q399 f1ii:5": {
+   "en": "for good to and to Israel",
+   "notes": "Uncertainty in the transcription and reconstruction of the text, particularly with the damaged and uncertain forms, may affect the accuracy of the translation.",
+   "line_id": 17946,
+   "source_hash": "ef8628c064fbaa43fb295cf673348aa2fe61178cd8902f3f8cdb28ee287c739d",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

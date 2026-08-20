@@ -1,0 +1,32 @@
+{
+ "id": "4Q250b",
+ "label": "4Q250b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 202,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q250b f1:1": {
+   "en": "together chaff",
+   "notes": "The first word is uncertain and omitted due to lack of recoverable text. The second word is a damaged form of 'together'. The third word is a damaged form of 'chaff'.",
+   "line_id": 9292,
+   "source_hash": "82056bdf6d6738cbdc512b64c9bb719cec1efff3a20d8fae0091ae78a990c31c",
+   "source_condition": "uncertain"
+  },
+  "4Q250b f1:2": {
+   "en": "a small boy",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed fragment (קטנ[). The phrase evidence suggests a possible rendering of 'a lad young', but the translation conservatively uses the context-free glosses for the recoverable words.",
+   "line_id": 9293,
+   "source_hash": "2be9d108fd77c903d13d3f5344171e5b41e21491a91ae91f8199d7c9c1b6ab2d",
+   "source_condition": "reconstructed"
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "id": "10Q1",
+ "label": "10Q1",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 1,
+ "scroll_id": 671,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "10Q1 f1:1": {
+   "en": "there is",
+   "notes": "The transcription is fragmentary, with only the root 'יש' (existence) partially preserved. The final 'ε' and '׃' are untranslatable and likely represent damage or editorial marks. The translation reflects the recoverable root, but the exact intended meaning is uncertain due to the fragment's brevity.",
+   "line_id": 32812,
+   "source_hash": "ae3383f8b237465dc755c61ad73e33347d75dfb140797a84fdfb52ff99ca43d6",
+   "source_condition": "reconstructed"
+  }
+ }
+}

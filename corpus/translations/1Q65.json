@@ -1,0 +1,39 @@
+{
+ "id": "1Q65",
+ "label": "1Q65",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 54,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q65 f1:1": {
+   "en": "they repaired and entered",
+   "notes": "The transcription is damaged, with uncertain readings and reconstructions. The verb 'עלל' is reconstructed and translated as 'entered' based on its morphological form, but its exact sense is unclear. The initial and final 'ε' characters are untranslatable and omitted.",
+   "line_id": 3757,
+   "source_hash": "0d56ad6b092f110b2596704124c3c801a91f217a87c98d24972d961f31c5ee97",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q65 f1:2": {
+   "en": "they have raised up",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The verb 'זקפין' is the only recoverable lexical item, translated as 'they have raised up' based on its morphology and lexical gloss. The surrounding characters and fragments are unclear and do not contribute to a coherent translation.",
+   "line_id": 3758,
+   "source_hash": "74bb0b9fa767ce041abfc17645d70deabd05a1d9e7bcb8838c08f63876589d2e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q65 f1:3": {
+   "en": "Israel",
+   "notes": "The transcription contains untranslatable characters (ε, ː) and a surviving source character (׃) that cannot be translated independently. The translation reflects only the recoverable word 'Israel'.",
+   "line_id": 3759,
+   "source_hash": "a2d103515073221594ac483bcfd75409b89f6d0f78d47229e0ef3285ae3ca651",
+   "source_condition": "clean"
+  }
+ }
+}

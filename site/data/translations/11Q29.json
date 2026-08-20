@@ -1,0 +1,39 @@
+{
+ "id": "11Q29",
+ "label": "11Q29",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 691,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "11Q29 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (ε, #) with no identifiable lexical content. All words are marked as unknown or uncertain, and no contextual evidence supports recoverable meaning.",
+   "line_id": 35395,
+   "source_hash": "9e48235e5d339e807d033eef85e93c5ad2fcdf37282e334366b6e7c8c10943a5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q29 f1:2": {
+   "en": "And the man who trembles at the wind to deal treacherously in trustworthiness and to walk in the stubbornness of heart if",
+   "notes": "Uncertain transcription and reconstruction in positions 6, 8, and 9. Phrase evidence suggests 'in the stubbornness their own heart' but lacks sufficient support for mandatory phrasing. Translation retains context-free glosses where evidence is insufficient.",
+   "line_id": 35396,
+   "source_hash": "66f67954fc847a2cb9be31ab14d6c3a20c4be4ad9a3ba40da365bd61b8c53e36",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q29 f1:3": {
+   "en": "He will return and be fined two years in the first",
+   "notes": "Uncertain reconstruction of 'year' and 'first'; untranslatable characters omitted.",
+   "line_id": 35397,
+   "source_hash": "97f6332b0ea884b086acb5145de01d0d811139937f111defd98e3f9da0b9dd72",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

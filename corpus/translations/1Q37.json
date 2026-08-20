@@ -1,0 +1,60 @@
+{
+ "id": "1Q37",
+ "label": "1Q37",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 30,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q37 f1:1": {
+   "en": "in Israel",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The phrase 'in Israel' is supported by repeated phrase evidence, but the surrounding context is unclear. The initial and final characters (ε) are untranslatable and omitted.",
+   "line_id": 3635,
+   "source_hash": "f3d992d058b9cc66c6645f04767d707e17cec3b549251b43ea961eedc33afd91",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q37 f1:2": {
+   "en": "who dealt fully to the soul of his fellow evil",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown prefix (ε) and a damaged conjunction (ו#?[). The translation reflects recoverable words in order, preserving grammatical structure and semantic relationships.",
+   "line_id": 3636,
+   "source_hash": "01ec3a094ee524b3d9ef813be4a58d94b1bb04f13df523df118496799ace1ee8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q37 f1:3": {
+   "en": "chosen of Israel to",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character at the start and end, and a partially damaged word at the end. The phrase 'chosen of Israel' is supported by repeated evidence, but the final preposition 'to' is incomplete and its intended object is unclear.",
+   "line_id": 3637,
+   "source_hash": "8788b9b462a45b282e3136263049105757b28c8d1a99833db7fb2e4c1fb08be5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q37 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed 'to' preposition, but no defensible English words survive.",
+   "line_id": 3638,
+   "source_hash": "917f1679a49a99260d22d23a3cee5c74316d104e2b26e397430506834d7f5096",
+   "source_condition": "reconstructed"
+  },
+  "1Q37 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or fragments that can be translated into English. The visible characters are either damaged, reconstructed, or untranslatable.",
+   "line_id": 3639,
+   "source_hash": "248a0600a4457e9bd8c975beac8faa676e6c5f1e5727e2af8f4ac4589f9f96d9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q37 f3:2": {
+   "en": "horses",
+   "notes": "The transcription contains untranslatable characters and punctuation. The word 'סוסי' is reconstructed and translates to 'horses'.",
+   "line_id": 3640,
+   "source_hash": "d744b8e245c5b3ee7e1ca13b3502737ebc3e0a588baf9be720ebc21f26b6ab56",
+   "source_condition": "reconstructed"
+  }
+ }
+}

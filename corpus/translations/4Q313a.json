@@ -1,0 +1,39 @@
+{
+ "id": "4Q313a",
+ "label": "4Q313a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 293,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q313a f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a reconstructed fragment and an uncertain character.",
+   "line_id": 12752,
+   "source_hash": "bb5a75199e6c817084ea6a18319c85b5f1076f555901732440f2e1554a88e5d5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q313a f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible lexical items surviving for translation.",
+   "line_id": 12753,
+   "source_hash": "a56e69f1c2276d633c8c109d6b795e835081e45fbd30c376bfaa3b415e993ee8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q313a f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical or grammatical structure recoverable. The visible characters do not form a translatable unit, and the reconstruction is speculative.",
+   "line_id": 12754,
+   "source_hash": "fbf22423b29bc428a1fd74996e0dc5d2ba5d44ddb64afccd697ca94c9ca2b20b",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "id": "1Q16",
+ "label": "1Q16",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 30,
+ "scroll_id": 10,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q16 f1:1": {
+   "en": "in fleeing from before Saul",
+   "notes": "The transcription includes untranslatable characters (ε) and a reconstructed word (Saul). The phrase 'from before Saul' is supported by repeated phrase evidence.",
+   "line_id": 2428,
+   "source_hash": "836b298a5cad9a6d71862cf7f225eed2817d7075955d223aeaebb4b5b308fb1c",
+   "source_condition": "reconstructed"
+  },
+  "1Q16 f2:1": {
+   "en": "trustworthiness in beginning",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged form of 'trustworthiness' and a reconstructed 'beginning'. The initial and final 'ε' are untranslatable and omitted.",
+   "line_id": 2429,
+   "source_hash": "4b7cef764dfea67fd71c3fc4eb5ca6acb3a0ac1582ce84609124815ddf5a6a2f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f2:2": {
+   "en": "loyalty and",
+   "notes": "The transcription contains untranslatable characters and a reconstructed suffix. The translation reflects the recoverable lexical item 'loyalty' and the conjunction 'and', with uncertainty noted.",
+   "line_id": 2430,
+   "source_hash": "d9ba718148c4ca6f7c61b46563b54ecc8c8037047a350ee5f8dae50b7da01798",
+   "source_condition": "reconstructed"
+  },
+  "1Q16 f3_7:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic lexical items, only fragments and uncertain reconstructions.",
+   "line_id": 2431,
+   "source_hash": "dc9e9138019a46460560a8761a23fa9e92f6c3ca3d238efb816cf049102bfffb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f3_7:2": {
+   "en": "They recognised in Shamir they kept",
+   "notes": "Translation is highly uncertain due to extensive damage and reconstruction. The phrase 'in Shamir' is a contextual rendering based on repeated phrase evidence, but its accuracy is not guaranteed. The initial and final characters are untranslatable fragments.",
+   "line_id": 2432,
+   "source_hash": "4eef59bb362ff88ee1fd9c934db9f84d94c038f3fae564fb8d3fd40e34b3e7ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f3_7:3": {
+   "en": "to the kings of armies they flee and pasture the house divides plunder",
+   "notes": "Uncertain reconstruction and damage throughout. Phrase evidence suggests 'the king of Zobah' and 'to king' but visible morphology and transcription do not support these renderings. The translation conservatively follows recoverable lexical items in order, omitting unsupported relations and participants.",
+   "line_id": 2433,
+   "source_hash": "a99e726e07a590b59f503001a90ccad39be6cd24565cf4783625c3f9397ae86d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f3_7:4": {
+   "en": "to splendour",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The phrase 'to splendour' is based on the recoverable words 'ל[ת ]פארת#[', where 'ל[' is reconstructed as 'to' and 'ת ]פארת#[' is reconstructed as 'splendour'. Other elements, including 'ε' and '] #  # ה', are untranslatable and omitted. Phrase evidence suggests possible contextual renderings, but they are not directly supported by the visible text.",
+   "line_id": 2434,
+   "source_hash": "c23d975a277fff6be538d86b3df31cb0cfef5ca16371dc10cdf7a662e840366a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f3_7:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with only fragments of Hebrew and Greek characters visible. The Hebrew particle 'אש#ר#' (which) is partially recoverable, but the surrounding text is too uncertain to construct a meaningful translation. The verb 'י?חלקו?' is reconstructed and uncertain, with no clear context to support its translation. The Greek characters (ε) are untranslatable in this context.",
+   "line_id": 2435,
+   "source_hash": "a90ab1f346b3ba726749602a5c3583d978d144a9f5d0fa207754304b867f49f2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f3_7:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic text, only Greek fragments (ε) and placeholders (#). No meaningful translation is possible.",
+   "line_id": 2436,
+   "source_hash": "3e24a8620190571b74b2dac3fcdec263900bd14cdec4de28d52fbb857a6570e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f8:1": {
+   "en": "In the midst of young women beating in assemblies bless God",
+   "notes": "Uncertain reconstruction of 'gods' and two unknown characters omitted. Phrase evidence partially supported 'in assemblies I will bless' but lacked first-person agency in the source.",
+   "line_id": 2437,
+   "source_hash": "dc31d2f3d8b45f676781a969456e4bd06419ae272f1d39e225fddd660b52e7c9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f8:2": {
+   "en": "the well to bless the",
+   "notes": "Uncertain reconstruction and missing text indicated by damage. The phrase is incomplete and contains ambiguous or untranslatable elements.",
+   "line_id": 2438,
+   "source_hash": "c700fca7133a612304ed5cfa5321287e081737dfb3a18eb13b654bfa3376767d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f9_10:1": {
+   "en": "From your palace upon Jerusalem to bring kings a gift. Interpretation upon all the kings of the Kittim.",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'upon Jerusalem to' is supported by repeated phrase evidence. 'All the kings' is a high-confidence contextual rendering. 'Of the Kittim' is uncertain due to an unknown lexical gloss.",
+   "line_id": 2439,
+   "source_hash": "7525134fa6cc935766ea4de602f7e4a3043399cf778f5471a83ec03a30f8679e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f9_10:2": {
+   "en": "to his face in Jerusalem you rebuked a wild animal reed",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged preposition 'to' and a verb 'rebuked' with uncertain certainty. The phrase includes a reconstructed noun 'wild animal' and a surviving noun 'reed' with no clear connection. The translation preserves all recoverable words but notes the uncertainty in their relationships.",
+   "line_id": 2440,
+   "source_hash": "5aafac97d8084064f03e192e259abf3ab2cfb8710ea4e02c3ee5e1973441df60",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f9_10:3": {
+   "en": "A congregation of strong bulls among peoples trampling in runners of silver, its interpretation is a reed, she",
+   "notes": "Uncertain elements include the word 'רוצי' (runners) and the damaged 'ק##[ נה' (reed). The phrase 'shaft its' is supported by repeated evidence but not directly reflected in the translation due to lack of direct source licensing.",
+   "line_id": 2441,
+   "source_hash": "765d2edeb5e008bf0467b3c709aec8033d9bfcea7b97e252c791c6058fdd4509",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f9_10:4": {
+   "en": "to their writings",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The word 'כ ]תיאים' is tentatively translated as 'their writings' based on the lemma 'כִּתִּיִּים', but its meaning is unclear. The particle 'ל' is translated as 'to'. The other elements are untranslatable due to damage and uncertainty.",
+   "line_id": 2442,
+   "source_hash": "1ad971bf5f97e9134c1ba58538f4ed0a8499f95c98893301fe33a6a096d134cc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f9_10:5": {
+   "en": "to",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. Only the preposition 'to' (ל) is recoverable with certainty. All other elements are either incomplete, uncertain, or lack a trusted gloss.",
+   "line_id": 2443,
+   "source_hash": "acf882a5ab7d991e478204a46703d1da2343e3fe1201d157caad15f6195f818d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f9_10:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed preposition 'in', but no coherent phrase can be formed. The phrase evidence 'of a day in' is not supported by the visible text.",
+   "line_id": 2444,
+   "source_hash": "9239528ae950c010a2297adbf6274979547d99d832b6ee49b110e006289ebd8f",
+   "source_condition": "reconstructed"
+  },
+  "1Q16 f9_10:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and untranslatable characters, with only a reconstructed preposition 'to' surviving. No defensible English words can be derived from the visible forms.",
+   "line_id": 2445,
+   "source_hash": "a6c4a5c21c5c3d7cbeb78926b49d4a14d9ef09a851f175be18c6a3ef4f6923a1",
+   "source_condition": "reconstructed"
+  },
+  "1Q16 f11:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed preposition 'in', but no coherent lexical units survive. The phrase evidence 'of a day in' is unsupported by the visible text.",
+   "line_id": 2446,
+   "source_hash": "3cc8319813ce9061b7a69920047693041e06e6f335eb500bcf49a17d83c226f2",
+   "source_condition": "reconstructed"
+  },
+  "1Q16 f11:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, with multiple unknown or uncertain fragments and no recoverable semantic content.",
+   "line_id": 2447,
+   "source_hash": "8b68d8e053b281d68e3ac1a3b50af705e54220b314617c09965723d5d9393c92",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f12:1": {
+   "en": "portions",
+   "notes": "The transcription contains untranslatable characters and a reconstructed word. The word 'חקי' is reconstructed as 'portions' based on the lemma and lexical gloss.",
+   "line_id": 2448,
+   "source_hash": "963480d8077ccc64e08a1ff9322174406482a3d8e63386b509da06069ebec999",
+   "source_condition": "reconstructed"
+  },
+  "1Q16 f13:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. All words are marked as unknown or reconstructed with uncertainty.",
+   "line_id": 2449,
+   "source_hash": "1496c51ba2ec9cea76657879ea508843514dda0b924c83361f7332f71a519989",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f13:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and reconstructions with no clear lexical meaning. The visible forms (ε, ]שמי, ׃) do not provide sufficient evidence for a defensible English translation.",
+   "line_id": 2450,
+   "source_hash": "4f29d790603640e4de55b877acf699114ca290f7ab58916bccd7de985ceba330",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f14:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Greek lexical units. All visible characters are either damaged, reconstructed, or untranslatable fragments.",
+   "line_id": 2451,
+   "source_hash": "2768dd059f70db96282e67cae8f514d85f19f1bc3bd52e090c5cdb80f0fbacc2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f14:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain marks. The visible characters (ε, ל[, ׃) do not form translatable lexical units. The reconstruction 'ל[' is noted but lacks context for translation.",
+   "line_id": 2452,
+   "source_hash": "04178c66a48ca5e4a239a30cfae866364926fd832fddd76cb1e54f7afc8d1322",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f15:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, including reconstructed and untranslatable characters (ε, ]שרו?[, ׃). No defensible English words can be derived from the visible lexical items.",
+   "line_id": 2453,
+   "source_hash": "2efd8f632182c808f3ddd5fa0a9b0cb53ef297aef180332f23232d24e6b3895c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f16:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items surviving. The reconstructed verb form ]ת##שב[ (yashab) is too fragmentary to translate confidently. Other characters (ε, ׃) do not contribute to a defensible English rendering.",
+   "line_id": 2454,
+   "source_hash": "b1161ffda0143266786c5f1be6313765bf0852b04c7ccffe856f5f36cf7dd4f5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f17:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. All words are marked as unknown or reconstructed with uncertainty.",
+   "line_id": 2455,
+   "source_hash": "100e8f56df9c448303ee5a6f0d9befae02a68dee35ce61a8728342d5cce92a34",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f17:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The phrase evidence 'witnesses or' is not supported by the visible morphology and cannot be used to construct a translation.",
+   "line_id": 2456,
+   "source_hash": "7e2f7feef100307fce94db086493e1670eee3125582fdb75e8e56a3d6590f19f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q16 f18:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and reconstructions, with no recoverable lexical items.",
+   "line_id": 2457,
+   "source_hash": "c880cc69f5c0765f290291cade5da5d1fd3aed21c82ee776515df7773bc3f312",
+   "source_condition": "reconstructed"
+  }
+ }
+}

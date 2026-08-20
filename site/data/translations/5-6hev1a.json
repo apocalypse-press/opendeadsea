@@ -1,0 +1,60 @@
+{
+ "id": "5-6hev1a",
+ "label": "5/6hev1a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 984,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "5/6hev1a f1_2:1": {
+   "en": "to you a red heifer complete which no defect in",
+   "notes": "Uncertainty in transcription and reconstruction affects positions 1, 6, and 7. Phrase evidence for 'with water' at positions 7-8 is not supported by recoverable text. Translation conservatively retains all visible lexical items.",
+   "line_id": 52230,
+   "source_hash": "1c09b6cc97b038001346e05608dcccbc6af05f5e3e5a1a5123bce6a36ed8426b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5/6hev1a f1_2:2": {
+   "en": "Not it will go up on the yoke and you gave to Eleazar the priest from outside",
+   "notes": "Uncertain object marker after 'gave' omitted. Reconstructed text in 'not it will go up on' and 'Eleazar'.",
+   "line_id": 52231,
+   "source_hash": "c725c83553685d9e65bbec0b639fdb2a5c181a918e1a4b7a4a13cc7223a86946",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5/6hev1a f1_2:3": {
+   "en": "To the camp and he slaughtered it before his face and he took Eleazar the priest from the blood",
+   "notes": "Uncertain object marker 'et' and reconstructed particles. Phrase evidence supports 'Eleazar the priest' and 'priest some of the blood'.",
+   "line_id": 52232,
+   "source_hash": "dd983f14d4eda5c9c958b5e31877b77d2d07cf12dbe096937e8749a05ea1a4ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5/6hev1a f1_2:4": {
+   "en": "With his finger he will spatter to the front of the tent of meeting from the blood seven times",
+   "notes": "Uncertain reconstruction of 'tent of meeting' (position 8). Phrase evidence supports 'seven times' (positions 12-13) and 'front the tent of meeting' (positions 7-9).",
+   "line_id": 52233,
+   "source_hash": "11abe98855ec5b88325142c71cf8af1401bdab4acec96500c882e11b81cdbd41",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5/6hev1a f3:1": {
+   "en": "To Moses, saying: Take the staff and assemble the congregation.",
+   "notes": "The transcription contains two reconstructed characters and one uncertain word (staff). The phrase 'To Moses, saying' is supported by repeated evidence.",
+   "line_id": 52234,
+   "source_hash": "6f8569f1d2878e73f1e0d7fac920e79a917ef940434ab8194ce1bfb0f428126c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5/6hev1a f4:1": {
+   "en": "his face",
+   "notes": "The transcription is heavily damaged, with only a reconstructed suffix ]פני׳ה#[ (face) recoverable. The prefix and other elements are uncertain or missing. The translation reflects the sole defensible lexical item.",
+   "line_id": 52235,
+   "source_hash": "5fdd9c0c150d5b23d159a169c6a6d15568ca3bddea34a3dfe3c00b9616b8a2c0",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

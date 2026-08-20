@@ -1,0 +1,32 @@
+{
+ "id": "4Q8b",
+ "label": "4Q8b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 783,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q8b f1:1": {
+   "en": "On the day you eat from death you will die and he says Yahweh God not good",
+   "notes": "Uncertain reconstruction of damaged syntax and vocabulary in positions 6 and 7.",
+   "line_id": 40259,
+   "source_hash": "74de0fd059a16301f60118b477cece046d3125195dce1674b5debede9d7cf707",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q8b f1:2": {
+   "en": "It is not good for the man to be alone; I will make a helper like before him.",
+   "notes": "The transcription is partially reconstructed and uncertain. The phrase 'a helper like before' is supported by repeated evidence, while 'to help' and 'he became the man' are less certain. The verb 'make' is uncertain due to damage. The final phrase 'before him' is a conservative rendering of the available evidence.",
+   "line_id": 40260,
+   "source_hash": "32e229bfe17bcfe1c9056611210c1fff4567bd9975584c67a89693a881284a34",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

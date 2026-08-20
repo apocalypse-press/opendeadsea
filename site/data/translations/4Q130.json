@@ -1,0 +1,221 @@
+{
+ "id": "4Q130",
+ "label": "4Q130",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 29,
+ "scroll_id": 921,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q130 f1:1": {
+   "en": "And he spoke, Yahweh to Moses, saying: Consecrate to me every firstborn, the firstborn of every womb among the people of Israel, of mankind and of cattle, they are mine.",
+   "notes": "The translation follows high-confidence phrase evidence for 'Yahweh to Moses' and 'every firstborn, the firstborn of every womb'. The phrase 'among the people of Israel' is supported by semantic constraints. The final clause 'of mankind and of cattle, they are mine' is a conservative rendering of the visible text, preserving the repeated 'to me' suffix and the third-person pronoun.",
+   "line_id": 49306,
+   "source_hash": "6fce65998b5c4dac32ae9cbf4372644138e325ad1a2a1fc22c4ce68f68c06286",
+   "source_condition": "reconstructed"
+  },
+  "4Q130 f1:2": {
+   "en": "Moses to the people remember the day this that you went out from Egypt from a house of slaves that by strength of hand YHWH brought you out from this",
+   "notes": "The phrase 'from a house of slaves' is supported by repeated phrase evidence. The phrase 'by strength of hand' is also supported by repeated phrase evidence. The phrase 'YHWH brought you out' is a conservative translation based on the visible morphology and lexical glosses.",
+   "line_id": 49307,
+   "source_hash": "9e4f224d79c76400591c8d1c59bec71ee24398d032454caa5b391dc1802aa786",
+   "source_condition": "reconstructed"
+  },
+  "4Q130 f1:3": {
+   "en": "And you shall not eat any leaven. This day you go out in the month of Abib. And it will be that he will bring you YHWH to the land of the Canaanite and the Hittite and the Amorite",
+   "notes": "Positions 3-4, 7-8, 11-13, 16-19, 22-24, and 27-30 are uncertain. Positions 5, 14, 20, 21, 26, and 29 are unknown.",
+   "line_id": 49308,
+   "source_hash": "ce9e2c0bc425720e6ea2c386b1eeea9554250ac113d6a47d149a9f640145096d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:4": {
+   "en": "And the Hivite and the Jebusite who swore to the ancestors to give to you the land flowing with milk and honey, and you worked the work of this in the month, this.",
+   "notes": "Positions 14-16 reflect a repeated phrase 'a land flowing of milk'; position 27-29 reflect a repeated phrase 'month (the) this'. Uncertainty in transcription marked at positions 5, 6, 13, 14, 16, 25, 26.",
+   "line_id": 49309,
+   "source_hash": "c20ba1da6f608b9937cf36782097766f136f2df610dc9a8c56822ecf74bdd0b2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:5": {
+   "en": "Seven days you will eat matzo and on the seventh day a festival of YHWH. Matzo you will eat the seven days and not you will see leaven and not",
+   "notes": "Positions 3, 15, 22 are reconstructed. Positions 3, 22 are uncertain.",
+   "line_id": 49310,
+   "source_hash": "528f88ac81f4420ff56dcbfdb26d30cf39864ea5638b35f33da65f9bfb6c6465",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:6": {
+   "en": "He will see leaven in all the territory and you will tell to the child on that day to say this what YHWH had done to me when I went out from Egypt",
+   "notes": "Positions 4, 18, 25, 26 are reconstructed. Positions 7, 15, 21, 28 are uncertain. The phrase 'leaven in all' (positions 3-5) is supported by repeated evidence (0.6667). The phrase 'in all the territory' (positions 4-6) is supported by repeated evidence (0.5556). The phrase 'you will tell to child' (positions 9-11) is supported by repeated evidence (0.5). The phrase 'day (the) that' (positions 13-15) is supported by repeated evidence (0.9868). The phrase 'me (cmp) saying' (positions 15-17) is supported by repeated evidence (0.2667). The phrase 'this what' (positions 19-20) is supported by repeated evidence (0.5). The phrase 'he had done YHWH to' (positions 21-23) is supported by repeated evidence (0.25).",
+   "line_id": 49311,
+   "source_hash": "2a9bf319b4fe86a742fa0f8890619852bd914305a8f1b046bc87fc6a8731ad40",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:7": {
+   "en": "And it shall be a sign upon your hand and for remembrance between your eyes, that the law of YHWH may be in your mouth. For by strength of hand YHWH brought us out of Egypt.",
+   "notes": "Positions 7, 13, 14, 18, and 19 are damaged or uncertain. Phrase evidence supports 'a sign upon your hand' (50% dominant pattern), 'the law of YHWH' (79% dominant pattern), 'by strength of hand' (100% dominant pattern), and 'YHWH from Egypt' (100% dominant pattern).",
+   "line_id": 49312,
+   "source_hash": "40186e1d9487c157535f4b2cf3c2442d499685befa7c754a2dfdf5f401a8224b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:8": {
+   "en": "And you shall keep the regulation of this appointment from days days. And it will be when he brings Yahweh upon the land of the Canaanite.",
+   "notes": "The phrase 'from days days' reflects repeated phrase evidence for positions 10-12. 'The land of the Canaanite' reflects repeated phrase evidence for positions 21-23, with the singular form used due to the morphology of the source text. The verb 'brings' is a hifil form, indicating a causative sense, but the exact contextual sense is uncertain. The name 'Yahweh' is rendered as 'YHWH' in the lexical gloss, but 'Yahweh' is used here for readability.",
+   "line_id": 49313,
+   "source_hash": "8ef72ca8818d4aad363ad5ce34f1464e183ce63fbb0548aeee12fd58d8905ea4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:9": {
+   "en": "As when he swore to you and to your father(s) and gave to you and you dedicated all the firstborn of a womb to YHWH and all the firstborn of the litter in the cattle which",
+   "notes": "Uncertain reconstruction of damaged tokens at positions 7, 13, and 24. Phrase evidence supports 'every firstborn of a womb' and 'every firstborn' but the translation retains visible morphology and syntax.",
+   "line_id": 49314,
+   "source_hash": "fcf40352ac4b952f4a2fcb0e2ad35973419200de745f8a6582b8b09ec03a488d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:10": {
+   "en": "Let every male belong to YHWH, and every firstborn of a donkey you will redeem with a lamb, and if not, you will break its neck, and every firstborn of humankind among your sons",
+   "notes": "Uncertain elements include the transcription and gloss of 'ז#?כרים' (males), the reconstruction of 'יהוה[' (YHWH), and the suffix forms 'ת#פד׳נו' (you will redeem it) and 'בני׳ך' (your sons). The phrase 'every firstborn' is supported by repeated evidence.",
+   "line_id": 49315,
+   "source_hash": "61c895b62dc78bf3d37c21f5c8b7a7df884c660033e0ecf202e215eb51d67188",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:11": {
+   "en": "You will buy off and it will be that your son asks tomorrow to say what? this and you said to him that by strength of hand he brought out YHWH",
+   "notes": "Uncertain elements include the reconstruction of 'ישא[ ל׳ך' (position 6), the gloss of 'ז?א#ת' (position 12), the morphology of 'אמרת#' (position 14), and the gloss of 'הצא׳נו?' (position 20). The phrase 'by strength of hand' is supported by repeated evidence, but its exact placement is uncertain. The translation avoids adding unlicensed subjects or connectors, preserving the fragment's structure.",
+   "line_id": 49316,
+   "source_hash": "73cc3b8e2fef948cf3eccdeaeb3d93793e75d62e22ba4c2a07a391297bb54af7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:12": {
+   "en": "From Egypt from a house of slaves and it was that Pharaoh was hard to send us and YHWH killed every firstborn in the land",
+   "notes": "Uncertain reconstruction of 'firstborn' and preposition 'in'",
+   "line_id": 49317,
+   "source_hash": "97bbef3708ea9e42d2d3e47902973e496eae2e4a35c95f39513e201bfbdb6ef5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:13": {
+   "en": "Egypt from the firstborn of humankind unto the firstborn of livestock thus I slaughter to YHWH and every firstborn of a womb the males",
+   "notes": "Uncertain reconstruction of 'cattle' (position 7) and 'slaughter' (position 11). High-confidence phrase evidence supports 'every firstborn' (positions 15-16) and 'firstborn of a womb' (positions 16-17).",
+   "line_id": 49318,
+   "source_hash": "b752f0fa4eaf2e8594e4fe7e63650252660ebfa2ea961228d4a0dd1ebbbd8fef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:14": {
+   "en": "And every firstborn of humankind among the sons of Pedaiah I will redeem, and it will be a sign upon your hand and marks between your eyes, that by strength of hand",
+   "notes": "Uncertain elements include the reconstruction of 'and' (position 9), the preposition 'to' (position 11), the noun 'sign' (position 13), and the noun 'marks' (position 18). The phrase 'marks between eyes' is supported by repeated phrase evidence. The phrase 'by strength of hand' is also supported by repeated phrase evidence.",
+   "line_id": 49319,
+   "source_hash": "9319c20687bb25cec9821c89c7781595d26883263e437c764889528e264714e3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:15": {
+   "en": "He brought us out, Yahweh, from Egypt. Hear, O Israel, Yahweh our God, Yahweh is one. And you shall love",
+   "notes": "The transcription contains uncertain and damaged elements, including a possible lacuna after 'Israel.' The phrase 'He brought us out, Yahweh, from Egypt' is supported by repeated evidence but is not a direct translation of the visible morphology. The sequence 'Yahweh our God, Yahweh is one' reflects high-confidence constraints, though 'our' is inferred from context. The final verb 'love' is incomplete due to text damage.",
+   "line_id": 49320,
+   "source_hash": "1762a9942cc8f52fd0b81ba6790844511fe6af81fc3cd9c600bf71601e0ce8aa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:16": {
+   "en": "YHWH your gods with all heart and with all being and with all strength and the words these",
+   "notes": "Uncertain reconstruction at positions 10, 14, 15, 16, 17. Phrase evidence applied for 'with all heart', 'with all being', 'with all strength', and 'words (the) these'.",
+   "line_id": 49321,
+   "source_hash": "c23f6501035d0e5404a02b473b8cd4414a9c2dca7339fc108cc16c2bc6052447",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:17": {
+   "en": "I command you today upon your heart. And you shall repeat them to your sons and speak in them when you sit in your house and when you walk in the way.",
+   "notes": "The phrase 'I command you' is supported by repeated phrase evidence. The phrase 'when you walk in the way' is a paraphrase based on repeated phrase evidence. The text contains four reconstructed words and one uncertain word.",
+   "line_id": 49322,
+   "source_hash": "6f6cb7c0ef2112bb01ac8858db343b548ec074f4a6c4f361531ae1f929ef4cba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:18": {
+   "en": "And in your lying down and in your arising, and you tied them for signs upon your hand, and they will be for marks between your eyes, and you wrote them upon the door-posts.",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, including 'קש#רת׳ם', 'טוט[ פת', and 'מזו#?[ זות ]'. The phrase 'marks between eyes' is supported by repeated phrase evidence, while 'a sign on hand' and 'they will be for marks' are partially supported. The translation conservatively follows the recoverable text, preserving grammatical structure and semantic relationships without adding unlicensed content.",
+   "line_id": 49323,
+   "source_hash": "5831a78b4feab6d0b3dec642a31eafb4f1da647460aa45993dd30b8a4d79f09f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:19": {
+   "en": "in your house and in your gates and if you hear you will hear to the commandments which I",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'if you hear you will hear' reflects repeated phrase evidence with moderate support. The final segment 'to the commandments which I' is supported by high-confidence repeated phrase evidence.",
+   "line_id": 49324,
+   "source_hash": "d64ae2753466e6b23c7c8409628db05e76e094cbd7d9ea06f53859b541f5b0a4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:20": {
+   "en": "The command to you today is to love YHWH your God and to work with all your heart and with all your being.",
+   "notes": "The transcription contains two reconstructed words and two uncertain words. The phrase evidence suggests the rendering of 'with all heart' and 'with all being' for the respective phrases.",
+   "line_id": 49325,
+   "source_hash": "eba6f7206e20f40d608f7919cfe6e01d666780ead177e15aa1a2770648a6a592",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:21": {
+   "en": "And I gave the rain your land in the time of the early rain and the spring-rain and gathered the corn and the wine and the oil",
+   "notes": "Uncertain transcription and reconstruction in 'spring-rain', 'gathered', 'corn', and final 'and'. The phrase 'I gave the rain your land' is supported by repeated evidence, but the rest of the sentence is less certain due to damage and unclear context.",
+   "line_id": 49326,
+   "source_hash": "be1e493c67525dc18b654d054a4750c0dcffda43bf03cfaba93267d258a625a0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:22": {
+   "en": "Herb in the field to the cattle and you ate and were sated. Take heed lest your heart be enticed and you turn aside and serve.",
+   "notes": "Uncertainty in the transcription affects 'cattle' and the verb 'eat'. The phrase 'take heed to' is supported by repeated evidence.",
+   "line_id": 49327,
+   "source_hash": "bf864c3bcfe3afebe8b8683ad24fccf4c1edc5043fc43d6145b08064d79a3be7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:23": {
+   "en": "Other gods and they bowed down to them. It burned the anger of Yahweh in and he restrained the heavens.",
+   "notes": "Positions 3, 4, and 6 are uncertain. Position 4 is reconstructed.",
+   "line_id": 49328,
+   "source_hash": "9310ff31b1f34bb43df4779c8a2624636f966ab433c1393479a7b149f07eb022",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:24": {
+   "en": "And there will be no rain, and the soil will not yield its produce, and you have perished from upon the good land.",
+   "notes": "The phrase 'not it will be rain' is a reconstruction based on repeated phrase evidence. The term 'soil' is a possible rendering of the uncertain word 'adamah'. The phrase 'you have perished' is a direct translation of the verb 'abdatem', with the subject 'you' implied by the second-person plural suffix.",
+   "line_id": 49329,
+   "source_hash": "b37598c85c5a81635d94dfec7e7d62ec0e35289ce3581c27b35db800813175a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:25": {
+   "en": "Whom Yahweh has given to you and you put the words of Elah upon your heart and upon your soul and you tied",
+   "notes": "Uncertain reconstruction of damaged text in 'to you' and 'of Elah'; 'soul' is grammatically singular but suffixed form suggests plural referent",
+   "line_id": 49330,
+   "source_hash": "c7b7c2558ccfac66d1a1cc33a29e962db3c2c03bf9f3f0fed82ef348c4439f10",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:26": {
+   "en": "them to the sign upon their hands and they will be for marks between their eyes and you taught them their sons to speak",
+   "notes": "Uncertain reconstruction of 'hand' and 'eye' due to damage. Phrase evidence supports 'marks between eyes' and 'they will be for marks'. High uncertainty in the sequence around positions 9-11.",
+   "line_id": 49331,
+   "source_hash": "594928d97cd0e7fc208b5287dbf4dad07f6f74b8defa52f1a75fe0c39cf01805",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:27": {
+   "en": "in sitting in [house and in walking ] in the way and in lying down and in arising you shall write them upon the doorposts of your house",
+   "notes": "Two reconstructions and two uncertainties in the source. The phrase 'upon the doorposts of your house' is supported by repeated evidence. Other phrases are context-free glosses.",
+   "line_id": 49332,
+   "source_hash": "77dc61a93dad96b5d58edfd2911080cad55fd6f3137819decbf0fb35bb91ae90",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:28": {
+   "en": "And in the gate of your measure, that your days may be many, and your sons upon the land which he swore Yahweh to your fathers",
+   "notes": "Uncertain reconstruction of damaged text in positions 3, 8, and 16. Phrase evidence supports the rendering of 'which he swore Yahweh' and 'Yahweh to your fathers'.",
+   "line_id": 49333,
+   "source_hash": "084f734e96c7cd95fa1642f9264242e458b0472a7aa7a5255b207695c87ab502",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q130 f1:29": {
+   "en": "to give to them as the days of the heavens upon the earth",
+   "notes": "Uncertainty in suffix 'ל׳ה##ם##' and particle 'ה#'. Reconstruction in particle '[ כ'.",
+   "line_id": 49334,
+   "source_hash": "0e243d00a9a3aa54d3acab5314728c1d8a9d0e0109bad234be5a47e13fa7c92c",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

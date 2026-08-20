@@ -1,0 +1,144 @@
+{
+ "id": "4Q101",
+ "label": "4Q101",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 18,
+ "scroll_id": 900,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q101 f1_2:1": {
+   "en": "I",
+   "notes": "The transcription is heavily damaged, with only a reconstructed first-person singular pronoun 'I' recoverable. The other characters are untranslatable fragments or uncertain. No contextual constraints or repeated phrases are available to guide translation.",
+   "line_id": 48617,
+   "source_hash": "e6e3b79955d5d01c2d8dfe4623af81b033f351c03e7e6e3a2b1c78add37dad6d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q101 f1_2:2": {
+   "en": "Who is he that contends with me, that now I am silent and expire?",
+   "notes": "The phrase 'who is he that contends with me' is a reconstruction based on repeated phrase evidence. The verb 'expire' is a context-free gloss for 'אגוע'. The particle 'עתה' is translated as 'now'. Uncertainty remains regarding the exact meaning of 'אחריש' in this context, but it is rendered as 'I am silent' based on the lexical gloss 'plough / be deaf' and the first-person singular morphology.",
+   "line_id": 48618,
+   "source_hash": "11f7f625197ef66ba26d1f950c4ee697821211067522c3d8d46cb5e0f3d4b038",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q101 f1_2:3": {
+   "en": "Do not make with me then from your faces I will not be hidden",
+   "notes": "The phrase 'you will do with' is supported by repeated evidence but is not directly reflected in the translation due to strict adherence to recoverable source tokens. The final clause 'I will not be hidden' is a reconstruction based on the verb 'סתר' and its morphology, with uncertainty noted.",
+   "line_id": 48619,
+   "source_hash": "7895c42ab6c08cd7046cd620fe03ef9761fcfbe4f2b6975a3f79ace0e0e6e5f6",
+   "source_condition": "reconstructed"
+  },
+  "4Q101 f1_2:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a Greek letter epsilon (ε) and a Hebrew sof pasuq (׃), neither of which can be independently translated into meaningful English words.",
+   "line_id": 48620,
+   "source_hash": "87732e2d9b5e741f1bba0ef2fa2d858fd202d8a42c5315bf744b78111da67b64",
+   "source_condition": "clean"
+  },
+  "4Q101 f1_2:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no translatable lexical items. The first character (ε) is a Greek letter with no independent meaning in this context, and the second character (׃) is a Hebrew punctuation mark.",
+   "line_id": 48621,
+   "source_hash": "b8fa35d5355451efcde3574df2d0d7cb49a65310c8201c9660e58de4c45efc6e",
+   "source_condition": "clean"
+  },
+  "4Q101 f1_2:6": {
+   "en": "As what to my sins and rebellions and sin know",
+   "notes": "The transcription is partially damaged, with one reconstructed word and one uncertain word. The phrase 'what to' is a high-confidence repeated pattern, but its meaning is unclear without context. The final word 'know' is uncertain due to damage in the source text.",
+   "line_id": 48622,
+   "source_hash": "6cb3df191690079c3e912daefb073b1df6a2e7824eb3390c76cc5aaa995791e7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q101 f1_2:7": {
+   "en": "Why do you hide your face and consider me an enemy?",
+   "notes": "The phrase 'to an enemy to' is a repeated pattern with moderate support, but it is not directly reflected in the translation due to lack of clear contextual fit. The final 'to' (ל׳ך#) is uncertain and omitted from the translation.",
+   "line_id": 48623,
+   "source_hash": "72094fa955e97130e08474695067463fcab528d8c9dd4031bfcc9c1ccad95a8c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q101 f1_2:8": {
+   "en": "Has the leafage been scattered? You will tremble and pursue dry stubble",
+   "notes": "The translation follows the visible transcription and morphology. The interrogative particle 'הֲ' is rendered as 'Has' to maintain the question form. The phrase 'leafage been scattered' is supported by repeated phrase evidence. 'You will tremble' reflects the second-person singular imperative. 'Pursue dry stubble' is a direct translation of the final verbs and nouns, with 'dry stubble' supported by repeated phrase evidence.",
+   "line_id": 48624,
+   "source_hash": "e73d285b27acfaeefd549e3bac13924329cc20467deda07d0aee5e7daa24cdea",
+   "source_condition": "reconstructed"
+  },
+  "4Q101 f1_2:9": {
+   "en": "For you shall write upon the gall and trample down sins of youth",
+   "notes": "The phrase 'written on' is supported by repeated evidence for positions 2-3. The translation preserves the second-person singular agency and the imperative force of the verbs. The lacuna before 'gall' is not indicated in the translation, as per instructions.",
+   "line_id": 48625,
+   "source_hash": "77e93bb19a27b9ae452074675452bb9245607e8223eea2d148d03dbe63ab4586",
+   "source_condition": "reconstructed"
+  },
+  "4Q101 f1_2:10": {
+   "en": "And you put in the stock of feet and you watch every path",
+   "notes": "The phrase 'stock of feet' is a reconstruction based on repeated phrase evidence. The verb 'watch' is chosen over 'keep' based on higher-supported repeated phrase evidence for the sequence 'watch all paths'.",
+   "line_id": 48626,
+   "source_hash": "066f10d386e35e27c643bf4887b150e4a5616704eba708bba04d10936ebdc93f",
+   "source_condition": "reconstructed"
+  },
+  "4Q101 f3:1": {
+   "en": "Who will give in Sheol? Hide me, conceal me, until returning anger",
+   "notes": "Reconstructed and uncertain elements include the preposition 'in' (position 3) and the noun 'Sheol' (position 4). The phrase 'returning anger' is supported by repeated phrase evidence but remains contextually ambiguous.",
+   "line_id": 48627,
+   "source_hash": "5a382263e995043819107e7b066658ec2d8421f39fe2129893d557d05ee73a97",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q101 f3:2": {
+   "en": "You will set to a portion and remember",
+   "notes": "The translation reflects the visible morphology and lexical glosses, with 'to a prescribed portion' supported by repeated phrase evidence. Uncertainty in the final verb form is noted but does not affect the translation structure.",
+   "line_id": 48628,
+   "source_hash": "3279a376564ea41077e8eb3b4b011315add20674b1818584c936209d44bf354b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q101 f3:3": {
+   "en": "If he dies, a vigorous man, is he alive all the days of my service?",
+   "notes": "The translation incorporates repeated phrase evidence for 'all the days' and preserves the interrogative structure. Uncertainty in the transcription is noted but does not affect the overall translation.",
+   "line_id": 48629,
+   "source_hash": "9d508155de9f295390914d5cd56c441fb9634f9060f6d9fdcc8603fc1ce74adc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q101 f3:4": {
+   "en": "I will wait until coming, my substitute. You will call, and I will answer.",
+   "notes": "The translation reflects the visible morphology and phrase evidence. Uncertainty in the reconstruction of 'בא##[' is noted but does not affect the translation. The phrase 'I I' is supported by repeated evidence and is rendered as 'I will answer' to maintain grammatical consistency.",
+   "line_id": 48630,
+   "source_hash": "1454598c200ae88ba426965a90d9e9553e62183e5732320dd2b6f2fec4fcb38f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q101 f3:5": {
+   "en": "to the deed of your hands you will long",
+   "notes": "Uncertainty in the transcription and lexical glosses affects the translation. The phrase 'the work your hands' is supported by repeated evidence, but the verb 'long' is uncertain. The final word 'כי' is omitted due to lack of recoverable context.",
+   "line_id": 48631,
+   "source_hash": "f5cbfa13024b0f398a0bfa630671d54b9ccfaa2635cb2929d3f256c94f4a4ab0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q101 f3:6": {
+   "en": "Now your marching, you will count, not keep upon my sin.",
+   "notes": "The transcription contains reconstructed elements and a final untranslatable punctuation mark (׃). The translation follows the visible morphology and lexical glosses, preserving the second-person singular addressing and the negative command.",
+   "line_id": 48632,
+   "source_hash": "ee692f6a0e01f0b3ed00296c3d9c27d01e912b9f2b663e42b6e62e36c6e35647",
+   "source_condition": "reconstructed"
+  },
+  "4Q101 f3:7": {
+   "en": "Sealed in a bag of rebellion and you soil upon sin",
+   "notes": "Uncertainty in transcription and reconstruction of some words, particularly 'sealed' and 'rebellion'. The translation conservatively follows visible morphology and lexical glosses.",
+   "line_id": 48633,
+   "source_hash": "d82076949703a62983099b8c94e57d4689242995c0625545d4f8acaae0352e93",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q101 f3:8": {
+   "en": "But the mountain falls, withers and the rock advances from its place",
+   "notes": "The transcription is partially damaged, and the verb 'נפ' is reconstructed and uncertain. The translation reflects the recoverable text, but the exact meaning may vary based on the uncertain elements.",
+   "line_id": 48634,
+   "source_hash": "d45455ec6f6afff3c38c892d9a8b1f7f2890834886152302e0c92c386d7f39f5",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "4Q238",
+ "label": "4Q238",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 165,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q238 f1:1": {
+   "en": "tearing poured a curse",
+   "notes": "The first character (ε) and the final character (ε) are untranslatable and omitted. The word 'מא' is a reconstructed form of 'מְאֵרָה' (curse), marked as uncertain.",
+   "line_id": 8365,
+   "source_hash": "0033df58fb8f3301516928d910e754e7c0eacb6d2c067b4e9dbf4679386aed3a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q238 f1:2": {
+   "en": "deceit to uncover and wickedness",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form and a partially legible noun. The initial and final characters are untranslatable and omitted. The translation preserves recoverable content without speculation on missing syntax or subjects.",
+   "line_id": 8366,
+   "source_hash": "e29d2bb83817adfe894aa998179e3667828fa8e481d16ec683c8615ad12bbd02",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q238 f1:3": {
+   "en": "pieces of fat bread they",
+   "notes": "The transcription contains uncertain and unknown elements, including a damaged initial character (ε) and an uncertain word (]ח##לבים). The translation reflects recoverable words in order, preserving uncertainty without speculative additions.",
+   "line_id": 8367,
+   "source_hash": "839e9997c32c4f1feb7c2ae363b4a6f79b6d2788062fe82f2dedfe8f1402e1e6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q238 f1:4": {
+   "en": "I will descend and see",
+   "notes": "The transcription contains untranslatable characters (ε) and an uncertain verb form (א ]ר##ד). The translation reflects the recoverable words, but the exact meaning may be affected by the uncertainties.",
+   "line_id": 8368,
+   "source_hash": "cec133447ef372b5069e73fefb7d8c860dc805b4fc86ed18aefa787fda2f5d9f",
+   "source_condition": "uncertain"
+  },
+  "4Q238 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain characters. The visible forms ε, ] # עך, ו, and אי?[ do not provide sufficient evidence for translation.",
+   "line_id": 8369,
+   "source_hash": "ad8abfeac0d17064bda049afdf8df98e30204779e9d1f75af54476d09e8ace4e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q238 f1:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible characters and reconstructions do not provide sufficient evidence for meaningful translation.",
+   "line_id": 8370,
+   "source_hash": "bbcc10e00432ae11b294c2d55840c196fc8a0bdc83d9ba05fb324737eb2458f3",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

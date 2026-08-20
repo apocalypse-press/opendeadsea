@@ -1,0 +1,39 @@
+{
+ "id": "4Q75",
+ "label": "4Q75",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 867,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q75 f1:1": {
+   "en": "Write to the name of the day the substance of the day this supported the king of Babylon to Jerusalem in the bone",
+   "notes": "Uncertain reconstruction of 'day' (position 6) and 'bone' (position 8). Phrase evidence supports 'the substance of the day' and 'the king of Babylon to'",
+   "line_id": 46927,
+   "source_hash": "045baa7debcce7d6f5f97800bb795f1b2a0615d8ec417d88a98563237ee19cf2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q75 f1:2": {
+   "en": "This day and rule concerning the house of rebellion, and you said to them, thus he says Lord YHWH",
+   "notes": "Uncertain reconstruction of 'בי ]ת##' as 'house'; phrase evidence supports 'thus he says Lord' for positions 16-18; 'the house of rebellion' supported for positions 9-11; 'a parable concerning the house' weakly supported for positions 7-9.",
+   "line_id": 46928,
+   "source_hash": "8f630d8e4ee7b95342f5de85227f98afa2fc8f28d0c1e29cf14143e04f8d4e62",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q75 f1:3": {
+   "en": "Set the pot and even pour in water",
+   "notes": "Uncertain reconstruction and damage in 'pour' (position 7) and 'water' (position 9). The final characters 'ε׃' (position 10-11) are untranslatable and omitted.",
+   "line_id": 46929,
+   "source_hash": "d4e0474bace75adfc9fa0bfae631b96a0a3f0ffd4276d163f2472d2e5b9d01e9",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

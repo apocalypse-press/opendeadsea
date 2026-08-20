@@ -1,0 +1,81 @@
+{
+ "id": "4Q407",
+ "label": "4Q407",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 399,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q407 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a Greek letter fragment and a damaged aleph.",
+   "line_id": 18796,
+   "source_hash": "7126062011cbe36dce6b21f394f26835a768de6cf7de04a65e7872a2e594978e",
+   "source_condition": "uncertain"
+  },
+  "4Q407 f1:2": {
+   "en": "their holiness",
+   "notes": "The transcription is partially damaged, and the first character 'ε' is untranslatable. The remaining text is interpreted as a suffixed form of 'holiness' in the masculine plural, indicating 'their holiness'.",
+   "line_id": 18797,
+   "source_hash": "b925120f8383c6f8a910e0a35f125475d49c909afc2220c8e4b7016f8d224d54",
+   "source_condition": "uncertain"
+  },
+  "4Q407 f1:3": {
+   "en": "messengers of holiness",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The transcription 'מ ]לאכי' is treated as a plural form of 'messenger' based on morphology.",
+   "line_id": 18798,
+   "source_hash": "568e7cbc92bc13239e6854e3e13f82fbc1ccee1de32a1faf1476c48980820970",
+   "source_condition": "clean"
+  },
+  "4Q407 f1:4": {
+   "en": "in those called",
+   "notes": "The initial 'ε' is untranslatable and omitted. 'קרו[ אי' is reconstructed as a plural masculine participle of 'קרא_1', translated as 'called'.",
+   "line_id": 18799,
+   "source_hash": "72d35d6e7be46ef10747eda799a1d10aaf1e667bd1035c13fc7e07a336caf0cc",
+   "source_condition": "reconstructed"
+  },
+  "4Q407 f1:5": {
+   "en": "in holiness",
+   "notes": "The transcription contains an uncertain particle 'ב##' and a reconstructed noun 'קודע[', with an unknown character 'ε' at the start. The translation reflects the recoverable words, omitting the untranslatable 'ε' and noting its presence.",
+   "line_id": 18800,
+   "source_hash": "aa9a658ef336c49f9bd51736339847a45541a2d9b669489a6fe8c96659faf93c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q407 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items or semantic constraints to support a translation. The visible forms are either incomplete or unidentifiable, and no contextual evidence is available to reconstruct meaningful content.",
+   "line_id": 18801,
+   "source_hash": "f9c7e709d17b021cf74458c53a5ae8e998c91a0776df55d4dd22dd62e4d0c13d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q407 f2:2": {
+   "en": "holiness",
+   "notes": "The transcription contains untranslatable characters (ε) and an uncertain form of the word 'holiness' (קֹדֶשׁ).",
+   "line_id": 18802,
+   "source_hash": "714d1071fbc24da2fb80362d013c75687617c0c66506d23a2e58045cbfd5ae39",
+   "source_condition": "uncertain"
+  },
+  "4Q407 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions.",
+   "line_id": 18803,
+   "source_hash": "0685b692bf6eae1bcd7613bef64b2085057b875e481a04d6d14c42821b5b1b54",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q407 f2:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the visible lexical items.",
+   "line_id": 18804,
+   "source_hash": "71e371276a421469cdcb974a63748911f47349c3e7827847acb45ee794e94545",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

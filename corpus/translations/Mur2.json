@@ -1,0 +1,88 @@
+{
+ "id": "Mur2",
+ "label": "Mur2",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 978,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "Mur2 f1i:1": {
+   "en": "At the time she said, Yahweh, cut out for yourself two tablets of stones like the first ones.",
+   "notes": "The phrase 'At the time she said' reflects a high-confidence repeated pattern for positions 2-4. 'Cut out for yourself' uses a paraphrased sense of the imperative verb at position 8, supported by repeated evidence for positions 8-9. 'Two tablets of stones' follows dominant repeated evidence for positions 10-12. 'Like the first ones' combines the preposition at position 13 with the adjective at position 14, supported by repeated patterns for positions 11-12-13 and 13-14.",
+   "line_id": 51368,
+   "source_hash": "fa2aa08aa35c36a9d0f1df189ab44fcb09850ab81043f7c94675952495f81496",
+   "source_condition": "reconstructed"
+  },
+  "Mur2 f1i:2": {
+   "en": "And ascend to the mountain and make to you an ark of wood and write upon the tablets the words",
+   "notes": "Uncertain reconstruction at position 8; phrase evidence suggests 'for the ark' or 'to the ark' but context prefers 'to you'.",
+   "line_id": 51369,
+   "source_hash": "6fb783aafa1d46b4f3f2c9d0aca1d1fdabca7947516c77930a58c2d2e3006af9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mur2 f1i:3": {
+   "en": "Which were upon the former tablets that you broke and put in the ark and I made a chest",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'tablets (the) former' is supported by repeated evidence. The verb 'make' is uncertain due to damage. The final 'chest' is a supported rendering of 'ark' in this context.",
+   "line_id": 51370,
+   "source_hash": "3f186fb39ed081929393522d5dbab34fafe70039103e2c24fb6e4955c4165708",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mur2 f1ii:1": {
+   "en": "the day that not your sons which not knew and which not saw the chastening",
+   "notes": "Uncertain reconstruction of 'ה##' (the), 'י#?ו(# ם #)' (day), 'כ#י' (that), 'א#[ שר' (which), and 'מוסר ]' (chastening). Visible morphology and damage limit confidence in these forms.",
+   "line_id": 51371,
+   "source_hash": "bdfe0f9f0854bb66ee7fb92d143731c29bd5903166be889b85b9460ff5e5bbe9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mur2 f1ii:2": {
+   "en": "Yahweh your God the greatness of His strong hand and extended arm",
+   "notes": "Reconstructed object marker before 'hand' and 'arm' per phrase evidence. Final 'and' omitted as incomplete due to damage.",
+   "line_id": 51372,
+   "source_hash": "482fcd92c44aa68b8a188b6c8d7eeae87fbc50b981358e6cdf3df053d71e3de4",
+   "source_condition": "reconstructed"
+  },
+  "Mur2 f1ii:3": {
+   "en": "the signs and the deeds which he did in the midst of Egypt to Pharaoh the king of Egypt",
+   "notes": "Uncertain reconstruction of 'signs' (א##ת##ת#י?׳ו?) and 'deeds' (מעשי׳ו?). High-confidence phrase evidence supports 'in the midst of Egypt' and 'Pharaoh the king of Egypt'.",
+   "line_id": 51373,
+   "source_hash": "887cef216b46db80522efd79526cc8360677eab347c50e49bbe703bdf613a084",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mur2 f2i:1": {
+   "en": "Do not eat, so that it may go well for you and the sons after you",
+   "notes": "The phrase 'so that it may go well for' is supported by repeated evidence for positions 3-5. The phrase 'the sons after you' is uncertain due to damage and low pattern support for positions 8-9.",
+   "line_id": 51374,
+   "source_hash": "93d1b0d6b704beed03a7b98fe8f2582254c4364bdbe2ed86ca3d30bb29ef569b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mur2 f2i:2": {
+   "en": "For you do the right in the eyes of Yahweh. Only your holiness which will be to you.",
+   "notes": "The phrase 'in the eyes of Yahweh' is supported by repeated phrase evidence. The word 'קדשי' is uncertain due to damage, but its gloss 'holiness' is retained. The final clause is reconstructed and uncertain, with the suffix 'ך' indicating a second-person masculine singular addressee.",
+   "line_id": 51375,
+   "source_hash": "81d172e6bac27f4fa244ec888ec18c38dbd8e8335e4122a334426e121efefab4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mur2 f3:1": {
+   "en": "And this word of the remitting, letting loose all the lord, the loan his hand, which he will lend to neighbor",
+   "notes": "Uncertain relative pronoun 'which' (אשר#) and reconstructed verb 'he will lend' (ישה). Phrase evidence suggests 'the loan his hand' (משה ידו) and 'he will lend to neighbor' (ישה ברעוהו) but support is weak. 'All the citizens' (כל בעל) is a possible alternative but less supported. 'This [is] the word of' (זה דבר ה) is another option but less fitting. 'This [one] [was] speaking' (זה דבר) is also possible but less contextually relevant.",
+   "line_id": 51376,
+   "source_hash": "454e20b588cb4a4cf72d062ff107cadaf917f560dc18bd2e599d7b0a7c9a7c57",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mur2 f3:2": {
+   "en": "Not he will drive his fellow and his brother because he called remission to YHWH",
+   "notes": "The translation conservatively follows the recoverable text, preserving grammatical structure and participants. Uncertainty arises from the reconstructed particles and the ambiguous lexical glosses for 'רע׳הו' and 'אחי׳ו', which are translated based on visible morphology and context-free glosses.",
+   "line_id": 51377,
+   "source_hash": "72ba5b2447d3902907cd85df28554379a3e190c8ebdf27786c8f74f984e91f9c",
+   "source_condition": "reconstructed"
+  }
+ }
+}

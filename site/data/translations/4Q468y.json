@@ -1,0 +1,46 @@
+{
+ "id": "4Q468y",
+ "label": "4Q468y",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 491,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468y f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]מ#חע#[, ε) with no clear lexical or semantic content. The reconstructed and uncertain elements provide no basis for translation. No defensible English words survive.",
+   "line_id": 22574,
+   "source_hash": "21dad1a00498d89b9cd7310c6e00a7231268c943968289b794c721e406b04bca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468y f1:2": {
+   "en": "you will answer",
+   "notes": "The transcription is heavily damaged, with only a partially recoverable verb form. The visible morphology indicates a second-person masculine singular imperfect verb, likely from the root ענה (answer/respond). The initial and final characters are uncertain and not translated. No contextual constraints or repeated phrases are available to disambiguate the sense.",
+   "line_id": 22575,
+   "source_hash": "15dfc614cf29784c8708c8d262e01f80cf33810dd46070c61b5b21ecb77ef2bd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468y f1:3": {
+   "en": "precious",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed fragment (מ[). The term 'precious' is based on the visible form ]יקיר, which is a masculine singular adjective. The remaining elements do not provide recoverable text.",
+   "line_id": 22576,
+   "source_hash": "7c1be2e8820e272bdcde11ec4c9e4d80ef46b134def6f3a2795ec7295e20bfa8",
+   "source_condition": "reconstructed"
+  },
+  "4Q468y f1:4": {
+   "en": "redemption",
+   "notes": "The transcription contains uncertain and untranslatable elements, including damaged characters and unknown symbols. The word 'פְּדוּת' (redemption) is partially reconstructed and uncertain. All other elements are omitted due to insufficient recoverable text.",
+   "line_id": 22577,
+   "source_hash": "83abc5cd97ef8f4441a3a3e9b99c78a2d6649e7e0cf954413c53bc8075f5e3c7",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

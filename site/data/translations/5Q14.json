@@ -1,0 +1,53 @@
+{
+ "id": "5Q14",
+ "label": "5Q14",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 635,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "5Q14 f1:1": {
+   "en": "and upon seas even upon",
+   "notes": "Fragmentary and uncertain transcription with multiple damaged or unrecoverable elements. The translation reflects only the recoverable words in order, omitting uncertain or reconstructed material. The initial and final characters (ε) are untranslatable and omitted. The damaged 'ע##ל' is translated as 'upon' based on its lemma, but its integrity is uncertain.",
+   "line_id": 32075,
+   "source_hash": "e2e3f1bd551ded3960cfb0b04354bd5b5d765166876b212eb2ff94ed063f0fa2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q14 f1:2": {
+   "en": "from upon you they fall",
+   "notes": "Uncertain transcription and reconstruction of 'eye' (עַיִן) in position 2; untranslated 'ε' in positions 1 and 6 due to unclear meaning.",
+   "line_id": 32076,
+   "source_hash": "20037597f01745ffef301f58b2b4ca06e73f74173c8f060c2f0d6ea092dd64e7",
+   "source_condition": "uncertain"
+  },
+  "5Q14 f1:3": {
+   "en": "You will fall in all something tasteless",
+   "notes": "Uncertain reconstruction and gloss for תפ#ל#[. ε and ]ת##י#?׳כם are not independently translatable.",
+   "line_id": 32077,
+   "source_hash": "40c92e122627c7fbb3f9557e0a39bc47fbf516571a666035bade67c9f2fe1fe3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q14 f1:4": {
+   "en": "They will destroy you from the whole of the [no recoverable text]",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged words and unclear characters. The phrase 'ח#ו?ל[' is reconstructed and uncertain, with no trusted gloss available. The final 'ε' is untranslatable. The translation preserves recoverable content and indicates missing text where necessary.",
+   "line_id": 32078,
+   "source_hash": "39d7c86c834d0f788d2cc6945e44654235adcbf63cb3c12ea77fc72ecc2bd320",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q14 f1:5": {
+   "en": "a little to and no sufficiency that",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Phrase evidence supports 'a little (to)' but is not contextually binding. Omitted untranslatable characters and punctuation.",
+   "line_id": 32079,
+   "source_hash": "2efca4beb48d9d7c0be455905a088a74e951f3d43c6065f81c8a900ebbf92fbc",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

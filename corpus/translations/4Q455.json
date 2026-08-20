@@ -1,0 +1,46 @@
+{
+ "id": "4Q455",
+ "label": "4Q455",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 453,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q455 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible characters include a Greek epsilon (ε), Hebrew article (ה), and reconstructed but uncertain forms. No coherent lexical units or semantic relationships can be recovered.",
+   "line_id": 22155,
+   "source_hash": "4add8994242884725a5699ac5ac87078fdd0e50159973720f217583e0021c71a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q455 f1:2": {
+   "en": "In the whole trustworthy arrangement, report the object",
+   "notes": "Uncertain transcription and reconstruction in positions 1, 4, 7, and 8. The translation omits unrecoverable characters and assumes 'אמ##נ?ה' as 'trustworthy arrangement' based on lexical gloss. The verb 'הגידו' is translated as 'report' following the provided gloss, but its exact sense is uncertain. The object marker 'את' is translated as 'the object' for clarity, though its precise function is ambiguous.",
+   "line_id": 22156,
+   "source_hash": "a1acaf07db0a13c5d174c5ac41b0148fa4c437bd108c4012c04a468c4723de60",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q455 f1:3": {
+   "en": "A lie shall be far from remembrance",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged particles and suffixes. The verb 'be far' and the infinitive 'remember' are contextually linked to the noun 'lie'. The translation preserves the visible morphology and semantic relationships, with uncertainty noted for damaged or ambiguous tokens.",
+   "line_id": 22157,
+   "source_hash": "0d4ab2fbc691675b237bf0b6bc078f0b203db94e8e8bb7927439c7cd02748d03",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q455 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed 'to' preposition, but no defensible English words survive.",
+   "line_id": 22158,
+   "source_hash": "9a0c0795ddf3e5b30cfc038c0a6011326d17388ca288ab8bfa563a1815e29aee",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "4Q282b",
+ "label": "4Q282b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 251,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q282b f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) with no clear Hebrew or Aramaic lexical correspondence. No recoverable text survives for translation.",
+   "line_id": 11462,
+   "source_hash": "616960421440efdf8b7840f49e3934dee4dc170cd7e92fc154ee965b43dc21aa",
+   "source_condition": "clean"
+  },
+  "4Q282b f1:2": {
+   "en": "to his season",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The translation reflects the recoverable words 'to' (לְ) and 'season' (זְמָן), but the context and full meaning remain unclear due to the fragmentary state of the text.",
+   "line_id": 11463,
+   "source_hash": "1eab88b98aa613f121cc629b6e0ee63fe02ba0ed2e1c1dd453a1e31d8dccd236",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282b f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items surviving. The form 'א##ת#נ׳ם' suggests a possible verb 'give' but is incomplete and uncertain. All other elements are either unknown or reconstructed with no defensible translation.",
+   "line_id": 11464,
+   "source_hash": "85d657f6b771b4c8eca09bea1f872493167ef48d6e1bcb026082f6b3e9af32e9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282b f1:4": {
+   "en": "being made",
+   "notes": "Most text is damaged or uncertain. The verb 'נעשה' is the only recoverable word, translated as 'being made' in the nifal participle form. Surrounding characters (ε, #, [) are untranslatable and omitted.",
+   "line_id": 11465,
+   "source_hash": "51a0a281625fe744ea9a0021c9b5bba549c89e2597b4ca172456bb0229187df3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282b f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 11466,
+   "source_hash": "4f1b751fa7c02dd269d064161ac0fc70c896b6e8b1d827cecee824321fd05dbf",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

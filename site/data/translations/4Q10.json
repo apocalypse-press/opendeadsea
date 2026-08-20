@@ -1,0 +1,130 @@
+{
+ "id": "4Q10",
+ "label": "4Q10",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 16,
+ "scroll_id": 787,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q10 f1:1": {
+   "en": "And she saw the dry land, and it was thus. And he called God to the dry land, earth.",
+   "notes": "The transcription contains damage and reconstruction at position 4, marked as 'יב##[ שה'. The translation reflects the visible morphology and lexical glosses, with 'he called God' supported by repeated phrase evidence.",
+   "line_id": 40347,
+   "source_hash": "4909bb49883893a133a48732ace39014d98046dbecc4363ce855cc89c0522d78",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single damaged character, which cannot be translated independently.",
+   "line_id": 40348,
+   "source_hash": "748f64f45ecc52396c56d15692ecc45a436edb09d8292f39119ed3388634837e",
+   "source_condition": "uncertain"
+  },
+  "4Q10 f2:2": {
+   "en": "And he said, 'God, let there be luminaries in the firmament of the heavens to separate'",
+   "notes": "Uncertainty in the transcription of 'gods' and the infinitive 'to separate' is not reflected in the translation. The phrase 'he said God' is supported by repeated evidence, and 'luminaries in the firmament' is a dominant pattern. The firmament of the heavens is a supported rendering, but the infinitive 'to separate' is reconstructed and uncertain.",
+   "line_id": 40349,
+   "source_hash": "c3becdd024376c8d7cb432811d5472b55f2475e1ba720fbcbaaa3d1316d27597",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f2:3": {
+   "en": "The day and in the interval of the night and to signs and to appointments and to days and to years",
+   "notes": "Uncertain reconstruction and damage affect the conjunction of clauses and the verb's certainty. The phrase 'it will become (into) a sign' is supported by repeated evidence but not directly reflected in the visible text. Omitted uncertain particles and connectors to avoid speculation.",
+   "line_id": 40350,
+   "source_hash": "33caacca073cb2f6350e27b13f13181e3bf4b340fefc1a5dafb9cb9c805f53b6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f2:4": {
+   "en": "And there were luminaries in the firmament of the heavens to give light upon the earth and it was so and he made",
+   "notes": "Uncertain reconstruction of damaged text at positions 5, 6, 8, 10, 13, 18, 19. Phrase evidence supports 'luminaries in the firmament' and 'the heavens to give light'.",
+   "line_id": 40351,
+   "source_hash": "ecf33ab3121cee51538adb499c03e07bc2c4327b494ee84c504671433651ea8a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f3:1": {
+   "en": "and he created",
+   "notes": "The transcription is partially reconstructed and uncertain. The verb 'יברא' is in the third-person masculine singular perfect tense (wayyiqtol), indicating a past action. The particle 'ו' is translated as 'and'. The initial characters '# [׃' are uncertain and not translated.",
+   "line_id": 40352,
+   "source_hash": "0f73eecad67ce68c75176cf8a5284bfd3f7aefd78e06d7e6a5b92a2979b5119b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f3:2": {
+   "en": "God the human in his image in the image of God created",
+   "notes": "Uncertain reconstruction at position 5; lacuna indicated by {{  #  #  #  #  #  }}. Phrase evidence supports 'in the image of God' for positions 8-10.",
+   "line_id": 40353,
+   "source_hash": "b48c0e342507a002e8dd09739bd70d739a31f67f662d5d593b233a22bdefc8a7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f3:3": {
+   "en": "The remembrance, male and female he created. And he blessed them, the gods, and he said to them",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly in positions 5 and 6, may affect the translation. The phrase 'he created' is supported by repeated phrase evidence, but the exact wording is uncertain. The translation follows the dominant contextual rendering where possible, but some phrases are reconstructed or uncertain.",
+   "line_id": 40354,
+   "source_hash": "c7d045ee13475573119c81042a8859f51f00433f697347b75ebf3bf11a661745",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f3:4": {
+   "en": "Gods, be fertile and multiply, and fill the earth and subdue it, and rule in the fish of the sea.",
+   "notes": "The phrase 'the fish of the sea' is supported by repeated phrase evidence. The verbs are all in the imperative mood, consistent with the visible morphology.",
+   "line_id": 40355,
+   "source_hash": "d48ee405cf62fd70f8f6a8e32079f14541dcdecaf1eac34cd338c980729c42d3",
+   "source_condition": "reconstructed"
+  },
+  "4Q10 f4:1": {
+   "en": "And the heavens and the earth and all their host were completed.",
+   "notes": "The phrase 'all the host' is supported by repeated phrase evidence. The transcription contains uncertain and reconstructed elements, particularly around the first word and the article before 'heavens'.",
+   "line_id": 40356,
+   "source_hash": "5e9bbeeef19eee4c7991cd13dbb97b914c8b427f85312ada8b6dd7403a091e70",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f4:2": {
+   "en": "Gods in the seventh day work and he ceased in the seventh day",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly 'מלאכת ]׳ו#?' and 'אשר##['. The phrase 'work which he did' is a contextual rendering based on repeated phrase evidence.",
+   "line_id": 40357,
+   "source_hash": "f1058f5a183c1fa612a1178af854f27cbb9ed32dfecfd30f26ef2c9904fd8bca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f4:3": {
+   "en": "from all the work which he made, and he blessed God the seventh day",
+   "notes": "The phrase 'he blessed God' is supported by repeated evidence. 'The seventh day' is a common rendering of the final three words. The translation conservatively follows the visible morphology and phrase evidence, preserving the structure without adding unlicensed connectors or subjects.",
+   "line_id": 40358,
+   "source_hash": "fc43f741c15295baf01eda0e04c5c1b0d32ad31773c206f0d56469340d92ca0a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f4:4": {
+   "en": "And he will consecrate it, for in ceasing from all his work, which God created to make.",
+   "notes": "Uncertainty in the reconstruction of 'כ ]ל#' (position 8) and the meaning of '׃' (position 15). The phrase 'which God created to make' is a paraphrase based on repeated phrase evidence and semantic constraints.",
+   "line_id": 40359,
+   "source_hash": "4f60ae0df08a79937d255ba332e4c1bade6e0d71dece99ab11500ec3189f20be",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f5:1": {
+   "en": "And the serpent was shrewd from every animal of the field which he made",
+   "notes": "Uncertainty in the reconstruction of 'shrewd' (ע#ר#ו?ם#[) and the phrase 'every animal of' is supported by repeated phrase evidence.",
+   "line_id": 40360,
+   "source_hash": "327d0fc067e46f12f3d4903cc7d9acdceab6332430f5bde65fe29eb7fc6ebc42",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f5:2": {
+   "en": "YHWH God and he said to the woman even that he said God not",
+   "notes": "Uncertain reconstruction of initial 'YHWH' and particle 'even'; damaged verb form 'he said'",
+   "line_id": 40361,
+   "source_hash": "eb3d210be74ce0e8dcfb89b64a2bd11c8e6fe8a53d8f970776f8df03c04d0656",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q10 f5:3": {
+   "en": "You will eat from all the trees of the garden and she said to the serpent from the fruit",
+   "notes": "Uncertain reconstruction of 'serpent' and damaged syntax at the end.",
+   "line_id": 40362,
+   "source_hash": "c981c68bbfeb5941439a222dbe1fd53a07a7fbef08cc6452ee5ce9561f8494ee",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "4Q249n",
+ "label": "4Q249n",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 187,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q249n f1:1": {
+   "en": "to hear",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the damaged verb form ']ש#מוע[', which is tentatively translated as 'hear' based on the lemma 'שׁמע'. The initial and final 'ε' characters are untranslatable and omitted.",
+   "line_id": 8808,
+   "source_hash": "18f8263705bab9d2fc665e4947ce78acdbec9a7a48561d4cca4f5517a4ef8e9d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249n f1:2": {
+   "en": "his strength",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged prefix and suffix. The visible form 'גבו ]ר#ותי׳כ[ ה' is interpreted as a construct form of 'strength / power' with a possessive prefix. The characters 'ε' at the beginning and end are omitted as they cannot be translated independently.",
+   "line_id": 8809,
+   "source_hash": "061651f1cdb02d5e89065ddfa22ee91c6f8cd89906137011829160220bde7ecd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249n f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible characters and reconstructions do not provide sufficient evidence for meaningful translation.",
+   "line_id": 8810,
+   "source_hash": "56daece0aa614f48d6cba50082ad51ce43257b38ced2d1b452ff25f243b31462",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249n f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders (#), with no recoverable lexical content in Hebrew or Aramaic. All words are marked as unknown or uncertain, and no semantic constraints or phrase evidence provide additional context.",
+   "line_id": 8811,
+   "source_hash": "74f24f7c1961e32db447031cfb4c1070f7c0b39242c78d4971bb1f53de305369",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249n f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the visible lexical items.",
+   "line_id": 8812,
+   "source_hash": "d24f356bdb5977de6203b95c84708ab94a5b500e62486b4a160bb7017acdf39d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249n f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or fragments that can be translated into English. The visible characters are either damaged, reconstructed, or untranslatable.",
+   "line_id": 8813,
+   "source_hash": "0a79f3f64dbba662ab6642749d82ab79a9656fbffd3fc0d884799761a39f64a3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249n f2:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and punctuation marks. The visible characters (ε, ׃) and reconstructed placeholders do not form translatable lexical units.",
+   "line_id": 8814,
+   "source_hash": "8197ffa19dd921b1dc70bad5460ff2e18f46ccfb47dd878c5af1cca20ade86ab",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

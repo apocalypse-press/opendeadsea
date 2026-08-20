@@ -1,0 +1,60 @@
+{
+ "id": "4Q329a",
+ "label": "4Q329a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 318,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q329a f1:1": {
+   "en": "the year the first of the appointment in three in sabbath",
+   "notes": "Uncertainty in preposition 'in' due to damage. Reconstruction of 'the' and 'in' indicated by brackets in transcription.",
+   "line_id": 13809,
+   "source_hash": "b87d159e3f2e51e8c82201874b274e72889c9a284f0bd7d3a7ccf83acac90f2e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q329a f1:2": {
+   "en": "Maaziah the Passover the second appointment in three",
+   "notes": "Reconstructed text includes 'Maaziah' and 'appointment'. Uncertainty in 'appointment' due to damaged transcription. Omitted untranslatable punctuation mark (׃) and explained its omission here.",
+   "line_id": 13810,
+   "source_hash": "2e636c6517ee7d6ad9ad90d450f8a331f7bf5088ffea2d2f2d14f42389b639d6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q329a f1:3": {
+   "en": "In the barley of the Passover the third of the appointment in three",
+   "notes": "Uncertainty in transcription and reconstruction affects positions 8, 9, and 10. The phrase is fragmented, and the exact relationship between 'appointment' and 'three' is unclear.",
+   "line_id": 13811,
+   "source_hash": "b1e04a606942381b2f5c22c8c0707c06a59b4bf8ac0512704e3d9e8a5337eaef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q329a f1:4": {
+   "en": "in Abijah the Passover in fourth of appointment",
+   "notes": "Uncertainty in 'Passover' and 'appointment' due to damaged text. 'In' repeated for fidelity to the source.",
+   "line_id": 13812,
+   "source_hash": "7c635bf436cbf7c2f11b689b3d34adec276faca26891bb3433203dfc159de2cc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q329a f1:5": {
+   "en": "In three in Jakim the Passover the fifth of his appointments",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly 'חמ##שית' (fifth) and the final word 'מעדי׳ה' (appointments), which may affect the precise meaning.",
+   "line_id": 13813,
+   "source_hash": "caead81ffd47751f93fa0dac86499593e89ca3a38a8f25b285b59b36d7e6d0fc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q329a f1:6": {
+   "en": "In three in Immer the Passover. The sixth of his appointment.",
+   "notes": "The translation includes a reconstructed term 'Immer' and omits untranslatable characters 'ε' and '׃'. The phrase structure is fragmented, and the exact relationship between clauses is uncertain.",
+   "line_id": 13814,
+   "source_hash": "73b80918b6f85004d5ce1a4ef5f31847770ddf2ddddb036c9367b01d3aa12494",
+   "source_condition": "reconstructed"
+  }
+ }
+}

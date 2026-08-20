@@ -1,0 +1,39 @@
+{
+ "id": "4Q282a",
+ "label": "4Q282a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 250,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q282a f1:1": {
+   "en": "They said sullen",
+   "notes": "Uncertain reconstruction and gloss for 'סר #'. Phrase evidence suggests 'I said a pot' but is not strongly supported. Visible morphology and transcription are prioritized.",
+   "line_id": 11459,
+   "source_hash": "0371256b876897fab8c075e2b06a3fbe842e81d08efbb783fb390f0190a594ee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282a f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments, with no clear lexical items surviving. The visible forms (ε, ]בר#י?ת׳ם, מ[) do not provide sufficient evidence for a defensible translation. The uncertain lemma 'בְּרִית' (covenant) is partially visible but cannot be confidently translated in this context.",
+   "line_id": 11460,
+   "source_hash": "86420826a04a798044831fd2498c69a9c7c4c57e53934091e83c3ef0c54a23a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282a f1:3": {
+   "en": "which",
+   "notes": "The translation is based on the recoverable word 'אשר' (ashér), meaning 'which'. The other elements are either uncertain, reconstructed, or untranslatable. The initial 'ε' and ']לם##' are omitted due to uncertainty, and the final 'ε׃' is untranslatable. The reconstruction and uncertainty are noted here.",
+   "line_id": 11461,
+   "source_hash": "9d1a23b5ba3749e34b8d293d09c303cd55eaa14e8fb42474d2eedc83e54b1bba",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

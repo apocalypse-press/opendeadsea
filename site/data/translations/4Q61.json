@@ -1,0 +1,200 @@
+{
+ "id": "4Q61",
+ "label": "4Q61",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 26,
+ "scroll_id": 848,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q61 f1_8:1": {
+   "en": "I puff and pant together, I will lay waste mountains and hills and all vegetation, I will dry up and I will make rivers",
+   "notes": "Position 3: Reconstructed verb form with uncertain reading. Position 5: Untranslated punctuation mark.",
+   "line_id": 46302,
+   "source_hash": "5283b2db5408bc4018afdb386346ebb2182028f002adc8e6bf1723822d5e8df0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:2": {
+   "en": "To islands and pools I will dry up and I will lead blind by a way not known by paths not known",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 46303,
+   "source_hash": "590ef7b554207b0c3fd42286e8f6a818bb9423d21350aa127fcad6fd0b0049b1",
+   "source_condition": "reconstructed"
+  },
+  "4Q61 f1_8:3": {
+   "en": "I will tread their paths, I will make darkness before their faces into light, and rugged country into level ground. These are the things.",
+   "notes": "The phrase 'these are the words' is a high-confidence repeated pattern, but 'things' is a more conservative translation of the visible lemma.",
+   "line_id": 46304,
+   "source_hash": "570478e4e5ee205d8e494c9b1e6bcbe8658a7607dc133795321d484c7c19ddf2",
+   "source_condition": "reconstructed"
+  },
+  "4Q61 f1_8:4": {
+   "en": "I made them and I did not leave them. They will be turned back backwards, they will be ashamed of shame, those who trust in the idol, those who say",
+   "notes": "Uncertain reconstruction of conjunction 'and' after 'made them'. The phrase 'may they be turned back backwards' is supported by repeated evidence. The translation follows required contextual senses for key terms, including 'shame' and 'those who trust'.",
+   "line_id": 46305,
+   "source_hash": "28bd4c357ec35f974a94b0450169c6caaae51e77d1a7bfc3da59e0fdf12e8ef3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:5": {
+   "en": "To the molten image you our gods the deaf hear and the blind look",
+   "notes": "Uncertain reconstruction of 'you' (position 3).",
+   "line_id": 46306,
+   "source_hash": "7eb283d7633a09af9e894b453d64d5d0ed8d78f572559a102e3558dd2d83dffd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:6": {
+   "en": "To see: who [is] blind that if my servant and deaf like messengers whom I will send, who [is] blind like [one] in a covenant and blind",
+   "notes": "The translation follows the visible text order, preserving repetition and uncertainty. The phrase 'like [one] in a covenant' interprets 'כ שלם' with 'כ' as 'like' and 'שלם' as 'covenant' based on required contextual senses. The final 'blind' repeats the prior adjective, reflecting the source text's structure.",
+   "line_id": 46307,
+   "source_hash": "7e3a72dbad0dbf8e3ece0aaeceb588b2bba942be1785e64b845406fd4c7235a2",
+   "source_condition": "reconstructed"
+  },
+  "4Q61 f1_8:7": {
+   "en": "Like the servant of Yahweh, you have seen many things and do not keep them, the ears are open and he does not listen, Yahweh.",
+   "notes": "The translation follows required contextual senses and high-confidence constraints. Uncertainty in the transcription is noted for 'servant' and 'Yahweh' in position 3. The final 'Yahweh' is required by constraints despite transcription damage.",
+   "line_id": 46308,
+   "source_hash": "1549b8576911eac1e4e7e34322b49a478c55909bb1ecab26c5e065a89c1235e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:8": {
+   "en": "He was pleased for the sake of righteousness and will make the law great and glorious. It is a people despoiled and plundered; they are trapped in holes.",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 46309,
+   "source_hash": "7b7b18572380717be3c4fbeb336ba6914be11f4c2beb6c38b89625696ae87fb2",
+   "source_condition": "reconstructed"
+  },
+  "4Q61 f1_8:9": {
+   "en": "All of them and in houses of imprisonment they are hidden and they have become into spoil and there is not a deliverer from plunder and there is not one who says bring it back",
+   "notes": "Positions 5 and 17 are reconstructed and uncertain.",
+   "line_id": 46310,
+   "source_hash": "8424b2d9f5c50e8170301d3259c6bba5f1f4208a44d62d1f7119c213f6846e0f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:10": {
+   "en": "Who among will he give ear to this will he pay attention and will he listen to afterwards Who has he given to plunder Jacob and Israel to despoil",
+   "notes": "Position 4 is omitted due to uncertainty. The translation follows required contextual senses and visible morphology, preserving grammatical person and number. Uncertainty in the transcription is handled by omitting unsupported content and explaining in notes.",
+   "line_id": 46311,
+   "source_hash": "4912f67f4bcbdff4d7644011556adcdb1eab4015be87d05a0519a95dce43d151",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:11": {
+   "en": "Was it not YHWH? We have sinned to him and they were not willing in his ways to walk and they did not listen to his instruction and he poured out",
+   "notes": "Position 4 is uncertain and omitted.",
+   "line_id": 46312,
+   "source_hash": "945ae0a3268d7c824c43c35eb72c6ba652c4830cf764dc45ad87561e718d9f55",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:12": {
+   "en": "On its rage, and its fierceness of battle, and it devoured from round about, and it did not know, and it burned in, and not",
+   "notes": "The phrase 'on its rage' is a required contextual sense for the first two words. The word 'anger' is an advisory contextual sense for the third word, but it is uncertain. The phrase 'and its fierceness of battle' is a required contextual sense for the next two words. The phrase 'and it devoured from round about' is a required contextual sense for the following four words. The phrase 'and it did not know' is a required contextual sense for the next three words. The phrase 'and it burned in' is a required contextual sense for the following two words, with '(in)' being a required contextual sense for the preposition. The final 'and not' is a required contextual sense for the last two words.",
+   "line_id": 46313,
+   "source_hash": "61e1da2f5d1c4df195e9f70724f0d5ee780fb0c043f645ad4897f43f112d2020",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:13": {
+   "en": "He set it upon heart and now thus he says Yahweh who created O Jacob and formed",
+   "notes": "The translation follows the required contextual senses and phrase evidence, preserving the grammatical person, number, and semantic relationships. The phrase 'it set [it] on heart' is supported by repeated phrase evidence, though its meaning is uncertain. The lacuna in 'ברא׳ך' is handled by using '[who]' as per the contextual sense, and the final '׳ך ]' is omitted from the translation as it cannot be independently translated.",
+   "line_id": 46314,
+   "source_hash": "a95a86643520ec084e666b43b3247f3a40e4d8c148b5d2f03a8227104a8a5214",
+   "source_condition": "reconstructed"
+  },
+  "4Q61 f1_8:14": {
+   "en": "Israel, do not fear, for I have redeemed you, I have called you by name, you. For you will pass in waters",
+   "notes": "Positions 16 contains a surviving source character that cannot be translated independently.",
+   "line_id": 46315,
+   "source_hash": "7d95279a22de2265ef61566e471c6fb952141f913ab2184005f86a376efc2d5c",
+   "source_condition": "reconstructed"
+  },
+  "4Q61 f1_8:15": {
+   "en": "I and in rivers not they will wash you off that you will walk in fire not you will be scorched and flame not it will burn",
+   "notes": "Uncertain reconstruction of 'I' (position 1), 'and' (position 2), 'in' (position 3), and 'rivers' (position 4). The phrase 'rivers not they' is supported by repeated evidence. The translation follows semantic constraints for negation, prepositional phrases, and participants.",
+   "line_id": 46316,
+   "source_hash": "50c8255aec2c88bb8541ec36220d43fa09aab8cdacb6f783a5199bc1030a8698",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:16": {
+   "en": "In you that I am Yahweh your God the holy one of Israel your deliverer I have given your ransom Egypt Cush",
+   "notes": "The transcription contains a reconstructed token and two uncertain tokens. The phrase evidence and semantic constraints support the translation of 'Yahweh' and 'the holy one of Israel' as proper names. The translation of 'your ransom' is supported by the semantic role of 'secondary object' and the contextual sense of 'ransom' for the token at position 11. The phrase 'Egypt Cush' is supported by repeated phrase evidence and semantic constraints.",
+   "line_id": 46317,
+   "source_hash": "8010689e08ff1ee152e25c532fc31672aa5f9429ab2aea5b927d9803e939be92",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:17": {
+   "en": "And Seba under you because that you are precious in eyes and you are honored and I love you and I will give humankind under you",
+   "notes": "Uncertain reconstruction of 'from' (position 5).",
+   "line_id": 46318,
+   "source_hash": "0442619b3883529e41d2ea922d9d495fd069d25dbefa92a7615301f026a9417d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:18": {
+   "en": "And peoples in place of life",
+   "notes": "The translation reflects the visible transcription and contextual constraints. The phrase 'in place of life' is supported by repeated phrase evidence and required semantic roles. Uncertainty in the transcription is noted but does not affect the recoverable translation.",
+   "line_id": 46319,
+   "source_hash": "f4acebc555e7e2aafc3397330bde86f79f8f17ab7e616100bd6bfd0b829e8985",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:33": {
+   "en": "In the one who sent out chariotry and horses and an army and a strong one together they lay down not they rose",
+   "notes": "Uncertain reconstruction of preposition 'in' and conjunction 'together'. Untranslated damaged characters and punctuation omitted.",
+   "line_id": 46320,
+   "source_hash": "0739182764497e7b1384b682484c3a58498855c70cea386ad22034b63fadb5aa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:34": {
+   "en": "They were extinguished like a wick, they were quenched. Do not remember former things and ancient things. Do not consider. Here, I am about to do.",
+   "notes": "The translation includes reconstructed and uncertain elements, particularly in the verbs 'were extinguished' and 'consider'. The phrase 'here, I am about to do' is a paraphrase based on contextual evidence.",
+   "line_id": 46321,
+   "source_hash": "ed81214d7dc2c9a469d781dceeaaf12fe23e066292e5b22af209372204ad7d96",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:35": {
+   "en": "A new thing now springs up, will you not know it? Also I will make in the desert a way in a desolate place.",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'in the desert a way' is supported by repeated evidence. The final prepositional phrase is advisory and reconstructed.",
+   "line_id": 46322,
+   "source_hash": "865c637b6f5a28ed6be49ee36b8bfb2dd3c2958c244898148ef9b63f6789df3d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:36": {
+   "en": "It burdens the wild animal of the field, jackals and daughters of an ostrich, that I have put in wilderness waters, rivers",
+   "notes": "Uncertain reconstruction at position 2. Position 11 glossed as ostrich based on phrase evidence. Positions 15-17 rendered as wilderness waters, rivers based on phrase evidence.",
+   "line_id": 46323,
+   "source_hash": "960b1eb94e0b1013b3a83567a024bca4e997ddfc39f038953fa9eca482950203",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:37": {
+   "en": "In a desolate place to give drink to the chosen one, a people which I formed for praise they will recount",
+   "notes": "The transcription contains significant damage and uncertainty, particularly around positions 4 and 11. The phrase 'to give drink to' is reconstructed and uncertain. The relative particle 'which' is inferred from the context. The preposition 'for' at position 11 is advisory and uncertain. The final verb 'they will recount' is certain, but its object 'praise' is required by semantic constraints.",
+   "line_id": 46324,
+   "source_hash": "0c6ee17dc02e9f4b941a89feb51ffa2f18097572dbbf0fce717becd6ad1b56e1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:38": {
+   "en": "And you did not call on Jacob, for you have grown weary with Israel. Not.",
+   "notes": "The phrase 'you have grown weary with Israel' is supported by repeated phrase evidence. The final 'not' is a separate negation marker, possibly indicating a double negation or an emphatic statement.",
+   "line_id": 46325,
+   "source_hash": "bca0c9ec060fcb7242111f7acb812d34ad6dc0a4cf879e18f91a8a9029b4e6ae",
+   "source_condition": "clean"
+  },
+  "4Q61 f1_8:39": {
+   "en": "You have brought to the sheep your burnt offerings and sacrifices, not you, I have not served with an offering, and not",
+   "notes": "Uncertain reconstruction of 'come' (position 1) translated as 'you have brought' based on contextual sense. Uncertain reconstruction of 'burnt-offering' (position 4) translated as 'burnt offerings' based on contextual sense. The final 'and not' is incomplete due to damage, with no recoverable text beyond this point.",
+   "line_id": 46326,
+   "source_hash": "8b5b353cf0014575383fc4a3a19bf529ceef4bb3d8447de193897cda0d83824d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q61 f1_8:40": {
+   "en": "I am weary with frankincense, and you have not bought for me calamus with money, and the fat of your sacrifices you have not given me to drink.",
+   "notes": "The translation incorporates high-confidence contextual senses and repeated phrase evidence. Uncertainty in the transcription is noted for positions 1, 6, 11, and 13. The phrase 'money calamus' is supported by repeated evidence, and 'the fat their sacrifices' is a contextual rendering. The negation and semantic roles are applied as constrained.",
+   "line_id": 46327,
+   "source_hash": "14b092c6c04e0b9383c5a2a7582d17a756b0ff9b511beff85b46724c25b5e17b",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

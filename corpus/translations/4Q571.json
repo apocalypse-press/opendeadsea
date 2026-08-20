@@ -1,0 +1,53 @@
+{
+ "id": "4Q571",
+ "label": "4Q571",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 613,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q571 f1:11": {
+   "en": "And he will remember the great lord of eternity to the bread of consolation opposite",
+   "notes": "The initial 'ε' is untranslatable and omitted. The lemma 'דכר' is translated as 'remember' based on visible morphology. The term 'רב׳י' is rendered as 'great' from its gloss options. 'מרא' is translated as 'lord'. 'עלמ' is rendered as 'eternity'. 'א' and 'ל' are particles aiding syntax but not directly translated. 'ברית׳ה' is translated as 'bread of consolation'. Final 'ל' and 'קבל' are translated as 'to' and 'opposite' respectively, with the closing bracket omitted as untranslatable.",
+   "line_id": 31568,
+   "source_hash": "61c9f87e074ba9a7b387dcfa993f15a2545c09a362109608d5a26d41a4d8d999",
+   "source_condition": "clean"
+  },
+  "4Q571 f1:12": {
+   "en": "A city and he returns to upon me who works the great lord of eternity to his mercies and he becomes clear",
+   "notes": "The phrase 'upon me who works the great lord of eternity' is a high-confidence reconstruction based on repeated phrase evidence. The terms 'city' and 'mercies' are uncertain due to damage. The word 'clear' is a best guess for 'נהיר' with no trusted gloss available.",
+   "line_id": 31569,
+   "source_hash": "b2c0c22d61d9a8fae02f6989f4a56f48123e70e8e3942755f2656c7fde03a0cf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q571 f1:13": {
+   "en": "To see the whole sitting earth and that in the far district",
+   "notes": "Uncertain particles 'א' omitted. Reconstructed 'הוא' translated as 'that'. Final 'ε' omitted as untranslatable.",
+   "line_id": 31570,
+   "source_hash": "25c2698f4db92e97e154f6f6803747b09feaf5269a9f8d1d5ea0b4c3589e7bb1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q571 f1:14": {
+   "en": "To his father he said, who is clear, until spreading out, he is, he said to him",
+   "notes": "Uncertain elements include the meaning of 'נהי?ר' (position 6), the reconstruction of 'לה##ו#?א##[' (position 12), and the overall syntax due to damage and uncertainty in the transcription. The phrase 'Yahweh he has said to' is supported by repeated evidence but not directly reflected in the visible text.",
+   "line_id": 31571,
+   "source_hash": "5ef282e520890b4c7d5cff2f14d6a703822d68a06e588efa8332883bc866ece0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q571 f1:15": {
+   "en": "Behold Dan he",
+   "notes": "The final characters 'ε׃' are untranslatable and omitted. The phrase 'he has vindicated me' is a repeated pattern but not directly supported here, so it is not used.",
+   "line_id": 31572,
+   "source_hash": "d267e42ff9657120aa56fc58664360a36e11b4343d494eeabd7e2b4f0e9b7ffa",
+   "source_condition": "reconstructed"
+  }
+ }
+}

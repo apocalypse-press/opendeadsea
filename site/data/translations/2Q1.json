@@ -1,0 +1,95 @@
+{
+ "id": "2Q1",
+ "label": "2Q1",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 11,
+ "scroll_id": 755,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q1 f1:0": {
+   "en": "And Abraham rose early in the morning",
+   "notes": "The initial character 'ε' is untranslatable and omitted. Phrase evidence supports the sequence 'he rose early Abraham in' but the translation preserves the recoverable source structure without adding a pronoun.",
+   "line_id": 39463,
+   "source_hash": "0db9db8e3956e9e59dd66a25097620c2a68bbd7438ce6812032344b98a85f0b3",
+   "source_condition": "clean"
+  },
+  "2Q1 f1:1": {
+   "en": "to the place where he stood there the faces",
+   "notes": "The object marker 'את' and the final 'ני' in 'פני' are uncertain. The phrase is fragmented and lacks clear contextual connections.",
+   "line_id": 39464,
+   "source_hash": "92ebadd4191780a62f317a255bf26ad6e0f0cda7ecf09f5b5ed75f4de02718a7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q1 f1:2": {
+   "en": "YHWH and he looked down on the face of Sodom and Gomorrah",
+   "notes": "Uncertain transcription at position 7; reconstructed text at position 1.",
+   "line_id": 39465,
+   "source_hash": "5d2a7fdf6bd39834cbd1b6422ee98c1a756bf8252b9eb1ccb66c6e5ca701409f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q1 f2i:0": {
+   "en": "And Esau took his wives and his sons",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The text ends mid-phrase with a closing bracket in the transcription, indicating possible damage or abbreviation.",
+   "line_id": 39466,
+   "source_hash": "bed2c5994fbd510964e2c871d16584a4c1ba20d53c7446ecf122f7b6633defdc",
+   "source_condition": "clean"
+  },
+  "2Q1 f2i:1": {
+   "en": "and his daughters and all the lives of his house and his purchase",
+   "notes": "Uncertain reconstruction of 'מקנ׳הו#?' as 'his purchase' due to damage and low confidence in the reading. Phrase evidence supports 'every life of the house' for positions 6-8, but the translation retains individual words for clarity.",
+   "line_id": 39467,
+   "source_hash": "94874d3b54fa2c24a3ea7741c2556a707b7ee266a20f9471e5836277d8890c66",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q1 f2i:2": {
+   "en": "and all his cattle and all his property which he had acquired in the land",
+   "notes": "The phrase 'all his cattle' is supported by repeated phrase evidence. The phrase 'all his property' is supported by repeated phrase evidence. The phrase 'which he had acquired in the land' is supported by repeated phrase evidence, though with lower confidence.",
+   "line_id": 39468,
+   "source_hash": "19ffb8bdd1288badae6eca085abac2bd068f5ad34a07893518bf155e8d6a9bf4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q1 f2i:3": {
+   "en": "Canaan and he went to the land from before Jacob his brother",
+   "notes": "The phrase 'Jacob his brother' is supported by repeated phrase evidence. The phrase 'the land from before' is supported by repeated phrase evidence. The phrase 'go to land' is supported by repeated phrase evidence.",
+   "line_id": 39469,
+   "source_hash": "4c6fa4b1e7e3ec5a2af345d5bd25aa202f67c32539928927b7bb0f0480c5fa71",
+   "source_condition": "reconstructed"
+  },
+  "2Q1 f2ii:0": {
+   "en": "under Hadad the son of Bedad who struck Midian in the field of Moab",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 39470,
+   "source_hash": "c9d2e591c03b548f5d2fe63da34eb8939aa042a9bd3a7a9ab1e199ebee65bf2f",
+   "source_condition": "reconstructed"
+  },
+  "2Q1 f2ii:1": {
+   "en": "And the name of his city, Avith. And he died, Hadad. And he reigned in his place.",
+   "notes": "Uncertainty in the transcription and reconstruction of 'עיר׳ו' and 'ע##[ וית'. The phrase 'he died Hadad' is supported by repeated evidence, while 'the name his city' and 'he reigned in' are partially supported.",
+   "line_id": 39471,
+   "source_hash": "c4b44757fd305401bfbef2dbd5eb3f32be2e8f52009ff4969737e747b2735549",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q1 f2ii:2": {
+   "en": "Samlah from Masrekah and he died Samlah and he reigned in his place",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'Samlah from Masrekah' is supported by repeated phrase evidence. The verbs 'he died' and 'he reigned' are translated based on the visible morphology and lexical glosses. The suffix 'his' in 'his place' is inferred from the morphology of the source text.",
+   "line_id": 39472,
+   "source_hash": "eeab27b7c69a9eba2ede8b8caef156430d4cfc25a76504c827187d14c40e6aed",
+   "source_condition": "reconstructed"
+  },
+  "2Q1 f2ii:3": {
+   "en": "Saul from Rehoboth the river",
+   "notes": "The transcription is partially damaged and reconstructed. The phrase 'Saul from Rehoboth' is supported by repeated evidence, while 'Rehoboth the river' is less certain. The final punctuation marks and the character 'ε' are omitted as they cannot be translated independently.",
+   "line_id": 39473,
+   "source_hash": "3fd3835e164d48ab226826536a69bc9d62dd1321dcabf6491c8b98f280d04ced",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "4Q69",
+ "label": "4Q69",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 857,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q69 f1_2:1": {
+   "en": "The hooves of its horses like flint they are regarded and wheels like a storm-wind",
+   "notes": "Uncertain reconstruction and gloss for positions 5 and 7. Position 10 is an unknown punctuation mark and omitted from translation.",
+   "line_id": 46399,
+   "source_hash": "58003473f92b46d5fe6eef481a14722765410ab613c7644b5c227b67df1c172c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q69 f1_2:2": {
+   "en": "Its roaring like a lion, it will roar like the young lions, and it will growl and it will seize",
+   "notes": "Uncertain elements include the verb at position 5, the particle at position 6, and the noun at position 7. The translation reflects the visible morphology and semantic constraints, preserving the grammatical person, number, and semantic relationships.",
+   "line_id": 46400,
+   "source_hash": "39d3c03b623151c518a32da78f26a2ff75e16109002f0e54476511cd363accbc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q69 f1_2:3": {
+   "en": "Prey and it will carry off and there is not a deliverer and it will growl over in day",
+   "notes": "Uncertain reconstruction and gloss for positions 3, 4, 5. Position 7 is an untranslatable punctuation mark.",
+   "line_id": 46401,
+   "source_hash": "91ade1eef18ca53da1e6f91cb6a2af5103c6b04ce95a6fea007aba2abfaeb488",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q69 f1_2:4": {
+   "en": "That, like the growling of the sea, and someone will look to the land, and there! darkness, distress.",
+   "notes": "The translation follows the required contextual senses and visible morphology. The phrase 'like the growling of the sea' is reconstructed from the provided tokens. The verb 'will look' is advisory but supported by the hifil stem of the verb 'look at'. The final two nouns 'darkness' and 'distress' are treated as a predicate, as required by the semantic constraints.",
+   "line_id": 46402,
+   "source_hash": "6c34c5f8fc2070d2c589730084827041ebfed62796e8568f52b8ef3d33b71783",
+   "source_condition": "reconstructed"
+  }
+ }
+}

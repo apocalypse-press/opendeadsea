@@ -1,0 +1,46 @@
+{
+ "id": "4Q468aa",
+ "label": "4Q468aa",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 493,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468aa f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content in Hebrew or Aramaic. All visible forms are either uncertain or lack a trusted gloss, leaving no defensible English translation.",
+   "line_id": 22581,
+   "source_hash": "537c14ba49357a655f71ff0273829cdc1b9d0fab5ef2f5090e4d16d71735a59f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468aa f1:2": {
+   "en": "day when",
+   "notes": "Translation based on repeated phrase evidence for positions 2-3. Uncertain and reconstructed elements noted but not bracketed in translation.",
+   "line_id": 22582,
+   "source_hash": "a7e80042886dc2b644078d9a80f1e0e30da996a90ce5bb38e47f8f8e163dd1ba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468aa f1:3": {
+   "en": "sit",
+   "notes": "The translation is based on the reconstructed verb ]ישב[. The surrounding characters (ε) are untranslatable and omitted.",
+   "line_id": 22583,
+   "source_hash": "1f2dba9366e35e49501e9fac2a5974017c86bb84eae0ca72b2480589fc1fea30",
+   "source_condition": "reconstructed"
+  },
+  "4Q468aa f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ל#[, ε, ׃) with no clear lexical or grammatical meaning. The reconstructed element ]ל#[ is speculative and lacks sufficient context for translation. No defensible English words can be derived from the surviving material.",
+   "line_id": 22584,
+   "source_hash": "8a575e5acf115711ea32895b5f1dd6125dcec4bf78870a3ae53c978ae6455a09",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

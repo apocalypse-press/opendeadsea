@@ -1,0 +1,60 @@
+{
+ "id": "4Q528",
+ "label": "4Q528",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 566,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q528 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable Greek and Hebrew fragments with no clear lexical or syntactic structure. The reconstructed verb 'חנף' (alienate) is uncertain and lacks context for translation. All other elements are indeterminate or damaged beyond recovery.",
+   "line_id": 29310,
+   "source_hash": "e1cf51fa4514aed4504fc9ddb66cc316075f8f194ba98f6fc5187941fab382ac",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q528 f1:2": {
+   "en": "the people who you bless",
+   "notes": "Uncertain transcription and reconstruction of several words. The verb 'bless' is chosen over 'kneel' based on the context, but both are possible. The relative particle 'who' is implied by the relative pronoun 'which' but not explicitly present in the text.",
+   "line_id": 29311,
+   "source_hash": "f93534ce97027200689bcbe1ff98b579408eef9c1d0acde657e5db97c005bdef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q528 f1:3": {
+   "en": "You will gather the one afraid, sons of Israel, which",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the verb 'collect' and the relative particle 'which'. The phrase 'sons of Israel' is supported by repeated phrase evidence, but its exact rendering is uncertain. The initial and final characters are untranslatable and omitted.",
+   "line_id": 29312,
+   "source_hash": "62c3e4b3b8916bbd433e70a69e120aac3b75cc5e9ec7589996966ca221f9f6bf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q528 f1:4": {
+   "en": "And you will be complete, the complete in all work",
+   "notes": "Uncertain transcription and reconstruction in positions 3, 4, and 9. Phrase evidence supports 'any work' and 'with all workmanship' but the translation follows the visible lexical items directly.",
+   "line_id": 29313,
+   "source_hash": "5de607394c6ba20e56d2c95eddbeeae220863df49121a5c04becf8622f3341e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q528 f1:5": {
+   "en": "the chosen ones from Asher all those fearing Yahweh the walking in his way",
+   "notes": "Uncertain transcription and reconstruction in multiple positions. Phrase evidence suggests 'those fearing Yahweh' and 'walking in the way' as established renderings. Glosses for 'chosen' and 'from Asher' are tentative due to damage.",
+   "line_id": 29314,
+   "source_hash": "2d1c3f5b19da1dfd7f5d62ed5fb16d45eb0a9b3b85262805ae9ac30a42f568ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q528 f1:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. No meaningful translation is possible.",
+   "line_id": 29315,
+   "source_hash": "ad7d9e6ed6c5195434e0db28fee4b03e1fdce21b5d7f02141c3684d556ab69e0",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

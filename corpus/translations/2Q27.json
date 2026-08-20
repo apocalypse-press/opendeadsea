@@ -1,0 +1,53 @@
+{
+ "id": "2Q27",
+ "label": "2Q27",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 70,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q27 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or fragments that can be translated into English. The visible characters are either untranslatable or too damaged to provide meaningful content.",
+   "line_id": 3996,
+   "source_hash": "b986f3273032eb312b5eaa178f151b11b13f0b7cecc9b02ac68ab284701e48fb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q27 f1:2": {
+   "en": "and to them they say",
+   "notes": "The transcription is heavily damaged, with uncertain readings and reconstructions. The phrase 'to them they say' is supported by repeated phrase evidence, but the overall meaning remains uncertain due to the fragmentary nature of the text.",
+   "line_id": 3997,
+   "source_hash": "c2dd8d9c130bcd7c59568f8428876e7e63206f59e65930060410d68f9bf6c38d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q27 f1:3": {
+   "en": "and he will take",
+   "notes": "The transcription contains uncertain and unknown elements, including a damaged word and untranslatable characters. The translation reflects only the recoverable content: the conjunction 'and' and the verb 'he will take'. The object marker 'את' is reconstructed but not translated due to lack of a clear object. Uncertainty is noted but not bracketed in the translation.",
+   "line_id": 3998,
+   "source_hash": "76017df33afdc07d4ad47fad15dd442f5793b367209ffbab202656cc2779fda4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q27 f1:4": {
+   "en": "and not understand",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters and unclear fragments. The translation reflects only the recoverable words 'and', 'not', and 'understand'. The remaining elements are omitted due to uncertainty or lack of defensible translation.",
+   "line_id": 3999,
+   "source_hash": "5a7e59f0454ef33beb0334f555afaffa48a2c023d9021c2ae399693d21c4a8db",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q27 f1:5": {
+   "en": "Who are we to?",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged 'who' (מי#?), a clear 'we' (אנחנו), and a reconstructed 'to' (ל). The final punctuation mark (׃) and other fragments (ε) are omitted as they cannot be translated independently. Uncertainty is noted but not bracketed in the translation.",
+   "line_id": 4000,
+   "source_hash": "f5bc6eb0a5d94d257cb04eb1ccb05f55cfbda018d1aadd44c3994d9a3ba1f61e",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

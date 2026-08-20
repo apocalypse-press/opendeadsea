@@ -1,0 +1,207 @@
+{
+ "id": "4Q38",
+ "label": "4Q38",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 27,
+ "scroll_id": 819,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q38 f1:1": {
+   "en": "I heard the sound of the words of this people who spoke to you, they have done well all that",
+   "notes": "Uncertain reconstruction and damage in positions 12 and 13 affect the translation of 'they have done well all that'.",
+   "line_id": 43541,
+   "source_hash": "4f6e2a04434a7dbb5426860fd2777886ddb7074b62e947a96f0e616e136f0022",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f1:2": {
+   "en": "They spoke who will give and it was this heart to fear and to keep commandments",
+   "notes": "Uncertain reconstruction of 'to fear' (position 11) and 'commandments' (position 16). Object marker 'et' omitted in translation due to uncertainty (position 12).",
+   "line_id": 43542,
+   "source_hash": "40a7b2728f5ff3728363053e6fd59c8407637cfc98f1c10e55270b68cd1c4d48",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f1:3": {
+   "en": "The days, so that it may go well for them and their sons forever. Go say to them, return to them.",
+   "notes": "Uncertain reconstruction of 'sons' (position 8) and 'eternity' (position 10). Uncertain suffix in 'to them' (position 14). Reconstructed verb 'return' (position 15).",
+   "line_id": 43543,
+   "source_hash": "a334cce3f102141734b5bb79b5fef09bd8939e13ad0066ff2677cfe2046c6aa7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f1:4": {
+   "en": "To your tents and you here stand with and I will speak to",
+   "notes": "Uncertain reconstruction of damaged text at positions 1 and 12. Low confidence in 'stand with' at positions 7-8.",
+   "line_id": 43544,
+   "source_hash": "20437b2fe3581a90853b9d05cf7dcadfa5008984399efcf9f606a2bfdc8e6ac6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f1:5": {
+   "en": "all the commandment and the portions and the justices which you learn and they did in the land which I",
+   "notes": "Uncertain reconstruction at positions 13, 14, 15, 16. Phrase evidence supports 'do in the land' and 'land which I' but is not mandatory. Gloss for 'חקים' as 'portions' is context-free; 'statutes' is a possible alternative.",
+   "line_id": 43545,
+   "source_hash": "f1ed1fba2b5d69b189cfc9dfc57b41fea4ec6834942796131e4bc065d8358b23",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f1:6": {
+   "en": "Give to them to trample down. And you kept to make as Yahweh commanded God",
+   "notes": "The phrase 'God (et)' is a reconstruction with high support. The sequence 'Yahweh God' is also well-supported, but the translation prioritizes the higher-confidence 'God (et)' pattern. The verb 'trample down' is a context-free gloss for the infinitive construct form of the root ירשׁ. The translation conservatively retains all recoverable words in order, including the uncertain 'א ]ל#[ והי׳כם' reconstructed as 'God'.",
+   "line_id": 43546,
+   "source_hash": "9a54231f1583337156273d3197664812816d68d9eb52ec3b356f8c3cc7b50b6f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:1": {
+   "en": "The earth opened its mouth and swallowed them and their tents",
+   "notes": "Uncertain due to damage and reconstruction. The verb 'swallowed' is a wayyiqtol form, but the context suggests a perfective sense. The object marker 'et' is omitted in translation for fluency.",
+   "line_id": 43547,
+   "source_hash": "79396fb1879ac09c8f9e74838e28756463e2540362c40df0f5a2a90a0f70cb7b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:2": {
+   "en": "all the substance which is in their feet in the midst of all Israel that your eyes have seen",
+   "notes": "The transcription is partially damaged and reconstructed. The phrase 'in the midst of all' and 'all Israel' are supported by repeated evidence. The relative clause 'which is' is inferred from the relative particle 'which' and the context. The verb 'have seen' is a participle, but its subject is not explicitly stated in the source.",
+   "line_id": 43548,
+   "source_hash": "5006120cd4762c947b0814487b5ed6bda558cb77a872f1ad5df7c296b5e703ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:3": {
+   "en": "All the work of Yahweh the great which he did to them. And you kept",
+   "notes": "Uncertain reconstruction of 'which' and preposition 'to them'. Final clause incomplete.",
+   "line_id": 43549,
+   "source_hash": "c1e204d563849fd9864027bf9fb710a9dff7bc19e3ddf71f116f8638a0c8d580",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:4": {
+   "en": "the whole commandment the portion and the judgments which I command you today",
+   "notes": "Uncertain reconstructions in 'portion' and 'judgments'. Damage affects 'and' and 'the' before 'judgments'.",
+   "line_id": 43550,
+   "source_hash": "4a3c39952c33cca4ac0e3be4805b44ac544a977885eef75e2c1b95a6476f7a9f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:5": {
+   "en": "In order to be strong and multiply, and come, and trample the land where you",
+   "notes": "Uncertain reconstruction of 'multiply' (position 4), 'come' (position 6), and 'trample' (position 8). Phrase 'land where you' supported by repeated evidence.",
+   "line_id": 43551,
+   "source_hash": "e331289745659a41b73378a5d46e56ae9427a2cf7651b06547eaf6835050d4a2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:6": {
+   "en": "Crossing the Jordan there to trample it down, and so that you may prolong days upon the land.",
+   "notes": "Uncertainty in 'שמ׳ה#' (there) and 'ל#מ#ע#ן?' (because of/so that). Reconstructed '[ים]' in 'ימ##[ ים' (days). Phrase evidence supports 'the Jordan to' and 'so that you may prolong days on'.",
+   "line_id": 43552,
+   "source_hash": "850ba42053c0c2ca6d0aa83f75791a8cbfb9f07d341aa8ed185f20844cebf61f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:7": {
+   "en": "which he swore Yahweh to the fathers to give to them and to their seed after them the earth",
+   "notes": "Uncertain reconstruction of 'to give' (position 7). Reconstructed 'after' (position 12).",
+   "line_id": 43553,
+   "source_hash": "f5deda7ebd43b244c18fd1993d5f2ed8090bc28e11d44e79e44f4bbfe5287d3d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:8": {
+   "en": "flowing of milk and honey that the land where you are about to go to inherit it",
+   "notes": "Uncertain transcription at position 3 (ו?) and 10 (אתמה#). Reconstructed text at position 11 (באים[).",
+   "line_id": 43554,
+   "source_hash": "31074f7df5e0f057258e38e60c6c11652d9c6dca053cdd6c3a0aa7e099efa627",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:9": {
+   "en": "Not like the land of Egypt is it, from which you went out, where you will sow your seed",
+   "notes": "The phrase 'the land of Egypt' is supported by repeated phrase evidence. The verb 'will sow' is a future tense rendering of the imperfect verb form, which is appropriate in this context. The relative pronoun 'which' is implied by the relative particle 'which' and is necessary for grammatical coherence in English.",
+   "line_id": 43555,
+   "source_hash": "a15064536bf46a08fde5958f334d35204577b63a9c2c891cd1d4196a42f85969",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:10": {
+   "en": "And you shall give drink by the foot as a garden of greens. And the land where you are about to pass over",
+   "notes": "Uncertain elements include the garden (גן?) and greens (י?ר#ק). The phrase 'where you are about to pass over' is supported by repeated phrase evidence.",
+   "line_id": 43556,
+   "source_hash": "d5648eb5b58eb3fbe8dd4bd874a3345a81a375317239f9e6daab8012ae321508",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:11": {
+   "en": "To trample the earth, mountains and valleys, for rain of the heavens, she will drink water",
+   "notes": "The phrase 'they will possess [the] land' is a high-confidence contextual rendering for positions 2-3, but 'to trample' is retained from the context-free gloss for consistency with visible morphology. Position 10 is reconstructed and uncertain. The final word 'earth' at position 14 is omitted as it repeats the earlier 'earth' without adding new information.",
+   "line_id": 43557,
+   "source_hash": "ae7df9482bf2123dbe3ccbc7d7a6cb314e7adf89bc42efad25343da0c1f4f70b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:12": {
+   "en": "which Yahweh your God consults the eyes of Yahweh your God in the beginning",
+   "notes": "The object marker 'או?ת#׳ה#' is uncertain and omitted from the translation. The phrase 'the eyes of Yahweh your God' is supported by repeated phrase evidence.",
+   "line_id": 43558,
+   "source_hash": "40f51a3dae6bff805695139d24e0c2a5083b03b3c029b7ca98a6aefe9bf21c78",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f2:13": {
+   "en": "And until the end of the year. And it will be if you carefully listen to the commandments",
+   "notes": "The phrase 'if carefully (listen) you will listen' is supported by repeated evidence and is used to translate positions 9-11. The translation of 'it will be' at position 8 is uncertain due to damage. The phrase 'you will obey (to) the commandments' is supported by repeated evidence and is used to translate positions 11-13.",
+   "line_id": 43559,
+   "source_hash": "13468893af591877387f14dc9bca52766539773a8c08548f1e618cdb24d22f5d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f3:1": {
+   "en": "They will slaughter to the demons not God",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The particle 'ל' is translated as 'to' based on its morphology. The word 'שדים' is translated as 'demons' based on its lexical gloss. The reconstructed 'לא' is translated as 'not'. The final word 'אלה' is translated as 'God' based on its lexical gloss.",
+   "line_id": 43560,
+   "source_hash": "ceeca10ed460234f08fbf0ea079be1bc1024c35aa13ac9809cab8f97e118b479",
+   "source_condition": "reconstructed"
+  },
+  "4Q38 f3:2": {
+   "en": "Gods did not know them, new from near they came not they knew",
+   "notes": "Uncertainty in transcription and reconstruction at the end of the line. The verb 'שערו׳ם' has multiple possible meanings, but 'know' is chosen based on context. The phrase 'מ קרו ]ב' is translated as 'from near' due to the visible morphology, but the exact meaning is uncertain.",
+   "line_id": 43561,
+   "source_hash": "6afda59b65881f52ab8cc6d539f85f519d7f398e53cf094fcced2a287ff43420",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f3:3": {
+   "en": "Your fathers, the rock bore you, and you shall not forget God who brought forth",
+   "notes": "Translation includes reconstructed text. Uncertainty in the rendering of 'תשי' and 'מחלל׳ך'.",
+   "line_id": 43562,
+   "source_hash": "f12db0241c493159ef2daf8195d6c57750304da24b836eb82ea229f268caaf46",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f4:1": {
+   "en": "For a fire has been kindled and burns unto Sheol",
+   "notes": "The phrase 'a fire it has been kindled' is supported by repeated evidence. The verb 'burns' is a natural continuation of the kindled fire, and 'unto Sheol' reflects the lexical gloss for 'עד שאול'.",
+   "line_id": 43563,
+   "source_hash": "35ddec66fd338c69208b3f5b1cddd6a57b87183e08fbdf1f8b362b816f603f91",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f4:2": {
+   "en": "The lower will eat the earth and its produce, and will devour the foundations of the mountains",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly 'יבו ]ל#׳ה#' (produce), which is marked as uncertain. The phrase 'it has consumed [the] earth' is supported by repeated evidence, and '[the] foundations of [the] mountains' is a supported rendering of the final two words.",
+   "line_id": 43564,
+   "source_hash": "18a0e1214e8e166bdd18b7f485131cf2dc40bbd70c9e6e55febdb4202fa595e1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f4:3": {
+   "en": "I will sweep away upon evils arrows I will be complete in",
+   "notes": "Uncertain reconstruction of 'arrows' and final preposition. Fragmentary syntax with no recoverable subject or object.",
+   "line_id": 43565,
+   "source_hash": "7749254267988864dc9b4d45ee91e14a511beac6b5cc17dc6215ff35e45e580d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f5:1": {
+   "en": "Sucking with a man of age, I said, 'I will split, I will cease.'",
+   "notes": "The transcription is partially damaged and reconstructed, with uncertainty in positions 4 and 6. The translation reflects the recoverable text, but the exact meaning of the phrase remains uncertain due to the damage and reconstruction.",
+   "line_id": 43566,
+   "source_hash": "7475911882bd9edd8b20b2a3408bafa2b6990cc462b7a5fb9708dc0c0d9d791f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38 f5:2": {
+   "en": "From Enosh, his mention, unless grief, an enemy dwells, lest they recognize",
+   "notes": "Uncertainty in transcription and gloss for 'grief' and 'enemy'. Two reconstructed words and two uncertain words in the source.",
+   "line_id": 43567,
+   "source_hash": "0c142a472f75c942d7eb7b2c4b2337c2308adb73efb431e474c4e6984c3d3422",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

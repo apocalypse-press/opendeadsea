@@ -1,0 +1,95 @@
+{
+ "id": "4Q346",
+ "label": "4Q346",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 11,
+ "scroll_id": 334,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q346 fa:1": {
+   "en": "from to work",
+   "notes": "The transcription contains uncertain and reconstructed elements, including untranslatable characters (ε, #). The translation reflects only the recoverable lexical items 'from' (מִן) and 'to work' (לְ, עבד).",
+   "line_id": 13998,
+   "source_hash": "1f4d69864687e47985643094f84b12c2e44529d6aea6b2eb6b3ef13ccec5103e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q346 fa:2": {
+   "en": "in all that swells",
+   "notes": "The transcription is fragmentary, with two reconstructed words and one uncertain word. The phrase 'in all' is supported by repeated evidence. The verb 'swells' is a conservative translation of the visible morphology, though its exact sense is uncertain due to the damaged context.",
+   "line_id": 13999,
+   "source_hash": "9aed360887d71ef4124acad579e379daf43890ddba870cb9fa4fdec1175cc0ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q346 fa:3": {
+   "en": "Simeon from whole from assets",
+   "notes": "Uncertain characters and damaged syntax prevent a fluent translation. The final 'assets' is a tentative gloss for a damaged word.",
+   "line_id": 14000,
+   "source_hash": "0a0c720628ad4257ac5f35cd32ec72adf38627f16ea0dd973a9c04ad6ec4ea29",
+   "source_condition": "clean"
+  },
+  "4Q346 fa:4": {
+   "en": "And I create from this day and unto eternity",
+   "notes": "The final character 'ε' is untranslatable and omitted. The particle 'א' has no trusted gloss and is omitted.",
+   "line_id": 14001,
+   "source_hash": "6be7be3670b837ab2cb7ddbc7847e08d0696a5c78fd40b5197faa7b3dbdc5acb",
+   "source_condition": "reconstructed"
+  },
+  "4Q346 fa:5": {
+   "en": "and [no recoverable text]",
+   "notes": "The second and third words are damaged beyond recovery, with the second word being a reconstructed relative particle and the third word having no trusted gloss.",
+   "line_id": 14002,
+   "source_hash": "22c167899355c60b06cffa31b7cc7d2fe2896b061bbb917189a7afff1b377ae6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q346 fa:6": {
+   "en": "to Manasseh and",
+   "notes": "The transcription is fragmentary with uncertain characters and reconstructions. The final characters 'ש # [ε׃' are untranslatable and omitted. The 'ו?' is translated as 'and' despite uncertainty.",
+   "line_id": 14003,
+   "source_hash": "3c412b6d8cfe2bbbbb7f2df85bddede6d40b2d2b6160d522b4ac602f6e748482",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q346 fb:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic or Greek lexical units. All visible characters are either damaged, reconstructed, or untranslatable fragments.",
+   "line_id": 14004,
+   "source_hash": "3a2811ecad1c54302a1dccfdfa8025ab17c779af2a7f10cc2ea983a14a54dd87",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q346 fb:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible English words due to extensive damage and uncertainty. The visible characters (ε, ב, ׃) and reconstructed elements do not provide sufficient evidence for translation.",
+   "line_id": 14005,
+   "source_hash": "bd44d5276f7d48332aaaeaa29f980ffcbbc55305a31e06ddbaa4cd3d101bf067",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q346 fd:1": {
+   "en": "and whole",
+   "notes": "The transcription contains uncertain and reconstructed elements, including untranslatable characters (ε, ך) and a damaged particle (׃). The recoverable words are 'and' (ו) and 'whole' (כל). The rest of the text is too fragmented to provide a coherent translation beyond these elements.",
+   "line_id": 14006,
+   "source_hash": "e5f6a49f9d242229606a75705ed66f7411fd42ea26163040702fbdf7bda6857f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q346 fe:1": {
+   "en": "from",
+   "notes": "The transcription contains multiple uncertain and unknown elements, including damaged characters and reconstructions. Only the word 'from' (מִן) is recoverable with certainty. All other elements are either illegible, reconstructed, or lack a trusted gloss.",
+   "line_id": 14007,
+   "source_hash": "5e8e22a39c4aa24ece2207d43f0e06a9e341add6114249c48ee1d2dbaac266cf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q346 fg:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments without sufficient context or identifiable lexical items. The visible forms do not provide a basis for a defensible English translation.",
+   "line_id": 14008,
+   "source_hash": "31bd12844fee8f65d1accb03b343f08db045c50b77d8bbd6b26e84df2ec6e5e0",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

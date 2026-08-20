@@ -1,0 +1,60 @@
+{
+ "id": "6Q28",
+ "label": "6Q28",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 665,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "6Q28 f1:1": {
+   "en": "upon me",
+   "notes": "The transcription is heavily damaged, with only the reconstructed phrase 'upon me' recoverable. Two additional characters (ε) are untranslatable and omitted.",
+   "line_id": 32760,
+   "source_hash": "11bd42a331d19b7ae02626af7ccad0a40deb089bca118b2392428e20cb3ef9bc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q28 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 32761,
+   "source_hash": "3a71ce0daced5cfc1472de3e1649524d2b8188097040deac44301f6680b862c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q28 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items due to extensive damage and uncertainty. All visible forms are either unknown or reconstructed with high uncertainty, leaving no basis for translation.",
+   "line_id": 32762,
+   "source_hash": "1c007175ba2b046e85c53588c0eec6521423f603e486693c36469d766772b40f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q28 f4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible characters do not form recoverable lexical units.",
+   "line_id": 32763,
+   "source_hash": "b1879a2d528a8d752eac2ed0a62ecd7c58c5297d880cdfda6444982a3e3fb3be",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q28 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 32764,
+   "source_hash": "daee523b598af5c023849cd49ee6ae59c82381574d3d648e60437330dbda007a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q28 f7:1": {
+   "en": "to the fathers of",
+   "notes": "Translation based on repeated phrase evidence for positions 2-3. Uncertain elements and reconstructions noted but not bracketed in translation.",
+   "line_id": 32765,
+   "source_hash": "b9e76e33b46ba66d56d9c5b3318c8281ea15baa1454f0c5aaaf3c607390bbd72",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

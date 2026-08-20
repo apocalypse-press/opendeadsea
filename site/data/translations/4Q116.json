@@ -1,0 +1,144 @@
+{
+ "id": "4Q116",
+ "label": "4Q116",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 18,
+ "scroll_id": 916,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q116 f1_6:1": {
+   "en": "A great evil which was not made under",
+   "notes": "Uncertainty in the transcription and reconstruction of 'גדל ]ה##' (great) and 'אש#ר##[' (which). The phrase 'a calamity great which' and 'displeasure great' are considered but not directly applied due to low support. The translation follows the visible morphology and lexical glosses, preserving the structure and meaning as closely as possible.",
+   "line_id": 49177,
+   "source_hash": "2d99df184f9a791249ab4739dcafb60e2a130f70b29b60575ee2d9c26b257890",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q116 f1_6:2": {
+   "en": "All the heavens, as it was made in Jerusalem, as",
+   "notes": "Uncertain reconstruction of 'heavens' and 'Jerusalem'. The final 'as' is incomplete and may indicate a comparison or equivalence.",
+   "line_id": 49178,
+   "source_hash": "a88725e8bc31a7f3aead07d00217cc9213f4764bbda2952718caa2a3f8d73484",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q116 f1_6:3": {
+   "en": "It is written in the law of Moses all the evil",
+   "notes": "The phrase 'in the law of Moses' is supported by repeated phrase evidence. The word 'evil' is a direct translation of the lexical gloss for 'רעה'. The reconstruction of 'כתוב' and 'תורת' is noted, and the uncertainty of 'ב##' is acknowledged.",
+   "line_id": 49179,
+   "source_hash": "3ddbd63d6151259ec3fc4ce9582f3aa7353aeb8295122192642dfb002ed3b033",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q116 f1_6:4": {
+   "en": "This one came upon us and we have not become weak the face",
+   "notes": "The translation reflects the visible morphology and lexical items, with uncertainty in the reconstruction of 'ב##א#[ ה' and 'פ ]ן#?י#?'. The phrase 'entreat (et) the face' is supported by repeated evidence but is not directly reflected in the translation due to the conservative approach. The verb 'come' is translated based on the visible morphology, and 'become weak' is a direct gloss of 'חלינו'.",
+   "line_id": 49180,
+   "source_hash": "c69f1d1f6a3c1e191ccf915ec819e64f4d997300e9fba39b036a18910e97fcba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q116 f1_6:5": {
+   "en": "Our God, to return from our sin and to prosper in your trustworthiness",
+   "notes": "The phrase 'turning away from iniquity' is supported by repeated evidence, but the translation retains the literal sense of the individual words. The reconstruction of the first word is noted but not bracketed in the translation.",
+   "line_id": 49181,
+   "source_hash": "e92c44585c79fae02455b8c6c1a3ae6a574a2a726d3b6d7f6f549332ce701b26",
+   "source_condition": "reconstructed"
+  },
+  "4Q116 f1_6:6": {
+   "en": "YHWH and YHWH was wakeful upon the evil and he brought her",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly the final verb form.",
+   "line_id": 49182,
+   "source_hash": "f2b24de9928b8d5ecddaecf638ccc6d6ba3553246c6d4022b4e2c7227ecf7a77",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q116 f1_6:7": {
+   "en": "Upon us, for just Yahweh our God over whole",
+   "notes": "The phrase 'O God [be] over all' is a high-confidence contextual rendering for positions 5-7, but it introduces an unsupported imperative. The translation retains the recoverable tokens in order, avoiding invented relations. Uncertainty in the final word is noted but not bracketed in the translation.",
+   "line_id": 49183,
+   "source_hash": "f00b7c9fd488ec42849a058a3317d4a0e816774ed5eef75d0a0b16a9bacf75c3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q116 f1_6:8": {
+   "en": "the deeds which he did and we did not hear in his voice",
+   "notes": "Reconstructed text in position 1. Phrase evidence supports 'deed which he had done' for positions 1-3 and 'listen to voice' for positions 6-8, but the translation follows the visible morphology and lexical glosses directly.",
+   "line_id": 49184,
+   "source_hash": "22888c384c54b0a6161bf59e509713311014fc4c4e0548f9e451c72689bc31ee",
+   "source_condition": "reconstructed"
+  },
+  "4Q116 f1_6:9": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only a Greek letter epsilon (ε) and a Hebrew sof pasuq (׃), neither of which can be independently translated into defensible English words.",
+   "line_id": 49185,
+   "source_hash": "13f33287aee9a6c8e2ebeb0e5b0025a01a7543405d9a9cde983d208829ba38d5",
+   "source_condition": "clean"
+  },
+  "4Q116 f3ii+7:1": {
+   "en": "the people from the land of Egypt by a strong hand and you will do to",
+   "notes": "Reconstructed text in position 1. High-confidence phrase evidence supports 'from the land of Egypt' and 'by a strong hand'. The verb 'do' is in the wayyiqtol form, but the context suggests a jussive or cohortative sense, translated as 'you will do' for clarity.",
+   "line_id": 49186,
+   "source_hash": "74d41424f89fd945df9d3a5d53321a01963170d078d0e1bb179b1c8da6e3de66",
+   "source_condition": "reconstructed"
+  },
+  "4Q116 f3ii+7:2": {
+   "en": "Name, as this day we have missed, we have been guilty. Lord, as all righteousness.",
+   "notes": "The phrase 'day (the) this' is supported by repeated phrase evidence. The phrase 'all righteousness(es)' is also supported by repeated phrase evidence. The translation conservatively follows the recoverable text without adding unlicensed connectors or subjects.",
+   "line_id": 49187,
+   "source_hash": "ad2f22ed817f375a1cdc1cadcd41a31ffaf4c53c9d5c50316c17206d64c6be25",
+   "source_condition": "reconstructed"
+  },
+  "4Q116 f3ii+7:3": {
+   "en": "He will return, yeah, even his heat from the town, Jerusalem the mountain",
+   "notes": "The translation includes a reconstructed verb (ישוב##[) and an uncertain particle (נא). The phrase 'Jerusalem the mountain' is supported by repeated evidence.",
+   "line_id": 49188,
+   "source_hash": "4de6e48779c9a1b418f0f4d78a2e03e91268bfa77e18118ea75259c17b96d428",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q116 f3ii+7:4": {
+   "en": "in the holiness that in our offences and in the sins of our fathers Jerusalem",
+   "notes": "The phrase 'in the sins of our fathers' is supported by repeated phrase evidence. The translation conservatively follows the visible morphology and word order, with no added connectors or subjects.",
+   "line_id": 49189,
+   "source_hash": "c42720d747f42379a465a73ef624e61a9315cdacd90123ac1b184d7b5099cc86",
+   "source_condition": "reconstructed"
+  },
+  "4Q116 f3ii+7:5": {
+   "en": "And to a reproach for all our surroundings",
+   "notes": "The phrase 'to all around' is supported by repeated phrase evidence. The final punctuation mark is omitted as it cannot be translated independently.",
+   "line_id": 49190,
+   "source_hash": "8579b928f1a3a8dd617e259d057eb1d647bb8d2475951708d2dc14f4bf2cd4a5",
+   "source_condition": "reconstructed"
+  },
+  "4Q116 f3ii+7:6": {
+   "en": "And now hear our God to the prayer your servant and to",
+   "notes": "The transcription is partially damaged, with uncertain reconstructions and missing text. The phrase 'to the prayer your servant' is supported by repeated evidence. The initial 'and now' is a conservative translation of the visible particles. The verb 'hear' is imperative, addressing God. The phrase 'our God' reflects the suffixed form of 'god(s).' The final 'and to' is a partial translation of the surviving particles, with uncertainty due to damage.",
+   "line_id": 49191,
+   "source_hash": "23de7b3b6169deea3c680a9d3791f310df3b8ee04ac98825c76f06f99815b556",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q116 f3ii+7:7": {
+   "en": "Supplication, and make shine your face upon your sanctuary the desolate because of",
+   "notes": "Uncertain reconstruction of 'supplication' and damage at the end of the line.",
+   "line_id": 49192,
+   "source_hash": "684ee0d9432b11f36b18d8d44f1dfa30d22477a44cdd3f4fd52689eb0efc0c90",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q116 f3ii+7:8": {
+   "en": "Lord",
+   "notes": "The transcription includes a reconstructed character and an untranslatable symbol (ε), which is omitted in the translation.",
+   "line_id": 49193,
+   "source_hash": "218ab03a71d0a2326d405cd99eeec2bf7112bed0de30f77ee84a62e66e8d632f",
+   "source_condition": "reconstructed"
+  },
+  "4Q116 f3ii+7:9": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only a Greek letter epsilon (ε) and a Hebrew sof pasuq (׃), neither of which can be translated independently into meaningful English.",
+   "line_id": 49194,
+   "source_hash": "47509b79495abb6c13df5a96f4d4ee905f6c968f40171a2a6e4f3fadac49d5ac",
+   "source_condition": "clean"
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "4Q567",
+ "label": "4Q567",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 609,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q567 f1:1": {
+   "en": "who you worked",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The translation reflects the recoverable words in order, but the exact meaning remains unclear due to the fragmentary nature of the text. The initial 'ε' and final 'ε' are omitted as they cannot be translated independently. The reconstruction of 'אנת##[ ו ]ן#?' as 'you' and 'ע#ב##[ דתון' as 'worked' is tentative.",
+   "line_id": 31376,
+   "source_hash": "394503014d643b823647cd4d8131dba7c90be11abae3b1dd27f66b2f0901c046",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q567 f1:2": {
+   "en": "all the wicked man",
+   "notes": "Uncertain transcription and reconstruction in 'רשיעי?' and 'אנו?[ ש'. The phrase 'all the wicked' is supported by repeated evidence, but 'man' is a reconstruction. The particles 'ε' and '( א )' are omitted as they cannot be translated independently.",
+   "line_id": 31377,
+   "source_hash": "0da79430599c0af53a373e821af41ff0b89033c775bad28d67aecfeda731b927",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q567 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (εε׃) with no recoverable lexical content.",
+   "line_id": 31378,
+   "source_hash": "491cb450c8ebf4b7f2fc22840cee3e0fbd453f774ce0a14a8eb7df7985252881",
+   "source_condition": "clean"
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "4Q282f",
+ "label": "4Q282f",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 255,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q282f f1i:1": {
+   "en": "upon them",
+   "notes": "The transcription includes an uncertain character (ε) and a damaged suffix (]ע#לי׳הם). The suffix is translated as 'upon them' based on the provided lexical gloss and morphology. The uncertain character is omitted from the translation.",
+   "line_id": 11496,
+   "source_hash": "f86a74723ec823637b66715bdce6e5ddbc4e956951aacc7ac01593a109edf614",
+   "source_condition": "uncertain"
+  },
+  "4Q282f f1i:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Greek words, with the visible characters being incomplete or untranslatable fragments.",
+   "line_id": 11497,
+   "source_hash": "317ed98d3cd7dd051aa7fc6d6a394ed794d98ab6c10869b24cdefc5d4b657a47",
+   "source_condition": "uncertain"
+  },
+  "4Q282f f1i:3": {
+   "en": "from upon him",
+   "notes": "The initial 'ε' is untranslatable and omitted. 'עלי׳ו' is a suffixed form of 'upon' with a third-person masculine singular suffix.",
+   "line_id": 11498,
+   "source_hash": "7041d2d72fa66879c785236e2d7b6523bd30ac00948182828dba385f02542d4b",
+   "source_condition": "clean"
+  },
+  "4Q282f f1i:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain characters. All visible forms are either unknown or too damaged to translate.",
+   "line_id": 11499,
+   "source_hash": "019ff942511a3e33448bb139a1e711e3a8609f3946e0ae769cb8529f334b83ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282f f1i:5": {
+   "en": "they were completed",
+   "notes": "The transcription is damaged, and the first character is untranslatable. The verb 'שלמו' is uncertain but likely indicates a completed action.",
+   "line_id": 11500,
+   "source_hash": "9ee4ffb7dc2dfdfc714fd3b6ed3a949558658ae4d19260b36da0a74c41a468b0",
+   "source_condition": "uncertain"
+  }
+ }
+}

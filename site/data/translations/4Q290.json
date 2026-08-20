@@ -1,0 +1,39 @@
+{
+ "id": "4Q290",
+ "label": "4Q290",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 277,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q290 f1:1": {
+   "en": "surely",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation.",
+   "line_id": 11884,
+   "source_hash": "767646b24d454a7be9e763aaeb615a4e81b442b57fa8b8d305d56c736306fd96",
+   "source_condition": "clean"
+  },
+  "4Q290 f1:2": {
+   "en": "was finished all the days of dominion of wickedness",
+   "notes": "Uncertain reconstruction and damage in the source text. The phrase 'all the days' is supported by repeated evidence, but the overall syntax is fragmented.",
+   "line_id": 11885,
+   "source_hash": "32ef7bd2d90a32c3cc0842fefac79a434c0e64ea73deefefed899f578a201e48",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q290 f1:3": {
+   "en": "in the end of the anger and that",
+   "notes": "The transcription contains uncertain and unknown elements, including damaged characters and a reconstructed particle. The final 'ε' and '׃' are omitted as they cannot be translated independently.",
+   "line_id": 11886,
+   "source_hash": "075541f6d25aca48318e400424fa4d591a63d4df40bafb641bc4ccd40ebb2c10",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

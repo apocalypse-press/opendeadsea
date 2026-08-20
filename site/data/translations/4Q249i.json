@@ -1,0 +1,81 @@
+{
+ "id": "4Q249i",
+ "label": "4Q249i",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 182,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q249i f1:1": {
+   "en": "An appointment to the counsel of the gathering, if she appoints the witness and the anointed with them",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly 'אם' (if) and 'ועד' (appoint), may affect the translation's accuracy.",
+   "line_id": 8771,
+   "source_hash": "68f6db080981361b8cf15d6dd76fe562e787d8a17bdba60afe0880ce79d43b28",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249i f1:2": {
+   "en": "Let the priest come, the head of all the congregation of Israel, and every man from the sons",
+   "notes": "The translation incorporates high-confidence repeated phrase evidence for 'the head of all the congregation of Israel' and 'every person from'. The initial fragment 'ε] # ת # [' and the following 'ε' are untranslatable and omitted. The final ']' is a reconstruction marker and not translated.",
+   "line_id": 8772,
+   "source_hash": "98d0f546c9b1af7ec3da607748583aa5fb219f167a0bda12f5dad88cb82c2721",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249i f1:3": {
+   "en": "Aaron the priests summoned of the appointment men of the name",
+   "notes": "Reconstructed text in positions 1 and 5. Uncertainty in position 5.",
+   "line_id": 8773,
+   "source_hash": "a6a967f6b7179b9abdbeefa907065856a6d2daeca556630ab27ff68e720e8923",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249i f1:4": {
+   "en": "And they sat before his face, a man to the mouth of his weight, and after he sits",
+   "notes": "The phrase 'before his face, a man to the mouth of his weight' is uncertain due to damage and reconstruction. The term 'weight' is a context-free gloss for 'כבוד' and may not capture the intended sense.",
+   "line_id": 8774,
+   "source_hash": "a1ba5051f2ba2ccc128a5190d2600bfb885c14eac25adc39ae02583f75709b6f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249i f1:5": {
+   "en": "the anointed of Israel and they sat before his faces heads",
+   "notes": "Uncertainty in verb 'sat' and preposition 'to'; 'faces heads' is a literal translation of the surviving text, but the intended meaning is unclear.",
+   "line_id": 8775,
+   "source_hash": "16ba732d97284195ca1d715902658189129ad41631c0342cdcc3462858a1ca20",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249i f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. All words are marked as unknown or reconstructed with uncertainty.",
+   "line_id": 8776,
+   "source_hash": "77efe13a57190a5023c613c015c1fd03334c7f1a3506589401e7fb398bf7f338",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249i f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable Greek and Hebrew fragments (ε, ]א#ת[) with no clear lexical meaning. The object marker ]א#ת[ is partially reconstructed and uncertain, leaving no defensible English words.",
+   "line_id": 8777,
+   "source_hash": "3e89903f314446150e77c558a8b35b63d36749e6155495bb3c930aca1cc49bcb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249i f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]אנ#?[) with no clear lexical or grammatical meaning. The reconstructed element is too fragmentary to translate. No defensible English words survive.",
+   "line_id": 8778,
+   "source_hash": "1188818e1706fde2fbcc7586126768e1a6cb44d8b3444c6dbcc12d58a1ea3c66",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249i f2:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only untranslatable fragments and punctuation.",
+   "line_id": 8779,
+   "source_hash": "06e000fb1f90d408ecbf12bed3cbf3dea25c50e4a00aa370b50ae17242f60c89",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "id": "4Q441",
+ "label": "4Q441",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 439,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q441 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content.",
+   "line_id": 21942,
+   "source_hash": "31617752f259316174b8592e3f06bae11c0adff76426cf3573eb2a6111fc5569",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q441 f1:2": {
+   "en": "may he be life",
+   "notes": "The phrase 'Yahweh [by] the life' is suggested by repeated phrase evidence, but the transcription is highly uncertain with one reconstructed and one unknown character. The translation retains the recoverable verb 'may he be' and the noun 'life' while omitting unsupported elements.",
+   "line_id": 21943,
+   "source_hash": "555b2a415556f80703b0e9554706600248b2e7b62763444d45c611aaeda5eb10",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q441 f1:3": {
+   "en": "I will praise",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation. The verb 'אודה' is reconstructed and translated as 'I will praise' based on its morphology and lexical gloss.",
+   "line_id": 21944,
+   "source_hash": "8aaf00097f18764b03def87cd220ce3d00c402f2abc8fc2f62ccd42c0d1cd09b",
+   "source_condition": "reconstructed"
+  },
+  "4Q441 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and reconstructions with no clear lexical meaning. All visible forms are either damaged (ε) or reconstructed with uncertainty (]ו#?ת # [), leaving no defensible English words.",
+   "line_id": 21945,
+   "source_hash": "9c0166c9c7fecc2735f83ebaa0f0554a7daf58a70bd15b01d49be61a75365031",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q441 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions. The visible characters (ε, #, ל##) do not form translatable lexical units. The reconstructed 'to' is highly uncertain and lacks sufficient evidence for inclusion.",
+   "line_id": 21946,
+   "source_hash": "f6b423c8ecec2c56c6e2d91eb726a1234ef32a0194913b6a3eb39aeacac672bf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q441 f1:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' with no clear Hebrew or Aramaic context. No recoverable lexical content survives for translation.",
+   "line_id": 21947,
+   "source_hash": "bd8154ecf1a33e72cd3a78c32e72a54ccfc297e5ed7e99935d1d3c800f5875c9",
+   "source_condition": "clean"
+  },
+  "4Q441 f1:7": {
+   "en": "you will comprehend",
+   "notes": "The transcription is heavily damaged, with only partial words surviving. The verb 'comprehend' is reconstructed and uncertain. The initial characters and the Greek letter 'ε' are untranslatable and omitted.",
+   "line_id": 21948,
+   "source_hash": "d8b190dbf6b00d87c181a638d43d63320ac60c977f19b325b2523b1eb5089a80",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q441 f1:8": {
+   "en": "and in strength",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The visible word 'בְּ' (preposition 'in') and 'גְּבוּרָה' (noun 'strength') are recoverable, but the rest of the text is too fragmented for further translation. The particle 'וְ' (and) is uncertain but included based on visible morphology.",
+   "line_id": 21949,
+   "source_hash": "c8417bbdd1813586ecfbcb7497d994c8984968245328d2588b95d04895cc918d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q441 f1:9": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible.",
+   "line_id": 21950,
+   "source_hash": "4677f585ad8511a9b1513361e13316c12d3dc1c1b2b3e321b2a619fee05f7b12",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

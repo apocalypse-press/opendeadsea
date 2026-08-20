@@ -1,0 +1,137 @@
+{
+ "id": "Arugleviticus",
+ "label": "Arugleviticus",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 17,
+ "scroll_id": 998,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "Arugleviticus fA:1": {
+   "en": "And from the linen of all your vows and besides all your freewill offerings",
+   "notes": "Uncertain term 'linen' (בַּד) may refer to a part, stave, or idle talk. Phrase evidence supports 'besides all' and 'all offerings' for the repeated sequence.",
+   "line_id": 52839,
+   "source_hash": "e754765758462de930e9f286fbe543d18bb3eb307aa48e88ed2b87f401c29aae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fA:2": {
+   "en": "which you will give to YHWH only in fifteen",
+   "notes": "Uncertainty in the reconstruction of 'א##[ ך' (position 6) and the phrase 'חמשה עשר' (positions 8-9) is noted. The phrase 'חמשה עשר' is translated as 'fifteen' based on repeated phrase evidence.",
+   "line_id": 52840,
+   "source_hash": "2afd8b4678ef5ff2c4179f13227530579dd40cba0c1b3cb142b13a3231a48b15",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fA:3": {
+   "en": "On the seventh month you will gather the yield",
+   "notes": "Reconstructed text in positions 1 and 5. Uncertainty in position 4.",
+   "line_id": 52841,
+   "source_hash": "9eb29886ec91cc5a2a1a88556701c2f19c079dcf30aa85404ddc052f2d9994d7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fA:4": {
+   "en": "You shall celebrate the festival of Yahweh seven days",
+   "notes": "The object marker אֵת is omitted due to uncertainty. The phrase 'celebrate a festival (et) the festival' is used based on repeated phrase evidence, but the object marker is not included in the translation. The phrase 'Yahweh seven days' is supported by repeated phrase evidence, and 'seven days' is further supported by high-confidence phrase evidence.",
+   "line_id": 52842,
+   "source_hash": "9f10bc084b4121455f523ebbca876fd918c62a26edb7a97fa76f978a7dded1ac",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fB+Ci:8": {
+   "en": "A wadi and you rejoiced before Yahweh your God",
+   "notes": "Uncertain reconstruction of 'god(s)' and 'seven / Sheba' due to damage. Phrase evidence supports 'before Yahweh' and 'Yahweh God' but the exact phrasing of the latter part is uncertain.",
+   "line_id": 52843,
+   "source_hash": "6db7e10f929d7c358343a07a800acf9add14d30f89db93d6af7de93cc18fa1b2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fB+Ci:9": {
+   "en": "Days and you celebrated the festival of Yahweh seven",
+   "notes": "Uncertain transcription and reconstruction in 'YHWH' and 'seven'.",
+   "line_id": 52844,
+   "source_hash": "d88dade592a7843988eb9b3a9e5674310eecfe3d8723df98c7a5f82e356fb78c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fB+Ci:10": {
+   "en": "Days in the year, a statute of perpetuity to your generations in the month",
+   "notes": "The phrase 'a statute of perpetuity to generations' is supported by repeated evidence. Uncertainty in the word 'ד#רתי׳כם' is noted but translated as 'your generations' based on context. Reconstructed text is indicated by brackets in the source but not reflected in the translation.",
+   "line_id": 52845,
+   "source_hash": "7176cb07292939e48b125707d9c049fc93293348e7b23323e736cd0a638994b5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fB+Ci:11": {
+   "en": "The seventh, you will celebrate it; in booths you will dwell seven",
+   "notes": "The phrase 'in booths you will dwell' is supported by repeated phrase evidence. The final 'seven' is reconstructed.",
+   "line_id": 52846,
+   "source_hash": "19d4c1fa5efc8eb02dde1ba468cb68dba5c6af62aa12ee1203e3ae1c21923e55",
+   "source_condition": "reconstructed"
+  },
+  "Arugleviticus fB+Ci:12": {
+   "en": "All the native-born of Israel they dwelt in booths",
+   "notes": "Uncertain transcription at 'י?שבו' and 'ב#'. Phrase evidence supports 'of Israel they dwelt in' but is not fully conclusive. One reconstructed word at '[ ימים'.",
+   "line_id": 52847,
+   "source_hash": "293eef53093393dfd75019a7daec3b27e5f47a07cb548ac1e24bc7f5fc121fc2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fB+Ci:13": {
+   "en": "so that the generations may know that in booths I have made dwell",
+   "notes": "Uncertainty in transcription at position 6; reconstruction at position 1; phrase evidence supports 'booths you will dwell' and 'so as to know the generations', but the translation follows the visible morphology and lexical glosses where possible.",
+   "line_id": 52848,
+   "source_hash": "b8409b05fccb78b5887803f4c6be2885ecd8ce73286969e691e4e728230ef8ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fB+Ci:14": {
+   "en": "the people of Israel when they go out from the earth",
+   "notes": "The phrase 'the people of Israel' is supported by repeated phrase evidence. The sequence 'when they go out' follows high-confidence semantic constraints and repeated phrase evidence. 'From the earth' is a conservative translation of the surviving lexical items.",
+   "line_id": 52849,
+   "source_hash": "efb82a93209ccc261abc6d4bf48b5f7769f010eabe9190e061e7024744e0bd60",
+   "source_condition": "reconstructed"
+  },
+  "Arugleviticus fB+Ci:15": {
+   "en": "of Egypt I am Yahweh and he spoke Moses",
+   "notes": "The phrase 'of Egypt I am Yahweh' is supported by repeated phrase evidence. The verb 'he spoke' is in the wayyiqtol form, indicating a past tense narrative sequence. The name 'Moses' is marked as uncertain in the source.",
+   "line_id": 52850,
+   "source_hash": "3e38e3204ae010f608a19b5dacd03c759748ec18edc25b083785fb2e8a4ce1ff",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fB+Cii:12": {
+   "en": "Surely he will be put to death, they shall stone, in all the congregation",
+   "notes": "The translation follows high-confidence phrase evidence for 'surely (die) he will be put to death' and 'they stoned (in)', with 'all the congregation' supported by dominant pattern evidence. The verb 'stone' is repeated in both infinitive and finite forms, preserved as such. Uncertainty in the first verb form is not signaled in the translation per instructions.",
+   "line_id": 52851,
+   "source_hash": "3cb5e530ff53c08bd696ca1f61f26333b743442c1dcbfcd60e4a95a3a2af6c2f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fB+Cii:13": {
+   "en": "As a sojourner, as a native, he bore the name: he will die. And a man",
+   "notes": "The phrase 'there you will die' is a repeated pattern with moderate support, but it does not fit the visible syntax. The translation retains the recoverable words in order, preserving the uncertainty of the damaged syntax.",
+   "line_id": 52852,
+   "source_hash": "b7a4c7b56968e5f914e87e8fddd1cd6383de5789ee21158c8804d0a32b8eb638",
+   "source_condition": "reconstructed"
+  },
+  "Arugleviticus fB+Cii:14": {
+   "en": "For he shall strike down every soul of mankind, surely he will be put to death",
+   "notes": "The phrase 'he shall strike down every' is supported by repeated phrase evidence. The phrase 'soul of mankind' is supported by repeated phrase evidence. The phrase 'surely he will be put to death' is supported by repeated phrase evidence. The reconstruction of the verb 'strike' is uncertain.",
+   "line_id": 52853,
+   "source_hash": "9c0def5256d6e377d479e878641b681289836c4a0054cea494fdc8b62f56876b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fB+Cii:15": {
+   "en": "And striking the life of an animal he shall complete it",
+   "notes": "The phrase 'the life of an animal' is supported by repeated phrase evidence. The verb 'shall complete' is a conservative rendering of the piel stem of the lemma 'שׁלם'. Uncertainty in the transcription is noted for the word 'נ?[ פש', reconstructed as 'נֶפֶשׁ'.",
+   "line_id": 52854,
+   "source_hash": "3262fa92df6febbb640a9869bf5ea4b8e65e2cf046d8b93b0703699bdb5a7668",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Arugleviticus fB+Cii:16": {
+   "en": "in place of life",
+   "notes": "The phrase 'in place of life' is supported by repeated phrase evidence with 7 canonical occurrences and 57.14% pattern support. The transcription includes a reconstructed word and a punctuation mark, which are not translated directly.",
+   "line_id": 52855,
+   "source_hash": "98483fb8c9e8cecb3e5b824d69a53875c127dea04a2c4883a48bb5430eefa49e",
+   "source_condition": "reconstructed"
+  }
+ }
+}

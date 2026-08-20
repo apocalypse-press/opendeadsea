@@ -1,0 +1,60 @@
+{
+ "id": "XQ7",
+ "label": "XQ7",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 737,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "XQ7 f1:1": {
+   "en": "a melting pot",
+   "notes": "The transcription is heavily damaged, with only a partially recoverable word (מַצְרֵף). The initial 'ε' and final 'ן' are untranslatable fragments. The translation reflects the sole defensible lexical item, though its context is uncertain.",
+   "line_id": 36621,
+   "source_hash": "46378c863e0f644cbbd5266198b0cacd8c14d9f9ef6f1f7d8430942a8b6f1e0f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "XQ7 f1:2": {
+   "en": "he is honoring you",
+   "notes": "The transcription and morphology suggest a third-person singular imperfect verb in the Piel stem of the root כבד (to honor), with a second-person masculine singular suffix. The initial characters are uncertain and omitted from the translation.",
+   "line_id": 36622,
+   "source_hash": "854683f296f53c280cb1c185bc1d3032f3e992c618ba86f1578e96257ec51a7e",
+   "source_condition": "uncertain"
+  },
+  "XQ7 f1:3": {
+   "en": "heap and whole",
+   "notes": "Uncertain transcription and missing context; omitted untranslatable characters and uncertain words.",
+   "line_id": 36623,
+   "source_hash": "02b2263ad0291fb489c9bbe1bf2768d5e16a878005ac57509bd5fb95f2c8fb01",
+   "source_condition": "uncertain"
+  },
+  "XQ7 f1:4": {
+   "en": "if weight",
+   "notes": "The transcription contains uncertain and untranslatable elements, including an unknown character (ε) and damaged text. The translation reflects only the recoverable words 'אם' (if) and 'כבוד' (weight).",
+   "line_id": 36624,
+   "source_hash": "8a3ae7bbe36b35ddd1e3c3443dab2043c6360957e486d30cd3575a8493a794b9",
+   "source_condition": "uncertain"
+  },
+  "XQ7 f1:5": {
+   "en": "in the mountains",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The visible particles and nouns are translated conservatively, omitting unsupported material. Uncertainty in the transcription is noted but not signaled in the translation.",
+   "line_id": 36625,
+   "source_hash": "78ad8fbb6a6d2c8c64d232da11cdedd2c4fc489d5eea5d645641ba6cf0f32aed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "XQ7 f1:6": {
+   "en": "ear",
+   "notes": "The translation is based on the reconstructed word 'שׁבלת' (shevet), which is uncertain and may not be accurately recovered. The initial 'ε' and the final punctuation mark are omitted as they cannot be translated independently.",
+   "line_id": 36626,
+   "source_hash": "3894fb695c1f89befcafcbfb11287316083974b4900bf0995632efd50250c1c2",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

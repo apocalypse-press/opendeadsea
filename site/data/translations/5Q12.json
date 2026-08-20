@@ -1,0 +1,53 @@
+{
+ "id": "5Q12",
+ "label": "5Q12",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 633,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "5Q12 f1:1": {
+   "en": "they would be free",
+   "notes": "The phrase 'you will be free' is supported by repeated evidence, but the third-person plural verb form 'י#?היו' (they would be) is directly recoverable from the text. The final 'ε' is untranslatable and omitted.",
+   "line_id": 32000,
+   "source_hash": "bcca1a625169e69ecc925d98385e41001ca26c7ae3a104f7c4987859387dc6b3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q12 f1:2": {
+   "en": "who said not he will reprove",
+   "notes": "Uncertain reconstruction of 'לוא##' and 'ה##[ וכח'. The final 'ε' and '׃' are untranslatable and omitted.",
+   "line_id": 32001,
+   "source_hash": "487672c8dc9082cb9ad79597fee9500cbf62c1a082da557df8b6dce90c71ab65",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q12 f1:3": {
+   "en": "upon the oath which",
+   "notes": "The final character 'ε' is untranslatable and may indicate damage or an incomplete word.",
+   "line_id": 32002,
+   "source_hash": "aba520d691c097ac444f9c312476ae48e5110ace1ca8a53d954d7f2b302a8206",
+   "source_condition": "clean"
+  },
+  "5Q12 f1:4": {
+   "en": "upon the face of the field which",
+   "notes": "The phrase 'the surface of the field' is supported by repeated evidence, but the translation retains the literal order of recoverable words. The final character 'ε' is omitted as it cannot be translated independently; its presence is noted here.",
+   "line_id": 32003,
+   "source_hash": "1ecaf6a49b31afc991155a24f91b61dc32561a9784ed9b611b23b48582a30ecc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q12 f1:5": {
+   "en": "to and whole the perishing",
+   "notes": "Uncertain reconstruction and transcription damage throughout. The preposition 'to' is reconstructed. The conjunction 'and' and the noun 'whole' are uncertain. The verb 'perishing' is reconstructed and uncertain. Untranslatable characters and punctuation omitted.",
+   "line_id": 32004,
+   "source_hash": "35b619ad1d3ba4da42b6bc200ed2cf343829319ad6033869674ebb0013c5c429",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

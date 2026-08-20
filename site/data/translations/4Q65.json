@@ -1,0 +1,60 @@
+{
+ "id": "4Q65",
+ "label": "4Q65",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 853,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q65 f1:34": {
+   "en": "Thus he will give the Lord to you a sign there!",
+   "notes": "The particle 'thus' is uncertain due to the ambiguous gloss of the source token. The final particle 'there!' is advisory and marked as uncertain in the source.",
+   "line_id": 46365,
+   "source_hash": "fb5cd63373f3460536b98e8292d8e058b809e6d0ffb6244815ae40cd6b235b05",
+   "source_condition": "uncertain"
+  },
+  "4Q65 f1:35": {
+   "en": "The young woman will be pregnant and bear a son and she will call his name Immanuel",
+   "notes": "The word 'Immanuel' is a combination of the words 'with us' and 'God', but the exact translation is uncertain. The final word 'butter' is uncertain and may be a scribal error or a reference to a symbolic meaning.",
+   "line_id": 46366,
+   "source_hash": "d25d043e8ff48486458954038359d123c0875520f220a224f6149c320b3a97a1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q65 f2:32": {
+   "en": "And he admonished me from walking in the way of the people",
+   "notes": "The first word is uncertain and omitted from the translation. The phrase 'the way of the people' is supported by repeated phrase evidence.",
+   "line_id": 46367,
+   "source_hash": "42865afd12e07ecc698bcc11fed45a5fdc445081370d7836b69c6aa13a6d03a4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q65 f2:33": {
+   "en": "This saying: Do not say, 'A conspiracy concerning all that this people is saying, a conspiracy!'",
+   "notes": "Positions 4 and 6 are reconstructed. The phrase 'a conspiracy' is repeated at the end, possibly for emphasis, despite the semantic constraint suggesting a single instance.",
+   "line_id": 46368,
+   "source_hash": "429068ca242cd96d671fe880dfe884726a2e93e3a1f7b9f20ee4bfba946ce758",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q65 f2:34": {
+   "en": "And the fear of him you must not fear and you must regard with awe YHWH of hosts",
+   "notes": "Uncertain transcription and reconstruction in the source. The translation omits a damaged conjunction and retains visible syntax.",
+   "line_id": 46369,
+   "source_hash": "792475bbfa5f827fedee368e021f7dcee01579dec9a63bd76212309b55ee32c0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q65 f2:35": {
+   "en": "You will regard as holy and he be your fear and he will tremble and he will become a sanctuary and a stone of striking",
+   "notes": "Uncertainty in the reconstruction of 'תקד[ ישו' and 'מע#רצ׳כם'. The phrase 'he will tremble' is advisory and based on contextual evidence. The translation of 'נגף' as 'of striking' is required by semantic constraints.",
+   "line_id": 46370,
+   "source_hash": "62cc1f01db7f85b889062ee454382b100294bee34398f62246c325cea64be392",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

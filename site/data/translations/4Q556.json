@@ -1,0 +1,88 @@
+{
+ "id": "4Q556",
+ "label": "4Q556",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 596,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q556 f1:1": {
+   "en": "they gnaw",
+   "notes": "Uncertain due to damaged transcription and ambiguous lexical items.",
+   "line_id": 30755,
+   "source_hash": "19754422845b843e6f79d5771a0480bcb5143de72cf9885e7f26924121a69dca",
+   "source_condition": "uncertain"
+  },
+  "4Q556 f1:2": {
+   "en": "to row Sinai",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed section ([]). The phrase 'to row Sinai' is based on the recoverable words, but the overall meaning remains uncertain due to damage and unclear context.",
+   "line_id": 30756,
+   "source_hash": "79518e4b925f828e545b8ac2e58396f931a74b9ed02b907bf2895d426ab5e788",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q556 f1:3": {
+   "en": "and he will be like their faces",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged initial character (ε) and a partially preserved word (]משרי#?ת##[). The verb 'שוא' is translated based on its visible morphology and lexical gloss. The suffix 'אנפו׳הי[' is rendered as 'their faces' based on its morphology and gloss. The particle 'א' is omitted due to uncertainty in its function. The initial 'ε' and final 'ε' are omitted as they do not contribute to the translation.",
+   "line_id": 30757,
+   "source_hash": "f0f35847b1fb947e9deb356a9cb80336c15683dfa0ac267827fa56ee5982d004",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q556 f1:4": {
+   "en": "and he burned in the fire of the furnace in her",
+   "notes": "Uncertain transcription and reconstruction of several words, including ]ד##, נו#?[ ר, כ##ור, and באישה. The translation reflects recoverable elements but omits unsupported details.",
+   "line_id": 30758,
+   "source_hash": "7986aa5cc491746bc939ae8b910cdd4ad0c5c441dec14adfcfe0816bdadff476",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q556 f1:5": {
+   "en": "and before and he shapes to Joppa and one",
+   "notes": "Uncertain reconstruction of 'יצו?ר##[' as 'he shapes'; uncertain particle ']ל##'; uncertain gloss for 'ε' at the beginning and end.",
+   "line_id": 30759,
+   "source_hash": "51f2d9a85838a6086c34a7e56823ddd7760d806af8db2623308bfb97e0f91f1b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q556 f1:6": {
+   "en": "A new district which took captive the whole that became in",
+   "notes": "Uncertain transcription and reconstruction at positions 2 and 11. Positions 1, 3, 5, and 12 are untranslatable fragments or unknowns.",
+   "line_id": 30760,
+   "source_hash": "8d0a55344ad4fd352a8d97e5b08f1245eee00c14280cef5530621b32b44eb091",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q556 f1:7": {
+   "en": "upon this he said the prophet who one",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Visible text does not form a complete sentence. Omitted untranslatable characters and fragments.",
+   "line_id": 30761,
+   "source_hash": "dc24ebbd58e198ed62e0ea4bce50246d4f26b1573661dd08af8a009cb68ae85e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q556 f1:8": {
+   "en": "from before his feed behold he becomes",
+   "notes": "Uncertain transcription and reconstruction in positions 2 and 9. Position 6 has no trusted gloss.",
+   "line_id": 30762,
+   "source_hash": "f0136c37583c6274e309a5a9a1d62d2216918c7145875bd827d27f57de57fc71",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q556 f1:9": {
+   "en": "from Joppa unto row",
+   "notes": "The transcription contains uncertain and reconstructed characters, with two unknown tokens (ε) and a damaged particle (א##[). The translation omits these uncertain elements and preserves the recoverable words in order.",
+   "line_id": 30763,
+   "source_hash": "fa840f7df3062975d2e9ff17a51db59733da5db8cca7a230460a8e88b040af12",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q556 f1:10": {
+   "en": "filled a row",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The verb 'filled' (מלא) is clear, but the subject and context are uncertain. The term 'row' (טוּר) is reconstructed and uncertain. The other characters (ε, ]לה##, ε׃) are untranslatable and omitted.",
+   "line_id": 30764,
+   "source_hash": "33ae2deb57f5009dbf82a4d5a8ba9d01311fe510c293b392544040032713058f",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

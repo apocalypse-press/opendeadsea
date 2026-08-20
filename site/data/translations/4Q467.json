@@ -1,0 +1,39 @@
+{
+ "id": "4Q467",
+ "label": "4Q467",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 468,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q467 f1+2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (ε, #, ב) with no clear lexical or grammatical content. No defensible English translation can be derived from the surviving material.",
+   "line_id": 22484,
+   "source_hash": "bd9c48c478891c66b2f598f6a00f1a69243a727627465b1bcea57ddfd65f660d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q467 f1+2:2": {
+   "en": "light to Jacob and",
+   "notes": "Most text is damaged or uncertain. Translation includes recoverable words only: 'light' (אור), 'to' (ל), 'Jacob' (יעקב), and the conjunction 'and' (ו[).",
+   "line_id": 22485,
+   "source_hash": "10a7b87d8f74772fe59b2f08b95dcf4150c06ad6a87648bf382fc498b082d050",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q467 f1+2:3": {
+   "en": "the nations to Israel will say where",
+   "notes": "Uncertain transcription and reconstruction in positions 1, 2, 3, 6, 8, 11, 12, 13. Phrase evidence supports 'of Israel' but is not directly reflected in the translation due to missing recoverable text.",
+   "line_id": 22486,
+   "source_hash": "dfb425f0e7fb6fec8cad1cd24682fc04531bc94cba8d82b461bbdfb1f180901c",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

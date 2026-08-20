@@ -1,0 +1,39 @@
+{
+ "id": "4Q249x",
+ "label": "4Q249x",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 197,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q249x f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment with uncertain meaning. No defensible English words survive.",
+   "line_id": 8860,
+   "source_hash": "1e4aebdae1d95af6bf672a182c75a0577a1183421580859d632a0a9db16dc223",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249x f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or fragments that can be translated into English. All visible characters are either damaged, reconstructed, or untranslatable.",
+   "line_id": 8861,
+   "source_hash": "ffd0e80446e16afb7c3d66da91a8d007f953401e2749636260441a701b6efa0a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249x f1:3": {
+   "en": "to in",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and unknown elements. The phrase 'to in' is based on the recoverable lexical items, but the overall meaning is unclear. The phrase evidence suggests a possible connection to 'Levites in,' but this is not certain and is not reflected in the translation due to insufficient evidence.",
+   "line_id": 8862,
+   "source_hash": "7d2bf9c7b0113ba5c7a7b0f95d7c320395274810828e7996ef001b8ae7f2f884",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

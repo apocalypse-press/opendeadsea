@@ -1,0 +1,60 @@
+{
+ "id": "4Q468g",
+ "label": "4Q468g",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 474,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468g f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the visible lexical items.",
+   "line_id": 22520,
+   "source_hash": "ccac9d1b88d1d49e9bea65ec711e20ba845b78a41f363c4b919d97866bd1cc2e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468g f1:2": {
+   "en": "a shut blow great",
+   "notes": "The final character 'ε' is untranslatable and omitted. Its presence is noted here.",
+   "line_id": 22521,
+   "source_hash": "d9bdbf6539facaf1edcbe6580c65fe4cd249a54305a6ae457246f23c59a139af",
+   "source_condition": "clean"
+  },
+  "4Q468g f1:3": {
+   "en": "And Edom, and Gaza, and Ashkelon",
+   "notes": "The final character 'ε' is untranslatable and omitted. The word 'Ashkelon' is reconstructed and marked as uncertain.",
+   "line_id": 22522,
+   "source_hash": "4aa2b6f6fee2670ff450db308dd6e326a7f225500315cc04d28bd18ad0ee4b0f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468g f1:4": {
+   "en": "the sons of Keturah an escape",
+   "notes": "The third word is a reconstructed form with uncertain meaning. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 22523,
+   "source_hash": "a49a9752940baf3c032ab6c46efca044773027b206531d59886b9ffd0c1c8b5f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468g f1:5": {
+   "en": "He fought the cities",
+   "notes": "The verb 'לחם' is translated as 'fought' based on its visible morphology and lexical gloss. The object marker 'את' and the definite article 'ה' are reflected in the translation. The noun 'כרכים' is reconstructed and uncertain, but its plural form and context suggest 'cities'. The final character 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 22524,
+   "source_hash": "9e8f43792477f93eb40be437710ebc84024d9458c2f00f9836d2850f916ae65b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468g f1:6": {
+   "en": "Israel and [no recoverable text]",
+   "notes": "The transcription is heavily damaged, with only 'Israel' and the conjunction 'and' recoverable. The remaining text is too fragmented to yield defensible English words.",
+   "line_id": 22525,
+   "source_hash": "07295cd694d6784738294c9c0fcdf9a792824d343439dba8073bc6cfe07666b1",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

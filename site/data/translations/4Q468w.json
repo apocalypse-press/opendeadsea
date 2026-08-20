@@ -1,0 +1,32 @@
+{
+ "id": "4Q468w",
+ "label": "4Q468w",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 489,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468w f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed delimiters, with no recoverable lexical content in Hebrew or Aramaic. All words are marked as unknown or uncertain, and no semantic constraints or phrase evidence support translation.",
+   "line_id": 22570,
+   "source_hash": "efaf8e38260179e9d2e3985efffb2849bde27a6bddc191cacf193daf4a131e93",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468w f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no clear lexical or grammatical content. All visible forms are either unknown or too incomplete to translate. No contextual or semantic constraints provide recoverable meaning.",
+   "line_id": 22571,
+   "source_hash": "bad9874eb9121e3c47ce878dd7dd19f7e3b35ee36410270ebcc98cd691b98bf5",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

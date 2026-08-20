@@ -1,0 +1,116 @@
+{
+ "id": "4Q549",
+ "label": "4Q549",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 14,
+ "scroll_id": 587,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q549 f1:1": {
+   "en": "to and kab",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The first and last characters (ε) are untranslatable and omitted. The second element ]ל## is tentatively glossed as 'to'. The fourth element קב#[ is reconstructed as 'kab', but its meaning is unclear. The third element 'ו' is translated as 'and'.",
+   "line_id": 30423,
+   "source_hash": "8901f45ae20f185477c396bff882c1453105d1b03c3e43f20871bae817e9dc8d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q549 f1:2": {
+   "en": "to Egypt",
+   "notes": "The transcription is heavily damaged, with only 'ל' (preposition 'to') and a reconstructed 'מצרין' (Egypt) recoverable. The initial 'ε' and final characters are untranslatable. Uncertainty in reconstruction and missing text are noted.",
+   "line_id": 30424,
+   "source_hash": "7f8affd56bb048b7c95fb0d382c8317ff930f72a7ee41f8c8c5ba15104d985a4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q549 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and an uncertain verb form (שמ#ע#), with no recoverable words to construct a meaningful translation.",
+   "line_id": 30425,
+   "source_hash": "3431b59f13a92d5fbe8159eb0772915585d23e0317aa4f0549a8519f54c3274b",
+   "source_condition": "uncertain"
+  },
+  "4Q549 f2:1": {
+   "en": "[Hur] and he ate, and his sons, and Jochebed, you, [no recoverable text]",
+   "notes": "The transcription is heavily damaged with multiple uncertain and reconstructed elements. The word 'כדי' at the end has no trusted gloss and is omitted from the translation. The sequence 'בנו?׳ה##[ י' is reconstructed and uncertain, translated as 'his sons' based on the lemma 'בַּר_2' which can mean 'son'. The initial '[ ח ]ו#?ר' is reconstructed and uncertain, translated as '[Hur]' based on the lemma 'חוּר'. The final sequence '׳הכדי ]' is untranslatable due to damage and is noted as '[no recoverable text]'.",
+   "line_id": 30426,
+   "source_hash": "4efdec9a96e06288c8e679f925385993cb08eb43bb487e47fcaf112294795826",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q549 f2:2": {
+   "en": "She came to a sleep of perpetuity they came",
+   "notes": "The translation reflects the visible morphology and phrase evidence, with uncertainty in the reconstruction of the first verb. The phrase 'a sleep of perpetuity' is supported by repeated evidence, and 'they came' is a direct translation of the final verb form. The uncertain character 'ε' is omitted from the translation.",
+   "line_id": 30427,
+   "source_hash": "975da45126013d5f238fdcd97ac5f4b43ce3d600bc5046a1f84d3f215b179c78",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q549 f2:3": {
+   "en": "upon him and they have forgotten him",
+   "notes": "The transcription is damaged and partially reconstructed. The final character 'ε' is untranslatable and omitted. Uncertainty in the reconstruction of 'אשכחו׳ה#[ י' is noted.",
+   "line_id": 30428,
+   "source_hash": "77c9a61f67cb5448f9912568170878fe73eed63da32ad5f06ac3d6e5ea78e833",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q549 f2:4": {
+   "en": "his sons and his brothers",
+   "notes": "The transcription is partially damaged, with reconstruction and uncertainty in the final word. The Greek letter epsilon (ε) at the end is untranslatable in this context and is omitted from the translation.",
+   "line_id": 30429,
+   "source_hash": "af0adb9453aa9ffc0a4c02df061015b00689e39fccd4fa954e3b2bbc7e8bb72d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q549 f2:5": {
+   "en": "They returned the grain of their hour in this Amram",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged conjunction (ו?), a suffixed form with a lacuna (שעת׳הון[), and an unknown character (ε). The translation conservatively reflects recoverable content, omitting unsupported relations and retaining visible morphology where possible.",
+   "line_id": 30430,
+   "source_hash": "b2fdc8ff99bf1bde828154dc492e287b440aa1f3a55c3e37dd060544e02255ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q549 f2:6": {
+   "en": "He escaped to the house of eternity to inscribe in writing words of vision",
+   "notes": "Uncertain reconstruction of 'inscribe' and damaged final characters.",
+   "line_id": 30431,
+   "source_hash": "0ad6a504eaf6ad2467d6043a9fd57e3e04eaa0f20026b4ae62c85e750f3c38dd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q549 f2:7": {
+   "en": "And from the drinks of Uzziel, they became new months",
+   "notes": "The phrase 'משתות׳ה' is uncertain and left untranslated. The verb 'הוה' is translated as 'became' based on the perfect tense and the context of 'new months'.",
+   "line_id": 30432,
+   "source_hash": "56bcc6e72bd0dcb6e41e28c401aae5b5994306a6ebf2fe07c14b57098d9057b1",
+   "source_condition": "reconstructed"
+  },
+  "4Q549 f2:8": {
+   "en": "Ten and bore from Miriam with her sons three to Mishael and to Elizaphan",
+   "notes": "The transcription is partially damaged, with one reconstructed word (position 6) and one uncertain word (position 6). The lexical gloss for position 6 is unclear, denoted by '?'. The translation conservatively follows the recoverable text, preserving the structure and participants without adding assumptions.",
+   "line_id": 30433,
+   "source_hash": "e79a5486e414f81b5c3f187565b6e82fb324dec29824da59c8d719675e2d9b6d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q549 f2:9": {
+   "en": "And to Sithri. And he turned to Hur, to you, eat.",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged final word. The verb 'נסב' is translated as 'turned' based on visible morphology, though its gloss is uncertain. The phrase 'לאנתת׳הεברתε' is partially reconstructed and uncertain, with 'ברת' translated as 'eat' despite gloss ambiguity.",
+   "line_id": 30434,
+   "source_hash": "59ba786f0c534e697038cebc71ab4d158c23ee3f09ae7cdc2276c8f75cf71478",
+   "source_condition": "reconstructed"
+  },
+  "4Q549 f2:10": {
+   "en": "And he fathered from Ur and Aaron he turned to you Elisheba and he fathered",
+   "notes": "The phrase 'he fathered from' is supported by repeated phrase evidence. The verb 'נסב' is uncertain due to lack of gloss and is translated conservatively as 'turned'. The text is fragmented, and some words are reconstructed or uncertain.",
+   "line_id": 30435,
+   "source_hash": "a523db67daade524f7462469309b5068a4eba5b241e802a8dda7c9c4e7d40ce7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q549 f2:11": {
+   "en": "from the four sons to Nadab and to Abihu and to Eleazar and to Ithamar",
+   "notes": "The term 'בנין' is translated as 'sons' based on the context, though its gloss includes multiple meanings. The symbol 'ε' and the final punctuation mark '׃' are omitted as they cannot be translated independently.",
+   "line_id": 30436,
+   "source_hash": "60aa0a9bbd0b621b221fcbb64fd7ec1fb67286fda08b94dc6b4807cd25ab7593",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

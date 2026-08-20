@@ -1,0 +1,81 @@
+{
+ "id": "4Q329",
+ "label": "4Q329",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 317,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q329 f1:1": {
+   "en": "Gamul, Delaiah, Maaziah, Jehoiarib, Jedaiah, Harim, Seorim, Malkijah, Miyamin",
+   "notes": "The translation follows the visible transcription and lexical glosses. The term 'מִיָּמִין' has no trusted gloss, but its transcription is preserved in the translation as 'Miyamin'.",
+   "line_id": 13800,
+   "source_hash": "aec3bef1385a547903cfc3a4eb0637be5ae40c0800a9e63d2f75c1bf7a39d558",
+   "source_condition": "reconstructed"
+  },
+  "4Q329 f1:2": {
+   "en": "The thorn-bush Abijah, Jeshua, Shecaniah, Eliashib, Jakim, Huppah, Jeshebeab, Bilgah, Immer",
+   "notes": "Translation is a list of names with uncertain reconstructions and missing context. The transcription is fragmented, and some names are partially damaged or reconstructed.",
+   "line_id": 13801,
+   "source_hash": "ba3129832080944355be1b7884ff3cc15fd111b82310357fead7766b3d9f0aed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q329 f1:3": {
+   "en": "Hezir the shatter Pethahiah Ezekiel Jakin",
+   "notes": "Uncertainty in the transcription and reconstruction of 'Ezekiel' is not reflected in the translation. The translation preserves the order and content of recoverable words.",
+   "line_id": 13802,
+   "source_hash": "9d6e96faab25107ff73d6b5dadeda178501c94da1df1dc8ee8341e229fc3105e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q329 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only untranslatable fragments and punctuation.",
+   "line_id": 13803,
+   "source_hash": "6c4d6d1072a8fea4aaf1a5c89d1e8db72dfed35beb54d425d62c53399a45f3e7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q329 f2a_b:1": {
+   "en": "Barley Hezir the third on the right Pethahiah Abijah Jakin",
+   "notes": "The transcription contains two untranslatable punctuation marks (positions 3 and 10). The word at position 6 has no trusted gloss, but its lemma 'מִיָּמִין' suggests 'on the right'.",
+   "line_id": 13804,
+   "source_hash": "96687cbd1ee021a8860c7451a6f7268fe91c08c069ff15a4bb1d16c45049e210",
+   "source_condition": "reconstructed"
+  },
+  "4Q329 f2a_b:2": {
+   "en": "The third, Shecaniah, Delaiah, Jakim, Jehoiarib. The fifth, Jeshebeab.",
+   "notes": "Reconstructed text includes '[ שכניה' and '[ ה'. Uncertainty in 'יקי ]ם#' and 'יויריב##' due to damage. Punctuation mark '׃' omitted from translation as it cannot be translated independently.",
+   "line_id": 13805,
+   "source_hash": "8fe24b6a32577d4f4740341a603c16153715008b873986d2e30902d2554df1ae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q329 f2a_b:3": {
+   "en": "Harim, Immer, Malkijah, the sixth, the shatter, the thorn-bush, Ezekiel, Jeshua",
+   "notes": "Translation is highly uncertain due to extensive damage and reconstruction. The sequence of proper names and nouns is preserved, but their relationships and context are unclear. The terms 'shatter' and 'thorn-bush' are context-free glosses and may not reflect the intended meaning.",
+   "line_id": 13806,
+   "source_hash": "57e35f52e7d4dfde8d814cbaedc4d145a2f5aae59aa952e46a3e63e164fe9d1a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q329 f2a_b:4": {
+   "en": "The first in the month, the first Gamul, Delaiah, Maaziah, Jehoiarib. In the second Jedaiah.",
+   "notes": "Uncertainty in transcription and reconstruction affects 'first' (positions 2 and 6), 'Maaziah' (position 9), and the preposition 'in' (position 12). The phrase 'month (the) first' is supported by repeated evidence.",
+   "line_id": 13807,
+   "source_hash": "96e3d19c9c3af31bc0df1bb249351a5bfadcdd81c4c9d402818b626e8763c854",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q329 f2a_b:5": {
+   "en": "Harim, Seorim, Malkijah, Miyamin, in the third, the thorn-bush, Abijah, Jeshua",
+   "notes": "The transcription contains uncertain and reconstructed elements, particularly in positions 1, 7, 8, and 12. The lexical gloss for 'מימין' (Miyamin) is unclear, and the exact meaning of 'קוץ' (thorn-bush) in this context is uncertain. The translation preserves all recoverable words in order, without adding conjectured material.",
+   "line_id": 13808,
+   "source_hash": "c330ddeb1eacdcf9cd55080c1dc575b500979351428837134498b813a1c14566",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "4Q249c",
+ "label": "4Q249c",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 176,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q249c f1:1": {
+   "en": "and to stand",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The visible particles 'ו' (and) and 'ל' (to) are translated directly. The verb 'יצב' (stand) is in the Hitpael infinitive construct form, but its translation is uncertain due to the fragmentary nature of the text. The other elements (ε, ]ו#? # [, ε) are either unknown or too damaged to translate confidently.",
+   "line_id": 8702,
+   "source_hash": "0e8f3f1f2df043a5efbf631d0462c479e001a56af85c2c2fedf471c4df415d20",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249c f1:2": {
+   "en": "In the heads of the thousands, the sons of Israel, to the chiefs of hundreds",
+   "notes": "Reconstructed text includes '[ ב' and 'י ]ש##רא#ל##['. Uncertainty in 'י ]ש##רא#ל##[' due to damage. Phrase evidence supports 'the heads of the families' and 'leaders of hundreds' but is overridden by visible morphology and higher-confidence constraints.",
+   "line_id": 8703,
+   "source_hash": "098cb21b46a960a17d19f1519b08385a89b6819ceca896569a4e69295044e436",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249c f1:3": {
+   "en": "Chiefs of fifty, leaders of tens, and judges",
+   "notes": "The phrase 'leaders of tens' is supported by repeated phrase evidence. The transcription is partially damaged, and some words are reconstructed or uncertain.",
+   "line_id": 8704,
+   "source_hash": "e562a8c196b0866ee93a2be2357b27881ea8a12cf7f0499b777e875252a0fb3a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249c f1:4": {
+   "en": "and officers to their rods in all their clans",
+   "notes": "The phrase 'all their clans' is supported by repeated phrase evidence. The term 'rod' is uncertain due to reconstruction and damage.",
+   "line_id": 8705,
+   "source_hash": "96128f29828912978223b0e2bf1a014b5cec4509faff57458c7409181c4a7fd3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249c f1:5": {
+   "en": "upon the mouth of the sons of Aaron and the priests and all the fathers",
+   "notes": "Reconstructed text in positions 1 and 5. Phrase evidence suggests 'the sons of Aaron' and 'of Aaron the priest', but the visible morphology and transcription are followed instead.",
+   "line_id": 8706,
+   "source_hash": "37ba4f0ebb75052eb29e4ca5d0079cf71976c10cde3cc2b7cead889d4c856d68",
+   "source_condition": "reconstructed"
+  },
+  "4Q249c f1:6": {
+   "en": "The congregation which came out, the lot to stand at the head",
+   "notes": "Reconstructed text and uncertainty in positions 1 and 5. Phrase evidence supports 'it came out the lot' for positions 4-6, but the translation retains visible morphology and lexical items in order.",
+   "line_id": 8707,
+   "source_hash": "58a81ad84cc450f7ec3c5c9db317c0a423dfc386c4bc7dd534074738a9dd5170",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249c f1:7": {
+   "en": "In works and to go out and to come before the face of the congregation to mouth",
+   "notes": "The phrase 'to come before the face of the congregation' is a reconstruction based on repeated phrase evidence, though with low support. The final 'to mouth' is incomplete and its intended meaning is uncertain.",
+   "line_id": 8708,
+   "source_hash": "3a2d683241afcf3ce51a45b2307e3b169fa9a1915d2868882c3fb6c5276c7b2a",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

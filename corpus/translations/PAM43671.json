@@ -1,0 +1,60 @@
+{
+ "id": "PAM43671",
+ "label": "PAM43671",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 703,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "PAM43671 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible English words due to extensive damage and uncertainty.",
+   "line_id": 35560,
+   "source_hash": "71e27eed5067305a28718b5cef5d074c002e1521526077fd857d9268899689d0",
+   "source_condition": "uncertain"
+  },
+  "PAM43671 f5:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic lexical items, only damaged or untranslatable characters (ε,  #, ׃).",
+   "line_id": 35561,
+   "source_hash": "a13275412b0c3322cc22a8d65a47a4b1f97950c3eff6ea76207458243053bc8a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43671 f34:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain fragments, with no defensible English words surviving.",
+   "line_id": 35562,
+   "source_hash": "864a671bef6dd12ccd1cb3b508c86c5dd03d596a09e1ecf4144127285ca36a30",
+   "source_condition": "uncertain"
+  },
+  "PAM43671 f34:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a mix of Greek (ε) and Hebrew (אל) characters with no clear lexical or syntactic relationship. The Hebrew 'אל' is uncertain and lacks context. The Greek 'ε' is an isolated letter with no recoverable meaning. The final character (׃) is a punctuation mark with no translatable content.",
+   "line_id": 35563,
+   "source_hash": "1b102d0c668707e9c7fa6e450e083de979a58e4d5a00245653713a20944a708e",
+   "source_condition": "clean"
+  },
+  "PAM43671 f39:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions.",
+   "line_id": 35564,
+   "source_hash": "1fcdef4b535dc54941b7c4e0a4edca4d0430b02165927553a22ce7ce247ecb86",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43671 f39:2": {
+   "en": "wisdom",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. Only the word 'wisdom' (חָכְמָה) is recoverable with reasonable confidence. Other characters and marks are either untranslatable or too damaged to interpret.",
+   "line_id": 35565,
+   "source_hash": "21a6f0292fa6882afa338b2008e752b09239f8e03b1bcc224a7bdafc2b226946",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

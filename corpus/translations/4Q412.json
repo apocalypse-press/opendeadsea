@@ -1,0 +1,179 @@
+{
+ "id": "4Q412",
+ "label": "4Q412",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 23,
+ "scroll_id": 404,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q412 f1:1": {
+   "en": "And you do not make",
+   "notes": "Uncertainty in the transcription and reconstruction of the second word (את ]ה##) and the verb (תפע##[ ל). The final character (ε) is untranslatable and omitted.",
+   "line_id": 18923,
+   "source_hash": "5de31da502cc926ffa0006d9e518b4ce0e9b1470d4e391df505cccc346f0b512",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f1:2": {
+   "en": "Great assembly, do not make the one who goes out",
+   "notes": "Uncertain reconstruction and damage in multiple words. Phrase evidence supports 'assembly great'. Verb forms and particles are partially recoverable but context is unclear.",
+   "line_id": 18924,
+   "source_hash": "2557889769544ed1c4a46ef2facf5dea5960eb59b1a4416c407d4665bf2ae176",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f1:3": {
+   "en": "Upon him is an evil report flowing, and even from sin to knowledge",
+   "notes": "The transcription is heavily damaged, with several uncertain and reconstructed words. The translation reflects the recoverable text, but the exact meaning remains unclear due to the damage. The final character 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 18925,
+   "source_hash": "46a13facbd1267a006f0e1db7aa53bb311c3beaaa55d2833069a29cfd9ac3e81",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f1:4": {
+   "en": "And you will be confused in his words, in understanding he brought them out",
+   "notes": "The transcription is heavily damaged, with several uncertain and reconstructed words. The translation is tentative and based on the available lexical glosses. The phrase 'he brought them out' is a reconstruction based on the verb 'הוציא' and the plural noun 'מלי#?ם##['.",
+   "line_id": 18926,
+   "source_hash": "c35297d13892e09171ccbecf47471b257c6819967f1ea1872d2279e10945d791",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f1:5": {
+   "en": "Put chastening upon the lips and to the tongue of the doors of a shield And now O children listen",
+   "notes": "Reconstructed and uncertain elements include the verb 'put' and the phrase 'the lips'. The phrase 'O children listen' is supported by repeated phrase evidence.",
+   "line_id": 18927,
+   "source_hash": "2a93aab901cfd71b87166eb92758d9555ff9f45a98a3268bc8bc83b2f37a577d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f1:6": {
+   "en": "To justice, mutter in the just, to seekers of understanding",
+   "notes": "Uncertain transcription and reconstruction in positions 1, 4, 6, and 10. Phrase evidence partially supports 'of a righteous [person] it considers' and '(to) Zadok', but the translation follows visible morphology and lexical glosses. The fragment's syntax is incomplete, and some relationships are inferred from recoverable tokens.",
+   "line_id": 18928,
+   "source_hash": "07efd3ef05204e273eb83e2f18453d792bbdc139edb3ad2b7c5a437c114e8e3b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f1:7": {
+   "en": "In all mouth praise quaking",
+   "notes": "Uncertain reconstruction and damaged text affect positions 5-8. The phrase 'all mouth' is supported by repeated evidence. 'Praise' is the highest-confidence sense for 'halal' here. 'Quaking' is a context-free gloss for 'ra'ash' but its fit is uncertain due to damage.",
+   "line_id": 18929,
+   "source_hash": "04aa9761fb15523e37ce8fa55875d9a3191b324f0f60d4e1b81ab9125a87e6b1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f1:8": {
+   "en": "Give thanks to his name",
+   "notes": "The transcription is partially damaged, with uncertainty in the fourth word and an untranslatable final character (ε). The second word's gloss is uncertain, but 'thanks' is inferred from context. The fourth word is reconstructed as 'name' with uncertainty.",
+   "line_id": 18930,
+   "source_hash": "e5b7c0bab0fbda054a29d26db70c3228aa8c6351c87c0233d8f192ce14f4b4e5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f1:9": {
+   "en": "in the great assembly",
+   "notes": "Uncertain due to damaged and reconstructed text; the phrase 'in the great assembly' is supported by repeated phrase evidence, but the final characters are unclear and omitted from the translation.",
+   "line_id": 18931,
+   "source_hash": "b19e42f474d996a8b1ca070ada60108ed98b757714682853b5f6f27f195a0e49",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f1:10": {
+   "en": "By day and night",
+   "notes": "The final characters 'ε׃' are untranslatable and omitted.",
+   "line_id": 18932,
+   "source_hash": "041e7b264308e699ae6e1a43d8416865816cf66b2359667ad306010f4e316011",
+   "source_condition": "reconstructed"
+  },
+  "4Q412 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain characters (ε, ]רתי#?, #  # [, ε). No meaningful translation is possible.",
+   "line_id": 18933,
+   "source_hash": "691b12d620da33d762dc85c953dc2bb659ba2b81c99a079269573cbfe82a732d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f2:2": {
+   "en": "not you",
+   "notes": "The transcription is heavily damaged, with many uncertain and unrecoverable elements. The only clear word is 'אל' (not). The rest of the text is too fragmented to provide a coherent translation beyond this single word.",
+   "line_id": 18934,
+   "source_hash": "b1bf659958394ada3afedc47dd32c5f48f4710c49992fb892c295fb794d2ac99",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The only recoverable word is a reconstructed form of 'three', but it cannot be translated confidently due to the surrounding damage and uncertainty.",
+   "line_id": 18935,
+   "source_hash": "a0c8e988f3a5a94b014219b34040bd2c649e3ec96f3191834cbf23fb15965d7c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f2:4": {
+   "en": "sending of the Medans",
+   "notes": "The translation is uncertain due to damaged and ambiguous text. The phrase 'sending of the Medans' is based on the visible morphology and lexical glosses, but the context is unclear. The phrase evidence suggests an alternative rendering as '[one who] spreads contentions', but this is not directly supported by the visible text.",
+   "line_id": 18936,
+   "source_hash": "15949546385ffcd27632cec4c6bbec42447ff2169266eda588c70353cd6912fa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f2:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no clear lexical or syntactic structure. The visible forms (ε, ]ל[, ]לך, רא##[, ε) do not provide sufficient evidence for a defensible translation. Reconstructed and uncertain elements further limit interpretability.",
+   "line_id": 18937,
+   "source_hash": "42c48c7d6f35008500ecfe216fbe039a4727fe1477e1f2e647532fa399288ae2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f2:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions.",
+   "line_id": 18938,
+   "source_hash": "fff9410516bd99bc90f6b1e7815b843df6bcb84a58a162145cc22de1b3537222",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f3:1": {
+   "en": "justices righteousness",
+   "notes": "The translation reflects the recoverable lexical items 'justices' and 'righteousness' from the source. The first and last characters are untranslatable and omitted. A reconstructed term is included as 'righteousness'. Repeated phrase evidence suggests 'the judgments your righteousness' but lacks sufficient support for mandatory phrasing. Uncertainty in reconstruction and untranslatable characters are noted.",
+   "line_id": 18939,
+   "source_hash": "f26f4cd62f55cc13e33ccb211e496074ddb6e447338adad893247752bdbf43f9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f3:2": {
+   "en": "upon words",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment. The final character (׃) is a source-script punctuation mark and is omitted from the translation.",
+   "line_id": 18940,
+   "source_hash": "3b95fe34606299562d415dd361f5ba799c828324324fd73f14898da8370bb95c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f4:1": {
+   "en": "he will take possession of riches",
+   "notes": "The transcription is heavily damaged, with uncertain reconstructions and missing text. The translation is based on the recoverable lexical items, but the exact meaning remains uncertain due to the fragmentary nature of the text.",
+   "line_id": 18941,
+   "source_hash": "43f7302ce88fd37328d51d6a31898e25b31108e19bd9490a8dea50716e45af6c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f4:2": {
+   "en": "as pleasure he created",
+   "notes": "The transcription contains untranslatable characters (ε) and an uncertain form (ר##צונ׳ו). The translation reflects the recoverable words in order, with 'pleasure' for ר##צונ׳ו and 'he created' for ברא. Uncertainty in the form is noted but does not affect the translation of the recoverable content.",
+   "line_id": 18942,
+   "source_hash": "64fac1dd4b5f71d0b3f413caeb88994cf0308408545e596a505fd4bfdd94a8d7",
+   "source_condition": "uncertain"
+  },
+  "4Q412 f4:3": {
+   "en": "I will call out and a sound",
+   "notes": "Translation is highly uncertain due to extensive damage and reconstruction. The phrase 'day [when] I will call out' is a repeated pattern but not directly applicable here. The final 'ε' and other fragments are untranslatable.",
+   "line_id": 18943,
+   "source_hash": "d87c8a6e514fc76e0556c34af87951d62d16ce054340156bb242d48c31b1546b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f4:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain or unknown lexical items. No defensible English translation can be constructed from the provided evidence.",
+   "line_id": 18944,
+   "source_hash": "b8278188f6783e69fa5abcda2189d87927a9c7555d38607dc2fc2b68050eccb0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q412 f4:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items translatable into English. The visible forms are either incomplete or unidentifiable, and the provided glosses offer no reliable basis for translation.",
+   "line_id": 18945,
+   "source_hash": "51855141d3ef263de038ac9f721852cfb3191459fe7acd6c64436c4469bf5de9",
+   "source_condition": "uncertain"
+  }
+ }
+}

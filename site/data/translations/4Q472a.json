@@ -1,0 +1,53 @@
+{
+ "id": "4Q472a",
+ "label": "4Q472a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 504,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q472a f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders, with no defensible Hebrew or Aramaic lexical content surviving.",
+   "line_id": 22712,
+   "source_hash": "d71bbd05b966f013f84f503e27623b31b7cf12e0ff5478e84955dcf1ca8d65ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q472a f1:2": {
+   "en": "to cover command if not",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and untranslatable elements. The translation reflects only the recoverable words: 'to' (ל), 'cover' (מכ##ס##י), 'command' (צו), 'if' (א#ם), and 'not' (לוא##[). The remaining elements are either untranslatable or too damaged to recover.",
+   "line_id": 22713,
+   "source_hash": "101bd9e215a723de568071998fc8a42d0181b3df0fa778ec68e3c8b7c6dc8e37",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q472a f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and unknown lexical items. No defensible English translation can be constructed from the surviving fragments.",
+   "line_id": 22714,
+   "source_hash": "90ea1a93878a5e0267ed560e49a78fccd6baa24d643f6e92828c74a702c21faa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q472a f1:4": {
+   "en": "to upon the deed",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The first and last characters (ε) are untranslatable and omitted. The preposition 'to' is uncertain. The particle 'upon' is partially damaged. The noun 'deed' is reconstructed and uncertain. No contextual constraints or repeated phrases are available to clarify the meaning.",
+   "line_id": 22715,
+   "source_hash": "ec0de73785e464f6ba5bf3e61edf564a3e8eb6ad8edd0f27cf7f463557fd63a4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q472a f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible. The visible forms include a reconstructed 'ל' (to) but lack sufficient context or recoverable material to form meaningful content.",
+   "line_id": 22716,
+   "source_hash": "838dcf7f60e5ba6ba07ccfc278860c9845c222b44a493754abe2bc0fa77b53d7",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

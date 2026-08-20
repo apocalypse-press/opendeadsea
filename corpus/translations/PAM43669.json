@@ -1,0 +1,53 @@
+{
+ "id": "PAM43669",
+ "label": "PAM43669",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 701,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "PAM43669 f9:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (epsilon) and reconstructed placeholders, with no recoverable lexical content.",
+   "line_id": 35532,
+   "source_hash": "bd17a7960a7c03271b60d74fd90394329f611a8e48c0ba2d6f28eec1a250d9a7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43669 f9:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain elements, with no recoverable lexical items that can be confidently rendered into English.",
+   "line_id": 35533,
+   "source_hash": "f69d8103650958e50302f44cfd056447b76a40713d763fc2e9af33fed089f4a7",
+   "source_condition": "uncertain"
+  },
+  "PAM43669 f32:1": {
+   "en": "or [no recoverable text]",
+   "notes": "The transcription is heavily damaged, with only the particle 'or' clearly recoverable. The remaining characters are uncertain or untranslatable.",
+   "line_id": 35534,
+   "source_hash": "b485a43849be7f11434db6349316d33209ab5d07af756ccb545fa79b67cce9a3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "PAM43669 f50:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and no recoverable lexical items.",
+   "line_id": 35535,
+   "source_hash": "d4b993cf205460c3a24df9e15fc2b36982ba79dd1ce1a4aa5f00dfa76825b6a7",
+   "source_condition": "clean"
+  },
+  "PAM43669 f50:2": {
+   "en": "and a scent",
+   "notes": "The transcription is damaged, with uncertain reconstruction of the word 'scent/smell'. The particle 'and' is clearly visible, but the rest of the line is fragmentary.",
+   "line_id": 35536,
+   "source_hash": "a1b0c7e0ab7638fdafb836b9e06d002039c8268f253ad7e274133928c514c7b2",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

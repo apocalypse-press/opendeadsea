@@ -1,0 +1,165 @@
+{
+ "id": "4Q553",
+ "label": "4Q553",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 21,
+ "scroll_id": 591,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q553 f1i:1": {
+   "en": "all his breast",
+   "notes": "The initial character 'ε' is untranslatable and omitted. 'כל' is translated as 'all', and 'חדו׳הי' as 'his breast'.",
+   "line_id": 30555,
+   "source_hash": "47875e24a3e65b7fb093629247ec87697619f26b0683a518d898dd5bc956e2b0",
+   "source_condition": "clean"
+  },
+  "4Q553 f1i:2": {
+   "en": "from Moses",
+   "notes": "The initial character 'ε' is untranslatable and omitted; its presence is noted here.",
+   "line_id": 30556,
+   "source_hash": "356209d036bac4b80830eebdcf0803224357cab2cfcdb9f2807d9ad1cc6a1f8a",
+   "source_condition": "clean"
+  },
+  "4Q553 f1i:3": {
+   "en": "He created a place that",
+   "notes": "The initial 'ε' is untranslatable and omitted. The verb 'ברא' is uncertain but translated as 'created' based on visible morphology. The relative particle 'די' indicates a relative clause, translated as 'that'.",
+   "line_id": 30557,
+   "source_hash": "6cb0f44fd4d706ed0dfdbf5fcf2f069d29142ec0477c063fe04a7803dde6d02a",
+   "source_condition": "uncertain"
+  },
+  "4Q553 f1i:4": {
+   "en": "the official to meet",
+   "notes": "The initial 'ε' is untranslatable and omitted. The transcription is partially damaged, but all recoverable lexical items are accounted for.",
+   "line_id": 30558,
+   "source_hash": "1c84799b167a52abdb0860b2d62b1da32760a5254895708ef8b786c03dcce86b",
+   "source_condition": "clean"
+  },
+  "4Q553 f1i:5": {
+   "en": "in the name of which",
+   "notes": "The transcription contains uncertain and unknown elements, including an untranslatable Greek letter (ε) and damaged characters. The translation reflects recoverable words only, omitting unsupported material. Uncertainty in the source limits confidence in the English rendering.",
+   "line_id": 30559,
+   "source_hash": "5fd51fc5a41516a2c99ba52f000be7121041026c837129665c92693f257c39a3",
+   "source_condition": "uncertain"
+  },
+  "4Q553 f1ii:1": {
+   "en": "his vision and [no recoverable text]",
+   "notes": "The final characters 'א#[ε' are damaged and cannot be translated independently. The translation reflects the recoverable words 'his vision' and signals the loss of the final segment.",
+   "line_id": 30560,
+   "source_hash": "5ada9fa8e4444c3822d1969417cb9a362ba40bfb243cc5f0eab28e4ec844c294",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q553 f1ii:2": {
+   "en": "mighty power",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 30561,
+   "source_hash": "81e5eb14d029e43211dd477b11ab99b95c5c6aa55ece19c24e1f88e5a5a1fbbe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q553 f1ii:3": {
+   "en": "from between them and he said",
+   "notes": "The transcription includes a damaged character (ε) that cannot be translated independently; it is omitted here. The word 'ביני׳הון[' is reconstructed, but its meaning is clear from the context.",
+   "line_id": 30562,
+   "source_hash": "4992ea21acea2d5c1a935f9241df3fb6728e2e5265e830c07ba2f2f1cf75e541",
+   "source_condition": "reconstructed"
+  },
+  "4Q553 f1ii:4": {
+   "en": "to the three trees which",
+   "notes": "The transcription is damaged and partially reconstructed. The final characters 'ε׃' are untranslatable and omitted. The particle 'א' has no trusted gloss and is omitted.",
+   "line_id": 30563,
+   "source_hash": "32e2b2ad4fa0391adb2da918d5ba53f12f4343c7210207343102d117fde69010",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q553 f2i:3": {
+   "en": "who worked for the claim and",
+   "notes": "Uncertain transcription and morphology in positions 3, 4, and 7. Phrase evidence suggests 'for Dan' and 'subjects of', but these are not directly supported by the visible text. Translation retains recoverable words in order, omitting unsupported additions.",
+   "line_id": 30564,
+   "source_hash": "2a91a71896986b084f29f5bc8aebd9efe20e1190dff396805f7bda7cc02f1059",
+   "source_condition": "uncertain"
+  },
+  "4Q553 f2i:4": {
+   "en": "who I am",
+   "notes": "The transcription is damaged and uncertain, with the first two characters (ε]א##) being unclear and omitted from the translation. The relative particle 'די' is translated as 'who,' and the verb 'אהך' is rendered as 'I am' based on its morphology and stem.",
+   "line_id": 30565,
+   "source_hash": "41c1052f380e7b5130f6f5daa0c0acbd57d69505a8438f714a4a8144f9c52837",
+   "source_condition": "uncertain"
+  },
+  "4Q553 f2i:5": {
+   "en": "and he said to in kingdom",
+   "notes": "Uncertainty in transcription and morphology affects the translation. The phrase 'he said to' is supported by repeated evidence, but the overall meaning remains unclear due to fragmented text.",
+   "line_id": 30566,
+   "source_hash": "7f16026c6ce7552a5d2fc10b5f403cbcd0472cd9585131ec9ad8cbeadd5a276b",
+   "source_condition": "uncertain"
+  },
+  "4Q553 f2i:6": {
+   "en": "to be alive and they wished",
+   "notes": "The transcription contains uncertain and unknown elements, including an untranslatable character (ε) and a questionable form (מחי?ה). The translation reflects recoverable words in order, omitting unsupported content.",
+   "line_id": 30567,
+   "source_hash": "1aed03c272ba4b0bb836b5a49b972de91e7e08976d41603c5461191febe480ae",
+   "source_condition": "uncertain"
+  },
+  "4Q553 f2i:7": {
+   "en": "kind",
+   "notes": "The translation is based on the visible form ]מ##י#?ן#? with a lexical gloss of 'kind'. The initial 'ε' and the final punctuation mark '׃' are omitted from the translation as they do not contribute to a defensible English rendering. Uncertainty is noted due to the damaged state of the text.",
+   "line_id": 30568,
+   "source_hash": "df400ac5c20c3e8139955fd5b8c55ebc775a8e206c7ae4a1bd4721ebb144e973",
+   "source_condition": "uncertain"
+  },
+  "4Q553 f3+2ii+4:1": {
+   "en": "and I saw",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged verb form (חזית#[). The translation reflects the recoverable content, but the exact meaning remains uncertain due to the fragmentary state of the text.",
+   "line_id": 30569,
+   "source_hash": "9bed97adeb1aa792dfc680c0d2f0b8c0c1cb03e1f37b728248a812b13f188d10",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q553 f3+2ii+4:2": {
+   "en": "That which is upon him now, the shining one stands and the four trees say to and the trees stand",
+   "notes": "Uncertain reconstruction of 'upon him' and 'four'; uncertain gloss for 'shining one'; uncertain character 'ε' omitted.",
+   "line_id": 30570,
+   "source_hash": "b282ea6b2504b0e71ca9402d7c2743094144aa5fb4c594eab63a7de3e9d242fb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q553 f3+2ii+4:3": {
+   "en": "And they were distant from and he said to: Will you see a fashion? And you said: I will see and understand.",
+   "notes": "The transcription contains uncertain and reconstructed elements, particularly in the phrase 'ורחקו#?[' and the particle 'א'. The phrase 'אמ(^ ר ^)ת' is reconstructed but translated based on visible morphology. The particle 'אן' has no trusted gloss and is omitted from the translation. The translation conservatively preserves all recoverable lexical items and their order, with uncertainty noted here.",
+   "line_id": 30571,
+   "source_hash": "1f87bd9b39435d6038319bb1a5e677754e6ff85ac25842d67d5dcbfc93905418",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q553 f3+2ii+4:4": {
+   "en": "In and I saw a tree which stood he placed in Madnakh to and I asked from there and he said to Babylon and I said to you",
+   "notes": "The translation includes uncertain reconstructions and omitted untranslatable characters. Phrase evidence suggested 'from there' for positions 18-19, 'to Babylon' for 22-23, and 'he said to' for 26-27, but these were not adopted due to low support or lack of direct licensing. Positions 2, 6, 13, 15, 24, and the parenthetical (^ ת ^) at 26 were omitted as untranslatable.",
+   "line_id": 30572,
+   "source_hash": "6eb6b114379457229e56269ad194f6bdd439554c520a7a5345806aa9c4460717",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q553 f3+2ii+4:5": {
+   "en": "He, the mighty in Persia, and I saw a tree, another, and I asked, and I said to who",
+   "notes": "The transcription contains damaged and uncertain elements, particularly in the relative particle 'ד##[ י' and the uncertain glosses for 'א'. The phrase 'he said to' is supported by repeated evidence, but 'to kind' is less certain. The translation preserves recoverable content without adding unlicensed material.",
+   "line_id": 30573,
+   "source_hash": "a93dcd1573a82b327f724b8c3607aeb4cef81d03b5460aa15aa5e9dd803615bc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q553 f3+2ii+4:6": {
+   "en": "His name and he said to Media and I said to you he who is mighty over the strength of the sea and over the shipyard and over all the peoples",
+   "notes": "The translation includes several uncertain and reconstructed words, particularly in the phrases 'to Media' and 'over all the peoples'. The phrase 'all the peoples' is supported by repeated phrase evidence. The word 'shipyard' is a context-free gloss for 'מחוז', which is otherwise uncertain. The final particle '׃' is omitted as it cannot be translated independently.",
+   "line_id": 30574,
+   "source_hash": "5243775db1a990a456f0ef8fa28fe333b4d82182312e5c0d5cbfe735c15ae9f3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q553 f3+2ii+4:7": {
+   "en": "And I saw a tree, third, and I said to who name and why vision, changed from them. And he said to Greece.",
+   "notes": "The transcription contains uncertain and reconstructed elements, particularly in positions 3 and 17. The phrase 'from there' is a high-confidence rendering of positions 10-11, but 'to kind' at positions 9-10 is less certain. The sequence 'a year as' at positions 15-16 is weakly supported. Untranslated punctuation marks and uncertain particles are omitted.",
+   "line_id": 30575,
+   "source_hash": "6b931b65d96498a9003d976fce764e22322b8112197d86a35d2da6979abebb87",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

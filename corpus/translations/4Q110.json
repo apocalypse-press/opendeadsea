@@ -1,0 +1,95 @@
+{
+ "id": "4Q110",
+ "label": "4Q110",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 11,
+ "scroll_id": 910,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q110 f1_3:1": {
+   "en": "To go all the words weary not he is able a man to speak not it is sated an eye",
+   "notes": "The translation follows the recoverable text order, preserving uncertainty and damage. Phrase evidence supports 'all the words,' 'he is able anyone to,' and 'it is satisfied an eye,' but the fragmented state prevents fluent reconstruction. No words are omitted, and no unlicensed connectors or subjects are added.",
+   "line_id": 48828,
+   "source_hash": "53272b3d963d82486d1743f335e56196037a8a9c1562287203423898249338ca",
+   "source_condition": "reconstructed"
+  },
+  "4Q110 f1_3:2": {
+   "en": "To see and not fill the ear from hearing: whatever it was that he would be and what that was made",
+   "notes": "The phrase 'whatever it was that he would be' reflects a high-confidence repeated pattern for positions 10-12. The final clause 'what that was made' retains the nifal passive voice of the verb 'make' without adding an unsupported agent.",
+   "line_id": 48829,
+   "source_hash": "45500286716a30617da38df06584f3a6c0f19c0c6750b1cdfa75c1a55d8d7052",
+   "source_condition": "reconstructed"
+  },
+  "4Q110 f1_3:3": {
+   "en": "It is what will be done, and there is no new thing under the sun. There is a word that says, 'Consider this.'",
+   "notes": "The phrase 'consider this' is a dominant contextual rendering of the words 'ראה זה' based on repeated phrase evidence. The phrase 'it is what will be done' is a paraphrase of the reconstructed words 'הוא שיעשה' based on semantic constraints. The phrase 'there is no new thing under the sun' is a translation of the words 'אין כל חדש תחת השמש' with 'כל' translated as 'whole' or 'all' based on its lexical gloss, but the dominant contextual rendering of 'כול חדש' as 'all the months' was not used as it does not fit the context. The word 'יש' is translated as 'there is' based on its lexical gloss.",
+   "line_id": 48830,
+   "source_hash": "1d9c115c5fa72e6631a49f8cc0c07f8a62a9fadf15720a262f2a9f20c37be058",
+   "source_condition": "reconstructed"
+  },
+  "4Q110 f1_3:4": {
+   "en": "It is new already it was to eternities which were from our faces There is no remembrance to the first",
+   "notes": "The phrase 'month it' is a repeated phrase with low support (0.2353), and 'Yahweh forever of perpetuity' is similarly unsupported (0.2308). The translation follows the visible transcription and morphology, retaining uncertainty in the notes. The lexical glosses are used as aids, and the translation preserves grammatical person, number, and semantic relationships.",
+   "line_id": 48831,
+   "source_hash": "724021a9666fdcde193eaf5a6f7801135e45268be2df7b28dced61f60e1a5db7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q110 f1_3:5": {
+   "en": "And even to the last ones who will not be, a remembrance with those who will be afterward.",
+   "notes": "The phrase 'ל׳הם זכרון' is translated as 'a remembrance' based on repeated phrase evidence. The sequence 'יהיו לא יהיה' is rendered as 'who will not be' with uncertainty due to damage and low pattern support. The final 'אחרנה' is translated as 'afterward' with gender agreement.",
+   "line_id": 48832,
+   "source_hash": "7f52ed4039791724dfb168a788d28bf1422a76087f9cb4a791bbd74c4ee0c7e5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q110 f1_3:6": {
+   "en": "I, the speaker, was king over Israel in Jerusalem, and I gave",
+   "notes": "Reconstructed and uncertain text includes 'king' and a potential lacuna after 'I gave'.",
+   "line_id": 48833,
+   "source_hash": "34717c1ef6a4bbc7df457bc1d3730b84e2135885f45d5d3e47c6e1807829e25d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q110 f1_3:7": {
+   "en": "[object marker] the heart to inquire and to spy in wisdom upon all that he did under the heavens it",
+   "notes": "The translation follows the visible transcription and morphology, preserving the object marker and the sequence of infinitives. The phrase 'under the heavens' is supported by repeated evidence. The relative pronoun 'that' and the pronoun 'he' are retained as licensed by the source. The final 'it' is supported by phrase evidence but its role is uncertain.",
+   "line_id": 48834,
+   "source_hash": "48ec4d49fbd80f53ef67cc828dd08dc17c46ac87ead0759aade392fcefa12f7e",
+   "source_condition": "reconstructed"
+  },
+  "4Q110 f1_3:8": {
+   "en": "An evil occupation God has given to the children of humankind to be busy with. I have seen all the deeds.",
+   "notes": "The phrase 'an evil occupation' is a reconstruction based on repeated phrase evidence. The phrase 'God has given to the children of humankind' is a reconstruction based on repeated phrase evidence. The phrase 'to be busy with' is a reconstruction based on repeated phrase evidence. The phrase 'I have seen all the deeds' is a direct translation of the visible text.",
+   "line_id": 48835,
+   "source_hash": "10c659121b1baacafd28b15bd7c90fb15bfab8035a745193c25f4aa074ef525a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q110 f1_3:9": {
+   "en": "Which were made under the sun, and behold the whole futility and striving of wind. Crooked not, he is not able.",
+   "notes": "The phrase 'under the sun' is a high-confidence reconstruction. 'Futility' is a contextual rendering of 'hebel'. 'Striving of wind' is a repeated phrase with strong support. The final clause is uncertain due to damage and low phrase support.",
+   "line_id": 48836,
+   "source_hash": "8dc1267d88c3006089ef7809086ce9fbc9d8fa40257bf440ae4be6c95274fdba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q110 f1_3:10": {
+   "en": "To be a mighty man and want not to be able to count I spoke with my heart saying I behold",
+   "notes": "The phrase 'to be a mighty man' is supported by repeated phrase evidence. The verb 'count' is reconstructed. The phrase 'saying I' is supported by repeated phrase evidence, but the dominant pattern support is not high enough to overwrite the visible DSS variant. The word 'behold' is a particle and is translated as is.",
+   "line_id": 48837,
+   "source_hash": "3314ccc2092111bde8a0496e2ee63155df6ba4b86a94b671920b759331db5f15",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q110 f1_3:11": {
+   "en": "I was strong and added wisdom upon all that was before Jerusalem and let me see",
+   "notes": "The phrase 'heart let me see' is a high-confidence contextual rendering of positions 14-15. The translation conservatively follows the visible morphology and phrase evidence, preserving the first-person singular subject and the sequence of actions.",
+   "line_id": 48838,
+   "source_hash": "07eff773728f3d862b347107fdaa013470ab27f17a5a70eaa48b21fa0698497b",
+   "source_condition": "reconstructed"
+  }
+ }
+}

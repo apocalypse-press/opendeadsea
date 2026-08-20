@@ -1,0 +1,46 @@
+{
+ "id": "6Q22",
+ "label": "6Q22",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 660,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "6Q22 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and reconstructions that cannot be translated independently.",
+   "line_id": 32703,
+   "source_hash": "0c8d1e8beb61ea28134aaf355591b9a332b7e0315831e21d747fca39ed3d2c66",
+   "source_condition": "reconstructed"
+  },
+  "6Q22 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no clear lexical or grammatical content. The visible characters do not form translatable words or phrases. One character is reconstructed, but it does not contribute to a defensible translation.",
+   "line_id": 32704,
+   "source_hash": "f8afeda74270363c476174a5587776e8a51842cf2a641b4c91275882276beb2a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q22 f1:3": {
+   "en": "to Moses",
+   "notes": "The transcription contains untranslatable characters and damage, with only 'to Moses' recoverable. The initial 'ε' and final 'ε' are omitted as untranslatable. The damaged 'מוש[ ה' is reconstructed as 'Moses'.",
+   "line_id": 32705,
+   "source_hash": "2f1ad34dffcd6355a56aa83393654b2a15f8e8606fc7e86a77ac49ec21ef39db",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q22 f1:4": {
+   "en": "to forced labour",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The visible particles and lexical items are translated conservatively, but the overall meaning remains uncertain due to the fragmentary nature of the text.",
+   "line_id": 32706,
+   "source_hash": "49b2e6f22bc7c396e0ee9913f4db2e597c76537a577cec065217d123f5480044",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

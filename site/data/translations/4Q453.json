@@ -1,0 +1,32 @@
+{
+ "id": "4Q453",
+ "label": "4Q453",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 451,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q453 f1:1": {
+   "en": "How have you delayed?",
+   "notes": "The transcription is damaged and partially reconstructed. The particle 'אי?ככה' is uncertain, and the verb 'התאחרת' is reconstructed. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 22145,
+   "source_hash": "e169c1d44680b97e977870cf8433076400d857b3c7163410ea70f54bb3107556",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q453 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only untranslatable fragments and punctuation.",
+   "line_id": 22146,
+   "source_hash": "300e10cc05e28e2af62fab4faf4e448ddc2056045c6fbf825997b119e0d5ace9",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

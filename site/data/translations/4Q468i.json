@@ -1,0 +1,60 @@
+{
+ "id": "4Q468i",
+ "label": "4Q468i",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 475,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468i f1:1": {
+   "en": "Without boasting",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The particle 'בלי' is translated as 'without,' and the verb 'ליץ' as 'boasting,' based on available lexical glosses. The other characters are untranslatable and omitted.",
+   "line_id": 22526,
+   "source_hash": "dbf8a1ed53aad41f598699d06c89b9929c4d9dbd06446f57d96fdea7109123d7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468i f1:2": {
+   "en": "that strong their neck",
+   "notes": "The initial 'ε' is untranslatable and omitted. 'עורפ׳ם' is a suffixed form indicating 'their neck'.",
+   "line_id": 22527,
+   "source_hash": "b42905ab8f9d5d9df1c9752c89ecb17b749e04fd9b4791fa02f88d7ec23b6b0b",
+   "source_condition": "clean"
+  },
+  "4Q468i f1:3": {
+   "en": "to the sons of the evil they returned",
+   "notes": "Uncertainty in transcription and morphology for ]צ#ר and ה#ש#יבו׳נו. The translation reflects recoverable elements, but the exact meaning remains unclear due to damage and ambiguous forms.",
+   "line_id": 22528,
+   "source_hash": "fda7832e03413d703de30107ea5cfe938392c569d9244cd9c6fe4018d3cef428",
+   "source_condition": "uncertain"
+  },
+  "4Q468i f1:4": {
+   "en": "from eternity that our fathers",
+   "notes": "Uncertain transcription and reconstruction in 'to us' (ל#׳נו), 'eternity' (עֹולָם), and 'our fathers' (א#בות#י׳נו). Phrase evidence supports '(to) from antiquity' for positions 2-4.",
+   "line_id": 22529,
+   "source_hash": "64cf2979c70cc1d3101ff4aedd1799d25b07c9abf2a22335eaf1eb133e664768",
+   "source_condition": "uncertain"
+  },
+  "4Q468i f1:5": {
+   "en": "They were cursed from the whole of its fruit of their hearts",
+   "notes": "The transcription contains uncertain and unknown elements, including an initial Greek letter 'ε' and damaged Hebrew characters. The verb 'נא ]ר##רו' is uncertain but interpreted as 'curse' in the nifal perfect 3rd person common plural. 'שלת' is uncertain and translated as 'fruit' based on context. 'לב׳ם' is a suffixed form of 'heart' with plural possessive marker.",
+   "line_id": 22530,
+   "source_hash": "98502935e5061e83dea630d4954aada3ab01d979b28687d1c0b69b2973aecb9e",
+   "source_condition": "uncertain"
+  },
+  "4Q468i f1:6": {
+   "en": "enemy",
+   "notes": "The transcription contains untranslatable characters and damage. The word 'אויב' is translated as 'enemy', but the surrounding material is too fragmentary to recover further meaning.",
+   "line_id": 22531,
+   "source_hash": "9637021193e861d104c9fbe9a46f764404c26b8470735ee679dddfc433e298ae",
+   "source_condition": "uncertain"
+  }
+ }
+}

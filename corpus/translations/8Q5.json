@@ -1,0 +1,88 @@
+{
+ "id": "8Q5",
+ "label": "8Q5",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 669,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "8Q5 f1:1": {
+   "en": "In the name of the vigorous, I fear and [no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε, #[) and an uncertain verb (מע#[). The phrase 'I fear' is supported by repeated evidence. 'The names of' is a low-confidence reconstruction.",
+   "line_id": 32799,
+   "source_hash": "7d630e2d196e948b423d09572f28f38a04de574bb05dbb3fddfd8f6f9c8f8d38",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q5 f1:2": {
+   "en": "the man this who is from the sons",
+   "notes": "Uncertain reconstruction and damaged text limit recoverable meaning. The phrase 'the man this' is supported by repeated evidence, but the rest of the line is fragmented and uncertain.",
+   "line_id": 32800,
+   "source_hash": "aa167190efcfa598632de1ffdf866d1c1aa3788fa906ba40f1a7b79cbbd96d40",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q5 f1:3": {
+   "en": "this and what you cease his light to",
+   "notes": "Uncertain transcription and reconstruction in multiple words. The phrase is fragmented and contains ambiguous or damaged elements.",
+   "line_id": 32801,
+   "source_hash": "8f172454b681a37278ca492378395cdd333d6805aaa73c428df16b72a85ab404",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q5 f1:4": {
+   "en": "to the heavens",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The translation reflects the recoverable words 'to' (לְ) and 'heavens' (שָׁמַיִם), but the phrase is incomplete and contextually ambiguous. The term 'מַזָּל' is uncertain and not translated due to insufficient evidence.",
+   "line_id": 32802,
+   "source_hash": "0d29c87ea52ff82efb114d6ce38c1c2d65ce14d4c6bc0167a835353b1837f976",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q5 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 32803,
+   "source_hash": "82b8ae73fd030a7c7211cebd20163c3f57aab1d40d88ba05c4230d974b4f13ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q5 f2:2": {
+   "en": "and you cease",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The verb 'cease' is based on the reconstructed lemma 'שבת' in the hifil stem, but its exact form and context are unclear. The particle 'and' is uncertain due to damage. Other elements are indecipherable or too fragmentary to translate confidently.",
+   "line_id": 32804,
+   "source_hash": "89ae163e30e5b004824932b18895115b87c726114c2765f496a3646e8460af4b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q5 f2:3": {
+   "en": "YHWH",
+   "notes": "The transcription contains damaged and uncertain fragments, including untranslatable characters (ε) and reconstructed elements. The only recoverable word is 'יהוה' (YHWH). All other elements are omitted due to uncertainty or lack of defensible translation.",
+   "line_id": 32805,
+   "source_hash": "b52b0d01db2d7cd0467d557e1817d5aeb2a14be4317b3c7edc4d918b4683b2a4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q5 f2:4": {
+   "en": "much to the top from the whole",
+   "notes": "The transcription contains uncertain and damaged elements, including untranslatable characters (ε) and a reconstructed word (כו?ל). The translation reflects only recoverable and defensible words.",
+   "line_id": 32806,
+   "source_hash": "8814be58a69b9e9ae8381298a7cfca0050286af9c670f33e8050146a968167c2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q5 f2:5": {
+   "en": "pursuing and the judgments",
+   "notes": "The transcription contains uncertain and damaged elements, including an untranslatable Greek character (ε) and a partially preserved verb form. The verb 'מרדפ##ו(# ת #)' is reconstructed as a feminine plural participle of 'pursue' in the Piel stem. The final word 'משפטים' is a reconstructed plural noun meaning 'judgments' or 'justice'. Uncertainty in the transcription is noted but does not affect the recoverable translation.",
+   "line_id": 32807,
+   "source_hash": "eab9244e78443efc21d22cb484ef5b00338618e734a064ea995f810cf04e3855",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "8Q5 f2:6": {
+   "en": "and the whole winds before their faces stood",
+   "notes": "Uncertain transcription at position 2; reconstructed text at position 8; untranslatable characters at positions 1, 9, and 10.",
+   "line_id": 32808,
+   "source_hash": "1b39e1779acc9cb3229f90d7a897bcccf1ee1febbd85fffe5c170fe39524cdf3",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

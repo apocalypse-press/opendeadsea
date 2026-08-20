@@ -1,0 +1,53 @@
+{
+ "id": "4Q468a",
+ "label": "4Q468a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 469,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468a f1:1": {
+   "en": "in you",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted from the translation. The word ]ב is translated as 'in' based on its lexical gloss, and אתה is translated as 'you' based on its morphology and lexical gloss.",
+   "line_id": 22487,
+   "source_hash": "613c9fbc3245300521617aeceb10563c65fb8c0cafc73cd6ed6d327dd0024faa",
+   "source_condition": "reconstructed"
+  },
+  "4Q468a f1:2": {
+   "en": "all the wise of heart",
+   "notes": "The initial 'ε' and final 'ε' are untranslatable and omitted. 'לב[ε' is reconstructed as 'heart'.",
+   "line_id": 22488,
+   "source_hash": "30bef281dc5ad11fc32106942b63288422012ed16f447d339302685fd96dbd01",
+   "source_condition": "reconstructed"
+  },
+  "4Q468a f1:3": {
+   "en": "creeping animals of the earth which",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an untranslatable character (ε) and a damaged word (א#[). The relative particle 'which' is translated based on the lexical gloss for 'אשר'.",
+   "line_id": 22489,
+   "source_hash": "501891b6867cff7bd781861ad8b74714a9973be8d47287041373df08f7afc34c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468a f1:4": {
+   "en": "in steps of knowledge",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed word (דעת[). The translation reflects recoverable material only.",
+   "line_id": 22490,
+   "source_hash": "1f73f60a6066b9267ef472a843ad673aa40b61e5c53c9ba62a1ece2cb7daa552",
+   "source_condition": "reconstructed"
+  },
+  "4Q468a f1:5": {
+   "en": "to and not to",
+   "notes": "Uncertain characters and punctuation omitted. The transcription contains unclear or damaged elements, including Greek letters and uncertain Hebrew characters, which are not translated independently.",
+   "line_id": 22491,
+   "source_hash": "4cadba0123bd361f3f8555aa86b6861f4256c4bb848634555e275893e8d72e56",
+   "source_condition": "uncertain"
+  }
+ }
+}

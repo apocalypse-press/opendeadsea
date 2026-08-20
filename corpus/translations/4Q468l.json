@@ -1,0 +1,32 @@
+{
+ "id": "4Q468l",
+ "label": "4Q468l",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 478,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468l f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All words are either unknown, reconstructed, or uncertain, with no reliable lexical glosses available.",
+   "line_id": 22544,
+   "source_hash": "1eb6b08b7eea9665a1ab92d1749224728ccbb1b652e0daba72a437e0b7990cf2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468l f1:2": {
+   "en": "from hearing what that it has been",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 3, and 7. Phrase evidence suggests 'whatever (that) it has been' for positions 5-7, but conservative translation retains all recoverable words. Position 1 and 8 are untranslatable fragments, omitted from translation.",
+   "line_id": 22545,
+   "source_hash": "a9af0b6f1dafe2179abdd4fe5754594efa310944bd5ccc4f9d82d0b444685093",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

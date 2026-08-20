@@ -1,0 +1,88 @@
+{
+ "id": "4Q282j",
+ "label": "4Q282j",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 259,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q282j f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a Greek letter fragment (ε) and uncertain markers.",
+   "line_id": 11515,
+   "source_hash": "8a786e038ebb4d0eea237028446c3a928ccba1d83f935fcf9917fec9bcb5cc8a",
+   "source_condition": "uncertain"
+  },
+  "4Q282j f1:2": {
+   "en": "male",
+   "notes": "The transcription contains a damaged Greek letter 'ε' followed by a partially preserved Hebrew word 'ז?כר'. The Greek letter is omitted in translation as it cannot be independently translated. The Hebrew word is translated as 'male' based on its lexical gloss, but its uncertainty is noted due to damage.",
+   "line_id": 11516,
+   "source_hash": "f219ca11b2f794dd6d38706b9ffac3b4b558ae50b54a27d74dfd73c4165a6c4b",
+   "source_condition": "uncertain"
+  },
+  "4Q282j f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) with no clear Hebrew or Aramaic context. No recoverable text is available for translation.",
+   "line_id": 11517,
+   "source_hash": "61107b6c9c616b8c5b4156df850a5c4554560b5f9671170be36c11ac58e41b98",
+   "source_condition": "clean"
+  },
+  "4Q282j f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a Greek letter 'ε' and a partially legible Hebrew word 'ז?ר', both of which cannot be confidently translated. No contextual or lexical evidence supports a defensible English rendering.",
+   "line_id": 11518,
+   "source_hash": "7cd9e34a1983f4b7e1a24b96de1be2395db241389af7cbc053fea5092a8bb711",
+   "source_condition": "uncertain"
+  },
+  "4Q282j f1:5": {
+   "en": "and mouth",
+   "notes": "The first character 'ε' is untranslatable and omitted. The conjunction 'ו?' is uncertain but translated as 'and' based on its visible form. The noun 'פה' is clearly 'mouth'.",
+   "line_id": 11519,
+   "source_hash": "b52e3ac7803af1e412e97ec35381f3879d4eceaa55e96d5acca799ecb170512e",
+   "source_condition": "uncertain"
+  },
+  "4Q282j f1:6": {
+   "en": "and whole",
+   "notes": "The initial character 'ε' is untranslatable and omitted; its presence is noted here.",
+   "line_id": 11520,
+   "source_hash": "41a997c5121cadb2dcc0fd0a1a2d7e78992103fe8314aba795f36aae7e074e8e",
+   "source_condition": "clean"
+  },
+  "4Q282j f1:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 11521,
+   "source_hash": "157e33f1966a68b7129a3a2c76642148865550e7511d69ddf16f386a94f155e9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282j f1:8": {
+   "en": "water",
+   "notes": "The first character 'ε' is untranslatable and omitted.",
+   "line_id": 11522,
+   "source_hash": "570ac70a3376d847e6895a6cdda377ca6578aabc43bb2ed39e1a87b4c877a9d1",
+   "source_condition": "clean"
+  },
+  "4Q282j f1:9": {
+   "en": "it burned the anger",
+   "notes": "Translation follows dominant contextual rendering of 'י ]חר אף' based on repeated phrase evidence. Initial 'ε' is untranslatable and omitted.",
+   "line_id": 11523,
+   "source_hash": "38fa22beaae8a127f67dcf704d216b653945634d9743afeba9881eb26783e8ea",
+   "source_condition": "clean"
+  },
+  "4Q282j f1:10": {
+   "en": "into (the) heap of ruins",
+   "notes": "Translation based on repeated phrase evidence for positions 2-3. Position 1 and 4 have no recoverable text.",
+   "line_id": 11524,
+   "source_hash": "ae3799e4c54c96cb59a6d0ea22677545f8aaf8fe6875745c0b1b8832312d0b9b",
+   "source_condition": "uncertain"
+  }
+ }
+}

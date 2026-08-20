@@ -1,0 +1,53 @@
+{
+ "id": "4Q281a",
+ "label": "4Q281a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 244,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q281a f1:1": {
+   "en": "was complete to hide and not purification eyes",
+   "notes": "Fragmentary and uncertain transcription with multiple damaged or unclear words. The translation reflects recoverable elements, but the overall meaning remains unclear due to extensive damage and uncertainty.",
+   "line_id": 11434,
+   "source_hash": "3d92261e3efa66d1cda33cf9f8972a4a031bd59f7c1e32fb5b4ec91b2ea8afec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q281a f1:2": {
+   "en": "that not you do wrong",
+   "notes": "Uncertain reconstruction and damage throughout. The verb 'do wrong' is based on the visible morphology and lexical gloss, but the subject 'you' is inferred from the 2ms suffix, which may be uncertain. The preposition 'in' is omitted due to lack of clear context.",
+   "line_id": 11435,
+   "source_hash": "3dec64f2a7e73f160be8a0f3ed3d9ab23797a4929411a50d527173183c3bc3a3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q281a f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and unknown lexical items. No defensible English translation can be constructed from the surviving fragments.",
+   "line_id": 11436,
+   "source_hash": "47c4505ca8def2abfce7ed18777d22444a8272f9189e36ba4afb9bc3f8478cef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q281a f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical or syntactic structure recoverable. The visible forms do not provide sufficient evidence for a defensible translation.",
+   "line_id": 11437,
+   "source_hash": "3117182de3002a3ca8cf00e43e44921438aa728d03603b774da222ecd69e9968",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q281a f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions. The visible characters (ε, #, ׃) do not form translatable lexical units. All words are marked as unknown or uncertain, with no recoverable semantic content.",
+   "line_id": 11438,
+   "source_hash": "f310de93c98e9cf9155073505416145924219200be45072ea4cb96dc825a6850",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

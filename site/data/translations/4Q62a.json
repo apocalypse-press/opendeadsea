@@ -1,0 +1,60 @@
+{
+ "id": "4Q62a",
+ "label": "4Q62a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 850,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q62a f1:1": {
+   "en": "In the house of my prayer, the offerings and sacrifices will be for acceptance on the altar that is the house of prayer, and it will be called",
+   "notes": "Uncertain reconstruction of damaged text in positions 4 and 13. The phrase 'the house my prayer' is supported by repeated evidence, but 'daughters daughters' is a less supported alternative. The contextual sense of 'it will be called' is required, but the exact phrasing is uncertain due to damage.",
+   "line_id": 46338,
+   "source_hash": "3d798dd4f21e2d6c743457badd4268be10b6f4ccfed45fce5fb9f3b3e7b60ad2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62a f1:2": {
+   "en": "for all the peoples. the utterance Lord [who] gathers the banished [ones] of Israel still I will gather to its gathered",
+   "notes": "Positions 8, 9, and 13 are uncertain. Positions 1 and 13 are reconstructed.",
+   "line_id": 46339,
+   "source_hash": "5397a3cacb8332994af4e7dc0ab21f0949b357536fc52c802680d641ef2b47d1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62a f2:1": {
+   "en": "Every luxuriant tree slaughtering the children in the wadis under the clefts of the cliffs is among the smooth stones of the wadi",
+   "notes": "Reconstructed text in position 3; uncertain text in position 3.",
+   "line_id": 46340,
+   "source_hash": "ac7823b793ca729213fdcbaa1523c4a3e03e007bf2e99017f12acbc5d8274f38",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62a f2:2": {
+   "en": "Your portion, they, their allotted portion, also to you have poured out a drink offering, you have offered up a grain offering on these things, will I relent",
+   "notes": "Reconstructed text at position 2; uncertain text at position 2; no trusted gloss for position 8; interrogative particle at position 11 not reflected in translation; final colon omitted from translation.",
+   "line_id": 46341,
+   "source_hash": "715df04d641d1b5ff93a359a6ae9fde8c49fefeab6e7ae68e0cf14bf87d56c18",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62a f2:3": {
+   "en": "On a high mountain and you have lifted up, you have set your bed, also there you have gone up to sacrifice a sacrifice, and behind the door and the doorpost.",
+   "notes": "The phrase 'on a high mountain' is supported by repeated phrase evidence and semantic constraints. The verbs 'lifted up' and 'you have set' are in the nifal and qal stems respectively, with the latter having a second-person feminine singular suffix. The phrase 'to sacrifice a sacrifice' is supported by repeated phrase evidence, though its redundancy may indicate a scribal error or idiomatic emphasis. The final prepositional phrase 'behind the door and the doorpost' is supported by semantic constraints and repeated phrase evidence.",
+   "line_id": 46342,
+   "source_hash": "318e20dd086233d21a4861199d3ad143dd1144a41fe272ef37dcb7b3d51c6607",
+   "source_condition": "reconstructed"
+  },
+  "4Q62a f2:4": {
+   "en": "You have set up a memorial, for you have uncovered with springs, and you have ascended, you have made wide your bed, and you have cut off from kindness, you have loved.",
+   "notes": "Positions 2 and 16 are uncertain. Position 2 is reconstructed.",
+   "line_id": 46343,
+   "source_hash": "add3adffe5681f390f00cc62ab04d03dafd72efa3e8697e9b90e5b2660807b82",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

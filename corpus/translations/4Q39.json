@@ -1,0 +1,151 @@
+{
+ "id": "4Q39",
+ "label": "4Q39",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 19,
+ "scroll_id": 824,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q39 f1_2i:1": {
+   "en": "And now, Israel, what has YHWH your God asked from you, except to fear YHWH your God",
+   "notes": "The phrase 'et YHWH' is translated as 'YHWH' based on repeated phrase evidence. The word 'כי' is translated as 'except' based on its context. The word 'אם' is omitted as it does not fit the context and has no clear meaning in this sentence. The word 'ל' is translated as 'to' based on its morphology and context.",
+   "line_id": 43635,
+   "source_hash": "2701826360bd25e26cd203fef11f1cb4469d3b92ed9c84b1d0ee53a204cb42f3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f1_2i:2": {
+   "en": "to walk in all his ways and to love him and to serve YHWH your God with all your heart",
+   "notes": "Reconstructed particle at position 3. High-confidence phrase evidence supports 'with all heart' (positions 16-18), 'all heart' (positions 17-18), '(et) Yahweh God' (positions 13-15), 'in all ways' (positions 3-5), 'serve (et) Yahweh' (positions 12-14), 'to love (et)' (positions 7-9), 'all ways' (positions 4-5), and 'Yahweh God' (positions 14-15).",
+   "line_id": 43636,
+   "source_hash": "00871faf9b679cd61ebcb75787df9acaffeabe4351300eeb931f08e8f556ef3a",
+   "source_condition": "reconstructed"
+  },
+  "4Q39 f1_2i:3": {
+   "en": "And with all your soul, to keep the commandments of YHWH and his regulations, which I command you",
+   "notes": "The phrase 'with all being' is a high-confidence rendering of the damaged phrase 'בכ##ל##[נפש׳ך'. The translation follows the visible morphology and phrase evidence, preserving the grammatical person and number. Uncertainty in the reconstruction is noted but does not affect the translation.",
+   "line_id": 43637,
+   "source_hash": "b64bb47b12e701c3de9362978c6e6e9142e98f53a682599020969f5f9cad734a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f1_2i:4": {
+   "en": "The day to good for you. Behold to Yahweh God the heavens and the heavens of the heavens the earth and whole",
+   "notes": "Uncertain reconstruction of 'earth' and 'whole' due to damage. Phrase evidence supports 'the God of the heavens' and 'the heavens of the heavens'.",
+   "line_id": 43638,
+   "source_hash": "74f15690a051f0bba82085505448bae01276bdf180562495eb20318c33aed2b3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f1_2i:5": {
+   "en": "Which is in your fathers, he loved Yahweh to love them",
+   "notes": "The phrase 'he loved Yahweh' is supported by repeated phrase evidence. The sequence 'to love them' is a conservative rendering of the available lexical items, though the object marker is uncertain. The initial relative particle and preposition are reconstructed.",
+   "line_id": 43639,
+   "source_hash": "49265d9a9242161530fc6291dbd91884cee01ecedba2643d76cbd22c8b604641",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f1_2ii:4": {
+   "en": "the",
+   "notes": "The transcription contains heavily damaged and uncertain elements, including a reconstructed symbol and untranslatable characters. Only the initial word 'ה' (the) is recoverable. All other elements are omitted due to insufficient evidence.",
+   "line_id": 43640,
+   "source_hash": "bbd8bbc566542f40f8a7a10d9e3c38587b6ad6768ee8eb784b65de3812c9c14e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f3:1": {
+   "en": "your heart which trembles and from the sight[s] of your eyes that you see and he will return you",
+   "notes": "Uncertain reconstruction of 'which' (אֲשֶׁר) and 'that' (אֲשֶׁר). Lacuna indicated by ] in source.",
+   "line_id": 43641,
+   "source_hash": "1602b7f2b3bd9c85ec508bcc666cf9b3aa027b656cb637b791f451ad7ae84fab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f3:2": {
+   "en": "YHWH Egypt in ships in the way which I said to you not add still",
+   "notes": "Uncertain reconstruction of 'which' (א ]ש##ר) and 'I said' (אמ##[ רתי). Phrase evidence suggests 'as he had said to' for positions 7-9, but it introduces an unsupported participant 'he'; retained context-free glosses instead.",
+   "line_id": 43642,
+   "source_hash": "a34908f9f8bab553accf32c9bc720e0807d1a02c7edddbe3e680360059348b6b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f4_5:1": {
+   "en": "the signs and the great signs they and not he gave Yahweh to a heart to know",
+   "notes": "Uncertain elements include damaged particles (positions 8, 9, 11, 12) and reconstructed text (positions 1, 12). Phrase evidence supports 'a heart to know' (positions 16-18) and 'he gave Yahweh to' (positions 13-15), though the latter is less dominant. No recoverable text for the final damaged segment.",
+   "line_id": 43643,
+   "source_hash": "97eaa5536b908df5975e115c42ff0b5b89902a953438255b448f5a6723885002",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f4_5:2": {
+   "en": "And eyes to see and ears to hear until this day. And he went with you forty [no recoverable text]",
+   "notes": "The transcription contains damaged or uncertain elements, including a partially reconstructed verb and a number with no clear context. The translation omits unrecoverable text and preserves visible morphology. Phrase evidence supports 'eyes to see' and 'ears to hear' as repeated patterns. 'Day (the) this' is a high-confidence canonical rendering. The final segment combines visible lexical items with necessary uncertainty disclosure.",
+   "line_id": 43644,
+   "source_hash": "fe5c54eb3fe5763def56c72e8ed2fce694acc95865a1b439a3d928f24815fb61",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f4_5:3": {
+   "en": "A year in the desert did not wear out your wrappers from upon you, and your sandal was not worn out from upon your foot.",
+   "notes": "The transcription is partially reconstructed and contains uncertain readings. The phrase 'שלמתי׳כם' is translated as 'your wrappers' based on the lexical gloss, but its exact meaning in context is unclear. The verb 'בלה' appears twice, once in the plural and once in the singular, which may indicate a shift in subject or an error in the text. The final colon (׃) is omitted from the translation as it serves as a punctuation mark.",
+   "line_id": 43645,
+   "source_hash": "746856b49adb93c149f87cb3d88df7e71bf1d75df4d57ef670a8af33ea1e4aeb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f4_5:4": {
+   "en": "Bread not you ate and wine and strong drink not you drank so that you know that I Yahweh your God",
+   "notes": "The phrase 'I Yahweh your God' is supported by high-confidence repeated phrase evidence. The reconstruction of 'YHWH' is noted as uncertain in the source data.",
+   "line_id": 43646,
+   "source_hash": "3e3ae0c942d3344af21e32e8f27e71eacbd318588e59c2259c7d3e5fb9ceebac",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f6_7:1": {
+   "en": "They will learn and fear Yahweh their God and keep to do all the words of the law",
+   "notes": "Reconstructed and uncertain elements include the verbs 'will learn' and 'keep', and the divine name 'Yahweh'. The phrase 'the words of the law' is supported by repeated evidence.",
+   "line_id": 43647,
+   "source_hash": "508e1e4782d57adb257ee0986f68bea2428a634b8431295725b553b271f4ed6f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f8_9:1": {
+   "en": "And this is the blessing which he blessed, Moses the man of God, the people",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'Moses the man of (the) God' and 'God (et) the people', with 'et' omitted as unsupported. The relative clause 'which he blessed' is retained based on repeated phrase evidence, but the subject 'he' is omitted as unlicensed by recoverable tokens. Uncertainty in reconstruction and transcription is not reflected in the translation per instructions.",
+   "line_id": 43648,
+   "source_hash": "f4f6e558fade9a1f09d2169f3fe92b74504fc1da2e85228dc3e7209e176ef517",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f8_9:2": {
+   "en": "Israel before death and he said Yahweh from Sinai and he came and flashed up from Seir to shine from the mountain",
+   "notes": "Uncertain reconstruction of 'from Sinai and he came' and 'to shine from the mountain'. Phrase evidence supports 'before death' and 'he said Yahweh from'.",
+   "line_id": 43649,
+   "source_hash": "f2d1fc45997bb842b7e8e40be24ecd2e2a94bcbb7c6ad79a57dc121fdbba745d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f10:1": {
+   "en": "to Isaac and to Jacob saying to your seed I will give",
+   "notes": "The transcription is partially reconstructed and uncertain. The phrase 'to Jacob saying' is supported by repeated phrase evidence. The verb 'give' is in the first person singular imperfect tense, but the subject is not explicitly stated in the recoverable text.",
+   "line_id": 43650,
+   "source_hash": "913920feb2511f6a660fd1cec4f3b2d0772709610445016db1bc8c8ea73f1de6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q39 f10:2": {
+   "en": "In your eyes and there you shall not pass. And he died there, Moses.",
+   "notes": "The transcription contains a reconstructed particle '[ ב' and an unknown punctuation mark '׃' which are not translated. The verb 'תעבר' is addressed to a second-person masculine singular subject, but the subject is not explicitly stated in the source text.",
+   "line_id": 43651,
+   "source_hash": "00586efb7f84358324e4626243596183e90c85e1cde45651137dbf1d1e21e418",
+   "source_condition": "reconstructed"
+  },
+  "4Q39 f10:3": {
+   "en": "The servant of Yahweh in the land of Moab upon the mouth of Yahweh and they buried",
+   "notes": "The translation follows high-confidence phrase evidence for 'the servant of Yahweh,' 'in the land of Moab,' and 'upon the mouth of Yahweh.' The verb 'and they buried' is reconstructed from 'י ]קברו' with visible morphology indicating a third-person masculine plural perfect form. The final '׃' marks are omitted as they are untranslatable punctuation.",
+   "line_id": 43652,
+   "source_hash": "d1de0543a7934ec058cc3c31322160aa24c5ce9fcb05d24e4050ab92f3d6c120",
+   "source_condition": "reconstructed"
+  },
+  "4Q39 f11:1": {
+   "en": "And the sons of Israel wept for Moses in the plains of Moab",
+   "notes": "Uncertain reconstruction of 'Israel' and 'Moses'. The character 'ε' and the final punctuation mark are omitted as they cannot be translated independently.",
+   "line_id": 43653,
+   "source_hash": "e059dd7baf84211f3e68f26fa0a1f9e60c5c3b90824b214113d2f0d51db5e72b",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

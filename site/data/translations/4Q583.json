@@ -1,0 +1,46 @@
+{
+ "id": "4Q583",
+ "label": "4Q583",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 625,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q583 f1:1": {
+   "en": "Behold, from the north she comes with a woman, and not",
+   "notes": "Uncertain transcription and glosses for several words, including the initial 'ε', 'צפונ', 'א', 'באישת', and 'ל##א##'. The translation reflects recoverable material but omits unsupported details.",
+   "line_id": 31771,
+   "source_hash": "b2d76abacb1485d2ae4ca58158a655f6419df225955fc758ebbb094b49bc9db5",
+   "source_condition": "uncertain"
+  },
+  "4Q583 f1:2": {
+   "en": "Since it is the season, and what did they answer, the people: Behold, YHWH will establish the foundation of the structure of Zion, and in the hiding place of all the humble people",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'all [the] humble [people]', 'what? did he answer', and 'in the hiding place'. Uncertainty remains regarding the meaning of 'אזגד׳י' and the damaged characters in 'י ]ס##ו?ד##' and 'מ#בנה'. The lacuna in 'עמ[ ׳ה ]' is reconstructed as 'people'.",
+   "line_id": 31772,
+   "source_hash": "26628585933c3693db87906035fd3e0f0bf2a3d3a16c5341ff5bafc67eda23d2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q583 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) in an Aramaic context, with no recoverable lexical content.",
+   "line_id": 31773,
+   "source_hash": "48dd0e161f14cf4573d3df855601d559603a47ffed04c5a2dd497d0effdcb7ae",
+   "source_condition": "clean"
+  },
+  "4Q583 f1:4": {
+   "en": "They have risen up on between Media to Persia and Athur to the sea",
+   "notes": "Uncertain transcription and glosses for several words. The phrase 'they have risen up on' is supported by repeated evidence, but its context is unclear. The final characters and punctuation are omitted due to uncertainty in translation.",
+   "line_id": 31774,
+   "source_hash": "1f3d1320b8e4d421727bb48212fda02bfd871be1465749339652d8bc36a025d5",
+   "source_condition": "uncertain"
+  }
+ }
+}

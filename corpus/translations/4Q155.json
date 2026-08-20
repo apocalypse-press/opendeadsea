@@ -1,0 +1,123 @@
+{
+ "id": "4Q155",
+ "label": "4Q155",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 15,
+ "scroll_id": 944,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q155 f1:1": {
+   "en": "And it was that he will bring Yahweh to the land of the Canaanite as",
+   "notes": "The final word is incomplete and its meaning is uncertain. The phrase 'he will bring Yahweh' is supported by repeated evidence but with low confidence.",
+   "line_id": 49737,
+   "source_hash": "6a35612465ef671401bf8db213e4c4cd014c67ee9988587b55c7e221bb125deb",
+   "source_condition": "uncertain"
+  },
+  "4Q155 f1:2": {
+   "en": "which he swore to you and to your fathers and gave to you and passed",
+   "notes": "Uncertainty in the transcription affects the verbs 'swear' and 'pass/be angry'; the translation favors 'swear' and 'pass' based on contextual evidence. The phrase 'which he swore to you' is supported by repeated phrase evidence. The verb 'gave' is certain, but its subject is not explicitly stated in the recoverable text.",
+   "line_id": 49738,
+   "source_hash": "6e385290f797b2fb8da72ada6f9482ffe786182e76e03ba5018a8a21f824e824",
+   "source_condition": "uncertain"
+  },
+  "4Q155 f1:3": {
+   "en": "Every firstborn of a womb to YHWH and every firstborn of a litter",
+   "notes": "",
+   "line_id": 49739,
+   "source_hash": "57cc5f9025e0b6faaf196e3655f34dc4d5ef1bfbe3a1def4593d13c981befe10",
+   "source_condition": "clean"
+  },
+  "4Q155 f1:4": {
+   "en": "the cattle which will be to the males to YHWH",
+   "notes": "Uncertain transcription in 'cattle'. Phrase evidence suggests 'of cattle which it will belong' for positions 1-3, but visible morphology and lexical glosses are prioritized. No high-confidence constraints to overwrite visible DSS variants.",
+   "line_id": 49740,
+   "source_hash": "13bf88760fbdaa0dd7419e186876c5c56a0f412a5a92c87632059d510135fed8",
+   "source_condition": "uncertain"
+  },
+  "4Q155 f1:5": {
+   "en": "And every firstborn of a donkey you will redeem with a lamb",
+   "notes": "Uncertainty in transcription resolved by repeated phrase evidence.",
+   "line_id": 49741,
+   "source_hash": "96aac596e8d8a9d00e5e933cbfe50ee4e17a095c5fb058b735e2881d4ee98ec6",
+   "source_condition": "uncertain"
+  },
+  "4Q155 f1:6": {
+   "en": "Do not buy off, and you broke, and the whole firstborn of humankind",
+   "notes": "Uncertainty in transcription and reconstruction affects the translation of 'ת[ פ ]ד#׳נו' and 'ו?'. The phrase 'firstborn of humankind' is supported by repeated phrase evidence.",
+   "line_id": 49742,
+   "source_hash": "00ce771acabb01eebbbc80cb47178aeab75ed84e3c6877a45369dfba0d95f391",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q155 f1:7": {
+   "en": "In your sons you will buy off, and it was that he will ask you, your son.",
+   "notes": "The phrase 'the son of Pedaiah' and 'Saul the son' are suggested by repeated phrase evidence but are not directly supported by the visible transcription. The verb 'תפד#ה' is marked as uncertain in the source. The particle '׃' is omitted from the translation as it cannot be translated independently.",
+   "line_id": 49743,
+   "source_hash": "f4d901018edb9dd3caa2196bd47bedea3f556e65033cd1f2a40a9221530b0686",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q155 f1:8": {
+   "en": "Next day, to say what? this and you said to him?",
+   "notes": "Uncertainty in transcription and reconstruction affects the translation's fluency. The phrase 'to say what?' is supported by repeated phrase evidence, but its connection to the rest of the sentence is uncertain. The final 'to him' is a tentative reconstruction based on the suffix, but its antecedent is unclear.",
+   "line_id": 49744,
+   "source_hash": "c3624e3aefffd17f48a02d479a7c87ce11bd7c8a423c910ead15756c1917bee6",
+   "source_condition": "uncertain"
+  },
+  "4Q155 f1:9": {
+   "en": "by strength of hand he brought out Yahweh from Egypt",
+   "notes": "Uncertain reconstruction of 'hand' (position 3) and 'go out' (position 4). Phrase evidence supports the translation of 'Yahweh from Egypt' (positions 5-7) and 'by strength of hand' (positions 1-3).",
+   "line_id": 49745,
+   "source_hash": "d41fb6c08f0a32c1445c16fbced7e267359dde01e9bcc840560be414b927bcd3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q155 f1:10": {
+   "en": "a house of servants and that Pharaoh was hardened to send",
+   "notes": "The phrase 'a house of servants' is supported by repeated evidence. The verb 'was hardened' is reconstructed and uncertain. The infinitive 'to send' is uncertain due to damage.",
+   "line_id": 49746,
+   "source_hash": "b5524f793e881b4da1db11ddcbae902bb7c952016812385072e6cef6120f4a69",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q155 f1:11": {
+   "en": "And he killed YHWH every firstborn in the land of Egypt from the firstborn of humankind",
+   "notes": "The verb 'kill' (position 2) is uncertain due to damage. The name 'YHWH' (position 3) is reconstructed and uncertain. The phrase 'firstborn of humankind' (positions 10-11) is supported by repeated phrase evidence.",
+   "line_id": 49747,
+   "source_hash": "1f6b5f79ba1d97db924c8752e26c36b0beeff4e9f083eb0469d90319bc62651e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q155 f1:12": {
+   "en": "And until the firstborn of livestock, thus I am sacrificing to Yahweh every firstborn",
+   "notes": "The phrase 'firstborn of livestock' is supported by repeated evidence. 'I am sacrificing' is a high-confidence paraphrase. 'Every firstborn' is a dominant contextual rendering with strong support.",
+   "line_id": 49748,
+   "source_hash": "5a0ec674dc923498d4672977013e485fab23447d7caa8ba7f4f56f60658cb3c8",
+   "source_condition": "reconstructed"
+  },
+  "4Q155 f1:13": {
+   "en": "The male womb and every firstborn of the sons I will buy off and it was a sign upon",
+   "notes": "Reconstructed text in positions 1 and 8. Uncertain verb form in position 8. Phrase evidence supports 'every firstborn' and 'the sons of Pedaiah', but the latter is less certain due to lower pattern support. The verb 'buy off' is uncertain due to damage.",
+   "line_id": 49749,
+   "source_hash": "c5a6e4c6545636eb87dbee252886d60ff6b83e2f677185558e8414c1c7f2e39f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q155 f1:14": {
+   "en": "and to the marks between your eyes that by strength of hand he brought out Yahweh",
+   "notes": "The phrase 'marks between your eyes' is a high-confidence reconstruction of positions 4-6. 'By strength of hand' is a repeated phrase with strong support at positions 8-10. 'He brought out Yahweh' is a repeated phrase at positions 11-12, though its support is weaker.",
+   "line_id": 49750,
+   "source_hash": "1af192bc8de1be083f4cc9c4d256f978b814352cddc0a93819d2cad9c14148fc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q155 f1:15": {
+   "en": "from Egypt",
+   "notes": "The transcription includes a reconstructed particle 'מִן' (from) and the proper noun 'מִצְרַיִם' (Egypt). The final mark '׃' is a punctuation symbol and is not translated.",
+   "line_id": 49751,
+   "source_hash": "9edf8be3d0a6a274d40d5457e321ceb1e14d2beba094462f4014f03bb995947e",
+   "source_condition": "reconstructed"
+  }
+ }
+}

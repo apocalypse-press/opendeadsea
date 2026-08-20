@@ -1,0 +1,67 @@
+{
+ "id": "1Q42",
+ "label": "1Q42",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 35,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q42 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items surviving. The reconstructed verb 'דבק' (cling, cleave to / adhere) is incomplete and cannot be confidently translated. All other elements are untranslatable fragments or unknowns.",
+   "line_id": 3680,
+   "source_hash": "1ad79b6b9657f3c06697d899ad42cb4d3ab624117f91e7153916abb7373686c7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q42 f1:2": {
+   "en": "you have made known",
+   "notes": "The transcription is heavily damaged, with only partial words surviving. The verb 'ח#וית[' is reconstructed as 'חוה_1' in the qal perfect tense, second person masculine singular, meaning 'you have made known.' The other characters (ε, ] # א) are untranslatable fragments. The phrase evidence suggests a possible context of 'interpretation we will declare,' but this is not directly reflected in the surviving text.",
+   "line_id": 3681,
+   "source_hash": "213fc470fde4398937e92abd0b602db67f86eac29f26e59198e7b2b2831bb5f5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q42 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and reconstructions with high uncertainty. No defensible English words survive.",
+   "line_id": 3682,
+   "source_hash": "99b6b4a93e0c0bcef17c2db451621b2ba23908a287edaffac7d04299f4149f56",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q42 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and untranslatable fragments (ε, ]פאה[, ׃) with no recoverable lexical content. The reconstructed ]פאה[ is incomplete and lacks context for translation.",
+   "line_id": 3683,
+   "source_hash": "ca54eadeae2907744f9970085db4f86a1ed6f7617aabda0ec83411f29bf5e6da",
+   "source_condition": "reconstructed"
+  },
+  "1Q42 f6:1": {
+   "en": "in days of hungry",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted. The adjective 'hungry' is reconstructed and feminine plural, agreeing with a presumed omitted noun.",
+   "line_id": 3684,
+   "source_hash": "ca18109e153825ca2ab1846f2dea9de0d4538859da9f6fe4f787d09c565d8d55",
+   "source_condition": "reconstructed"
+  },
+  "1Q42 f6:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of two untranslatable characters (ε), with no recoverable lexical content or defensible English equivalents.",
+   "line_id": 3685,
+   "source_hash": "92381b379f779c5ec3883b81ba1a9cd4252fefa959157e3094be58b54e6b2c92",
+   "source_condition": "clean"
+  },
+  "1Q42 f6:3": {
+   "en": "desert",
+   "notes": "The transcription is heavily damaged, with only the word 'מִדְבָּר' (desert) partially recoverable. The surrounding characters (ε, ː) are untranslatable and likely represent damage or editorial marks. The translation conservatively retains only the identifiable lexical item.",
+   "line_id": 3686,
+   "source_hash": "1a12a9c494ae10d720fc4ad5efc4a9d31725422437d4684c7a97b5781a9cf4a4",
+   "source_condition": "uncertain"
+  }
+ }
+}

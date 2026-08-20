@@ -1,0 +1,151 @@
+{
+ "id": "4Q279",
+ "label": "4Q279",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 19,
+ "scroll_id": 242,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q279 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε, ]י׳ו, ε) with no clear lexical or grammatical meaning. No defensible English words can be derived from the visible forms.",
+   "line_id": 11403,
+   "source_hash": "07540d6177a6b89e177fda20c2c0f2a16d1b4bb8353853296d3226abd8461412",
+   "source_condition": "clean"
+  },
+  "4Q279 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains damaged and uncertain fragments of Hebrew characters and Greek letters (ε) that cannot be confidently translated into English. The visible material does not form a recoverable lexical unit.",
+   "line_id": 11404,
+   "source_hash": "d4a3159d7adf20be34d3d05360307a58dc77d5d6f26741f5fc8f9a64f7e0deeb",
+   "source_condition": "reconstructed"
+  },
+  "4Q279 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items or semantic constraints to support a translation. The visible forms are either incomplete or unidentifiable, and no contextual evidence is available to reconstruct meaningful content.",
+   "line_id": 11405,
+   "source_hash": "d8777671968aff5ef7731780f15394aa40c87f16efcbac7e2e470ea70aab2a74",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed mark (תו), with no recoverable words or meaningful content.",
+   "line_id": 11406,
+   "source_hash": "d8c7bc22bc38fb29ddbda538f4c75df8c87eb10750856d945a8cc5ae4c1998e6",
+   "source_condition": "reconstructed"
+  },
+  "4Q279 f2:1": {
+   "en": "he sends to",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The verb 'send' is based on the lemma 'שׁלח' with visible morphology indicating a third-person masculine singular imperfect form. The particle 'to' is clearly identifiable. Other elements are too damaged to recover meaningful text.",
+   "line_id": 11407,
+   "source_hash": "2436b5f497024f5c8b2aa4e557be9c45c28c19671b3c49a96d7cb4975416a0ff",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged word (מ ]ש##פט), with no clear context to reconstruct a meaningful translation.",
+   "line_id": 11408,
+   "source_hash": "91a8cbcd6dfd328f2a44da801c17ef42595d3972f1fef4df16aa3093719a065b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain elements, with no recoverable lexical items.",
+   "line_id": 11409,
+   "source_hash": "ae8c8745e4d92358a4aa7a325240e835242470686e51822b12516c1b565496f3",
+   "source_condition": "uncertain"
+  },
+  "4Q279 f3:1": {
+   "en": "the whole and stroke",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters and unclear boundaries. The translation reflects only the recoverable Hebrew words 'the', 'whole', 'and', and 'stroke', with no defensible English for the damaged or uncertain portions.",
+   "line_id": 11410,
+   "source_hash": "8d863bd0e3a1a2c688b5be9bd7e4fc4055bebb4bcb01174232ac06f938eb91ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f3:2": {
+   "en": "[no recoverable text]",
+   "notes": "The line contains heavily damaged and uncertain fragments with no defensible English translation. Visible forms include partial Hebrew characters and Greek letters, but no coherent lexical units survive.",
+   "line_id": 11411,
+   "source_hash": "a6c6cc1606f73f87cae7f04e7a5e94623b132eeb1ae6dd0889de499fa3f465c6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f4:1": {
+   "en": "and not",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed characters. The visible particles 'ו' (and) and 'אל' (not) are translated, but the surrounding characters are indecipherable. The final 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 11412,
+   "source_hash": "907dc700e49a99ff42e05e947571f22d3406e7233dd4d019089cd15e439f397e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f4:2": {
+   "en": "three from men",
+   "notes": "Uncertain transcription and reconstruction in 'three' and 'men'.",
+   "line_id": 11413,
+   "source_hash": "be56bc19598e9324ac273b75fcd0d64ec546d3bd36bfd086e8c7df5de9937327",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f4:3": {
+   "en": "with his fellow",
+   "notes": "The initial and final characters are untranslatable fragments. The preposition 'with' is uncertain due to damage. The term 'fellow' is reconstructed but certain.",
+   "line_id": 11414,
+   "source_hash": "99aae09d684c125892b1235aece1c66af9e1432f6d891a20c69ec50bdc1d80dd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f4:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments of Greek letters (ε) and uncertain reconstructions. No meaningful translation is possible.",
+   "line_id": 11415,
+   "source_hash": "c0699a125e896cfb121a2a7924a317ecc2e500189d230b56da05fe6664fbc5f4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε, ]ה##[, ε) with no recoverable lexical content. The reconstructed and uncertain elements do not provide sufficient material for a defensible translation.",
+   "line_id": 11416,
+   "source_hash": "e773ceeef95f162996dc9f0a9108469264c3db7d694af452df003ca1bf02884e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f5:2": {
+   "en": "his fellow the written after",
+   "notes": "Uncertain reconstruction and gloss for ר ]ע##׳ה#ו (fellow / shouting / will); uncertain gloss for ε (unknown); reconstructed אחרי׳[ ו (after); two unknown ε characters omitted from translation.",
+   "line_id": 11417,
+   "source_hash": "d22599ef659f7327bf761295765b0ab2da49f77b0dc8bcf8ccfd7b14ad49ade2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f5:3": {
+   "en": "and great Yehush upon and thus",
+   "notes": "Uncertain transcription and reconstruction in multiple positions. No recoverable text for initial and final fragments. 'Yehush' is an uncertain proper noun.",
+   "line_id": 11418,
+   "source_hash": "2654c262bf671fe2553eb6d1942ede7d43f68fc226d0ae289398c57366c92eaa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f5:4": {
+   "en": "And to the priests, the sons of Aaron, it came out the lot, the first",
+   "notes": "Uncertain transcription and reconstruction in 'priests' (כוה ]נ#?י?ם), 'go out' (יצ#א), and 'lot' (גור#[). The phrase 'it came out the lot' is supported by repeated evidence but with moderate confidence. The phrase 'the sons of Aaron' is well-supported by repeated evidence.",
+   "line_id": 11419,
+   "source_hash": "1dab9487eb97b9a77558f73e28749a27d1d1c71fbe01e142a68d06a49ef05a9c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f5:5": {
+   "en": "a man to the mouth of his wind and the lot of the second",
+   "notes": "Uncertain transcription and reconstruction in multiple positions. Phrase evidence partially supports 'everyone to the mouth' but is not fully adopted due to low pattern support. Surviving text is fragmented and does not form a complete sentence.",
+   "line_id": 11420,
+   "source_hash": "2be2bedd7024ac2ebb7ae35a358ec99d791abfc44a5021cb401dded56d197e7c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q279 f5:6": {
+   "en": "and the lot the fourth to sojourner",
+   "notes": "Uncertain transcription and reconstruction in positions 3, 8, and 9. Position 1 and 9 contain untranslatable characters. Position 10 is an untranslatable punctuation mark.",
+   "line_id": 11421,
+   "source_hash": "a4c2d89693100462a050d797737ee87e1df0055d74f4d07108b18acb43c6c2bb",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

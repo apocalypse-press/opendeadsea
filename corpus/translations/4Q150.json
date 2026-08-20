@@ -1,0 +1,81 @@
+{
+ "id": "4Q150",
+ "label": "4Q150",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 939,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q150 f1:1": {
+   "en": "And you loved Yahweh your God with all your heart and with all",
+   "notes": "The initial character ε is untranslatable and may be a scribal error or damage. The final word נפ is incomplete and its meaning cannot be recovered.",
+   "line_id": 49691,
+   "source_hash": "7d533972b543383e2b8c517159490267ee3fe8b0c43dbc8601905874d64277ba",
+   "source_condition": "clean"
+  },
+  "4Q150 f1:2": {
+   "en": "And with all strength. And the words these which I am commanding you today upon your heart. Behold to Yahweh the God of the heavens and heavens",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'with all strength' is a contextual rendering of a repeated pattern. 'I am commanding' is a high-confidence paraphrase. 'The God of the heavens' is a dominant contextual rendering of a repeated phrase. The final 'and heavens' is incomplete due to damage.",
+   "line_id": 49692,
+   "source_hash": "b9422ac7c6b6421a4cb746aae25a72882c2c38af120568f2ca2c254502804887",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q150 f1:3": {
+   "en": "The heavens, the earth, and all that is in them. And you shall circumcise the foreskin of your heart.",
+   "notes": "The phrase 'all that [is] in' is supported by repeated phrase evidence. The phrase 'the foreskin your heart' is supported by repeated phrase evidence, but the possessive 'your' is not directly licensed by the source text. The translation conservatively retains the structure without adding unlicensed possessives.",
+   "line_id": 49693,
+   "source_hash": "df4138830c151fd5bf97afc0e26e41b60dc2bd794c315b13fd218e12e21452ca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q150 f1:4": {
+   "en": "Your hearts and necks not be hardened still",
+   "notes": "The translation reflects the visible morphology and lexical glosses, with 'still' added for the reconstructed particle 'עוד'. The final two punctuation marks and the untranslatable 'ε' are omitted from the translation.",
+   "line_id": 49694,
+   "source_hash": "c2295591246575eb9b43b26973f3f9568fc2031b5d06cb24d32909cfda7cfd6d",
+   "source_condition": "reconstructed"
+  },
+  "4Q150 f1:5": {
+   "en": "Do justice to the sojourner, orphan, and widow, and love the sojourner, to give him bread and a mantle. Fear Yahweh your God and serve him.",
+   "notes": "The phrase 'do justice to the sojourner, orphan, and widow' follows high-confidence phrase evidence. The verb 'love' is supplied with its object 'the sojourner' based on repeated phrase evidence. The infinitive construction 'to give him bread and a mantle' is supported by repeated phrase evidence for 'to give to' and contextual evidence for the objects. The final clause 'Fear Yahweh your God and serve him' follows high-confidence phrase evidence for 'Yahweh God' and contextual evidence for the verbs.",
+   "line_id": 49695,
+   "source_hash": "751e1683f8894067f513b8a8b0cd52838e4c49e54957edfd24a652694a67a460",
+   "source_condition": "reconstructed"
+  },
+  "4Q150 f1:6": {
+   "en": "You shall cling and in Shem you shall swear in seventy souls descended",
+   "notes": "The phrase 'there seven' is a repeated pattern but does not fit the visible syntax; 'in Shem' is a conservative rendering of the suffixed form. The final verb 'descended' is a perfect tense, indicating a completed action.",
+   "line_id": 49696,
+   "source_hash": "3573279cfe20e96cfc6563e766c35432cd910bfdc7de37381011c258bbd56cc7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q150 f1:7": {
+   "en": "[no recoverable text]",
+   "notes": "Fragment begins mid-word. Surviving characters do not form defensible English.",
+   "line_id": 49697,
+   "source_hash": "0dee5e565af58a7f8ecb6317aa8d19709686f71079022ec18c831e71d558d481",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q150 f1:8": {
+   "en": "All the days, and you know this day, that not your sons who did not know, and who did not see the chastening of Yahweh your God, his greatness",
+   "notes": "Uncertain transcription and reconstruction in positions 3, 4, and 26. Phrase evidence supported 'Yahweh your God' and 'this day' but did not license a fluent connector between clauses. Omitted uncertain possessive or agency in the final phrase due to insufficient evidence.",
+   "line_id": 49698,
+   "source_hash": "af67e891fd2d366f2de17ecdef5c4141d2205c86848e2ec38ca51c578e3ac61a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q150 f1:9": {
+   "en": "the strong hand and the extended arm",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged object marker and an unknown final character (ε). The phrase 'hand (the) strong' is supported by repeated evidence.",
+   "line_id": 49699,
+   "source_hash": "60c5f7c140df0f6364a65b9ccdefb603b695f948971d2523889caab6b3f5ca10",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

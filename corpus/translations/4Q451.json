@@ -1,0 +1,46 @@
+{
+ "id": "4Q451",
+ "label": "4Q451",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 449,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q451 f1:1": {
+   "en": "the name of the great and not defile",
+   "notes": "Uncertain reconstruction of 'Shem' and verb 'defile'; two unknown characters omitted.",
+   "line_id": 22138,
+   "source_hash": "43b0dd6568bf8c0abf8d610dcede4669703c3762e91cefd1e618981e4b897a99",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q451 f1:2": {
+   "en": "And give in the hand of my beloved to all",
+   "notes": "The phrase 'the hand of David' is a possible interpretation of 'ידידי׳כה' based on repeated phrase evidence, but the translation retains the literal 'my beloved' due to insufficient context. The final 'ε' is untranslatable and omitted.",
+   "line_id": 22139,
+   "source_hash": "2fcf5d4c1f03c8699e97f915032c5a8802e8f56770ff2f2480abf64437b68a54",
+   "source_condition": "reconstructed"
+  },
+  "4Q451 f1:3": {
+   "en": "and in signs and power of the right-hand side",
+   "notes": "Uncertain transcription and reconstruction in multiple words. The phrase 'of the right-hand side' is a tentative rendering of a damaged and reconstructed term.",
+   "line_id": 22140,
+   "source_hash": "f1b12877298ae6ebfbbcd1db56446251c7e2b29c361cf9681c1f2a0fc75e664e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q451 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 22141,
+   "source_hash": "9a2f720f83e1856f27a43ba061692a54e79931fb27e32d6333ce03ebaa457649",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "4Q250e",
+ "label": "4Q250e",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 205,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q250e f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek and Hebrew characters with no discernible lexical content. All visible forms are either unknown or reconstructed with high uncertainty, leaving no defensible English translation possible.",
+   "line_id": 9300,
+   "source_hash": "f918b81f38016859bd214d9cf010c5f89328bb5138a4dfc5f10419baa0f0fbef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q250e f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 9301,
+   "source_hash": "a37791c75826d3830eabae081d5b78741bc1f6d141e3707380b230a5cab21379",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q250e f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ת#[, ε, ׃) with no clear lexical or grammatical meaning. The reconstructed and uncertain elements do not provide sufficient basis for translation. No defensible English words can be derived from the available evidence.",
+   "line_id": 9302,
+   "source_hash": "85f43b71c1bac52fcaf1079dec9b2b421d03b20adfd2ca12432be8d52d644419",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

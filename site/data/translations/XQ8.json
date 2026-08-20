@@ -1,0 +1,53 @@
+{
+ "id": "XQ8",
+ "label": "XQ8",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 738,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "XQ8 f1:1": {
+   "en": "And the voice ascended to the heavens. Then he crushed Michael and Sharial and Rephael and Gabriel.",
+   "notes": "The transcription contains reconstructed text and uncertain particles, which are omitted in the translation. The verb 'סלק' is translated as 'ascended' based on its morphology and lexical gloss. The verb 'אדיק' is translated as 'crushed' based on its morphology and lexical gloss, though its exact meaning is uncertain. The names 'מיכאל', 'שריאל', 'רפאל', and 'גבריאל' are translated as Michael, Sharial, Rephael, and Gabriel, respectively.",
+   "line_id": 36627,
+   "source_hash": "e4452d35d6aa29787823252f7a67ab7c683da24159270f556ec228f4c30493f4",
+   "source_condition": "reconstructed"
+  },
+  "XQ8 f1:2": {
+   "en": "From holiness of heavens upon earth and they saw much blood poured upon earth and all the earth",
+   "notes": "The phrase 'all the earth' is supported by repeated phrase evidence. The particle 'א' is omitted from the translation as it cannot be translated independently.",
+   "line_id": 36628,
+   "source_hash": "506ccc35faca45473f33a30b1985899079e5755d79668ceed8e2335effa53408",
+   "source_condition": "reconstructed"
+  },
+  "XQ8 f1:3": {
+   "en": "She was filled with wickedness and violence of the slain and four towns dealing with holy ones",
+   "notes": "Several words are reconstructed or uncertain: 'wickedness' (רְשַׁע), 'violence' (חֲמַס), and 'slain' (קְטִיל) lack clear glosses. The phrase 'dealing with holy ones' is tentative due to ambiguous syntax.",
+   "line_id": 36629,
+   "source_hash": "59aea7e87b6b4e8f016b8d15d548bce49b7ebbcdcfdf23a202589a97a4ab1bff",
+   "source_condition": "reconstructed"
+  },
+  "XQ8 f1:4": {
+   "en": "And they said before the voice and the cry of the winds and the souls of the sons of the earth ascending",
+   "notes": "Several words are damaged or uncertain: 'voice' (קל) is damaged; 'and' (ו) and 'cry' (זעקה) are uncertain; particles (א, ד) lack clear glosses. The phrase 'saying before' is supported by repeated evidence for 'say' (אמרו) and 'before' (קדמי). 'Winds' (רוחי) is plural, matching 'souls' (נפשת) and 'sons' (בני). 'Ascending' (סלקין) agrees with plural subjects.",
+   "line_id": 36630,
+   "source_hash": "2857318b2ec2dd5ee8e64663f731daaa4c22506796471f41c55f827f418af111",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "XQ8 f1:5": {
+   "en": "Unto the doors of heaven and they said to the holy heavens who took souls of mankind and said",
+   "notes": "The transcription is heavily damaged, with several uncertain and reconstructed words. The translation reflects the recoverable text, but the exact meaning remains unclear due to the fragmented state of the manuscript.",
+   "line_id": 36631,
+   "source_hash": "af3589fb97493f097af0c57242addd8b2a3010427ef5a01988bf42630c2ca0ec",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

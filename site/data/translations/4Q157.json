@@ -1,0 +1,123 @@
+{
+ "id": "4Q157",
+ "label": "4Q157",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 15,
+ "scroll_id": 94,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q157 f1i:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' in an Aramaic context, with no recoverable lexical content.",
+   "line_id": 4580,
+   "source_hash": "ba85757e90be4a2fa01451ac777d77752d609a3225cd536b736cf5e8d12d7571",
+   "source_condition": "clean"
+  },
+  "4Q157 f1i:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a mix of Greek (ε) and Aramaic characters, with no clear lexical or syntactic structure. The visible forms do not provide sufficient evidence for a defensible English translation. The Aramaic elements 'עלו׳ ]הי' and 'עננ' are incomplete and lack context, while the Greek 'ε' and Aramaic 'א' do not contribute to a coherent translation.",
+   "line_id": 4581,
+   "source_hash": "a602724bfe059aecf6334ebc14848ce55e425abbc0e3ba4d17fad36e3e6f8a24",
+   "source_condition": "clean"
+  },
+  "4Q157 f1i:3": {
+   "en": "in the days of the year",
+   "notes": "The transcription contains an uncertain character (ε) and a damaged word (יו ]מ##י). The phrase 'the days of the years' is supported by repeated evidence, but 'year' is singular here. Uncertainty in the transcription prevents full confidence in the translation.",
+   "line_id": 4582,
+   "source_hash": "625f58f00092474e6cc2936c29d21590fba78cf8f29c06784a63e360f4dfa73f",
+   "source_condition": "uncertain"
+  },
+  "4Q157 f1i:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic or Greek lexical units. The visible characters are fragmentary and do not form translatable words.",
+   "line_id": 4583,
+   "source_hash": "cda0466fecd560b1e929cf36686cd2165a953205888178dc8f157097c0aa9160",
+   "source_condition": "uncertain"
+  },
+  "4Q157 f1i:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and an uncertain lexical item (מַדְנַח) with no trusted gloss. The fragment lacks sufficient evidence for a defensible English translation.",
+   "line_id": 4584,
+   "source_hash": "7cb0bbb0a186ae23686050c0c9ec796509951741caff7fddd2659f8d30419c53",
+   "source_condition": "clean"
+  },
+  "4Q157 f1ii:1": {
+   "en": "He recognised",
+   "notes": "The transcription is damaged and partially reconstructed. The verb 'recognise' is uncertain due to the fragmentary state of the text.",
+   "line_id": 4585,
+   "source_hash": "1e0a631eed67eb24618130d9a16a7018c22b22f09652e3addc45aa6588ef8de3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q157 f1ii:2": {
+   "en": "Is mankind from God?",
+   "notes": "The final character 'ε' is untranslatable and omitted. The word 'אֱלָהּ' is reconstructed and marked as uncertain.",
+   "line_id": 4586,
+   "source_hash": "437e1b16b9a74ea14913652f84838039a12832b6ff8c71c5de2cffadbbdfad77",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q157 f1ii:3": {
+   "en": "and in his angel",
+   "notes": "The transcription is partially damaged, with uncertainty in the third word. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 4587,
+   "source_hash": "e778d97c996f6d6fe487ec16812203916e43973d6ffd41d088e85360c0a56681",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q157 f1ii:4": {
+   "en": "In dust",
+   "notes": "The transcription includes damaged and uncertain elements (ד##, א, ε) with no clear meaning. The word 'עפר' is translated as 'dust' based on its lexical gloss, but its context is unclear. The particles 'ד##' and 'א' are omitted due to uncertainty, and 'ε' is ignored as it appears to be a scribal error or damage.",
+   "line_id": 4588,
+   "source_hash": "603495fe8d329e5b2c27c8d9e8aaa6379c0610dfbef95eada5358a58075214ad",
+   "source_condition": "uncertain"
+  },
+  "4Q157 f1ii:5": {
+   "en": "and from destruction settle",
+   "notes": "Uncertain reconstruction and meaning of 'מני?[ ח'; final 'ε' is untranslatable and omitted.",
+   "line_id": 4589,
+   "source_hash": "2668b5e3d1ff58265ba868becee137fd64ee1d17157f1206b16044f69c1ffd91",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q157 f1ii:6": {
+   "en": "They will die and not in wisdom",
+   "notes": "The transcription is heavily damaged, with uncertain readings for several words. The verb 'י?מ#ו?ת#ון' is reconstructed as 'they will die' based on visible morphology. The preposition 'ב##[' is reconstructed as 'in' but is uncertain. The noun 'חכ ]מ##[ ה' is reconstructed as 'wisdom' but is also uncertain. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 4590,
+   "source_hash": "d285c60f03f3ccd2e40b0daf36206b37d854a456f0ae2060994e1611758c6b7e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q157 f1ii:7": {
+   "en": "Do you not be foolish he kills",
+   "notes": "Uncertain reconstruction and damaged text affect the translation's fluency. The verb 'kill' is reconstructed and uncertain. The particle 'he' is implied by the verb's morphology but not explicitly present in the text.",
+   "line_id": 4591,
+   "source_hash": "c42c02df79af46e05fb4cdea633951ca4e4056ca6e756e7dd63c495c8309342f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q157 f1ii:8": {
+   "en": "And I saw the wickedness and the assembly, and you have concealed to",
+   "notes": "Multiple uncertain and reconstructed words; 'ד##' and 'ר##ש##ע#' have no trusted gloss; 'ε' is untranslatable; phrase evidence suggests 'secrecy' for 'לטת', but context is unclear.",
+   "line_id": 4592,
+   "source_hash": "86a02481433e0937ac601f77def047c70127b0d6269cc4ad47f80a1f23202f71",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q157 f1ii:9": {
+   "en": "tear away and [no recoverable text]",
+   "notes": "The verb 'tear away' is based on the reconstructed form 'מפ ]ר##ק#[ ן', which is uncertain. The conjunction 'and' is clear, but the remaining text is too damaged to recover any meaningful content.",
+   "line_id": 4593,
+   "source_hash": "17356db484b89e9927cc2f2d969db13be00b9ac58f2f3189f1e714080fcdc5e5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q157 f1ii:10": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and reconstructions with high uncertainty. No defensible English words survive.",
+   "line_id": 4594,
+   "source_hash": "8800faea8bae9c00e288d83d68a1e2c89c0c794ba831a3ba77f2b8165dad3349",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

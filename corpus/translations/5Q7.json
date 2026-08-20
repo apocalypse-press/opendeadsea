@@ -1,0 +1,53 @@
+{
+ "id": "5Q7",
+ "label": "5Q7",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 953,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "5Q7 f1:1": {
+   "en": "Still they have failed our eyes to our help Abel in our outlook we looked to a people not he helps",
+   "notes": "The phrase 'they have failed eyes' is supported by repeated evidence. The translation conservatively retains all recoverable words in order, including the uncertain 'still' and the proper noun 'Abel'.",
+   "line_id": 49901,
+   "source_hash": "4a60e46037a76e71ecab58b2142020289fe0dab732f5f70f5173557418121daa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q7 f1:2": {
+   "en": "They hunted marching from going in our open place he approached our end they were full our days that it has come our end",
+   "notes": "Uncertain reconstruction of 'marching' and 'hunted'; repeated phrase evidence for 'it has come end' and 'are completed the days' used where possible.",
+   "line_id": 49902,
+   "source_hash": "163253d6aa0bcd1b458aa9acfe878a3494a56e52019247dbd69e1f1109a1a265",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q7 f1:3": {
+   "en": "Light were they who pursued us from eagles of the heavens upon the mountains, they set ablaze us in the desert, they lay in wait for us.",
+   "notes": "The transcription is partially damaged, with one reconstructed word and one uncertain word. The phrase 'they lay in wait for us' is supported by repeated phrase evidence, though with low confidence. The translation conservatively follows the recoverable text without adding unlicensed elements.",
+   "line_id": 49903,
+   "source_hash": "e34106e23349816672ca8fb78e5c796cee7cd403f9aa6eae3fd2887e475578f2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q7 f1:4": {
+   "en": "Even the anointed of YHWH is seized in their pit, about whom we said, 'In his shadow we will live among the nations.'",
+   "notes": "The phrase 'the anointed of YHWH' is supported by repeated evidence. The translation conservatively retains 'YHWH' as per the transcription. The verb 'seized' reflects the nifal perfect of 'seize'. The relative pronoun 'whom' is implied by the relative particle 'אשר'. The first-person plural 'we said' and 'we will live' are directly supported by the morphology. The prepositions 'in' are translated based on the lexical gloss. The noun 'pit' is plural in the source but translated as singular for natural English. The verb 'live' is imperfect, indicating ongoing or future action. The final phrase 'among the nations' is a natural rendering of 'ב גוים'.",
+   "line_id": 49904,
+   "source_hash": "2d743c379e7c0817949639679f162c996e92f5ab305fcb0d44f3106a9f8d7558",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "5Q7 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items. The first character is a reconstructed fragment, the second is an untranslatable symbol, and the third is a punctuation mark with no independent meaning.",
+   "line_id": 49905,
+   "source_hash": "0b05b72b06543f9a2ee287564b4b11e059cb6dd678351ad23cea954ce9ff797d",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

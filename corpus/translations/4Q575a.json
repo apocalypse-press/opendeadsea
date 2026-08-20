@@ -1,0 +1,53 @@
+{
+ "id": "4Q575a",
+ "label": "4Q575a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 618,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q575a f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only damaged or untranslatable characters (ε, #, and brackets), with no recoverable lexical content. All words are marked as unknown or uncertain, and no contextual evidence supports a translation.",
+   "line_id": 31603,
+   "source_hash": "0900fbf9046120cb6ca7a20ad99b5fcf284f8711f6df6e0ba5603839aa743b04",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q575a f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments (ε, #, [) with no recoverable lexical content. The reconstructed and uncertain elements provide no basis for defensible English wording.",
+   "line_id": 31604,
+   "source_hash": "70e703c606de96c80a719f841237d3279a7bd28df169ffa79fd2d97b5f483932",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q575a f1:3": {
+   "en": "to the god",
+   "notes": "The transcription contains uncertain and damaged elements, including untranslatable characters and reconstructions. The translation reflects only the recoverable lexical items 'to' and 'god', with uncertainty in the surrounding material.",
+   "line_id": 31605,
+   "source_hash": "ca74729f38e236b0d30d13a12811a48a565d273e7b0c966e7ab30096a5ccbcd0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q575a f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain fragments, with no recoverable lexical items.",
+   "line_id": 31606,
+   "source_hash": "4c466e2b8fd72e26cb0c6913a5a4bff89b68c3052273e3e61b28595c85585fb6",
+   "source_condition": "uncertain"
+  },
+  "4Q575a f1:5": {
+   "en": "in fire of claim eternity",
+   "notes": "The translation is highly uncertain due to extensive damage and unclear reconstruction. The phrase 'in fire of claim eternity' is a tentative rendering based on recoverable fragments, but the exact meaning and structure remain unclear.",
+   "line_id": 31607,
+   "source_hash": "08f3e0080390037a57bcaa7bebf203b2e0e2c5a23226f1a3a117a672b3909115",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "4Q234",
+ "label": "4Q234",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 163,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q234 f1upside_down:1": {
+   "en": "to",
+   "notes": "The transcription contains an uncertain character 'ε' and a punctuation mark '׃' which cannot be translated independently. The translation reflects only the recoverable word 'אל׳י' glossed as 'to'.",
+   "line_id": 8356,
+   "source_hash": "01cd985863d61e755d2adacd4cc1e3b201fc465b2171d6c341f6f412d0084e61",
+   "source_condition": "clean"
+  },
+  "4Q234 f1sideways:1": {
+   "en": "Isaac",
+   "notes": "The second and third characters (ε and ׃) are untranslatable and omitted from the translation.",
+   "line_id": 8357,
+   "source_hash": "8dd4e8604e736146560c1181dd68017a6c263b10db8083652271aadacb295eed",
+   "source_condition": "clean"
+  },
+  "4Q234 f1:1": {
+   "en": "to",
+   "notes": "The transcription contains untranslatable characters (ε) and a partially preserved preposition (אל). The untranslatable characters are omitted from the translation.",
+   "line_id": 8358,
+   "source_hash": "0d2e6980d9560312df721f970d7641fa7bf573314a2e6e38469a3de84b032916",
+   "source_condition": "clean"
+  },
+  "4Q234 f1:2": {
+   "en": "to the face and he will say Isaac to Jacob",
+   "notes": "The initial character 'ε' is omitted as it cannot be translated independently. The transcription contains a reconstructed word 'ישחק' (Isaac) and a damaged lexical unit 'פנ ]׳י' (face).",
+   "line_id": 8359,
+   "source_hash": "33556860042291295c695f7e7051d7a26048a41e02c6ff609586dc4be79412a8",
+   "source_condition": "reconstructed"
+  },
+  "4Q234 f1:3": {
+   "en": "Approach now",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged verb form (גשה[). The particle 'נא' is translated as 'now' based on its common usage. The final character (׃) is a punctuation mark and not translated.",
+   "line_id": 8360,
+   "source_hash": "450940d3816017c44137470910ad1ab917c018cf396e43ae28d9cf94c56a58b0",
+   "source_condition": "reconstructed"
+  }
+ }
+}

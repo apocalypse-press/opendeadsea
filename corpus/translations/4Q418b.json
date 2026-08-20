@@ -1,0 +1,67 @@
+{
+ "id": "4Q418b",
+ "label": "4Q418b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 412,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q418b f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (תו?ε) with no clear lexical or grammatical meaning. No defensible English translation can be derived from the surviving text.",
+   "line_id": 20680,
+   "source_hash": "3cd25f07f54c9974c64d570244c9a38178139773532ea54898f7c9c7953e5650",
+   "source_condition": "uncertain"
+  },
+  "4Q418b f1:2": {
+   "en": "your stronghold",
+   "notes": "The transcription is heavily damaged, with only the word 'מעוז׳כ' (your stronghold) recoverable. The remaining fragments are uncertain and do not contribute to a coherent translation.",
+   "line_id": 20681,
+   "source_hash": "7df138d2ebde582fb8fd43843204924742dfe6689be243cb89fee7806bfcb924",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q418b f1:3": {
+   "en": "They ascended mountains and descended primeval oceans, their souls in evil faint.",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the verbs 'ascend' and 'descend,' and the noun 'primeval ocean.' The final character 'ε' is untranslatable and omitted.",
+   "line_id": 20682,
+   "source_hash": "ec4f2eb566b7b12cbd8ef2be958d96897e520e6c24847ed172cd7efceb5c0750",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q418b f1:4": {
+   "en": "They will quiver and jump like one who is drunk and all wisdom will swallow",
+   "notes": "The phrase 'than all the wisdom' is supported by repeated evidence, but the translation follows the visible order and morphology. The final character 'ε' is omitted as it cannot be translated independently. Uncertainty in reconstruction and damage is noted.",
+   "line_id": 20683,
+   "source_hash": "6043749d83897ae78617d5607a36987ef06e6df978bacc830285e588c8ec07c6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q418b f1:5": {
+   "en": "throw to trust",
+   "notes": "The transcription is heavily damaged, with uncertain reconstructions and unrecoverable elements. The translation reflects only the recoverable lexical items 'throw' and 'trust', with the preposition 'to' connecting them. The final punctuation mark and other elements are omitted due to uncertainty.",
+   "line_id": 20684,
+   "source_hash": "25c6646c83d84cc0a99fd594887265c22acce2dc41311b2ac409de9de25ff793",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q418b f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a damaged lexical unit with uncertain reconstruction. No defensible English words survive.",
+   "line_id": 20685,
+   "source_hash": "680fb68049830d3c679b7dae01989c8c0152d2ff735c20f5234a2a6a434bf4fb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q418b f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical or grammatical structure recoverable. The visible forms (ε, ]א##, י?תע[, ε, ׃) do not provide sufficient evidence for a defensible translation. The verb form י?תע[ is reconstructed and uncertain, with no trusted gloss available. No meaningful English wording can be derived from the surviving material.",
+   "line_id": 20686,
+   "source_hash": "d03e0e61b8d448eac9d5283f7d700c5374df71515473c6b18f0b1f582c106c14",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

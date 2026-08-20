@@ -1,0 +1,39 @@
+{
+ "id": "4Q38d",
+ "label": "4Q38d",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 823,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q38d f1:1": {
+   "en": "For you shall not beat your olive tree, nor glorify after the sojourner, the orphan, and the widow, it will be",
+   "notes": "The transcription is partially damaged, with uncertain reconstructions at positions 1 and 3. The phrase 'widow it will belong' is supported by repeated evidence, but the exact syntax is uncertain. The translation conservatively retains all recoverable elements without adding implied subjects or connectors.",
+   "line_id": 43632,
+   "source_hash": "d0bbc6e17bda4c56bd488dac5a0f38150b95fc4c24330ff55d3845178bdbbcd4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38d f1:2": {
+   "en": "For your vineyard will be impossible not to deal with after the sojourner, the orphan, and the widow: and remember that you were a slave",
+   "notes": "Positions 1-2: 'For' added for fluency; 'impossible' selected from gloss options. Position 5: reconstructed verb root. Positions 17-20: phrase evidence supports 'remember that you were a slave'",
+   "line_id": 43633,
+   "source_hash": "d34723a964e1143b67b3193131fcd01d873520512636d529206356b4e408a3cb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38d f1:3": {
+   "en": "In the land of Egypt, thus I command to make this word",
+   "notes": "The transcription is damaged, with several uncertain and reconstructed words. The phrase 'in the land of Egypt' is supported by high-confidence evidence. 'Thus I command' is a paraphrase based on repeated phrase evidence. The final clause follows the context-free glosses for the recoverable words.",
+   "line_id": 43634,
+   "source_hash": "782427f486590f84b425491134a0746ed84f0126a5677cc1d6e2d85dbe55da87",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

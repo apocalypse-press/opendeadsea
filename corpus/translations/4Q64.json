@@ -1,0 +1,102 @@
+{
+ "id": "4Q64",
+ "label": "4Q64",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 12,
+ "scroll_id": 852,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q64 f1_5:1": {
+   "en": "And he admonished to judgment that not with sledge it is threshed black cumin",
+   "notes": "Uncertain reconstruction of 'judgment' (position 5), 'sledge' (position 10), and 'black cumin' (position 12). The initial character 'ε' (position 1) is untranslatable and omitted.",
+   "line_id": 46353,
+   "source_hash": "ed10a5d53acbd7f4246ccade8197ad87cf750bcc28a649121eb39ec27c3560fd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q64 f1_5:2": {
+   "en": "And a wheel of a cart over cumin, it is turned that with a staff, it is beaten out black cumin and cumin with a rod and bread, it is crushed that not to perpetuity",
+   "notes": "The translation includes reconstructed and uncertain elements, notably the conjunction 'and' at position 17, which is uncertain. The phrase 'that' at positions 7 and 20 is uncertain, with the latter also being reconstructed. The preposition 'to' at position 22 is required by semantic constraints. The translation conservatively preserves all recoverable elements without adding unlicensed content.",
+   "line_id": 46354,
+   "source_hash": "a971d41f229bbb4be2fb1160704c1653399aeb0d23237edcc7a9a352528ebfea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q64 f1_5:3": {
+   "en": "He will tread down, he sets in motion the wheel, his cart, and horses, not he, also from with Yahweh of hosts it has gone out, he caused to fall counsel",
+   "notes": "Positions 1, 13, and 19 have no recoverable text. Position 18 is uncertain. Position 20 is reconstructed.",
+   "line_id": 46355,
+   "source_hash": "0b3f641c4c510446f218750c0f2c89987ade09836b67d9dd1b8a190ef0ed8a62",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q64 f1_5:4": {
+   "en": "He has made great sound wisdom. Woe to Ariel, Ariel, the town where he camped, David.",
+   "notes": "The phrase 'add year' is uncertain due to damage and low pattern support. The translation preserves the repeated 'Ariel' and the grammatical person constraints.",
+   "line_id": 46356,
+   "source_hash": "158d5bd3817e8f55a2382976bbf360729fe218042ba287f635e9131761956a23",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q64 f1_5:5": {
+   "en": "Upon the year festivals let them go around, and I will bring distress to Ariel, and it will be mourning, and lamentation, and it will be to me like an altar hearth, and I will encamp like David",
+   "notes": "Uncertain reconstruction at positions 1, 12; uncertain reading at positions 11, 19, 24; unsupported word at position 24.",
+   "line_id": 46357,
+   "source_hash": "8731e88a7c99799522fa42a8b026ef720e3201202b09c4b97526ce216b935768",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q64 f1_5:6": {
+   "en": "I will lay siege on your siege-works and I will raise fortifications on you and you will become low from the ground and you will speak",
+   "notes": "Positions 17-18: Unmatched DSS positions with no recoverable text. Position 9: Uncertain reconstruction of 'fortifications'.",
+   "line_id": 46358,
+   "source_hash": "ea819b7992839448009054453ad95eac307eea8276d62df5f9f305f6aeeb944e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q64 f1_5:7": {
+   "en": "And it will be like fine dust, the multitude of strangers, and [will be] like chaff [which] passes away, the multitude of ruthless [people]. And it will happen suddenly, suddenly. From with Yahweh of hosts it will be visited.",
+   "notes": "The translation follows the required contextual senses and phrase evidence, preserving grammatical person, number, and semantic relationships. Uncertainty in the transcription is noted for the divine name (position 22). The translation avoids adding unlicensed subjects, objects, or connectors, and retains all recoverable lexical items in order.",
+   "line_id": 46359,
+   "source_hash": "a90f48fa8d7d09999c62bf495b4ab337865afcf013532aeb046852af7d2312ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q64 f1_5:8": {
+   "en": "With thunder and with earthquake and a great sound, a storm-wind and a tempest and a flame of fire devouring. And it will be like a dream, a vision of night, the multitude of all.",
+   "notes": "The phrase 'a dream, a vision of night' follows repeated phrase evidence. The uncertain reading at position 22 is reflected in the translation of 'night' without brackets.",
+   "line_id": 46360,
+   "source_hash": "034d14771d660c8c41cc3d77260bc23549ccc108d5fa78b3bb772be43a6adf4f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q64 f1_5:9": {
+   "en": "The nations [which] go to war upon Ariel and all the host and stronghold and [those who] bring distress to it will be just as he dreams the hungry [person] and there!",
+   "notes": "Uncertain reconstruction at position 1; uncertain reading at position 23.",
+   "line_id": 46361,
+   "source_hash": "8988684ea11d131cfdaa1fff1ba40380b4346067df3b2ae901ae2a021eec0329",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q64 f1_5:10": {
+   "en": "Eating, he awakes and is empty appetite, and just as he dreams, the thirsty one, and there! he drinks and he awakes, and there! he is faint and his throat rushes, so it will be",
+   "notes": "Position 23: no defensible translation for שוקקה. Positions 10, 11, 12, 25: uncertain transcription. Positions 1, 12: reconstructed transcription.",
+   "line_id": 46362,
+   "source_hash": "accea2a19def657447dbab9853e37694e2d0bb1fa20ce36086c90fcd86230362",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q64 f1_5:11": {
+   "en": "The multitude of all the nations [which] go to war on the mountain of Zion",
+   "notes": "Reconstructed text and uncertainty in the transcription are noted.",
+   "line_id": 46363,
+   "source_hash": "0d9f83e61336082beb2d88535a88211dea37a8f12dfe8ca90dc0675b86c22c80",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q64 f1_5:12": {
+   "en": "Delay and be astonished, blind yourselves and be blind, people have become drunk and not from wine, people have staggered and not from strong drink.",
+   "notes": "The translation follows the required and advisory contextual senses where available, preserving the imperative mood and plural subjects. The verbs in positions 7 and 11 are translated as perfect tense to reflect the 'have become' and 'have staggered' contextual senses. The negation particles in positions 9 and 13 are applied to the following nouns, 'wine' and 'strong drink', respectively. The final colon (position 15) is omitted as it does not contribute to the translation.",
+   "line_id": 46364,
+   "source_hash": "6e9f5ee030c5fae30c10fb6d2c30a8465ea6467de434bf87481e2e367496c633",
+   "source_condition": "reconstructed"
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "id": "4Q480",
+ "label": "4Q480",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 513,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q480 f1i:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ה## # [ε) with no clear lexical or grammatical meaning. The reconstructed and uncertain elements do not provide sufficient basis for translation.",
+   "line_id": 22822,
+   "source_hash": "41fac4517623073c2d1173771d2b917ff42a8b9a6e5c462351381e61ecd8fa53",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q480 f1i:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek and Hebrew characters (ε, #, וא) with no clear lexical or syntactic structure. No defensible English translation is possible from the surviving material.",
+   "line_id": 22823,
+   "source_hash": "772c75765d217beca05fb99e46b08727a57e52fc5c0a224e0d203c383f2777fd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q480 f1i:5": {
+   "en": "and he tried",
+   "notes": "The initial 'ε' is untranslatable and omitted; its presence is noted here.",
+   "line_id": 22824,
+   "source_hash": "1c812930c8a96753e40515aa25f3017b009f6d65331d7273db05831d78fb656e",
+   "source_condition": "clean"
+  },
+  "4Q480 f1i:6": {
+   "en": "because of",
+   "notes": "The transcription includes an uncertain particle 'לְמַעַן' and an untranslatable character 'ε'; the latter is omitted from the translation.",
+   "line_id": 22825,
+   "source_hash": "4f329ce779e3449b3389496adec27174fd6d20324cca4fc3679c9a925929832f",
+   "source_condition": "uncertain"
+  },
+  "4Q480 f1ii:1": {
+   "en": "in all wonders",
+   "notes": "The translation follows the highest-supported repeated phrase evidence for positions 1-3. The final character 'ε' is omitted as it cannot be translated independently and has no lexical gloss.",
+   "line_id": 22826,
+   "source_hash": "da281cc3d123a348a7eae78b51a9e129b4df96f5a9b0a85c808fe288f7d97f71",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q480 f1ii:2": {
+   "en": "YHWH",
+   "notes": "The transcription is damaged and partially reconstructed. The second character (ε) is untranslatable and omitted from the translation.",
+   "line_id": 22827,
+   "source_hash": "77a2051df82ae3bd9cb55897bc19a781428e65d82d5d7c4443bcd5cb722c589e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q480 f1ii:3": {
+   "en": "to the heavens",
+   "notes": "The transcription is damaged and uncertain, with a reconstructed term for 'heavens' and an unknown character (ε). The particle 'to' is clearly recoverable, but the rest of the line is fragmentary.",
+   "line_id": 22828,
+   "source_hash": "e4bc95e7d41ac0e58a3f9d6d3c187f168828b39d6e3b01c05e53a59d0d674a56",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q480 f1ii:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible lexical items surviving for translation.",
+   "line_id": 22829,
+   "source_hash": "fa0af491a0c5d4954ef987c0ad92aa4222ab57e6aac4a970f916878aa0262cf8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q480 f1ii:5": {
+   "en": "God to",
+   "notes": "The transcription is fragmentary, with a reconstructed preposition 'to' and an untranslatable character 'ε'. The phrase 'God to' is supported by repeated phrase evidence.",
+   "line_id": 22830,
+   "source_hash": "da3aa6ce8fb0d83adf9f04de81dd136ef4136a6651250114e6e2dfd59943d149",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q480 f1ii:6": {
+   "en": "they threw",
+   "notes": "The final characters 'ε׃' are untranslatable and omitted.",
+   "line_id": 22831,
+   "source_hash": "c70163d4890a0a0db01df07e95e0a48402c74d8542d837dfce5975dcfe3cfa4d",
+   "source_condition": "reconstructed"
+  }
+ }
+}

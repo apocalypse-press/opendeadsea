@@ -1,0 +1,46 @@
+{
+ "id": "1Q63",
+ "label": "1Q63",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 52,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q63 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of fragmented and uncertain characters (ε, #, [) with no clear lexical or grammatical content. No defensible English translation can be derived from the surviving material.",
+   "line_id": 3750,
+   "source_hash": "51d4da142f99a00de88312629ec176b3cb0b21ce55c089400ee1f05beba5d001",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q63 f1:2": {
+   "en": "In their banners",
+   "notes": "The initial and final 'ε' are untranslatable and likely artifacts of the transcription. The particle 'ב##' is uncertain but translated as 'in' based on its common usage. 'דגלי׳הון' is a masculine plural suffixed form of 'דגל', meaning 'banners' or 'standards'.",
+   "line_id": 3751,
+   "source_hash": "e430718ced79a890d1e421e74b83bd32785ded67800a57f52a9d3bf4e615ac61",
+   "source_condition": "uncertain"
+  },
+  "1Q63 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and untranslatable characters (ε, ]ין, ε) with no recoverable lexical content.",
+   "line_id": 3752,
+   "source_hash": "373296d91c2495e6a2b9e820e998349838ed5977082aab670713538a354f82cb",
+   "source_condition": "clean"
+  },
+  "1Q63 f1:4": {
+   "en": "and he said",
+   "notes": "The transcription contains uncertain and untranslatable elements, including a Greek fragment (ε) and a damaged marker (׃). The verb 'say' is translated based on the visible morphology, but the overall meaning is incomplete due to missing context.",
+   "line_id": 3753,
+   "source_hash": "97d115bf1ba49d0fc6a135471b4f4d2bfe038dea321b1afc56e6eb2d54c2853a",
+   "source_condition": "uncertain"
+  }
+ }
+}

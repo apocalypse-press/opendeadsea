@@ -1,0 +1,46 @@
+{
+ "id": "4Q8a",
+ "label": "4Q8a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 782,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q8a f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible lexical items surviving for translation.",
+   "line_id": 40255,
+   "source_hash": "5a8d91b1a4680480f922c3f003ae8402cd6fb99af5389e5d69899fcd1a964a6c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q8a f1:2": {
+   "en": "And he said, 'Let the gods collect the waters from under the heavens to",
+   "notes": "Uncertain reconstruction of the verb 'say' and the subject 'gods'.",
+   "line_id": 40256,
+   "source_hash": "60df48d77a06e07f9d387825f04480b822de4f24ef14ce96cdce373b83d3934c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q8a f1:3": {
+   "en": "A collection, one, and let her see the dry land, and it was so. And he called God.",
+   "notes": "The transcription contains a reconstructed word ('[ אחד') and a damaged lexical unit ('׃'). The phrase 'he called God' is supported by repeated phrase evidence.",
+   "line_id": 40257,
+   "source_hash": "6cf657861a9f31a80151fb5d0c83a20a974c6763ead26caa57d6de97179564b1",
+   "source_condition": "reconstructed"
+  },
+  "4Q8a f1:4": {
+   "en": "To dry land and to the gathering of the waters, he called seas, and he saw God",
+   "notes": "The transcription contains a damaged word at position 2, which is reconstructed as 'dry land' but remains uncertain. The phrase 'he saw God' is supported by repeated evidence, though its pattern support is not dominant.",
+   "line_id": 40258,
+   "source_hash": "8f4234b5172dd3c855cd10a9fd25db80b88c268e81dd3b673cdcc4c495ffc498",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,228 @@
+{
+ "id": "Xhev-se2",
+ "label": "Xhev/se2",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 30,
+ "scroll_id": 986,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "Xhev/se2 1:21": {
+   "en": "And they stood before Moses and before Eleazar the priest",
+   "notes": "Uncertainty in the transcription is reflected in the damaged conjunction 'and' (ו?) and the partially reconstructed name 'Eleazar' (א##[ לעזר). The phrase 'before Eleazar the priest' is supported by repeated phrase evidence.",
+   "line_id": 52397,
+   "source_hash": "54f98a7badef9917f18cec8248c36090b448868c7b868869ff845bd1c15d39b1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:22": {
+   "en": "and before the leaders and all the congregation the entrance of the tent of meeting",
+   "notes": "The phrase 'before the leaders' is supported by repeated evidence with 1.0 confidence. 'All the congregation' is supported by repeated evidence with 0.9429 confidence. 'The entrance of the tent of meeting' is supported by repeated evidence with 0.8409 confidence. The translation conservatively follows the highest-supported repeated phrase evidence for each segment.",
+   "line_id": 52398,
+   "source_hash": "a4214b69687cc9665265ff210bea79b9b7e4a8974f175139f56feefdc540217b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:23": {
+   "en": "to say: our father died in the desert and he was not",
+   "notes": "The phrase 'he was not' is a reconstruction based on repeated phrase evidence. The transcription contains damage and reconstructions, particularly at the beginning and end of the line.",
+   "line_id": 52399,
+   "source_hash": "44ad8ffeb498219bc7ad56d3910364a3110219c078bc951ffc2591ad7bc8ae7f",
+   "source_condition": "reconstructed"
+  },
+  "Xhev/se2 1:24": {
+   "en": "in the midst of the congregation of those appointed upon YHWH in the company of Korah",
+   "notes": "Reconstructed text in positions 1 and 8. Uncertainty in position 8 due to damage.",
+   "line_id": 52400,
+   "source_hash": "2e3f7df403216f4d5ad8440ff4975cbcc3f1390685d41acb042a854439cabcb3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:25": {
+   "en": "For in offence he died and sons not they belonged to",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly around positions 7-9. The phrase 'sons not they belonged to' is supported by repeated phrase evidence, but the exact meaning remains uncertain due to the damaged state of the text.",
+   "line_id": 52401,
+   "source_hash": "72cb5156ed9e7cf05eeb454df0ac58384bf4c76f846c1b8263dab295bf8d44ff",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:26": {
+   "en": "He will cut off the name of our father from the midst of his clan, that there is none",
+   "notes": "The phrase 'שם אבינו' is translated as 'the name of our father' based on repeated phrase evidence. The particle 'כי' is rendered as 'that' to introduce a clause. The final 'אין' is translated as 'there is none' to maintain the negation and semantic relationship.",
+   "line_id": 52402,
+   "source_hash": "64323b90984c06b468e44b81528c8cb7382ff01fd89c9179be5f9a7aafde14ce",
+   "source_condition": "reconstructed"
+  },
+  "Xhev/se2 1:27": {
+   "en": "Give to us a land property in the midst of brothers our father",
+   "notes": "Uncertain reconstruction and meaning due to damage and ambiguous lexical items. The phrase 'among brothers' is a high-confidence repeated pattern, but its connection to 'our father' is uncertain. The verb 'give' is imperative, but the subject is not explicitly stated. The preposition 'to' is reconstructed and may not be accurate.",
+   "line_id": 52403,
+   "source_hash": "9c142bf7e0324e0e92d1a1669d8ea151d6369fa1acbfc75c7f937d50ddf4f90f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:28": {
+   "en": "And he brought Moses to the justice before YHWH",
+   "notes": "Uncertainty in the transcription and morphology of 'מ ]ש##פט׳ן' and 'ל##' is not reflected in the translation. The phrase 'he brought Moses' is supported by repeated phrase evidence, while 'to the justice before YHWH' is a conservative rendering of the available lexical items.",
+   "line_id": 52404,
+   "source_hash": "ce327877bbca97baf0da644fbbbc2d0454326bca0a8bab5c1f257d7f7aee2120",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:30": {
+   "en": "And he said, Yahweh to Moses, saying: Thus daughters",
+   "notes": "Uncertainty in transcription and reconstruction affects positions 2, 4, 5, and 8. Position 8 is an unknown punctuation mark and is omitted from the translation. Phrase evidence strongly supports 'Yahweh to Moses' and 'Moses (cmp) saying', guiding the translation of positions 3-7. The final phrase 'Thus daughters' is translated based on recoverable words, though its meaning is unclear without further context.",
+   "line_id": 52406,
+   "source_hash": "bbf21dc77f730d3afeed5efdbe883676e669f9dbc045254c8c1a563368a36ecf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:31": {
+   "en": "Zelophehad spoke give you will give to a possession of an inheritance",
+   "notes": "Uncertain reconstruction and gloss for 'דבר ]ת##' (speak/push back), 'נ?תן' (give), and 'ת#ת##ן#?' (you will give). Phrase evidence supports 'to a possession' and 'possession of an inheritance' but with low confidence. No high-confidence constraints available.",
+   "line_id": 52407,
+   "source_hash": "f9e876d0b0f6e55c7f4328859d75e84daaa6746db06ed4e0c5d588fd69dad83d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:32": {
+   "en": "In the midst of brothers their father and you passed the inheritance of my ancestors",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly 'אחיא', '׳ה#ם', and 'נח##ל##[ ת'. The phrase evidence and lexical glosses were used to resolve ambiguities where possible, but some interpretations remain tentative.",
+   "line_id": 52408,
+   "source_hash": "434ffcb10eeece817b8bbeaac15bde1a938bdcd78a1931aef121a5a24deb676e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:33": {
+   "en": "to the people of Israel you will speak saying a man",
+   "notes": "Uncertain reconstruction of 'to' (position 4) and 'sons' (position 5). Phrase evidence strongly supports 'to the people of Israel' for positions 4-6.",
+   "line_id": 52409,
+   "source_hash": "359e6b1c11f4bb1864c0c2d4d43243a7ab43e9eaa03ca6783b3d52469bbcac41",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:34": {
+   "en": "For he will die, and a son there [belongs] not to, and you will make pass over the inheritance",
+   "notes": "Uncertain reconstruction of 'י? # [ ות' as 'he will die'; uncertain suffix 'ל׳ו#?'; reconstructed 'נח#לת##׳[ ו ]' as 'the inheritance'.",
+   "line_id": 52410,
+   "source_hash": "87ae41d887a0005bb1379c4feb763c66bb8c7b5689b493a9fce63ed8350e658f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:35": {
+   "en": "to his daughter and if there is no daughter you gave her inheritance",
+   "notes": "Uncertain reconstruction of 'daughter' and 'if'. The phrase 'you gave her inheritance' is supported by repeated evidence but with low confidence. The preposition 'to' is reconstructed.",
+   "line_id": 52411,
+   "source_hash": "a7ceb26d5495c64f704c419a16f81fc5f0ce171e4e7c45d4a3465866ae5a82c9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:36": {
+   "en": "to his brothers and if there are no brothers to them you gave",
+   "notes": "Significant uncertainty due to damage and reconstruction. The phrase 'to brothers' is supported by repeated evidence. Other elements are context-free glosses or reconstructions.",
+   "line_id": 52412,
+   "source_hash": "2eba0d43e4d85075c3115af2ddbf6f5b76a2832d49ba4fcbc4484b39467ba448",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:37": {
+   "en": "his heritage to the brother of his father and if there is no brother",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Phrase evidence suggests 'the brother of Joab' but is not adopted due to lack of direct support in the visible text. Translation retains recoverable elements conservatively.",
+   "line_id": 52413,
+   "source_hash": "6c3f836f78d3b114705c661e7b2cb713c4d019120ac5dd112acc002b8fbb0b36",
+   "source_condition": "uncertain"
+  },
+  "Xhev/se2 1:38": {
+   "en": "to the father and you gave (et) inheritance to the body the near",
+   "notes": "Reconstructed and uncertain elements include 'father', 'et', 'inheritance', and 'body'. The phrase 'you gave (et) inheritance' is supported by repeated evidence. Some words remain uncertain due to damage.",
+   "line_id": 52414,
+   "source_hash": "84456e0d66c952cc9b470cd6bcf00ac6f691c27b625feac01e1617ae7297cba2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:39": {
+   "en": "to from his clan and he trampled down the and it was",
+   "notes": "Uncertainty in transcription and reconstruction affects 'clan' (משפחת ]׳ו#?), 'and' (ו#?), and the object marker (]א## # [ ׳ה). Phrase evidence suggests 'take possession of (et)' for positions 5-6, but visible morphology and transcription are prioritized. Some words are partially reconstructed.",
+   "line_id": 52415,
+   "source_hash": "e991ab75dbe63a7d64f2805168ffc8e1f62c33cb492443d43314f0c686b98a86",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:40": {
+   "en": "to the people of Israel into a statute of judgment as he commanded",
+   "notes": "Uncertain reconstruction of 'sons of Israel' and relative pronoun connection.",
+   "line_id": 52416,
+   "source_hash": "12fd3ca0af2c8f3c55e935ee57a50e21b9adce2c89130fc32ded1e3801a353fa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:41": {
+   "en": "YHWH and Moses",
+   "notes": "The transcription is damaged and partially reconstructed, with uncertainty in the first word. The phrase 'YHWH and Moses' is supported by repeated evidence, though the exact syntax is unclear.",
+   "line_id": 52417,
+   "source_hash": "c3e3db3d0b1a837fdba59e00e273e84ce09bddae0ccd8524e7f1884da532d731",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:42": {
+   "en": "And he said, Yahweh to Moses, Go up to the mountain of the Abarim",
+   "notes": "The transcription is partially reconstructed and uncertain, particularly around the preposition 'to' and the noun 'mountain'. The phrase 'Yahweh to Moses' is supported by strong evidence, as is 'the mountain of the Abarim', though with lower frequency. The imperative 'Go up' is clear, but the syntax is fragmented, and the translation conservatively follows the recoverable order without adding implied subjects or connectors.",
+   "line_id": 52418,
+   "source_hash": "d672175ba5689c10c66474c22ff403816e9576181781e1d80db1e1cb7faea3a6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:43": {
+   "en": "This and see the land which I gave to my sons",
+   "notes": "Reconstructed and uncertain elements include the demonstrative 'this' (ז#?[ ה ]), the conjunction 'and' (ו#?), and the verb 'see' (ר##[ א ]ה). The phrase 'land which I gave' is supported by repeated evidence, but 'to my sons' is contextually inferred with lower confidence.",
+   "line_id": 52419,
+   "source_hash": "deef476e2aee593cf7868beff3a4980f2c814d5441993ae64a6908b404fdb2ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 1:44": {
+   "en": "Israel and you saw and were gathered to your people",
+   "notes": "Uncertain reconstruction of 'Israel' and 'you saw'; object marker 'et' omitted due to uncertainty; 'were gathered' supported by repeated phrase evidence; 'your people' is a conservative rendering of the suffixed form.",
+   "line_id": 52420,
+   "source_hash": "ed4eb3a45e098354fd037579396a7e7b74b71c9e21e29bbf6ce6d08cced664be",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 2:41": {
+   "en": "A burnt offering to YHWH, two young bulls, young ones of the cattle, and a ram",
+   "notes": "The phrase 'young ones of the cattle' is supported by repeated phrase evidence with high confidence. The translation conservatively follows the visible morphology and lexical glosses, preserving the order of recoverable words.",
+   "line_id": 52421,
+   "source_hash": "803046fd4fb76465550f90c8ed69276cbc8fb562f705ea54da17bacc1967b02b",
+   "source_condition": "reconstructed"
+  },
+  "Xhev/se2 2:42": {
+   "en": "One lamb, sons of a year, seven unblemished",
+   "notes": "The transcription is partially damaged, and the word 'כב##[ שים' is reconstructed and uncertain, likely referring to 'lambs'. The phrase 'sons of a year' is supported by repeated phrase evidence, and 'seven unblemished' is a common rendering of the final words.",
+   "line_id": 52422,
+   "source_hash": "19418d44b1021bf69d35fac9c0c162e0df6dcd41e1b461be8fcf181e92adb210",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 2:43": {
+   "en": "And three tenths of fine flour, a grain offering mixed with oil",
+   "notes": "The phrase 'three tenths' is reconstructed and uncertain. The phrase 'fine flour a grain offering mixed' is supported by repeated phrase evidence.",
+   "line_id": 52423,
+   "source_hash": "c8346eeede3ec540d4a753aed17cfb629c87839ef954e743e88ba152d6bb0c1b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 2:44": {
+   "en": "For the one bull, two tenths of fine flour as a grain offering",
+   "notes": "Uncertainty in the transcription of 'bull' and 'one'; 'tenths' and 'fine flour' are supported by repeated phrase evidence.",
+   "line_id": 52424,
+   "source_hash": "ee8c02944bf2aaf2f5a43760468a22369f09331e197a270c7c1c5383b9837f78",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible.",
+   "line_id": 52425,
+   "source_hash": "594a7c9d79f136c4a8d80e84a0d4de7b335eb5c819033cf6be4ceb982c0f9b8d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xhev/se2 f1:2": {
+   "en": "she bore",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 52426,
+   "source_hash": "984122142fd844a144cf8b8ce30cb5bfab8ffdbf99ba270cf0e99ec79aea6af1",
+   "source_condition": "clean"
+  },
+  "Xhev/se2 f1:3": {
+   "en": "the Jalam and",
+   "notes": "Uncertain transcription and reconstruction in positions 1, 3, and 6. Position 5 contains an untranslatable character.",
+   "line_id": 52427,
+   "source_hash": "832d2df00d76fe599cfc7bfc92c9152c52300e5dd5b7614e7c567e6787d6c06c",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

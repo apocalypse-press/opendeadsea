@@ -1,0 +1,53 @@
+{
+ "id": "Mas1",
+ "label": "Mas1",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 991,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "Mas1 f1:1": {
+   "en": "And the daughters of his sons and all his offspring, he brought to Egypt.",
+   "notes": "The phrase 'the daughters of his sons' is a reconstruction based on the visible morphology and lexical glosses. The phrase 'all his offspring' is supported by repeated phrase evidence. The verb 'brought' is a conservative translation of the hifil stem of the lemma 'come', which is supported by the lexical gloss and morphological analysis. The object marker 'et' is omitted in the translation as it is not reflected in the visible transcription.",
+   "line_id": 52486,
+   "source_hash": "d197cb4c9edcd556c6dc99ec9e588d91f0770faa3d34a2beb690ffa5bf03cf6e",
+   "source_condition": "reconstructed"
+  },
+  "Mas1 f1:2": {
+   "en": "And these are the names of the sons of Israel who came from Egypt, Jacob",
+   "notes": "The phrase 'who came from Egypt, Jacob' is a reconstruction based on contextual evidence, as the transcription is partially damaged.",
+   "line_id": 52487,
+   "source_hash": "c14762011ee9b034d3e31a3942d14a848e03f3f23c52389356c66773b5415d2d",
+   "source_condition": "reconstructed"
+  },
+  "Mas1 f1:3": {
+   "en": "the fathers their firstborn of Jacob Reuben and the sons of Reuben Hanoch",
+   "notes": "Uncertain reconstruction of 'their' (position 1) and 'and' (position 6). Phrase evidence supports 'the firstborn of Jacob Reuben' and 'the sons of Reuben Hanoch'.",
+   "line_id": 52488,
+   "source_hash": "3417d9d4b28c9c82ec88450a4f86a5e40f780c79b61474a44624ce749021cfd2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1 f1:4": {
+   "en": "and Pallu, and Hezron, and Carmi, and the sons of Simeon, Jemuel, and Jamin",
+   "notes": "The phrase 'the sons of Simeon, Jemuel' is supported by repeated phrase evidence. The transcription contains a reconstructed particle at the start and an uncertain character at the end of 'Jemuel', which is reflected in the translation order but not explicitly noted here.",
+   "line_id": 52489,
+   "source_hash": "e995764e4dfcf95168f35833b2f5a22c65333a9dd72543232cde8fa7b0e45625",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1 f1:5": {
+   "en": "And Ohad, and Jakin, and Zohar, and Saul the son of the Canaanite. And the descendants of Levi.",
+   "notes": "The phrase 'Saul the son of the Canaanite' is supported by repeated phrase evidence. The phrase 'the descendants of Levi' is supported by repeated phrase evidence, though the word 'descendants' is a reconstruction due to damage in the source text.",
+   "line_id": 52490,
+   "source_hash": "88d86cbe69ee4d12d52ac46c0b11220da0c545b9c373729112cf325d42193f21",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

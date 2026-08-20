@@ -1,0 +1,102 @@
+{
+ "id": "Mas1f",
+ "label": "Mas1f",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 12,
+ "scroll_id": 997,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "Mas1f 1:22": {
+   "en": "He will send his word, and it will melt, he will blow a wind",
+   "notes": "The phrase 'I will send pestilence' is a repeated pattern in the source, but the visible morphology and lexical items do not support first-person agency or the term 'pestilence'. The translation retains third-person singular agency and uses 'word' and 'wind' based on the provided glosses.",
+   "line_id": 52827,
+   "source_hash": "8586f515ff1177dbde5168e159067b22a8b2af38138e42c48d5a7b1286b1fa17",
+   "source_condition": "reconstructed"
+  },
+  "Mas1f 1:23": {
+   "en": "They may flow water, it will tell the matter to Jacob, his portion",
+   "notes": "The translation follows the visible morphology and phrase evidence. The verb 'flow' is reconstructed but supported by the lemma. The phrase 'they may flow water' is supported by repeated evidence. 'It will tell the matter' is also supported by repeated evidence. The preposition 'to' and the name 'Jacob' are directly translated. The final phrase 'his portion' is a conservative rendering of the suffixed form.",
+   "line_id": 52828,
+   "source_hash": "36b7e41e1e6a0a26d714497e49d3c44b62c21ef5eeef98f77e21d20229744ac4",
+   "source_condition": "reconstructed"
+  },
+  "Mas1f 1:24": {
+   "en": "and his judgments to Israel",
+   "notes": "The final characters 'ε' and '׃' are untranslatable and omitted. The reconstruction of 'ו' is reflected in the translation.",
+   "line_id": 52829,
+   "source_hash": "1e18c88a5e89c087f7ab94506253a357ba3a0a0b20a27fc398eee54f39b3b506",
+   "source_condition": "reconstructed"
+  },
+  "Mas1f 2:16": {
+   "en": "Praise God in his holiness",
+   "notes": "The final word is reconstructed and uncertain, with damage indicated by '#' and '?' in the transcription. The phrase 'הללואלבקדש׳והל#ל#ו?׳ה#[ ו ]' contains a repeated verb form 'הלל' (praise) with the second instance being uncertain. The preposition 'ב' (in) and the suffixed form 'קדש׳ו' (his holiness) are clear. The translation follows the visible morphology and lexical glosses, with the repeated 'הלל' verb form translated as 'praise' based on the highest-supported evidence.",
+   "line_id": 52830,
+   "source_hash": "60d1a108bf2bf38acd6040d001413669782ce609d18ccb57f71e93fe47823409",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1f 2:17": {
+   "en": "In the firmament his power, praise in his strength",
+   "notes": "The transcription contains a reconstructed word and an uncertain word. The translation reflects the visible morphology and lexical glosses, but the exact sense of 'הלל׳ה#[ ו' is uncertain due to damage.",
+   "line_id": 52831,
+   "source_hash": "0049040cb8f79c41eb190c128c222f325660aac9b1da1d3c2c304026719a2f4d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1f 2:18": {
+   "en": "Praise his greatness as the multitude",
+   "notes": "The final word is uncertain due to damage in the source text.",
+   "line_id": 52832,
+   "source_hash": "87c3afd301223e6ea7c0ff6bc8e7c1fdaf248179bc5c83c0dd344b063c813475",
+   "source_condition": "uncertain"
+  },
+  "Mas1f 2:19": {
+   "en": "In a blast of the horn praise him in the jar",
+   "notes": "Uncertainty in transcription affects prepositions and the horn noun. The jar/harp noun is unambiguous but its relation to the verb is unclear.",
+   "line_id": 52833,
+   "source_hash": "eb3c60be3d9f0e70f2386fe98b51c11fb4b20d6424d3f7ef67631a6e22eed9c5",
+   "source_condition": "uncertain"
+  },
+  "Mas1f 2:20": {
+   "en": "and a cither",
+   "notes": "The transcription includes a reconstructed particle 'ו' and a cither noun 'כנור'. The final character '׃' is an untranslatable punctuation mark and is omitted from the translation.",
+   "line_id": 52834,
+   "source_hash": "9b36bc4ca55dfdbdf8b25f03812a8075200d1e51de4fb362f2bc2362b4724b22",
+   "source_condition": "reconstructed"
+  },
+  "Mas1f 2:21": {
+   "en": "Praise him with tambourine and dance",
+   "notes": "The transcription contains reconstructed elements, and the translation follows the visible morphology and lexical glosses. The phrase 'Praise him' is repeated, reflecting the imperative form of the verb 'praise' in both instances.",
+   "line_id": 52835,
+   "source_hash": "67c2ba956da1340fe0b4ed2bef6697b4e66558645d1e5fe58ad1b5f8eef21766",
+   "source_condition": "reconstructed"
+  },
+  "Mas1f 2:22": {
+   "en": "In [strings] and flute, praise Him in cymbals",
+   "notes": "The transcription is partially damaged, with uncertain reconstructions and missing text. The term '[strings]' is a tentative translation of the uncertain 'מ ]נ?ים', which may refer to a portion or string. The verb 'הלל׳הו' is an imperative plural form, indicating a command to praise. The preposition 'ב' is repeated, suggesting multiple instruments for praise.",
+   "line_id": 52836,
+   "source_hash": "baeff168349d2b73a67c52326890edc77aa5a57dda07902b8705454941b481ed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1f 2:23": {
+   "en": "Proclaim praise with cymbals and shouting",
+   "notes": "The phrase 'make a proclamation praise' is supported by repeated phrase evidence. The final punctuation mark is omitted as it cannot be translated independently.",
+   "line_id": 52837,
+   "source_hash": "f9ffbe50f3a6e94734a85b3e492d5c98c516b4ba6840718df6fa04f328200e9d",
+   "source_condition": "clean"
+  },
+  "Mas1f 2:24": {
+   "en": "Every breathing thing praises Yahweh, praise Yahweh.",
+   "notes": "The translation follows high-confidence phrase evidence for 'every (the) breathing thing' and 'praise Yahweh praise' with minor smoothing for English fluency. The final 'praise Yahweh' repeats a supported pattern. Uncertainty remains in the damaged transcription and some reconstructions.",
+   "line_id": 52838,
+   "source_hash": "e50fa933c26d300a97379a0fa6f7623fdd79fe6c0c909f135aacea07796e2709",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

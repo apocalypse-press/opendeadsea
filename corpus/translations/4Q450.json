@@ -1,0 +1,67 @@
+{
+ "id": "4Q450",
+ "label": "4Q450",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 448,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q450 f1:1": {
+   "en": "and no despair",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The word 'בינו' is uncertain and not translated due to lack of context. The particle 'ו' is translated as 'and'. 'אין' is translated as 'no' based on its negation function. 'דאב##[ ון' is reconstructed as 'despair' but remains uncertain. The 'ε' characters are untranslatable and omitted.",
+   "line_id": 22131,
+   "source_hash": "169dddf213864227e3b6c3cbd0137d6b76bda73dcbcc0427e6d559ea584bcee3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q450 f1:2": {
+   "en": "and boys mocked",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged particle (ו#?) and an unknown character (ε). The verb 'תעתעו' is translated as 'mocked' based on its morphology and lexical gloss. The subject 'boys' is derived from 'נערימ', a plural masculine noun. Uncertainty in the transcription is not reflected in the translation per instructions.",
+   "line_id": 22132,
+   "source_hash": "c79badbf7b1f86210184b6405439abc47bdfa64ce415af2d61c308288cb58105",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q450 f1:3": {
+   "en": "you poured to earth in",
+   "notes": "Uncertain transcription and reconstruction of several words. The phrase 'land in' is supported by repeated evidence, but its integration is tentative due to fragmentary state.",
+   "line_id": 22133,
+   "source_hash": "61fac13a2dc60530406782b01f0c36bba4b68163d54b5eefc2f3f7d5e07d6d80",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q450 f1:4": {
+   "en": "despair of soul and",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged particle at the end. The word 'despair' is uncertain due to manuscript damage. The conjunction 'and' is reconstructed.",
+   "line_id": 22134,
+   "source_hash": "066e2d4e8fbff279a956c42f067f04d2290ee0c74c883fb0879fade9211e46a2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q450 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain characters. All visible forms are either damaged, reconstructed, or unidentified.",
+   "line_id": 22135,
+   "source_hash": "07397e119dfbd9c79037a33cd01dad3f24c732361b1cbcbb83021a4d5d22db3d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q450 f2:1": {
+   "en": "to the earth",
+   "notes": "The phrase 'ground back' is suggested by repeated evidence for 'אֶרֶץ ג', but the translation conservatively retains only recoverable words. Uncertainty in transcription and reconstruction is noted for positions 2, 3, and 5.",
+   "line_id": 22136,
+   "source_hash": "175e8e6a1e1bb1df9a0ab76c644e4f96f3f3f6e94be419322f320146c3068e34",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q450 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain elements, with no defensible English words surviving.",
+   "line_id": 22137,
+   "source_hash": "21a373ee57068904d18828935a26f1f07143bbda9e6bb4eeb0f0f3d1ba07ab04",
+   "source_condition": "uncertain"
+  }
+ }
+}

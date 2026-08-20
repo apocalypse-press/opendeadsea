@@ -1,0 +1,60 @@
+{
+ "id": "4Q38c",
+ "label": "4Q38c",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 822,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q38c f1:1": {
+   "en": "To their gods, that even their sons and their daughters shall burn in the fire of their gods.",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged initial character and uncertain object markers. The translation preserves recoverable syntax and participants but omits unsupported connectors. Uncertainty in the object markers is not reflected in the translation to avoid speculative English.",
+   "line_id": 43626,
+   "source_hash": "07a1587771dbc848da940c9b598e7256eae39b5a6ebc251aa0fdf984fd1f07b8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38c f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of two untranslatable characters (ε), with no recoverable lexical content.",
+   "line_id": 43627,
+   "source_hash": "a2b854acb1518a173d1f5b46bf6b77cfae521e515f478f769f519c5bddcc4a1d",
+   "source_condition": "clean"
+  },
+  "4Q38c f1:3": {
+   "en": "and come the sign and the sign which he has spoken to",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'which he has spoken to' is supported by repeated phrase evidence. Other uncertain characters and reconstructions are omitted from the translation.",
+   "line_id": 43628,
+   "source_hash": "87f237b14fec73fd5d80b6175076c5ecbbcf63477f84782f7676d27b0b14f6d0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38c f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment with no clear meaning. The visible forms do not provide sufficient evidence for a defensible English translation.",
+   "line_id": 43629,
+   "source_hash": "268071fb0e596df67a13b521d7b5509eb81035a3cbe791a486ce2d0229c2a0a1",
+   "source_condition": "reconstructed"
+  },
+  "4Q38c f2:1": {
+   "en": "You shall bring out all the tithe of your produce in the third year that is and you shall place it within your gates and the Levite shall come because there is no [no recoverable text]",
+   "notes": "The initial ε is untranslatable and omitted. The phrase 'in the third year' reconstructs שנה ההיא with high-confidence evidence. The verb הנחת is translated as 'place' based on visible morphology. The final אין ] is incomplete and rendered as 'no' with uncertainty.",
+   "line_id": 43630,
+   "source_hash": "1249c5b7a027f94b8be9f38244ec2dcd8d442a849e15754e8341c214c50c7d90",
+   "source_condition": "reconstructed"
+  },
+  "4Q38c f2:2": {
+   "en": "to Helek and an inheritance with the sojourner and the orphan and the widow who are in your gates",
+   "notes": "The phrase 'an inheritance with' is supported by repeated phrase evidence. The word 'Helek' is a proper noun, likely a name, and is translated as such. The final word 'gates' is reconstructed and translated based on the provided lemma and gloss.",
+   "line_id": 43631,
+   "source_hash": "df2bee3270f47991960a5b94cfdedc189285ed39ef2805f55e698abdc51a1593",
+   "source_condition": "reconstructed"
+  }
+ }
+}

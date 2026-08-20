@@ -1,0 +1,88 @@
+{
+ "id": "4Q96",
+ "label": "4Q96",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 888,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q96 f1:1": {
+   "en": "Lord, wait, earth, and from the face of God, Jacob, the one who turns the rock, a pool of water, flint, to his well",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'a pool of water' is supported by repeated evidence. 'Jacob' is uncertain due to damage. The final phrase 'to his well' is uncertain due to damage and reconstruction.",
+   "line_id": 48465,
+   "source_hash": "fbfe5983b11b52a66a8602e2f9b7df931a189d8cf2ed06ed58f72488568c7b5b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q96 f1:2": {
+   "en": "Not to us, Yahweh, and not to us that to Shem give weight upon loyalty upon",
+   "notes": "The translation follows the recoverable text closely, preserving the repetition and structure. The phrase 'to Yahweh' is supported by repeated phrase evidence. The verb 'give' is an imperative. The final 'upon' particles are retained as per the source, with no added connectors.",
+   "line_id": 48466,
+   "source_hash": "f6a32b6d6648b0f1ab757b54ca4eb9ea6219439799bc30c1add67a55b0d9abc0",
+   "source_condition": "reconstructed"
+  },
+  "4Q96 f1:3": {
+   "en": "Trustworthiness. Why will they say the nations, Where are their gods? And our God in the heavens all that",
+   "notes": "Uncertain reconstruction of 'will they say' and 'nations'. Phrase evidence supports 'heavens all that' but with low confidence.",
+   "line_id": 48467,
+   "source_hash": "8ce41f3d481f1ee783e4d37add45053f5c74044ff74debb85c759bc920b383f0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q96 f1:4": {
+   "en": "He desired, he made images of the people, silver and gold, the work of human hands.",
+   "notes": "The transcription contains uncertain characters and reconstructions. The phrase 'the work of human hands' is supported by repeated phrase evidence. The verb 'desired' and 'made' are translated based on the visible morphology and lexical gloss. The term 'images' is a context-free gloss for 'עצבי'. The phrase 'of the people' is a reconstruction with uncertainty. The terms 'silver' and 'gold' are directly translated from the visible transcription.",
+   "line_id": 48468,
+   "source_hash": "eec308e7039da4c172c83d1d37d123bc197f49bcdaaa5794486f976560ed998a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q96 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only untranslatable fragments and punctuation.",
+   "line_id": 48469,
+   "source_hash": "fa51863299094c435406035e8485a9f9be8ac6fe1464a871a6a297b250682a15",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q96 f2:1": {
+   "en": "And grief I find. And in the name of Yahweh I will call, O Yahweh, he will save my soul. Gracious Yahweh and just.",
+   "notes": "The phrase 'in the name of Yahweh' is supported by repeated evidence. 'He will save my soul' is a contextual rendering of the verb and suffix, though the imperative form is uncertain. The final two adjectives describe Yahweh, but their connection is unclear due to damage.",
+   "line_id": 48470,
+   "source_hash": "c77f8f77c10ae513f2814ad85a13558e60e127eab06a2b2de39bb25128097c54",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q96 f2:2": {
+   "en": "And our God, have compassion. Keep the young men, YHWH, I have been belittled and to me may he help. Return my soul to my resting place.",
+   "notes": "The phrase 'to me may he help' is a high-confidence contextual rendering of the repeated phrase evidence at positions 10-11. The phrase 'return my soul' is a high-confidence contextual rendering of the repeated phrase evidence at positions 13-14. The term 'young men' is a context-free gloss for 'petaim' (position 6). The term 'resting place' is a context-free gloss for 'manoah' (position 16).",
+   "line_id": 48471,
+   "source_hash": "13793bb8c76927c542d274728cf34516fa7fa07d1b885f6994a1b08893ee17a9",
+   "source_condition": "reconstructed"
+  },
+  "4Q96 f2:3": {
+   "en": "For YHWH has also dealt fully with me, for you have drawn off my soul from death, my foot from stumbling, my eye",
+   "notes": "Reconstructed text in position 4. The phrase 'YHWH has also dealt fully with me' is supported by repeated phrase evidence, though the dominant contextual rendering differs slightly from the translation provided here.",
+   "line_id": 48472,
+   "source_hash": "91600952b0eef5297f887525ae75fe6134c0d21b07c168288f99561708452410",
+   "source_condition": "reconstructed"
+  },
+  "4Q96 f2:4": {
+   "en": "From a tear, I will go to the face of YHWH in the land of the living",
+   "notes": "The phrase 'to the face of YHWH' is supported by repeated phrase evidence. 'The land of the living' is a known phrase with moderate support. The verb 'go' is reconstructed but morphologically clear.",
+   "line_id": 48473,
+   "source_hash": "b7be887dfc6f0052c8d5699d6023fa1469c77af92f8d063577aa60478fd46918",
+   "source_condition": "reconstructed"
+  },
+  "4Q96 f2:5": {
+   "en": "I was firm that I would speak I answered mightily",
+   "notes": "The translation reflects the recoverable text with uncertainties due to damaged and reconstructed words. The phrase 'I I will answer' is supported by repeated evidence, but 'I answered' is chosen for consistency with the perfect tense of 'עניתי'. The particle 'מאוד' is translated as 'mightily' based on its context-free gloss. The unknown character 'ε' and the final punctuation mark are omitted from the translation.",
+   "line_id": 48474,
+   "source_hash": "7d4bd0ae8ed036e64077db273d201a69f299b5ca68cf1fb00ebaf26a730cda3e",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

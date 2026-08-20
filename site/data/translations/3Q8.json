@@ -1,0 +1,46 @@
+{
+ "id": "3Q8",
+ "label": "3Q8",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 81,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "3Q8 f1:1": {
+   "en": "blows",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation.",
+   "line_id": 4110,
+   "source_hash": "54e28d82d9bbc8906fe71b08cc2539b7c834bb0eb3de7522fa5f081bced3d03d",
+   "source_condition": "clean"
+  },
+  "3Q8 f1:2": {
+   "en": "his messenger of peace",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed word (שלו). The final mark (׃) is omitted as it has no direct English equivalent.",
+   "line_id": 4111,
+   "source_hash": "fc07f87429090b96be3534e09a8c0879a7bcbd17f8131ceaffebb2d83684d319",
+   "source_condition": "reconstructed"
+  },
+  "3Q8 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items translatable into English. The visible forms are either incomplete, reconstructed, or lack trusted glosses.",
+   "line_id": 4112,
+   "source_hash": "fe8e071fd3ff710ede3184064b0a1d87cb573b84f5daea76c2891332bf51e449",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q8 f2:2": {
+   "en": "and it was melted",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The translation reflects only the recoverable words 'and' (ו) and 'melted' (נמס). Other elements are too damaged to translate confidently.",
+   "line_id": 4113,
+   "source_hash": "a21f94bf00333918e4936891e31ece3795e0757069cc485c0a4351e4859eff17",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

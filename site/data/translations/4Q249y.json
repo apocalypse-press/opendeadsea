@@ -1,0 +1,53 @@
+{
+ "id": "4Q249y",
+ "label": "4Q249y",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 198,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q249y f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 8863,
+   "source_hash": "33068a6f19beabedbd55de4757954b57c07cea1c8576677b7f7b026c7db1c016",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249y f1:2": {
+   "en": "and",
+   "notes": "The transcription contains multiple untranslatable characters and a reconstructed fragment. Only the conjunction 'and' is recoverable with certainty.",
+   "line_id": 8864,
+   "source_hash": "82cffd1a623f0d5fba76c8630fb59a9c9be0eab97ecc1cb13070ad6d9cb253db",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249y f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable characters (ε] # [ε) with no recoverable lexical content. The reconstructed and uncertain elements do not provide sufficient evidence for translation.",
+   "line_id": 8865,
+   "source_hash": "eb5e36df9ac5ef3904825f619cb96aa9939739197c9a86a0305d77bed929c600",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249y f2:1": {
+   "en": "to me",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The remaining text is a suffix meaning 'to' in the first person singular.",
+   "line_id": 8866,
+   "source_hash": "4cbb4c1f24512e77ee6fa5da09a9c6474673713986dc37262d9e9a073232413e",
+   "source_condition": "clean"
+  },
+  "4Q249y f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a Greek letter epsilon (ε), a damaged Hebrew letter mem (]מ), and a Hebrew punctuation mark (׃). No defensible English translation can be derived from these elements.",
+   "line_id": 8867,
+   "source_hash": "a2b3450bf1c8963d6884a57bec87d044c37e96ab314124a8eacf48d044cfe21f",
+   "source_condition": "clean"
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "4Q495",
+ "label": "4Q495",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 533,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q495 f1:1": {
+   "en": "And who as a people, Israel, whom you have chosen from all the people of the earth",
+   "notes": "The phrase 'who as a people, Israel' is a reconstruction based on repeated phrase evidence. The verb 'choose' is translated based on the context-free lexical gloss, but its exact sense is uncertain. The preposition 'from' is added to connect 'all the people of the earth' to the main clause, but its presence is not explicitly licensed by the source text.",
+   "line_id": 23441,
+   "source_hash": "3e3583de8eb46691c3fb8df76472f94d14006d8bfa4d37e622864603c22f1969",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q495 f1:2": {
+   "en": "Holy ones of the covenant and those who learn the portion",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged conjunction and an unclear final character (ε). The verb 'learn' is reconstructed and uncertain. The term 'portion' is a context-free gloss for 'חוק', which may have a more specific sense here.",
+   "line_id": 23442,
+   "source_hash": "4010a7bbe5710d9b5f15d1815b727ad8c2bd4016ad08e03efa0b246431a9c71d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q495 f2:1": {
+   "en": "You created a god to the people of antiquity and in the lot of light you caused to fall to trustworthiness. And a chief of the lamp from then",
+   "notes": "Uncertain reconstruction of 'god' (position 2). Phrase 'a people of antiquity' supported by repeated evidence (positions 5-6). 'You will cut [it] down for' is a possible rendering of positions 3-4, but 'created' is chosen for coherence. 'Chief of the lamp' is a literal translation of positions 16-17, but its meaning is unclear.",
+   "line_id": 23443,
+   "source_hash": "478d26103aa46e242ed36d24f7eb51aada7d3e1eda35972625703a4e34ffb693",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q495 f2:2": {
+   "en": "You missed to help us and in his lot messengers of justice and every wind of trustworthiness in his dominion",
+   "notes": "Uncertainty in 'missed' (פ#קדתה) and 'help' (ע#זר׳נו); reconstructed 'and' ([ ו]); phrase 'every wind' supported by repeated evidence.",
+   "line_id": 23444,
+   "source_hash": "e874488e919fba9974aff0fc307c0f2a902f53c77357c76e4a08b79ad6c75fe6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q495 f2:3": {
+   "en": "And you have made wickedness to the pit, a messenger of animosity, and in darkness his dominion, and every wind his lot.",
+   "notes": "Reconstructed verb 'עשיתה' (position 3) is uncertain. Phrase evidence suggests 'you [are] doing' for positions 2-3, but visible morphology is binding. Uncertainty in translation due to damaged text and reconstruction.",
+   "line_id": 23445,
+   "source_hash": "72e9f7d655491db9cc0575e2a68fc9fa9e13f7c198ca1cda9a15e0a0ec7dce13",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q495 f2:4": {
+   "en": "Messengers of a cord in portions of darkness walk and to their impulse gathering",
+   "notes": "Uncertain reconstruction of 'cord' (ח##[ בל). Unclear meaning of final 'ε' and '׃'.",
+   "line_id": 23446,
+   "source_hash": "384585ec7ee56cc784864078f9ea9368dff9234e99bb9edd9576e5d0bed31fbd",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

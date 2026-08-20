@@ -1,0 +1,81 @@
+{
+ "id": "4Q63",
+ "label": "4Q63",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 851,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q63 f1:1": {
+   "en": "The vision of Isaiah the son of Amoz, which he saw upon Judah and Jerusalem",
+   "notes": "The phrase 'the vision of Isaiah the son of Amoz' is supported by repeated evidence and semantic constraints. The relative particle 'which' is required by constraints to link the vision to what Isaiah saw. The prepositional phrase 'upon Judah and Jerusalem' is mandated by semantic roles and named entity constraints.",
+   "line_id": 46344,
+   "source_hash": "9df3d31c5e820a15877008151fbada0e9a6f7db78c01ec216cab2bc4f8791a42",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q63 f1:2": {
+   "en": "In the days of Uzziah, Jotham, Ahaz, Hezekiah, the kings of Judah, hear",
+   "notes": "The transcription contains damage and reconstruction, particularly in the name 'Uzziah'. The phrase 'the kings of Judah' is supported by repeated evidence but with lower confidence than other constraints.",
+   "line_id": 46345,
+   "source_hash": "012857be7866cf7f4d6a0c31290afe4a7dccc15e8873553be3b4c87409e75d8e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q63 f1:3": {
+   "en": "Heavens and give ear, earth, that Yahweh he has spoken sons I have brought up and I have raised",
+   "notes": "The verb at position 3 is reconstructed and uncertain. The phrase 'sons I have brought up' is a required contextual sense, but its support is moderate.",
+   "line_id": 46346,
+   "source_hash": "7e00bee280f711167158312269e1bc655b9292db540ca01abc0acd15b0ef8a46",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q63 f1:4": {
+   "en": "And they have rebelled against it knows an ox its owner and a donkey the feeding trough its owner(s)",
+   "notes": "The verb 'rebel' is reconstructed and uncertain. The phrase 'they have transgressed against' is a high-confidence semantic constraint, but the visible morphology and transcription are prioritized. The translation preserves the grammatical person, number, and semantic relationships as per the evidence.",
+   "line_id": 46347,
+   "source_hash": "d15eabf1cb16b2e36229b31fb1c3c8f6148f58bc434a4b1ec2c053236ac574ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q63 f1:5": {
+   "en": "And Israel not it knows my people not it considers carefully Alas a nation which sins a people heavy",
+   "notes": "The translation follows the visible transcription and morphology, with uncertainty in the reconstruction of 'י#?[ דע' and its contextual sense. The phrase evidence and semantic constraints guide the rendering of repeated phrases and contextual senses, respectively. The translation preserves grammatical person, number, and semantic relationships, with natural synonyms used where necessary.",
+   "line_id": 46348,
+   "source_hash": "75853eb1be6a14660a2f9d093030e09738c260b394a16e0f1dbc61e0a1b3dee4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q63 f1:6": {
+   "en": "Offspring of evil-doers, children who behave corruptly, they have forsaken (et) Yahweh, they have spurned him",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 46349,
+   "source_hash": "ca42f0f2b96bef53a08fba1bdbbb8f69cc6226e5cbea3534e7516967a12e4e57",
+   "source_condition": "reconstructed"
+  },
+  "4Q63 f1:7": {
+   "en": "(et) the holy [one] of Israel they have become estranged back part concerning what? will you be struck again will you increase?",
+   "notes": "Uncertain reconstruction and damage in the source text affect the translation's fluency. The phrase '(et) the holy [one] of Israel' is a contextual rendering supported by phrase evidence. The verb 'they have become estranged' is a required contextual sense for 'נזרו'. 'Back part' is a required sense for 'אחור'. 'Concerning what? will you be struck again will you increase?' is a combination of required contextual senses and phrase evidence.",
+   "line_id": 46350,
+   "source_hash": "71c44c2c1edc650eb634938926b3892e27ecea7473b35f072542e76f79fd1838",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q63 f1:8": {
+   "en": "All the head is for sickness and all the heart is faint, from the sole of the foot to the head",
+   "notes": "The translation follows the required contextual senses and high-confidence constraints. The phrase 'all heart' is supported by repeated phrase evidence. The prepositional phrase 'from the sole of the foot to the head' is licensed by the recoverable source tokens and constraints. Uncertainty in the reconstruction of 'sickness' is noted but does not affect the translation as it is supported by advisory contextual sense.",
+   "line_id": 46351,
+   "source_hash": "6eab20a2c2da0bfa627fd8799414c8d162d277f8dee501eb1010af17ab93293c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q63 f1:9": {
+   "en": "There is not in its soundness a bruise and welt and fresh wound not squeezed and not they have been bound up",
+   "notes": "Uncertain reconstruction and gloss for positions 3 and 4. Position 11 has no licensed translation.",
+   "line_id": 46352,
+   "source_hash": "cc19aaec790f73bc13af5201fa615a30f235f6a4be94822f309150560e7acd22",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

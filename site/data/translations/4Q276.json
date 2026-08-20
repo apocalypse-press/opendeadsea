@@ -1,0 +1,81 @@
+{
+ "id": "4Q276",
+ "label": "4Q276",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 239,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q276 f1:1": {
+   "en": "garments which he did not serve in holiness",
+   "notes": "Uncertain due to damaged text and ambiguous lexical items.",
+   "line_id": 11363,
+   "source_hash": "7b2e2fb9e0240dd609ecd11011e2ac9f3100143fad54965a53e0fbf81fd3e0ea",
+   "source_condition": "uncertain"
+  },
+  "4Q276 f1:2": {
+   "en": "And he was guilty of the garments and slaughtered",
+   "notes": "The transcription contains an uncertain character at the beginning (ε) and a damaged verb (שח##[ ט), which is reconstructed as 'slaughtered' based on the lemma 'שׁחט_1'. The object marker 'את' is repeated, but its second occurrence is not reflected in the translation due to lack of clear context.",
+   "line_id": 11364,
+   "source_hash": "0a3d781520fe4c4889de80afce1375ab1f3a616332d2e2048bb1c2d7c4b2482f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q276 f1:3": {
+   "en": "the cow to his face and he took the blood in a vessel of earthenware which",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 6, and 12. Contextual phrases 'blood in all', 'in a vessel of earthenware', and 'a vessel of earthenware which' supported by repeated evidence.",
+   "line_id": 11365,
+   "source_hash": "d0e74558906e5c39763f459d8c772a0d77652fcbd21b1676111b16b6858940b0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q276 f1:4": {
+   "en": "He was holy in the altar. And it spattered some of the blood with finger seven.",
+   "notes": "Uncertain reconstruction of 'finger' and 'seven'; possible damage to the text.",
+   "line_id": 11366,
+   "source_hash": "6f16a3c725b40dc4d925c8e36323315c8e137fa13ebb735e9be38789a2db547c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q276 f1:5": {
+   "en": "[feet] to the straightness of the tent of meeting. And he threw the cedar",
+   "notes": "Reconstructed and uncertain text includes 'feet' (position 1), 'to' (position 2), 'straightness' (position 3), 'tent' (position 4), 'the' (position 10). Phrase evidence supports 'the tent of meeting' (positions 4-5).",
+   "line_id": 11367,
+   "source_hash": "04a5251fc1c8f2b6a99077f313eebfad17839a62a41f32b79b8bdd56c2827690",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q276 f1:6": {
+   "en": "And the hyssop and the scarlet worm to the midst of its burning",
+   "notes": "Uncertainty in the transcription and reconstruction of the text, particularly around the word 'Tola/scarlet worm' and 'midst'.",
+   "line_id": 11368,
+   "source_hash": "837cdecf1a30441cc186a16373daaecd611c80593deb80ba67f53298371f08e7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q276 f1:7": {
+   "en": "and he gathered the dust of the heifer",
+   "notes": "The phrase 'the dust of the heifer' is supported by repeated phrase evidence. The verb 'gather' is uncertain due to damage in the transcription.",
+   "line_id": 11369,
+   "source_hash": "e8159e11fc005a7177242b44bf49a26638cec394d7bc7a945f20ceb5fb01cac4",
+   "source_condition": "uncertain"
+  },
+  "4Q276 f1:8": {
+   "en": "and they settled to the guard-post",
+   "notes": "Uncertainty in the transcription and lemma of the third word.",
+   "line_id": 11370,
+   "source_hash": "646c885f2cedad56a7b7db147de4d17cd1c4cffc31d7a5aba950f86f7382e84a",
+   "source_condition": "uncertain"
+  },
+  "4Q276 f1:9": {
+   "en": "and he wore the priest",
+   "notes": "Uncertainty in transcription and gloss for 'ε' and 'כוהן#?'. Surviving source characters do not form a complete sentence.",
+   "line_id": 11371,
+   "source_hash": "6861e72fdb8091dc31c5d0485612ca14b77dd2ac2c9d55d76d02d31eec6cec16",
+   "source_condition": "uncertain"
+  }
+ }
+}

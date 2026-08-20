@@ -1,0 +1,186 @@
+{
+ "id": "4Q44",
+ "label": "4Q44",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 24,
+ "scroll_id": 829,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q44 f1:1": {
+   "en": "For the portion Yahweh with Jacob is the heritage",
+   "notes": "Reconstructed text in position 1. Phrase evidence supports 'Yahweh with Jacob' and 'the portion your inheritance', but 'heritage' is used for the final term to maintain consistency with the provided gloss.",
+   "line_id": 43794,
+   "source_hash": "cdab0c724cedd74050c54124d2be15bb5a22e0e18e3de6e68ec4b5112fd589ca",
+   "source_condition": "reconstructed"
+  },
+  "4Q44 f1:2": {
+   "en": "He will find it in a land of wilderness and emptiness, a howling waste.",
+   "notes": "The phrase 'in a land of wilderness' is supported by repeated phrase evidence. The final word is uncertain due to damage in the source text.",
+   "line_id": 43795,
+   "source_hash": "97450d66cf6d7394d87c03304f7313657e278f2be7a2eb91e4d7c8c27b5672cd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f2_5i:1": {
+   "en": "And he said, Yahweh, where are your gods?",
+   "notes": "The transcription is partially damaged, with reconstructions and uncertainty. The phrase 'he says Yahweh' is supported by repeated evidence, but the overall sentence structure is uncertain due to missing text.",
+   "line_id": 43796,
+   "source_hash": "8c2b3770f65e99b3bd13932426fc7001f02594fbb39e5907fc649fdb213d8c3d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f2_5i:2": {
+   "en": "who sought refuge in",
+   "notes": "Translation based on recoverable words with high-confidence phrase evidence. Uncertain characters and reconstructions are omitted. The phrase 'who] take refuge in' is supported by repeated evidence, guiding the translation of 'חסיו ב׳ו'.",
+   "line_id": 43797,
+   "source_hash": "7ab0450a1eef8cd7758b942c14f8b7d1e96d98973a50b955b119eabe4eb1fe33",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f2_5i:3": {
+   "en": "which began with the fat of their sacrifices they will eat",
+   "notes": "Reconstructed and uncertain elements include the relative pronoun 'which' and the phrase 'the fat of their sacrifices'. The verb 'will eat' is certain.",
+   "line_id": 43798,
+   "source_hash": "bef53bae5152f34695a4968857c9a13fcb3e9f04c3356abd5f657b550d92dd5a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f2_5i:4": {
+   "en": "They drink wine of their leader",
+   "notes": "The phrase 'drinking wine' is supported by repeated evidence. 'Leader' is chosen over 'libation' based on contextual sense.",
+   "line_id": 43799,
+   "source_hash": "c9788ee4f12558c0f6f47de45cfae145b22501a07a8be2b13d1d539adc29457d",
+   "source_condition": "reconstructed"
+  },
+  "4Q44 f2_5i:5": {
+   "en": "They will arise and help you, may he be upon you a hiding place",
+   "notes": "Uncertainty in the transcription of 'י?עז?ר׳כם' is not reflected in the translation. The phrase 'יהי עליכם' is translated based on repeated phrase evidence 'Yahweh on', but 'Yahweh' is not explicitly present in the source text.",
+   "line_id": 43800,
+   "source_hash": "c07e38e053af0e84d453157ede4f14b464d3fca00ac9ceb19705960883dc7c56",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f2_5i:6": {
+   "en": "See now that I I he and there is no god with",
+   "notes": "Uncertain reconstruction and gloss for 'אני?' and 'א##[ ני'. Phrase evidence supports 'I I' and 'I [am] he', but the latter is not fully recoverable. 'עמד׳י' translated as 'with' based on lexical gloss and phrase evidence.",
+   "line_id": 43801,
+   "source_hash": "2ee356dec13ef83994212b47db735468f4d97042dd95f4070bf1163c5814f84f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f2_5i:7": {
+   "en": "I I put to death and I live I crushed and I I heal",
+   "notes": "The repeated 'I' is preserved as per the source. The phrase 'I I put to death' and 'I I heal' are based on repeated phrase evidence. The translation conservatively follows the order and content of the recoverable text.",
+   "line_id": 43802,
+   "source_hash": "6925db23bf198ed6060e39218f88aab8f40c96ada1f5c1d95b877a59f7c3427b",
+   "source_condition": "reconstructed"
+  },
+  "4Q44 f2_5i:8": {
+   "en": "And there is no deliverer from her hand, for I lift up to the heavens her hand",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'מצי#?[ ל' is reconstructed as 'deliverer' based on context, but its exact meaning is uncertain. The particle '׃' is omitted as its meaning is unclear. The verb 'א ]ש##א' is reconstructed as 'I lift up' with uncertainty. The preposition 'אל##[' is reconstructed as 'to' with uncertainty. The final 'י ]ד##׳י' is translated as 'her hand' with uncertainty due to damage.",
+   "line_id": 43803,
+   "source_hash": "4844c1f120befd036e8f33da39c2467f5288312f39f3e47d02f9f526314bd610",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f2_5i:9": {
+   "en": "And I said, 'I am alive forever.'",
+   "notes": "The transcription is partially reconstructed, with uncertainty around the pronoun 'I' (position 4). The phrase 'he said [by] the life' is supported by repeated evidence, but the translation retains the first-person perspective from the visible morphology.",
+   "line_id": 43804,
+   "source_hash": "b9c635b24f4f5d6ceb9bbe745bb85ce2dd955fb4bd431b1551f747e925e3cf42",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f2_5i:10": {
+   "en": "If I repeated in lightning, my dagger",
+   "notes": "The transcription is heavily damaged, with two reconstructed words and three uncertain words. The translation reflects the recoverable lexical items in order, but the exact relationships between the words remain unclear.",
+   "line_id": 43805,
+   "source_hash": "82f35d97490e3e102593d4ebbd68bdbb441c931b67d38f5687724372716fc448",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f2_5i:11": {
+   "en": "And she will seize in justice, my hand will return vengeance to my adversaries",
+   "notes": "The text is heavily damaged with reconstructions and uncertainties. The phrase 'my hand' is a reconstruction of 'יד##׳[ י ]'. 'Vengeance' is uncertain due to damage in 'נ?ק#[ ם]'. The preposition 'to' is uncertain due to damage in ']ל##'. 'Adversaries' is uncertain due to damage in 'צ#ר׳י'.",
+   "line_id": 43806,
+   "source_hash": "c4306b31ff6c6bc4224b7d168049b0b7bb104f40bd51ed5a96a23eafb927aaea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f5ii:1": {
+   "en": "and to those hating I will be complete",
+   "notes": "The transcription is partially reconstructed, with the first letter of the first word restored. The final mark is untranslatable and omitted.",
+   "line_id": 43807,
+   "source_hash": "b682810d03b1d7360a11ad5822f50ae93590e6056436e5c37f40252d7c306d44",
+   "source_condition": "reconstructed"
+  },
+  "4Q44 f5ii:2": {
+   "en": "I am making drunk the arrows from blood",
+   "notes": "The verb 'be drunk' is reconstructed and in the first-person singular imperfect tense. 'Arrows' is a masculine plural suffix form, and 'blood' is a singular masculine noun.",
+   "line_id": 43808,
+   "source_hash": "7e190dc27aa6851663e8eba9edcc97afe6a850f063c6016ff3f7af566fae5fe3",
+   "source_condition": "reconstructed"
+  },
+  "4Q44 f5ii:3": {
+   "en": "and a dagger will eat flesh",
+   "notes": "Uncertainty in the verb form due to damage; phrase evidence suggests 'will eat' but the exact form is unclear.",
+   "line_id": 43809,
+   "source_hash": "6517aa2094746520f231615b60f71c9ec4f4a12820b9b79c9d483aebeb70ce4a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f5ii:4": {
+   "en": "from the blood of the pierced and captives",
+   "notes": "The phrase 'blood of the pierced' is supported by repeated phrase evidence. The conjunction 'and' is implied by the visible morphology of the transcription.",
+   "line_id": 43810,
+   "source_hash": "7aa0d650355ad92ac5ffc89a605cda8259120dfc73af85ffd3c021cab7ac0910",
+   "source_condition": "reconstructed"
+  },
+  "4Q44 f5ii:5": {
+   "en": "and from the head of the loose hair of Job",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed words. The translation reflects the recoverable lexical items in order, but the exact meaning remains uncertain due to the fragmentary state of the text.",
+   "line_id": 43811,
+   "source_hash": "071303f59c5da569b3eaffc478a82ea93fe3293b64ac127e1ccdd62ec6290489",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q44 f5ii:6": {
+   "en": "Shout for joy, O heavens, with him",
+   "notes": "",
+   "line_id": 43812,
+   "source_hash": "42422fe6555513278f661826f07544eb44253e9933d6c254cc8ff11fbe20220c",
+   "source_condition": "clean"
+  },
+  "4Q44 f5ii:7": {
+   "en": "And bow down to all the gods",
+   "notes": "The phrase 'he bowed down to all' is supported by repeated evidence, but the visible morphology indicates a plural imperative verb, so 'bow down' is used instead. The phrase 'all the gods' is also supported by repeated evidence.",
+   "line_id": 43813,
+   "source_hash": "5e35dee41e8ee322a39354f33b78bedc1a7d5842e78a56f97836794ef5e30b37",
+   "source_condition": "clean"
+  },
+  "4Q44 f5ii:8": {
+   "en": "that blood of his sons will avenge",
+   "notes": "The phrase 'blood between' is a repeated pattern, but the visible morphology and context support 'blood of his sons' directly. No uncertainty or lacunae present.",
+   "line_id": 43814,
+   "source_hash": "fdc597882c88060b4dfb25fb84dc3d14570f521f50702e307ebe4f884edb5edf",
+   "source_condition": "clean"
+  },
+  "4Q44 f5ii:9": {
+   "en": "And vengeance will return to his adversaries",
+   "notes": "",
+   "line_id": 43815,
+   "source_hash": "b0c152931da3e478301f601e69a033f98d9a598953ce8d765789ef936d5accaa",
+   "source_condition": "clean"
+  },
+  "4Q44 f5ii:10": {
+   "en": "and to his haters he will repay",
+   "notes": "",
+   "line_id": 43816,
+   "source_hash": "de81754bc6a519682efe9edadac2ed2577ce2356068eb66ad24e65ba76fa9383",
+   "source_condition": "clean"
+  },
+  "4Q44 f5ii:11": {
+   "en": "And he will cover the soil of his people.",
+   "notes": "",
+   "line_id": 43817,
+   "source_hash": "a8c4b588d7e698cdcb8dc8123f1f3c0a754323afa54627b21b743d21f4d2fd5a",
+   "source_condition": "clean"
+  }
+ }
+}

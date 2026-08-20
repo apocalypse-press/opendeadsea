@@ -1,0 +1,88 @@
+{
+ "id": "4Q254a",
+ "label": "4Q254a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 216,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q254a f1_2:1": {
+   "en": "the dove",
+   "notes": "Uncertain characters and reconstructions are not translated. The final punctuation mark and other untranslatable characters are omitted.",
+   "line_id": 9577,
+   "source_hash": "25818c06f37e5146cdb603edb075b65505fddfae981acec3fe5f63017fb7b7b4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q254a f1_2:2": {
+   "en": "And this account of the deed of the ark, three hundred cubits the length of the ark, and fifty cubits",
+   "notes": "The translation incorporates repeated phrase evidence for 'three hundred cubits the length of'. Uncertainty in the transcription is not reflected in the translation per instructions.",
+   "line_id": 9578,
+   "source_hash": "eb0c7160fbda8a4e0757a826499f279e98a02023065b24b411cce45011b574a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q254a f1_2:3": {
+   "en": "its breadth and thirty",
+   "notes": "The transcription is heavily damaged, with uncertain reconstructions and unknown characters. The translation reflects only the recoverable words: 'breadth' (רוחב׳ה), 'and' (ו), and 'thirty' (שלשים). The remaining elements are either uncertain or untranslatable.",
+   "line_id": 9579,
+   "source_hash": "7346fdba5368b8b9eefa7629d57146964c27d10d32dfbec7c302fb8ac61e3f9d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q254a f1_2:4": {
+   "en": "and the measured stretch of the ark",
+   "notes": "Uncertainty in the transcription and reconstruction of the source text, particularly in positions 2, 5, and 6, limits the confidence of this translation. The term 'measured stretch' is a tentative rendering of 'מ#ד#ת#', which is marked as uncertain. The final fragment '[ε]' and the preceding reconstructed characters are omitted from the translation due to insufficient evidence for a defensible English rendering.",
+   "line_id": 9580,
+   "source_hash": "6458fbb4928b09996440ce790251f4db9d40d3d265e04e841f89407afd0c5880",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q254a f1_2:5": {
+   "en": "line to",
+   "notes": "Translation based on repeated phrase evidence for positions 1-2. Position 3 and 4 have no recoverable text.",
+   "line_id": 9581,
+   "source_hash": "702c936d574055b0097ac6b92a88da042667a6c4780690f9b3bb3b1464fe9c95",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q254a f3:1": {
+   "en": "on the seventeenth to the month",
+   "notes": "Uncertainty in the transcription of the word 'ש#בעה' is not reflected in the translation. The phrase 'on the seventeenth' is supported by repeated phrase evidence.",
+   "line_id": 9582,
+   "source_hash": "3baadbc97175759fca660162b01572d94d6604d0bb5e731ecfaabdaeb63e3e21",
+   "source_condition": "uncertain"
+  },
+  "4Q254a f3:2": {
+   "en": "Noah went out from the ark to the appointment of days",
+   "notes": "Uncertain transcription and damaged text result in potential ambiguity. The phrase 'day day' is supported by repeated evidence but its exact role is unclear.",
+   "line_id": 9583,
+   "source_hash": "09ba90746532c3e57bd303df8098e056eadcd34034d66054321681b536ddec37",
+   "source_condition": "uncertain"
+  },
+  "4Q254a f3:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' with no clear Hebrew or Aramaic context. No recoverable text can be defended.",
+   "line_id": 9584,
+   "source_hash": "51673763f07d3353bfa5e69ebd7a85e9001f2bb0f73ef4744a8f9c8d7a475fb4",
+   "source_condition": "clean"
+  },
+  "4Q254a f3:4": {
+   "en": "The raven and he went out and he returned to know to the generations the last ones",
+   "notes": "The transcription contains a reconstructed word ('א#[ חרונים') and an uncertain word ('עו ]רב'), which may affect the translation's accuracy. The phrase 'he will come out surely (come out)' is a repeated phrase evidence, but it is not directly applicable to the given context. The translation is based on the available lexical glosses and morphological information.",
+   "line_id": 9585,
+   "source_hash": "0ec4ccfd56bcf76afd4b66d6845ee9cb8bc600056b8e2e2ff1a6969264238459",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q254a f3:5": {
+   "en": "to the face that the raven goes out and he goes out and returns",
+   "notes": "Uncertain transcription and reconstruction in multiple positions. Phrase evidence suggests 'he will come out surely' for 'goes out', but visible morphology is binding. Omitted untranslatable fragments and surviving source characters.",
+   "line_id": 9586,
+   "source_hash": "a7213d51bd908428bd035d0effeb61791ebb0d557b4fd60b304d738099fb191d",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

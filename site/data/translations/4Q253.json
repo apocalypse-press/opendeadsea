@@ -1,0 +1,102 @@
+{
+ "id": "4Q253",
+ "label": "4Q253",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 12,
+ "scroll_id": 213,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q253 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content in Hebrew or Aramaic. All visible forms are either unknown or reconstructed with uncertainty.",
+   "line_id": 9491,
+   "source_hash": "282f263b80cdc234280bbb8e3dc0e4a45714ddcb539ab243c6bee93eea027e09",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q253 f1:2": {
+   "en": "Israel and",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an untranslatable character and a damaged conjunction. The final 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 9492,
+   "source_hash": "8876ee2c6dca48f8581e3eb9b0ffd1203162b49cd5ac9d57e6f2ea331b53466d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q253 f1:3": {
+   "en": "from the ark",
+   "notes": "The transcription includes untranslatable characters (ε) and a damaged word (תבה#[, reconstructed as 'ark' or 'chest'). The translation reflects the recoverable words 'from' (מן) and 'the' (ה) with 'ark' as the most likely reconstruction for תבה#[.",
+   "line_id": 9493,
+   "source_hash": "c6a974f6bf61409e4bca3dbf3068d26a180e92005ab40bcfbaf77054ccb447d3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q253 f1:4": {
+   "en": "to know to Noah",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The translation reflects only the recoverable words 'to know to Noah,' with significant uncertainty in the overall meaning due to missing and unclear text.",
+   "line_id": 9494,
+   "source_hash": "201d70ef48c1dc70d20f55af6d6840edd9f2e350725bbb83faf42e4c1e81259d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q253 f2:1": {
+   "en": "the uncleanness",
+   "notes": "The final characters 'ר##[ε' are uncertain and cannot be translated independently; they are omitted from the translation.",
+   "line_id": 9495,
+   "source_hash": "1807889b419480c0df25e2905776cd4649435e0209e5b026bb51fa5870d637c5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q253 f2:2": {
+   "en": "He was like",
+   "notes": "The first word is a reconstructed pronoun 'he' with uncertainty. The second word is a verb 'be like' in the perfect tense. The third character is untranslatable and omitted.",
+   "line_id": 9496,
+   "source_hash": "173f99ba5d4e15ece68759080eb5e522b98e216c62edc5449df3b209df974243",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q253 f2:3": {
+   "en": "Pure ones from the creation",
+   "notes": "The final character 'ε' is untranslatable and omitted. The word 'ברי?א##ה##[' is reconstructed and uncertain, translated as 'creation' based on the lexical gloss.",
+   "line_id": 9497,
+   "source_hash": "02afb3d8e12c33f99715d351843b20aed738e590ef2ae66536a37eb1a5dc95ca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q253 f2:4": {
+   "en": "a burnt offering to the pleasure as he took",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 9498,
+   "source_hash": "3f02d998b38ecf9c7c201bfcfc4816c922e9cde799626783e7550c08427e0a81",
+   "source_condition": "reconstructed"
+  },
+  "4Q253 f2:5": {
+   "en": "to the gate of the high place as which",
+   "notes": "The translation includes a reconstructed term ('which') due to damage in the source text. The phrase 'to the gate of' is supported by repeated phrase evidence, though 'for the gate of' has slightly higher canonical occurrence. The final term is uncertain due to damage and is reconstructed based on available evidence.",
+   "line_id": 9499,
+   "source_hash": "d0471d8065ef9e85c58b3006a34d780d42e9bdd1f71d5f5d3a24936a47923de0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q253 f3:1": {
+   "en": "the sea",
+   "notes": "Uncertain due to damaged and untranslatable characters (ε] #היםε). The translation retains only the recoverable words 'the' and 'sea'.",
+   "line_id": 9500,
+   "source_hash": "b0d3cfebb800e1001ba6f30d813427d23ce802c5e7bd7fcf7b6b90f46870da3a",
+   "source_condition": "uncertain"
+  },
+  "4Q253 f3:2": {
+   "en": "wickedness and as which",
+   "notes": "The transcription contains untranslatable characters and damage, with one reconstructed word. The translation reflects recoverable content, omitting uncertain elements.",
+   "line_id": 9501,
+   "source_hash": "4376382ce1123fbf3d73f65d08db82d4ba8c3742d8db7d6c8fc7f5922c89876a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q253 f3:3": {
+   "en": "he leaves the",
+   "notes": "Uncertain due to damaged transcription and ambiguous lexical items. The verb 'עזב' is translated as 'leaves' based on visible morphology, but the object marked by 'את' is incomplete. The characters 'ε' and '׃' are omitted from the translation as they cannot be independently translated.",
+   "line_id": 9502,
+   "source_hash": "484d282cb773064e8ec67cff6b57e85dfe218be2a3a1793eecd535143947e0ec",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

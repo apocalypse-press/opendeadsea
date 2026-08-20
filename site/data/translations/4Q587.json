@@ -1,0 +1,74 @@
+{
+ "id": "4Q587",
+ "label": "4Q587",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 629,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q587 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The line contains damaged and uncertain fragments with no defensible English translation. Visible forms include 'ε', 'א ]ח##י?׳ך' (possibly 'brother'), 'מרי' ('lord'), and reconstructed 'א##[' with unclear meaning. No coherent phrase or semantic constraint supports a translation.",
+   "line_id": 31952,
+   "source_hash": "2aa64c3dbd77fc9b329389d9e525294f90d7f62e315de44797d5744d4b774dbd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q587 f2:2": {
+   "en": "they sink and which",
+   "notes": "Uncertain characters and damage limit recovery. The initial 'ε' and final 'ε' are untranslatable. The damaged ']א##' is omitted. 'ו?' is translated as 'and' despite uncertainty. The relative particle 'די' is rendered as 'which' to maintain grammatical structure.",
+   "line_id": 31953,
+   "source_hash": "d483499695646407b37813db479fa2de55a8aab134c984d72a9d4d5d5bb2914d",
+   "source_condition": "uncertain"
+  },
+  "4Q587 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements with no clear lexical or semantic recoverability. The phrase evidence for 'to sleep' is unsupported by the visible morphology and transcription. No defensible English translation can be constructed from the surviving material.",
+   "line_id": 31954,
+   "source_hash": "ac963a6cf6939cba3a4f9c2f57946995896382027d44a60941f1dc1e714888ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q587 f1:1": {
+   "en": "to [no recoverable text]",
+   "notes": "The transcription is heavily damaged, with only the preposition 'to' (ל) clearly identifiable. The remaining characters are either incomplete or untranslatable. The '[no recoverable text]' placeholder indicates the absence of defensible English words for the damaged portions.",
+   "line_id": 31955,
+   "source_hash": "1c5e2700f232d23dbccdefa0300d38b516124b62916ab181ac5223a414501398",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q587 f1:2": {
+   "en": "who stumbled and will stumble",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a possible relative particle (ד##י) and two forms of the verb 'stumble' (כשלו, כש[ לון). The initial and final 'ε' are untranslatable and likely represent damage or editorial marks.",
+   "line_id": 31956,
+   "source_hash": "a963e16a4f33bfee525959959e1fe7e6c5f32c2d4a63f3265f3a255d833b6aec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q587 f1:3": {
+   "en": "He arose, the approach before",
+   "notes": "Uncertain transcription and reconstruction in positions 2 and 5. Position 1 and 6 contain untranslatable characters. Position 4 is a particle with no trusted gloss.",
+   "line_id": 31957,
+   "source_hash": "20bcc4ac9ff89a9b72044e33b62a0fac134449a413eb89928c08d0969567aced",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q587 f1:4": {
+   "en": "to be high",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation. The verb 'ארמא' is reconstructed as 'רום' (be high) in the infinitive construct form.",
+   "line_id": 31958,
+   "source_hash": "7dd6ae847a716ebba01486f94438562b03064579cb1cc0ca10ed2741bbc7d988",
+   "source_condition": "reconstructed"
+  },
+  "4Q587 f1:5": {
+   "en": "kind",
+   "notes": "Uncertain transcription and gloss; surviving lexical item 'מ#י?ן' tentatively translated as 'kind' based on lexical_gloss, but confidence is low due to damage and ambiguity.",
+   "line_id": 31959,
+   "source_hash": "73e2ae1bbf637bd9e5ada90e7ba36bc616cfde4fa53704fdb83acad5cc989edd",
+   "source_condition": "uncertain"
+  }
+ }
+}

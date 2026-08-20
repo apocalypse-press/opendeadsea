@@ -1,0 +1,81 @@
+{
+ "id": "4Q333",
+ "label": "4Q333",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 323,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q333 f1:1": {
+   "en": "twenty",
+   "notes": "The transcription includes uncertain and unknown elements, including a Greek letter (ε) and damaged Hebrew text. The only recoverable word is 'עשר#ים', glossed as 'twenty'. All other elements are omitted due to uncertainty or lack of translatable content.",
+   "line_id": 13885,
+   "source_hash": "75478154268d85fa1abda9ea97ab2dc6c14e797ffb46e58d6e04c3cbf9ea143b",
+   "source_condition": "uncertain"
+  },
+  "4Q333 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a Greek letter fragment (ε) and uncertain markers.",
+   "line_id": 13886,
+   "source_hash": "86f0d39d5d58af03f43b7b68412ec059b80bc33af36cbc50a2080a59a5fefaad",
+   "source_condition": "uncertain"
+  },
+  "4Q333 f1:3": {
+   "en": "in Ezekiel who he",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The transcription contains uncertain and damaged elements, particularly around 'י ]חזקא#ל#', which is tentatively translated as 'Ezekiel' based on the lemma. The relative particle 'ש' and the pronoun 'הוא' are translated directly.",
+   "line_id": 13887,
+   "source_hash": "2cf77c893cc3db212ab5cddf32d06a98d0a83df0bb05303ac6cde8bcbe68e0d3",
+   "source_condition": "uncertain"
+  },
+  "4Q333 f1:4": {
+   "en": "he killed Amelius",
+   "notes": "The transcription contains an uncertain character (ε) and a damaged verb form (ה#רג?). The name 'Amelius' is transliterated as given, with no clear meaning in Hebrew. The verb 'kill' is based on the lemma 'הרג' despite damage.",
+   "line_id": 13888,
+   "source_hash": "043657d855f6dadc4c95002e08122e976fe7573c7bfdc0ed17196e013015b03b",
+   "source_condition": "uncertain"
+  },
+  "4Q333 f1:5": {
+   "en": "in the seventh month",
+   "notes": "The initial character ε is untranslatable and omitted. The term 'ש#ביעי' is marked as uncertain in the source.",
+   "line_id": 13889,
+   "source_hash": "5641e4be696db0892d06a36ef7172512a89526ed56b3200acfde341c3ea5f3fa",
+   "source_condition": "uncertain"
+  },
+  "4Q333 f1:6": {
+   "en": "entrance Gamul",
+   "notes": "The first character 'ε' is untranslatable and omitted. The word 'ב ]י[ את ]' is reconstructed as 'entrance'. The word 'ג?מול' is uncertain but translated as 'Gamul' based on the lexical gloss.",
+   "line_id": 13890,
+   "source_hash": "8b1e388b6a782b1462531038c2c4785a4871f2a587f3a82d0c88a924408d53f7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q333 f1:7": {
+   "en": "who he",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The final character '#' is a source-script punctuation mark and omitted.",
+   "line_id": 13891,
+   "source_hash": "2d571f46f9b503339c8c2e17194536feb945161dc136d42f4f4a2e7480bd1477",
+   "source_condition": "uncertain"
+  },
+  "4Q333 f1:8": {
+   "en": "he killed Amelius",
+   "notes": "The transcription contains an uncertain verb form and an unknown character (ε). The name 'Amelius' is transliterated as no clear translation is available. The final punctuation mark is omitted as it has no clear English equivalent.",
+   "line_id": 13892,
+   "source_hash": "4bd40e7c71c812f3e744e6d41e051f3e8bc04b838b57acbee73b926cffca29ae",
+   "source_condition": "uncertain"
+  },
+  "4Q333 f2:1": {
+   "en": "a man a Jew",
+   "notes": "Uncertain reconstruction and transcription damage limit confidence in the exact phrasing. The phrase 'of the Jews' is a possible alternative based on repeated evidence, but 'a man a Jew' aligns with the visible morphology and lexical glosses.",
+   "line_id": 13893,
+   "source_hash": "50d8ee4dd7c6d156a965ad9cdb8f4a90c00d02758646c6eed737528c3e810dea",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

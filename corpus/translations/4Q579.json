@@ -1,0 +1,74 @@
+{
+ "id": "4Q579",
+ "label": "4Q579",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 621,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q579 f1:1": {
+   "en": "in all the work",
+   "notes": "Translation based on high-confidence phrase evidence for positions 2-4. Uncertain and reconstructed elements noted but not bracketed in translation. Unrecoverable characters omitted.",
+   "line_id": 31643,
+   "source_hash": "efade73b97c9aafc9b667728e13b7d55004dbe60fc5fabbfd9d61c6103d683de",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q579 f1:2": {
+   "en": "whole messengers and",
+   "notes": "Uncertain transcription and reconstruction throughout. The translation reflects recoverable elements only, omitting untranslatable characters and damaged syntax.",
+   "line_id": 31644,
+   "source_hash": "ee02b3441b38ccd5c504f1b96cf4a6decd56f6803d9e4f6e826f478e76a297fb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q579 f1:3": {
+   "en": "to be for those who know Meshech",
+   "notes": "The transcription contains uncertain and damaged elements, including the forms 'ε' and 'י#?ד##ו#?ע##ים'. The translation reflects the recoverable lexical items, but the exact meaning remains uncertain due to the damaged state of the text.",
+   "line_id": 31645,
+   "source_hash": "6b51240e63f6970e86d06a6833c99b0c4f9dc26b2743e5e391ceaa4c4f5f113a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q579 f1:4": {
+   "en": "The primeval ocean totters",
+   "notes": "Uncertainty in transcription and reconstruction affects the translation's confidence. The verb 'totter' is based on the lemma 'מוט' but its form is uncertain. The initial and final characters are untranslatable and omitted.",
+   "line_id": 31646,
+   "source_hash": "fc0b25b66d82336956993ef1f66eece9bce8268429983b820e311bb1bbc74bf4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q579 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The repeated 'ל' characters are reconstructed and uncertain, with no clear contextual sense. The 'ε' and '׃' characters offer no translatable content. Phrase evidence and semantic constraints do not provide sufficient context for a meaningful translation.",
+   "line_id": 31647,
+   "source_hash": "9583d69c7ce770ef395a968d426c665282076d71f5a61ff4526b4d821223dbf8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q579 f2:1": {
+   "en": "and you",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters (ε, ]ם##) and a reconstructed separator (#  # [). The translation reflects only the recoverable words 'and' (ו) and 'you' (אתם).",
+   "line_id": 31648,
+   "source_hash": "b6c7f0a3bf776f96e83fde29eac7262b48b6dbc0b91408ade13104b484cdf2d7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q579 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only damaged or untranslatable fragments.",
+   "line_id": 31649,
+   "source_hash": "0d57c6cb132e16149e2e2b5494f2b39859dfd14ea9471f84f6581f5d277d2af9",
+   "source_condition": "uncertain"
+  },
+  "4Q579 f3:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible characters do not form recoverable lexical units.",
+   "line_id": 31650,
+   "source_hash": "013207384932d7cb4f77ba6b60c906ec4b344147f8679be607e776a188a8411c",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

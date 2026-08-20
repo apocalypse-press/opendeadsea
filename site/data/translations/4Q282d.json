@@ -1,0 +1,39 @@
+{
+ "id": "4Q282d",
+ "label": "4Q282d",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 253,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q282d f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation.",
+   "line_id": 11476,
+   "source_hash": "cb24f1a0658954c67db22e829bc377738a014db548a3faf812154b598d0c2a95",
+   "source_condition": "uncertain"
+  },
+  "4Q282d f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too damaged to interpret.",
+   "line_id": 11477,
+   "source_hash": "7392470f9ed7a0667eac371882605bc931a0c82b24640e6febb82fe1a6efd650",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q282d f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible characters do not form recoverable lexical units.",
+   "line_id": 11478,
+   "source_hash": "08164da9ff8258744c6a473ea5fb0d9993199f0a0983878bc0625e69afdb9120",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

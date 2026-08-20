@@ -1,0 +1,60 @@
+{
+ "id": "4Q494",
+ "label": "4Q494",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 532,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q494 f1:1": {
+   "en": "the heads of the rods",
+   "notes": "Reconstructed and uncertain elements include the transcription and morphology of 'heads' and 'rods'. The final characters are untranslatable and omitted.",
+   "line_id": 23435,
+   "source_hash": "7700eb528d9a8d2c11932224674a342d4167f52eb6c70050207b38c9fc3851a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q494 f1:2": {
+   "en": "And the priests and the Levites and the heads of the tribes and the fathers of the congregation",
+   "notes": "Uncertainty in transcription at position 9 (ה##) and an unknown character at position 15 (ε).",
+   "line_id": 23436,
+   "source_hash": "950eed6ac70e70df19afb793fda6fedbf36454e37756b9e8fd0ea7886e78b700",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q494 f1:3": {
+   "en": "The priests and thus to the Levites. And guard-posts of the heads of the fathers of the gathering two and fifty. And the heads of the priests they will rule after",
+   "notes": "The phrase 'the heads of the fathers of' is supported by repeated phrase evidence. The verb 'יסרוכו' is translated based on its morphology and lexical gloss, but its exact meaning in this context is uncertain. The number 'חמשים' is translated as 'fifty' based on its morphology, but its exact meaning is unclear.",
+   "line_id": 23437,
+   "source_hash": "c316036a83b69ae6efe4d8dc84a681299df23800d8a89bc0ebc135ba0d246692",
+   "source_condition": "reconstructed"
+  },
+  "4Q494 f1:4": {
+   "en": "The priest of the head and the second of the heads, two plus ten, to be serving in continuity before God, and the heads of the guard-posts, six",
+   "notes": "Uncertain reconstruction of 'heads' (position 6).",
+   "line_id": 23438,
+   "source_hash": "e6590303e0d0379aebe5e081f9294e06db51239561e4f2021dcca3051763c295",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q494 f1:5": {
+   "en": "And twenty in their guard-posts serve, and after them the leaders of the Levites to serve continually, two plus ten, one to a tribe.",
+   "notes": "Uncertain elements include the suffix on 'guard-posts' and the verb 'serve' in the first clause. The phrase 'two plus ten' is a supported rendering of the numerical sequence. The final clause 'one to a tribe' is a conservative interpretation of the surviving text.",
+   "line_id": 23439,
+   "source_hash": "8b682d30209d92d2b42891d0ed84298ff09d7dc2269dc9213c65e2033e2a8bbe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q494 f1:6": {
+   "en": "And after their heads, the rods and the fathers of the congregation to stand continually in the gates of the sanctuary",
+   "notes": "The phrase 'after their heads' is uncertain due to damage. The term 'rods' is a context-free gloss for 'shevet'. The final characters 'ε׃' are untranslatable and omitted.",
+   "line_id": 23440,
+   "source_hash": "deb3464750f1cd162ca1cfe7ae3a2c5b542d07db6a8151f70afb917b2033876b",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "4Q456",
+ "label": "4Q456",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 454,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q456 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable Greek and Hebrew fragments with high uncertainty. The verb 'נגדל' is reconstructed and uncertain, with no contextual evidence to support its translation. All other elements are either unknown or damaged beyond recovery.",
+   "line_id": 22159,
+   "source_hash": "f1d09febc99c35ce354831dc3d02d12d001e1de7b51d77cdbc6f86ead6a70461",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q456 f1:2": {
+   "en": "praise Yahweh",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The phrase 'praise Yahweh' is supported by repeated phrase evidence.",
+   "line_id": 22160,
+   "source_hash": "bf58480572dd43282c205faf44607589b7a041dedb3872b8f0faf1fccb204cf6",
+   "source_condition": "clean"
+  },
+  "4Q456 f1:3": {
+   "en": "the answers which",
+   "notes": "The first character 'ε' is untranslatable and omitted. The particle 'ה#' is uncertain but translated as 'the'. The word 'מ#ענות##' is uncertain but translated as 'answers'. The relative particle 'אשר' is translated as 'which'.",
+   "line_id": 22161,
+   "source_hash": "bb220fb5616d9e3d54b0f87456df3874ce26a983251d97baefa54658fd8bab0d",
+   "source_condition": "uncertain"
+  },
+  "4Q456 f1:4": {
+   "en": "whole",
+   "notes": "Uncertain transcription and unknown characters limit translation confidence. The word 'whole' is based on the lemma 'כֹּל' but its integrity is questionable due to damage.",
+   "line_id": 22162,
+   "source_hash": "9942b3da31085b9f02820f3810633151fcfc2f7e992edf5f4a72576ee42e3fe7",
+   "source_condition": "uncertain"
+  },
+  "4Q456 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε, ] # ו?ח[, ε) with no recoverable lexical content. The reconstructed and uncertain elements do not provide sufficient information for translation.",
+   "line_id": 22163,
+   "source_hash": "2e646c95dd8353f0fa90721850b0adaa397def44c62f6b58eef4af308fed9acc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q456 f2:2": {
+   "en": "holiness",
+   "notes": "The transcription is heavily damaged, with only the reconstructed word 'קֹדֶשׁ' (holiness) recoverable. The surrounding characters (ε, ] #) are untranslatable and omitted. Uncertainty is noted due to the fragmentary state of the text.",
+   "line_id": 22164,
+   "source_hash": "461d4ac9e43f9faeadbee15e57c45b31d137440b458fc8bdf437c318efa24a86",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q456 f2:3": {
+   "en": "Praise Yahweh",
+   "notes": "The translation is based on the phrase evidence for positions 3 and 4, which strongly supports 'praise Yahweh'. The initial characters and punctuation are omitted due to uncertainty and lack of recoverable content.",
+   "line_id": 22165,
+   "source_hash": "399b4a9f6b448ffdf67d8030889836f8cad21b13305a62452f022e9fb7f696be",
+   "source_condition": "uncertain"
+  }
+ }
+}

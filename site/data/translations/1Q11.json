@@ -1,0 +1,81 @@
+{
+ "id": "1Q11",
+ "label": "1Q11",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 9,
+ "scroll_id": 750,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q11 f1:1": {
+   "en": "Go, he will go, and weep, carrying the bag of the seed, he will come certainly with a cry of joy, carrying sheaves",
+   "notes": "The phrase 'sower of the seed' is a repeated pattern, but it is not directly supported by the visible text. The translation retains the individual words 'bag' and 'seed' instead. The phrase 'he will come certainly (come) with' is a repeated pattern, but the translation retains the individual words 'come' and 'with' to avoid adding unsupported wording. The word 'אלומ#[ ותי׳ו ]' is reconstructed and uncertain, but its gloss 'sheaf' is used in the translation. The final punctuation mark is omitted as it cannot be translated independently.",
+   "line_id": 39315,
+   "source_hash": "41d346047ad910084f2ade559186ca7322f64d1a282d52baab0ef563fc60bff3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q11 f2_5:1": {
+   "en": "Not you will build a house of vanity, they have labored, his builders in it, if YHWH does not guard the city",
+   "notes": "Uncertain reconstruction of 'vanity' and 'labored'. Phrase evidence supports 'not you will build a house' and 'he built in', but the latter is not directly reflected due to lack of clear subject in the source. 'City' is preferred over other gloss options for 'עִיר_1' due to context.",
+   "line_id": 39316,
+   "source_hash": "828e90916273816932a5335db485191876ec89bd078fb30bde2a62429c3d2493",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q11 f2_5:2": {
+   "en": "Vanity, he was wakeful, keeping. Vanity, to you who rise early, arise, being behind, sit, eating.",
+   "notes": "The transcription contains damaged and uncertain elements, including a reconstructed verb and an uncertain suffix. The phrase 'being behind, sit' reflects repeated phrase evidence, though support is limited. The translation conservatively preserves all recoverable lexical items without adding unlicensed connectors or participants.",
+   "line_id": 39317,
+   "source_hash": "43282a72445b11028ce44a2cfad46da5b2a79dba2013260b933115cf77839edb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q11 f2_5:3": {
+   "en": "The bread of pain thus he has given to the beloved of sleep. Behold the heritage of Yahweh",
+   "notes": "Positions 3 and 7 are reconstructed. Position 9 is an untranslatable punctuation mark. Phrase evidence suggests 'he has given to David' for positions 5-7, but 'beloved' is retained for consistency with the visible morphology. The phrase 'the inheritance of Yahweh' is supported by repeated evidence for positions 11-12.",
+   "line_id": 39318,
+   "source_hash": "f289a0ef441599a6315654cd2445043bad56a277141e4b96c5572c69405de98c",
+   "source_condition": "reconstructed"
+  },
+  "1Q11 f2_5:4": {
+   "en": "Sons of hire, fruit of the belly, as arrows in the hand of a vigorous man, so his sons of youth",
+   "notes": "Uncertain reconstruction of 'sons of hire' and 'fruit'; damaged syntax and uncertain gloss for 'נ#?עורים' as 'youth'.",
+   "line_id": 39319,
+   "source_hash": "0ee0766482fe44b9d5e5db2c796c6352f4a06e6fc0f6fd9d7eec890ee03c07ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q11 f2_5:5": {
+   "en": "Blessed is the man whose quiver is full, they will not be ashamed",
+   "notes": "The transcription is partially damaged, with uncertain characters and reconstructions. The translation reflects recoverable content, but the exact sense of some words remains uncertain.",
+   "line_id": 39320,
+   "source_hash": "3c7ca04c9df6206a56791a68ba74a1527799adf360a45e982543e55d5e0044e1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q11 f6:1": {
+   "en": "your woman",
+   "notes": "The transcription contains untranslatable characters and reconstructions. The word 'אשת׳ך' is a suffixed form of 'woman' with a second-person masculine singular possessive marker.",
+   "line_id": 39321,
+   "source_hash": "8492ddf44f6b630f8a83eb1c35c4e79428526d7fbafc9597e7ae18b4bcfa7220",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q11 f6:2": {
+   "en": "As a vine was fertile in the ? of your house, your sons",
+   "notes": "The lexical gloss for 'ירכתי' is uncertain (?), and the phrase 'בית׳ך בני׳ך' is supported by repeated evidence as 'the houses of the people' but is translated conservatively to preserve the possessive and plural forms.",
+   "line_id": 39322,
+   "source_hash": "1e3934b023997e6be4e890e31af82bdeecb73f94b89916763e6345db36533f67",
+   "source_condition": "reconstructed"
+  },
+  "1Q11 f6:3": {
+   "en": "As layers of olives surrounding your table",
+   "notes": "The transcription includes an untranslatable character (ε) and a punctuation mark (׃) not reflected in the translation. The word 'שתי[ לי' is reconstructed but translated as 'layers' based on the provided lemma and gloss.",
+   "line_id": 39323,
+   "source_hash": "8b729c2818f453b145c149c255e34d64b7017544d4cb633117ea5e8fbaa09081",
+   "source_condition": "reconstructed"
+  }
+ }
+}

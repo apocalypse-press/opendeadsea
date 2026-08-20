@@ -1,0 +1,46 @@
+{
+ "id": "4Q313",
+ "label": "4Q313",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 292,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q313 f1:1": {
+   "en": "and Jerusalem's camp she and outside to camp he outside Jerusalem",
+   "notes": "Uncertain reconstruction of 'הי ]א##' as 'she'; reconstructed 'חו[ צ׳ה' as 'outside'; phrase evidence suggests 'the streets of Jerusalem' for 'חוצ׳ה ירושלים', but visible morphology is prioritized.",
+   "line_id": 12748,
+   "source_hash": "cffb66a9bcf7edb28a0a8125b9b023853a7bdb394f8b5f42d8c3fbf5ba1d0d09",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q313 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. No meaningful translation is possible.",
+   "line_id": 12749,
+   "source_hash": "5296cee48e52bddd05001b13a837d9fd7b9adf566b4eab7848f7e913e3812935",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q313 f2:1": {
+   "en": "and even the planting of the food trees in the land of Israel",
+   "notes": "The transcription contains untranslatable characters (ε) and damaged words (אף#, ה##, מ##ט#עת#[). The phrase 'in the land of Israel' is supported by repeated evidence.",
+   "line_id": 12750,
+   "source_hash": "0ec678de7cf1310ac1be6b7a69bc8c608c1506ecf174d40acc2ae7e49a7b2694",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q313 f2:2": {
+   "en": "As the firstfruits to the priests and a tenth of the cattle and the sheep to the priests",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'he to serve as priest' is a dominant contextual rendering for positions 14-16, but it is not directly supported by the visible text. The translation prioritizes the visible transcription and morphology, retaining the context-free glosses where necessary.",
+   "line_id": 12751,
+   "source_hash": "a0e847f283d75ebf22f98084c84d13283f6a4c62088ef4678ad131e6e2d3e0df",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

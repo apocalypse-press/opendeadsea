@@ -1,0 +1,102 @@
+{
+ "id": "4Q376",
+ "label": "4Q376",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 12,
+ "scroll_id": 363,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q376 f1i:1": {
+   "en": "the priest the anointed",
+   "notes": "Uncertain transcription and damage limit recoverable content.",
+   "line_id": 15402,
+   "source_hash": "47b949621c9eba7a5d158d2ff8d9d47fa9e45fd3195fc6121d539389e4f39bdc",
+   "source_condition": "uncertain"
+  },
+  "4Q376 f1i:2": {
+   "en": "a young bull a young one of the cattle and a ram",
+   "notes": "The phrase 'a young bull a young one of the cattle' is supported by repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, with uncertainty noted for 'פ ]ר##' and 'בקר#'.",
+   "line_id": 15403,
+   "source_hash": "1fdb893fce1e470e49ec89894e095c964e706eaa8d1f2eac81211254e8dbbb41",
+   "source_condition": "uncertain"
+  },
+  "4Q376 f1i:3": {
+   "en": "to Ur",
+   "notes": "The transcription contains uncertain characters and an unknown element, limiting translation confidence. The term 'או?רים' is tentatively translated as 'Ur' based on the lexical gloss, but its exact meaning remains unclear.",
+   "line_id": 15404,
+   "source_hash": "474013c01f2aa4a5dab9f100aecf695ada3bdec485ab01b9bd76af4bfcc84417",
+   "source_condition": "uncertain"
+  },
+  "4Q376 f1ii:1": {
+   "en": "Let there be light, and it went out with tongues of fire, the stone of the left which is upon his side",
+   "notes": "Uncertainty in transcription and reconstruction affects the translation of several words, including 'י#?אי#?ר##ו#?׳כה', 'אבן?', 'שמא##ל#י?ת', 'א#שר', and 'צד׳ו?'. The phrase 'it will go forth people' is a repeated phrase evidence but does not fit the context, so it was not used. The translation is conservative and preserves the recoverable material, but some parts remain uncertain.",
+   "line_id": 15405,
+   "source_hash": "e2b35f812287b0e9e1f002a687a64f3222114f0ae4c78b0be974bd1c12bcadb5",
+   "source_condition": "uncertain"
+  },
+  "4Q376 f1ii:2": {
+   "en": "The left-hand shall uncover to the eyes of all the assembly until the completion of the priest to speak. And after, he ascended.",
+   "notes": "",
+   "line_id": 15406,
+   "source_hash": "d2a0d251b19d770ec0ed1ad2c5e3d465d8cb3ceefd01c50abc90cf5aab4b0366",
+   "source_condition": "clean"
+  },
+  "4Q376 f1ii:3": {
+   "en": "the cloud to and you will keep and make whole that he speaks to",
+   "notes": "Uncertain reconstruction and damaged text throughout. Phrase evidence suggests 'you will do all that' (positions 12-14) and 'all that he has spoken' (positions 13-15), but visible morphology and transcription are prioritized. Omitted untranslatable fragments and uncertain particles.",
+   "line_id": 15407,
+   "source_hash": "fd6a4b294b493d16eb2b6fd15ba1822d1d721f040501eb2d2504542b78641e42",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q376 f1ii:4": {
+   "en": "and the prophet",
+   "notes": "The final character 'ε' and the source-script punctuation mark '׃' are omitted as they cannot be translated independently.",
+   "line_id": 15408,
+   "source_hash": "79bbadac1ded16f8e1f32ea91ddf2aae13fd9e8255107109ca4d4fd32e6f48f4",
+   "source_condition": "reconstructed"
+  },
+  "4Q376 f1iii:1": {
+   "en": "As all the justice of this. And if in the camp the chief will be who is to all the congregation",
+   "notes": "Uncertain elements include the particle 'if' (position 9), the term 'chief' (position 14), and the relative particle 'who' (position 15). The phrase 'all the congregation' is supported by repeated phrase evidence. The final characters are untranslatable fragments.",
+   "line_id": 15409,
+   "source_hash": "7b2b495a35f9be5b338cc0fa8f14f2d9d86eacb36ef347d6eca6449158bceef7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q376 f1iii:2": {
+   "en": "And Israel with or that they go to a town to shape upon it or to every word which",
+   "notes": "Uncertain reconstruction of 'צו?ר' and 'אשר##['. The phrase 'to shape upon it' is a tentative rendering of the uncertain verb and preposition. The final 'which' is a relative particle, but its referent is unclear due to damage.",
+   "line_id": 15410,
+   "source_hash": "c3584d2acfc9023db8c87219c94e69c87dac822b9d0f2adf70382ad3d1fb0c3e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q376 f1iii:3": {
+   "en": "to the chief to the remote field",
+   "notes": "Multiple uncertain and reconstructed characters; phrase evidence suggests 'a hand' but is not directly applicable here; translation focuses on recoverable words.",
+   "line_id": 15411,
+   "source_hash": "dda13d8ec620bb5bd0b26e321008c2d969f40a0c8b8ccee3ff55d7ca12cb2b06",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q376 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too damaged to translate independently.",
+   "line_id": 15412,
+   "source_hash": "17f95eb614c34e6b3fd66625c2d0f4327ea0a1a40b3631cdc508448cbcf5e2e4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q376 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 15413,
+   "source_hash": "2e3f5a1da0d52a650a98c983ee9931eb6f604d0806e14d9f3c898833fdcc4545",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

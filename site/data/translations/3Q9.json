@@ -1,0 +1,95 @@
+{
+ "id": "3Q9",
+ "label": "3Q9",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 11,
+ "scroll_id": 82,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "3Q9 f1:1": {
+   "en": "in [wind]",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The word 'רוּחַ' (wind) is partially recoverable but uncertain. The preposition 'בְּ' (in) is clear. The other characters are untranslatable fragments. The translation conservatively reflects only the recoverable content.",
+   "line_id": 4114,
+   "source_hash": "ce5924af8ee2966fd298d168b72fbb97ee25e18a01217d86d47f6d1a12f242da",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q9 f1:2": {
+   "en": "to the gods",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged preposition 'ל' (to) and a partially recovered noun 'אל ]ה[ י ]ם' (gods). The final characters 'נ#?[' and 'ε' are untranslatable fragments, likely remnants of damage or editorial marks.",
+   "line_id": 4115,
+   "source_hash": "e63561683bc49f38158a5f569bdc61517ca6926d10b1018b1e123cde0571d85e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q9 f1:3": {
+   "en": "to return guiltiness",
+   "notes": "The transcription is partially damaged, with reconstructed and uncertain elements. The final character 'ε' and the initial 'ε' are untranslatable and omitted. The word 'אשמ#[' is reconstructed and marked as uncertain, but its gloss 'guiltiness' is retained.",
+   "line_id": 4116,
+   "source_hash": "50ec1fd9a733ca11a6ede7331cf0deb7de673661bafc92bc54a0e4e4d0e4b92f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q9 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged particle (כיא[), with no recoverable meaning.",
+   "line_id": 4117,
+   "source_hash": "b46164339ff0ff198c502d77cd701e8c99bf8e36c9648882380a7f8130e4fa5d",
+   "source_condition": "reconstructed"
+  },
+  "3Q9 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments (ε] # [ε) with no recoverable lexical content. All visible forms are either unknown or reconstructed with high uncertainty, leaving no defensible English translation.",
+   "line_id": 4118,
+   "source_hash": "c46986ffd6c2461c3e7ba9501323e58df58513f5cfb5ada336ce8a7ff1f0c8c8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q9 f2:2": {
+   "en": "doing these",
+   "notes": "The first character 'ε' is untranslatable and omitted. The verb 'עשׂה' is uncertain but rendered as 'doing' based on morphology. The adjective 'אלה' is translated as 'these'.",
+   "line_id": 4119,
+   "source_hash": "358fcc9e9bc40587c368149cbbada272d0691fcf1c370bc95fc53a94861e2250",
+   "source_condition": "uncertain"
+  },
+  "3Q9 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and an uncertain suffix form, leaving no defensible English words.",
+   "line_id": 4120,
+   "source_hash": "c18d5feeb200eae440a49305bf833097170adf9a5d8a2d0fb7568a7fa97c73c9",
+   "source_condition": "uncertain"
+  },
+  "3Q9 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible characters do not form recoverable lexical units.",
+   "line_id": 4121,
+   "source_hash": "252bc136f4830c8587698d976169e781897f453419af7548d1ceda0dae8a082d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q9 f3:2": {
+   "en": "guiltiness rebellion",
+   "notes": "The transcription includes untranslatable characters (ε) and a damaged word (פשע[), which are omitted from the translation. The word 'rebellion' is reconstructed.",
+   "line_id": 4122,
+   "source_hash": "7652bf74fe2e3690b5986d5046c6230cb2eef11fed0bae21601073b7aa21aacd",
+   "source_condition": "reconstructed"
+  },
+  "3Q9 f3:3": {
+   "en": "these",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed fragment (פת[). The recoverable word 'אלה' is translated as 'these'.",
+   "line_id": 4123,
+   "source_hash": "cedbc46730d76fec05d8f441cca039acf90f90e6832ee1e30ec50d9d6639e097",
+   "source_condition": "reconstructed"
+  },
+  "3Q9 f3:4": {
+   "en": "and in our witness",
+   "notes": "The transcription contains uncertain and untranslatable elements, including a damaged particle and unknown characters. The translation reflects only recoverable content.",
+   "line_id": 4124,
+   "source_hash": "934e109fd3b27221517eb7a011300d8e0882a27607dcb391ff433f4ef0af7181",
+   "source_condition": "uncertain"
+  }
+ }
+}

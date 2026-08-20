@@ -1,0 +1,74 @@
+{
+ "id": "4Q16",
+ "label": "4Q16",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 794,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q16 f1:1": {
+   "en": "And he said to Moses, Remember the day, this",
+   "notes": "The transcription contains reconstructed characters at positions 1 and 8, which are reflected in the translation. The phrase evidence strongly supports the sequence 'he said Moses to' and 'day (the) this', guiding the translation of these segments.",
+   "line_id": 40951,
+   "source_hash": "33df829ff379dabd5a2283ce3e65200cf7d1502d2a2ab189bb72dc5f9461ae93",
+   "source_condition": "reconstructed"
+  },
+  "4Q16 f1:2": {
+   "en": "Blessed are you who went out from the land of Egypt, that in strength of hand",
+   "notes": "Uncertainty in verb 'went out' and noun 'strength'; reconstructed particles and prepositions.",
+   "line_id": 40952,
+   "source_hash": "78cb790ff3ee2300d986436438afa24d834ae6d616152d214b794f61b1305848",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q16 f1:3": {
+   "en": "YHWH brought you out from this and he will not eat leaven",
+   "notes": "Uncertainty in transcription and reconstruction at positions 6 and 8. Phrase evidence suggests 'YHWH (et)' and '[one who] eats leaven', but the translation follows the visible morphology and lexical glosses where possible.",
+   "line_id": 40953,
+   "source_hash": "1eb4f743bee007211f63259607a887b0ba100bbd0297424190498b47fae9cccb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q16 f1:4": {
+   "en": "On the day you go out in the month of Abib",
+   "notes": "Uncertainty in transcription and reconstruction of some words, particularly 'יצ ]א##ים' and 'א##ב##י#?[ ב'. The phrase 'the month of Abib' is supported by repeated evidence.",
+   "line_id": 40954,
+   "source_hash": "1f51be55ee7711dcde001c346c7496994ee2d4e34b4b697ef709efb03d935a07",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q16 f1:5": {
+   "en": "For he will bring Yahweh God to the land of the Canaanite",
+   "notes": "Uncertainty in the reconstruction of 'יביא' and 'כ##[ נעני ]'.",
+   "line_id": 40955,
+   "source_hash": "6a43a367454ae5dc29bc04598fb92fe3fda88b008390d1df3098cd72c7c7a21d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q16 f1:6": {
+   "en": "The Hittite, the Hivite, the Amorite, the Jebusite, as who swore",
+   "notes": "Uncertainty in transcription and reconstruction of some words. Relative particle 'which' or 'who' is reconstructed.",
+   "line_id": 40956,
+   "source_hash": "c7a34be2084de9b1c90b1c6f53375dfe5159d808844277ac2d49a29842d13d21",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q16 f1:7": {
+   "en": "to your fathers to give to you a land flowing with milk and honey",
+   "notes": "Uncertain transcription at 'fathers' and 'milk'; reconstructed text at 'honey'.",
+   "line_id": 40957,
+   "source_hash": "4fb9201c3b6be7f2f8c677785b78a217db721d043503a459d5e83f1d97685a91",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q16 f1:8": {
+   "en": "And you worked this work in the month, this one",
+   "notes": "Uncertainty in transcription and reconstruction affects the translation of several words, including 'ע##בד[ ת ]ה##' (work/serve), 'זא##ת#' (this), and 'ב##' (in). The phrase 'month (the) this' is supported by repeated evidence.",
+   "line_id": 40958,
+   "source_hash": "3cfa82382fafb627102442833a0a75a26c42a1f2c6e2b37ac81b5411030a015d",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

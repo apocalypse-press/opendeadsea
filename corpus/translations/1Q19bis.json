@@ -1,0 +1,60 @@
+{
+ "id": "1Q19bis",
+ "label": "1Q19bis",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 14,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q19bis f2:1": {
+   "en": "holy the heavens",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged prefix and suffix. The first and last characters are untranslatable and omitted. The reconstruction of 'heavens' is supported by morphology.",
+   "line_id": 2516,
+   "source_hash": "119dca0c5acabbf930ed1a8cdaeefae3b76886253622a136845d38d84f5f7d61",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q19bis f2:2": {
+   "en": "to say uncover justice to faces upper",
+   "notes": "The translation reflects all recoverable words in order. Uncertainty in the transcription and reconstruction is noted. The phrase 'saying it has gone into exile' is not supported by the visible text and is omitted. The final 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 2517,
+   "source_hash": "4eea98c2ccede5db56ab6ed4b19204743fc5ff884ca38a0f450b9b85b826a112",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q19bis f2:3": {
+   "en": "and not under you",
+   "notes": "The transcription includes untranslatable characters (ε) at the beginning and end, which are omitted from the translation.",
+   "line_id": 2518,
+   "source_hash": "f510dad401981a73c6c6a394429789bff39653b32beb86a621af89dce8936cbf",
+   "source_condition": "clean"
+  },
+  "1Q19bis f2:4": {
+   "en": "Michael and Uriel and Raphael and Gabriel",
+   "notes": "The transcription includes untranslatable characters (ε) at the beginning and end, which are omitted in the translation.",
+   "line_id": 2519,
+   "source_hash": "0c6dd49d2fbfbf1fa51621f820409fbb6a7d24e5abe0dda3fbf07c3396856984",
+   "source_condition": "clean"
+  },
+  "1Q19bis f2:5": {
+   "en": "Lord lords and vigorous vigorous",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed word (גב[ ור). The translation preserves the repetition and structure of the source text.",
+   "line_id": 2520,
+   "source_hash": "4bf79bf3e01ec235b0550e039642a1e40bda0a9ceeab0ee6834abc13969791e8",
+   "source_condition": "reconstructed"
+  },
+  "1Q19bis f2:6": {
+   "en": "eternities",
+   "notes": "The transcription contains uncertain and untranslatable elements, including a reconstructed form of 'עֹולָם' (eternity) in the plural. The initial and final characters are untranslatable and omitted.",
+   "line_id": 2521,
+   "source_hash": "f62f7712081303c551f1b31e793e4478d57966b4c01cc322d7d605945bea6f63",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

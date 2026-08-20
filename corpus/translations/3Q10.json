@@ -1,0 +1,67 @@
+{
+ "id": "3Q10",
+ "label": "3Q10",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 83,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "3Q10 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions.",
+   "line_id": 4125,
+   "source_hash": "033f297024d214b8e703aa052461cfa89f01297c01ee933a3f1cd71bfab0d696",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q10 f1:2": {
+   "en": "over the surface of all",
+   "notes": "The translation follows the highest-supported repeated phrase evidence for positions 2-4. The initial and final untranslatable characters are omitted; see transcription for details.",
+   "line_id": 4126,
+   "source_hash": "64ab061585d6bf6836117fa708c7d8880256fb827fc78637f7528c3674a0a9a3",
+   "source_condition": "reconstructed"
+  },
+  "3Q10 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable Greek and Hebrew fragments (ε, ]ול[) with no recoverable lexical content. The reconstructed ]ול[ is incomplete and lacks context for translation.",
+   "line_id": 4127,
+   "source_hash": "7f3cd1035ff8f756a25be142fee6caa08d07de781a0e9ccc931439d4ded706f8",
+   "source_condition": "reconstructed"
+  },
+  "3Q10 f2:2": {
+   "en": "walk in",
+   "notes": "The transcription contains untranslatable characters and a reconstructed preposition. The phrase 'walk in' is supported by repeated evidence.",
+   "line_id": 4128,
+   "source_hash": "13cedfbcc3d635673cb7ce233c8d46d5501e94712bcfae5c1182756b70ec0a54",
+   "source_condition": "reconstructed"
+  },
+  "3Q10 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains damaged and uncertain fragments with no defensible English translation. The visible forms include untranslatable characters and reconstructions that cannot be confidently rendered into meaningful English.",
+   "line_id": 4129,
+   "source_hash": "d7f4b2fb4af93f4e3f28d459ca8fe16db86d0545ec8c999d848d445ad04550c4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q10 f3:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items due to extensive damage and uncertainty. All visible characters are either untranslatable fragments or punctuation.",
+   "line_id": 4130,
+   "source_hash": "11012b969d43c5133a36c754bce409d5649eddbf9ce2953737ce156224ad5c99",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "3Q10 f4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible characters do not form recoverable lexical units.",
+   "line_id": 4131,
+   "source_hash": "9ba6767cde0f0ffdfc51c469c597efae79ee92f2001abbb110bdd6c71eaf3f20",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

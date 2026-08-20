@@ -1,0 +1,172 @@
+{
+ "id": "34Se1",
+ "label": "34Se1",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 22,
+ "scroll_id": 989,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "34Se1 f1:1": {
+   "en": "And YHWH spoke to Moses, saying: Consecrate to me every firstborn, the firstborn of every womb among the people of Israel, of humans and of cattle.",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 52462,
+   "source_hash": "083a2bd9a0a06395af53b7163557e8fc2ef8f74517a344db6e8f8971afeeae42",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f1:2": {
+   "en": "To him, and he said Moses to the people, Remember the day this, which you went out from Egypt from a house",
+   "notes": "The phrase 'to him' is a reconstruction based on the prefix 'ל׳י'. The particle '׃' is omitted as it has no clear translation. The phrase 'he said Moses to' is supported by repeated phrase evidence. The phrase 'from Egypt from a house' is a literal translation, though 'from a house' may be an idiomatic expression.",
+   "line_id": 52463,
+   "source_hash": "f3b63f5402fae01e8ea4eb50a290e0d4e63f4a4f10966ccc9a2423369500f2c3",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f1:3": {
+   "en": "[servants that by strength of hand he brought out Yahweh from this and not eats leaven the day you]",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence informing 'by strength of hand' and 'he brought out Yahweh'. The object marker 'et' is omitted as it lacks direct English equivalent in this context. The lacuna is marked with a bracket at the start, but no bracketed tentative English is added. Uncertainty in the exact relationship between clauses is not resolved with connectors.",
+   "line_id": 52464,
+   "source_hash": "b9b2db5a39bb474ad04e8fb645c13afb9488ba14267a9099e231d01e45788e2c",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f1:4": {
+   "en": "In the month of the Abib, and it will be that he will bring Yahweh into the land of the Canaanite and the Hittite and the Amorite and the Hivite",
+   "notes": "The phrase 'the month of the Abib' is supported by repeated evidence. 'He will bring Yahweh' is a paraphrase based on low-confidence contextual evidence; the literal translation is 'will bring you Yahweh.' The land's inhabitants are treated as singular following visible morphology.",
+   "line_id": 52465,
+   "source_hash": "61e45eaf1efa45ebcca893132b537cb5ab93ecd187503381f72ff55fb13ee230",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f1:5": {
+   "en": "And the Jebusite who swore to your fathers to give to you a land flowing with milk and honey, you served",
+   "notes": "The phrase 'a land flowing with milk' is supported by repeated phrase evidence. The verb 'served' is a conservative translation of 'עבדת', preserving the grammatical person and number.",
+   "line_id": 52466,
+   "source_hash": "593fe2771bc8d041b424427b9422e547c85d63af569b7d9ce410c023ae08258d",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f1:6": {
+   "en": "This work in this month: seven days you will eat unleavened bread, and on the seventh day a festival",
+   "notes": "The phrase 'seven days you will eat unleavened bread' follows high-confidence repeated phrase evidence. The term 'unleavened bread' is preferred over 'matzo' for clarity in this context.",
+   "line_id": 52467,
+   "source_hash": "e0bb93559663e6653aee87f5cfdca51eff757aef9e8e08712a0e0bc9c125ce16",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f1:7": {
+   "en": "To YHWH: matzo shall be eaten the seven days, and no leaven shall be seen, and no leaven",
+   "notes": "The phrase 'the seven days' is supported by repeated phrase evidence. The verbs 'shall be eaten' and 'shall be seen' are reconstructed based on the nifal stem and imperative tense. The final 'and no leaven' is a partial repetition of the previous phrase, likely due to damage.",
+   "line_id": 52468,
+   "source_hash": "f61bf602ab613ce573c0db7dafd5b2577906a5cb62d3fd73048243cf012b75e5",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f1:8": {
+   "en": "To leaven in all the territory and you will tell to child in day that he to say in way this he has done",
+   "notes": "Uncertain reconstruction of damaged text. The phrase 'to leaven in all the territory' is supported by repeated phrase evidence. 'You will tell to child' is a paraphrase based on contextual constraints. 'Day that he' is a high-confidence reconstruction. 'To say in way this he has done' is a conservative translation of the remaining visible lexical items.",
+   "line_id": 52469,
+   "source_hash": "66ad43af516f940185e9b9daa22cf4551995acf5fe2372237c5c8a01b29a4671",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "34Se1 f1:9": {
+   "en": "YHWH to you brought out from Egypt and was to you for a sign on your hand and for remembrance between your eyes",
+   "notes": "The phrase 'you brought out from Egypt' is a paraphrase supported by repeated evidence. 'A sign on your hand' is a paraphrase supported by repeated evidence. The translation preserves all recoverable lexical items and their order, with no added subjects or connectors.",
+   "line_id": 52470,
+   "source_hash": "353315e3c14cf053281a03cb44d0c68f9724270c472736fb2e923d6b7ef24017",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f1:10": {
+   "en": "In order that the law of YHWH may be in your mouth, that by a strong hand YHWH brought you out from Egypt.",
+   "notes": "The phrase 'by a strong hand' is a high-confidence repeated pattern. 'YHWH brought you out from Egypt' is a dominant contextual rendering with strong support. The translation conservatively follows the recoverable text, preserving the structure and participants without adding unlicensed elements.",
+   "line_id": 52471,
+   "source_hash": "c966446e534106c8a55f7878aa876ce4681ba5ea5397f4be6c45e798e8718531",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "34Se1 f1:11": {
+   "en": "And you kept the regulation this to appointment from day day.",
+   "notes": "The phrase 'from day day' reflects repeated phrase evidence for positions 10-12, supported by 5 occurrences with 100% pattern dominance. The final 'day' is a suffixed form, translated as a repetition for clarity.",
+   "line_id": 52472,
+   "source_hash": "4bb02796d5f66a62450db10a09f2f560d4293cf05dfe985587c54701db8137e0",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f2:1": {
+   "en": "And it was that he would bring Yahweh to the land, the Canaanite, as",
+   "notes": "The phrase 'he would bring Yahweh' is a reconstruction based on repeated phrase evidence, though its support is low (0.2222). The phrase 'the land of the Canaanite' is supported by repeated phrase evidence (0.8), but 'Canaanite' is singular here, which may affect the sense. The final 'as' is a literal translation of the particle 'כ' and does not introduce a complete comparison.",
+   "line_id": 52473,
+   "source_hash": "077dd23ea2f2a95e482511d1c76ff01e53ef5852ce96e4c2e37c2343abfdae99",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f2:2": {
+   "en": "He swore to you and to your fathers and gave to you. And you will dedicate every firstborn of a womb to YHWH.",
+   "notes": "The phrase 'every firstborn of a womb' is supported by repeated phrase evidence. The verb 'swore' is reconstructed but supported by the visible form. The translation conservatively follows the recoverable text without adding implied subjects or connectors.",
+   "line_id": 52474,
+   "source_hash": "7433fe12174f99927917d3a64362b9dc9cbf98623d956e6376bea163db7b7045",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f2:3": {
+   "en": "And every firstborn of the litter of cattle which will belong to the males of YHWH, and all",
+   "notes": "The translation follows the visible transcription and morphology, incorporating high-confidence phrase evidence for 'every firstborn' and contextual renderings for the relative clause and prepositional phrases. Uncertainty arises from the damaged state of the text, particularly around the suffix 'ל׳ך' and the following 'ה', which are reconstructed as 'to the'. The final 'וכל' is translated as 'and all' to maintain the conservative approach, though its exact relationship to the preceding clause is unclear.",
+   "line_id": 52475,
+   "source_hash": "bb6f3257d9d0c8725a5ca3ef3dc585d76046825a13896b4e721deb4c76da2001",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f2:4": {
+   "en": "Firstborn of a donkey you will redeem with a lamb and if not you will redeem and break its neck and every firstborn",
+   "notes": "The phrase 'firstborn of a donkey you will redeem' and its variants are supported by repeated phrase evidence. The translation follows the visible morphology and lexical glosses, preserving the grammatical structure and semantic relationships.",
+   "line_id": 52476,
+   "source_hash": "4922db3952be703f7c443b22ca73829ebdf24e98adc5ce83aa450b241cacf538",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f2:5": {
+   "en": "You shall redeem a man among your sons, and it will be when your son asks you tomorrow",
+   "notes": "The phrase 'the son of Pedaiah' and 'Saul the son' are repeated patterns, but they do not fit the context. The translation follows the visible morphology and lexical glosses.",
+   "line_id": 52477,
+   "source_hash": "2f45d954de95d94a8638b170902f3a58bd9b241af77c902065e80eccbc78d316",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f2:6": {
+   "en": "Why this and you said to by strength of hand he brought out YHWH from Egypt",
+   "notes": "Reconstructed text in position 1. Phrase evidence supports 'why? this' (positions 1-2), 'by strength of hand' (positions 6-8), and 'Yahweh from Egypt' (positions 10-12). No uncertainty in the transcription.",
+   "line_id": 52478,
+   "source_hash": "05d841d06cf837adfde0964e8d892e587fe4b293a491a0830c13324cbe395394",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f2:7": {
+   "en": "from a house of slaves and it was that the pharaoh was hard to send and he killed YHWH",
+   "notes": "The phrase 'from a house of slaves' is supported by repeated phrase evidence. The sequence of events involving pharaoh, sending, and killing is uncertain due to fragmented syntax and missing context.",
+   "line_id": 52479,
+   "source_hash": "0889b350538e923ed36615f7692fa6148be65390953c19fe4781c75099ce1872",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f2:8": {
+   "en": "Every firstborn in the land of Egypt from the firstborn of humankind and unto the firstborn of livestock",
+   "notes": "The phrase 'firstborn of humankind' is supported by repeated phrase evidence for positions 7-8. 'The land of Egypt' is a high-confidence contextual rendering for positions 4-5. The preposition 'from' is supported by phrase evidence for positions 5-6. 'Every firstborn' is a high-confidence rendering for positions 1-2. The conjunction 'and' is translated from the visible DSS token at position 9. 'Unto' is a possible rendering of the particle at position 10, though its exact sense is uncertain. The final phrase 'firstborn of livestock' is supported by phrase evidence for positions 11-12.",
+   "line_id": 52480,
+   "source_hash": "bbb2bacf1da66f287059d85781d43311f8634be8fa081e61c89c5acf1b9d4b59",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f2:9": {
+   "en": "Therefore I will sacrifice to Yahweh every firstborn of the womb, the males, and every firstborn.",
+   "notes": "The phrase 'every firstborn of the womb' is supported by repeated phrase evidence. The translation follows the visible morphology and lexical glosses, with 'firstborn' repeated for clarity due to the separate occurrences of 'peter' and 'bekhor'.",
+   "line_id": 52481,
+   "source_hash": "08c5bb59bf05f0d5a7de606bda6b55e82de030f49de29c70ab49fdb99762770d",
+   "source_condition": "reconstructed"
+  },
+  "34Se1 f2:10": {
+   "en": "I will buy off the son of Pedaiah and it was a sign on the hand and marks between your eyes",
+   "notes": "The phrase 'marks between eyes' is supported by repeated evidence. 'The son of Pedaiah' is a partial reconstruction with moderate support. 'A sign on hand' is a contextual rendering with moderate support. 'It was' is a conservative translation of the perfect verb 'היה' without adding an unspecified subject. Uncertainty in 'יד׳כ' is not reflected in the translation as it is part of a supported phrase.",
+   "line_id": 52482,
+   "source_hash": "9e9cc192c207a1cbcacf806099211c44202ad2477517ca33c8a7389c134c0474",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "34Se1 f2:11": {
+   "en": "For by strength of hand Yahweh brought us out from Egypt",
+   "notes": "The transcription is partially reconstructed and uncertain. The phrase 'Yahweh from Egypt' is supported by repeated evidence. The phrase 'by strength of hand' is also supported by repeated evidence. The translation follows the highest-supported repeated phrase evidence and preserves the grammatical structure.",
+   "line_id": 52483,
+   "source_hash": "b183067e779ad3506836a8a17c8e6200cf298dfca396d9329506d15af08a777c",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

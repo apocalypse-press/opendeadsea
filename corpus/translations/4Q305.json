@@ -1,0 +1,74 @@
+{
+ "id": "4Q305",
+ "label": "4Q305",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 8,
+ "scroll_id": 289,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q305 f1i:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. All words are marked as unknown or reconstructed with uncertainty.",
+   "line_id": 12687,
+   "source_hash": "9dcee50fdc0518bcb985aa69e7fcca874886e6067a7602c4d3b4043ae0f5d331",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q305 f1i:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or reconstructed with high uncertainty.",
+   "line_id": 12688,
+   "source_hash": "fda7cb08f41b6c27b440e22e39854592dd2039f9bf657c86552236becc00e72f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q305 f1i:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions. The phrase evidence '[belongs] to whom?' is not supported by the visible morphology or lexical glosses.",
+   "line_id": 12689,
+   "source_hash": "0ca508c0241d6735958909c9ce58a320d48a4e3307f02e4159c7acd066254db3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q305 f1i:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 12690,
+   "source_hash": "278711ebd7f775ce5e2f2be4072605981be4cf0f67b871e61a10ab38ae599618",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q305 f1ii:1": {
+   "en": "And he will create in the wild animals",
+   "notes": "The transcription is partially damaged, with reconstructions and uncertainty. The phrase 'when I' is a possible contextual rendering for positions 3-4, but it is not strongly supported. The phrase 'they have been created in' is another possible rendering for positions 2-3, but it is also not strongly supported. The translation follows the visible morphology and lexical glosses where possible, preserving uncertainty and damage without speculative additions.",
+   "line_id": 12691,
+   "source_hash": "6859be3de5eb836f3d77c1ea6ae3d04caab2776b7bf772d11dbcd57ed8bd206a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q305 f1ii:2": {
+   "en": "He gave to man know",
+   "notes": "The final character 'ε' is untranslatable and omitted. The word 'דע[ ת' is reconstructed as 'knowledge' but only partially survives as 'know'.",
+   "line_id": 12692,
+   "source_hash": "0fa411292c1c528bfeaac332c928feb5d9cc7d32e199a604562c2b492260d35d",
+   "source_condition": "reconstructed"
+  },
+  "4Q305 f1ii:3": {
+   "en": "and evil to know",
+   "notes": "Uncertainty in transcription and reconstruction of 'evil' and 'know'. Final character 'ε' is untranslatable and omitted.",
+   "line_id": 12693,
+   "source_hash": "20a61653493ca7daab26721da9a291bd20c35123e59d1ec0621531b546348429",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q305 f1ii:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only a reconstructed preposition 'to' and untranslatable fragments. No defensible English words survive.",
+   "line_id": 12694,
+   "source_hash": "7722feebda30c9a69e8c36322dbe196a89199a35ce931d9bc1efd17139419940",
+   "source_condition": "reconstructed"
+  }
+ }
+}

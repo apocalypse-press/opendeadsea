@@ -1,0 +1,193 @@
+{
+ "id": "4Q210",
+ "label": "4Q210",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 25,
+ "scroll_id": 139,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q210 f1ii:1": {
+   "en": "And three of them upon the left. And three of them upon the west. And in four of them go out winds",
+   "notes": "Uncertain elements include the glosses for 'שמאל' and 'מערב', and the damaged suffix in 'ב#תרי׳הון'. The final relative particle 'די' is omitted as it does not contribute to the translation.",
+   "line_id": 7354,
+   "source_hash": "17a659eb58e119a3ac2378636b8800d69b5f0c857e4c6e3cb493a5f7c8827573",
+   "source_condition": "uncertain"
+  },
+  "4Q210 f1ii:2": {
+   "en": "to heal the earth and to live and in Timnite from them went out winds of damage he sent to perish all the earth",
+   "notes": "Uncertain reconstruction at position 10; uncertain glosses at positions 5, 9, 16, 17, 18, 25. Phrase evidence supported 'all the' and 'all the earth' for positions 23-24 and 23-25 respectively.",
+   "line_id": 7355,
+   "source_hash": "76cf8a1144d091acdefd64dcab8ec412ddb1c7802a4e5135e68134eb94effa8e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:3": {
+   "en": "And kinds and the whole what of those in which they are many and sprouting and being astir in the kinds and upon the land and the whole which were speaking in her and to the front",
+   "notes": "The translation includes reconstructed text for 'רחש[ ין' as 'being astir'. The phrase 'דברין ב׳ה' is translated based on repeated phrase evidence as 'speaking in her'. The particles 'א' and '׃' are omitted as their glosses are uncertain and they do not contribute to the meaning. The final word 'לקדמין' is translated as 'to the front' based on its morphology and lexical gloss.",
+   "line_id": 7356,
+   "source_hash": "8a85921409339cbc54ab34e6048268a2efec1125df03cae40dbc85c4c217f831",
+   "source_condition": "reconstructed"
+  },
+  "4Q210 f1ii:4": {
+   "en": "In the door first a wind of the east which is in Madnach and turns to the south and they had brought out from destruction and dry and warmth and desolation",
+   "notes": "Positions 10, 23, 25, 27: uncertain glosses. Position 10: reconstructed particle. Positions 3, 5, 12, 17: untranslated particles with no trusted gloss.",
+   "line_id": 7357,
+   "source_hash": "b3d60cd6dcb02c3448a30f569c430fb69acfe511424416c10783e71234834183",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:5": {
+   "en": "And in the second door, a wind of the east goes out, which is in the midst of rain and fruit and life and dew. And in the third door, a wind goes out.",
+   "notes": "The phrase 'a wind of the east' is supported by repeated evidence. The terms 'rain', 'fruit', 'life', and 'dew' are uncertain due to damaged text. The translation conservatively preserves all recoverable lexical items without adding missing subjects or smoothing repetition.",
+   "line_id": 7358,
+   "source_hash": "17b647ef0e40967c9ba3565bf96aea3636bc1c20e49b4fcce56cf71bdda49f44",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:6": {
+   "en": "Eastern wind, which is near to the wind, and dry. And in their two from three doors, which are upon the south of heaven.",
+   "notes": "The translation contains several uncertainties due to damaged or unclear text. The term 'גר#בה' and its repetition later are uncertain and left untranslated. The word 'קריב' is translated as 'near' based on visible morphology, but its exact meaning is unclear. The phrase 'בתרי׳הון' is translated as 'their two' based on morphology, but its context is uncertain. The final particle 'א ]' is omitted from the translation as it cannot be translated independently.",
+   "line_id": 7359,
+   "source_hash": "18ea1da059cccdb168dbea13ac55ecd9b189ac2e821ab6c531b464ca44c65864",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:7": {
+   "en": "Go out in the door of the first south which is in the south and turn to the heat and in the door of the second goes out the south wind",
+   "notes": "The translation includes reconstructed text, and several words have uncertain glosses.",
+   "line_id": 7360,
+   "source_hash": "36f773dd996ef2667cc37ccb085845d594dbc6f113820211890feb5b791c418d",
+   "source_condition": "reconstructed"
+  },
+  "4Q210 f1ii:8": {
+   "en": "who meet to the south of dew and rain and well-being and be alive and in the door of the third it will go out a wind of the south of sunset dew and rain and take handful and destruction",
+   "notes": "Uncertain transcription at position 6 (ט#ל) and 13 (׃). Reconstructed text at position 7 ([ ו).",
+   "line_id": 7361,
+   "source_hash": "6b38e4cb50027b9398bf5a5df7ffdccf0ad1dbba7bd88caff021c20a0baaf15c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:9": {
+   "en": "And after, a spirit went out",
+   "notes": "The translation is highly uncertain due to damaged and ambiguous terms. The phrase 'after' is reconstructed, and the following term is unclear. 'Spirit' is a tentative rendering of a damaged word. The final characters are untranslatable and omitted.",
+   "line_id": 7362,
+   "source_hash": "3f27528925e7cad848aede9434a12eabf081d412d27bd548e4914f6b33219373",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:10": {
+   "en": "and destruction",
+   "notes": "The transcription includes uncertain and untranslatable elements (ε, ׃), which are omitted from the translation. The word 'אב ]ד##ן#?' is tentatively translated as 'destruction' based on the lemma 'אָבְדָּן'.",
+   "line_id": 7363,
+   "source_hash": "40beb28c2a6288d862b8b1ea55d019cad20f8f5817147983ce449b7c1f08f1f5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:13": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments (ε] # [ε) with no recoverable lexical content. All characters are either damaged or non-lexical, leaving no defensible English translation.",
+   "line_id": 7364,
+   "source_hash": "7b5a50385c5af20a4a56c1b796eefa40f3ac8878b0b318890bc9e367e23d1323",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:14": {
+   "en": "And destruction. And two men were completed, ten doors, four winds of heaven, their well-being and their interpretation I saw to a son of Methuselah. And they will meet to the east, the east.",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'two men were completed' is a literal rendering of the visible morphology, though its meaning is unclear. 'Ten doors' and 'four winds of heaven' follow repeated phrase evidence. 'Their well-being and their interpretation' are uncertain due to ambiguous suffixes. 'To a son of Methuselah' is a tentative reconstruction. The final clause repeats 'east' due to visible DSS transcription.",
+   "line_id": 7365,
+   "source_hash": "09787fb9c0f15c3efd59623fb3da8fe31796e09b001afaf18fc8d1a3b57911b9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:15": {
+   "en": "In which he is first, and meets to the south, south in which there is much dwelling and dwelling from eternity. And to the wind, much wind of sunset in which the stars come.",
+   "notes": "The phrase 'in a generation' is a repeated pattern, but it does not fit the context here. The translation follows the visible morphology and lexical glosses, with uncertainty in the meaning of some particles (positions 5, 10, 15, 24, 25, 29, 31, 34). The final punctuation mark (position 25) is omitted as it cannot be translated independently.",
+   "line_id": 7366,
+   "source_hash": "a5b908ceaefcaff6a5029fcb110e9716da6aae27039e972e0515fc21bd24ad77",
+   "source_condition": "reconstructed"
+  },
+  "4Q210 f1ii:16": {
+   "en": "The heavens, they stand bail, and they deal with their whole stars, thus meeting at sunset, and meeting to the north in its hidden place",
+   "notes": "The translation includes reconstructed and uncertain terms. The lexical glosses for some particles and terms like 'צפונ' and 'א' are unclear, and the text contains damaged or incomplete sections, particularly around positions 7 and 13. The phrase 'ב׳הצפנין' is interpreted as 'in its hidden place' based on context, but its exact meaning is uncertain.",
+   "line_id": 7367,
+   "source_hash": "1f0a74e12f0b281f837c62eada0cb6d888a13e46a9cf73fa195c855d53b97bf3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:17": {
+   "en": "And those gathering and going about, and all the heavenly bail-standers who go to the heavenly Madnakh. And to the Madnakh of the Madnakh in the place where they dwell, the heavenly vessels, and even the sunrise in tin.",
+   "notes": "Uncertain terms: Madnakh, bail-standers, place, tin. Reconstructed characters and uncertain terms noted.",
+   "line_id": 7368,
+   "source_hash": "1f3608c0947c9f5b4ab318b97cc53b2d154a62645059c5c04e3b1aa2d53a4667",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:18": {
+   "en": "Which [no recoverable text] months in [no recoverable text] their completion on every day and [no recoverable text] to see upon the earth",
+   "notes": "The transcription contains significant damage and uncertain reconstructions. Positions 2, 3, and 11 yield no defensible English. Position 6 is reconstructed and uncertain. Position 17 is an untranslatable symbol. The phrase 'on every day' is supported by repeated evidence for positions 7-9.",
+   "line_id": 7369,
+   "source_hash": "9f652229e3f7b22c333f0e59fbfffc276a889fbdb7372395807d9d6701578b6c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:19": {
+   "en": "And I saw three earths, one from speaking in the sons of mankind, and one from",
+   "notes": "Uncertain reconstruction and meaning due to damaged text, particularly around positions 4, 6, 14, 15, 18, and 19. The phrase 'the sons of mankind' is supported by repeated evidence, but its exact relationship to surrounding words remains unclear. The translation conservatively retains all recoverable lexical items without adding implied subjects or connectors.",
+   "line_id": 7370,
+   "source_hash": "d3c4bf785edc405ca7f99a5b8b7147afbbf7510214d7b38b59c50160fca6c2b0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1ii:20": {
+   "en": "And I saw seven [rows/mountains]",
+   "notes": "Uncertainty in the transcription and reconstruction of the text, particularly around the words 'שב ]ע##ת' and 'ט##[ ורי'. The translation opts for 'rows/mountains' to reflect the ambiguity in 'טוּר'.",
+   "line_id": 7371,
+   "source_hash": "7f59e530bc534b79f18124e1129f20b75e1baf05b57faf6edb042ba5aec84a66",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1iii:3": {
+   "en": "And in the month, the moon, the half of the sharp one which lights up, in the heavens to see upon the earth",
+   "notes": "Several words are uncertain or reconstructed: 'ε' (position 1), 'א' (positions 6 and 15), 'אנ ]י(# ר #)' (position 12), 'ב##' (position 13), 'את##ח##[ זיא' (position 17), and 'ה ]' (position 20). The translation is based on the available lexical glosses and morphological information, but the exact meaning of some words remains unclear.",
+   "line_id": 7372,
+   "source_hash": "eede0262d4f76d6ce5c72c630ee8ac6e5309405dbfb6fce6c5a1a51ce0c600e4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1iii:4": {
+   "en": "and be finished male plural in whole day and day unto day four ten and",
+   "notes": "The translation includes a reconstructed verb form and uncertain particles. The phrase 'four ten' is supported by repeated evidence as 'fourteen'. The preposition 'in' is contextually supported for 'ב'. The translation conservatively retains all recoverable elements without adding unlicensed connectors or subjects.",
+   "line_id": 7373,
+   "source_hash": "712e0411d4ddbc96321ce3cf349317b1064a9d9f0340ec32f689104ee7e261b1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1iii:5": {
+   "en": "in the whole light and he waited for the light one from the five tenth and they are finished in the whole day and day until day five ten and they are finished in the whole light",
+   "notes": "Uncertain reconstruction and gloss at positions 4, 10, 12, 22. Phrase evidence applied for 'fifteen' and 'on every day'.",
+   "line_id": 7374,
+   "source_hash": "cc5965fc72dd217432076be8d49bdff01a217f83af5d1d663957e65bd45d64fd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1iii:6": {
+   "en": "He spoke in the months, in the halves of the weeks",
+   "notes": "The transcription contains a mix of languages and uncertain characters. The translation follows the visible morphology and lexical glosses where available. The term 'שביעין' is translated as 'weeks' based on contextual inference, though its gloss is uncertain. The particle 'א' and the final punctuation mark '׃' are omitted as they do not contribute to the translation. The Greek letter 'ε' and the uncertain ']ו?' are not translated due to lack of context.",
+   "line_id": 7375,
+   "source_hash": "922895453735ff9cfa59f78e6003d7b7c37c76e18d3f75bf699ee697c9fce883",
+   "source_condition": "uncertain"
+  },
+  "4Q210 f1iii:7": {
+   "en": "And in the covering of the impossible month from the light. In the day, first one from four-teen and in the day, second one from three",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'four-teen' is supported by repeated phrase evidence. The meaning of 'שהר' (month) and 'נהור׳ה' (light) are uncertain due to lack of trusted glosses. The final phrase 'from three' is reconstructed.",
+   "line_id": 7376,
+   "source_hash": "5b41023e3e4549c96abf4db423911d5d506fd3b9858db4fcb78170d3ecf3da90",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1iii:8": {
+   "en": "Tenth and in the third day one from two tenth and in the fourth day one from one tenth",
+   "notes": "Uncertain particles 'א' omitted. Reconstructed and uncertain words noted. Phrase evidence 'two plus ten' applied.",
+   "line_id": 7377,
+   "source_hash": "30a2d63c27be3c011f33eb7f321dd443d15017d4a7a394f0c54b7c6c0815e8f2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q210 f1iii:9": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew. The visible characters are either damaged, reconstructed, or untranslatable punctuation marks.",
+   "line_id": 7378,
+   "source_hash": "4b97ac722e91b8b2aa0ddbed7d1c7bc3480d7a366f43ed7fc4a09f482d13f0b4",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

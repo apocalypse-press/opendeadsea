@@ -1,0 +1,53 @@
+{
+ "id": "4Q38b",
+ "label": "4Q38b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 821,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q38b f1:1": {
+   "en": "You are about to go there to trample down, and if he turns",
+   "notes": "The phrase 'you are about to go' is supported by repeated phrase evidence. The verb 'trample down' is a context-free gloss for the infinitive construct form. The final verb 'turns' is in the third person singular, but the subject is not explicitly stated in the source text.",
+   "line_id": 43621,
+   "source_hash": "150c4958c18fea36505aedbdce20cf883f4c14417b530a51d96672a658b9bb00",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38b f1:2": {
+   "en": "Your heart and you will not hear and wield and bow down",
+   "notes": "Uncertainty in transcription and reconstruction of some words. The verb 'wield' is a context-free gloss for 'נדח_1' with no trusted gloss available. The verb 'bow down' is a context-free gloss for 'חוה_2' with multiple possible meanings.",
+   "line_id": 43622,
+   "source_hash": "47c850c18882668d50fe30585963f2eb7005dc9ba73f158c21a80fcb44d542ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38b f1:3": {
+   "en": "To other gods and you served them. I reported to you.",
+   "notes": "The phrase 'other gods' is supported by repeated phrase evidence. The verb 'served' is a context-free gloss for 'עבדת׳ם'. The sentence structure is conservative, preserving the original order of words. Uncertainty in the transcription is noted for 'אח##ר#י?ם#[', but the translation follows the highest-supported repeated phrase evidence.",
+   "line_id": 43623,
+   "source_hash": "cec7278fcf2aecfeb806f1c12c2aa156972571fe9beda882af7b6bb5cb941fdc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38b f1:4": {
+   "en": "The day that you will certainly perish, you will not prolong",
+   "notes": "Reconstructed and uncertain text in positions 4 and 5. Translation follows high-confidence phrase evidence for positions 3-5 and 2-4.",
+   "line_id": 43624,
+   "source_hash": "42c7a4a2244c92f29f4e5cfe7dcae3778b2c629646d852300776f08bea20ed6e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q38b f1:5": {
+   "en": "Days upon the soil where you are about to pass over",
+   "notes": "Uncertain transcription and reconstruction in 'days' and 'upon'. The phrase 'where you are about to pass over' is supported by repeated phrase evidence and canonical occurrences.",
+   "line_id": 43625,
+   "source_hash": "8b14d3abcffe0cf1aa0f068e2d6ad98e54d97932c7ef3f6651cffe3136ffd4ba",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

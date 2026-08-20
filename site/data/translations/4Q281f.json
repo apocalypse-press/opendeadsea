@@ -1,0 +1,32 @@
+{
+ "id": "4Q281f",
+ "label": "4Q281f",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 249,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q281f f1:1": {
+   "en": "to the priests, Levites, all the tribes to their share and heritage",
+   "notes": "Uncertain fragments and reconstructions present. The phrase 'all the tribes' is supported by repeated evidence. The sequence 'to the priests, Levites' is licensed by high-confidence constraints. Remaining text is uncertain due to damage and lacks defensible English wording.",
+   "line_id": 11457,
+   "source_hash": "e148de48f657ffa037d7bd4f5998658bfb285b438d270b1b22ee85a771873114",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q281f f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible characters include Greek epsilon (ε), Hebrew letter dalet (ד), and punctuation marks, but no coherent lexical units survive.",
+   "line_id": 11458,
+   "source_hash": "1fd690643f9f624b81a30ab38381a47e78416b0c77686728e6998c8b293fb0fb",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

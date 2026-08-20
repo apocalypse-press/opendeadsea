@@ -1,0 +1,39 @@
+{
+ "id": "6Q17",
+ "label": "6Q17",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 655,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "6Q17 f1:1": {
+   "en": "the month the second in",
+   "notes": "The initial 'ε' is untranslatable and omitted. The sequence 'ך֜י֜' is uncertain and omitted.",
+   "line_id": 32604,
+   "source_hash": "063bbe0b907bdc3661aa91d1df2c29f2bcee6fb3891a6175bef5f56a72c0dd9d",
+   "source_condition": "clean"
+  },
+  "6Q17 f1:2": {
+   "en": "his days your days",
+   "notes": "The transcription is heavily damaged and reconstructed. The first word is a reconstructed 'day' in the singular masculine form. The second and third positions are uncertain, with no recoverable text. The final word is 'days' in the plural masculine form. The possessive pronouns 'his' and 'your' are inferred from the morphology but are uncertain due to damage.",
+   "line_id": 32605,
+   "source_hash": "e27114c63095ac2213b416e4aff6b674c0a1c48e44e222b4df85d961fca11535",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "6Q17 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or translatable fragments. The visible characters are either damaged, untranslatable, or lack sufficient context for a reliable translation.",
+   "line_id": 32606,
+   "source_hash": "c0f977560a78bcb68b0ce495d719647c9b1a8f3f5bf4bf85ee67601c058da1a4",
+   "source_condition": "uncertain"
+  }
+ }
+}

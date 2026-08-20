@@ -1,0 +1,46 @@
+{
+ "id": "4Q440b",
+ "label": "4Q440b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 438,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q440b f1:1": {
+   "en": "a bowl a gift",
+   "notes": "The transcription is heavily damaged and reconstructed, with uncertain readings. The first and last characters (ε) are untranslatable fragments. The word 'מִזְרָק' is reconstructed as 'bowl' but is uncertain. The phrase 'שי' is reconstructed as 'gift' but is also uncertain. No recoverable text beyond these two lexical items is present.",
+   "line_id": 21938,
+   "source_hash": "00fe103df511d292f466ac84c499fb71c98a92b0b22fd3f30e8e1a1f6992dfe9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q440b f1:2": {
+   "en": "and they will go many",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed characters. The translation reflects the recoverable words 'and' (וְ), 'they will go' (ילכו), and 'many' (רבים). The initial and final characters (ε) are untranslatable and omitted. The reconstructed character ]ק##[ is uncertain and not translated. The word 'רבים' is reconstructed and uncertain but translated as 'many' based on its lemma and morphology.",
+   "line_id": 21939,
+   "source_hash": "e6a889ac727154b571f207ad098f376843852a0d000e9f20ce2800000b0054ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q440b f1:3": {
+   "en": "to the court of the just",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged prefix and a partially legible adjective. The phrase 'to the court' is supported by repeated evidence, but the final word's reconstruction is tentative.",
+   "line_id": 21940,
+   "source_hash": "2e91ceb03617a732846d23ab41b28d0840732f466666b84e3a84c6ace8b4286c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q440b f1:4": {
+   "en": "to the whole gift",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The phrase 'to the whole gift' is based on the recoverable words, but the context and exact meaning remain unclear. The term 'gift' is a reconstruction, and the overall structure is fragmentary.",
+   "line_id": 21941,
+   "source_hash": "4864d42c276c49da1c136d89a29f93327ab975021e916468fe06be7eddb2f7f1",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

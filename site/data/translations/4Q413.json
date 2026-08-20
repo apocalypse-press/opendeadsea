@@ -1,0 +1,53 @@
+{
+ "id": "4Q413",
+ "label": "4Q413",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 405,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q413 f1_2:1": {
+   "en": "Purpose? knowledge they found and wisdom I will learn and understand in the ways of man and in works",
+   "notes": "The first word is damaged and uncertain, translated as 'purpose?' based on the provided gloss. The reconstruction of 'knowledge' is accepted. The verb 'find' is in the perfect tense, third-person common plural. The suffix on 'learn' is irregular, translated as 'I will learn' based on the provided morphology. The imperative 'understand' is plural, addressed to a group. The prepositions 'in' govern the plural nouns 'ways' and 'works'.",
+   "line_id": 18946,
+   "source_hash": "5463808ee0ad283e3a5116b88a594ba4a4c2ecfe67d252b4e6cbe36447605c35",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q413 f1_2:2": {
+   "en": "O son of humankind, for loving God, the man increased to an inheritance in knowledge of trustworthiness and abhorrence of the mouth",
+   "notes": "Uncertain transcription and reconstruction in 'Adam' (position 2), 'El' (position 7), and 'in' (position 13). Phrase evidence supported 'O son of humankind' (positions 1-2), 'he increased to' (positions 10-11), and 'to an inheritance' (positions 11-12). No semantic constraints applied.",
+   "line_id": 18947,
+   "source_hash": "36e6bd98a6968218f066e93420c29548c2c27831b58f246fa36bab73ed7dbf24",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q413 f1_2:3": {
+   "en": "All harm, the one walking after a rumor of his ears and the sight of his eyes, he shall not live. And now",
+   "notes": "The phrase 'all harm' is a reconstruction based on repeated phrase evidence. The word 'rumor' is uncertain due to damage in the transcription. The phrase 'the sight of his eyes' is a reconstruction based on repeated phrase evidence. The word 'not' is uncertain due to damage in the transcription.",
+   "line_id": 18948,
+   "source_hash": "e15929f17a601e1196117b2e9f58bc9409736ccfea08649a222158b5b0129e2d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q413 f1_2:4": {
+   "en": "Loyalty first and understand in years of a generation and a generation as I revealed myself to",
+   "notes": "Uncertain transcription and reconstruction in positions 3, 6, 7, and 10. Phrase evidence supported 'years of a generation' and 'did I reveal myself to', but the latter was adjusted to maintain grammatical person and agency.",
+   "line_id": 18949,
+   "source_hash": "beac26a6fad91fd19d1fc1f628315d65a2047c991d90cee8ea906f40626a19af",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q413 f1_2:5": {
+   "en": "to to",
+   "notes": "The transcription contains uncertain and reconstructed elements, with limited recoverable content. The repeated 'to' reflects the visible morphology, but the overall meaning remains unclear due to damage and ambiguous characters.",
+   "line_id": 18950,
+   "source_hash": "5c82e4b1416f18f7c0d8d8c479d59dc5dff548cad16b25e1ed416f8bcc5647d6",
+   "source_condition": "reconstructed"
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "4Q326",
+ "label": "4Q326",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 315,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q326 f1:1": {
+   "en": "In one of the fourth in sabbath, in the eighth at its appointed installation",
+   "notes": "Uncertain reconstruction of 'fourth' and damage in the transcription may affect the exact meaning.",
+   "line_id": 13789,
+   "source_hash": "8b1b599e62cea7eca6cc97608022c23562663947b7ba749ff32fdf97f4b4709b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q326 f1:2": {
+   "en": "In one eleven in [sabbath] in fourteen in the Passover day third in fifteen",
+   "notes": "Uncertain reconstruction of 'sabbath' at position 5. Unclear numerical values at positions 3, 8, and 16. Phrase evidence suggests 'days three' for positions 12-13, but not adopted due to lack of direct support in the visible text.",
+   "line_id": 13790,
+   "source_hash": "338db2987710424fa812b84af8ca81fd4fcad14c675f60acdb674719825cef9e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q326 f1:3": {
+   "en": "the festival of the matzos fourth day in eighteen in sabbath in twenty-five",
+   "notes": "Uncertain reconstruction of 'fourth' and two numerical values. Two unknown punctuation marks omitted.",
+   "line_id": 13791,
+   "source_hash": "73b52c7d99b786323278b234442e5c4172d5c73ae8dad8b08c1344991f7dec31",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q326 f1:4": {
+   "en": "Sabbath. In twenty-six at its appointed barley after the Sabbath. The first month.",
+   "notes": "Position 4: Uncertain numerical value, reconstructed as 'twenty-six'. Position 7: Reconstructed and uncertain word 'barley'.",
+   "line_id": 13792,
+   "source_hash": "17a0aa20b928d96d03edba9da828954c17f4f3429f369016737fd267b8583d91",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q326 f1:5": {
+   "en": "in thirty in second on [the] sabbath in ninth in sabbath in",
+   "notes": "Uncertain reconstruction and missing text indicated by [the]. Numbers and prepositions are partially damaged or unclear.",
+   "line_id": 13793,
+   "source_hash": "c02c1faa89f52f8f2bed117746d5ebf64674feb2ce481ae4e32fdd78af3661aa",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

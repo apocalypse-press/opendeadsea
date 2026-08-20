@@ -1,0 +1,53 @@
+{
+ "id": "1Q47",
+ "label": "1Q47",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 5,
+ "scroll_id": 40,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q47 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain fragments, with no recoverable lexical items in Hebrew or Greek. The visible forms (ε, ] # ותים, ε) do not provide sufficient evidence for a defensible translation.",
+   "line_id": 3707,
+   "source_hash": "882f86063ae513b04041bad39ffc43dffc75debf720d4f4ad6ed2705681ff7bb",
+   "source_condition": "uncertain"
+  },
+  "1Q47 f1:2": {
+   "en": "gate",
+   "notes": "The transcription is heavily damaged, with only the word 'gate' (שַׁעַר) partially recoverable. The surrounding characters (ε, ה) are uncertain or reconstructed and do not contribute to a defensible translation. The word 'gate' is translated based on the visible morphology and lexical gloss, but its context and completeness are unclear.",
+   "line_id": 3708,
+   "source_hash": "0227265ea73f1fbaa964f2eab076443fa429f42e7b522cd51a762464d1d15abf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q47 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and punctuation marks. The visible characters (ε, ׃) and reconstructions do not form translatable lexical units.",
+   "line_id": 3709,
+   "source_hash": "cd4f6db096f1e224ec07952b91c7081b4e6237e0875fd01c1720b431e4e1b1f7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q47 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments and reconstructions with no recoverable lexical content.",
+   "line_id": 3710,
+   "source_hash": "1be66d9a842fb27aa6222f3b11259cadbd9982039cab3b2dea608e25919a052c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q47 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items surviving. The only partially reconstructed word, 'נשי', is marked as uncertain and its gloss 'debt' cannot be confidently applied. All other elements are either unknown or damaged beyond translation.",
+   "line_id": 3711,
+   "source_hash": "ff8f96d7fdb71fcda3fc18ceb8a380f6d9d417f1439f3ea6e7313d1011881365",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

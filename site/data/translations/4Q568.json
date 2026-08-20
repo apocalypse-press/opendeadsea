@@ -1,0 +1,32 @@
+{
+ "id": "4Q568",
+ "label": "4Q568",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 2,
+ "scroll_id": 610,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q568 f1:1": {
+   "en": "These claims in their times, and he will contend, and he will say, I will speak to the highest",
+   "notes": "Uncertain elements include the first word, the phrase 'to the highest,' and the final word. Two words are reconstructed.",
+   "line_id": 31379,
+   "source_hash": "7cd01412f17c5d902f72bd0d0157ffe78204d4525e662ec3f83204b3a56da2e7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q568 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too fragmentary to convey meaningful content.",
+   "line_id": 31380,
+   "source_hash": "5a16ef89a6e181cadb51587acd18de33e09cd008b7ba44f07240944c08666f27",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

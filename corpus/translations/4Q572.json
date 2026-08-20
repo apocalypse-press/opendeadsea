@@ -1,0 +1,46 @@
+{
+ "id": "4Q572",
+ "label": "4Q572",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 614,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q572 f1:1": {
+   "en": "king from furnace",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters (ε, #) and a reconstructed term (כור#[). The translation reflects only the recoverable lexical items: 'king' (מלכ), 'from' (מן), and 'furnace' (כור#[).",
+   "line_id": 31573,
+   "source_hash": "4adc5661fd6ecabe6c097f0b5e4487afda8e8b852be5bbfedecd80a1161bd980",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q572 f1:2": {
+   "en": "king and he said to",
+   "notes": "Uncertain characters and damaged syntax prevent full recovery. The phrase 'he said to' is supported by repeated evidence but may not reflect the intended sense here. The initial 'ε' and final 'ε' are untranslatable and omitted.",
+   "line_id": 31574,
+   "source_hash": "4c87f5d9783f06dcf426f678edeff5bf4a9619267606e52528703d0555ddcd4e",
+   "source_condition": "uncertain"
+  },
+  "4Q572 f1:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items translatable into English. The visible forms and reconstructions do not provide sufficient evidence for a defensible translation.",
+   "line_id": 31575,
+   "source_hash": "3ad2ce2cc0767cadc8a5a4f6bddcf40b5a87539107406cffa4957942523f648e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q572 f1:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain fragments, with no defensible English words surviving.",
+   "line_id": 31576,
+   "source_hash": "a8c2c4f8b42bcb6c0349330ff3a63c858a3a90ba59958a16423269316fccbd35",
+   "source_condition": "uncertain"
+  }
+ }
+}

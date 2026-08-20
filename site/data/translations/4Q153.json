@@ -1,0 +1,46 @@
+{
+ "id": "4Q153",
+ "label": "4Q153",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 942,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q153 f1:1": {
+   "en": "and it burned the anger of Yahweh on",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'it burned the anger of Yahweh' and 'the anger of Yahweh on', preserving the recoverable lexical items in order. Uncertain characters and reconstructions are omitted, with no added subjects or connectors.",
+   "line_id": 49727,
+   "source_hash": "dc1806df68a011d6209be0f72fbfe075aa70459b884635e734466611d54b303c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q153 f1:2": {
+   "en": "And he restrained the heavens and it will not be rain and the soil it will not yield its produce and you perished in haste from upon the earth",
+   "notes": "The phrase 'it will not be rain' follows repeated phrase evidence for positions 7-9. The phrase 'it will yield its produce' follows repeated phrase evidence for positions 14-16. The translation preserves all recoverable lexical items in order, with no added subjects or connectors.",
+   "line_id": 49728,
+   "source_hash": "a30a7753407a1bd09837a58836dd017cdead7cc4e271ea6c79e5442c507454e2",
+   "source_condition": "reconstructed"
+  },
+  "4Q153 f1:3": {
+   "en": "The good which Yahweh has given you, and you shall put these words upon your hearts and upon your souls, and you tied",
+   "notes": "Uncertain reconstruction of 'word' at position 11. Phrase evidence supports 'good which Yahweh' and 'Yahweh he has given to' but the translation follows visible morphology and lexical glosses directly without adding unlicensed subjects or objects.",
+   "line_id": 49729,
+   "source_hash": "e9af8e04387ede9cff86aa77999d40d24eec239ccdb9a6c6894150d1bab82308",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q153 f1:4": {
+   "en": "them to a sign upon your hand and they will be for marks between your eyes",
+   "notes": "Uncertain reconstruction of 'marks between eyes' and damaged characters at the end of the line.",
+   "line_id": 49730,
+   "source_hash": "2cdc2a1002d628ec40327b4b360e99882c34d5d19726630d9fffe7164662cd10",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

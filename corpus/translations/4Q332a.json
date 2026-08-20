@@ -1,0 +1,25 @@
+{
+ "id": "4Q332a",
+ "label": "4Q332a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 1,
+ "scroll_id": 322,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q332a f1:1": {
+   "en": "as pleasure",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The word 'רצ#ו?[ נ׳ו' is reconstructed as 'רָצֹון' (pleasure), but its integrity is uncertain. The particle 'כְּ' (as/like) is the only fully recoverable word. The translation reflects the visible and reconstructable elements, but the overall meaning remains highly uncertain.",
+   "line_id": 13884,
+   "source_hash": "56e96e03c9703afc92993eb8ff2f725c619a3e994796550e6c4a0cd5caba8a61",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

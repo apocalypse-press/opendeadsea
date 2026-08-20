@@ -1,0 +1,67 @@
+{
+ "id": "4Q249l",
+ "label": "4Q249l",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 7,
+ "scroll_id": 185,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q249l f1:1": {
+   "en": "Among the peoples I have emptied you after a sword, and your land has become a desolation, and your cities will be ruins.",
+   "notes": "The phrase 'I have emptied you after a sword' is a reconstruction based on repeated phrase evidence. The term 'land a desolation' is supported by canonical occurrence. The phrase 'your cities will be ruins' is a direct translation with high-confidence semantic constraints.",
+   "line_id": 8791,
+   "source_hash": "915872846e72125dea94c0791a15e1781a2c82660742d009dd07e4504ba460b6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249l f1:2": {
+   "en": "Then the land will desire its sabbaths all the days of being desolate and you in the land of your enemies",
+   "notes": "The phrase 'land (et) sabbaths' is a high-confidence rendering of positions 4-6. 'All the days of' is a repeated phrase with strong support for positions 7-9. 'In the land their enemies' is a contextual rendering for positions 12-14, though 'your' is a necessary adjustment for grammatical person consistency with 'you'.",
+   "line_id": 8792,
+   "source_hash": "36c569d99ed706692fe4f52c41de081030c6553a3e6a2c79138f2b702be3d97f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249l f1:3": {
+   "en": "Then the land will cease, and it will accept sabbaths",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged earth reference and a final untranslatable character (ε). Phrase evidence supports 'it will accept sabbaths' for positions 7-9 and partially supports 'it will cease the land' for positions 3-5. The translation preserves visible morphology and lexical items but notes uncertainty in reconstruction and omitted untranslatable characters.",
+   "line_id": 8793,
+   "source_hash": "67f963206b526d258f52aa927c39e518f54b371a55a6fa8849a11b48326079e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249l f1:4": {
+   "en": "sabbath",
+   "notes": "The transcription is heavily damaged, with only the reconstructed word 'sabbath' recoverable. The surrounding characters (ε) are untranslatable and likely represent damage or editorial marks. The reconstruction of 'sabbath' is uncertain.",
+   "line_id": 8794,
+   "source_hash": "e21f83bee431a1321715023b37999984456125d57bf24ec81b4e7c607f45ea0a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249l f1:5": {
+   "en": "and the",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The visible particles 'וְ' (and) and 'אֵת_1' (the/object marker) are translated, but the surrounding characters (ε) are untranslatable. The object marker 'אֵת_1' is retained as 'the' due to its common usage in Hebrew, but its exact function here is uncertain.",
+   "line_id": 8795,
+   "source_hash": "b24ea9899bc9482fa7706223ac9bb4e68cb7e69befd332fa7fbdfd22cd339578",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q249l f1:6": {
+   "en": "Israel",
+   "notes": "The transcription contains untranslatable characters (ε) preceding and following the recoverable word 'Israel'; these are omitted from the translation.",
+   "line_id": 8796,
+   "source_hash": "1386c94066af16377d1ea10d7b162830c334638e2169a0ab8933018e713bfb20",
+   "source_condition": "clean"
+  },
+  "4Q249l f1:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements with no defensible English translation. The visible forms include a possible 'thorn' (שׁך) but lack sufficient context or recoverable material to construct meaningful English wording.",
+   "line_id": 8797,
+   "source_hash": "3355c3128007dcbad9f7c2d0ea14639af5ce62647763ecc0d78d1f5ac8313661",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "4Q468dd",
+ "label": "4Q468dd",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 3,
+ "scroll_id": 496,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q468dd f1:1": {
+   "en": "and the appointments of his pleasure which he engraved",
+   "notes": "Uncertain transcription and reconstruction in multiple words; relative pronoun 'which' added for clarity based on context.",
+   "line_id": 22595,
+   "source_hash": "36b95760898ace71d25623f0dd60a83340da07c7fa80e1b85162962b5677350a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468dd f1:2": {
+   "en": "of the interpretation their ends unto",
+   "notes": "Uncertain transcription and reconstruction throughout. 'Interpretation' is a tentative rendering of 'פרוש'. 'Their ends' reflects a reconstructed plural form of 'קֵץ'. 'Unto' is a possible sense of 'עַד_3' but context is unclear.",
+   "line_id": 22596,
+   "source_hash": "d30425a30925b4df79415e2b55809a5db2a29e0ab38e0834610cf621e50321e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q468dd f1:3": {
+   "en": "all the curse into",
+   "notes": "Translation is uncertain due to damaged and reconstructed text. The phrase 'all the curse into' is supported by repeated phrase evidence, but the overall meaning remains ambiguous.",
+   "line_id": 22597,
+   "source_hash": "8e64d24c05fd7ce1d67346d16396b8c736462e1f1f124b463e97c7d106fb5e3f",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

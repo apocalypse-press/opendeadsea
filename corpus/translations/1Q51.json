@@ -1,0 +1,46 @@
+{
+ "id": "1Q51",
+ "label": "1Q51",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 4,
+ "scroll_id": 43,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q51 f1:1": {
+   "en": "eternity and [no recoverable text]",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The word 'עֹולָם' is translated as 'eternity'. The remaining text contains no recoverable content due to extensive damage and uncertainty.",
+   "line_id": 3724,
+   "source_hash": "a68cd0eeb2006442cbe875ff23a8ab10c2a34e912cf031aa471708ca912f9575",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q51 f1:2": {
+   "en": "very in portions and",
+   "notes": "Translation is highly uncertain due to extensive damage and reconstruction. The word 'מְאֹד' (very) is partially recoverable, but its context is unclear. 'בְּ' (in) and 'חֹק' (portions) are partially visible but uncertain. The conjunction 'וְ' (and) is partially visible but uncertain. Other elements are irretrievably damaged or reconstructed. No recoverable text survives for the remaining positions.",
+   "line_id": 3725,
+   "source_hash": "1b873ad9b166a265517fcfe2e58a6c1dc8976b7e2e93c96a06683fe47bed0de4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q51 f1:3": {
+   "en": "and to walk in the whole",
+   "notes": "The translation is highly uncertain due to extensive damage and unclear context. The initial 'ε' and final 'ε' are untranslatable fragments. The damaged 'ם#' and following 'ו' are partially reconstructed. The verb 'תהלך' is infinitive construct, but its subject and object are unclear. 'צד' is reconstructed as 'צַדִּיק' (just), but its role is ambiguous. 'כול' (whole) lacks a clear referent. The translation conservatively connects recoverable elements without inventing relations.",
+   "line_id": 3726,
+   "source_hash": "afa1cff055469104a6cc476577428dcbc1820ad62edca253cb8b8b00e9f8a3ec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q51 f1:4": {
+   "en": "to in peace of the eternities",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed article (ה). The plural form of 'eternities' is used based on the morphology, though 'eternity' is the provided gloss.",
+   "line_id": 3727,
+   "source_hash": "0ab0ed91302b3a79809c1e96f30e7d31af00483212c1b4603124132ec93f7f7a",
+   "source_condition": "reconstructed"
+  }
+ }
+}
