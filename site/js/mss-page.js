@@ -42,6 +42,35 @@ function toPaleo(text) {
   return wrapHints(String(text).replace(/[\u05D0-\u05EA]/g, (ch) => HEBREW_TO_PALEO[ch] || ch));
 }
 
+function ensureLexicon() {
+  if (window.odsLexicon) return window.odsLexicon.load();
+  return new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = "/js/lexicon.js";
+    script.onload = () => window.odsLexicon.load().then(resolve, reject);
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+}
+
+function bindWordLookup(root, mss) {
+  if (!root || root.dataset.lexBound) return;
+  root.dataset.lexBound = "1";
+  root.addEventListener("click", (ev) => {
+    const btn = ev.target.closest("button.orig-word");
+    if (!btn) return;
+    const raw = btn.getAttribute("data-lex") || btn.getAttribute("data-form") || "";
+    ensureLexicon()
+      .then(() => {
+        const rec = window.odsLexicon.resolve(raw, mss && (mss.lang || mss.languages));
+        location.href = window.odsLexicon.href(rec || raw);
+      })
+      .catch(() => {
+        location.href = "/lex/?q=" + encodeURIComponent(raw);
+      });
+  });
+}
+
 function applyScript(mode) {
   document.querySelectorAll("[data-square]").forEach((el) => {
     const square = el.getAttribute("data-square") || "";
@@ -94,7 +123,8 @@ function heInner(line, mss) {
       .map((w) => {
         const t = w.t || "";
         const paleo = w.script === "paleo";
-        return `<span class="orig-word${paleo ? " is-paleo" : ""}" data-square="${esc(t)}"${paleo ? ' data-force-paleo="1"' : ""}>${esc(paleo ? toPaleo(t) : wrapHints(t))}</span>`;
+        const lex = w.lex || "";
+        return `<button type="button" class="orig-word${paleo ? " is-paleo" : ""}" data-square="${esc(t)}" data-form="${esc(t)}"${lex ? ` data-lex="${esc(lex)}"` : ""}${paleo ? ' data-force-paleo="1"' : ""} aria-label="Look up lemma">${esc(paleo ? toPaleo(t) : wrapHints(t))}</button>`;
       })
       .join(" ");
   }
@@ -293,6 +323,7 @@ function boot() {
         const jump = mss.view === "chapter" ? chapterJump(mss) : "";
         body.innerHTML = `${plates}${pager}<div class="${wrapClass}"${wrapAttr}>${frags}</div>${pager}${jump}`;
         if (mss.script === "paleohebrew" || mss.script === "mixed") renderToggle(mss.script);
+        bindWordLookup(body, mss);
       }
 
       const srcInfo = mss.source || {};

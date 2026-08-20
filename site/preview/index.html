@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Page templates. Open Dead Sea.</title>
+  <meta name="description" content="Templates for each page kind in the Open Dead Sea edition. Signing in and proposing a reading are not open yet.">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32-dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16-dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#030712" media="(prefers-color-scheme: dark)">
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=Inter:wght@400;500;600&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/app.css">
+  <script src="/js/icons.js" defer></script>
+  <script src="/js/session.js" defer></script>
+</head>
+<body class="app" data-page="preview" data-template="1">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="shell">
+    <div class="shell-bar">
+      <a class="mark" href="/">Open Dead Sea</a>
+      <nav class="nav" aria-label="Edition">
+        <a href="/catalog/" data-nav="catalog">Catalog</a>
+        <a href="/work/" data-nav="work">Works</a>
+        <a href="/search/" data-nav="search">Search</a>
+        <a href="/about/" data-nav="about">About</a>
+      </nav>
+      <div id="auth-slot" class="auth-slot">
+        <a class="btn btn-secondary" href="/signin/">Sign in</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <p class="page-kicker">Templates</p>
+    <h1>Each page kind, before the edition opens.</h1>
+    <p class="lede">These screens are the furniture. Public reading needs no account. Suggesting a reading will use GitHub. The bar above lets you preview a role. It does not sign you in.</p>
+    <ul class="template-index">
+      <li>
+        <a href="/catalog/">
+          <h2>Catalog</h2>
+          <p>A list of manuscripts. Dense, typographic, one row per witness.</p>
+        </a>
+      </li>
+      <li>
+        <a href="/read/">
+          <h2>Reader</h2>
+          <p>One line of Hebrew or Aramaic. Select a word. Follow the library for the plate.</p>
+        </a>
+      </li>
+      <li>
+        <a href="/work/">
+          <h2>Work</h2>
+          <p>A composition across copies. Isaiah first, then the other named works.</p>
+        </a>
+      </li>
+      <li>
+        <a href="/lex/?q=qol">
+          <h2>Lexeme</h2>
+          <p>Academic morph code first. Seeded BDB/Jastrow gloss. Strong's is a lookup, never the key.</p>
+        </a>
+      </li>
+      <li>
+        <a href="/search/">
+          <h2>Search</h2>
+          <p>Find a line, a lemma, or a manuscript.</p>
+        </a>
+      </li>
+      <li>
+        <a href="/edit/">
+          <h2>Suggest a reading</h2>
+          <p>The contributor form. Gated until GitHub sign-in exists.</p>
+        </a>
+      </li>
+      <li>
+        <a href="/proposal/">
+          <h2>Proposal</h2>
+          <p>A public change record. Anyone can read it. Reviewers vote here later.</p>
+        </a>
+      </li>
+      <li>
+        <a href="/review/">
+          <h2>Review queue</h2>
+          <p>Open proposals waiting for two peer reviewers.</p>
+        </a>
+      </li>
+      <li>
+        <a href="/account/">
+          <h2>Account</h2>
+          <p>Who you are, your tier, and how credit accrues.</p>
+        </a>
+      </li>
+      <li>
+        <a href="/signin/">
+          <h2>Sign in</h2>
+          <p>GitHub only. The start of the OAuth route.</p>
+        </a>
+      </li>
+      <li>
+        <a href="/about/">
+          <h2>About</h2>
+          <p>Method, photographs, and the licenses on the two Hebrew sources.</p>
+        </a>
+      </li>
+    </ul>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-inner">
+      <p>opendeadsea.org. Photographs stay at the libraries that published them.</p>
+      <p><a href="/preview/">Page templates</a> · <a href="/about/">Licenses</a></p>
+    </div>
+  </footer>
+</body>
+</html>

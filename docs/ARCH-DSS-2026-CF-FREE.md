@@ -4,7 +4,8 @@ Dead Sea Scrolls versioned corpus and gatekept community edits.
 Hosting target: Cloudflare Free plus GitHub.
 
 This file is the working copy of the specification. Implementation status
-is at the bottom.
+is at the bottom. Tree, imports, and cloud bindings:
+`docs/CODETREE-AND-CLOUD.md`.
 
 ## User tiers
 
@@ -42,31 +43,66 @@ Schema: `schema/fragment.schema.json` field `viewers`.
 
 ## Lexicon and lemma IDs
 
-Do **not** use Strong's numbers (`H559`, `G3056`) or Goodrick-Kohlenberger
-numbers. Those are Protestant concordance keys, not the scholarly lemma.
+Canonical lemma ID is the **academic morph code**: the SBL-style
+consonantal transliteration of the lexeme (`qol`, `qara`, `YHWH`).
+Strong's numbers (`H6963`) and Goodrick-Kohlenberger numbers are
+concordance keys, not the scholarly lemma — they may appear **only as
+optional metadata** (`strongs`), never as the primary id.
 
-Canonical lemma ID is the **consonantal lexeme in Unicode Hebrew or
-Aramaic** (`אמר`, `מלך`). That is how BDB, HALOT, and the SBL Handbook
-organize the language. Gloss from **BDB 1906** (public domain) keyed to
-that lexeme, not to a number. For Aramaic tokens, Jastrow 1903 (public
-domain) plus an outbound CAL link. Do not ingest HALOT, DCH, Cook, or CAL.
+Gloss from **BDB 1906** (public domain) keyed to that lexeme, not to a
+number. For Aramaic tokens, Jastrow 1903 (public domain) plus an
+outbound CAL link. Do not ingest HALOT, DCH, Cook, or CAL.
 
 Optional machine alias: ETCBC `lex` transcription (`>MR[`) when joining
 Text-Fabric / BHSA. That encoding is a computational convention, not a
 church numbering. Abegg-derived DSS *values* in `~/dss` remain CC BY-NC
 4.0 and are not copied into this repo.
 
-Token fields: `t` is the surface form; `lex` is the lemma. Never `strongs`.
+Token fields: `t` is the surface form; `lex` is the lemma (academic
+morph code). Lexicon records may carry optional `strongs` metadata.
 
-## Implementation status
+## Implementation status (2026-08-18)
 
-- [x] Coming-soon lander on Cloudflare Pages
-- [x] D1 schema
-- [x] Fragment JSON schema and CI validator
-- [x] Lemma IDs are Unicode lexemes, not Strong's
-- [x] CODEOWNERS stub
-- [ ] GitHub App registration and OAuth
-- [ ] D1 wired to CI for live reputation comments
-- [ ] Side-by-side editor
-- [ ] Reader UI for `viewers` outbound plate links
-- [ ] Academic verification workflow
+Public site: `https://opendeadsea.org/`. Repo:
+`https://github.com/apocalypse-press/opendeadsea`. Pages project
+`opendeadsea`. D1 `opendeadsea-trust`. Zone
+`0f224b96eb513c9e884f0934e225d0cc`.
+
+Furniture is live. Sign-in, votes, and the corpus are not.
+
+### Built
+
+| Area | What exists | Honest limit |
+|---|---|---|
+| DNS / host | `opendeadsea.org` on Cloudflare, apex/`www` proxied to Pages | No origin VPS |
+| Lander | Coming-soon copy at `/` | Editing is not open |
+| Page templates | Catalog, reader, work, lexeme, search, edit, proposal, review, account, sign-in, about, 404, `/preview/` | Sample / placeholder copy. Role bar is `sessionStorage`, not a session. |
+| Reader | Token select, lemma link, outbound `viewers` (Leon Levy) | One diplomatic fragment: `1QIsa-a` Isaiah 40:3-5 (MT-collated) |
+| Edit form | Gated by `capabilities.suggest`. Validates reading + reason. | Does not open a GitHub PR |
+| OAuth routes | `/auth/login`, `/callback`, `/logout`, `/auth/mock` (off), `/api/me` | No App secrets. Login 302s to `oauth-pending`. Session cookie code is ready. Access token is not stored. |
+| Trust schema | `schema/d1.sql` applied to D1. Login will upsert `users` when secrets exist. | No live rows from real sign-ins. `pr_votes` unused. |
+| Corpus contract | `schema/fragment.schema.json`, `schema/lexicon.schema.json`, `schema/manuscript.schema.json`, `scripts/validate-*.mjs` | 1001 manuscript pages of original-language wording from ETCBC/dss. Translation not yet. Sources: `docs/SOURCES.md`. |
+| Lemma rule | Academic morph code (`id` in `corpus/lexicon/`) is the primary key. `/lex/?q=` looks up the seeded Hebrew and Aramaic packs. Strong's is a public-domain lookup, never the key. CAL is outbound for Aramaic. | Full BDB 1906 / Jastrow 1903 ingestion still open |
+| Plates | Outbound `https` viewers only. CSP does not allow remote images. | No hosted plates |
+| License posture | Abegg ETCBC/dss and BHSA 2021 named as NC sources. Values not copied here. | Do not ingest those values until NC is accepted in writing |
+| Governance stub | `CODEOWNERS` (`@elcafe7`). `pr-validation.yml` schema-checks fragments and posts a stub trust comment. | Comment does not read D1 |
+| Docs | `docs/AUTH.md`, `docs/github-app-setup.md`, `docs/UI-TEMPLATES.md` | This file is the spec + ledger |
+
+### Remaining
+
+Do these in order. Later rows assume the earlier ones.
+
+1. **GitHub App (human).** Create `Open Dead Sea` on `apocalypse-press`, install on this repo only. Hand-holding: `docs/github-app-setup.md`. Send back App ID, Client ID, slug, install confirmation. Never mail the client secret or PEM.
+2. **Wrangler secrets.** `GITHUB_CLIENT_ID`, `GITHUB_CLIENT_SECRET`, `SESSION_SECRET` on the Pages project. Then `/auth/login` starts real GitHub OAuth. `docs/AUTH.md`.
+3. **Store the user-to-server token** (encrypted). Needed before Suggest Edit can open a PR under the signed-in user. Cookie must not hold the GitHub token.
+4. **Open a PR from `/edit/`.** Fragment id, token index, proposed form, reason, reputation in the PR body. Still no Worker required for the create step once the App token exists.
+5. **D1 in CI.** Replace the stub trust comment with live `reputation_score` / `tier_level`. Anti-abuse checks beyond the schema validator.
+6. **Translations** on the manuscript pages (machine aids). Original language is already on `/m/<siglum>/` from ETCBC/dss. Do not print BHSA glosses as the English of a line.
+7. **Side-by-side editor.** Current vs proposed tokens on the live fragment, not the static `/proposal/` mock.
+8. **Votes.** Persist `pr_votes`. Quorum: two Tier 2 or one Tier 3 merges. Actions rebuild Pages.
+9. **Lexica (full ingest).** Seeded Hebrew (Isaiah 40:3-5) and Aramaic lemmas are wired. Remaining: full BDB 1906 and Jastrow 1903 keyed to the academic morph code. Strong's stays metadata. No HALOT, no DCH.
+10. **Academic verification.** Tier 3 write path. Reputation 500 or this flag promotes Tier 2.
+11. **Translations** in the reader (machine aids, NC inherited if they ride on Abegg text).
+12. **Export** of consensus text for readers (no account).
+
+Out of scope until someone says otherwise: hosting plates, ingesting Abegg/BHSA values, Bot Fight Mode on the new routes (CSP already broke the lander once), DNSSEC, mail on this zone.
