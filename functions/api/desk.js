@@ -1,7 +1,7 @@
 import { json } from "../_lib/http.js";
-import { capabilitiesFor, readSession } from "../_lib/session.js";
+import { capabilitiesFor, publicUser, readSession } from "../_lib/session.js";
 import { loadDesk, loadGithubHistory } from "../_lib/review.js";
-import { loadUser, publicUser } from "../_lib/users.js";
+import { loadUser } from "../_lib/users.js";
 
 export async function onRequestGet(context) {
   const { request, env } = context;
