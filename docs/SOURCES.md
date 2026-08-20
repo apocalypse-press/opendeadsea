@@ -120,6 +120,28 @@ Writes `corpus/translations/<siglum>.json` and a served copy under
 `line.en` as a first draft. It is not the edition translation. Incomplete
 manuscripts (planned, error, or invalid leftovers) are held back.
 
+## Translation queue (catalog buckets)
+
+Every catalog manuscript is in one public queue bucket:
+
+| Bucket | Key | How it is assigned |
+|---|---|---|
+| No translation | `none` | Default. No published first-draft pack, and no leftover error/invalid/partial AI. |
+| AI translation | `ai` | A complete first-draft pack is on the site. |
+| Human sign off | `signoff` | Maintainer override only, until crowdsourced review ships. |
+| Human edit recommended | `edit` | Explorer leftovers: error, invalid, or mixed valid+planned lines. |
+
+```sh
+python3 scripts/export_translation_queue.py
+```
+
+Writes `corpus/translations/queue.json` and `site/data/translations/queue.json`.
+The catalog facet reads that file. To move a manuscript into human sign off
+or to flag an AI pack for rewrite, edit
+`corpus/translation-queue-overrides.json` and re-run the exporter. Do not
+put overrides under `corpus/translations/` (`export_first_drafts.py`
+deletes that directory).
+
 ## Regenerating wording
 
 ```sh

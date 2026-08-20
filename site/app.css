@@ -463,6 +463,11 @@ body[data-page="manuscript"] .page h1 {
   color: var(--color-badge-success-text);
 }
 
+.badge-warn {
+  background: var(--color-badge-warning-bg);
+  color: var(--color-badge-warning-text);
+}
+
 .reader {
   display: grid;
   grid-template-columns: 1fr;
@@ -790,6 +795,14 @@ body[data-page="manuscript"] .page h1 {
   outline: var(--focus);
   outline-offset: 2px;
 }
+.facet-row button .count {
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+.facet-row button[aria-pressed="true"] .count {
+  color: inherit;
+  opacity: 0.8;
+}
 .catalog-find {
   margin-bottom: var(--space-4);
 }
@@ -834,10 +847,7 @@ body[data-page="manuscript"] .page h1 {
   margin-bottom: var(--space-4);
 }
 .catalog-groups .index a {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  min-height: 44px;
+  min-height: var(--target);
 }
 .catalog-groups .index a:hover h2 {
   text-decoration: underline;

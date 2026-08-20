@@ -157,10 +157,41 @@ function applyFirstDraft(mss, pack) {
 
 function loadFirstDraft(mss) {
   if (!mss || !mss.id) return Promise.resolve(mss);
-  return fetch("/data/translations/" + encodeURIComponent(mss.id) + ".json")
-    .then((r) => (r.ok ? r.json() : null))
-    .catch(() => null)
-    .then((pack) => applyFirstDraft(mss, pack));
+  const names = [mss.id];
+  if (mss.label) {
+    const slug = String(mss.label).replace(/\//g, "-");
+    if (slug && names.indexOf(slug) === -1) names.push(slug);
+  }
+  const tryNext = (i) => {
+    if (i >= names.length) return Promise.resolve(mss);
+    return fetch("/data/translations/" + encodeURIComponent(names[i]) + ".json")
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null)
+      .then((pack) => (pack ? applyFirstDraft(mss, pack) : tryNext(i + 1)));
+  };
+  return tryNext(0);
+}
+
+function ensureQueue() {
+  if (window.odsQueue) return Promise.resolve(window.odsQueue);
+  return new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = "/js/queue.js";
+    script.onload = () => resolve(window.odsQueue);
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+}
+
+function loadQueue(mss) {
+  if (!mss) return Promise.resolve(mss);
+  return ensureQueue()
+    .then((api) => api.load([mss]))
+    .then(() => mss)
+    .catch(() => {
+      mss.queue = mss.queue || "none";
+      return mss;
+    });
 }
 
 function lineHTML(line, mss) {
@@ -265,6 +296,7 @@ function boot() {
       return r.json();
     })
     .then((mss) => loadFirstDraft(mss))
+    .then((mss) => loadQueue(mss))
     .then((mss) => {
       document.body.dataset.script = mss.script || "";
       const bits = [];
@@ -282,12 +314,14 @@ function boot() {
         bits.push(`${mss.line_count} lines`);
       }
       if (mss.biblical) bits.push("biblical");
-      if (mss.translation_count) {
+      if (window.odsQueue) {
+        bits.push(window.odsQueue.lede(mss.queue || "none", mss.translation_count || 0));
+      } else if (mss.translation_count) {
         bits.push(
           `machine-aid first draft on ${mss.translation_count} lines; human review pending; not the edition's translation`
         );
       } else {
-        bits.push("translation is not in the edition yet");
+        bits.push("No translation in the edition yet");
       }
       if (lede) lede.textContent = bits.join(". ") + ".";
 
@@ -331,9 +365,13 @@ function boot() {
         if (mss.wording_status === "absent") {
           credit.innerHTML = `<p>Not in <a href="https://github.com/ETCBC/dss">ETCBC/dss</a> (Abegg). Cataloged so the Greek Cave 4, Cave 7, and Nahal Hever witnesses have a home. Photographs: IAA Leon Levy library.</p>`;
         } else {
-          const aid = mss.translation_count
-            ? " Machine-aid English is a first draft for human review, not the edition's translation, and not a BHSA gloss."
-            : " The BHSA gloss is not the English of this manuscript.";
+          const aid = mss.queue === "signoff"
+            ? " English on this page has a human sign off. It is still not a BHSA gloss."
+            : mss.queue === "edit"
+              ? " Human edit is recommended. Machine-aid English here is not ready to sign off, and it is not a BHSA gloss."
+              : mss.translation_count
+                ? " Machine-aid English is a first draft for human review, not the edition's translation, and not a BHSA gloss."
+                : " The BHSA gloss is not the English of this manuscript.";
           credit.innerHTML = `<p>Wording from <a href="${esc(srcInfo.wording_repo || "https://github.com/ETCBC/dss")}">${esc(srcInfo.wording_dataset || "ETCBC/dss")}</a> (Abegg), ${esc(srcInfo.wording_license || "CC BY-NC 4.0")}. Lexical grounding from <a href="${esc(srcInfo.lexicon_repo || "https://github.com/ETCBC/bhsa")}">${esc(srcInfo.lexicon_dataset || "ETCBC/BHSA 2021")}</a>, ${esc(srcInfo.lexicon_license || "CC BY-NC 4.0")}.${aid} Photographs stay at the libraries that published them.</p>`;
         }
       }

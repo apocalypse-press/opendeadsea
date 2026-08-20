@@ -32,6 +32,9 @@ jobs:
       - name: Validate first-draft translation packs
         run: node scripts/validate-translations.mjs
 
+      - name: Validate translation queue
+        run: node scripts/validate-translation-queue.mjs
+
       - name: Post trust badge stub
         if: github.event_name == 'pull_request'
         env:

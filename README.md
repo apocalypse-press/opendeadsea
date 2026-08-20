@@ -18,7 +18,9 @@ votes/quorum, academic verification, edition translations (human-reviewed).
 
 First-draft machine-aid English is staged for manuscripts whose Explorer
 drafts are complete: `python3 scripts/export_first_drafts.py`. Those packs
-are for human review, not the edition.
+are for human review, not the edition. The catalog then buckets every
+manuscript as no translation, AI translation, human sign off, or human
+edit recommended (`python3 scripts/export_translation_queue.py`).
 
 Next human step: confirm the App is installed on this repo only. Next
 machine step after secrets: `docs/AUTH.md`.
@@ -44,6 +46,7 @@ CODEOWNERS                Tier 3
 node scripts/validate-fragments.mjs
 node scripts/validate-lexicon.mjs
 node scripts/validate-translations.mjs
+node scripts/validate-translation-queue.mjs
 ```
 
 ## Deploy

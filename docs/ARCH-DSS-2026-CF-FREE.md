@@ -81,7 +81,8 @@ Furniture is live. Sign-in, votes, and the corpus are not.
 | Edit form | Gated by `capabilities.suggest`. Validates reading + reason. | Does not open a GitHub PR |
 | OAuth routes | `/auth/login`, `/callback`, `/logout`, `/auth/mock` (off), `/api/me` | No App secrets. Login 302s to `oauth-pending`. Session cookie code is ready. Access token is not stored. |
 | Trust schema | `schema/d1.sql` applied to D1. Login will upsert `users` when secrets exist. | No live rows from real sign-ins. `pr_votes` unused. |
-| Corpus contract | `schema/fragment.schema.json`, `schema/lexicon.schema.json`, `schema/manuscript.schema.json`, `scripts/validate-*.mjs` | 1001 manuscript pages of original-language wording from ETCBC/dss. Translation not yet. Sources: `docs/SOURCES.md`. |
+| Corpus contract | `schema/fragment.schema.json`, `schema/lexicon.schema.json`, `schema/manuscript.schema.json`, `schema/translation.schema.json`, `schema/translation-queue.schema.json`, `scripts/validate-*.mjs` | Original-language wording from ETCBC/dss. First-draft English packs plus catalog queue buckets. Sources: `docs/SOURCES.md`. |
+| Translation queue | Catalog chips and row badges from `site/data/translations/queue.json` | Human sign off is empty until `corpus/translation-queue-overrides.json` is set. Machine English is not the edition. |
 | Lemma rule | Academic morph code (`id` in `corpus/lexicon/`) is the primary key. `/lex/?q=` looks up the seeded Hebrew and Aramaic packs. Strong's is a public-domain lookup, never the key. CAL is outbound for Aramaic. | Full BDB 1906 / Jastrow 1903 ingestion still open |
 | Plates | Outbound `https` viewers only. CSP does not allow remote images. | No hosted plates |
 | License posture | Abegg ETCBC/dss and BHSA 2021 named as NC sources. Values not copied here. | Do not ingest those values until NC is accepted in writing |

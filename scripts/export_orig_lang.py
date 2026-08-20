@@ -511,6 +511,7 @@ PAGE = """\
   <script src="/js/icons.js" defer></script>
   <script src="/js/session.js" defer></script>
   <script src="/js/lexicon.js" defer></script>
+  <script src="/js/queue.js" defer></script>
   <script src="/js/mss-page.js" defer></script>
 </head>
 <body class="app" data-page="manuscript" data-mss-src="{src}">

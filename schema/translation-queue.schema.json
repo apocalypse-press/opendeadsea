@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opendeadsea.org/schema/translation-queue.schema.json",
+  "title": "Open Dead Sea manuscript translation-queue index",
+  "type": "object",
+  "required": ["buckets", "default", "counts", "manuscripts"],
+  "additionalProperties": true,
+  "properties": {
+    "default": { "type": "string", "enum": ["none", "ai", "signoff", "edit"] },
+    "buckets": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["key", "label"],
+        "properties": {
+          "key": { "type": "string", "enum": ["none", "ai", "signoff", "edit"] },
+          "label": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "required": ["none", "ai", "signoff", "edit"],
+      "properties": {
+        "none": { "type": "integer", "minimum": 0 },
+        "ai": { "type": "integer", "minimum": 0 },
+        "signoff": { "type": "integer", "minimum": 0 },
+        "edit": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "manuscript_count": { "type": "integer", "minimum": 0 },
+    "manuscripts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["queue", "source"],
+        "properties": {
+          "queue": { "type": "string", "enum": ["none", "ai", "signoff", "edit"] },
+          "source": { "type": "string", "enum": ["derived", "override"] },
+          "valid": { "type": "integer", "minimum": 0 },
+          "planned": { "type": "integer", "minimum": 0 },
+          "error": { "type": "integer", "minimum": 0 },
+          "invalid": { "type": "integer", "minimum": 0 },
+          "line_count": { "type": "integer", "minimum": 0 },
+          "pack": { "type": "boolean" },
+          "derived": { "type": "string", "enum": ["none", "ai", "signoff", "edit"] }
+        }
+      }
+    }
+  }
+}

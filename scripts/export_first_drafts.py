@@ -146,6 +146,11 @@ def main() -> int:
     )
     skipped = sum(1 for lines in by_label.values() if any(r["status"] != "valid" for r in lines.values()))
     print(f"held back {skipped} manuscripts with leftover planned/error/invalid lines")
+    import subprocess
+    import sys
+
+    queue_script = Path(__file__).with_name("export_translation_queue.py")
+    subprocess.check_call([sys.executable, str(queue_script)])
     return 0
 
 

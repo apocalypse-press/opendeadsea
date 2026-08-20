@@ -11,7 +11,9 @@ function fail(msg) {
   failed += 1;
 }
 
-const files = readdirSync(DIR).filter((name) => name.endsWith(".json") && name !== "index.json");
+const files = readdirSync(DIR).filter(
+  (name) => name.endsWith(".json") && name !== "index.json" && name !== "queue.json",
+);
 const index = JSON.parse(readFileSync(join(DIR, "index.json"), "utf8"));
 if (index.status !== "first-draft") fail("index.json: status must be first-draft");
 if (index.manuscript_count !== files.length) {
