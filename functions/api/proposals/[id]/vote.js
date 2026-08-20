@@ -1,6 +1,6 @@
-import { json } from "../../../../_lib/http.js";
-import { capabilitiesFor, requireUser } from "../../../../_lib/session.js";
-import { insertEvent, nid, nowIso, statusAfterVotes, updateProposalStatus, upsertVote } from "../../../../_lib/review.js";
+import { json } from "../../../_lib/http.js";
+import { capabilitiesFor, requireUser } from "../../../_lib/session.js";
+import { insertEvent, nid, nowIso, statusAfterVotes, updateProposalStatus, upsertVote } from "../../../_lib/review.js";
 
 export async function onRequestPost(context) {
   const { request, env, params } = context;
