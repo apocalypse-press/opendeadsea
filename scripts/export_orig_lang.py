@@ -13,6 +13,7 @@ import shutil
 import sqlite3
 from collections import Counter, defaultdict
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 DB = Path.home() / "dss-explorer" / "data" / "dss.sqlite3"
@@ -154,6 +155,23 @@ def load_iaa_names() -> None:
         cur = IAA_NAMES.get(key)
         if not cur or not cur.get("name") or "Multiple Compositions" in (cur.get("name") or ""):
             IAA_NAMES[key] = rec
+
+
+WIKIPEDIA_TITLES: dict = {}
+
+
+def load_wikipedia_titles() -> None:
+    path = CORPUS / "wikipedia.json"
+    if path.exists():
+        WIKIPEDIA_TITLES.update(json.loads(path.read_text(encoding="utf-8")))
+
+
+def wikipedia_url(raw_label: str) -> str | None:
+    title = WIKIPEDIA_TITLES.get(raw_label)
+    if not title:
+        return None
+    segment = quote(title.replace(" ", "_"), safe="()'")
+    return f"https://en.wikipedia.org/wiki/{segment}"
 
 
 def official_names(raw_label: str, familiar: str) -> tuple[str, str, dict]:
@@ -559,6 +577,7 @@ def main() -> None:
     if not DB.exists():
         raise SystemExit(f"missing Explorer database {DB}")
     load_iaa_names()
+    load_wikipedia_titles()
 
     con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
     con.row_factory = sqlite3.Row
@@ -730,6 +749,7 @@ def main() -> None:
             "translation_count": sum(1 for frag in fragments for ln in frag["lines"] if ln.get("en")),
             "iaa_url": iaa_url,
             "museum_url": s["museum_url"],
+            "wikipedia_url": wikipedia_url(s["label"]),
             "source": source,
             "fragments": fragments,
         }
@@ -763,6 +783,7 @@ def main() -> None:
                 "word_count": payload["word_count"],
                 "iaa_url": payload["iaa_url"],
                 "museum_url": s["museum_url"],
+                "wikipedia_url": payload["wikipedia_url"],
                 "path": f"/m/{slug}/",
                 "lines_with_text": nonempty,
             }
@@ -985,6 +1006,7 @@ def _extra_index(payload: dict) -> dict:
         "word_count": 0,
         "iaa_url": payload.get("iaa_url"),
         "museum_url": payload.get("museum_url"),
+        "wikipedia_url": payload.get("wikipedia_url"),
         "path": f"/m/{payload['id']}/",
         "lines_with_text": 0,
         "wording_status": payload.get("wording_status") or "absent",

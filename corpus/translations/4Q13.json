@@ -1,0 +1,508 @@
+{
+ "id": "4Q13",
+ "label": "4Q13",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 70,
+ "scroll_id": 791,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q13 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of two untranslatable characters (ε), with no recoverable lexical content.",
+   "line_id": 40674,
+   "source_hash": "cd32185f0d01b50b0b40426c6cbdaca3dd8a6b0afee735ab6dc9af00464af3b1",
+   "source_condition": "clean"
+  },
+  "4Q13 f1:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of two untranslatable characters (ε) with no recoverable lexical content.",
+   "line_id": 40675,
+   "source_hash": "358e771f0c154477bee074d02c24f2bba3b3b08b8ea32721f7e6d733618077eb",
+   "source_condition": "clean"
+  },
+  "4Q13 f1:3": {
+   "en": "These are the names of the sons of Israel who came from Egypt: Jacob their father, the man, and his house.",
+   "notes": "The translation follows the highest-supported phrase evidence for 'these [are] the names of the sons' and '(et) Jacob father'. The phrase 'the people of Israel' is not used here as it does not fit the context. The word 'ε' at the beginning is omitted as it cannot be translated independently, and its meaning is uncertain. The reconstruction of 'ו' is noted but not bracketed in the translation.",
+   "line_id": 40676,
+   "source_hash": "38aeb883eab8bd0d46551e73ff737a5fb82425611b3508e29efa68b106f569f9",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f1:4": {
+   "en": "They came: Reuben, Simeon, Levi, and Judah. Issachar, Zebulun, Joseph, and Benjamin.",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged final name (Benjamin). Punctuation marks are omitted from the translation.",
+   "line_id": 40677,
+   "source_hash": "62ae531144d6732cf415c8df7feffb59c38ae8b82bde9a48463c9c41defebd04",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f1:5": {
+   "en": "Dan and Naphtali Gad and Asher and it was all being to Jacob five and seventy being and he died Joseph",
+   "notes": "The phrase 'all being' is a conservative rendering of 'כל נפש' based on repeated phrase evidence. The number 'שבעים' is translated as 'seventy' despite its uncertain gloss. The verb 'ימת' is reconstructed and translated as 'he died'.",
+   "line_id": 40678,
+   "source_hash": "aa8fd475ed1dd64cfcadc29021b3bf60ae8529e232a9ad2e863e3980fd46b377",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f1:6": {
+   "en": "And all brothers and all the generation that",
+   "notes": "Uncertain reconstruction and damaged text at the end of the line.",
+   "line_id": 40679,
+   "source_hash": "0cab2b455c22dbc906f0e4987bc76966e206219e3707d770d7aee3f6693d70af",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f2:1": {
+   "en": "And he said in bearing the Hebrews and you saw",
+   "notes": "Uncertain reconstruction of 'bearing' (ילד) and damaged text at the beginning.",
+   "line_id": 40680,
+   "source_hash": "d783a500067c82d19e521879d632a8ec850c8ee41065e56009125ae5663bebb2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f2:2": {
+   "en": "Upon the stones, if a son he is, you shall put him to death, and if a daughter she is, she shall live. And they feared the midwives.",
+   "notes": "The phrase 'Upon the stones' is uncertain due to reconstruction. The verbs 'shall put' and 'shall live' are reconstructed from damaged forms. The phrase 'they feared the midwives' is supported by repeated phrase evidence.",
+   "line_id": 40681,
+   "source_hash": "95cbdf79bf248a27370be3f09323d3a094242f74f59ddaa9ce49740ded2f8f3a",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f2:3": {
+   "en": "[the gods and not made as which he spoke to the king of Egypt] and let live the boys",
+   "notes": "The translation follows the recoverable text, preserving the lacuna at the beginning. Phrase evidence supports 'the king of Egypt' and 'speak to'. The verb 'let live' is a conservative rendering of the piel form of 'חיה' with a direct object marked by 'את'.",
+   "line_id": 40682,
+   "source_hash": "1ec079f6cea04f41dc2902296f48e544041b66f59876c45def479b948f039350",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f2:4": {
+   "en": "And he summoned the king of Egypt to the midwives, the Hebrews, and he said to them, 'Why have you done this thing?'",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'the king of Egypt', 'midwives (the) Hebrew', and 'he said to'. Uncertainty remains in the reconstruction of 'midwives' and the precise syntax around 'why' and 'this thing'.",
+   "line_id": 40683,
+   "source_hash": "4b529146482a7c7fc5fed8020558955ef67a555dc47efe6395b6ca16e3cea545",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f2:5": {
+   "en": "And you shall keep alive the boys. And they said to Pharaoh, 'Because not as women, the Egyptians.'",
+   "notes": "The phrase 'they said the midwives' is a repeated pattern, but it is not directly supported by the visible text. The translation follows the visible morphology and lexical items instead.",
+   "line_id": 40684,
+   "source_hash": "52fa24dc427afa2ac9d1137a2fe4eaa560584811fa68f3f8e6c7250349ac117e",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f2:6": {
+   "en": "The Hebrew that before she came to the midwife and bore. And he bore. And may he make good God to those who bear.",
+   "notes": "Uncertain transcription and reconstruction in positions 6 and 17. Phrase evidence supported 'may he make good God' and 'he came to', but the latter was not adopted due to uncertainty in the transcription. The translation conservatively retains all recoverable words in order, with minimal smoothing.",
+   "line_id": 40685,
+   "source_hash": "d9ebbb1161ef0ec68a74a465942d49289495f93ea306e7809dd06e4bfebf73ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f2:7": {
+   "en": "And the people became very numerous and strong, because they feared the gods and made houses for them.",
+   "notes": "The phrase 'they feared the midwives' is a high-confidence contextual rendering for positions 11-13, but 'the gods' is a more plausible translation given the context. The phrase 'it increased the people' is a repeated phrase evidence for positions 2-4, but 'the people became very numerous' is a more natural translation. The phrase 'to the house' is a repeated phrase evidence for positions 19-20, but 'for them' is a more plausible translation given the context.",
+   "line_id": 40686,
+   "source_hash": "04e59e55c5948d7ddab1c74cb758142dbc630066835c3be547f944cc2b381ca9",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f3i_4:1": {
+   "en": "And she hid three months and was not able still to hide and she took to mother an ark of papyrus and covered in bitumen",
+   "notes": "Uncertain elements include the reading of 'months' (position 4), the verb 'was able' (position 8), the particle 'still' (position 9), and the infinitive 'to hide' (position 10). The phrase 'take to mother' (positions 12-13) is supported by repeated evidence, but its support is relatively low. The translation assumes 'ark' for 'תבת' based on lexical gloss, but context could suggest 'chest'.",
+   "line_id": 40687,
+   "source_hash": "fef1e92082d4812b01bce67607a52150650fb2d0180ea8e153ed465986ab1ff6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:2": {
+   "en": "And in pitch and she placed it in the boy and she said to her maidservant go and she placed it in the Suph upon the bank of the River",
+   "notes": "The translation includes several uncertain and reconstructed words, notably 'boy' (י#?לד), 'said' (ת##ו?אמר), and 'placed' (ת ]ש#ים). The phrase 'upon the bank of the River' is supported by repeated phrase evidence. Other parts of the text are fragmented and uncertain, particularly around the use of prepositions and object markers.",
+   "line_id": 40688,
+   "source_hash": "9c65f6c8169c9d08ba06211bf6e570be653811139ab0ead004929b6c5637b6bb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:3": {
+   "en": "And she stood, the sister from a remote place to know what will be made for him. And she went down, the daughter of Pharaoh to wash upon the Nile.",
+   "notes": "The phrase 'to know what will be made for him' is a reconstruction based on repeated phrase evidence. The phrase 'the daughter of Pharaoh' is supported by high-confidence semantic constraints. The verb 'wash' is uncertain due to damage in the transcription.",
+   "line_id": 40689,
+   "source_hash": "843bae27573a96d3a62873c99a3535100a5e3d0d5b839097869f7296c07cdc34",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:4": {
+   "en": "And my girls walking upon the hand of the Nile, and she saw the ark in the midst of the reeds, and she sent her handmaid.",
+   "notes": "The phrase 'the hand of the Nile' is a reconstruction based on repeated phrase evidence, though its support is limited. The text contains no other significant uncertainties.",
+   "line_id": 40690,
+   "source_hash": "7e7e31106cfec7ecb71d41eae3f9865c1d73a0b9952e8271112fb6ec5d612923",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f3i_4:5": {
+   "en": "And she took him, and opened, and saw the boy, behold a boy weeping, and she had compassion on him, the daughter of Pharaoh",
+   "notes": "Uncertainty in transcription and reconstruction at positions 3, 6, 11, 12, 13, 16, 17. Phrase evidence supported 'the daughter of Pharaoh' and 'he had compassion on', but 'he' is not recoverable from the source; 'him' is licensed by the suffixed morphology on 'תחמו ]ל#'. 'On the house' was not used as it does not fit the context.",
+   "line_id": 40691,
+   "source_hash": "aff7ee3b6f1552768d679fc9d64e0e3c6f3c1563c44b46b5b66940ab54bed553",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:6": {
+   "en": "And she said of the boys the Hebrews this and did you say sister to the daughter of Pharaoh shall I go and I called to you",
+   "notes": "Uncertain reconstruction and damage affect the flow and clarity of the sentence. The phrase 'did you say sister' is a high-confidence contextual rendering, but its connection to the surrounding text is uncertain. The phrase 'to the daughter of Pharaoh' is also a high-confidence rendering, but its relationship to the preceding and following words is unclear. The final phrase 'and I called to you' is uncertain due to damage in the source text.",
+   "line_id": 40692,
+   "source_hash": "d0438bb39aaea1521b74c051789dfb09131feb0af832fcea5eff58335330a72c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:7": {
+   "en": "A woman nursing from the Hebrews and she nursed the boy to her and the daughter of Pharaoh said go and she went",
+   "notes": "The phrase 'the daughter of Pharaoh' is supported by repeated phrase evidence. The verb 'said' is translated based on the lexical gloss of the lemma 'אמר_1'. The imperative 'go' is translated based on the lexical gloss of the lemma 'הלך'.",
+   "line_id": 40693,
+   "source_hash": "f99ba5f5d011380369753cb7eb8515a182ec62c6b745a64662cfd2f97e0ee4e6",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f3i_4:8": {
+   "en": "And the young woman called the mother of the boy and she said to the daughter of Pharaoh go with the lad this",
+   "notes": "Uncertain elements include the reconstruction of 'boy' (positions 8, 18), the preposition 'to' (position 12), and the phrase 'daughter of Pharaoh' (positions 13-14). The phrase 'the daughter of Pharaoh' is supported by repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, preserving all recoverable words in order.",
+   "line_id": 40694,
+   "source_hash": "c0d8456585ffef3ae5f52e4a18d3ae60f0213aecb51899bc616cfae827b123f2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:9": {
+   "en": "And she shall suckle to me, and I will give your hire, and the woman took the boy and suckled him. And he grew up the boy and she brought him",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence informing the rendering of 'he grew up the child' and 'she took the woman'. The glosses for 'suck' and 'come' are retained where no stronger evidence is available. The object marker 'את' is omitted in the translation as it does not add clarity in English. The notes clarify the handling of uncertain or reconstructed elements.",
+   "line_id": 40695,
+   "source_hash": "1c90bd639a9d18c978feb6e2d3e92564e8ef18fd5b1613893bda68aadb5f9636",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f3i_4:10": {
+   "en": "To the daughter of Pharaoh and there was to her a son and she called his name Moses and she said that from the water",
+   "notes": "The phrase 'there was to her a son' is a literal translation of the Hebrew, which may sound unnatural in English. The phrase 'there Moses' is a dominant contextual rendering of positions 11-12, but it is not directly supported by the visible transcription, so it is not used in the translation. The phrase 'the daughter of Pharaoh' is a dominant contextual rendering of positions 2-3, and it is used in the translation.",
+   "line_id": 40696,
+   "source_hash": "d0e259b49cc1a6ef835fa955924420536eec4337e999910cf229be2ddbfb4f54",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f3i_4:11": {
+   "en": "I drew him out",
+   "notes": "The transcription contains uncertain characters (εε) and a reconstructed verb form. The translation reflects the recoverable verb 'drew out' but omits untranslatable characters.",
+   "line_id": 40697,
+   "source_hash": "a4ccf85f9ca62b6650d1460f932fd5e07b81feeef54947b4a6b88a1ded88671a",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f3i_4:12": {
+   "en": "And it came to pass in the many days, and Moses grew strong, and he went out to his brothers, and he saw their burdens.",
+   "notes": "The phrase 'Yahweh on the day' is a repeated pattern, but it does not fit the context here. The word 'ר##בים' is uncertain, but 'many' is the most fitting translation based on the available evidence. The word 'סבלות׳ם' is translated as 'burdens' based on its lexical gloss.",
+   "line_id": 40698,
+   "source_hash": "c00811f98a253fb5e4f7a1d756b85681774838deb61104ac33cc58ba2e6e2b4d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:13": {
+   "en": "And he saw an Egyptian man striking a Hebrew man from his brothers. And he turned thus and saw that there was no man. And he struck him.",
+   "notes": "The phrase 'a man Egyptian' is supported by repeated evidence. The verb 'turn' and the particle 'thus' are uncertain due to damage. The phrase 'there was no man' is a conservative translation of the available material, with uncertainty in the exact syntax. The final verb 'struck' is uncertain due to damage but is translated based on visible morphology.",
+   "line_id": 40699,
+   "source_hash": "849b276947ccffa43992c11639abb1b358d321dfe6df6c8c489bfc602026ed43",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:14": {
+   "en": "The Egyptian and he hid in the sand And he went out in the second day and he saw and behold two men Hebrews decaying and he said",
+   "notes": "Uncertain transcription and reconstruction at multiple points. The phrase 'fire you will make pass' was not used due to low pattern support. The translation conservatively follows recoverable text, omitting unsupported connectors and possessives.",
+   "line_id": 40700,
+   "source_hash": "24e1736f4950bb76729b43d72c69957bfb04b36a015555e539f1758d5d2fe934",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:15": {
+   "en": "To the guilty one, why will you strike my fellow And he said to whom he put to a man chief and to judge over us to kill you",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'he will strike down (et) companion' is supported by repeated evidence for positions 4-6. The phrase 'saying [belongs] to whom?' is supported for positions 9-11. The phrase 'judges over' is supported for positions 18-19. Other uncertainties and reconstructions are noted but not bracketed in the translation.",
+   "line_id": 40701,
+   "source_hash": "211f1529245af02ee10cdbb01f74ed6f177631e1c91ba98231c71c78461847c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:16": {
+   "en": "Saying, 'As you killed the Egyptian,' Moses feared greatly, and he said, 'Surely the matter is known.'",
+   "notes": "The phrase 'it was made known the matter' is supported by repeated phrase evidence for positions 15-17. The phrase 'thing (the) this' is supported by repeated phrase evidence for positions 17-19, but 'matter' is preferred for consistency with the context. Uncertainty in the transcription is noted for positions 11, 15, and 16.",
+   "line_id": 40702,
+   "source_hash": "133ac9a5ed6c4774518e7ce062b5e05e9e44b9851470ffe10689bd8e84646381",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:17": {
+   "en": "And Pharaoh heard this word and sought to kill Moses and he fled from before Pharaoh",
+   "notes": "The text is partially reconstructed with two uncertain words. The phrase 'Moses from before' is supported by repeated evidence, while 'Pharaoh' and 'this word' are contextually reinforced.",
+   "line_id": 40703,
+   "source_hash": "278942289e04c82fd0b6cc18de2a2e3c643900b81d7bc8d1b04e0264825dfd73",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:18": {
+   "en": "And he came to the land of Midian and sat by the well. And the priest of Midian seven daughters shepherding a flock",
+   "notes": "Uncertain readings: 'seven' (position 16), 'daughters' (position 17), 'shepherding' (position 18). Reconstructed text: 'and' (position 1), 'of Midian' (position 15), 'flock' (position 19).",
+   "line_id": 40704,
+   "source_hash": "027b14cc4fc1bdc791ff5512052dfc0fa0ad5c08b61e856d137317fea27b5bb6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:19": {
+   "en": "And they drew water and filled the troughs to water the flock of their fathers. And the shepherds came and drove them out.",
+   "notes": "Uncertainty in transcription and reconstruction affects 'the troughs' (position 7), 'to water' (position 9), and the final verb form (position 19). Phrase evidence supports 'the flock their father' (positions 11-12) and 'he watered (et) flock' (positions 9-11), but the translation follows visible morphology and lexical glosses where possible.",
+   "line_id": 40705,
+   "source_hash": "1652a3c444c475f240074f0c8be2dbb380bce4e4da0f99372062afb21cd47f08",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:20": {
+   "en": "And he arose, Moses, and he helped, and he watered the flock, and they came to Reuel their father, and he said",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly 'ישי ]ע##׳ן#?' and 'א ]ל##', may affect the translation. The phrase 'he helped' is uncertain due to damage and reconstruction. The object marker 'את' is translated as 'the' for fluency, though its exact function is context-dependent.",
+   "line_id": 40706,
+   "source_hash": "62e6585682a568ba35d82c4e6b3a59898171a521908096e718985ebe47034afc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3i_4:21": {
+   "en": "Why have you hastened to come the day",
+   "notes": "Uncertainty in transcription and reconstruction affects the translation of several words, particularly the final phrase, which is partially reconstructed and uncertain. The phrase 'the day' is based on a damaged and reconstructed form. The final two characters are untranslatable and omitted.",
+   "line_id": 40707,
+   "source_hash": "5515c16b9c31eb32c10288a896371dfb378abfec1ea94656d017a30d25475b0b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:1": {
+   "en": "Come to the people of Israel, and I said to their gods, the fathers who sent me to you, and they said to me, what?",
+   "notes": "The phrase 'to the people of Israel' is supported by repeated phrase evidence. 'Their gods' is a reconstruction based on contextual evidence, though the transcription is uncertain. 'The fathers' is a reconstruction. The final 'what?' is supported by repeated phrase evidence, but the transcription is uncertain.",
+   "line_id": 40708,
+   "source_hash": "8f63e7622a1413abfc2984e8b9b3e25922e43cf02ee7c1f889653d31ca2b852a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:2": {
+   "en": "What will they say to Shem And he said God to Moses I will be which I will be And he said thus",
+   "notes": "Uncertain reconstruction of 'Shem' and 'to Shem'. Uncertain reconstruction of 'God to'. Uncertain reconstruction of 'thus'.",
+   "line_id": 40709,
+   "source_hash": "8467bd3c02b0b0bd949191a8a91e699c8ce95b1269c21a90b58ba55d8ba749b2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:3": {
+   "en": "You will say to the people of Israel I am he sent to you",
+   "notes": "The phrase 'to the people of Israel' is supported by repeated phrase evidence. 'I am' is a conservative rendering of 'ehyeh' with high-confidence semantic constraints. 'He sent to you' is a paraphrase of the suffixed verb and preposition, preserving agency and directionality without adding unlicensed pronouns.",
+   "line_id": 40710,
+   "source_hash": "cae37ce128a44c38781e84ee73f2a2ebc30a0d0a70ce6ead999babdad8818e6a",
+   "source_condition": "clean"
+  },
+  "4Q13 f3ii+5_6i:4": {
+   "en": "And he said to God, still to Moses thus you will say to the people of Israel YHWH the God their ancestors",
+   "notes": "The phrase 'to the people of Israel' is supported by repeated phrase evidence with 65 occurrences and 100% pattern support. 'Moses thus you will say' has 3 occurrences and 66.67% support. 'He said God' appears 46 times with 60.87% support. 'YHWH the God their ancestors' is less certain with 38 occurrences and 36.84% support.",
+   "line_id": 40711,
+   "source_hash": "abd0e7c733393e3db51532b09669f5294c04999d8facd59cfef9bc3c448096d4",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f3ii+5_6i:5": {
+   "en": "of Abraham the gods Isaac and the gods of Jacob he sent to this name to eternity and this mention to generation and generation",
+   "notes": "Uncertain transcription at positions 10 and 11. Reconstructed text at position 12.",
+   "line_id": 40712,
+   "source_hash": "a61242d861b5e1e70c77bca8aef3c59a002a3062419c570616aeea6059bb6788",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:6": {
+   "en": "Go and gather the old men of Israel, and say to them, 'Yahweh God, who appeared to your ancestors, has sent me to you.'",
+   "notes": "The phrase 'the old men of Israel' is a reconstruction based on contextual evidence. The phrase 'Yahweh God' is supported by repeated phrase evidence. The phrase 'who appeared to your ancestors' is a reconstruction based on the visible morphology and lexical glosses.",
+   "line_id": 40713,
+   "source_hash": "ef0625058b94fa11d181e08e637819a575b2c4b953a231ec0ec304944ec3f57b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:7": {
+   "en": "the God of Abraham and the God of Isaac and the God of Jacob saying I have surely visited you and the one made",
+   "notes": "Uncertain reconstruction of Isaac and the verb 'miss' in two forms. Object marker 'את' rendered as 'you' for clarity. Final verb 'עשוי' translated as 'made' with uncertain subject.",
+   "line_id": 40714,
+   "source_hash": "931537c9d870882d406f231e81211f2b899ad0243df1ba92d624daf432e36bcc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:8": {
+   "en": "to you in Egypt and I said bring up you from poverty of Egypt to the land of the Canaanite the Hittite the Amorite",
+   "notes": "Uncertain reconstruction of damaged verb in position 6. Uncertain object marker in position 8. Reconstructed preposition in position 12.",
+   "line_id": 40715,
+   "source_hash": "519baccbd70f30355336f189312272ac04218e1412ddc66608340813cfbd7b8f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:9": {
+   "en": "The Perizzite, the Hivite, and the Jebusite, to a land flowing with milk and honey. And he heard your voice, and you came, you.",
+   "notes": "Uncertain reconstructions at positions 7 (Jebusite), 11 (preposition 'to'), and 16 (honey). Position 17 contains an untranslatable character. The phrase 'you came, you' reflects a repeated pattern with moderate support, but its syntax is uncertain.",
+   "line_id": 40716,
+   "source_hash": "04db2b90b0a9b060721d66a1d2d1109fc684c2e559c68cd9fbbcb29676a378df",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:10": {
+   "en": "And the elders of the people of Israel to the king of Egypt and you said to Yahweh God the Hebrews met upon us",
+   "notes": "Uncertain reconstruction of 'king' and 'said'; damaged conjunction before 'you said'; 'the God of the Hebrews' is a high-confidence phrase.",
+   "line_id": 40717,
+   "source_hash": "3af209c7515a02500ef71f9b539e4acb5defd32c7b6a542e521f357797eebb9f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:11": {
+   "en": "And now let us go please a journey of three days in the desert and slaughter to YHWH our God and I know that not",
+   "notes": "Uncertain reconstruction of damaged text in positions 5, 7, 11, 14, and 20. Phrase evidence supports 'a journey of three days' and 'let us go please a journey' but introduces an unsupported 'please' and 'a' not reflected in the translation. Canonical evidence supports 'to Yahweh God' but does not overwrite visible DSS variant 'YHWH'.",
+   "line_id": 40718,
+   "source_hash": "6c042dafb2da02df01f79eb7202614f3d7b4f7e835ef0cf4b8f5b2ebb1bb36a6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:12": {
+   "en": "He will give you to the king of Egypt to go, that if by a strong hand. And I sent my hand, and I struck Egypt.",
+   "notes": "The translation follows high-confidence phrase evidence for 'the king of Egypt' and 'by a strong hand'. The verb 'go' is supplied for the uncertain infinitive 'l##kt', with its uncertainty noted here. The object marker 'et' is omitted where it does not aid clarity in English. The lacuna in 'מצריםל ]' is reconstructed as 'to Egypt' based on context and phrase evidence.",
+   "line_id": 40719,
+   "source_hash": "f3e264ee2fff5b651f629f18a566ca413d8bd277df9ba100fd1033d5956ba807",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:13": {
+   "en": "In all wonders which I will do in their midst, and afterward I will send you. And so I have given the favor of this people.",
+   "notes": "Positions 3, 7, and 12 contain untranslatable damaged sufformatives. Positions 1 and 6 are damaged prepositions. Position 13 is an untranslatable paragraph break marker. Positions 15 and 22 are uncertain due to damage.",
+   "line_id": 40720,
+   "source_hash": "84090351d6c85ab87060f835a5d10aa75a2cb1728a1129a7a0cfb161d0eab90b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:14": {
+   "en": "In the eyes of Egypt and it will be that you do not walk with empty hands and the woman asked from her neighbor and from the sojourner of her house",
+   "notes": "The phrase 'in the eyes of Egypt' is supported by repeated phrase evidence. The verb 'ask' is reconstructed from the visible form 'שאלה'. The phrase 'from her neighbor' is uncertain due to the gloss '?' for 'שכנת׳ה'. The phrase 'and from the sojourner of her house' is supported by repeated phrase evidence, but the exact relationship is uncertain due to the gloss '?' for 'גרת'.",
+   "line_id": 40721,
+   "source_hash": "db2df95dd5e9173b81475f07a1cd91ff72def79f4ddaea7eebf292b23bc0dbdb",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f3ii+5_6i:15": {
+   "en": "Articles of silver and articles of gold, and mantles, and you put upon your sons and upon your daughters, and you plundered Egypt.",
+   "notes": "The phrase 'articles of silver' and 'articles of gold' are supported by repeated phrase evidence. The phrase 'you will plunder (et) Egypt' is also supported by repeated phrase evidence, but the translation uses 'plundered' to maintain consistency with the perfect tense of the verb.",
+   "line_id": 40722,
+   "source_hash": "649f748411af58c0b83e7478d73c2d8f78467ea6a7b4efe5ef86f35697975a50",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f3ii+5_6i:16": {
+   "en": "and he answered",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The verb 'יען' is in the third-person masculine singular perfect form, likely indicating a past action.",
+   "line_id": 40723,
+   "source_hash": "e19793b3c78af2c3c7f89baddea467f86afc431a5d36f5a335da62d745309604",
+   "source_condition": "clean"
+  },
+  "4Q13 f3ii+5_6i:17": {
+   "en": "Moses and he said and behold not they believed to and not they hear in sound that they say not he appeared to to Yahweh",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'to Yahweh' is supported by repeated evidence. Other contextual renderings are tentative due to low support or uncertainty in the source text.",
+   "line_id": 40724,
+   "source_hash": "cf15faa6010ab7cadcb8b2df356516de39edd86b6ec6b3ba04350f5da60c8b06",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:18": {
+   "en": "And he said to Yahweh, 'What is this in your hand?' And he said, 'A staff.' And he said, 'Throw it to the ground.' And he threw it to the ground.",
+   "notes": "The phrase 'to Yahweh' is supported by repeated phrase evidence. The phrase 'this in hand' is supported by repeated phrase evidence. The phrase 'What is this' is supported by repeated phrase evidence. The translation follows the visible morphology and lexical glosses, with repeated phrase evidence guiding the rendering of key phrases.",
+   "line_id": 40725,
+   "source_hash": "0cc464a8bae108e95577eeaba9569cefe4158b063136d15928618fecef1cf40a",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f3ii+5_6i:19": {
+   "en": "And the serpent fled from Moses' face And Yahweh said to Moses Send your hand and grasp its tail",
+   "notes": "Uncertain reconstruction of 'send' (position 17).",
+   "line_id": 40726,
+   "source_hash": "dfa302059053867f0348c56fb336123d8c7422747a81941e1ea8cdd71134123d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:20": {
+   "en": "And he sent his hand and strengthened it and it was to the staff in his palm. Because of that they will be firm that he appeared to Yahweh God.",
+   "notes": "The phrase 'he appeared to Yahweh God' is uncertain due to damage in the source text. The phrase 'to the staff in his palm' is uncertain due to low pattern support.",
+   "line_id": 40727,
+   "source_hash": "6ccaeeee5c2ae0542bbe4aad066c67b6b8548622bd94a1afd9ba0bfcbcdfc35a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:21": {
+   "en": "The God of Abraham the God of Isaac and the God of Jacob and he said to Yahweh still come",
+   "notes": "The transcription contains a reconstructed term ('[ אבות׳ם') and an uncertain term ('יה ]ו?ה'). The phrase evidence strongly supports the rendering of 'the God of Abraham the God' and 'he said Yahweh to', which are reflected in the translation. The term 'עוד' is translated as 'still' based on its lexical gloss and contextual usage. The final verb 'הבא' is translated as 'come' in the imperative mood, consistent with its morphology.",
+   "line_id": 40728,
+   "source_hash": "3e5732e31535c312f9cc901a0228da2003b7f481cf7f36e157c6901dbf84703b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f3ii+5_6i:22": {
+   "en": "Please, in your lap, and he brought his hand in his lap, and he went out from his lap, and behold his hand was leprous like snow. And he said",
+   "notes": "The translation follows the visible transcription and morphology, with uncertainty in the exact phrasing due to fragmentary nature of the text.",
+   "line_id": 40729,
+   "source_hash": "8966e0945f55252eab751ded90951f0df0f64b4663b05d2e9544062662dacef7",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f3ii+5_6i:23": {
+   "en": "Return your hand to your lap and he returned his hand to his lap and he brought it out from his lap and behold it returned like his flesh because of",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'I will turn hand' from repeated phrase evidence is not used as it does not align with the visible DSS variant. Uncertainty in the final punctuation marks is not reflected in the translation per instructions.",
+   "line_id": 40730,
+   "source_hash": "298bcc71500400db3b11b32125aee21c3e461f360741d6b9b862fdf62221b745",
+   "source_condition": "reconstructed"
+  },
+  "4Q13 f6ii:1": {
+   "en": "Upon us, let us go please a journey of three days in the desert and we slaughter to Yahweh God lest he meet us in pest",
+   "notes": "The phrase 'a journey of three days' is supported by repeated phrase evidence. The phrase 'Yahweh God' is supported by repeated phrase evidence, though the transcription is uncertain. The verb 'slaughter' is uncertain. The phrase 'meet us' is supported by visible morphology. The word 'pest' is supported by the context-free lexical gloss.",
+   "line_id": 40731,
+   "source_hash": "b33fc330cc712f71bee0418de6066198dfa23e29272c15b3c57df886ab88c403",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:2": {
+   "en": "Or in a dagger. And he said to the king of Egypt, 'Why, Moses and Aaron, do you divide the people from his deeds?'",
+   "notes": "The transcription contains two reconstructed words and two uncertain words. The phrase 'the king of Egypt' is supported by high-confidence repeated phrase evidence. The verb 'divide' is uncertain due to damage and reconstruction.",
+   "line_id": 40732,
+   "source_hash": "2cef168f44c3abdc2a0435a6a3b8c2891c5b0c2150527bdfd5c9a531db6922e3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:3": {
+   "en": "Go to your loads. And Pharaoh said, 'Behold, many now the people of the land and you have removed them from their loads.'",
+   "notes": "The transcription contains damage and uncertainty, particularly around the phrase 'רבים עתה' (positions 9-10), which is translated conservatively as 'many now'. The phrase 'השבתם אותם מסבלותם' (positions 15-18) is rendered as 'you have removed them from their loads' based on the provided phrase evidence and lexical glosses.",
+   "line_id": 40733,
+   "source_hash": "391e7411630ca5e7807d71dde3ea3f90134fa662098d297c3f07230814fc571b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:4": {
+   "en": "And he commanded Pharaoh on that day the taskmasters who drive the people and his officers, saying,  Do not add to give",
+   "notes": "Uncertain reconstruction of 'Pharaoh'; uncertain gloss for 'officers'; damaged syntax in the final clause.",
+   "line_id": 40734,
+   "source_hash": "0d8ea0d8e6b88c4e561133d2f2b9a61f0346570e24c22c2240bf21cc4b3756f6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:5": {
+   "en": "Straw to the people to make brick the bricks as yesterday the day before yesterday they went and they collected for them straw",
+   "notes": "Uncertain elements include the pronoun 'they' (position 11), the verb 'went' (position 12), and the conjunction 'and' (position 13). The phrase 'they went' is supported by repeated phrase evidence. The final colon (position 17) is omitted as it has no recoverable translation.",
+   "line_id": 40735,
+   "source_hash": "30ae5c54484ce9d24c08fce05f01b2ee92196a0d55abb307273189b2ea4adb8d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:6": {
+   "en": "And the proportion of the bricks which they were making as yesterday, the day before yesterday, you shall put there on, not",
+   "notes": "Uncertain reconstruction at 'א#תמול' and 'תשימ#'. Phrase evidence supports 'which they were making' and 'there on'.",
+   "line_id": 40736,
+   "source_hash": "c9416ff79257bd0379b5b3e2fcc9f6754815003bd49d8fe3c1e1406d8e5b7400",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:7": {
+   "en": "You must diminish from the word that they are slack thus they the cry to say we walk and we slaughter to our God",
+   "notes": "Uncertain reconstruction of damaged or missing text at positions 1, 3, 11, 15, 16, and 19. Phrase evidence and semantic constraints guided translation choices where possible.",
+   "line_id": 40737,
+   "source_hash": "832e0b9dcfde62237813b058cf5481b79cdd0bbb9a5d1407b09a5142361eb0d2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:8": {
+   "en": "Let it be heavy the labor upon the men and let them pay attention to not look in a word of falsehood and it was hard pressed the people",
+   "notes": "Translation incorporates high-confidence phrase evidence for positions 1-3, 8-9, 14-15, and 19-21. Uncertainty in transcription and reconstruction noted for positions 3-7, 10-12, and 15-16, but all recoverable lexical items are accounted for in the translation.",
+   "line_id": 40738,
+   "source_hash": "0bcab837c441bb8b5f0dbfee563ad58fa8cd7caa9eb84418a29b174a1fb84153",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:9": {
+   "en": "And his officers and they spoke to the people saying, Thus said Pharaoh, [no recoverable text] straw. You go.",
+   "notes": "The phrase 'his officers' is uncertain due to the gloss being unavailable. The sequence 'Thus said Pharaoh' is supported by repeated phrase evidence. The text following 'Pharaoh' is heavily damaged, with no defensible English words surviving. The word 'straw' is directly translated from the visible text. The final imperative 'You go' is supported by repeated phrase evidence.",
+   "line_id": 40739,
+   "source_hash": "ac60c19ade42ab60a1b23585eb945eac4ce1979b9ff86f9d426cdcb6544a0ff0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:10": {
+   "en": "And take straw for yourselves from what you find, that nothing be subtracted from your work from the word. And it scattered the people in all the land.",
+   "notes": "Uncertain reconstruction of א##[ ין as אַיִן_1. Uncertain reading of ד ]ב#ר. Uncertain reconstruction of יפ#ץ#?[ as פוץ.",
+   "line_id": 40740,
+   "source_hash": "455f70c85d0aa58c3b8268fd5b194bfe2fb62219764a3bf2db535163acff45c3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:11": {
+   "en": "Egypt to collect stubble to straw and the taskmasters urge the people of Israel saying complete your deeds word",
+   "notes": "Uncertain reconstruction of 'taskmasters' (נוגשים#). Phrase evidence supports 'of Israel (cmp) saying' and 'with Israel' but is not strictly required by the visible text.",
+   "line_id": 40741,
+   "source_hash": "e0a105b51a98b7a87434f9d4d241420e585f02dd7bdb2d6d90a94726b794e1aa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:12": {
+   "en": "Day by day as straw was given to you. And the foremen of the people of Israel who were placed over them",
+   "notes": "Uncertain reconstruction of 'were' (position 7). Uncertain gloss for 'foremen' (position 15). Phrase evidence supports 'the foremen of the people of Israel' (positions 15-17).",
+   "line_id": 40742,
+   "source_hash": "f713475fcb881e2a3cbd80fecde65f28125f75b311076891124413e2aed53294",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q13 f6ii:13": {
+   "en": "The overseers of Pharaoh, to say, 'Why have you not completed your portion of bricks like yesterday, the day before yesterday, even yesterday, even today?'",
+   "notes": "The transcription contains a reconstructed term ('פרעה##['), and the translation reflects the visible morphology. The phrase 'נוגשי פרעה' is translated based on repeated phrase evidence. The term 'חק׳כם' is translated as 'portion' based on the provided lexical gloss. The particles 'גם' and 'תמול' are repeated, and their translation reflects this repetition.",
+   "line_id": 40743,
+   "source_hash": "19062e5dca47990931fa95bde4e359e8363e5516489b9585ac5247e8bf276b16",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

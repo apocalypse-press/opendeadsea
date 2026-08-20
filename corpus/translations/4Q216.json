@@ -1,0 +1,613 @@
+{
+ "id": "4Q216",
+ "label": "4Q216",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 85,
+ "scroll_id": 150,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q216 1:3": {
+   "en": "Sinai in ascending to take the stone tablets of the instruction and the commandment in the word of YHWH as speaking",
+   "notes": "Uncertain reconstruction of 'take' (position 5) and 'YHWH' (position 16). Phrase evidence supports 'the tablets of (the) stone(s)' and 'by the word of Yahweh', but the latter is not fully recoverable here.",
+   "line_id": 7677,
+   "source_hash": "6095d6c403d2c278d9a07a1b7ab3f8485604ff08223dfb20caef0cb2f1d34d6e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 1:4": {
+   "en": "to ascend to the head the mountain and it was in the year the first to the going out of the sons of Israel",
+   "notes": "Uncertain reconstruction of 'mountain' and 'sons'. Phrase evidence suggests 'the people of Israel' but 'sons' is a direct translation of the visible lemma. No high-confidence constraints to overwrite visible variants.",
+   "line_id": 7678,
+   "source_hash": "2faa371d86f0eca04efaaff3d3150b1806b05863e8eb88651195f585d72e360c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 1:5": {
+   "en": "From Egypt in the third month, on the sixteenth of the month, this word of YHWH",
+   "notes": "The phrase 'six-teen' is used to represent the number sixteen, as supported by repeated phrase evidence. The phrase 'month (the) this' is used to represent the current month, as supported by repeated phrase evidence. The phrase 'word of YHWH' is used to represent the divine message, as supported by repeated phrase evidence.",
+   "line_id": 7679,
+   "source_hash": "3684d5a2d71087745529cfb633bdfa9aedb0411eaeb9e9cf459810b664e5452a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 1:6": {
+   "en": "Moses to say ascend to the mountain and I will give to you the two tablets of stone of the instruction",
+   "notes": "The phrase 'Moses to say' reflects a high-confidence contextual rendering of the initial words. 'To the mountain' is a paraphrased sense of the prepositional phrase, supported by repeated phrase evidence. 'And I will give' translates the verb 'give' with its subject, retaining grammatical person and number. 'The two tablets of stone' combines repeated phrase evidence for 'the two the tablets' and 'the tablets of (the) stone(s).' 'Of the instruction' completes the final phrase, though the last word is reconstructed.",
+   "line_id": 7680,
+   "source_hash": "c63c967514cb5eb181831840b9f68ee25e0c73991b381aa1dbbeeb29f81d5043",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 1:7": {
+   "en": "And the commandment which I wrote to cast forth and Moses went up to the mountain of YHWH and he dwelt in the glory of YHWH",
+   "notes": "Uncertain reconstruction and damage in positions 7, 17, and 18 affect the translation of 'cast forth' and 'glory of YHWH'.",
+   "line_id": 7681,
+   "source_hash": "31cba819cd8e111775d662236cae0b9b00b76e9ed1f068ce124bfa4528bb700c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 1:8": {
+   "en": "On the mountain of Sinai and it covered the cloud six days and he summoned to Moses on the seventh day",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 7682,
+   "source_hash": "3daef040026784117f52b011c08fe30e0318566b8372263ad4daf634e80d93d7",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 1:9": {
+   "en": "In the midst of the cloud he saw the glory of Yahweh as a fire burning at the top of the mountain and there was Moses",
+   "notes": "The phrase 'the glory of Yahweh' is supported by repeated evidence. 'The midst of the cloud' and 'the top of the mountain' are also supported by repeated evidence. The verb 'saw' is a wayyiqtol form, indicating a past tense narrative sequence. The phrase 'as a fire burning' is supported by repeated evidence. The final 'and there was Moses' is a wayyiqtol form, continuing the narrative sequence.",
+   "line_id": 7683,
+   "source_hash": "eb51580130cc7b70a890442a42f718787e1caeebf08ac5624b63e9f385df9017",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 1:10": {
+   "en": "In the mountain forty days and forty nights and known let it be YHWH the first and the",
+   "notes": "The phrase 'known let it be' is a paraphrase of the dominant contextual rendering of 'יודיע׳הו יהוה'. The lexical glosses for 'ארבעים' are uncertain, but the visible form indicates 'forty'.",
+   "line_id": 7684,
+   "source_hash": "11d02d1e197d2d14356a417f7dffd1f7b19fc9c4abe95ded23aea14dfedf6f0d",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 1:11": {
+   "en": "The last and he who will come: he told to the divisions of the times of the instruction",
+   "notes": "Uncertainty in transcription and reconstruction at positions 11 and 13. Phrase evidence supports 'he told to' for positions 8-9.",
+   "line_id": 7685,
+   "source_hash": "0e4c119bc958f94cceb8032611b866c558e0f167f0ee37ce2226e70127bbbc5d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 1:12": {
+   "en": "And to the attestation, and he said to you, 'Set your heart to all the words which I report to you.'",
+   "notes": "The phrase 'all the words' is supported by repeated evidence. The phrase 'he said to' and 'he told to' are supported by repeated evidence, but 'he said to' is chosen for consistency with the visible morphology. The phrase 'set heart' is supported by repeated evidence. The phrase 'words which I' is supported by repeated evidence. The phrase 'he told to' is supported by repeated evidence but is not used due to the visible morphology indicating 'report' instead of 'tell'.",
+   "line_id": 7686,
+   "source_hash": "e8bee7d86b2b6ab3d3bedfe633f5fef51a1fb4ad825442520264e365465c4049",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 1:13": {
+   "en": "In this mountain and write them in a letter so that they know their generations because I have not left them",
+   "notes": "The transcription contains damage and uncertainty, particularly around the verb 'know' and the following word. The phrase 'so as to know the generations' is supported by repeated evidence, but the exact syntax is unclear. The translation preserves the visible lexical items and their order, with minimal smoothing for English fluency.",
+   "line_id": 7687,
+   "source_hash": "b21c570fda206f61ba171f77a607bd0277ac38b7e89657fdcbfa703e673b8221",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 1:14": {
+   "en": "Upon all the evil which they did to break the covenant that I [am] making between you and between you the day",
+   "notes": "Uncertain reconstruction of 'I' (position 12). Phrase evidence suggests 'I [am] making' for positions 12-13, but the verb 'cut' (position 13) is translated literally. Phrase evidence for 'between the sea' (positions 16-18) is not adopted due to lack of support in the immediate context.",
+   "line_id": 7688,
+   "source_hash": "e4c8970ae5099b1064d7f4a1b0251f548e945fcdc08a5cc2d74709a4a81d576a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 1:15": {
+   "en": "to their generations on the mountain of Sinai and it was thus in it will come on all the words",
+   "notes": "Uncertain reconstruction of 'בו ]א##' as 'in it' and 'ע##ל#[ י׳ ]ה##[ ם ]' as 'will come on'. Phrase evidence supports 'on the mountain of Sinai' and 'all the words'.",
+   "line_id": 7689,
+   "source_hash": "bf2d7bd1dc7263d99d11bed404ffbc1ac297c04ddbe54e9b33eb3e2ca7cb4e54",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 1:16": {
+   "en": "These and they knew that I was just from all their judgments and in all their curses and they knew",
+   "notes": "Uncertain reconstruction and damage affect 'their judgments' and 'their curses'; contextual evidence supports 'all judgments' but not the possessive. The phrase 'a righteous [person] from' is suggested by repeated evidence but cannot be fully licensed here without adding an unsupported participant.",
+   "line_id": 7690,
+   "source_hash": "0826f72a7c82998079c6937e93943ce7a1b9075f0cb2af912f47967abc24822c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 1:17": {
+   "en": "For in trustworthiness I was with them. And you, write to [all] these words",
+   "notes": "The transcription is partially reconstructed and uncertain, particularly around the object marker 'א#ת' and the word 'כ ]ל#['. The phrase 'words (the) these' and 'all the words' are supported by repeated phrase evidence. The translation conservatively retains the structure and recoverable content without adding unlicensed elements.",
+   "line_id": 7691,
+   "source_hash": "3bd5282d595cceb9aa6b314548cb6f6126a19007fc8e89eb58a4a2fd59bb0bef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:1": {
+   "en": "Which I will make known to you this day, that I know the rebellion and the stiff neck before I bring them.",
+   "notes": "The phrase 'you will know this day' is supported by repeated evidence, but the context suggests the speaker is the one making something known. The translation preserves the original agency and semantic relationships.",
+   "line_id": 7692,
+   "source_hash": "73127fe056a4ad4dc2b0274c58afa4c0ea63bfa99dc7ec032a34454212d3d80e",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 2:2": {
+   "en": "In the land which I swore to my fathers, to Abraham, Isaac, and Jacob",
+   "notes": "The transcription is partially damaged, with reconstructions and uncertainty in the words 'earth' and 'Jacob'. The phrase 'land which he swore' is supported by repeated evidence, but the first-person singular verb 'I swore' is directly attested in the text. The translation conservatively retains all recoverable elements without adding unlicensed connectors or subjects.",
+   "line_id": 7693,
+   "source_hash": "297c83a55f08421fb9b7edd9768403989e4ca07047377a91376b08d97f51ab0d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:3": {
+   "en": "to say to offspring I will give a land flowing with milk and honey and they ate and were sated and they turned",
+   "notes": "The phrase 'a land flowing with milk' is supported by repeated phrase evidence. The verb 'were sated' is a translation of the visible morphology. The final 'and they turned' is uncertain due to the damaged state of the text.",
+   "line_id": 7694,
+   "source_hash": "8af71173a6272ced1eab658fa20cb7e9da9345e0e2b09024142cd9b50d4026fe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:4": {
+   "en": "After gods other which they will not help from all stresses and answered the attestation",
+   "notes": "Uncertain transcription and reconstruction in 'gods' (אלהי?ם#), 'other' (אח##ר##[ ים), and 'stresses' (מ ]צ#וקות). The verb 'answered' (ענתה) could also mean 'was lowly', 'sang', or 'was worried'.",
+   "line_id": 7695,
+   "source_hash": "3be5ef33d3f35bf65dcc169b463bfd9429829c169d6af271dabc59971f485706",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:5": {
+   "en": "The attestation, this: that they forget all commandments, all that he commanded, and they walk after",
+   "notes": "Uncertain elements include the transcription and reconstruction of several words, particularly at the beginning and end of the line. The phrase 'all commandments' is supported by repeated evidence, but the surrounding syntax is fragmented. The verb 'walk' is uncertain due to damage, and the final preposition 'after' lacks a clear object.",
+   "line_id": 7696,
+   "source_hash": "273877270787564801cccd6e91dee0be504d7f7a55fff79b1cb46ed98d1b0e0c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:6": {
+   "en": "The nations and after their insult and after their reproach and they will serve the gods and they will be to a plague",
+   "notes": "Uncertain reconstruction of 'the' (position 1), 'nations' (position 2), 'insult' (position 5), and 'gods' (position 12). Phrase evidence suggests 'you will serve (et) gods' for positions 10-12, but visible morphology indicates third-person plural. Phrase evidence suggests 'Yahweh to' for positions 14-15, but visible transcription does not support 'Yahweh'.",
+   "line_id": 7697,
+   "source_hash": "32e8a97ded1edc15c6ac598cf4f35d356593f7673d79bcb4729f71b7d0f88d5f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:7": {
+   "en": "And to a shape, and to poverty, and to bait. And the many will be seized and they fell in the hand of the enemy, that",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'in the hand of the enemy' is supported by repeated phrase evidence. The word 'צו?ר' is translated as 'shape' based on its lexical gloss, but its meaning is uncertain. The word 'רבי' is translated as 'many' based on its lexical gloss, but its reading is uncertain.",
+   "line_id": 7698,
+   "source_hash": "ef981e0543c93b9b6aa76d882dd2b1eeaf2a3aa05fbffec2de1af10e6a3c9dbf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:8": {
+   "en": "They left the regulations and the commandments and the appointed times of the covenant and the sabbaths and the holy things",
+   "notes": "Reconstructed text includes '[ עזבו', 'את##[', and 'ברית׳י['. Uncertainty in 'את##[' is noted but does not affect translation.",
+   "line_id": 7699,
+   "source_hash": "b0c5581ef680b7f2963312b379bf8ee429e31907e7a10020d45e65081ad3cc23",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:9": {
+   "en": "which they consecrate to me in the midst and the dwelling-place and the sanctuary which I have consecrated to",
+   "notes": "Reconstructed and uncertain text includes 'midst' (positions 5, 16), 'sanctuary' (position 11), and the relative particle (position 1). The phrase 'which I have consecrated for' is supported by repeated evidence.",
+   "line_id": 7700,
+   "source_hash": "aba2df0afc7071eec69f51a2f2ec7bba24289e852eb2bfe517b40c69fda44fc3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:10": {
+   "en": "the earth to put name there on and dwell and they made to them high places and asherahs and idols",
+   "notes": "Uncertain reconstruction at positions 5 and 7. High-confidence phrase evidence supports 'put (et) name' and '(into) high places'.",
+   "line_id": 7701,
+   "source_hash": "d91590185d613721d5db3d12748cd7bcba84b494f607d5e521974ee3e11afea4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:11": {
+   "en": "And they bowed down to all their deeds of error, and they slaughtered their sons to demons, and to all the deeds of their error.",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'he bowed down to all' is supported by repeated evidence but adapted to fit the plural context. The term 'תעות' is uncertain and left untranslated in the final clause.",
+   "line_id": 7702,
+   "source_hash": "c9aac74d218281a056dd04590a44f621acf07320f3af398ba0e19a036b5d6826",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:12": {
+   "en": "And I will send to them witnesses to testify in them, and they will not hear, and the witnesses they will kill.",
+   "notes": "The phrase 'into a witness on' is a reconstruction based on repeated phrase evidence. The phrase 'he sent to' is a reconstruction based on repeated phrase evidence. The translation assumes 'again in' as a possible interpretation of the preposition 'in' with the verb 'testify'.",
+   "line_id": 7703,
+   "source_hash": "67fed9e0da795fccf803a5f4633d9b3a52238dcfe642231dc6ed88d18145bdb2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:13": {
+   "en": "And the seekers of the instruction will pursue, and the whole they will exchange, and they will defile to do the evil",
+   "notes": "The phrase 'he did the evil' is a high-confidence repeated phrase, but it is not directly supported by the visible morphology, which indicates a plural subject. The translation retains the plural agreement from the source text.",
+   "line_id": 7704,
+   "source_hash": "33fcc9057d59319291f06ff92a55315f5ab7257bcc6e327383778a751678be34",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 2:14": {
+   "en": "In my eyes, I will hide my face from and I will give them into the hand of the people to the captive",
+   "notes": "The transcription contains several uncertain and reconstructed words, including 'אסתי#?[ ר' (hide), 'פנ׳ ]י#?' (face), 'נת##[ תי' (give), and 'ש##[ בי ]' (captive). The phrase 'face from' and 'hide face' are supported by repeated phrase evidence. The translation conservatively preserves the recoverable material and grammatical structure, but some uncertainty remains due to damage and reconstruction.",
+   "line_id": 7705,
+   "source_hash": "112e4ddea08ca7de74ad4d68b0763b76c31eb8ca1ef87202de43750936662d7d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:15": {
+   "en": "And to devastations and to eat and I turned them aside from the midst of the earth and I will disperse them in all the nations",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'all the nations' is supported by repeated evidence. 'The middle of the land' is a plausible but less supported rendering. 'He removed (et)' is a possible interpretation of 'he turned aside' but less contextually dominant.",
+   "line_id": 7706,
+   "source_hash": "4a230ce466db486279525d77baf78de2aaacd7b5f9b41c623e4ef00d485a9701",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:16": {
+   "en": "And they forgot all statutes and all commandments and all laws and forgot the month and the sabbath",
+   "notes": "The phrase 'and they forgot' is reconstructed at the beginning. The conjunction 'and' is uncertain at position 8. The verb 'forgot' at position 12 is reconstructed.",
+   "line_id": 7707,
+   "source_hash": "a130a2ba0c326ee0facaf7f8fc59cb99be154f27e11df0d430c5ebf10e33e89e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 2:17": {
+   "en": "And appointment, and ram, and covenant. And thus they will return to from the midst of the people in all heart.",
+   "notes": "The phrase 'in all heart' is supported by repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, with no uncertainty disclosed in the source.",
+   "line_id": 7708,
+   "source_hash": "8beb33bc7c5ce8eeb5d7e44fb8a8293419ab079ec26f2015d4f238d26e8b3302",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 4:3": {
+   "en": "the first and the last",
+   "notes": "The transcription includes an uncertain Greek character 'ε' at the start, which is omitted from the translation. The final word is reconstructed and uncertain, translated as 'last' based on the lemma.",
+   "line_id": 7709,
+   "source_hash": "8fdaf2a12ac6fb11e4fbf0fc578362952ff8b997e9e90c28457f075d58aece8e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 4:4": {
+   "en": "And the one who comes in all the divisions of times for instruction and for attestation",
+   "notes": "The transcription contains reconstructed characters at the beginning and end of the line, indicated by brackets. The phrase 'he will come in all' is supported by repeated evidence, but the translation retains the third-person singular masculine verb form 'who comes' to preserve grammatical person and number.",
+   "line_id": 7710,
+   "source_hash": "e249782582c91086883c14259efae6274f75246f46e816171c02848a26bdcd5b",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 4:5": {
+   "en": "And to the weeks of the rams until eternity until I descend and I dwelt with",
+   "notes": "The term 'rams' is a context-free gloss for 'יֹובֵל'; 'descend' and 'dwelt' are first-person singular verbs. The final preposition 'with' is reconstructed and uncertain.",
+   "line_id": 7711,
+   "source_hash": "389648e934b7ac868be9d5e1d28aec6fe3d725269f821c0d71c59c4c27055f86",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 4:6": {
+   "en": "In all eternity and eternities and he said to the messenger of the faces to write",
+   "notes": "Uncertain reconstruction of 'faces' and preposition 'to' before 'write'. Phrase evidence suggests 'every hidden thing' for 'whole eternity' but is not adopted due to low support. Visible text does not license a fluent connector between clauses.",
+   "line_id": 7712,
+   "source_hash": "9af72ba52ee51d57f5e250b74ae082ebcd3edb01edfd8ce098f6db243ab9b196",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 4:7": {
+   "en": "to Moses from the beginning of creation until he who will build my sanctuary",
+   "notes": "The transcription is partially damaged, with one reconstructed word ('[ ל') and one uncertain word ('אש ]ר##'). The translation reflects the recoverable text, preserving the structure and meaning without adding conjectural material.",
+   "line_id": 7713,
+   "source_hash": "172ea44ec6c6b1a3653c66cc671b2d57da2ef6e4e538be37b88a3279b88dd7c4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 4:8": {
+   "en": "In their midst to eternity of eternities. And he will see YHWH to the eyes of all and they knew.",
+   "notes": "The phrase 'to the eyes of all' is supported by repeated phrase evidence. The verb 'will see' is a conservative rendering of the nifal stem of 'see'. The final 'and they knew' is a direct translation of the qal perfect verb form, preserving the original grammatical person and number.",
+   "line_id": 7714,
+   "source_hash": "2793b576c29fe78f8b1990024ba67a7292083bd61b3aaef23bcb3b3796bc667f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 4:9": {
+   "en": "For I the God of Israel and father to all the sons of Jacob and king",
+   "notes": "Uncertain reconstruction at the end of the line.",
+   "line_id": 7715,
+   "source_hash": "776552b6abe9d7ff0235bc4e14470b0dbbd35c1f24e02c5359eb1af96d45da40",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 4:10": {
+   "en": "on the mountain of Zion to eternity eternities and was Zion and Jerusalem holy",
+   "notes": "The phrase 'on the mountain of Zion' is supported by repeated evidence. 'Eternity eternities' reflects the plural forms of 'eternity' in the source. 'And was Zion' follows the verb's morphology. 'Jerusalem holy' is a reconstruction with uncertainty.",
+   "line_id": 7716,
+   "source_hash": "3be4c2bb6766b693bbbdd611c74043d8bdb049ddb6d3d03124bd0850e822cfa8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:1": {
+   "en": "And he said the angel of the faces to Moses by the word of Yahweh saying Write all the words of the creation which",
+   "notes": "Uncertain reconstruction at positions 1, 18, and 19. Phrase evidence supported 'he said the angel', 'by the word of Yahweh', 'Yahweh (cmp) saying', 'all the words of', and 'all the words'.",
+   "line_id": 7717,
+   "source_hash": "ad5336aa9502a99b0ed915f3317dd48bd6b58a6621844abb37d88cb8db9ffd86",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:2": {
+   "en": "On the sixth day YHWH God completed all the work that he had made, and he ceased on the seventh day.",
+   "notes": "The phrase 'that he had made' is uncertain due to damage in the source text. The translation follows the highest-supported repeated phrase evidence and contextual constraints.",
+   "line_id": 7718,
+   "source_hash": "3aea62e949db42a7c4d2b89e0df5b2dc751873a44be3cc6da220473faa9b4099",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:3": {
+   "en": "And he will consecrate it for all eternity, and he will give it as a sign for all [work]",
+   "notes": "The phrase 'for all work' is supported by repeated phrase evidence. The term 'work' is uncertain due to damage in the source text.",
+   "line_id": 7719,
+   "source_hash": "72f7ace816581e2578a33fdd041e79e62f805b1ae6f5899644586b71843bca98",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:4": {
+   "en": "For on the first day he created the heavens, the upper ones, and the earth",
+   "notes": "The transcription is partially damaged, with uncertain characters in the words 'שמ ]י(# ם #)' and 'אר#[ ץ ]'. The translation reflects the recoverable text, but the exact wording of the damaged portions is uncertain.",
+   "line_id": 7720,
+   "source_hash": "81a3680b0ea846def37cf070dd10837a25b901ede14fbcdea1f936e9e959b5e7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:5": {
+   "en": "And the waters, and all the winds serving before his messengers, the faces and the messengers of holiness",
+   "notes": "Uncertain reconstruction at positions 14, 18, and 20. Phrase evidence supports 'serving before front' at positions 11-13.",
+   "line_id": 7721,
+   "source_hash": "93835914f4cba30c8e5346d30287d30b0bad4b56d6628918e325b86c026709a7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:6": {
+   "en": "And messengers of the winds of fire, and messengers of the blowing winds, and messengers of the winds of clouds",
+   "notes": "The text is fragmentary with reconstructions and uncertainties, particularly around the repeated 'messengers' and the final 'winds of clouds' phrase. The translation conservatively follows the recoverable order of words, preserving repetition and uncertain elements without speculative smoothing.",
+   "line_id": 7722,
+   "source_hash": "d5407330c86eb686280f0526333fcee8b32fb287a5e9f1c027e8b2ead29d696d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:7": {
+   "en": "To darkness and to an ice-crystal and to hoar frost and to dew and to snow and to hail and to frost and messengers the sounds",
+   "notes": "The transcription contains significant damage and uncertainty, particularly in the reconstruction of 'darkness' (ער##[ פל) and 'frost' (ק ]ר##ח), as well as the uncertain reading of 'sounds' (קולו?[ ת]). The phrase structure is repetitive and lacks clear syntactic connections, reflecting the fragmentary nature of the text.",
+   "line_id": 7723,
+   "source_hash": "63cf9d06a9ac59aac117667111849c4e0dc470c8df7c6ffcc04a982cca421d23",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:8": {
+   "en": "And to messengers of the winds of the storms and to messengers of the winds to cold and to heat and to autumn and to summer and to all",
+   "notes": "Uncertain transcription and reconstruction in multiple places, including the initial conjunction and several nouns.",
+   "line_id": 7724,
+   "source_hash": "0f2a512eb334e1a1da07970b020f2f7ace8b8d2fbd2a797c9f35e27446c9b897",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:9": {
+   "en": "winds of creatures which he made in the heavens and which he made in the earth and in all the primeval ocean",
+   "notes": "Uncertain reconstruction of 'earth' and 'primeval ocean'; damaged text at the end.",
+   "line_id": 7725,
+   "source_hash": "0d6787cd623a5c1b05c43a6fd87d72eb012bc50e96eda1380d7ae4ee618757d4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:10": {
+   "en": "From darkness and dawn, and light and evening, which he established in knowledge. Then we saw his deeds and [no recoverable text]",
+   "notes": "The transcription is heavily damaged, with several uncertain and reconstructed words. The phrase 'מאפלהושחרו' is translated as 'from darkness and dawn' based on the visible morphology and lexical glosses. The relative pronoun 'אשר' introduces a clause describing the establishment of light and evening in knowledge. The verb 'הכין' is translated as 'established' in the Hifil stem, perfect tense. The phrase 'אז ראינו מעשיו' is translated as 'then we saw his deeds' based on the visible morphology and lexical glosses. The final phrase is unrecoverable due to damage, indicated by '[no recoverable text]'.",
+   "line_id": 7726,
+   "source_hash": "caba9b9cc6f78e5d6ca66e93567dc2011336d3e886fc50498b25f765fe6a15ca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:11": {
+   "en": "Upon all [his] works and [we] will praise before his face that [he] made seven great [deeds] on the first day",
+   "notes": "Uncertain reconstruction and damage affect 'works,' 'and,' 'made,' and 'great.' Phrase evidence supports 'on the first day' and 'all [his] works' but is not contextually binding. No recoverable text survives for the final punctuation mark.",
+   "line_id": 7727,
+   "source_hash": "23af355c89403f277e2fbd11d700c987844ae0a6aa7f9113d30bcfdfaa7b77d4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:12": {
+   "en": "And in the second day he made the firmament in the midst of the waters and separated the waters in this day half of them",
+   "notes": "Uncertain reconstruction of 'יו?[ ם' as 'day' and 'תוו ]ך##' as 'midst'. Uncertain translation of 'מי ]ם##' as 'waters'. Uncertain translation of 'חצי׳ם ]' as 'half of them'.",
+   "line_id": 7728,
+   "source_hash": "527b656140681e5ac9151eb0df0ea373e11e1e8179b3f68cf43220314f710af6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:13": {
+   "en": "They ascended to the top of the firmament and descended to the lower firmament which is in the midst over the surface of all",
+   "notes": "The phrase 'over the surface of all' is supported by repeated phrase evidence. The text contains one reconstructed word and one uncertain word.",
+   "line_id": 7729,
+   "source_hash": "d4d15b1f846246cced79a91253c7fe02d19b243bd8d6206e5d569c3de14a185e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 5:14": {
+   "en": "the earth",
+   "notes": "The transcription includes a damaged and uncertain form of 'earth' with an untranslatable final character (ε) and a source-script punctuation mark (׃), both omitted from the translation.",
+   "line_id": 7730,
+   "source_hash": "81e4cb314ba8b0517fd168e88f842ef97cfdecd64c4be67b69af07ed6f85c24c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 6:2": {
+   "en": "and the reedy pools and the whole dew of the earth",
+   "notes": "Uncertain transcription and reconstruction in 'reedy pools' and 'dew'.",
+   "line_id": 7731,
+   "source_hash": "b72a43fd37ef91ec5aec19525ed99d10d0ff6279e6a7912023217dfc2d9e78f6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 6:3": {
+   "en": "And the seed sown in its seed, and the whole sprout and tree making fruit, and the forests, and the garden of Eden",
+   "notes": "Uncertainty in the reconstruction of 'Eden' and the phrase 'bears seed seed' is noted. The phrase 'it will produce fruit' is a paraphrase based on repeated phrase evidence.",
+   "line_id": 7732,
+   "source_hash": "0f9724b6924e0b83758dfe95556b66a77bce2eba3f94fdab6ec1a9b999855411",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 6:4": {
+   "en": "For comfort and food, the four great kinds, these he made on the third day.",
+   "notes": "The phrase 'on the third day' is supported by repeated phrase evidence. The verb 'he made' is repeated in the text, but only one instance is translated to avoid redundancy. The preposition 'for' is added to introduce the purpose of the action, which is licensed by the recoverable source token 'to' (לְ).",
+   "line_id": 7733,
+   "source_hash": "40b5e44dce974ba6cd111af42591a5c66c10e02c0fe659b8c064b8b62cf18a9a",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 6:5": {
+   "en": "And on the fourth day, he made the sun and the moon and the stars",
+   "notes": "Uncertainty in the transcription of 'sun' and 'stars' is not reflected in the translation. The phrase 'he made' is supported by repeated phrase evidence, though with moderate confidence.",
+   "line_id": 7734,
+   "source_hash": "d402225bdab2f645805d980ad142f02e1d9e5b394fdeef945af2fc68693d08a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 6:6": {
+   "en": "[them in the firmament of the heavens to give light upon all the earth and to rule in day and in night and to sepa]",
+   "notes": "Reconstructed text indicated by brackets. Uncertain reconstruction at 'הב#[ דיל'. Phrase evidence supports 'the firmament of the heavens', 'the heavens to give light', and 'all the earth'.",
+   "line_id": 7735,
+   "source_hash": "21b311b15612ea17be4f0154a29b655d750b0542f12e80a9787551916d7529b7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 6:7": {
+   "en": "Light to darkness. And he gave the sun for a sign of greatness upon the earth for days and for sabbaths and for months.",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'sign of greatness' is supported by repeated phrase evidence. Uncertainty in the source is not signaled with brackets or placeholders in the translation.",
+   "line_id": 7736,
+   "source_hash": "68ecba3697731492b95079cbdca9f0d177efdbe8cbd9fad1586f67f5005e4db6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 6:8": {
+   "en": "And to appointments and to years and to weeks of the years and to jubilees and to all the turning points of the years",
+   "notes": "The phrase 'the circuit of the year' is supported by repeated evidence for positions 19-21. The character 'ε' and the final colon are omitted as they cannot be translated independently.",
+   "line_id": 7737,
+   "source_hash": "63034657ad75636773e8af1bd24e4f5455d1047d84dd18d7b1a779e428398156",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 6:9": {
+   "en": "And he separated between the light and between the darkness and for healing so that it would heal all the sprout and be strong in the earth",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'sprout and be strong' reflects the uncertain verb form 'צ##מח' and the following 'גדל'. The preposition 'between' is repeated for each element as per the source. No additional connectors or subjects are introduced beyond the recoverable text.",
+   "line_id": 7738,
+   "source_hash": "ccc38668e3a7ec9d1c0c03866fc6b8b31e813f040880b9bd1f9ea0d18efb1b25",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 6:10": {
+   "en": "The three kinds, these he made on the fourth day.",
+   "notes": "The phrase 'on the fourth day' is supported by repeated phrase evidence. The verb 'make' is translated based on the lexical gloss, and the context suggests a completed action in the past.",
+   "line_id": 7739,
+   "source_hash": "033af5fb3fab9625aca6bba6ff9209f51b035d227ac6172176fa746e7a9fdc4b",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 6:11": {
+   "en": "And on the fifth day he created the great sea-monsters in the midst of the primeval ocean of waters, that they",
+   "notes": "Uncertain reconstruction of 'primeval ocean' and 'waters'; two words reconstructed.",
+   "line_id": 7740,
+   "source_hash": "cfa68706fc2cc7a0b36fc7fe66aeee24409f471d06ad835cf60d2bc2d19ac171",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 6:12": {
+   "en": "the deeds of your hands the first from flesh and every swarming thing in water fish and every bird",
+   "notes": "Positions 14-15 and 18-21 contain uncertain or damaged text. Positions 14-15 are translated conservatively as 'fish' based on the lemma, but the form is damaged. Positions 18-21 are translated as 'every bird' based on phrase evidence, but the text is damaged and reconstructed.",
+   "line_id": 7741,
+   "source_hash": "c19c66f6f6ca5fc5f5ca2c806ef7bd9dbf22f05b5a5fe901ae66cfa4d2353079",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 6:13": {
+   "en": "He will fly all their kinds and the sun will rise on their healing and upon all the earth every",
+   "notes": "The phrase 'the sun on' is supported by repeated evidence. 'Vessels from' is a low-confidence rendering and not used. 'The lands every' is partially supported but not fully adopted due to low confidence.",
+   "line_id": 7742,
+   "source_hash": "9412aea6630c0629d3160ee52909bd223fc9c36c462c4ffe6f7760a1a8892e8f",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 6:14": {
+   "en": "[The] sprouting from the earth and every tree producing fruit and all flesh. [The] three kinds of the great ones of these",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'every tree' is supported by repeated phrase evidence. 'All flesh' is a high-confidence contextual rendering. The number 'three' and the phrase 'great ones' are uncertain due to damage in the source text.",
+   "line_id": 7743,
+   "source_hash": "e07670894b6eb706dc9d7286ec97e4d27e0551bc53b890cc2423da3d8da4b173",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 6:15": {
+   "en": "He made on the fifth day",
+   "notes": "The transcription includes a reconstructed verb 'עשה' and a punctuation mark '׃' with no clear translation. The phrase 'ביום החמישי' is supported by repeated evidence as 'on the fifth day'.",
+   "line_id": 7744,
+   "source_hash": "46d91b594a9f31777161aaf34088ae33c132f3870bec865c6988b741ea42f0cb",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 7:1": {
+   "en": "And on the sixth day all the wild animal of the earth and all the livestock and every creeping thing on the earth and after all these",
+   "notes": "Uncertain reconstruction in 'day'. Phrase evidence supports 'every creeping thing' and 'all the livestock' as contextual renderings.",
+   "line_id": 7745,
+   "source_hash": "5ecba5755ffaf023fa24d8f2d0ada436be1c5826400d9f2129471a2cba73fac1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 7:2": {
+   "en": "He made the man, male and female. And he made them. And they ruled over all that is upon the earth and in the seas and in all that flies.",
+   "notes": "The transcription contains damage and reconstruction at position 7, marked as 'נק##[ בה'. The translation reflects the reconstructed word 'female' based on the provided lemma and gloss. The phrase 'ruling over all' at positions 12-14 is supported by repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, preserving the original syntax and structure without adding unlicensed content.",
+   "line_id": 7746,
+   "source_hash": "40ac39c7a959889c28dac3c3763a771acb036c4956ce0a31be25e4f0a55c8ead",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 7:3": {
+   "en": "And in wild animals and in all the creeping things that creep upon the earth and in cattle and in all the earth and in all these he ruled the four",
+   "notes": "The translation includes a reconstructed particle (position 9) and an uncertain suffix (position 26). Phrase evidence supported 'every (the) creeping thing' (positions 6-8), 'thing [which] creeps' (positions 8-10), 'all these' (positions 24-25), and 'all the earth' (positions 19-21).",
+   "line_id": 7747,
+   "source_hash": "79ea930dfa9b57b2693cd9b2cc8fa7e1650997985769619f5c7071552b42db9f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 7:4": {
+   "en": "These kinds he made on the sixth day and they will be twenty-two kinds and he completed all the work on the sixth day",
+   "notes": "Positions 5, 6, 10, 18, 20, 22 are uncertain. Position 6 is reconstructed.",
+   "line_id": 7748,
+   "source_hash": "f133563c83c86605a6962cacf76fd3f0b574137c6005ee6be545968911c0cdcf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 7:5": {
+   "en": "which are in heaven and on earth and in seas and in primeval oceans and in light and in darkness and in the whole. And he gave to us a great sign of the day",
+   "notes": "The phrase 'a great sign' is supported by repeated phrase evidence. The preposition 'of' is added for clarity, licensed by the object marker 'את' and the following noun 'יום'.",
+   "line_id": 7749,
+   "source_hash": "94576708e0b85e49cd7cb990f2e1cdba8d44a2d8b139bcfd9c812baa6df9c662",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 7:6": {
+   "en": "The Sabbath which ceased in",
+   "notes": "The final character 'ε' is untranslatable and omitted. The phrase 'you will rest at (the)' is supported by repeated evidence but not directly reflected in the visible text, so it is not included in the translation.",
+   "line_id": 7750,
+   "source_hash": "d2ef88e6dbec694baf5dcfc913955a850bffb98c8f273745efd57e55782f3457",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 7:7": {
+   "en": "you will make six days",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 7751,
+   "source_hash": "69be448a7d64f39d86d92dea7c4a437def86bd5349737a6b8cabf0537c1cf4f7",
+   "source_condition": "clean"
+  },
+  "4Q216 7:8": {
+   "en": "And we cease on the seventh day from all work, for we are all the messengers of the face and all the messengers of the holy place both.",
+   "notes": "The phrase 'the holy place both' is a high-confidence repeated phrase evidence. The word 'seventh' is reconstructed and uncertain. The word 'whole' is translated as 'all' for natural English flow.",
+   "line_id": 7752,
+   "source_hash": "d682af25c595a59abdea3ccefbc12b54d5f537a1483a0ed21a695dd91020ddee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 7:9": {
+   "en": "These kinds said to us to cease the Sabbath with the heavens and the earth. And he said to us, Behold, I separate to you.",
+   "notes": "Uncertain reconstruction of 'said' (position 5). Phrase evidence suggests 'you will set apart for' (positions 22-23), but the translation retains the context-free gloss 'separate' due to insufficient support.",
+   "line_id": 7753,
+   "source_hash": "fb70012f90a347a7559a2c0ed5a348f7f1bda08f971022eb70bc82155678f6a1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 7:10": {
+   "en": "Among the midst of my people and they ceased and I consecrated them to me to a people and I blessed them and they were my people and I was to their gods",
+   "notes": "The phrase 'I was to their gods' is uncertain due to the fragmentary nature of the text and the low support for the repeated phrase evidence. The translation follows the visible morphology and lexical glosses, with some phrases supported by repeated evidence.",
+   "line_id": 7754,
+   "source_hash": "c28d1df2ac73be0ee0e6a0bb6c0fb79c47ccd114260004630718f5ebb10ee30f",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 7:11": {
+   "en": "And I examined the seed of Jacob in all that I saw. And I wrote down to my son, the firstborn, and I consecrated to",
+   "notes": "Uncertainty in reconstruction and transcription at position 6. Phrase evidence suggests 'the offspring of Jacob' and 'he chose (in) offspring' but the translation retains literal rendering due to uncertainty. The phrase 'the son of Bicri' is a dominant rendering for positions 17-18 but is not adopted here due to low support and contextual mismatch. The verb 'consecrate' at position 20 is rendered literally despite phrase evidence suggesting 'you will consecrate' due to person and number mismatch.",
+   "line_id": 7755,
+   "source_hash": "e158c53a0d782c6be716885b714061f6ee86e291b8b9cc372d1d96cd1534b5f1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 7:12": {
+   "en": "To eternity and unto, and the seventh day, I will report to them to cease in all, as he blessed them and made them holy to a people of possession.",
+   "notes": "The phrase 'a people of possession' is a high-confidence contextual rendering of the phrase 'עם סגולה'. The phrase 'the seventh day' is a high-confidence contextual rendering of the phrase 'היום השביעי'. The verb 'אגיד' is translated as 'I will report' based on its morphology and lexical gloss. The translation conservatively preserves the recoverable material and does not add missing subjects or smooth away repetition.",
+   "line_id": 7756,
+   "source_hash": "c90cd35fe3c092b91a5a842281e23584eaa92afea76d481bff4de333b9eb7ca2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 7:13": {
+   "en": "from all the nations and to be together with us who cease and he will ascend the commandments of an odor of soothing which he will like to his face",
+   "notes": "The phrase 'all the nations' is supported by repeated evidence. 'An odor of soothing' is a contextual rendering of the combined terms 'scent' and 'incense'. The reconstruction of 'gathering' is noted but not included in the translation due to its uncertain status.",
+   "line_id": 7757,
+   "source_hash": "a661ed234e85b5ead54a1f4b9b7b002e0da0f5bf1d5e944ac3ac176daae02897",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 7:14": {
+   "en": "All the days: two and twenty heads of men",
+   "notes": "The phrase 'the heads of the men' is supported by repeated phrase evidence. The colon after 'days' reflects the transcription mark.",
+   "line_id": 7758,
+   "source_hash": "9d8d61d0461c9c559cd5d42011da0c7a0caf3c72a7fb8117959d193aa4e8526e",
+   "source_condition": "clean"
+  },
+  "4Q216 7:15": {
+   "en": "From mankind until two and twenty kinds of deed made until the seventh day. This blessed and holy and this blessed.",
+   "notes": "The phrase 'from work' is a high-confidence contextual rendering for positions 9-10. The phrase 'day (the) seventh' is a high-confidence contextual rendering for positions 14-16. The phrase 'this he' is a repeated phrase evidence for positions 23-24, but it is not used in the translation as it would introduce an unsupported participant. The translation conservatively follows the visible transcription and morphology, preserving the repetition and structure of the source text.",
+   "line_id": 7759,
+   "source_hash": "2704c49b86a96d8c88a67095ed498079305e1d6a53259d73151399e36f8a9f20",
+   "source_condition": "reconstructed"
+  },
+  "4Q216 7:16": {
+   "en": "And holy. And with this they were made together for holiness and for blessing. And it was given to this to be all the days blessed and holy.",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence informing the rendering of 'every the days' as 'all the days'. The reconstruction of 'קדש#[' as 'holiness' is noted, and the uncertain status of this word is acknowledged. The translation conservatively preserves the repetition of 'and' and 'this', and does not add any unlicensed participants or connectors.",
+   "line_id": 7760,
+   "source_hash": "d5eb31e9ff9bc76e22216add0904477c8190836c8207096e07ed594d0abeb6ac",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q216 7:17": {
+   "en": "And this is the attestation and the instruction the first",
+   "notes": "The transcription includes damaged and uncertain elements, particularly in the final word, which is reconstructed as 'first' but remains uncertain. The character 'ε' and the final punctuation mark are omitted from the translation due to lack of clear meaning.",
+   "line_id": 7761,
+   "source_hash": "834cff7863ba4191473f844c3e97db011d99795a28c0344f7c179c1f7460923f",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,599 @@
+{
+ "id": "4Q9",
+ "label": "4Q9",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 83,
+ "scroll_id": 786,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q9 f1:1": {
+   "en": "And [one who] interprets there is not an object and I have heard upon you to say listen dream to [one who] interpreted",
+   "notes": "Uncertain reconstruction of damaged text at positions 1, 14. Phrase evidence applied to positions 2-4, 6-7, 9-11, 14-15, 18-19. Omitted untranslatable source characters at position 16.",
+   "line_id": 40264,
+   "source_hash": "9f1f5372dea5a8a9f8f88eeec904baaf7ab473c29ccf249b45cd812c9ecf916c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f1:2": {
+   "en": "Pharaoh to say without gods not will answer the peace of Pharaoh And Pharaoh spoke",
+   "notes": "Uncertainty in the reconstruction of 'gods' and the particle 'not'. The phrase 'peace of Pharaoh' is a literal translation of the surviving text, but its meaning is unclear.",
+   "line_id": 40265,
+   "source_hash": "f7d8ea3c64c911fef64283adad97d45d7864829d172680eed03f0dc11c729df2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f1:3": {
+   "en": "To Joseph in a dream, behold, he was standing by the bank of the River And behold from the River [were] coming up seven cows",
+   "notes": "Uncertain reconstruction of ה#נ[ ה as behold. [no recoverable text] for עמ ]ד due to damage. Phrase evidence supports 'the bank of the River' and 'seven cows'",
+   "line_id": 40266,
+   "source_hash": "590f3a68b563de9ff5550edd2daeb71ed53756d17dfae6631aa13fa36b339103",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f1:4": {
+   "en": "fat of flesh and beautiful of form they pastured in reed",
+   "notes": "Uncertain reconstruction and gloss for several words, including 'flesh' (position 2), 'and' (positions 3 and 6), 'beautiful' (position 4), 'form' (position 5), and the verb 'pastured' (position 7). The phrase 'fat of flesh' and 'beautiful of form' are supported by repeated phrase evidence, but with varying levels of confidence.",
+   "line_id": 40267,
+   "source_hash": "99951de221ed773acd807912b1ddef9af3dc884bf43dffa7c40134fcd61c8c83",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2i:1": {
+   "en": "And behold seven ears of grain barren the thin",
+   "notes": "Uncertain reconstruction of 'צ ]נ#?מ##[ ו ]ת' as 'barren' and '# [ קות ]' as 'thin'. Phrase evidence strongly supports 'seven ears of grain'.",
+   "line_id": 40268,
+   "source_hash": "e2eb0442642692f31c75e8f10bdf8fe18ee23c28d3461109f16baa02dbdc7287",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2i:2": {
+   "en": "Scorched of an east wind were springing up after, and swallowed seven the ears of grain the thin",
+   "notes": "Reconstructed and uncertain elements include 'שדפות' (scorched), 'תבל' (swallowed), 'שב' (seven), and 'דק#ו?ת' (thin). Phrase evidence supports 'scorched of an east wind were springing up after' and 'seven the ears of grain the thin'. No recoverable text for damaged segments.",
+   "line_id": 40269,
+   "source_hash": "d82686cd6add78afbd1ed1632f04506285dea5b7f7b2eed8c1d4ff41aed70993",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2i:3": {
+   "en": "the seven ears of grain the good",
+   "notes": "Uncertainty in transcription and reconstruction at positions 3, 4, and 6. Phrase evidence supports 'seven the ears of grain' and 'of grain (the) good'.",
+   "line_id": 40270,
+   "source_hash": "bffa2377adb3ff038a1b98d64c1610d9c7205cc1e43d42c1b5456a479f791393",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2i:4": {
+   "en": "And I said to the magicians, and there is no one who tells me. And he said, Joseph, to",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'he said Joseph to' is supported by repeated phrase evidence. Uncertainty in the transcription is noted but does not affect the translation.",
+   "line_id": 40271,
+   "source_hash": "7da11358328c18d69e1a8f34bfcccb3b070055da06658fee056c37d85bee9f5c",
+   "source_condition": "reconstructed"
+  },
+  "4Q9 f2i:5": {
+   "en": "Pharaoh's dream, Pharaoh one he the gods made",
+   "notes": "Uncertain reconstruction of 'the' (position 8) and verb 'made' (position 10). Phrase evidence suggests possible renderings for 'Pharaoh [was] dreaming' and '(the) God [is] about to do', but these are not adopted due to lack of direct support in the visible text.",
+   "line_id": 40272,
+   "source_hash": "b076685f11d27bbdb2fe42db4f3fec6c85c02dbc6572bfc94bfc408f4558e7e6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2i:6": {
+   "en": "He reported to Pharaoh: seven cows, the good ones, seven years they",
+   "notes": "The phrase 'seven cows' is supported by repeated evidence. 'The good ones' is a paraphrase of the repeated evidence 'good [are] seven'. 'Seven years they' is also supported by repeated evidence. The translation conservatively follows the order of the words in the transcription, with evidence-based phrasing for repeated sequences.",
+   "line_id": 40273,
+   "source_hash": "2bc242729c6d32354ff0eef5d7f89e06d3372816d030c97d4b3bbd9bb4718c92",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2i:7": {
+   "en": "And seven ears of grain, the good, seven years they a dream one",
+   "notes": "Uncertain reconstruction of 'חלו ]ם##' as 'dream'; context suggests a connection between the seven good years and a dream, but the exact relationship is unclear.",
+   "line_id": 40274,
+   "source_hash": "6b43e1b700ab6ca7bc76eecc624d8cd82d2701fe679225d02ca809d74760f362",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2i:8": {
+   "en": "He. And seven the cows, the only, and the evil that ascended after Sheba seven years they",
+   "notes": "Uncertain reconstruction and transcription damage affect the translation. The phrase 'after Sheba' is supported by repeated evidence, but its exact relationship to the surrounding text is unclear. The final phrase 'seven years they' is partially reconstructed and uncertain.",
+   "line_id": 40275,
+   "source_hash": "5d15fa21df41fbd52982cffd65f2b850a92d3b78bccdafb17f8da856ed6abfcd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2i:9": {
+   "en": "And seven the ears of grain empty scorched the east will be seven years of famine",
+   "notes": "The translation follows high-confidence phrase evidence for 'seven the ears of grain' and 'seven years of famine'. The verb 'will be' is supported by the morphology of 'יהיו'. The sequence 'empty scorched' retains the visible order of 'רקות שדפות'. Uncertain elements include the reconstructed conjunction 'and' and the final punctuation mark, which are omitted from the translation.",
+   "line_id": 40276,
+   "source_hash": "efb567a4973002b15ee7190f6d296e2dd3435faa50011cbc134aca5965427a45",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f3_4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a Greek letter fragment (ε) and uncertain markers (#). No recoverable text survives for translation.",
+   "line_id": 40277,
+   "source_hash": "4540c70ce256c16cc23efb21504ca02023a6ae0df912671bca7f2bbd322ab8d6",
+   "source_condition": "uncertain"
+  },
+  "4Q9 f3_4:2": {
+   "en": "They will come with satiety great in all the land of Egypt. And seven years of famine will arise",
+   "notes": "The phrase 'the land of Egypt' is supported by high-confidence phrase evidence. The phrase 'seven years of famine' is also supported by phrase evidence, though with lower confidence.",
+   "line_id": 40278,
+   "source_hash": "19d0e9c64a45479684a57729214790915544ebc9453faaa330730cfc92ab91be",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f3_4:3": {
+   "en": "After them it was forgotten, all the satiety in the land of Egypt, and the hunger was complete",
+   "notes": "The phrase 'in the land of Egypt' is supported by repeated phrase evidence. The translation of 'after them' is based on the visible morphology and lexical gloss. The verb 'forget' is translated as 'was forgotten' to match the visible morphology. The phrase 'all the satiety' is a conservative translation of the available lexical items. The final phrase 'the hunger was complete' is a direct translation of the visible lexical items, with 'complete' chosen as the highest-supported sense for the verb 'be complete'.",
+   "line_id": 40279,
+   "source_hash": "47903c8420d9ad037cc7b8a5d6b9ae7b28c20c49105d0d44651874d32c949e79",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f3_4:4": {
+   "en": "the earth and did not know the satiety in the land from before the famine he",
+   "notes": "Uncertain reconstruction of 'of the famine' (positions 13-15) and 'the land from before' (positions 11-13) based on repeated phrase evidence.",
+   "line_id": 40280,
+   "source_hash": "0c33b9ad3b84cdda118d16f14909f0aea1276caf8877826592b5af4b285b4496",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f3_4:5": {
+   "en": "After thus that heavy he might and upon change the dream to pharaoh",
+   "notes": "Uncertain reconstruction of 'מ ]א##ד' as 'might' and 'ח##ל##ו#?ם##[' as 'dream'. Phrase evidence suggests possible renderings for 'כי כבד הוא' as '[will be] heavy it very' or '(dm) [those who] honor me', but the former aligns better with visible morphology. Uncertainty in 'א ]ל#' as 'to' and 'פ##ר#עה' as 'pharaoh' due to damage.",
+   "line_id": 40281,
+   "source_hash": "649aae75b7fa18682742da392be4eb9e8dd56375a57d5f5680c5bb86f964a8eb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f3_4:6": {
+   "en": "For the word is certain from the gods and hastens the gods",
+   "notes": "Reconstructed and uncertain elements include 'feet' (position 1), 'with' (position 7), 'gods' (position 9), and 'hastens' (position 11). The phrase '[is] certain the matter' is supported by repeated evidence but not directly reflected in the translation due to conservative adherence to recoverable text.",
+   "line_id": 40282,
+   "source_hash": "dc7f9449b68fb70f029e8a29efbc272dae69728c3a042ca9f6dcc28889549733",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f3_4:7": {
+   "en": "to make and now he saw Pharaoh a man understanding and wise and he will put upon",
+   "notes": "Uncertainty in transcription and reconstruction at positions 3 and 14. Phrase evidence suggests 'he saw Pharaoh' and 'a man understanding and wise', but context is unclear.",
+   "line_id": 40283,
+   "source_hash": "322d81070485e35d8f80045a824de317d79c491be64481e77675818139789fbd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f3_4:8": {
+   "en": "the land of Egypt pharaoh and he will miss officers upon the land",
+   "notes": "Uncertain reconstruction in positions 1, 4, 8, 10, 11. Phrase evidence supports 'the land of Egypt' and 'surely (visit) he will visit' but the latter is not fully reflected due to missing context. Translation conservatively retains all recoverable words in order.",
+   "line_id": 40284,
+   "source_hash": "1a59fb004fb1e4314a9f62a4049495068fb32724cdd34e29a8287786beb73cd8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f3_4:9": {
+   "en": "And he arrayed the land of Egypt in seven years of satiety",
+   "notes": "Uncertain reconstruction of 'Egypt' (position 5), 'in' (position 6), 'seven' (position 7), and 'satiety' (position 10). Phrase evidence supports 'the land of Egypt' (positions 3-5), 'in seven the years' (positions 6-8), and 'seven the years of (the)' (positions 7-9).",
+   "line_id": 40285,
+   "source_hash": "6d812478525d207276a2693ab6c81259d7687627131dd2995178372dcd5615ff",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f3_4:10": {
+   "en": "all the food of the years the good ones coming these and they heap grain under",
+   "notes": "Uncertain reconstruction and gloss for 'good' (position 6), 'coming' (position 8), and 'grain' (position 13). Phrase evidence suggests 'you will eat this year' for positions 2-4, but it does not align with the visible morphology. Similarly, 'a pit of lowest parts' for positions 13-14 is not supported by the visible transcription.",
+   "line_id": 40286,
+   "source_hash": "8f717f042b4a9ea23f6d156bec38121820f0696463246d7a13596850eef8be44",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f3_4:11": {
+   "en": "the hand of Pharaoh food",
+   "notes": "Fragmentary text with significant damage and uncertainty. The phrase 'the hand of Pharaoh' is supported by repeated phrase evidence. The word 'food' is directly translated from the visible text. Multiple characters and markers are untranslatable and omitted. No recoverable text exists for the remaining positions.",
+   "line_id": 40287,
+   "source_hash": "65ea008c8c9e9d9530b8e693a55c85ae3f25fd75a643d38f2f52d3668e066724",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2ii:1": {
+   "en": "Like this man whom the spirit of God was with and Pharaoh said to Joseph",
+   "notes": "Uncertain reconstruction of 'man' (איש#[). Uncertain reading of 'whom' (ר##ו(# ח #)). Uncertain punctuation mark (׃) after 'God' (אלהים).",
+   "line_id": 40288,
+   "source_hash": "ccf8d49b7e184e66d3b38138e4d6d9b505d14ac3de12c2906c4f356a4f6f1c1f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2ii:2": {
+   "en": "After knowing God, you all this not understood and wise",
+   "notes": "Uncertain reconstruction of 'א[ ח ]ר##י' and 'א#להים'. The phrase 'all this' is supported by repeated phrase evidence. The object marker 'את' is omitted in translation as it does not add meaningful content in English.",
+   "line_id": 40289,
+   "source_hash": "b5a276f0f62d794596fc623b578b2ce107750e66a08a09f6d76044f156ba87a3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2ii:3": {
+   "en": "Like you will be upon the house and upon your mouth he will kiss all the people only",
+   "notes": "Uncertain transcription of 'you' (א##תה). Reconstructed 'house' (בית׳י) and 'mouth' (פי׳ך) with suffixed pronouns.",
+   "line_id": 40290,
+   "source_hash": "3aec0bc33bd7e64a8c176181c1d31de37b7002ca5cd8e30ee5daff9fd68677e1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2ii:4": {
+   "en": "The seat I will strengthen from you and he said Pharaoh to Joseph see I gave",
+   "notes": "Uncertain reconstruction of 'he said' (position 7). Omitted damaged punctuation mark (position 5) and untranslatable surviving character (position 4, '׳').",
+   "line_id": 40291,
+   "source_hash": "eee3e88ff933de2c7491a86978beaa8d74e38f9de3e5dc1b3f55b8c11cd7bab8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2ii:5": {
+   "en": "and he turned aside Pharaoh's ring from over all the land of Egypt",
+   "notes": "The phrase 'all the land of Egypt' is supported by repeated phrase evidence with high confidence. The translation conservatively follows the visible morphology and lexical glosses, preserving the grammatical structure and semantic relationships.",
+   "line_id": 40292,
+   "source_hash": "755950dd52cac690466887ff39c336a12f5f8f1386fcc58e64c5454af7c52691",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2ii:6": {
+   "en": "And he gave a sign on the hand of Joseph, and he clothed him in linen garments, and",
+   "notes": "The phrase 'a sign on the hand of Joseph' is supported by repeated phrase evidence. The phrase 'he clothed him in linen garments' is a combination of the verb 'clothe' and the object 'linen garments', supported by repeated phrase evidence. The final 'and' is a conjunction, supported by the visible DSS transcription.",
+   "line_id": 40293,
+   "source_hash": "31ade4c0734ed7873072d432a38992cb2b5e590984d2686702d239fcbf0fa8dc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2ii:7": {
+   "en": "a gold necklace upon his neck and he will ride it in the second chariot",
+   "notes": "The transcription is partially damaged, with one reconstructed word ('רָבִיד') and one uncertain word. The phrase 'וירכב את׳ו' is translated conservatively as 'he will ride it' based on the provided phrase evidence, though the exact object is unclear. The final word 'מִשְׁנֶה' is translated as 'second' based on its lexical gloss, but its context is uncertain.",
+   "line_id": 40294,
+   "source_hash": "87ed31ef2b66402832c75feb36597070b29883783b4a4ad5385193fc4dadfd0d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2ii:8": {
+   "en": "which to and they called to his face and given him over all the land",
+   "notes": "Uncertain reconstruction of 'ל׳[ ו' as 'to' and 'אברך' as part of the phrase 'given him'; phrase evidence supports 'over all the land' but with moderate confidence.",
+   "line_id": 40295,
+   "source_hash": "ca0adbc0b706ddde9bba6ab4177c1aa2860fb7cdfc4cccc21a0d1f34b2bc67c4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f2ii:9": {
+   "en": "Egypt",
+   "notes": "The transcription contains uncertain and unknown elements, including a reconstructed word and untranslatable characters. The only recoverable word is 'Egypt'.",
+   "line_id": 40296,
+   "source_hash": "626f0e120e67b161021fff20faef3875d05273580188653c4c7b35b0e99cef13",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f5:1": {
+   "en": "For if in your small brother is here, send one of you and let him take your brother, and you",
+   "notes": "The translation follows the visible morphology and lexical glosses, with phrase evidence informing 'one of you' and 'let him take your brother'. Uncertainty arises from damaged tokens and ambiguous glosses, particularly for 'הנה' and 'אתם', which are translated conservatively. The final clause 'and you' is retained despite potential incompleteness, adhering to the source text.",
+   "line_id": 40297,
+   "source_hash": "71e6c160cf2140cdf36a63172ee97e528cdb0e72528e59edcb174b19c0fbb5e5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f5:2": {
+   "en": "Bind and examine your words, the trustworthiness with you, and if not alive Pharaoh, that slanderers",
+   "notes": "The phrase 'by the life of Pharaoh' is a reconstruction based on repeated phrase evidence. The term 'faithfulness with' is a contextual rendering of 'trustworthiness with'. The final portion of the translation is uncertain due to damage and reconstruction.",
+   "line_id": 40298,
+   "source_hash": "7d07d1e269f71881941bcf5ccd70860a41378c53d7ce38f0e140fefd522cf207",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f5:3": {
+   "en": "You and he gathered them to the guard three days and he said to Joseph",
+   "notes": "Uncertain reconstruction of 'gathered' and 'object marker'; punctuation marks omitted.",
+   "line_id": 40299,
+   "source_hash": "e7db551b513c46cd66ed428609122774cc537dfcf197098ab470e50a2534f51e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f5:4": {
+   "en": "In the day, the third, this make, and live, with the gods, I [am] fearing if thus",
+   "notes": "Uncertain reconstruction and damage throughout. Phrase evidence supports 'day (the) third', 'God I', and 'this he has done', but the latter is not directly reflected due to strict source-coverage rules. The translation conservatively follows recoverable tokens, omitting unsupported connectors and possessives.",
+   "line_id": 40300,
+   "source_hash": "cf0ef8cd368b47af5766bedcec5a1337a222124c099ca15e97eed890d8fbcd1e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f5:5": {
+   "en": "You brothers, one binds in the guardhouse and you go, bring the grain",
+   "notes": "The transcription is heavily damaged with several uncertain and reconstructed words. The phrase 'you brothers' is supported by repeated evidence. 'One binds' is a literal translation of the visible morphology, though the context suggests imprisonment. 'Guardhouse' is a plausible but uncertain reconstruction. 'You go' and 'bring the grain' are supported by repeated phrase evidence, though 'grain' is a context-free gloss for 'Sheber'.",
+   "line_id": 40301,
+   "source_hash": "7e95f9d23983081594c15934153aab013631e809736449d045cc1aa3d99a44ed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f5:6": {
+   "en": "of the hunger your households and to your brother the small come to and let it be established word",
+   "notes": "Uncertain reconstruction and gloss for several words, including 'houses' (position 2), 'and' (position 4), 'come' (position 9), and 'and' (position 11). The phrase 'let it be established word' is a high-confidence rendering of positions 12-13. The phrase 'of the hunger your households' is a repeated pattern with moderate support for positions 1-2.",
+   "line_id": 40302,
+   "source_hash": "293480c132a4cb1122e378755b3bd1a9debdbff83ff2e237854118ade55efdf9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f5:7": {
+   "en": "And do not die, and they made thus. And they said each to his brother, verily guilty.",
+   "notes": "The translation includes reconstructed and uncertain words. The phrase 'they said each to' and 'each to brother' are supported by repeated phrase evidence. The word 'verily' is a conservative translation of 'אבל' given the context.",
+   "line_id": 40303,
+   "source_hash": "2fa62f0175f35b2faa3d269ed5af2c217974b1636a287d9ce8a46aafb1e29f58",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f5:8": {
+   "en": "We upon our brother who saw the distress of his soul in seeking favor to and we did not hear",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 3, 5, 7, 9. Phrase evidence supported 'they will seek favor to' for positions 9-10 and 'the distress his self' for positions 6-7. Visible morphology and lexical glosses prioritized where possible.",
+   "line_id": 40304,
+   "source_hash": "c07d0db3095eecaeba5f1de6d0069250458eb8b769b8200a3190ddc72b889e8d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f5:9": {
+   "en": "Upon thus she came to the distress this and he answered them Reuben to say not",
+   "notes": "Uncertain reconstruction of 'upon thus' (positions 1-2), 'she came' (position 3), 'to' (position 4), 'distress' (position 6), and 'this' (position 8). Unclear relationship between 'Reuben' and the preceding clause. Final 'not' may be interrogative or negating the preceding statement.",
+   "line_id": 40305,
+   "source_hash": "d9e184c18e4dc6a069c87a6d63761d21e11e41fa6862275f3491713b70dc960a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f5:10": {
+   "en": "I said to you to not sin in the boy and you did not hear even his blood behold",
+   "notes": "Uncertain reconstruction of preposition 'to' (position 3) and verb 'sin' (position 6).",
+   "line_id": 40306,
+   "source_hash": "2c3c033a44dfaefab773e12e63720f42463107bc51f01169d423b8c612f92aaf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f6:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments (ε) and reconstructed placeholders (#), with no recoverable lexical content.",
+   "line_id": 40307,
+   "source_hash": "c9e6194b34f54527b0031872ec5d9a9c814d69bf1f29e01e5d478c1b5069ad5d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f6:2": {
+   "en": "and he said",
+   "notes": "The initial character 'ε' is not independently translatable and is omitted from the translation.",
+   "line_id": 40308,
+   "source_hash": "0f3f55738d8f762e9f0f2cf41586952d9fc72853a83d909ce4f3859916811f34",
+   "source_condition": "clean"
+  },
+  "4Q9 f6+14:3": {
+   "en": "Not he will descend son with that his brother died and he to his part and was called accident on the way",
+   "notes": "Uncertain elements include the reconstruction of 'לא' and 'קרא', the gloss of 'בד׳ו', and the damaged conjunction 'ו#?'. Phrase evidence was considered but not applied due to low support. The translation preserves all recoverable words in order, with no added subjects or connectors.",
+   "line_id": 40309,
+   "source_hash": "a0e35b53a5b00911f366e90a3062118b648ef03d270873aaca7b3d7a4e9567c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f6+14:4": {
+   "en": "That you go in and brought down the gray hair in sorrow Sheol and the heavy hunger in the land",
+   "notes": "The phrase 'in sorrow Sheol' is supported by repeated phrase evidence. The translation of 'gray hair' is uncertain due to damage and reconstruction. 'Heavy hunger' is a literal translation of the visible morphology, but the sense is uncertain due to damage.",
+   "line_id": 40310,
+   "source_hash": "4eb7dd2dcff576492ef98ce243ddb0d8c7767f40527b74e02e6216085e1a246e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f6+14:5": {
+   "en": "And it was when they had finished eating the grain that they brought from Egypt, and he said",
+   "notes": "The phrase 'they had finished to eat' is supported by repeated evidence. The transcription is partially reconstructed and contains uncertain characters, particularly in the word for 'Egypt'.",
+   "line_id": 40311,
+   "source_hash": "08120b8b381f3e2ca5d19532cf14adeb6ba46d46a91eed2fa184564336c356e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f7_8:1": {
+   "en": "You did not send me down that the man might say to us, 'You will not see the face of your brother.'",
+   "notes": "Reconstructed text in positions 1, 7, 8. Uncertain reading in position 8. The phrase 'not you will see face' has moderate repeated evidence (0.5). 'He said to' has strong repeated evidence (0.4703). 'To see face' has weak repeated evidence (0.1304). The gloss for 'בלתי' is uncertain (?).",
+   "line_id": 40312,
+   "source_hash": "b421cd7a568a6da19de968b73488cea1a4127a2fcc91599983ab5178f25b1dee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f7_8:2": {
+   "en": "And he said Israel why have you done evil to [no recoverable text] they told to the men still to [no recoverable text] brother",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'you have done evil to' is supported by phrase evidence. The sequence 'he said Israel' is supported by phrase evidence. The sequence 'they told to the men' is supported by phrase evidence. The sequence 'to brothers' is supported by phrase evidence, but the text only allows for 'brother' here. The remaining text is too damaged for a defensible translation.",
+   "line_id": 40313,
+   "source_hash": "a47ac8ff7140c679d41aff15394d0fcc37acce5d55ced62f4fd8932ff7c823c6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f7_8:3": {
+   "en": "And they said, Ask, he asked the man to and to our offspring to say, Is my father still alive? Is there?",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'he asked' is supported by repeated phrase evidence. The interrogative particles and the existence particle are retained as per the gloss. The translation conservatively preserves all recoverable lexical items and their order, with uncertainty noted here.",
+   "line_id": 40314,
+   "source_hash": "f4209975f08ba71487bd0d490a17eebf472ec542a542279a91bd5b751d704fee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f7_8:4": {
+   "en": "To brothers and we reported to him upon the mouth of the words these possibly know did we know that he will say",
+   "notes": "Reconstructed text and uncertain readings are present. The phrase 'the mouth of the words' is supported by repeated evidence. 'Possibly know did we know' reflects low-confidence contextual evidence. 'To brothers' and 'he will say' are supported by repeated phrase evidence, though 'he told to' is more common for the verb sequence.",
+   "line_id": 40315,
+   "source_hash": "30af273e51cb3668cfe94882af8e00382c39da93ab925fd3ccb60d6e6bca01b3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f7_8:5": {
+   "en": "Bring down your brother. And he said Judah to Israel father [no recoverable text].",
+   "notes": "The transcription is damaged, with two reconstructed words and one uncertain word. The phrase 'he said Judah to Israel father' is supported by repeated phrase evidence, but the final word is irretrievably lost.",
+   "line_id": 40316,
+   "source_hash": "96197481a580b012c429d57930a73773ce3035addacf2ddaba8fdd89ac818181",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9i_10:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or fragments that can be translated into English.",
+   "line_id": 40317,
+   "source_hash": "b3115219008e066ad62cf35aa391813aab6ad49547b68955f766cc93ff4b6c2e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9i_10:2": {
+   "en": "and he fell upon necks Benjamin",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Phrase evidence supports 'he fell on neck' but does not fully align with the visible text. 'Benjamin' is uncertain due to damage.",
+   "line_id": 40318,
+   "source_hash": "ff412c066ad0bef2857796f627aa8436073a80388007de4c503cc6f44cad8aa3",
+   "source_condition": "uncertain"
+  },
+  "4Q9 f9i_10:3": {
+   "en": "And he wept, and Benjamin wept upon their necks. And he kissed all his brothers and wept upon them.",
+   "notes": "The phrase 'upon their necks' is supported by repeated phrase evidence. The phrase 'all his brothers' is supported by repeated phrase evidence. The phrase 'wept upon them' is supported by repeated phrase evidence.",
+   "line_id": 40319,
+   "source_hash": "a6ff7a7327c42329595744fb860679f99b1d69497e8fe3699dcf74581d5ea5ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9i_10:4": {
+   "en": "And afterward thus",
+   "notes": "",
+   "line_id": 40320,
+   "source_hash": "0a4afb9876ec50cbfac4cf62573c9e627c4f983ff78fca1af9bf64c918f2b3b4",
+   "source_condition": "clean"
+  },
+  "4Q9 f9i_10:5": {
+   "en": "They spoke to the brothers and the sound was heard in Pharaoh's house, saying, 'The brothers of Joseph have come.'",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'the sound it was heard' (positions 6-8), 'the brothers of Joseph' (positions 14-15), and 'Pharaoh (cmp) saying' (positions 10-12). Uncertainty remains in the reconstruction of 'house' (position 9) and 'Joseph' (position 15), as well as the damaged conjunction (position 5) and preposition (position 11). The object marker (position 3) and its referent are unclear.",
+   "line_id": 40321,
+   "source_hash": "a562621e375098471c406b32d7cab8cb9690b8d7f4abcd510bdc3557f9dd548a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9i_10:6": {
+   "en": "And it was good in the eyes of Pharaoh and in the eyes of his servants and Pharaoh said to Joseph",
+   "notes": "Positions 7, 9, 11, 12, 13, 14 are uncertain. Positions 1, 2, 8, 12 are reconstructed.",
+   "line_id": 40322,
+   "source_hash": "5df2022db644321152261eef1eb3abc7d0437f3d3c29b0de45fbcdc134e60ed0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9i_10:7": {
+   "en": "To your brothers, this he has done, load the cattle, and go to the land of Canaan",
+   "notes": "Uncertain reconstruction of 'load' (position 5), 'cattle' (position 7), and 'go' (position 9). Unknown verb at position 10. Phrase evidence supports 'the land of Canaan' (positions 11-12) and 'this he has done' (positions 3-4).",
+   "line_id": 40323,
+   "source_hash": "6427feac46da845b82888300043a4bf9ef3f7880fc2b5578d534938dc759d62d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9i_10:8": {
+   "en": "And take your fathers and your houses, and come to me, and I will give to you the best",
+   "notes": "The transcription is heavily damaged, with many uncertain and reconstructed words. The phrase 'fetch (et) father' is supported by repeated evidence, but its meaning is unclear. The translation follows the visible morphology and lexical glosses where possible, but many details are uncertain.",
+   "line_id": 40324,
+   "source_hash": "d98473032588d10b954d3f6002136f518f429d80e4f306ab2e032bbd558be7e9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9i_10:9": {
+   "en": "the land of Egypt and eat the fat of the earth and you were commanded this do take for",
+   "notes": "The phrase 'the land of Egypt' is supported by repeated evidence. 'Do take for' is a paraphrased rendering of the imperative verbs 'עשו קחו' with the suffix 'ל׳כם'. The object 'the fat of the earth' is a literal translation of 'חל ]ב##[ הארץ'. The phrase 'you were commanded this' is a paraphrased rendering of 'צויתה זאת' with the pronoun 'א ]ת##ה##[' understood as the subject. Uncertainty in the transcription is noted for 'מצרי ]ם##', '[ חל ]ב##[', and 'א ]ת##ה##['.",
+   "line_id": 40325,
+   "source_hash": "69ed151f00d27c384c79d85ca20f345e2ad6ee9f4492ce76a71764556edb7a70",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9i_10:10": {
+   "en": "From the land of Egypt with chariot to the young ones and to the women and you lifted your fathers and you came",
+   "notes": "Uncertain reconstruction of 'chariot' and 'young ones'. The phrase 'from the land of Egypt' is supported by repeated evidence.",
+   "line_id": 40326,
+   "source_hash": "410888dbd65af49774d8053230439a027ab8f92e9ef17d171f778d356fabeceb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9i_10:11": {
+   "en": "And your eyes not pity upon your tools that good",
+   "notes": "The translation follows the visible transcription and morphology. The phrase is fragmented, and the exact relationship between 'tools' and 'good' is unclear. No uncertainty is signaled in the translation as per instructions.",
+   "line_id": 40327,
+   "source_hash": "54f69fbfb46ce81b40e30534118fb1aa01e4d10b67c9d23b221017d349e79e74",
+   "source_condition": "reconstructed"
+  },
+  "4Q9 f9i_10:12": {
+   "en": "All the land of Egypt to him. And they made thus the people of Israel, and he gave to them.",
+   "notes": "The phrase 'all the land of Egypt' is supported by repeated phrase evidence. The phrase 'the people of Israel' is also supported by repeated phrase evidence. The translation preserves the grammatical person, number, and semantic relationships. Uncertainty in the transcription is noted for the word 'אר##[ ץ' (earth), which is reconstructed.",
+   "line_id": 40328,
+   "source_hash": "350c4249de3e796b3559501ccbe2ce7dc10d15bc1731d56b5626651f15bf8665",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9i_10:13": {
+   "en": "Joseph chariots on the mouth of Pharaoh and he gave to them provision for the way to all of them he put",
+   "notes": "The phrase 'on the mouth of Pharaoh' and 'he gave to them' are supported by repeated phrase evidence. The translation conservatively follows the recoverable text, preserving the repetition and structure without adding missing subjects or smoothing syntax.",
+   "line_id": 40329,
+   "source_hash": "deb7b1f9ac81dd8f221f048887092d2b40fd91f4b6a7fb66a717edc2bdc8f818",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9i_10:14": {
+   "en": "To a man substitutes of mantles and to Benjamin he gave three hundred silver and five substitutes of mantles",
+   "notes": "The phrase 'changes of clothes' is supported by repeated evidence for positions 14-15. 'Three hundred(s)' is supported for positions 9-10, and 'hundred(s) silver' for positions 10-11. The initial preposition 'to' is uncertain due to damage.",
+   "line_id": 40330,
+   "source_hash": "7e817b85476e31d600261e01868d9f39fe2432b0fce0697816db6f3eecfd7102",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9ii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters, with no defensible English translation possible.",
+   "line_id": 40331,
+   "source_hash": "8224459a10704ec0446e2901892f79f7acefce7b0ec39a525e3227869209b222",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9ii:2": {
+   "en": "and they reported",
+   "notes": "The transcription is partially damaged and reconstructed, with uncertainty in the first two characters. The verb 'יגדו' is translated based on its morphology and lexical gloss, but the context is unclear due to the fragmentary nature of the text.",
+   "line_id": 40332,
+   "source_hash": "5d57d6501827fecf2a75a1e278236fa44da5e2e726253a439e3f7076e4dbb605",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9ii:3": {
+   "en": "to to say still Joseph alive and that he ruled in all the land of Egypt and his heart grew numb that",
+   "notes": "The translation includes repeated 'to' particles and uncertain wording due to damaged text. Phrase evidence supports 'all the land of Egypt' as a coherent unit. The verb 'ruled' reflects the visible morphology of 'משל' in the qal stem. The phrase 'his heart grew numb' is translated conservatively, preserving the visible 'לב׳ו' suffix and 'יפג' verb form.",
+   "line_id": 40333,
+   "source_hash": "4ad4faf415afe0e3a36cc24bb6a77cd5282d6f8dee4aa367230f0f4116afefd9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9ii:4": {
+   "en": "Not he believed to them and they spoke to him all the words of Joseph which he had spoken to them",
+   "notes": "The transcription is damaged, with a reconstructed verb 'believed' and uncertain subject 'he'. The phrase 'all the words of Joseph which he had spoken to them' is supported by repeated evidence. The translation preserves the visible morphology and semantic relationships, but the exact wording of the damaged sections is uncertain.",
+   "line_id": 40334,
+   "source_hash": "531d96b48b704d8c2c13466727ffa44af277ebd64d7be4eaf66afcd670025e1f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9ii:5": {
+   "en": "And he saw the carts that Joseph had sent to carry him, and the spirit of Jacob their father lived.",
+   "notes": "The transcription contains reconstructed characters and an uncertain verb form. The phrase 'carts which he had sent' is supported by repeated evidence. 'Jacob father' is a common phrase, but 'their' is added for fluency, which may not be fully licensed. The spirit's agency in 'lived' is retained from the visible morphology.",
+   "line_id": 40335,
+   "source_hash": "bccf5762e66ae18f87b1598a18d60733f054ae6ef6e37a4bd9167be13f316a5d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f9ii:6": {
+   "en": "And he said, 'Israel is great, and Joseph is still alive. I will go and see him before I die.'",
+   "notes": "The transcription contains damaged and uncertain elements, particularly in the reconstruction of the verb 'said' and the phrase involving Joseph. The phrase 'they repeated the people' was not used as it does not fit the context. The translation preserves the visible morphology and lexical items, with uncertainty noted in the reconstruction of the verb and the phrase involving Joseph.",
+   "line_id": 40336,
+   "source_hash": "dab44926f2f11aa81731f6e528668ac4624bd4f8c5c21a741d11098d0262b4ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f11:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (ε, #, and reconstructed gaps), with no recoverable lexical content. All words are marked as unknown or uncertain, and no contextual or semantic constraints provide additional information.",
+   "line_id": 40337,
+   "source_hash": "89c9e1c91782db6b0ee4ddbd4eab205dfe1353a3b79d2607175a716a193ad639",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f11:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 40338,
+   "source_hash": "e40439290a478013db3957962254e6e4dec9a68e971171f28eb669048f69f90c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f11:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 40339,
+   "source_hash": "07bb8b3b87a94aac8439e63a61c694da4b8396159ae207d46ade225447528ee5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f11:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains mostly untranslatable fragments and reconstructions with high uncertainty. The only identifiable element is a reconstructed pronoun 'she' (היא#[), but it lacks context and cannot form a coherent translation on its own.",
+   "line_id": 40340,
+   "source_hash": "c2ebfb2a2b5a1ee3f6c7a50023f91aa9a3707ea0971316fae6fa5e750ebb082c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f11:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and reconstructions with no clear lexical meaning. The visible characters do not form recoverable words in Hebrew or related languages.",
+   "line_id": 40341,
+   "source_hash": "3a898f99cb93c1f2dee8b4eda65403a399e09443a3c6b13f15082582643563ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f11:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and punctuation marks. The visible characters (ε, ׃) and reconstructed elements do not form translatable lexical units.",
+   "line_id": 40342,
+   "source_hash": "3054e98ffd10fc4d9b654b11b8d1636b3e74f7f21340a022dbc08e70ac3968d5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f12:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains damaged and uncertain elements with no clear lexical or grammatical meaning. The Greek letter epsilon (ε) and the Hebrew characters ]מר# ל##׃ do not form a translatable sequence. The lexical glosses are either unavailable or unreliable. No contextual or repeated phrase evidence supports a coherent translation.",
+   "line_id": 40343,
+   "source_hash": "7ad3e32948a8a9265a4143047e27417465d29241c70851ee6092eef6782a1515",
+   "source_condition": "uncertain"
+  },
+  "4Q9 f13:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content in Hebrew or Aramaic. All visible forms are either unknown or reconstructed with uncertainty.",
+   "line_id": 40344,
+   "source_hash": "6aeeb53fba9163704d4f608aca7c92e568217197d6ce25becedf4b03ad581b42",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f13:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content in Hebrew or Aramaic. All visible forms are either unknown or reconstructed with uncertainty.",
+   "line_id": 40345,
+   "source_hash": "3e1b50f4b4c40be446425b6c9f71495b41192289c51a3dbdc046b05ca64e44b0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q9 f13:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too damaged to interpret.",
+   "line_id": 40346,
+   "source_hash": "88d9b809407d4aa3742be924ced71b70f09c788046780c4e4d0dd9ff990aa718",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

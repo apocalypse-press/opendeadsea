@@ -622,6 +622,9 @@ function boot() {
       if (mss.museum_url) {
         links.push(`<a href="${esc(mss.museum_url)}" target="_blank" rel="noopener noreferrer">Museum page</a>`);
       }
+      if (mss.wikipedia_url) {
+        links.push(`<a href="${esc(mss.wikipedia_url)}" target="_blank" rel="noopener noreferrer">Wikipedia</a>`);
+      }
       const plates = links.length ? `<p class="mss-links">${links.join(" · ")}</p>` : "";
 
       if (mss.wording_status === "absent") {

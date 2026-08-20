@@ -1,0 +1,620 @@
+{
+ "id": "4Q258",
+ "label": "4Q258",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 86,
+ "scroll_id": 220,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q258 1:1": {
+   "en": "An exposition to the man of instruction, who incites to return from all harm and to be strong in all that he commanded.",
+   "notes": "The phrase 'from all harm' is supported by repeated phrase evidence. The phrase 'to all that he had commanded' is also supported by repeated phrase evidence, but the past perfect tense is not directly indicated in the source; 'commanded' is used here for consistency with the visible morphology of the verb 'צוה' (piel, perfect).",
+   "line_id": 9715,
+   "source_hash": "248911bc4ed26290b79f497f4ea633160a17211e3fa0829733b1f432b8661135",
+   "source_condition": "clean"
+  },
+  "4Q258 1:2": {
+   "en": "And to separate from the gathering of the men of injustice, and to be in the gathering in the instruction, and in abundance, and they return upon the mouth of the many to every matter.",
+   "notes": "The translation includes uncertain terms 'injustice' (עול#), 'gathering' (יח#ד#), and a reconstructed 'instruction' (תור#[ ה ]). The phrase 'to every matter' is supported by repeated phrase evidence, though with moderate confidence (0.4167).",
+   "line_id": 9716,
+   "source_hash": "a5f820ae193e8cb050a447bd3726090004078357c45c6662867d9a6eee3468a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 1:3": {
+   "en": "To instruction and abundance, and to make humility and justice and justice and love and loyalty, and be cautious to walk in all their ways.",
+   "notes": "The text contains two instances of 'justice' (positions 11 and 13) and a reconstructed word 'love' (position 15). The phrase 'in all their ways' is supported by repeated phrase evidence, though 'their' is not explicitly licensed by the source. The verb 'be cautious' is uncertain due to damage (position 18).",
+   "line_id": 9717,
+   "source_hash": "90360482fedb92bf1a75569d7198f7c990f9aed8b6579afd7c3a3d74956966ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 1:4": {
+   "en": "[that] no man walks in the stubbornness of his heart to err, that if to found a foundation of trustworthiness for Israel, for gathering for all",
+   "notes": "Uncertain transcription and reconstruction in positions 2 and 13. Phrase evidence supported 'in the stubbornness their own heart' but the possessive was not licensed by a recoverable source token.",
+   "line_id": 9718,
+   "source_hash": "a0442d53dba307c92ed1cf3f250b4bdd490631f273b60547774c33d07532cc61",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 1:5": {
+   "en": "The inciting to holiness in Aaron and the house of trustworthiness to Israel and [those who] joined themselves to gathering. And every (the) [one who] comes to counsel.",
+   "notes": "Uncertain terms: 'incite', 'Aaron', 'trustworthiness', 'joined', 'gathering', 'counsel'. Reconstructed terms: 'joined', 'upon'. Phrase evidence applied to '[those who] joined themselves to' and 'every (the) [one who] comes'.",
+   "line_id": 9719,
+   "source_hash": "393e53f085008f26430ddf6dbc4cdfd7c46c0cb7992bb84794aa4730d705943c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 1:6": {
+   "en": "A gathering arises upon his soul in obligation to return to the instruction of Moses in all heart and with all being from the exile[s]",
+   "notes": "Reconstructed and uncertain elements include the definite article, verb forms, and proper nouns. Phrase evidence supports 'all heart' and 'all being' as established expressions. The translation conservatively follows visible morphology and lexical glosses, retaining uncertainty in the notes.",
+   "line_id": 9720,
+   "source_hash": "2575bac25bb4f655efbccf6dc625adce42619da1f02cf21859cc763be5838a10",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 1:7": {
+   "en": "The instruction upon the mouth of the counsel of the men of the gathering and to separate from all the men of injustice and who did not touch the purification of the men",
+   "notes": "Uncertain reconstruction of 'gathering' and 'who'. Phrase evidence supports 'all the men of (the)' and 'all the men' but is not strictly required here.",
+   "line_id": 9721,
+   "source_hash": "3c0666f23806940082aacde0516bcb5e95fb4c82ee9ebaeb60f365236b5415b1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 1:8": {
+   "en": "The holiness and not eat it in gathering and who will not return a man from the men of the gathering upon their mouth to whole",
+   "notes": "Uncertain reconstruction of initial 'ה' and 'ב['. The phrase 'על פי׳הם לכל' is unclear and may require further context for accurate translation.",
+   "line_id": 9722,
+   "source_hash": "76e0243c716a7289eaad94785325c8955065a467368ce78b40472040d5cd8c3e",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 1:9": {
+   "en": "Instruction and justice. And that which is not united with abundance and in work. And no man shall eat from the men of holiness.",
+   "notes": "The translation includes reconstructed text for '[ תורה' and 'אש[ ר'. The word 'ע#בודה' is marked as uncertain. The phrase 'יואכל איש' is translated based on repeated phrase evidence as 'no man shall eat'.",
+   "line_id": 9723,
+   "source_hash": "9d3b9d8b59c672ad11094c7943d81547c664ca7e4708f7cdcabff6920cc51419",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 1:10": {
+   "en": "From his abundance and he will not take from his hand anything. And they will not lean upon all the work of vanity all that they did not know",
+   "notes": "Uncertain reconstruction at positions 4, 8, 12, 15, 21. Repeated phrase evidence applied to 'vanity all' and 'all the work of'.",
+   "line_id": 9724,
+   "source_hash": "ac46b04d18344d01dc85d83a097e7edd7b8ffc4f214b1f041dd8a56da3c932e1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 1:11": {
+   "en": "his covenant, and all who contemn his word to destroy from the world and their deeds to menstruation his face and unclean in all their abundance",
+   "notes": "Reconstructed text includes: 'את' (position 1), 'נד' (position 15), 'ל' (position 16), 'כ' (position 21). Uncertainty in 'נד#[ ה' (position 15) due to damage. Phrase evidence supported 'all [those]' for positions 5-6, but 'all who' was chosen for grammatical coherence. Phrase evidence for 'you have made unclean by all' (positions 19-21) was not used as it introduces an unsupported participant. Phrase evidence for 'all wealth' (positions 21-22) was not used as it does not fit the context.",
+   "line_id": 9725,
+   "source_hash": "3aaa8fc089846b5e8c217fde6248e0c89e7853872616bb3b94fd762e42e8d96d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 1:12": {
+   "en": "peoples and oaths and bans and vows in their mouth",
+   "notes": "Uncertain reading in 'גוי?ם' (peoples). The characters 'ε' at the beginning and end are untranslatable and omitted.",
+   "line_id": 9726,
+   "source_hash": "06df66f4c073cd36834c19025f5ce9aabda09213289e2f88433ae0a01ac1c796",
+   "source_condition": "uncertain"
+  },
+  "4Q258 1:13": {
+   "en": "[no recoverable text]",
+   "notes": "The line contains heavily damaged and uncertain fragments with no defensible English translation. All recoverable elements are either incomplete or lack sufficient context for meaningful interpretation.",
+   "line_id": 9727,
+   "source_hash": "46f61c485747bb2ba3a1f5d355d5fce948bbb5da2d6038327656b5e37549bb67",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 2:1": {
+   "en": "And their deeds in the instruction upon the mouth of the sons of Aaron, the volunteers to establish the covenant and to muster all the portions which he commanded",
+   "notes": "",
+   "line_id": 9728,
+   "source_hash": "bfc8d907b59a84537abb44ea781ea31eaf61360e7540367f7265bae924c01e73",
+   "source_condition": "clean"
+  },
+  "4Q258 2:2": {
+   "en": "To make upon the mouth of the multitude of Israel the volunteers to return in gathering. And to write a man to the face of his fellow in the high official of a man to the mouth of his insight.",
+   "notes": "The translation follows the visible transcription and morphology. Uncertainty arises from the phrase evidence and lexical glosses, particularly for 'רע׳ה' and 'שכל׳ו', which are suffixed forms with unclear contextual resolution. The phrase 'of the wickedness' and 'everyone to the mouth' are suggested by repeated evidence but are not directly reflected in the translation due to low pattern support. The translation conservatively preserves all recoverable lexical items without adding unsupported elements.",
+   "line_id": 9729,
+   "source_hash": "91125b8320837051ccf1a0b24293623fd2f401ec08d859dba1071684b2416c81",
+   "source_condition": "clean"
+  },
+  "4Q258 2:3": {
+   "en": "And the deeds in the instruction to hear the whole man to his fellow and the small to the great and to be enrolling them and their deeds",
+   "notes": "Uncertain transcription and reconstruction at positions 6, 12. Phrase evidence suggests possible contextual renderings, but these are not adopted due to lack of direct support in the visible text.",
+   "line_id": 9730,
+   "source_hash": "6b74c2515fc79eeec44f874f3fcaeb17d452d5748cdbc11f18c391ccf70e0c95",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 2:4": {
+   "en": "in instruction a year in a year to ascend a man as mouth of insight and to be behind as his movements to reprove a man his fellow and love of loyalty",
+   "notes": "Positions 7, 11, 16, 17, 26 are uncertain. Position 11 is reconstructed.",
+   "line_id": 9731,
+   "source_hash": "663b5680d365f9a04d2fae7ae11c15592a5e2a7bdce3e853546eb98ec35c47d9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 2:5": {
+   "en": "And not speak a man to his fellow in nose or in murmuring or in jealousy of guilt And also not come a man on his fellow to speak to many",
+   "notes": "The translation follows visible morphology and phrase evidence where available. Uncertainty remains in the interpretation of some particles and nouns due to ambiguous glosses.",
+   "line_id": 9732,
+   "source_hash": "3874a9620236a5e85a4c417f5e839f007ba78f979fc2419661a4f69e14318b53",
+   "source_condition": "clean"
+  },
+  "4Q258 2:6": {
+   "en": "which not in reprove to face witnesses and in these they walk in all their horror all the one found the fellow and they hear the small",
+   "notes": "Positions 6-7, 12, 20, and 23 are uncertain. Positions 7, 23 are reconstructed.",
+   "line_id": 9733,
+   "source_hash": "b8da4943aecb403dd212065262bb137d1cdae0484216f68459dc9e7f90f7b0b8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 2:7": {
+   "en": "to great to work and to abundance gathering they eat they bless and they advise in every place which it was there ten",
+   "notes": "Uncertain reconstructions and damaged text affect positions 7, 11, 12, 14, 15, and 24. The phrase 'in every place which' is supported by repeated evidence. Other uncertainties are noted in the translation order.",
+   "line_id": 9734,
+   "source_hash": "3dd144de424d96fb396cee04570c8a3de40031c3cc43decf58136521c565ab61",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 2:8": {
+   "en": "Men from the counsel of the gathering, he will not touch from them, the priest and the man as his establishment, they sit before his face, and thus they ask for their counsel for every matter",
+   "notes": "Positions 9-10 and 23-25 use repeated phrase evidence. Positions 15-17 use high-confidence semantic constraints. Positions 2-3, 10, and 14 are uncertain.",
+   "line_id": 9735,
+   "source_hash": "9e3d145444ce7b5956adf3e02cfc20af7c07d0f34a8684ee27c689a2e5961721",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 2:9": {
+   "en": "And it was that they would set the table to eat or the wine to drink, the priest would stretch out his hand to the first to bless in the beginning of the bread",
+   "notes": "Reconstructed text in positions 4, 11, 16. Phrase evidence supports 'he stretched out hand' for positions 16-17.",
+   "line_id": 9736,
+   "source_hash": "9fc4940607137df4004dd01190112fb50c09f142c278303303e7f4ceb1129182",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 2:10": {
+   "en": "And the wine and no man shall touch the instruction of continuity and the many will be wakeful in gathering the third of all nights of the year to call in the letter",
+   "notes": "The translation includes reconstructed text for 'תירוש[' and 'יש ]קד[ ו'. The phrase 'to call in the letter' is supported by repeated phrase evidence, though its dominant contextual rendering is not directly applied here. The translation conservatively follows the provided lexical glosses and visible morphology, avoiding additions beyond the recoverable text.",
+   "line_id": 9737,
+   "source_hash": "321f422b1ab03651b71cb67faf1b74073a7c81f4630ccd75fe01adf7125b9f75",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 3:1": {
+   "en": "A man with knowledge of the counsel of the gathering: he shall not speak to a man in the midst of the words of his fellow, and he shall not speak before his face, and in the seat",
+   "notes": "The translation includes reconstructed text for 'מד[ ע׳ו' as 'knowledge' based on the lemma 'מַדָּע'. The phrase 'of the gathering' is a contextual rendering for 'היחד'. The phrase 'in the midst of the words of his fellow' incorporates repeated phrase evidence for 'דברי רע׳הו'. The phrase 'before his face' is a contextual rendering for 'לפני תכונ׳ו'. The final phrase 'and in the seat' reflects the visible text 'ובמושב' but is incomplete due to the fragment's end.",
+   "line_id": 9738,
+   "source_hash": "fb8f4f9adfe540cf69790b8e75cd921d7410c9e83c4682f3b7f1aa2c56f0fbd0",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 3:2": {
+   "en": "Not to the many, lest he speak. Every word which is not to the pleasure of the many. And every man who has the word to speak.",
+   "notes": "Reconstructed and uncertain text is present. The translation follows the visible transcription and morphology, with phrase evidence and lexical glosses used where necessary. The phrase 'every word which is not to the pleasure of the many' is a paraphrase based on the dominant contextual rendering of the phrase evidence for positions 6-8. The phrase 'every man who has the word to speak' is a paraphrase based on the dominant contextual rendering of the phrase evidence for positions 16-18 and 20-21.",
+   "line_id": 9739,
+   "source_hash": "f312ebfbfc78e6fd42c5deac30108a1af2df7bdf6bffd1ea3ce87fb390a7e6d9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 3:3": {
+   "en": "to many who not in standing the man asking the counsel the gathering",
+   "notes": "The final character 'ε' is untranslatable and omitted. The phrase is fragmented, and the exact relationships between the elements are uncertain.",
+   "line_id": 9740,
+   "source_hash": "86679f4bc79d80d162df356a9e1a598d2fd6092c3cf03e0393493dcadcf786b6",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 3:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only reconstructed and uncertain symbols with no identifiable lexical content. The visible characters (ε, ׃) and reconstructed markers do not provide sufficient evidence for a defensible translation.",
+   "line_id": 9741,
+   "source_hash": "be6a87233cced57b74e04206f16665890f743e794e8e1962a0935e3cc1b07f28",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 5:1": {
+   "en": "and which he will bring forth his hand from under his garment",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged final character (׃) that are omitted from the translation. The phrase 'חתבגד׳ו' is reconstructed as 'תחת בגדו' based on the provided data.",
+   "line_id": 9742,
+   "source_hash": "6e200d8670ac7c6bf469792ef1e8d8a2c407eb9d254adf04e47fb425f76f52c3",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 6:1": {
+   "en": "and to return to the guilty",
+   "notes": "The initial character 'ε' is untranslatable and likely a scribal error or damage; it is omitted from the translation. The verb 'השיב' is in the Hifil stem, suggesting a causative sense, but 'return' is retained for simplicity. The adjective 'רשעים' is masculine plural, agreeing with an implied plural subject.",
+   "line_id": 9743,
+   "source_hash": "44ae195b4bf0429ef3925e58d90885380f38227ae0c791c3ef3c85431ffdce43",
+   "source_condition": "clean"
+  },
+  "4Q258 6:2": {
+   "en": "Its reward: she is a wall of tested preciousness, not trembling its foundations, and they do not hasten from the place of the dwelling of holiness of holy things",
+   "notes": "Positions 1-2: Reconstructed suffix omitted. Position 6: '<type of stone>' is a gloss for an uncertain term. Position 11: Suffix omitted. Position 16: Suffix omitted. Phrase evidence and semantic constraints did not override visible morphology or lexical glosses.",
+   "line_id": 9744,
+   "source_hash": "601d82007f63f9de68018709e77d0e0add923f464f4183405e884a0910a093f9",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 6:3": {
+   "en": "to Aaron in knowledge of all to covenant of justice and to present an odor of soothing and complete and trustworthiness in Israel to arise covenant to regulations of eternity",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence informing the rendering of 'an odor of soothing' and 'a statute of perpetuity'. The initial 'to' is reconstructed but indicated by transcription. No uncertainty is signaled in the source.",
+   "line_id": 9745,
+   "source_hash": "3c6e553ac1a94b9676c37c97d7f84231ae5d5e179d886f9c91d30b1b09001086",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 6:4": {
+   "en": "And they were to atone for the earth and to cut off wicked justice. In establishing these in the foundation together two years days.",
+   "notes": "The phrase 'Yahweh for acceptance' is suggested by repeated evidence for positions 2-4, but it does not fit the visible morphology and is not adopted. The phrase 'two years days' is suggested by repeated evidence for positions 23-24 and is adopted as a natural English rendering of the dual form 'שנתים' with the plural 'ימים'.",
+   "line_id": 9746,
+   "source_hash": "2cd619f0039b7f9cc198d4a075ead9fba9596c4059a7a9a327f770ae9b245ad9",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 6:5": {
+   "en": "In a complete way and no wickedness will separate holiness in the midst of the counsel of men the gathering and all the words hidden from Israel and found",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'all the words' is supported by repeated evidence. The term 'gathering' is a reconstructed and uncertain gloss for 'יחד'.",
+   "line_id": 9747,
+   "source_hash": "7f4c0d10f12f9bd5c54559b2e716de96a0e26144ae3dcdca98cef92d32758bbf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 6:6": {
+   "en": "To the man who inquires, he will not be hidden from the fear of the wind turning back. And in being these in Israel, they will be separated from the midst of the seat.",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'fear of the wind' is supported by repeated evidence, though its contextual rendering is not adopted here. The verb 'turning back' is a conservative rendering of the nifal participle. The final clause is incomplete due to damage, with 'seat' translated as a concrete noun.",
+   "line_id": 9748,
+   "source_hash": "c7f55d5c5695cf82175cee87f88a86a9e8d6d21b2766af315bcf69059668de4d",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 6:7": {
+   "en": "Men of injustice to turn the way of Yahweh in the wilderness. She is the exposition of the instruction that he commanded by the hand of Moses to make all the exile[s]",
+   "notes": "Positions 11 and 22 contain untranslatable characters. Positions 2, 19, and 23 are reconstructed.",
+   "line_id": 9749,
+   "source_hash": "a9105c98ed8dfbe0ef5c22d57af9e83483742da6a8fc065ab00229413dcb95e8",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 6:8": {
+   "en": "[time] in time and as revealed the prophets in spirit his holiness and every person from men of the covenant [gathering] who turns aside from all the commandment",
+   "notes": "Two words reconstructed. One word uncertain. Fragment omits subjects for the verbs 'revealed' and 'turns aside'. The phrase 'the spirit his holiness' is a high-confidence paraphrase. The phrase 'every person from' is a high-confidence paraphrase. The phrase 'all the commandment' is a high-confidence paraphrase. The phrase 'he turned aside from all' is a low-confidence paraphrase. The phrase 'all the men' is a low-confidence paraphrase.",
+   "line_id": 9750,
+   "source_hash": "99a53275efa118126e39fc9b1159946901bd8fc4e1e54b2a0ff784a2c71da688",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 6:9": {
+   "en": "the word in a hand raised",
+   "notes": "The final 'ε' is untranslatable and omitted. The phrase 'in a hand raised' is supported by repeated evidence.",
+   "line_id": 9751,
+   "source_hash": "8af7da5e8124e457a93705cb99b1f13c4178427c779a96c94a9adc4455bf9acd",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 6:10": {
+   "en": "and as the judgment this to all",
+   "notes": "The initial 'ε' and paragraph mark '׃' are omitted as they cannot be translated independently. The phrase 'the judgment (the) this' is supported by repeated phrase evidence.",
+   "line_id": 9752,
+   "source_hash": "ddb0e309c45b4ddbb5fc8d35a83bf66dc4864a42a1d1be684c606e098b9134ec",
+   "source_condition": "clean"
+  },
+  "4Q258 6:11": {
+   "en": "Add to the gathering, and these are the judgments in which the men of complete holiness walk",
+   "notes": "The phrase 'he will set apart as holy anyone' is a repeated pattern for 'קודש איש' but does not fit the visible syntax here. The translation retains the context-free glosses for 'קודש' and 'איש' separately. The object marker 'את' at the end is omitted as it cannot be translated independently without context.",
+   "line_id": 9753,
+   "source_hash": "7517e1d63a8194024e13eaf911a12b5623369e5bec87614c9c316a00056e0df4",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 6:12": {
+   "en": "his fellow, all who come to the counsel of holiness",
+   "notes": "The translation accounts for all recoverable words in order. The phrase 'every (the) [one who] comes' is supported by repeated phrase evidence, but the visible morphology and transcription do not license the addition of 'every' or a pronoun. The translation conservatively retains 'all who come' without adding unlicensed elements. The character 'ε' at the end is omitted as it cannot be translated independently.",
+   "line_id": 9754,
+   "source_hash": "b1cc2907d0343f90fc4a8fea9c6640f55696311f022b4d2e646659113cec4bef",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 7:1": {
+   "en": "And he separated from the purification and from the counsel and from the justice of the years of the days, and he returned in exposition and in counsel if not to go still.",
+   "notes": "The phrase 'years of the days' is a reconstruction based on repeated phrase evidence. The term 'counsel' is used twice, reflecting the repetition in the source. The final clause is uncertain due to the complexity of the syntax and the presence of a damaged lexical unit.",
+   "line_id": 9755,
+   "source_hash": "bf09a560fd4115b9e03163e13e1d1e8d9f592a2a23f752460296973bf96f8305",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 7:2": {
+   "en": "In error until to be full to two years that upon one error he will be fined two years and to the hand the high not will return still only",
+   "notes": "The phrase 'to be full to' is uncertain and may require contextual adjustment. The term 'hand the high' is unclear and may be a metaphor or idiomatic expression. The overall structure suggests legal or punitive context, but the exact meaning of some phrases remains ambiguous.",
+   "line_id": 9756,
+   "source_hash": "470d724d467f26702c4c13c4484eb6513b07c5fdf0de157ed7d8b46697b60676",
+   "source_condition": "uncertain"
+  },
+  "4Q258 7:3": {
+   "en": "Two years, days will examine to complete his way and to his counsel upon the mouth of the many and it was written in his design to the gathering of holiness",
+   "notes": "The phrase 'two years days' is supported by repeated phrase evidence. The sequence 'to complete his way' is a conservative rendering of the visible morphology. The term 'design' is used for 'תכונ׳ו' due to lack of a trusted gloss, but its meaning is uncertain.",
+   "line_id": 9757,
+   "source_hash": "69e22308653a336afd8cabb656c726bae0bd31dbaccfd3a0ca3cd1d9c8e389eb",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 7:4": {
+   "en": "In being these in Israel to a gathering as plans the these to foundation spirit holiness to trustworthiness eternity to cover upon guiltiness rebellion",
+   "notes": "Uncertain elements include the reconstruction of the first preposition 'in', the verb 'be', and the noun 'foundation'; the meaning of 'plans' is unclear; and the final two words are damaged, with 'guiltiness' partially reconstructed.",
+   "line_id": 9758,
+   "source_hash": "807e384fb03f1f0b82fda2c2773feaa48c8097111cdcf973a9f57ff38ee161ee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 7:5": {
+   "en": "And from the top of sin and to the pleasure of the earth from flesh, burnt-offerings and fats of sacrifices and contributions and freewill of lips to justice as incense",
+   "notes": "Uncertain elements include the reconstruction of 'מע ]ל[' (top), the damaged 'חטא ]ת##' (sin), and the uncertain 'רצ#ו?ן?' (pleasure). The phrase 'חלבי זבחים' is supported by repeated evidence as 'the fat their sacrifices', but this is not reflected in the translation due to the conservative approach. The translation preserves all recoverable words in order, without adding unlicensed elements.",
+   "line_id": 9759,
+   "source_hash": "49aab364e19cf01f39f293f08e9af1a21ea34aa1f1b78941d35e87eaa05668c8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 7:6": {
+   "en": "Justice and blameless way as free will offering pleasure in time that they set apart house of Aaron to holiness to whole",
+   "notes": "Uncertain reconstruction of 'free will' and final word. Low support for 'house of Aaron' and 'holiness to whole'.",
+   "line_id": 9760,
+   "source_hash": "83c437ae6b1384bc4bf3dd874bc2e42fe06de78f4bd785d012c4c51a8faef487",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 7:7": {
+   "en": "And a gathering to Israel the walkers in complete only sons of Aaron they rule in justice and in abundance and the men of the holy",
+   "notes": "Uncertain elements include the reconstruction of 'Israel' and the presence of 'and' before 'abundance'. The phrase 'the walkers in complete' is uncertain due to the damaged state of the text. The phrase 'they rule' is reconstructed. The term 'abundance' appears twice, with the second instance being uncertain. The final phrase 'the men of the holy' is uncertain due to the damaged state of the text.",
+   "line_id": 9761,
+   "source_hash": "3f3eccf146516626e112ea91ef58086017606f853af177dd1ba187d999667c81",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 7:8": {
+   "en": "The men walking in completeness not with abundance of deceit who have not been cleansed their way",
+   "notes": "Uncertain elements include the particle 'א#ל' and the final characters 'ε' and '׃' which are omitted from the translation. The phrase 'הון[ אנשי' is reconstructed as 'abundance of men' but its exact meaning is unclear. The verb 'יתע[ רב' is reconstructed as 'stand bail' but its context is uncertain.",
+   "line_id": 9762,
+   "source_hash": "beb45c7a221166461d4baed6b174eaf4a63ed72d176760692c9ba9fa37759cf6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 7:9": {
+   "en": "To walk in a blameless way and from all the counsel of the instruction not go out and they judged in the customs the former",
+   "notes": "The translation includes reconstructed text. The phrase 'the customs the former' is a dominant contextual rendering with moderate support. The phrase 'in a blameless way' is a dominant contextual rendering with weak support. The phrase 'all the counsel' is a dominant contextual rendering with weak support. Untranslated characters: ε, ε, ׃.",
+   "line_id": 9763,
+   "source_hash": "cd2f70a599cf7359eafb4d3ec3d94e7bd78825ce80ad8a6caa6e9a72d427a216",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 7:13": {
+   "en": "and a man as potash palms to approach",
+   "notes": "The phrase 'potash palms' is supported by repeated phrase evidence. The initial 'ε' is omitted as it cannot be translated independently. The translation preserves the recoverable material and structure of the source text.",
+   "line_id": 9764,
+   "source_hash": "6a0598cc7a4fa9aa2cd4772ccc674f269204c11a206a4bd6729eb1a35ce79c43",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 8:1": {
+   "en": "And to the mouth of his insight, and to approach, and thus love with hatred. And who does not reprove a man, and does not contend with the men of the pit.",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'let him reprove anyone' is supported by repeated phrase evidence but is not directly reflected in the translation due to the constraints on adding unlicensed content. The term 'pit' is a context-free gloss for the reconstructed word 'שחת'.",
+   "line_id": 9765,
+   "source_hash": "47be8e65a5dcf3041fb4b5c09d9a4c6935af2e6e9ab2f5960603e08572b4fef7",
+   "source_condition": "clean"
+  },
+  "4Q258 8:2": {
+   "en": "And to hide his counsel in the midst of the men of injustice, and to reprove knowledge of trustworthiness and justice for the chosen of the way of a man as his wind, and as it is established",
+   "notes": "The phrase 'as his wind' is uncertain due to the lack of a clear gloss for 'רוח׳ו'. The final word 'וכתן' is translated as 'and as it is established' based on the visible form, but its exact meaning in this context is unclear.",
+   "line_id": 9766,
+   "source_hash": "9e480d874023e3db88b5b11c10aad1755b5373b84c0263a82783093327e107d2",
+   "source_condition": "clean"
+  },
+  "4Q258 8:3": {
+   "en": "The time to lead them in knowledge and to prosper them in secrets, a miracle and trustworthiness in the midst of the men of the gathering, to walk blameless, a man",
+   "notes": "The phrase 'to walk blameless' is supported by repeated phrase evidence. The translation conservatively follows the provided lexical glosses and visible morphology, with no uncertainty disclosed in the source.",
+   "line_id": 9767,
+   "source_hash": "a21790d9b6002e37e0c33872ca813d9376f8d80f7399a8b6ec600cee16bf8d6a",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 8:4": {
+   "en": "[An evil] in all the exile[s] has been revealed to them. It is the time to turn to the way of the desert to have insight in all the one who was found to do.",
+   "notes": "Positions 1-7 combine phrase evidence with visible morphology. Positions 8-9 follow high-confidence phrase evidence. Positions 10-22 are a conservative translation of recoverable words, preserving syntax and omitting unsupported connectors.",
+   "line_id": 9768,
+   "source_hash": "1bf99940402c147ca8ef985b43bd2e268117d663b9fb32201115b39ecb65f61b",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 8:5": {
+   "en": "This to separate from every man who has not turned aside his ways from all injustice. And these are the ways to the discerning in times",
+   "notes": "Uncertain terms: 'תכוני' (position 18), 'ד#ר#ך' (position 20), 'משכיל' (position 22). Reconstructed terms: '[ ה' (position 1), 'עת[ ים ]' (position 24).",
+   "line_id": 9769,
+   "source_hash": "8f4fabc5e3515e3b0cb25352d401447fc3e168c76fe1a9260e10ef10481db3a1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 8:6": {
+   "en": "To these love with hatred. Hatred of eternity with men of the pit in the wind of the hiding place. And to leaving to abundance and profit.",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'leaving (to)' is supported by repeated phrase evidence. No uncertainty is signaled in the source, but the translation remains conservative, preserving the structure and content of the original text.",
+   "line_id": 9770,
+   "source_hash": "97e49533c9388796b6a5b4473b64c1cce0ceac61039f40cf651967191695fcb9",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 8:7": {
+   "en": "And labor of palms as a servant to rule over and humility before the one who ruled over and to be a jealous man to a portion and ready for a day of vengeance to make",
+   "notes": "Uncertain reconstruction at positions 27-28. Phrase evidence supports 'a day of vengeance' but the text is damaged.",
+   "line_id": 9771,
+   "source_hash": "85b205e71e2c747155dc84de5ddfd8936b209a4b589bc0e3ea8f39311fbe1538",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 8:8": {
+   "en": "pleasure in every undertaking of palms and in all his dominion as he commanded and all the one who does in him will like as free will and except pleasure",
+   "notes": "Uncertain reconstruction at positions 1, 11, 20. Phrase evidence applied for 'in every undertaking' and 'every [one who] does'. Lexical glosses used for remaining terms.",
+   "line_id": 9772,
+   "source_hash": "264c40ff0568505a524867e696ed54223da83dca18968784e8af881dd1ebcade",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 8:9": {
+   "en": "He will not desire and in all the words of my mouth he will not like and he will not wish in all that which he did not command. And to justice he looks out continually.",
+   "notes": "The translation reflects the recoverable text, with uncertainties noted. The phrase 'all the words of my mouth' is supported by repeated phrase evidence. The verb 'looks out' is a conservative rendering of 'yitsfah' given the context. The preposition 'to' before 'justice' is licensed by the recoverable token 'ל' (position 19).",
+   "line_id": 9773,
+   "source_hash": "59e7f9981fe2cf4d747601a1f6e3a952a3d93f7caac5b6ac1c8922c97610fca7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 8:10": {
+   "en": "He will bless the one who makes it and in all that it was and the contribution of lips will bless with ends",
+   "notes": "The phrase 'all that it was' is supported by repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, with uncertainty in the reconstruction of 'קצים' and the meaning of the initial 'ε' and second 'ε'.",
+   "line_id": 9774,
+   "source_hash": "f06aae626e464eb489ae053dc787a37d5e27b31afba0a2aadb57357f4ca71112",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 8:11": {
+   "en": "Which he engraved to El: in the beginning of the dominion of light with its turning point in gathering to Maon, a portion in the beginning of night watches",
+   "notes": "Reconstructed text in positions 1, 10, 15, 18. Uncertain gloss for position 3. Uncertain reconstruction in position 15.",
+   "line_id": 9775,
+   "source_hash": "df045f46248c28487873d950e3f54d3920403d7c456869ecb5349fc579941a3f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 8:12": {
+   "en": "Darkness, that he may open the supply and place it upon the world and in the turning point with the gathering from the face of light in shining lamps from Zebul",
+   "notes": "Reconstructed text in positions 1, 11, 19. Uncertain text in position 21. The phrase 'from Zebul' is uncertain due to damage and unclear context.",
+   "line_id": 9776,
+   "source_hash": "f8c78c4b1e6686e916fef45c2bdbfbac9de7e03d5e5bf4b19ee51db7e279ab44",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 9:1": {
+   "en": "In their renewing a great day to holiness of holy things and a sign to the opening of acts of loyalty for eternity",
+   "notes": "",
+   "line_id": 9777,
+   "source_hash": "721143f98388cdf4814d4c41e46f05f23b91f57c504507b1c106b0954d9c57e0",
+   "source_condition": "clean"
+  },
+  "4Q258 9:2": {
+   "en": "To the heads of appointments in the whole end it was in the beginning of months to their appointments and days",
+   "notes": "The translation follows the visible transcription and morphology. The lexical glosses are used as aids, and the phrase evidence is considered. The translation preserves the grammatical person, number, and semantic relationships. No uncertainty or lacunae are present in the source text.",
+   "line_id": 9778,
+   "source_hash": "d44a383111866ae25d110cf14175b756a823e365f28aaaf0e41821faf928a82b",
+   "source_condition": "clean"
+  },
+  "4Q258 9:3": {
+   "en": "Holiness in their establishment for remembrance in the appointed times is the contribution of lips we bless as a portion",
+   "notes": "Uncertain reconstruction in 'their establishment' and 'the appointed times'; uncertain gloss for 'lip' in the plural; 'bless' is a verb in the first person singular, but the subject is unclear.",
+   "line_id": 9779,
+   "source_hash": "7b59b2e1722326491887b169f66350641ec0edccda95d457d046f323006373c9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 9:4": {
+   "en": "Engraved unto, in the heads of years and in the turning point of their appointments in being complete, a portion",
+   "notes": "The transcription contains damage and uncertainty, particularly with the word 'הש ]ל#ם' (position 13), which is marked as uncertain. The translation reflects the recoverable text, but the exact meaning of this word remains unclear.",
+   "line_id": 9780,
+   "source_hash": "117ce9b4e22e5ae3c615e7c1539c6576d67e8207c669bffcdcadb5b9a6f0390a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 9:5": {
+   "en": "Their establishment, the day of justice, and this to this. An appointment of harvest to summer and an appointment of seed",
+   "notes": "The transcription is partially damaged and reconstructed, with uncertainty around the word 'מוע#[ ד' (position 8). The translation reflects the recoverable text, but the exact meaning of the damaged word remains unclear.",
+   "line_id": 9781,
+   "source_hash": "a8942228cb3827e9a347841723f4c87be42ebcf86884efbaaa56e6d70baa755f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 9:6": {
+   "en": "Young grass of the appointed years to the weeks and in the head of their weeks to the appointed release",
+   "notes": "Uncertainty in 'מועד#י?' (appointment?) and 'ש ]ב#ע#י׳ה#ם#' (weeks?). Reconstructed text in 'ש[ ני ]ם' (years) and 'שבעי׳ה[ ם' (weeks).",
+   "line_id": 9782,
+   "source_hash": "d1b3d28240bdb845ec7bc06ad95855c4143ac0c4916c71e2dee6c33d9ce48982",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 9:7": {
+   "en": "And in the whole being of the portion engraved in my tongue to the fruit of praise and a portion of my lips I will sing",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly '׳י?׃א#ז?מ#ר#ה', which may affect the translation. The phrase 'was able Yahweh' and 'it was a custom' are suggested by repeated phrase evidence but are not directly translated due to lack of clear contextual fit.",
+   "line_id": 9783,
+   "source_hash": "615f1ff02020b7540867fb571b1073a2a7bdf81f15e04f8d5bbfdeb858e6c796",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 9:8": {
+   "en": "In knowledge and all my music to the honor of God and I will strike the jar to establish his holiness and flute",
+   "notes": "Uncertain reconstruction and gloss for 'תכון[' (position 13). Phrase evidence suggests 'honor perhaps' for 'כבוד אל[' (positions 7-8).",
+   "line_id": 9784,
+   "source_hash": "d0d2d84dab7e36cdceb69f3a3011b1003888f8c10a5afb0fe24781f32f02d240",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 9:9": {
+   "en": "I will lift my lips in a line of justice with the entrance of the day and night comes in covenant",
+   "notes": "The translation follows the recoverable text closely, preserving the order and structure of the visible lexical items. Uncertainty arises from the fragmented nature of the text, particularly around the conjunction of day and night with the covenant, but the translation avoids adding unlicensed connectors or subjects.",
+   "line_id": 9785,
+   "source_hash": "6f4ff4d7c087a7bd49d6f0bcfd1a18ed6b93dc24840a69224903b22a8d7667c9",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 9:10": {
+   "en": "With God, the issue of evening and morning, he said his portion. And in their being, I will return.",
+   "notes": "The phrase 'morning he said' is supported by repeated evidence. The rendering of 'Yahweh sitting' for positions 13-14 is not adopted due to low support and lack of direct evidence in the transcription. The translation conservatively follows the visible morphology and lexical items, with uncertainty in the exact sense of 'portion' and the verb 'return'.",
+   "line_id": 9786,
+   "source_hash": "3a90c31d04d0d2798835a43ab0c957e00fd4be5248f3f16a88c287f75b27a126",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 9:11": {
+   "en": "Boundary to return and justice I will reprove as my oppression and rebellion toward my eyes",
+   "notes": "The translation follows the visible morphology and lexical glosses, with 'בלתי' left untranslated due to uncertain meaning. The phrase 'עינ׳י' is translated as 'my eyes' based on the suffix and gloss, but its exact context is unclear.",
+   "line_id": 9787,
+   "source_hash": "86451d6455ac509e6bf9a390dcb9b5c20dd93d2af155a89b637f37348c070104",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 9:12": {
+   "en": "As a portion engraved and to God I do not say my justice and to the Most High the site of my best well",
+   "notes": "The phrase 'do not say' is supported by repeated phrase evidence for positions 7-8. The translation conservatively follows the visible morphology and lexical glosses, preserving the structure without adding unlicensed connectors or subjects.",
+   "line_id": 9788,
+   "source_hash": "0c21fbd9191f9597e958fe4190c7cea1ac87e43bbf2a8811edc9528f11508ceb",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 10:1": {
+   "en": "In which he cast, and I liked, as he judges me: in the beginning of the undertaking of my hand",
+   "notes": "The phrase 'the undertaking of my hand' is supported by repeated evidence. The translation conservatively follows the visible morphology and lexical glosses, with no added subjects or connectors.",
+   "line_id": 9789,
+   "source_hash": "1c21390e73e4b00ab59d50cdc6115f852963b0deede60ef3443dbc41394218fa",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 10:2": {
+   "en": "And my foot will bless Shem, and I will bless him before I raise my hand to grow fat.",
+   "notes": "The phrase 'bless Shem' is supported by repeated phrase evidence. The phrase 'he raised a hand' is also supported by repeated phrase evidence, but the first-person form is retained to match the visible morphology. The final verb 'to grow fat' is an infinitive, translated as a purpose clause.",
+   "line_id": 9790,
+   "source_hash": "b2c0647270d3b477f3e01892c2afb7af80b5793e047daac13916e5ce401e573a",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 10:3": {
+   "en": "In Eden, produce of the world. In the beginning, trembling and fright and in the site of distress.",
+   "notes": "The transcription contains uncertain and reconstructed elements, particularly in the phrase 'בעד#נ?ית#נ?[ ובתתבל׃'. The translation conservatively reflects recoverable words, omitting untranslatable characters and preserving syntax as evidenced.",
+   "line_id": 9791,
+   "source_hash": "f037f2f1267ae9f282ea5abe08154cd74a902d01c6e94c1ca38643302fa918b9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 10:4": {
+   "en": "With emptiness I bless him in miracles and might and in his strength I am concerned with his loyalties",
+   "notes": "The transcription contains a reconstructed particle (ע[ ם) and an unknown lemma (׃) which are omitted from the translation. The lexical gloss 'might' for מְאֹד is contextually uncertain.",
+   "line_id": 9792,
+   "source_hash": "d1c8a0c2dab737b75f1708263b2f127b9a080e119d9b0d9b540b227422cf7218",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 10:5": {
+   "en": "I will lean on all the day and know that in his hand justice every living and trustworthiness all the work",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence informing 'all the day,' 'every living,' and 'all the work.' The verb 'lean' (nifal stem) and 'know' (qal stem) are rendered conservatively. The suffixed forms 'his hand' and 'his work' are translated literally, preserving agency. No unsupported connectors or participants are added. Uncertainty in the final punctuation mark is omitted from the translation.",
+   "line_id": 9793,
+   "source_hash": "9ae8ce9a4d90b1595a257248c69d761644290801184e35d7d9150b2cc98f81cb",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 10:6": {
+   "en": "And in the opening of distress I will praise and in his salvation I will cry out together. I will not return to a man.",
+   "notes": "The transcription contains a reconstructed verb form 'הפ[ תח' and a damaged suffix on 'ישועת׳ו'. The final word 'איש ]' is incomplete but sufficiently recoverable.",
+   "line_id": 9794,
+   "source_hash": "a1e4fa709a85a22a17258d2bb8949034c1cfa5dcf4e1b1c8fc357b96af8d99e3",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 10:7": {
+   "en": "Reward of evil in good I pursue, a man. That to the god of justice, every living thing and he.",
+   "notes": "The phrase 'of God judgments' is supported by repeated evidence for positions 10-11. The phrase 'every living [thing]' is supported by repeated evidence for positions 12-13. The translation preserves the visible morphology and lexical items, with uncertainty in the exact relationship between clauses.",
+   "line_id": 9795,
+   "source_hash": "2cb07cee526a0c09d1becd0ea6ccf724505fea48284900bc6e1cf9b95a0cb4fb",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 10:8": {
+   "en": "He will repay to the man his deed",
+   "notes": "The final characters 'ε׃' are untranslatable and omitted. The phrase 'ישלם לאיש גמול' is supported by repeated evidence, suggesting a rendering related to repayment or recompense, but the exact sense is uncertain.",
+   "line_id": 9796,
+   "source_hash": "f82a2476174deab44c8c2a7f75ab7a2cefe64d7762a42451cc9b8df624728518",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 12:4": {
+   "en": "and he will take possession in the lot of the holy ones",
+   "notes": "Uncertainty in the transcription and reconstruction of the text, particularly around the damaged and uncertain words, may affect the accuracy of the translation.",
+   "line_id": 9797,
+   "source_hash": "d26b1500a339d6eb433c50ac91e2f0c6f2317018679bf6524e885ae0bee4b562",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q258 13:1": {
+   "en": "he covers",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The verb 'יכ ]פר' is translated based on its morphology and lexical gloss.",
+   "line_id": 9798,
+   "source_hash": "fec265c1f134c7764f6a709dc938680e8dabd09c2e26baa505facbc412e675e9",
+   "source_condition": "clean"
+  },
+  "4Q258 13:2": {
+   "en": "For all iniquities and in his justice he will cleanse me from menstruation of man and sin of the son of man",
+   "notes": "The phrase 'O son of humankind' is a high-confidence repeated phrase, but it does not fit the syntax and semantics of the surrounding text. The translation follows the visible morphology and lexical glosses instead.",
+   "line_id": 9799,
+   "source_hash": "d3bd8a841d9c4b67c41b3e184017bfc5eda662fba8f49d5b1e25857da72d42e7",
+   "source_condition": "reconstructed"
+  },
+  "4Q258 13:3": {
+   "en": "to praise to God of justice",
+   "notes": "The phrase 'to Zadok' is a repeated pattern but not supported here. The final characters are untranslatable.",
+   "line_id": 9800,
+   "source_hash": "7dc726c2690615e73ed2b62bd6d09404105f953821dc3d62cc40038cecced04b",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

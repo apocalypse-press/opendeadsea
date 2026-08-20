@@ -1,0 +1,578 @@
+{
+ "id": "4Q17",
+ "label": "4Q17",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 80,
+ "scroll_id": 795,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q17 f1i:1": {
+   "en": "and the screen of the gate of the court the work of weaving purple wool",
+   "notes": "The translation follows the visible transcription and phrase evidence. The phrase 'the screen of the gate of' is supported by repeated evidence. 'Weaving' is a conservative rendering of the participle 'רקם' in context. The final word 'תכלת' is translated as 'purple wool' based on its lexical gloss.",
+   "line_id": 40959,
+   "source_hash": "51b9eda97f661ae61ae8a1968b96a1fd3939dbac4b2092c740ebab803d6db961",
+   "source_condition": "clean"
+  },
+  "4Q17 f1i:2": {
+   "en": "And purple-wool, and maggot, and scarlet, and fine linen twisted, and twenty cubits length, and height in breadth five cubits",
+   "notes": "The phrase 'fine linen twisted' is supported by repeated phrase evidence with 0.85 confidence. The phrase 'twenty cubits length' is supported by repeated phrase evidence with 0.75 confidence. The phrase 'breadth [was] five cubits' is supported by repeated phrase evidence with 0.67 confidence. The final word 'אמו' is marked as uncertain in the source.",
+   "line_id": 40960,
+   "source_hash": "2c5221bfbfd81b070f78fdd88416d102970ac08c0a867e8fe93c7fbd75571f89",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f1i:3": {
+   "en": "To the side of the curtains of the courtyard. And their four pillars and their four bronze hooks",
+   "notes": "The phrase 'the curtains of the courtyard' is supported by repeated evidence. The final ]ם characters are untranslated as they do not form a recoverable word.",
+   "line_id": 40961,
+   "source_hash": "ab327677f99a947150655eff188cbf4e62e32c73a64b86adbaaafaf0a1324017",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f1i:4": {
+   "en": "Silver and the plating of their heads and their silver joints, and all the pegs for the dwelling-place and for the court surrounding, bronze.",
+   "notes": "The phrase 'the plating of their heads' is a high-confidence rendering of a repeated phrase. The phrase 'their silver joints' is a partial match to a repeated phrase, with 'furnished with' omitted due to lack of direct evidence. The translation preserves the order and content of recoverable words, with no added subjects or connectors.",
+   "line_id": 40962,
+   "source_hash": "768a71ffff6e28e5b21e03ebbbaf9a71a02dc87a20f3094a8ed3900c31df89f0",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f1i:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical content, with only a fragment (ε], #, and ׃) that cannot be translated independently.",
+   "line_id": 40963,
+   "source_hash": "d560375568b8b59b7ebcf763bf90fd1fcc7863f65e6d606d74daebf38a3f3bc5",
+   "source_condition": "uncertain"
+  },
+  "4Q17 f1i:6": {
+   "en": "These are the enrolled of the tabernacle of the testimony, which were appointed over the mouth of Moses, the work of the Levites by hand.",
+   "notes": "The phrase 'these are the enrolled' is supported by repeated phrase evidence. 'The tabernacle of the testimony' is a known biblical phrase. The translation follows the visible morphology and lexical glosses, with 'mouth' (פי) likely referring to the command or instruction of Moses. The final phrase 'by hand' is a literal translation of 'ביד', though its exact role in the sentence is unclear.",
+   "line_id": 40964,
+   "source_hash": "de0da4c0ff7662525fb5469aa7f57c099cb5828a85c17812d9838b4d28e25d65",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f1i:7": {
+   "en": "Ithamar son of Aaron the priest and Bezalel son of Uri son of Hur of the tribe of Judah made",
+   "notes": "Uncertain object marker omitted after 'made'.",
+   "line_id": 40965,
+   "source_hash": "1506965218fd734bffca1148c1aa8089f12dbbc3d44a4de581405109e5391f4d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2i:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' with no clear Hebrew or Aramaic context. No recoverable lexical content survives for translation.",
+   "line_id": 40966,
+   "source_hash": "4bea45193e13a44451888896308eea8b2c805a9980a0f4e49a2c1bcc5bb86050",
+   "source_condition": "clean"
+  },
+  "4Q17 f2i:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a Greek letter fragment (ε) and uncertain symbols.",
+   "line_id": 40967,
+   "source_hash": "0dfe34df3e2cbbc73482dd01573d7e546f1b747600e16afc46e62f515a332e1a",
+   "source_condition": "uncertain"
+  },
+  "4Q17 f2i:3": {
+   "en": "They made shoulders to join together upon two ends",
+   "notes": "Uncertain characters and damage present in the source text are not reflected in the translation. The phrase 'to join together' is supported by repeated phrase evidence. The verb 'make' is translated conservatively, and the preposition 'to' is retained based on the supplied gloss.",
+   "line_id": 40968,
+   "source_hash": "705bc48b0ecb12c585c2ea21c732abaad9ff2f86019eeca513545c80320999a3",
+   "source_condition": "uncertain"
+  },
+  "4Q17 f2i:4": {
+   "en": "He was united, and the girdle its ephod, which was upon his right hand, from it, as its work of gold",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence supporting 'the girdle its ephod' and 'from it' but with lower support for 'on hand his right' and 'its [was] like [the] work'. The final phrase combines 'as' with 'work of gold' for coherence.",
+   "line_id": 40969,
+   "source_hash": "6046d355c28461478ad33b325eb2452556bef560b83af6f448b7dae25f5ad2b0",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:5": {
+   "en": "Purple wool and purple-wool and maggot and scarlet and fine linen twisted as he had commanded Yahweh (et)",
+   "notes": "The phrase 'fine linen twisted' is supported by repeated phrase evidence. The phrase 'as he had commanded Yahweh (et)' is also supported by repeated phrase evidence, with a high confidence level.",
+   "line_id": 40970,
+   "source_hash": "2a240f5cf9020e15746f50281f2ea8c1a08f226ee5780342e7b4b500377daa01",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:6": {
+   "en": "Moses and they made the stones of shoham surrounded filigree settings of gold",
+   "notes": "Reconstructed text includes '[ Moshe' and 'Z ]hab'. The phrase 'surrounded filigree settings of gold' is supported by repeated phrase evidence with 0.8333 dominance.",
+   "line_id": 40971,
+   "source_hash": "d7dcd40cd077d95a1bfcb0d3442375d7c8b9518ebcc42ea674dabff9a8733b82",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:7": {
+   "en": "Opening engravings of a seal upon the names of the sons of Israel and he placed",
+   "notes": "The phrase 'the sons of Israel' is supported by repeated evidence. The object marker 'אות' is uncertain and omitted from the translation.",
+   "line_id": 40972,
+   "source_hash": "e71b66504f48e11d5fb3873b2ba63313fa7bf17579edffa144ed5aeda3e5d7d7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2i:8": {
+   "en": "Upon the shoulder-pieces of the ephod, stones of remembrance for the sons of Israel, as commanded by Yahweh Moses.",
+   "notes": "The phrase 'Yahweh Moses' is a literal translation of the Hebrew, following the provided evidence. The reconstruction of the first word 'על' is noted, but its meaning is clear from context.",
+   "line_id": 40973,
+   "source_hash": "cac124fd9096575feaa2c08eaa3463f1ef914416e35f025d2906d39966155d87",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:9": {
+   "en": "And he made the breast-piece, the work of a skillful worker like the work of the ephod, gold, violet stuff, and purple-wool.",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 40974,
+   "source_hash": "23e600a4d172ffa0c94ce56d1144e2ece676a0345d9abf6f0fe6fd2b348630c4",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:10": {
+   "en": "and a maggot of scarlet and fine linen twisted",
+   "notes": "The phrase 'fine linen twisted' is supported by repeated phrase evidence. The final two characters (׃ε) are untranslatable and omitted.",
+   "line_id": 40975,
+   "source_hash": "c1756bb3187aa2830aa1efd58ac68c896df48e61b3a3e34af5438c01a1d1fe54",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:11": {
+   "en": "square it will be folded double they made",
+   "notes": "The initial character ε is omitted as it cannot be translated independently. The uncertain final characters are reflected in the translation as 'they made' with uncertainty noted here.",
+   "line_id": 40976,
+   "source_hash": "f4e9712269424be0de873aa4238ce9e6c2c79c444c408814b19b4df62c6cb555",
+   "source_condition": "uncertain"
+  },
+  "4Q17 f2i:12": {
+   "en": "The breast-piece, a span length and a span breadth, folded double; and they will fill in four rows of stone.",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'four rows of stone' is supported by repeated phrase evidence. The verb 'will fill' is a conservative rendering of the piel stem, and the preposition 'in' is supported by the suffix 'ב׳ו'. The translation preserves the grammatical person, number, and semantic relationships of the source text.",
+   "line_id": 40977,
+   "source_hash": "5ee92eed59f750295ae18388c2fc523c002ba0e0e325fad84cd631b88860a0c4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2i:13": {
+   "en": "A row of ruby, chrysolite, and beryl, the first row; and the second row: turquoise, lapis lazuli.",
+   "notes": "The transcription contains a reconstructed word and an uncertain word. The phrase evidence suggests a pattern of listing gemstones in rows, with the first row containing ruby, chrysolite, and beryl, and the second row containing turquoise and lapis lazuli.",
+   "line_id": 40978,
+   "source_hash": "bbed84f04a2f2522331d40ee018b2dd7e46a5393c88961f588a8a6e4148c3eae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2i:14": {
+   "en": "And a precious stone, and the third row, a jacinth, and the fourth row, a chrysolite",
+   "notes": "The translation follows the highest-supported repeated phrase evidence for positions 6-8, 16-18, and the context-free gloss for the remaining terms. The punctuation marks at positions 3 and 13 are omitted as they cannot be translated independently.",
+   "line_id": 40979,
+   "source_hash": "b2f188c4c6a84a5b187d73954e8a99258bee12a5b51d1048e8fe73eb5bf2baa7",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:15": {
+   "en": "Carnelian and jade, surrounded by filigree settings of gold, and the stones",
+   "notes": "The phrase 'surrounded by filigree settings of gold' is supported by repeated phrase evidence. The final word 'stones' is uncertain due to damage in the source text.",
+   "line_id": 40980,
+   "source_hash": "36fa4c09b5684294af6871c47502982087ed3c484a28122a7993ed8261200989",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2i:16": {
+   "en": "Upon the names of the sons of Israel, they two-teen upon their names, engravings of a seal",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly at the end of the line.",
+   "line_id": 40981,
+   "source_hash": "209fc2006fd0821df7fc9084aa620eaf6aa95bde030c86c3889cd640f6aaf990",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2i:17": {
+   "en": "Each one upon the name of two plus ten tribes and they made",
+   "notes": "The phrase 'each one upon the name' is supported by repeated evidence. 'Two plus ten' is a common rendering of the numerical sequence. 'Tribes' is a plausible interpretation of 'rod' in this context. The final verb 'they made' is a direct translation of the visible morphology.",
+   "line_id": 40982,
+   "source_hash": "7ccaf44dea282ae60209dc592bf76c02a7bd52d9c9a9284fb6449b3d45ced9fb",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:18": {
+   "en": "Upon the breast-piece chains of twisting a work of cordage gold pure",
+   "notes": "The phrase 'of twisting a work of cordage' is supported by repeated phrase evidence. 'Gold pure' is a common rendering of the sequence 'זהב טהור' with high pattern support.",
+   "line_id": 40983,
+   "source_hash": "d8862f767afc6c860f112a4bffabc98b08a5982383ae363c47fa24405ca7b177",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:19": {
+   "en": "And they shall make two filigree settings of gold and two rings of gold and they shall give",
+   "notes": "The phrase 'filigree settings of gold' and 'two rings of gold' are supported by repeated phrase evidence. The translation follows the visible morphology and lexical glosses, with no uncertainty in the source text.",
+   "line_id": 40984,
+   "source_hash": "c91f01f2f7b99f3ab7aba3218851391f6026fa0cd242d1b30b118443978fd459",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:20": {
+   "en": "The two rings on the two ends of the breastpiece. And they shall give two cords",
+   "notes": "The phrase 'the two the ends of' and 'the ends of the breastpiece' are supported by repeated phrase evidence. The phrase 'the two the rings' and 'rings on the two' are also supported by repeated phrase evidence. The final phrase 'the two the cords' has lower support but is retained as the best available gloss.",
+   "line_id": 40985,
+   "source_hash": "6798eb51a3deab9d74eae58ef3922dfc0fc9a1f46bc1698c9d314c95e6868196",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2i:21": {
+   "en": "gold upon the two sealing rings upon the ends of the breast-piece and the two",
+   "notes": "The phrase 'the ends of the breast-piece' is supported by repeated phrase evidence. The sequence 'the two the rings' is retained as 'the two sealing rings' based on phrase evidence, adjusting for grammatical number. The final 'and the two' reflects the surviving text without adding an assumed object.",
+   "line_id": 40986,
+   "source_hash": "6f33ff2756d2f112c5c7ca9abff38ffa00295ff5faeeb8af1395db70063d8d19",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:22": {
+   "en": "The ends of the two the ropes you will put upon the two the filigree settings and they will give them upon",
+   "notes": "Reconstructed text in position 1. The phrase 'the ends of the two the' and 'the two the filigree settings' are supported by repeated phrase evidence. The verb 'give' in position 11 is a suffixed form, indicating a change in voice or aspect, but the exact nuance is uncertain.",
+   "line_id": 40987,
+   "source_hash": "436624eba593c26fc8e7c7ea399c153ff8621bbe3a3f971e10f9d558e5d4994c",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:23": {
+   "en": "the shoulder-pieces of the ephod to the front of its faces and they made two rings of gold and they placed upon two",
+   "notes": "Uncertain reconstruction of 'faces' (position 6) and 'two' (position 16).",
+   "line_id": 40988,
+   "source_hash": "cafb41f626d6298b2058b5513fadbd4ccd6ff06ad1428fa774cc89bda7f38ecb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2i:24": {
+   "en": "the ends of the breastpiece upon its lip which is to the side of the ephod",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 40989,
+   "source_hash": "51a5653ec7684a099dea0a2260261342bce676f60043d90399e789607810f517",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f2i:25": {
+   "en": "his house",
+   "notes": "The transcription contains a reconstructed suffix '[ בית׳ה' indicating possession, translated as 'his house'. The punctuation mark '׃' and the fragment 'ε' are omitted as they cannot be translated independently.",
+   "line_id": 40990,
+   "source_hash": "5dc917256b360fba627caf1f9e99222cabf27b9db8839a494636bfb02afa280e",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f1ii:1": {
+   "en": "to side",
+   "notes": "Most text is damaged or uncertain. The translation retains only the recoverable preposition 'to' and the noun 'side', omitting untranslatable fragments and reconstructions.",
+   "line_id": 40991,
+   "source_hash": "e1555f3864af8c01a71740fbbcc19efdeb0c319f0c98efdad8457ad886c9fe63",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f1ii:2": {
+   "en": "From the junction of the girdle of the ephod and they bound the breastpiece from its rings to rings",
+   "notes": "Uncertain reconstruction of 'from' (position 2) and 'top / unfaithfulness' (position 3). Uncertain transcription of 'ephod' (position 7). Phrase evidence supports 'the girdle of the ephod' and 'breastpiece from rings'.",
+   "line_id": 40992,
+   "source_hash": "46985754d78f42ef2f7fa3c37784cd5b87600061b8024835019254e1776b81b0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f1ii:3": {
+   "en": "The ephod as he had commanded Yahweh (et) Moses with a cord of violet stuff to be on the girdle",
+   "notes": "Uncertain reconstruction of damaged text at positions 3, 7, and 8. Repeated phrase evidence supports the rendering of 'a cord of violet stuff' and 'Yahweh (et) Moses'. Semantic constraints and visible morphology guide the translation of 'ephod' and 'girdle'.",
+   "line_id": 40993,
+   "source_hash": "5ddea92241e5870e2c509c6320820fa344353c0e6b36dddf3c5ccd54edff7d2e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f1ii:4": {
+   "en": "The ephod inside shall not slip from the breast-piece upon the ephod as he had commanded Yahweh Moses",
+   "notes": "The phrase 'ephod inside' is supported by repeated phrase evidence. The verb 'slip' is a conservative rendering of the uncertain lexical gloss for 'زוח'. The phrase 'he had commanded Yahweh Moses' is supported by repeated phrase evidence, but the agency is uncertain due to the lack of a clear subject in the source text.",
+   "line_id": 40994,
+   "source_hash": "45f32f8e383f6a5a396f82d543507488a547c3edbc29a9a89d0c4d17d0098245",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f1ii:5": {
+   "en": "And he made the Urim and the Thummim as he had commanded Yahweh",
+   "notes": "The phrase 'as he had commanded Yahweh' is supported by repeated phrase evidence and canonical occurrences. The object marker 'et' is omitted in the translation as it is not reflected in the recoverable source words.",
+   "line_id": 40995,
+   "source_hash": "d9d04580468f9e5da1e87054ddecdfb3a0d824eeb24af81cb3efce9edf92dba4",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f1ii:6": {
+   "en": "Moses. And they made the coat, the work of a weaver, an entirety of violet stuff. And the mouth of the coat.",
+   "notes": "Reconstructed and uncertain text includes 'they made' and 'the coat'. Phrase evidence supports 'the work of a weaver' and 'an entirety of violet stuff'.",
+   "line_id": 40996,
+   "source_hash": "4a94282405a4e484ab878bfaf6ef48676fe84743af451c21cac316894cd0a63b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f1ii:7": {
+   "en": "In the midst, like the opening of a collar, to the mouth surrounding, not tear. And they made upon the skirts of the coat.",
+   "notes": "Uncertainty in the transcription is noted for 'תחרa' and 'ס#[ ביב'.",
+   "line_id": 40997,
+   "source_hash": "6d12371a3247afd9ce5986bc1f0ef880e20372ca305e12b703ad761c8d270d01",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f1ii:8": {
+   "en": "pomegranates of violet stuff and purple-wool and maggot scarlet and fine linen twisted",
+   "notes": "Reconstructed and uncertain elements include 'pomegranates' (ר##[ מוני), 'purple-wool' (א##[ רגמן), and the conjunction 'and' (]ו#?). The phrase 'pomegranates of violet stuff' is supported by repeated evidence. 'Fine linen twisted' is a high-confidence pattern.",
+   "line_id": 40998,
+   "source_hash": "cd2f0c3a451eda943392042e01ac2c32467cc5485b4ed9ccfbe7d32ec6e08290",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and punctuation marks. The visible characters (ε, ׃) and reconstructed material do not provide sufficient evidence for translation.",
+   "line_id": 40999,
+   "source_hash": "c0cce56debe29eff98c86bfc49105037eee01276b6c11a90b5b1fee217e954e7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:2": {
+   "en": "And you shall place the court surrounding and give the screen of the gate of the court",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Phrase evidence supports 'the screen of the gate of' and 'of the gate of the courtyard'. Semantic constraints are absent.",
+   "line_id": 41000,
+   "source_hash": "3b1196119d2fc82ac45fea33134b46c6e5277b20bec63fd62705cf1f7ffff55b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:3": {
+   "en": "And you will take the oil of anointing and smear the dwelling-place and all that is in it and be holy",
+   "notes": "Uncertain elements include the transcription of 'שמ#ן' (oil), 'משח##ת#' (smear), 'א##ת#?' (object marker), and 'משכן?' (dwelling-place). The phrase 'the oil of anointing' is supported by repeated phrase evidence. The reconstruction of 'ו' (and) is noted.",
+   "line_id": 41001,
+   "source_hash": "3d2c1b9e82af61fd0ea3c74c689dfe1ef9d761aa91b42bb29763aaf6777752eb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:4": {
+   "en": "And its whole tool and it was holiness. And you smeared the altar of the burnt offering and all articles",
+   "notes": "Uncertain elements include the transcription of 'קדש##' (holiness), 'מש##ח##ת#' (smeared), 'מ#ז?ב#ח##' (altar), and 'ה#' (the). The phrase 'the altar of the burnt offering' is supported by repeated evidence. The phrase 'all articles' is supported by repeated evidence.",
+   "line_id": 41002,
+   "source_hash": "44b5ee031de7b6e59b11b6990f8ff0bb4b80a951b84879a76582f36e96a7038e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:5": {
+   "en": "Sanctify the altar, and it will be the altar of holiness, holiness(es), and you have anointed the basin.",
+   "notes": "The phrase 'it will be the altar' is supported by repeated phrase evidence with 1.0 confidence. 'Altar of holiness, holiness(es)' is also supported by repeated phrase evidence. The verb 'have anointed' is a conservative translation of the reconstructed perfect form, with uncertainty noted.",
+   "line_id": 41003,
+   "source_hash": "94e474123f8ea496d37822e50e4c54ce46f3ebdc3c10a6e33c499a1c6e5385ee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:6": {
+   "en": "And thus consecrate him. Aaron and his sons shall approach the entrance of the tent of meeting.",
+   "notes": "Uncertain elements include the verb 'consecrate' (position 5), the object marker 'him' (position 6), the name 'Aaron' (position 9), and the verb 'approach' (position 13). The phrase 'the entrance of the tent of meeting' is supported by repeated phrase evidence.",
+   "line_id": 41004,
+   "source_hash": "82fa3bf9e559401911daef833ca3b43dd3c6e58eafd7916f43ff4ffc52afd4c0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:7": {
+   "en": "And you washed them in water. And you clothed Aaron with the garments of holiness and anointed",
+   "notes": "Uncertain transcription at positions 4, 5, 11, 12, 16, 17. Reconstructed text at position 17. Phrase evidence supported 'the garments of (the) holiness' and 'you will clothe (et) Aaron' with high confidence.",
+   "line_id": 41005,
+   "source_hash": "42b685ae318ade2ccec5339581f8764a93484cc3073856e3d2f07c7f2840ce54",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:8": {
+   "en": "And you will consecrate it and act as priest to and you will clothe them the tunics",
+   "notes": "Several words are uncertain or reconstructed. The translation follows visible morphology and high-confidence phrase evidence where available.",
+   "line_id": 41006,
+   "source_hash": "fc71e6f1b1e43b7ddfa999e100381301d72da4a2770c52ce0e2e9e47f04433b0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:9": {
+   "en": "And you will anoint them as you anointed their fathers and the priests, and it was of Yahweh to become",
+   "notes": "Uncertainty in the transcription affects the translation of several words, including 'which' (position 5), 'anointed' (position 6), 'the' (position 7), 'their fathers' (position 8), and 'the priests' (position 10). The phrase 'of Yahweh to become' is a high-confidence reconstruction based on repeated phrase evidence, but its exact meaning is uncertain. The translation conservatively retains all recoverable words and does not add speculative material.",
+   "line_id": 41007,
+   "source_hash": "8e0da3886bf85d87b0cc0717c72d13b0e2dc8b9b5124e80c235becd76edab46f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:10": {
+   "en": "For their anointing to the priesthood of perpetuity to generations. And he did as Moses, all that he had commanded.",
+   "notes": "Uncertainty in transcription affects 'priesthood' (כה##נו?ת), 'to' (ל#), and 'generations' (ד#ו?ר#ו?ת#׳ם). Reconstructed 'Moses' (מ##ש##[ ה) is uncertain. Phrase evidence supports 'priesthood of perpetuity' and 'of perpetuity to generations' as established renderings.",
+   "line_id": 41008,
+   "source_hash": "325b9a6ca62a66527f0a7827d18ad52a1aa93a9362ac1ba314068ebd2a7e4c5f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:11": {
+   "en": "Yahweh them",
+   "notes": "The object marker 'them' is indicated by the suffix 'אות׳ם', though its exact function in this context is uncertain. The final punctuation mark is omitted from the translation as it has no direct English equivalent.",
+   "line_id": 41009,
+   "source_hash": "7a4eece51048792337c39d2a720e400f60279adb3c68479bd505331433be44d4",
+   "source_condition": "clean"
+  },
+  "4Q17 f2ii:12": {
+   "en": "And it was in the first month in the second year of their going out from Egypt",
+   "notes": "The phrase 'in the first month in the second year' is supported by repeated phrase evidence. The phrase 'of their going out from Egypt' is also supported by repeated phrase evidence, though with lower confidence.",
+   "line_id": 41010,
+   "source_hash": "cff5dc93d8898dee9d80f8a6632bf2c7855f5cf66555e27d3dbbb4d15867752c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:13": {
+   "en": "To the month it was set up, the dwelling-place. And he raised its pedestals, and he placed its hooks",
+   "notes": "Uncertain elements include the verb 'was set up' (הוקם##), the object marker 'its' (א##ת#), the plural form of 'pedestals' (אדני?׳ו?), the verb 'placed' (יש#ם#), and the plural form of 'hooks' (קרסי#?׳[ ו). Two words are reconstructed: 'he raised' (י[ קם ]) and 'hooks' (קרסי#?׳[ ו).",
+   "line_id": 41011,
+   "source_hash": "3ae6e8fdeb4a1b71588039328ac97b04958233576acf157b734225f70f8f62a2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:14": {
+   "en": "Its boards and its bars and its pillars he gave, and the tent he gave",
+   "notes": "Several words are uncertain due to damage, including the conjunction 'and' (positions 2, 6), the verbs 'gave' (positions 3, 12), and the object marker 'the' (position 8). The translation conservatively retains all recoverable elements without adding implied subjects or connectors.",
+   "line_id": 41012,
+   "source_hash": "bdb9c04d59527a1964b3c824b1e9d50871d36c148d93905e7f5ea268a59b135f",
+   "source_condition": "uncertain"
+  },
+  "4Q17 f2ii:15": {
+   "en": "Upon the dwelling-place and he placed the covering of the tent upon it from above as he had commanded YHWH",
+   "notes": "Uncertain transcription and reconstruction in multiple places, particularly around the verbs and proper names. The phrase 'as he had commanded YHWH' is supported by repeated phrase evidence but remains contextually ambiguous.",
+   "line_id": 41013,
+   "source_hash": "452640af28861f6e6e6b90ac76cdfaabf1e10790b3d38e282095e1b8918d55c6",
+   "source_condition": "uncertain"
+  },
+  "4Q17 f2ii:16": {
+   "en": "Moses. And he took and gave the reminder to the ark and he placed",
+   "notes": "Several words are uncertain or damaged, including the verbs 'took' and 'gave,' and the phrase 'he placed' is reconstructed. The object of 'placed' is not recoverable.",
+   "line_id": 41014,
+   "source_hash": "faf80974785548b4273aa09b207400b24bcecfbb08b5c01925b1aa64c28bc697",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:17": {
+   "en": "the linen to the ark and he gave the cover upon the ark and he brought the ark",
+   "notes": "Uncertain reconstruction of damaged words and syntax. The phrase 'the linen' is a tentative translation of the damaged word 'ב##ד##י?ם'. The verb 'יב##א' is reconstructed as 'he brought' based on the context, but its exact meaning is uncertain.",
+   "line_id": 41015,
+   "source_hash": "0c6c731420145644f3b05a980614b05f5c50dd313a6e99177b39dde4719fb252",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:18": {
+   "en": "And he put the curtain of the screen and covered upon the ark of the testimony as he commanded",
+   "notes": "Reconstructed text in positions 4 and 13. Uncertain transcription in positions 1, 2, 3, 4, 6, 7, 8, 9, 12, and 16. Phrase evidence supported 'the curtain of the screen' and 'the ark of the testimony'.",
+   "line_id": 41016,
+   "source_hash": "2873e10c602e45bdfda45e030a00760c6d4cfdfc28de9eeb894177fb6afaee12",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:19": {
+   "en": "YHWH Moses and he gave the table to the tent of meeting",
+   "notes": "Uncertain transcription and reconstruction in 'YHWH', 'Moses', 'he gave', and 'tent of meeting'. Phrase evidence supports 'YHWH Moses', 'into the tent of meeting', and 'the tent of meeting'.",
+   "line_id": 41017,
+   "source_hash": "6f23a5c491db5fc46ca9b12a70085797aaaa2cf2dfad210ceae069cd1974dfea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:20": {
+   "en": "the side of the tabernacle north from outside the curtain and he arranged on arrangement bread before Yahweh",
+   "notes": "Reconstructed and uncertain elements include 'thigh' (position 1), 'the' (position 2), 'dwelling-place' (position 3), 'outside' (position 6), 'he arranged' (position 11), and 'upon' (position 12). The phrase 'the side of the tabernacle' is supported by repeated evidence, as is 'bread before presence' and 'before Yahweh'.",
+   "line_id": 41018,
+   "source_hash": "73ce3df3b924261ee2303acaa5b3f97718fe413036945942d008e52a7021d9c7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:21": {
+   "en": "As he had commanded Yahweh Moses and he placed the lamp stand in the dwelling-place of the tent",
+   "notes": "The phrase 'as he had commanded Yahweh Moses' is supported by repeated phrase evidence. The phrase 'dwelling-place of the tent' is a paraphrase based on the lexical glosses of 'משכן' and 'אהל'.",
+   "line_id": 41019,
+   "source_hash": "905f85c9643a6a9a85052672d1d9a41725423788c203096eb53e8ce750060357",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:22": {
+   "en": "At the appointment before the table upon the side of the tabernacle south from outside to the curtain and he ascended",
+   "notes": "Reconstructed text with uncertain readings. Phrase evidence supports 'the side of the tabernacle' for positions 6-8.",
+   "line_id": 41020,
+   "source_hash": "32f2dfbe92b522d4171f9a0ecd4322988937f4c86d6ba184eb07ec64c7702522",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:23": {
+   "en": "The lamp to the face of Yahweh, as he had commanded Yahweh Moses.",
+   "notes": "Reconstructed and uncertain elements include the definite article (ה#), the plural form of 'lamp' (נר##[ ת), the name 'Yahweh' (יהו ]ה## and יה#וה), the relative particle (א ]ש##ר), and the name 'Moses' (מ#שה#). The phrase 'as he had commanded Yahweh Moses' is supported by repeated phrase evidence, though its exact syntax is uncertain.",
+   "line_id": 41021,
+   "source_hash": "10ae33e9a5ab9bd69edd0d57d142cfc60f8c00c06414ec2229e5b9df98e38a40",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:24": {
+   "en": "And he placed the altar of gold in the tent of meeting before the curtain, and he made smoke.",
+   "notes": "Uncertainty in the transcription is noted for the words 'י?ש##[ ם' (put/place), 'ז(# ה##ב #)' (gold), and 'מוע#ד' (appointment). The phrase 'the tent of meeting' is supported by repeated evidence, but 'front the curtain' is less certain. The translation follows the visible morphology and phrase evidence where possible.",
+   "line_id": 41022,
+   "source_hash": "c1f4a686d03886796a080affb02fec8cd1548c1c5408a16143429d4f9246f533",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f2ii:25": {
+   "en": "upon it incense of perfumes before him as he had commanded Yahweh Moses",
+   "notes": "Uncertain reconstruction of preposition 'upon' and relative particle 'which'; damaged final characters omitted.",
+   "line_id": 41023,
+   "source_hash": "9e764ebdb68c6e901f3cf20bbcd031c4c9f50eeada3a12772f29130a594c6bda",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f3:1": {
+   "en": "And the interior and the knees shall wash in water",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown symbol (ε) and a possible lacuna. The translation reflects recoverable words in order, but the overall meaning remains uncertain due to damage and unclear context.",
+   "line_id": 41024,
+   "source_hash": "ee1e7915524c5748a5a20c6ab508b44ee201b0a574b0865e5353d883e9016f26",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f3:2": {
+   "en": "And the priest will present the whole and will make it smoke on the altar, it is a burnt offering, a fire offering",
+   "notes": "The phrase 'it is a burnt offering, a fire offering' is supported by repeated phrase evidence with 100% dominance. The verb 'will present' is a conservative choice based on the hifil stem of the verb 'approach', and 'will make it smoke' is chosen for the hifil stem of 'smoke'. The object marker 'את' is omitted as it does not add meaning in English.",
+   "line_id": 41025,
+   "source_hash": "df226239c0bb2402daff24d182593cd93ebbcc9acb5fc7f960a979be25633b1e",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f3:3": {
+   "en": "The scent of incense to YHWH, and if from the bird, a burnt-offering present to YHWH",
+   "notes": "The phrase 'of soothing to YHWH' and 'a present to YHWH' are supported by repeated phrase evidence. The translation conservatively follows the recoverable text, preserving the structure and order of the source.",
+   "line_id": 41026,
+   "source_hash": "9643b6f33460088209ffa99dd0c0a367210a8216a26c404a231bf2c58341e314",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f3:4": {
+   "en": "And he approached from the doves or from the sons of the dove the offering. And he presented the priest.",
+   "notes": "Uncertain reconstruction of 'approach' (position 2). Phrase evidence supports 'the young ones of the dove' (positions 8-10) and 'he will present the priest' (positions 15-17) with varying confidence.",
+   "line_id": 41027,
+   "source_hash": "3126d9c818527a4a266ec8c4e0370489f5f0b5bc7d3a5dfee04d5f263b12c120",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f3:5": {
+   "en": "To the altar and he will nip off its head and he will make it smoke to the altar and he will drain its blood",
+   "notes": "Reconstructed and uncertain text is present in the transcription.",
+   "line_id": 41028,
+   "source_hash": "56cda3eb03c5dd92f483d1da952752a19518e8f3481328a31188aecfbb1e1f37",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f3:6": {
+   "en": "upon the wall of the altar",
+   "notes": "The phrase 'the wall of the altar' is supported by repeated phrase evidence with dominant contextual rendering and full pattern support.",
+   "line_id": 41029,
+   "source_hash": "6d4ac30d2076c2c8c9d8c24c9353b3aa60ccee84d18f834cde0604bf65127b1e",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f4:1": {
+   "en": "the altar upon the wood which upon the fire of the burnt offering it a fire offering of an odor of soothing",
+   "notes": "Uncertain reconstruction at the beginning and end of the line. The phrase 'it a fire offering' is supported by repeated phrase evidence, but its syntax is awkward. The translation preserves the literal order of recoverable words without adding unlicensed connectors or subjects.",
+   "line_id": 41030,
+   "source_hash": "7a1c0746070e8c370942a4e75224f1d1e3c46016f327f760a2ba6caea04bfd79",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f4:2": {
+   "en": "to YHWH",
+   "notes": "The transcription includes a reconstructed particle 'ל' and a final punctuation mark that cannot be translated independently.",
+   "line_id": 41031,
+   "source_hash": "1fe137d4338dfe9efe295f3481506993455b1c82d93d89f7c0ab4579cb8c6f0f",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f4:3": {
+   "en": "And a soul that approaches an offering, a present to YHWH, fine flour it will be an offering, and he poured.",
+   "notes": "The phrase 'a present to YHWH' is supported by repeated phrase evidence. The sequence 'fine flour it will be an offering' is also supported by repeated phrase evidence. The final verb 'poured' is in the perfect tense, indicating a completed action, but the subject is not explicitly stated in the recoverable text.",
+   "line_id": 41032,
+   "source_hash": "ed0fa180e267121721d7a6754502b39b26f3c18d72981aeec25550c0eec32a61",
+   "source_condition": "reconstructed"
+  },
+  "4Q17 f4:4": {
+   "en": "Upon the oil and he put upon the incense the present she",
+   "notes": "Uncertainty in the transcription and reconstruction of 'לבו ]נ#?ה' (incense) is noted. The phrase 'on Libnah' is a repeated pattern but not directly applicable here. The translation conservatively follows the recoverable text without adding unlicensed connectors or subjects.",
+   "line_id": 41033,
+   "source_hash": "cec353cd24edb84137e1f33aa7417f7622f394f0d5183898757bd6a6bdafc34c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content.",
+   "line_id": 41034,
+   "source_hash": "133698e5b68d109a634ae1172ab9a37dfee4bf74528560f45d0987dbb4c34785",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f5:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions.",
+   "line_id": 41035,
+   "source_hash": "f5524c7c5548416d610ecbdce9050c2ed9df5361293cc29e18c0aecad01e4f9a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f5:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of two unidentifiable characters (ε) with no recoverable lexical content.",
+   "line_id": 41036,
+   "source_hash": "cc426a659661fe8ff1d5ffb19d04dbb7c1a1eeef1070dbcdfc6d773a3d482bd6",
+   "source_condition": "clean"
+  },
+  "4Q17 f5:4": {
+   "en": "to the priest to settle",
+   "notes": "Uncertain transcription and reconstruction in 'priest' and 'settle'.",
+   "line_id": 41037,
+   "source_hash": "449922fcf84e1d84600447f150bd292705485109b646f14eb97dbd8041d8b14c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q17 f5:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. The visible characters (ε, ׃) do not form translatable lexical units. All words are marked as uncertain or unknown, with no recoverable content.",
+   "line_id": 41038,
+   "source_hash": "d6238b11107716fd6c20fb994ae95968e65e340d1acb3b901197f2169927ae80",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

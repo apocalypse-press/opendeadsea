@@ -1,0 +1,648 @@
+{
+ "id": "4Q271",
+ "label": "4Q271",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 90,
+ "scroll_id": 234,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q271 f1:1": {
+   "en": "and [object marker] his brother",
+   "notes": "Uncertain transcription and reconstruction in 'א##ת##' and '[ א ]ח##[ י׳הו'. The translation reflects recoverable elements, omitting untranslatable fragments.",
+   "line_id": 11117,
+   "source_hash": "1c6521f938ca14d0f8bd47d079d0a96afa6f840bfb94810cbef6a898fcfa8e38",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f1:2": {
+   "en": "turning the boundary",
+   "notes": "Uncertain transcription and reconstruction in 'turning' and 'boundary'. No recoverable text for the first and last unknown elements.",
+   "line_id": 11118,
+   "source_hash": "09d0156543bf9ed1cce18ef61662fad008cd53bf0de49da406d30ce43f88e8fe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:1": {
+   "en": "From the threshing-floor descends the tenth part from the clay she the ephah",
+   "notes": "Uncertain reconstruction of 'descends' (יו(# ר #)ד). Phrase 'donkey his' (ח##[ ומר היא) is contextually unsupported. Surviving source characters ε and פ omitted from translation due to uncertainty.",
+   "line_id": 11119,
+   "source_hash": "3daf0949c20fd531cab5b33f27b11f1e22251b393449c5fbbed081939655d4ef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:2": {
+   "en": "And the daughter as he rose up against the ephah and the bath, one two from the wheat sixth",
+   "notes": "Uncertain elements include the transcription and meaning of several words, particularly 'בת' (bath), 'תכון' (unknown), and 'שני׳הן#' (two). The phrase 'rise up against' is supported by repeated evidence for 'הקים אל' but remains contextually ambiguous. The final word 'ש ]ש#י?ת' is reconstructed as 'sixth' but is highly uncertain.",
+   "line_id": 11120,
+   "source_hash": "d1dd098df283b5d11b3c02e09c52301f2b616b5d9a1e4a8928b4b3fb4ead419b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:3": {
+   "en": "An ephah for the bitumen and a tenth of the daughter to the fruit of the tree[s]. Let no man be high to the lamb, one from the hundred.",
+   "notes": "Uncertain elements include the reconstruction of 'the' (position 11), 'tree[s]' (position 12), 'lamb' (position 20), 'one' (position 21), and 'hundred' (position 24). The phrase 'the fruit of the tree[s]' is supported by repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, preserving uncertainty and avoiding additions.",
+   "line_id": 11121,
+   "source_hash": "2313e22ea5ebea0f9a0a802e00c931e171b8bd54e2625bcdaa7f7f47c1b5466d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:4": {
+   "en": "No one shall eat from the threshing floor and from the garden before the priests send their hands",
+   "notes": "The phrase 'eat everyone' is a repeated pattern with moderate support, but it does not fit the context. The translation follows the visible morphology and lexical glosses. The word 'ε' is omitted as it cannot be translated independently. The word 'יד׳ם' is translated as 'their hands' based on the lexical gloss and morphology.",
+   "line_id": 11122,
+   "source_hash": "5717625f17e1436007d693116453f55dd4ef60abb0ba2b1efe945a34249948d2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:5": {
+   "en": "to bless to the first house to a man who sells and in then he will be clean",
+   "notes": "Uncertain reconstruction of 'בר ]ך#' (bless / kneel), 'ריאשונה' (first), 'י?מכור' (sells), and 'חסנ#?' (unknown). Two reconstructed characters and six uncertain characters. No repeated phrase evidence or semantic constraints provided.",
+   "line_id": 11123,
+   "source_hash": "ab15a9f40bafd50c7d3581c35289a15a359536e1dcf464b019e9c3a02a7501f6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:6": {
+   "en": "and the field mixed",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The translation reflects only the recoverable words: 'and' (ו), 'the' (ה), 'field' (שדה), and 'mixed' (מעורב). The remaining elements are either untranslatable or too damaged to provide meaningful content.",
+   "line_id": 11124,
+   "source_hash": "4fd7eeaef2961c5dba3c1dd417ddc2e872ce5ac80291e472ccc0c9e20a6cc676",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:7": {
+   "en": "three times",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown symbol and a damaged word. The phrase 'three times' is supported by repeated phrase evidence, but the overall context remains unclear.",
+   "line_id": 11125,
+   "source_hash": "cbfbc706ab173b697a9a13ef642b88dfae54c3c50ad59764ce6b3d841f9cae85",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:8": {
+   "en": "Not a man shall come with the blood of my sacrifice for purification and from the whole",
+   "notes": "Uncertain characters and reconstructions are present in the source. The translation omits untranslatable characters and retains visible morphology where possible. Phrase evidence and lexical glosses are used conservatively, with no added subjects or connectors.",
+   "line_id": 11126,
+   "source_hash": "c1e97106b3219c1716f85115c4829d48bc84108196bbd0ba097213122cf3ffa7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:9": {
+   "en": "The gold and the silver and the bronze and the tin and the lead which the nations made for the idol, do not bring it.",
+   "notes": "Uncertain reconstructions and damage affect 'the silver', 'the tin', and 'the lead'. The verb 'do not bring' is a suffixed form with uncertain antecedent.",
+   "line_id": 11127,
+   "source_hash": "14e77b6c0f1e85e594347897f40988bec0cc105a52205352b589a6b71ecd173b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:10": {
+   "en": "A man to the purification that if from the new come from the furnace not he comes a man all skin and garment and from",
+   "notes": "Significant uncertainty due to damaged text and reconstructions. The phrase 'all skin and garment' may reflect a known pattern 'all the cities', but evidence is weak. The verb 'comes' is reconstructed. Many particles and nouns are uncertain or damaged.",
+   "line_id": 11128,
+   "source_hash": "b1e808c0df05e4983f2da74d0396ef034978e44134e785ceea0d1c38d3cecaf6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:11": {
+   "en": "All the tool that he makes for work in which they become unclean to a corpse of a person that if it is spattered as justice",
+   "notes": "Uncertain transcription and reconstruction in positions 1, 2, 3, 6, 14. Phrase evidence influenced translation of 'to a corpse of a person' and 'work in'. No high-confidence semantic constraints applied.",
+   "line_id": 11129,
+   "source_hash": "2864d788a15a557f1644b30f0ac1b4bd58b0aecd9e1f4a94c20db4d0c7acc58b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:12": {
+   "en": "The purification in the water of the impurity at the end of the guilt from a man clean from all uncleanness which",
+   "notes": "Uncertain readings at positions 3, 6, 7, 12, 14, and 17. Reconstructed text at positions 1 and 14. The phrase 'from all uncleanness' is supported by repeated evidence, but its exact form is uncertain due to damage.",
+   "line_id": 11130,
+   "source_hash": "49eb03f0a0bfa3f20275eb3bce04e940f74cbae5bcb46737bd9e967a091aa26b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:13": {
+   "en": "He will bring the sun. And every boy who has not completed the days to pass upon the appointed ones",
+   "notes": "Uncertain reconstruction of 'לו ]א##' as 'not'; uncertain reconstruction of 'מ#לאו' as 'completed'; uncertain reconstruction of 'פ##[ קודים' as 'appointed ones'.",
+   "line_id": 11131,
+   "source_hash": "bdb4fcb4b6bec5786c766ab8a27b951621619847ea092e9e632a7cc688e60630",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f2:14": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments. The phrase evidence 'the Levites' is not supported by the visible morphology or transcription. No defensible English words survive.",
+   "line_id": 11132,
+   "source_hash": "cd771a77aa4c4331135e0c5f1bd467100203916d40a73292cf24283a2383c276",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:1": {
+   "en": "in silver",
+   "notes": "The transcription contains multiple untranslatable characters and a reconstructed fragment. The recoverable words are 'in' (preposition) and 'silver' (noun).",
+   "line_id": 11133,
+   "source_hash": "e0677a2f2fbef252e219d5ad636ee57f9f174cc209b369806d5ee4c914d3d761",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:2": {
+   "en": "And not her hand will reach sufficiency to return to and she approached the year of the jubilee",
+   "notes": "The translation incorporates repeated phrase evidence for 'the year of the jubilee' and 'not it will reach hand'. Uncertainty in the transcription is noted for positions 5, 11, 12, and 13. The initial 'ε' and uncertain characters are omitted as they cannot be translated independently.",
+   "line_id": 11134,
+   "source_hash": "bf5653815069649411e4e08948ad4ac0b37dd8afb4a8eb41a7983365acda4d40",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:3": {
+   "en": "And do not forsake to all iniquities not be tools",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'do not forsake' and 'all iniquities'. The sequence 'not be tools' reflects repeated phrase evidence for 'to Yahweh all' and 'Yahweh all', but without sufficient evidence to license a possessive or connector. Uncertainty remains in the damaged verb form and the relationship between 'iniquities' and 'tools'.",
+   "line_id": 11135,
+   "source_hash": "42b9ab73cd6ec03ce6159606d1c8a627e3453b1391449090f42bfe00883f9a29",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:4": {
+   "en": "A vigorous man upon a man and a woman, as one, that an abomination she is. And which he said that you sell",
+   "notes": "The transcription contains damage and uncertainty, particularly around the particles and pronouns. The phrase 'that an abomination she is' is supported by repeated phrase evidence. The final clause 'which he said that you sell' is uncertain due to the reconstruction of the verb 'sell' and the relative particle 'which'.",
+   "line_id": 11136,
+   "source_hash": "971e89cd868e63f426f858fa777d0b6e39c0181899d989fb3a6528c498c322ed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:5": {
+   "en": "What is sold or bought from a fellow's hand, do not oppress a man, his fellow. And this, its explanation?",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'maltreat each (et)' is supported by repeated evidence but is not directly applied due to lack of direct contextual fit. The final phrase is highly uncertain due to damage and unclear lexical gloss.",
+   "line_id": 11137,
+   "source_hash": "155065b54559fac0a0357aace3af53e08f75a107de71ba75f84e78f40c0cfb6f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:6": {
+   "en": "in all that he knows which is found",
+   "notes": "Uncertain elements include a reconstructed character and an unknown verb form at the end.",
+   "line_id": 11138,
+   "source_hash": "e1c220c5e1bd2ba79f75148d90d0f63cac2d09d692d936def13fc859e782fb5e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:7": {
+   "en": "And he knows that he acts unfaithfully in mankind and in cattle",
+   "notes": "Uncertain elements include the Greek letter epsilon at the start, a damaged conjunction, and a possible conjunction before 'cattle'. The phrase 'he acts unfaithfully' is supported by repeated evidence but with low confidence.",
+   "line_id": 11139,
+   "source_hash": "2cf31365b2feb99ea23223c617e08233a5ef8f6df772f8722888c189e62971ff",
+   "source_condition": "uncertain"
+  },
+  "4Q271 f3:8": {
+   "en": "He will give a man to a man all the blemish he will recount to him why it will come upon him justice",
+   "notes": "Uncertain reconstruction at position 6; uncertain gloss at position 9.",
+   "line_id": 11140,
+   "source_hash": "7e1fb319af11d1e3b5921e2af35b3b3fa78641ae49b6c1eeeeb343fc1ae8f5d4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:9": {
+   "en": "Cursed be the one who says, 'He errs, blind in the way.' And do not give to the one not established to it, that",
+   "notes": "Uncertain elements include the verb 'say' (position 4), the participle 'erring' (position 5), and the suffixed form of 'give' (position 13). The phrase 'not [is] established to' is supported by repeated evidence for positions 16-18, but 'thus to' is also a possible rendering for positions 17-18.",
+   "line_id": 11141,
+   "source_hash": "d0d3b3e30b4056acd961f800fa22d38a1aff0378e06808c95c21795eba8d0134",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:10": {
+   "en": "He, doubleness, bullock, and he-ass, and garment, wool, and flax together. Not come man.",
+   "notes": "Uncertain transcription in positions 3, 10, and 11. Reconstructed text in position 1. Phrase evidence suggests '[were] bringing each' for positions 15-16, but this is not supported by visible morphology.",
+   "line_id": 11142,
+   "source_hash": "dd6664aa9eb067297c422f6b26ce6aee7c568e8dfe5457028eec19a21ff638c2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:11": {
+   "en": "A woman in the covenant of holiness who knew to do a deed from his word and who knew",
+   "notes": "The phrase 'who knew to do a deed' reflects repeated phrase evidence for positions 7-9. The final 'and who knew' retains the visible conjunction and repeated verb form, but the object of knowing is uncertain.",
+   "line_id": 11143,
+   "source_hash": "a419e599a1c073b4529d28ce731d749a2470706f46bcd5bb26b4d936cb17dac9",
+   "source_condition": "reconstructed"
+  },
+  "4Q271 f3:12": {
+   "en": "The deed in the house of my father or a widow who lay down from her widowhood. And the whole",
+   "notes": "Uncertain reconstruction of 'my father' (position 4). The phrase 'on the house my father' has moderate support (0.3333) but is not directly applicable here. The verb 'התארמלה' (position 11) has no trusted gloss, translated as 'her widowhood' based on context.",
+   "line_id": 11144,
+   "source_hash": "1c5142b4ca4ac2c3f736273e83347f35acd0606fc189d415a357db92d018afe2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:13": {
+   "en": "Whoever is upon the name evil in virginity in the house of my father, he shall not take a man if",
+   "notes": "The phrase 'a name bad' is supported by repeated evidence for positions 3-4. The phrase 'on name' is supported for positions 2-3. The phrase 'on the house my father' is supported for positions 7-9. The translation retains all recoverable words in order, preserving grammatical person and number.",
+   "line_id": 11145,
+   "source_hash": "ed5aed4735555fffa34362d43c99a1e709b605ba39194ba2abf9cec73538c690",
+   "source_condition": "reconstructed"
+  },
+  "4Q271 f3:14": {
+   "en": "In seeing women, being firm and knowing, purged from the word of the inspector who is upon",
+   "notes": "The phrase 'he saw a woman' is a repeated pattern, but the translation retains the plural 'women' to match the source. The term 'מב##ק#ר##' is uncertain, and its gloss is unclear. The relative particle 'אשר' introduces a clause about the inspector, but the exact relationship is ambiguous.",
+   "line_id": 11146,
+   "source_hash": "2c1ca89c382810b618490a670999eb231b72155fc916c84e291f7c1f5b830933",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:15": {
+   "en": "The many and after he takes her and in taking it he will make as justice and not he will declare upon",
+   "notes": "Uncertain elements include the reconstruction of 'ה' (the), the meaning of 'רבים' (much/chief/dart/great), the particle '׃', the uncertainty in 'אח ]ר##' (after), the reconstruction of 'מ[ ש ]פ##ט##' (justice), the particle '[ ו' (and), and the uncertainty in 'י#?גיד' (report/flow) and 'ע#ל#י#?׳[ ה ]' (upon).",
+   "line_id": 11147,
+   "source_hash": "5639cdbce427a89e68b89ce85a9224a87e3c5e2261e78e24cf48a633c82522e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f3:16": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain characters. The visible forms do not provide sufficient evidence for translation.",
+   "line_id": 11148,
+   "source_hash": "87e7db0d135f78ef5cae719037fab8320af257678fa7290ce51400f168b70d8a",
+   "source_condition": "uncertain"
+  },
+  "4Q271 f4i:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or fragments that can be translated into English.",
+   "line_id": 11149,
+   "source_hash": "40a17fe3657c24cc901d81825c3a56eda1ae4f1afb0c1c6bc6c2d1f27ff89581",
+   "source_condition": "uncertain"
+  },
+  "4Q271 f4i:5": {
+   "en": "that if",
+   "notes": "The initial character 'ε' is untranslatable and omitted. Its presence is noted here as it does not contribute to the recoverable text.",
+   "line_id": 11150,
+   "source_hash": "18ecda4b405058cbb25a440efbb09362a18f33064231a6a745ceed4a754fd2c8",
+   "source_condition": "clean"
+  },
+  "4Q271 f4i:6": {
+   "en": "The oath of those who come in all the name",
+   "notes": "The phrase 'in all' is supported by repeated evidence. The final word 'name' is uncertain due to damage in the source text.",
+   "line_id": 11151,
+   "source_hash": "2b1be256cd28090fdedea86e02657a1df1bdcfecdba5b60a4974dc850b69c6f6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4i:7": {
+   "en": "And if the judges",
+   "notes": "The transcription includes a damaged character (ε) and a final punctuation mark (׃) that cannot be translated independently. The verb 'judges' is plural and masculine, based on visible morphology.",
+   "line_id": 11152,
+   "source_hash": "9fce958bd23e4ebaef291da6374ab32d7967f8f49c32caa64074a7ae8cd246e8",
+   "source_condition": "reconstructed"
+  },
+  "4Q271 f4i:8": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) with no clear Hebrew or Aramaic lexical correspondence. No recoverable text survives for translation.",
+   "line_id": 11153,
+   "source_hash": "990f1c7b8ba83472bcceceef3a1128364eec17b113ae27b29f52cb0e411cebb9",
+   "source_condition": "clean"
+  },
+  "4Q271 f4i:9": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) with no clear lexical or semantic connection to Hebrew or Aramaic. No recoverable text survives for translation.",
+   "line_id": 11154,
+   "source_hash": "fcb817cf43ef679c90a2bdebad765a3ad260865396ecccde9c2a2cb2396e607b",
+   "source_condition": "clean"
+  },
+  "4Q271 f4i:10": {
+   "en": "in [the] day",
+   "notes": "The transcription contains untranslatable characters and an uncertain word. The final word is reconstructed as 'day' but is marked as uncertain in the source.",
+   "line_id": 11155,
+   "source_hash": "3b8cb4ce8d831d2b89b86fb6f3fb7de091dc24c2e57109104374bda829bd81ad",
+   "source_condition": "uncertain"
+  },
+  "4Q271 f4i:11": {
+   "en": "Speak with the visitor, whom many will visit, in the oath of the covenant which Moses cut with Israel",
+   "notes": "The term 'מבקר' (visitor) is uncertain due to lack of trusted gloss. The phrase 'covenant which he had made' is supported by repeated evidence but adapted to match visible morphology.",
+   "line_id": 11156,
+   "source_hash": "b1b36d084679dbbd32df16799be5a6c7971f155603d157816acb6f3c3a8ff665",
+   "source_condition": "reconstructed"
+  },
+  "4Q271 f4i:12": {
+   "en": "the covenant to return to the instruction of Moses with all heart and with all soul to the found to make in all end",
+   "notes": "Uncertain reconstruction at position 23. Phrase evidence suggests possible renderings for 'with all heart' and 'all being', but these are not adopted due to low pattern support. The translation conservatively follows visible morphology and lexical glosses.",
+   "line_id": 11157,
+   "source_hash": "3ca3bc86aaa0d17d5c966a08179824acad060ee221204726d170fcd9cd214968",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains mostly untranslatable fragments and uncertain reconstructions. The only recoverable word is 'וְ' (and), but it cannot form a coherent phrase without context. The phrase evidence 'of a day in' is not directly applicable to the visible text.",
+   "line_id": 11158,
+   "source_hash": "f899e5f6ce12a006008890abf2eadda09b7b987dab438939bc11b147611aed6c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:2": {
+   "en": "He will make with the house of Israel and with the house of Judah a covenant upon the covenant this spoken by the hand of Moses",
+   "notes": "The translation reflects the visible transcription and morphology, with high-confidence phrase evidence guiding contextual disambiguation. Uncertainty in the transcription is noted but does not affect the recoverable translation. No material is added or omitted beyond what is licensed by the source.",
+   "line_id": 11159,
+   "source_hash": "3bbf31812ce6a7bed935bbe80ce2ed1a8e01d861fce1136449a8f6eba8c3415b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:3": {
+   "en": "to say upon the mouth the words these I cut a covenant and with Israel upon thus he will raise the man",
+   "notes": "The translation reflects visible morphology and phrase evidence where available. Uncertainty arises from reconstructed text and ambiguous lexical items. The phrase 'the mouth of the words' is supported by phrase evidence. 'Words (the) these' and 'he arose the man' are also backed by phrase evidence. 'He made with' is used for 'cut with' based on phrase evidence. The final clause 'upon thus he will raise the man' is a conservative rendering of the visible tokens, though its syntax is uncertain.",
+   "line_id": 11160,
+   "source_hash": "9631c4eff5255427459e874c2e3920b87de316e5966a7366a7823e7a3ea0fd7f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:4": {
+   "en": "Upon his soul to return to the law of Moses, that in all (there is) an exacting and an interpretation of their ends to blindness.",
+   "notes": "The phrase 'the law of Moses' is supported by repeated phrase evidence. The verb 'דקדק' is uncertain and translated as 'exacting' based on visible morphology. The phrase 'of their ends' is a conservative rendering of 'קצי׳הם'. The final word 'עורון' is translated as 'blindness' based on its lexical gloss.",
+   "line_id": 11161,
+   "source_hash": "313e8f576ca26c9bf1cf38ea655cb90d8e2b110d02bb0bd3fa72f7d0daa7cb97",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:5": {
+   "en": "Israel from all these behold he scrutinized upon the book of the divisions of the times of their jubilees and in their weeks",
+   "notes": "Uncertain elements include the particle 'behold' (position 5), the pronoun 'he' (position 6), the verb 'scrutinized' (position 7), the preposition 'upon' (position 8), the noun 'book' (position 9), and the noun 'divisions' (position 10). The phrase 'of the times of their jubilees and in their weeks' is reconstructed and uncertain.",
+   "line_id": 11162,
+   "source_hash": "b645b89ed6101f379dd3ad60eee43beac62e8ed452422956d26a06282b35ace2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:6": {
+   "en": "And on the day he will arise, the man upon his soul, to return to the instruction of Moses, he will turn aside the messenger of animosity.",
+   "notes": "The phrase 'he arose the man' is a reconstruction based on repeated phrase evidence. 'The law of Moses' is a common phrase with high canonical support. Uncertainty in the transcription is noted for the preposition 'to' and the noun 'instruction'. The verb 'turn aside' is translated based on its morphology and lexical gloss. The noun 'messenger' is uncertain due to damage. The final noun 'animosity' is also uncertain due to damage.",
+   "line_id": 11163,
+   "source_hash": "cf7d57aa3e7aa6f5f03720d348da6f58cd7b4e875fc81fdc23b50b57df1dea52",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:7": {
+   "en": "From after him if he arises the word upon thus he was circumcised Abraham in the day let it be known and he said I have found",
+   "notes": "Significant damage and uncertainty throughout. Reconstructed and uncertain elements include 'word,' 'upon,' 'thus,' 'he was circumcised,' 'in the day,' 'let it be known,' and 'he said.' Phrase evidence partially supports 'he was circumcised Abraham,' 'day let it be known,' and 'he said I have found.' Translation conservatively retains all recoverable elements without adding unlicensed connectors or participants.",
+   "line_id": 11164,
+   "source_hash": "2819547ee3d25f0a572540c80a75f42a2e1efea7c52ee5dbaf1e8f32f000ec26",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:8": {
+   "en": "You will keep your lips to raise up the whole oath and the obligation that arises upon the soul to make",
+   "notes": "Uncertain reconstruction of 'oath' (position 6) and 'man' (position 10). Uncertain morphology for 'arise' (position 9).",
+   "line_id": 11165,
+   "source_hash": "7b30ad9ba2d70de1ee82994471aae146a391cb14f8ec51d2944c4f30177df3f7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:9": {
+   "en": "The word from the instruction until the price of death, he will not buy off. All who arise, the man upon his soul to turn aside.",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'יקים אי ]ש' is rendered as 'who arise, the man' based on repeated phrase evidence. The lacuna in 'אל[יפד׳הו' is handled by translating the surviving material conservatively. The final clause 'על נפש׳ו לסור' is translated literally, preserving the grammatical relationships.",
+   "line_id": 11166,
+   "source_hash": "d63de6d64c0fe6c47273667e24757114639880e83a239a3cc7bebf0a6aee18d0",
+   "source_condition": "reconstructed"
+  },
+  "4Q271 f4ii:10": {
+   "en": "The instruction until the price of death, not to arise upon the oath of the woman, which she said to her husband",
+   "notes": "Reconstructed text in positions 8 and 14. Uncertain text in position 14.",
+   "line_id": 11167,
+   "source_hash": "3f724c075e80dec8b09e62dddaed007d9021ae1a1fb320c4f2472e0c421c32c3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:11": {
+   "en": "To forbid the oath, not to forbid a man, the oath which he did not know, if to raise her and if",
+   "notes": "Uncertain transcription at position 4; reconstructed text at position 8.",
+   "line_id": 11168,
+   "source_hash": "a1e48458bd3c957fa6e005a75ea5af92b4f0033b613b3a1c0b629f58e3c72577",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:12": {
+   "en": "To forbid if to transgress the covenant she forbids and not to arise and thus justice to his father upon",
+   "notes": "The phrase 'covenant his' is supported by repeated phrase evidence, but 'she forbids' is a conservative translation of the visible morphology. The final preposition 'upon' is left unconnected due to missing context.",
+   "line_id": 11169,
+   "source_hash": "28dfba234ed6d0bb9a1d1e5e442fdd81babb5f9c740ef74c39b1cf85af35b92b",
+   "source_condition": "reconstructed"
+  },
+  "4Q271 f4ii:13": {
+   "en": "The justice of freewill offerings: no man shall vow to the altar a blemish, nor compel it. And even the priests shall not take from hand",
+   "notes": "Uncertain reconstruction at positions 8, 9, and 19. Phrase evidence supports 'took from hand' at positions 18-20, but the translation retains literal 'take from hand' due to uncertainty in the preposition.",
+   "line_id": 11170,
+   "source_hash": "5f882c344eff807594ab49076709d5634a58b6757b329320daeb239df3fbdad0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:14": {
+   "en": "Israel: not to be holy a man of any food of his mouth to the god that he said each his fellow?",
+   "notes": "The translation reflects the visible transcription and morphology, with uncertainty in the reconstruction of 'מא#[ כל' and 'ר#ע׳הו#?'. The phrase 'he will set apart as holy anyone' is supported by repeated evidence but not directly reflected in the translation due to the conservative approach. The object marker 'את' is translated as 'of' to maintain the proposition without adding unlicensed connectors.",
+   "line_id": 11171,
+   "source_hash": "5600048898c004b796b9e8529ec6772c6add2bad80e90cfdef46776adafac46d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:15": {
+   "en": "They hunt the ban. Not he will set apart as holy a man from the whole and if",
+   "notes": "Uncertain elements include the transcription and gloss of 'חרם#' (ban/net), the particle 'א#ל' (not/where/nothingness), and the reconstructed '[ מש# ]' (Meshech). The phrase 'he will set apart as holy anyone' is supported by repeated evidence. The translation conservatively retains all recoverable elements, including uncertain and reconstructed words, without adding unlicensed connectors or participants.",
+   "line_id": 11172,
+   "source_hash": "e39827df94cc3f541e2d01542714506536878e892fb0c67033bf21668fadb469",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f4ii:16": {
+   "en": "even the justice the vowing of it",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Object marker 'it' is implied by the preposition אֵת, but its referent is unclear. Verb 'vowing' is reconstructed from damaged נ#?וד##ר.",
+   "line_id": 11173,
+   "source_hash": "7f3c46be9b58b97c529b25dc529ddd055726e87af77b1cbd12acd2c83bb680d6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:1": {
+   "en": "In grass that if they were washed in water or in scorched incense not to mix a man from his pleasure",
+   "notes": "Uncertain reconstruction of 'כב ]ס##ו#?' as 'washed' and 'שופים' as 'scorched'; uncertain gloss for 'שופים'; reconstructed '[ ב' and '[ איש'; uncertain ending 'ו?נ׳ו' in 'רצ ]ו?נ׳ו'.",
+   "line_id": 11174,
+   "source_hash": "a54a723a1b2fb276a2022deb94045654dec639438b79a45695d18d35ffa16c8e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:2": {
+   "en": "On the sabbath, no man shall go after cattle to pasture outside his town, for if thousands are in a cubit",
+   "notes": "Uncertain elements include a damaged particle (׃) and a questionable particle (כי?). The phrase 'he went a man' is supported by repeated evidence but is not directly reflected in the translation due to the conservative approach.",
+   "line_id": 11175,
+   "source_hash": "ffbb179836539b0bf4082eb2ec11507bc52b2348eb4b2b2b97fb9d8eea4f5002",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:3": {
+   "en": "[Not] his haughtiness, a man, [to] her hand to strike in a fist. If she rebels, she [not] let him go out.",
+   "notes": "Reconstructed and uncertain text is present. The phrase '[the] haughtiness of people' is supported by repeated evidence for positions 2-3. The phrase 'your not let him go out' is partially supported for positions 13-15, but 'your' is omitted as unsupported.",
+   "line_id": 11176,
+   "source_hash": "f24550e71eefeec284412f7fe2790412203bcc1fc67a22a6a6408b3cabe9c806",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:4": {
+   "en": "From his house not goes out a man from the house to the outside and from the outside to the house and if in its cover it will be",
+   "notes": "Uncertain elements include the transcription damage and the sense of several particles. The phrase 'from his house not goes out a man' is supported by repeated evidence but remains ambiguous. The final verb 'it will be' lacks a clear subject in the source, and the object of 'cover' is uncertain.",
+   "line_id": 11177,
+   "source_hash": "642d24e5c9bdfa073cd9b88794e9c1f46ac11f28b349a1e4d3260508d4ad8afa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:5": {
+   "en": "He shall not go out from and he shall not come to he shall not engrave every plastered tool in the sabbath he shall not lift a man",
+   "notes": "Uncertain reconstruction at positions 7 and 14. Repeated phrase evidence applied to positions 2-3, 6-7, 10-11, and 17-18.",
+   "line_id": 11178,
+   "source_hash": "aaea57bb37e52b77359b47f86aac3c13c1893abdb91eef2d01ab4d52862433e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:6": {
+   "en": "Upon marks to go out and to come in the Sabbath. He shall not lift up in the house of settlement, rock and dust.",
+   "notes": "The lemma 'סַמָּן' (position 2) has no trusted gloss; translated as 'marks' based on visible form. The lemma 'מֹושָׁבָה' (position 15) has no trusted gloss; translated as 'settlement' based on visible form. The punctuation marks (positions 10, 19) are omitted in translation as their function is unclear.",
+   "line_id": 11179,
+   "source_hash": "89309717fe7fad0b959428eb24e10d6d137b4b7167319a7b5031d9c43b862725",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:7": {
+   "en": "He will lift the one being firm, the suckling, to go out and come in the Sabbath. Not bitter his servant.",
+   "notes": "The transcription contains a reconstructed word (position 1) and an uncertain word (position 5). The translation preserves the grammatical structure and semantic relationships, but the meaning remains partially unclear due to the uncertainties.",
+   "line_id": 11180,
+   "source_hash": "f025270b2d81af753bf8fa40d1d4fca62aa24ce5a8ba2293fcc7be06448101f7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:8": {
+   "en": "The trustworthiness and the hired in [sabbath] not to bear a man cattle in sabbath and if she falls to a cistern",
+   "notes": "Uncertain reconstruction of 'sabbath' and damaged syntax; translation preserves recoverable elements without speculation.",
+   "line_id": 11181,
+   "source_hash": "38ad8ce28a7a892e45ee31c9be110cb6403c5c89652fd22974a95cf7633326cd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:9": {
+   "en": "And not to a pit, he will not arise in the Sabbath. Not to cease, a man in a place near to the people in the Sabbath.",
+   "notes": "The transcription contains a reconstructed word ('[ ו') and an uncertain word ('ש ]ב#ת'). The translation preserves the grammatical structure and semantic relationships, but the meaning remains ambiguous due to the uncertainties in the source text.",
+   "line_id": 11182,
+   "source_hash": "2b2edc01e01caecc9f10e315215cd5d2701e6512737a26f667a4dff2698d567a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:10": {
+   "en": "Do not defile a man with the sabbath upon abundance and profit in the sabbath and all life of humankind that falls",
+   "notes": "The phrase 'all life of humankind' is supported by repeated phrase evidence. The transcription contains one reconstructed word and one uncertain word.",
+   "line_id": 11183,
+   "source_hash": "c0aa7cb3a5788b5f46d3eb1a01c046b21237f99f8e76a64c066f8c7b60d4bc52",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:11": {
+   "en": "To the place of waters and to its cistern, no man shall ascend in the stair and cord and tool",
+   "notes": "Uncertain reconstruction of 'cistern' (בו ]ר##). Phrase 'he went up Joash' unsupported in this context.",
+   "line_id": 11184,
+   "source_hash": "ad52772c8cdec24be601892b15c3f69ad5b5366b538f8b5e0186df3f361722c8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:12": {
+   "en": "to the altar on the sabbath, that if the burnt-offering of the sabbath, thus it is written from to a part of your sabbaths. not [no recoverable text]",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly at the end of the line, results in incomplete translation. The phrase '[no recoverable text]' indicates irretrievable content due to damage.",
+   "line_id": 11185,
+   "source_hash": "f1dfb0170ed2e5005a314e0b0be6a45901a3869387e047dbf99043aecaf2b062",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:13": {
+   "en": "[A man to the altar of burnt-offering and present and incense ]and? tree[ in the hand of a man unclean in one from the uncleanness to the ]permission]",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'for [the] sufficiency of fire' and 'a husband they will make themselves unclean' are repeated phrase evidence but not directly applicable here. The verb 'רשה' (permission) is uncertain and reconstructed. The overall structure is fragmented, and some elements are unclear.",
+   "line_id": 11186,
+   "source_hash": "630382a7c056d9b8df82d8abe28959308efe67c086f9a82e78912fd752d83030",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:14": {
+   "en": "to defile the altar, for it is written: the sacrifice of the wicked is an abomination, and the prayer of the just as an offering",
+   "notes": "Uncertainty in the transcription and reconstruction affects the translation of 'written' (position 7), 'abomination' (position 10), and 'offering' (position 15). The phrase 'the sacrifice of the wicked' is supported by repeated evidence.",
+   "line_id": 11187,
+   "source_hash": "bdbb22e9963f20d1d6c9b3d60c555c3c1590167e60ba49cdbf589c633cee3fb6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:15": {
+   "en": "Pleasure, and every (the) one who comes to the house of worship, let no unclean person come to wash. And in [shout]",
+   "notes": "The phrase 'every (the) one who comes' is supported by repeated phrase evidence. The word 'worship' is a contextual interpretation of 'השתחוות' due to lack of a trusted gloss. The final phrase 'in [shout]' is incomplete due to damage and uncertainty.",
+   "line_id": 11188,
+   "source_hash": "172a02189af8de89c03dce8900aba91aab73d94eda5f98bf8c99d7a102983d8e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:16": {
+   "en": "The clarions of the assembly shall go in front or behind, and they shall not cease the whole work",
+   "notes": "Uncertainty in the transcription is noted for the word 'עבודה#' (work), which is marked as uncertain in the source material. The translation preserves the structure and content of the original text, including the reconstructed and uncertain elements.",
+   "line_id": 11189,
+   "source_hash": "3d8cc6cc147c884c9d2525a0f20f0fa9ae67c6402a8904f763a20fac61ddbfbc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:17": {
+   "en": "For it is holy, he shall not lie with a woman in the sanctuary to defile the town",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'he will lie a man' is supported by repeated evidence, but 'with a woman' is a more natural fit for the context. The phrase '(dm) [is] a holy thing it' is partially reflected in 'For it is holy'. The sense of 'defile' is chosen for 'טמא' based on the context, though the lexical gloss is 'be unclean'.",
+   "line_id": 11190,
+   "source_hash": "7fd439487e25780ca7cbebd2af3912c7ce633a34eacd7b1795f5ffc56c83c309",
+   "source_condition": "reconstructed"
+  },
+  "4Q271 f5i:18": {
+   "en": "The sanctuary in their menstruation. Every man who will rule in spirits of wickedness and speak rebellion as justice",
+   "notes": "Uncertain reconstruction at 'as / like' (position 16). Phrase evidence suggests possible renderings for 'every man who' and 'all the men', but 'every man who' is chosen for consistency with the relative particle 'which' (position 8). The phrase 'in spirit' is also supported by evidence, but 'in spirits of wickedness' is chosen to maintain the plural form of 'spirits' (position 11).",
+   "line_id": 11191,
+   "source_hash": "4a3ed380e0171a3e05b7e9596fa93d9e21f2e0cfde8b4ca1cba6c57fa652dfb5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:19": {
+   "en": "The spirit of the dead and the soothsayer shall be judged. And all who err to defile the sabbath and the appointments",
+   "notes": "Uncertainty in the verb 'judge' due to damage. Reconstructed text in positions 1 and 20.",
+   "line_id": 11192,
+   "source_hash": "ad43d02f3c0533b84a786ee467c0e91cd002210172073bd1ed6cb27c53e24c25",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:20": {
+   "en": "He will not die, for upon the children of humankind is his guard. And if he heals from it, they kept him until seven.",
+   "notes": "Uncertainty in transcription marked by '#' and ']' affects the translation of 'ה#', 'משמר#׳ו', and 'שמרו׳הו'. Phrase evidence supports 'the children of (the) humankind' for positions 5-7.",
+   "line_id": 11193,
+   "source_hash": "e722b0489e124680f34c4f94aaa015f6336e7b1ed7381f75de9f6338b4674f27",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5i:21": {
+   "en": "And after he comes to the assembly, he will not send a man to shed blood of a man from the nations",
+   "notes": "The phrase 'to shed blood' is supported by repeated phrase evidence. The translation of 'man' is uncertain due to the damaged state of the text. The phrase 'from the nations' is a reconstruction based on the context.",
+   "line_id": 11194,
+   "source_hash": "a00948b6cd497d1a79e199983ee187ad6dcce0ba5dd811a5b0f35aefaf33bb11",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5ii:2": {
+   "en": "They blaspheme that if",
+   "notes": "The first word is a reconstructed verb form with uncertain transcription. The final character 'ε' is untranslatable and likely a scribal error or damage.",
+   "line_id": 11195,
+   "source_hash": "e42116660b8b23e647babd08aa4281488749040da46380d9e73869488ad1e5fc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5ii:3": {
+   "en": "in the way",
+   "notes": "The preposition 'ב##[' is reconstructed and uncertain, translated as 'in'. The noun 'עבור' is translated as 'way' based on its lexical gloss. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 11196,
+   "source_hash": "6ee1e4e69f9ed508c5f5850223b16cdef363b69eef20fac5c974a215ac392b36",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5ii:4": {
+   "en": "And her handmaid not sell",
+   "notes": "The transcription is partially damaged, with uncertainty in the first word. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 11197,
+   "source_hash": "813613fb4e9f1bddcb713bb37ac9cd25ffc9e8b86335b5820b13e3852cccf9c7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5ii:5": {
+   "en": "his soul",
+   "notes": "The transcription includes a reconstructed object marker (א[ ת) and an unknown character (ε), which are omitted from the translation. The final punctuation mark (׃) is also omitted as it does not contribute to the meaning.",
+   "line_id": 11198,
+   "source_hash": "961ea6df319010c3af36525dbd042a70068b4d3787fee9c98a53eb30a0abbf9f",
+   "source_condition": "reconstructed"
+  },
+  "4Q271 f5ii:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' with no clear Hebrew or Aramaic context. No recoverable lexical content survives for translation.",
+   "line_id": 11199,
+   "source_hash": "32a10ffca9116f9058cee78c45502a1c865b97083e6698edcbbf8418b3201ac0",
+   "source_condition": "clean"
+  },
+  "4Q271 f5ii:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' with no clear Hebrew or Aramaic context. No recoverable text can be defended.",
+   "line_id": 11200,
+   "source_hash": "4c1e66b02764ddfde93c3f0f31366199fc486a5648538bdee8521afc53d9f72b",
+   "source_condition": "clean"
+  },
+  "4Q271 f5ii:8": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' with no clear Hebrew or Aramaic context. No recoverable text can be confidently translated.",
+   "line_id": 11201,
+   "source_hash": "4d2da8e3bb9dd2dfcdae0d8bf8d0141ea8bc97d46739c2b1ad5d463a90546cda",
+   "source_condition": "clean"
+  },
+  "4Q271 f5ii:9": {
+   "en": "to the redeemed oil in them",
+   "notes": "The transcription is partially damaged and reconstructed. The term 'גָּאוּל' (redeemed) is uncertain and reconstructed from 'ג#?[ אולי'. The final 'ε' is untranslatable and omitted.",
+   "line_id": 11202,
+   "source_hash": "ab6b7ac43d22a9d13b4a4134e8416eed4816dd2efb7ce6161b8f4c482b963549",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5ii:10": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a Greek letter epsilon (ε) and a Hebrew sof pasuq (׃), neither of which can be independently translated into meaningful English words.",
+   "line_id": 11203,
+   "source_hash": "74d46247886042b0d1d4c0370fe7f4e3da2bad55707bf2a0267cf8c2c039b675",
+   "source_condition": "clean"
+  },
+  "4Q271 f5ii:19": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' with no clear Hebrew or Aramaic context. No recoverable text can be defended.",
+   "line_id": 11204,
+   "source_hash": "e8105b36e9719c8f952b27fdbac419fe063c45725db19a53e9e2bf367973ae9d",
+   "source_condition": "clean"
+  },
+  "4Q271 f5ii:20": {
+   "en": "And the priest came and stood in the camp",
+   "notes": "The phrase 'the priest came' is supported by repeated phrase evidence. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 11205,
+   "source_hash": "fc19be80d43d520a1eb1b9eb35e1021d6450f60c85d78b896fc46e85a112863a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q271 f5ii:21": {
+   "en": "He will close us for the judgment",
+   "notes": "The phrase 'for the judgment' is supported by repeated phrase evidence. The verb 'close' is a context-free gloss for the lemma 'סגר' in the hifil stem. The particle 'כי' is reconstructed and translated as 'for' based on phrase evidence. The suffix 'נו' indicates a first-person plural object, but the translation conservatively retains 'us' without adding an unlicensed possessive. The final 'ε' and '׃' are untranslatable and omitted.",
+   "line_id": 11206,
+   "source_hash": "37325c8fe455e910c68d3912bdc3f44b9aaace8ad145c4b21417add8dab74220",
+   "source_condition": "reconstructed"
+  }
+ }
+}
