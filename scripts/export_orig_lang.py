@@ -27,6 +27,15 @@ WORDING_REPO = "https://github.com/ETCBC/dss"
 LEXICON_REPO = "https://github.com/ETCBC/bhsa"
 LICENSE = "CC BY-NC 4.0"
 
+# Deep links into the pinned ETCBC/dss wording commit (tf/2.0 row math).
+# Recompute LINE_TF_BASE_NODE / FRAG_TF_BASE_NODE / TF_HEADER_ROWS when the
+# corpus commit changes: first node of lines/fragments and header row count
+# of the matching tf/2.0/line.tf and fragment.tf files.
+WORDING_TF_COMMIT = "2403d16654984fc5567a5bd263086d9ad2a7a1dd"
+LINE_TF_BASE_NODE = 1552973
+FRAG_TF_BASE_NODE = 1531341
+TF_HEADER_ROWS = 16
+
 FAMILIAR = {
     "1Qisaa": "Great Isaiah Scroll",
     "1QS": "Community Rule",
@@ -172,6 +181,24 @@ def wikipedia_url(raw_label: str) -> str | None:
         return None
     segment = quote(title.replace(" ", "_"), safe="()'")
     return f"https://en.wikipedia.org/wiki/{segment}"
+
+
+def repo_source_url(commit: str, first_node: int, last_node: int) -> str | None:
+    """Deep link into the line.tf rows holding a fragment's source lines."""
+    if commit != WORDING_TF_COMMIT:
+        return None
+    a = TF_HEADER_ROWS + (first_node - LINE_TF_BASE_NODE)
+    b = TF_HEADER_ROWS + (last_node - LINE_TF_BASE_NODE)
+    return f"https://github.com/ETCBC/dss/blob/{commit}/tf/2.0/line.tf#L{a}-L{b}"
+
+
+def iaa_copy_url(raw_label: str) -> str | None:
+    """IAA archive page for the scroll's digitized copy (real photos page)."""
+    rec = IAA_NAMES.get(raw_label) or {}
+    number = rec.get("manuscript_number")
+    if not number:
+        return None
+    return f"https://www.deadseascrolls.org.il/explore-the-archive/manuscript/{number}-1"
 
 
 def official_names(raw_label: str, familiar: str) -> tuple[str, str, dict]:
@@ -626,7 +653,7 @@ def main() -> None:
         lines = list(
             con.execute(
                 """
-                select l.id as line_id, f.label as frag, l.reference, l.text, l.word_count, l.sort_order,
+                select l.id as line_id, l.node as line_node, f.label as frag, l.reference, l.text, l.word_count, l.sort_order,
                        l.book, l.chapter, l.verse
                 from lines l
                 join fragments f on f.id = l.fragment_id
@@ -726,6 +753,16 @@ def main() -> None:
                 rec["en"] = en
                 rec["en_kind"] = "machine-aid"
             current["lines"].append(rec)
+
+        commit = meta.get("corpus_commit", "")
+        copy_url = iaa_copy_url(s["label"])
+        for frag in fragments:
+            nodes = [row["line_node"] for row in lines if str(row["frag"] or "") == frag["label"]]
+            if not nodes:
+                continue
+            frag["repo_url"] = repo_source_url(commit, min(nodes), max(nodes))
+            if copy_url:
+                frag["iaa_url"] = copy_url
 
         siglum, official_name, iaa = official_names(s["label"], familiar)
         iaa_url = iaa.get("iaa_page") or s["iaa_url"]

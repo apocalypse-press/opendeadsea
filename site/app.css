@@ -937,6 +937,12 @@ body[data-page="manuscript"] .page h1 {
   font-weight: 600;
   margin: 0 0 var(--space-3);
 }
+.frag-links {
+  float: right;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 400;
+}
 .orig-lines {
   list-style: none;
   margin: 0;

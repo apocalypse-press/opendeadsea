@@ -627,6 +627,17 @@ function boot() {
       }
       const plates = links.length ? `<p class="mss-links">${links.join(" · ")}</p>` : "";
 
+      function fragLinks(frag) {
+        const links = [];
+        if (frag.iaa_url) {
+          links.push(`<a href="${esc(frag.iaa_url)}" target="_blank" rel="noopener noreferrer">IAA photos</a>`);
+        }
+        if (frag.repo_url) {
+          links.push(`<a href="${esc(frag.repo_url)}" target="_blank" rel="noopener noreferrer">ETCBC source</a>`);
+        }
+        return links.length ? `<span class="frag-links">${links.join(" · ")}</span>` : "";
+      }
+
       if (mss.wording_status === "absent") {
         body.innerHTML = `${plates}
           <div class="wording-absent">
@@ -642,7 +653,7 @@ function boot() {
         const frags = (mss.fragments || [])
           .map((frag) => {
             const lines = (frag.lines || []).map((line) => lineHTML(line, mss)).join("");
-            const head = frag.label ? `<h2 class="frag-label">Fragment ${esc(frag.label)}</h2>` : "";
+            const head = frag.label ? `<h2 class="frag-label">Fragment ${esc(frag.label)}${fragLinks(frag)}</h2>` : "";
             return `<section class="frag">${head}<ol class="orig-lines">${lines}</ol></section>`;
           })
           .join("");
