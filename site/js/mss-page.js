@@ -203,12 +203,27 @@ function lineHTML(line, mss) {
   const wordsClass = line.words && line.words.length ? " orig-line-words" : "";
   const he = `<p class="orig-line${wordsClass}" lang="${esc(mss.lang || "he")}" dir="${esc(mss.dir || "rtl")}">${num}${heInner(line, mss)}</p>`;
   const en = line.en ? `<p class="orig-en" lang="en" dir="ltr">${esc(line.en)}</p>` : "";
+  const book = line.book || mss.book || "";
+  const chapter = line.chapter || mss.chapter || "";
+  const verse = line.verse || "";
   const tools = `<div class="line-tools">
     <button type="button" class="line-tool" data-line-act="comment" data-ref="${esc(ref)}">Comment</button>
     <button type="button" class="line-tool" data-line-act="suggest" data-ref="${esc(ref)}">Suggest</button>
+    ${book && chapter && verse ? `<button type="button" class="line-tool" data-line-act="diagram" data-book="${esc(book)}" data-chapter="${esc(chapter)}" data-verse="${esc(verse)}">Diagram</button>` : ""}
     <span class="line-mark" data-line-mark="${esc(ref)}" hidden></span>
   </div>`;
-  return `<li class="orig-row${line.en ? " has-tr" : ""}" data-ref="${esc(ref)}">${he}${en}${tools}</li>`;
+  return `<li class="orig-row${line.en ? " has-tr" : ""}" data-ref="${esc(ref)}" data-book="${esc(book)}" data-chapter="${esc(chapter)}" data-verse="${esc(verse)}">${he}${en}${tools}</li>`;
+}
+
+function ensureDiagram() {
+  if (window.odsDiagram) return Promise.resolve(window.odsDiagram);
+  return new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = "/js/diagram.js";
+    script.onload = () => resolve(window.odsDiagram);
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
 }
 
 function ensureDeskStore() {
@@ -287,6 +302,36 @@ function renderRail(mss, row, mode) {
   const current = row ? lineCurrent(row) : "";
   const comments = window.odsDesk.commentsFor("mss", mss.id, ref);
   const proposals = window.odsDesk.proposalsFor(mss.id, ref);
+  if (mode === "diagram") {
+    const book = (row && row.getAttribute("data-book")) || mss.book || "";
+    const chapter = (row && row.getAttribute("data-chapter")) || mss.chapter || "";
+    const verse = (row && row.getAttribute("data-verse")) || "";
+    rail.innerHTML = `<p class="rail-kicker">${esc(mss.label || mss.id)}</p>
+      <h2>Sentence diagram</h2>
+      <p class="hint">${book && chapter && verse ? esc(book + " " + chapter + ":" + verse) : "This line has no biblical verse."}.</p>
+      <p class="hint" id="diag-status">Loading the Bibla Lingua tree.</p>
+      <div id="diag-body"></div>
+      <p class="actions"><button class="btn btn-ghost" type="button" data-line-act="comment">Back to comment</button></p>`;
+    if (!book || !chapter || !verse) {
+      const st = document.getElementById("diag-status");
+      if (st) st.textContent = "This line is not placed in a biblical verse, so there is no Macula tree to open.";
+      return;
+    }
+    ensureDiagram()
+      .then((api) => api.get(book, chapter, verse))
+      .then((rec) => {
+        const body = document.getElementById("diag-body");
+        const st = document.getElementById("diag-status");
+        if (st) st.hidden = true;
+        if (body) body.innerHTML = window.odsDiagram.render(rec);
+      })
+      .catch(() => {
+        const st = document.getElementById("diag-status");
+        if (st) st.textContent = "The diagram could not be loaded.";
+      });
+    return;
+  }
+
   const composer =
     mode === "suggest"
       ? `<form id="rail-form" class="composer">
@@ -521,6 +566,7 @@ function boot() {
     .then((mss) => loadFirstDraft(mss))
     .then((mss) => loadQueue(mss))
     .then((mss) => ensureDeskStore().then((api) => api.load().then(() => mss)).catch(() => mss))
+    .then((mss) => ensureDiagram().then(() => mss).catch(() => mss))
     .then((mss) => {
       document.body.dataset.script = mss.script || "";
       const bits = [];

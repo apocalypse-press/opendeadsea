@@ -106,6 +106,21 @@ those pages is absent until a licensed Greek source is added.
 - BDB 1906 and Jastrow 1903: planned public-domain glosses for this site, not the Qumran transcription.
 - BHSA glosses are lexical grounding, not the English of a Qumran line.
 
+## Sentence diagrams (logged-in)
+
+Bibla Lingua Macula Hebrew trees for biblical verses that survive in the
+catalog. The diagram is the Masoretic (WLC) syntax of that verse, not the
+Qumran diplomatic line.
+
+```sh
+python3 scripts/export_diagrams.py
+```
+
+Writes `site/data/diagrams/<BOOK>.json`. The manuscript rail's Diagram
+control loads that pack. Signed-in only in the UI. Macula parent links are
+missing for some latter prophets, so those verses show role clusters
+instead of a full tree.
+
 ## First-draft English (machine-aid)
 
 Manuscripts whose DSS Explorer detached drafts are complete (every unique

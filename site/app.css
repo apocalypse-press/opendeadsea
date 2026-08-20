@@ -1291,6 +1291,75 @@ body[data-signed-in="0"] .line-tools {
 .mss-history li {
   margin: 0 0 var(--space-2);
 }
+.diag-linear {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-4);
+}
+.diag-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--space-1);
+  min-height: 32px;
+  padding: 0 var(--space-2);
+  border: 1px solid var(--color-border-default);
+  background: var(--color-surface-page);
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+.diag-chip b {
+  font-family: var(--font-he);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+.diag-tree,
+.diag-tree ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.diag-tree ol {
+  margin-inline-start: var(--space-4);
+  border-inline-start: 1px solid var(--color-border-default);
+  padding-inline-start: var(--space-3);
+}
+.diag-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2);
+  min-height: 32px;
+  padding: var(--space-1) 0;
+}
+.diag-word {
+  font-family: var(--font-he);
+  font-size: 18px;
+  font-weight: 600;
+}
+.diag-n {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+.diag-meta {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+.diag-role {
+  margin-inline-start: var(--space-2);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+.diag-gloss {
+  margin-inline-start: var(--space-2);
+}
 @media (min-width: 960px) {
   .desk-grid {
     grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
