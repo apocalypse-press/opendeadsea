@@ -44,3 +44,59 @@ CREATE INDEX IF NOT EXISTS idx_events_user ON reputation_events(user_id);
 -- Vote values: +1 approve, -1 request changes
 -- tier_level: 1 contributor, 2 peer reviewer
 -- Tier 3 maintainers live in CODEOWNERS, not this table.
+
+-- Desk: comments, proposed readings, and site-side edition events.
+-- Corpus text still lives in Git. These rows are the public work queue
+-- until a GitHub pull request exists for a proposal.
+
+CREATE TABLE IF NOT EXISTS proposals (
+  id              TEXT PRIMARY KEY,
+  mss_id          TEXT NOT NULL,
+  mss_label       TEXT,
+  line_ref        TEXT,
+  current_form    TEXT,
+  proposed_form   TEXT NOT NULL,
+  reason          TEXT NOT NULL,
+  author_user_id  TEXT NOT NULL,
+  author_login    TEXT NOT NULL,
+  status          TEXT NOT NULL DEFAULT 'open',
+  github_pr       INTEGER,
+  created_at      TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now')),
+  updated_at      TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now'))
+);
+
+CREATE TABLE IF NOT EXISTS comments (
+  id              TEXT PRIMARY KEY,
+  target_type     TEXT NOT NULL,
+  target_id       TEXT NOT NULL,
+  line_ref        TEXT,
+  parent_id       TEXT,
+  body            TEXT NOT NULL,
+  author_user_id  TEXT NOT NULL,
+  author_login    TEXT NOT NULL,
+  created_at      TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now'))
+);
+
+CREATE TABLE IF NOT EXISTS proposal_votes (
+  proposal_id   TEXT NOT NULL,
+  voter_user_id TEXT NOT NULL,
+  voter_login   TEXT,
+  vote_value    INTEGER NOT NULL,
+  comment       TEXT,
+  created_at    TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now')),
+  PRIMARY KEY (proposal_id, voter_user_id)
+);
+
+CREATE TABLE IF NOT EXISTS edition_events (
+  id          TEXT PRIMARY KEY,
+  kind        TEXT NOT NULL,
+  mss_id      TEXT,
+  title       TEXT NOT NULL,
+  href        TEXT,
+  login       TEXT,
+  created_at  TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%fZ', 'now'))
+);
+
+CREATE INDEX IF NOT EXISTS idx_proposals_status ON proposals(status, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_comments_target ON comments(target_type, target_id, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_events_created ON edition_events(created_at DESC);

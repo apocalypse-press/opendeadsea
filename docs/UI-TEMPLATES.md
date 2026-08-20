@@ -21,10 +21,11 @@ from its footer and from `/preview/`.
 | Community | `/community/` | Qumran community texts: commentaries, liturgies, and other Yahad works, then the copies. |
 | Lexeme | `/lex/` | Academic morph code (SBL consonantal transliteration). Strong's shown as metadata, never as the key. |
 | Search | `/search/` | Find a line, lemma, or manuscript. |
-| Suggest edit | `/edit/` | Contributor form. Hidden until `capabilities.suggest`. |
-| Proposal | `/proposal/` | Public change record and future vote actions. |
-| Review queue | `/review/` | Open proposals. Vote actions for tier 2+. |
-| Account | `/account/` | Identity, tier, reputation, sign out. |
+| Suggest edit | `/edit/` | Contributor form. Posts a desk proposal. Hidden until `capabilities.suggest`. |
+| Proposal | `/proposal/?id=` | Current vs proposed, comments, reviewer votes, editor approval. |
+| Review queue | `/review/` | Signed-in queue of comments and proposed readings. |
+| Desk | `/account/` | Logged-in dashboard: queue, your proposals, git and site history. Preview a role until GitHub OAuth is live. |
+| History | `/history/` | Git commits from the public repo plus the site's comment and approval record. |
 | Sign in | `/signin/` | GitHub OAuth start. |
 | About | `/about/` | Method, tiers, the two Hebrew sources. |
 | Missing | `/404.html` | Honest miss. |

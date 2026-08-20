@@ -83,6 +83,7 @@ Furniture is live. Sign-in, votes, and the corpus are not.
 | Trust schema | `schema/d1.sql` applied to D1. Login will upsert `users` when secrets exist. | No live rows from real sign-ins. `pr_votes` unused. |
 | Corpus contract | `schema/fragment.schema.json`, `schema/lexicon.schema.json`, `schema/manuscript.schema.json`, `schema/translation.schema.json`, `schema/translation-queue.schema.json`, `scripts/validate-*.mjs` | Original-language wording from ETCBC/dss. First-draft English packs plus catalog queue buckets. Sources: `docs/SOURCES.md`. |
 | Translation queue | Catalog chips and row badges from `site/data/translations/queue.json` | Human sign off is empty until `corpus/translation-queue-overrides.json` is set. Machine English is not the edition. |
+| Desk | `/account/` queue, manuscript comment/suggest rail, `/proposal/` votes, `/history/` | GitHub App is still missing, so the loop runs on preview roles plus localStorage. D1 tables exist for when a real session writes. Two reviewer votes mark a proposal ready. An editor records approval. Not a GitHub merge yet. |
 | Lemma rule | Academic morph code (`id` in `corpus/lexicon/`) is the primary key. `/lex/?q=` looks up the seeded Hebrew and Aramaic packs. Strong's is a public-domain lookup, never the key. CAL is outbound for Aramaic. | Full BDB 1906 / Jastrow 1903 ingestion still open |
 | Plates | Outbound `https` viewers only. CSP does not allow remote images. | No hosted plates |
 | License posture | Abegg ETCBC/dss and BHSA 2021 named as NC sources. Values not copied here. | Do not ingest those values until NC is accepted in writing |
@@ -99,8 +100,8 @@ Do these in order. Later rows assume the earlier ones.
 4. **Open a PR from `/edit/`.** Fragment id, token index, proposed form, reason, reputation in the PR body. Still no Worker required for the create step once the App token exists.
 5. **D1 in CI.** Replace the stub trust comment with live `reputation_score` / `tier_level`. Anti-abuse checks beyond the schema validator.
 6. **Translations** on the manuscript pages (machine aids). Original language is already on `/m/<siglum>/` from ETCBC/dss. Do not print BHSA glosses as the English of a line.
-7. **Side-by-side editor.** Current vs proposed tokens on the live fragment, not the static `/proposal/` mock.
-8. **Votes.** Persist `pr_votes`. Quorum: two Tier 2 or one Tier 3 merges. Actions rebuild Pages.
+7. **Side-by-side editor.** Current vs proposed is live on `/proposal/?id=`. Still not a token-level fragment editor, and it does not open a GitHub PR.
+8. **Votes.** Desk votes persist locally (and to D1 `proposal_votes` when a session exists). Two Tier 2 approvals mark `ready`. Tier 3 records `approved`. GitHub merge and Pages rebuild are still remaining.
 9. **Lexica (full ingest).** Seeded Hebrew (Isaiah 40:3-5) and Aramaic lemmas are wired. Remaining: full BDB 1906 and Jastrow 1903 keyed to the academic morph code. Strong's stays metadata. No HALOT, no DCH.
 10. **Academic verification.** Tier 3 write path. Reputation 500 or this flag promotes Tier 2.
 11. **Translations** in the reader (machine aids, NC inherited if they ride on Abegg text).

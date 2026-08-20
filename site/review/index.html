@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Review queue. Open Dead Sea.</title>
+  <meta name="description" content="Open proposals waiting for peer review.">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32-dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16-dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#030712" media="(prefers-color-scheme: dark)">
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=Inter:wght@400;500;600&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/app.css">
+  <script src="/js/icons.js" defer></script>
+  <script src="/js/session.js" defer></script>
+  <script src="/js/desk-store.js" defer></script>
+  <script src="/js/desk-pages.js" defer></script>
+</head>
+<body class="app" data-page="review" data-template="1">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="shell">
+    <div class="shell-bar">
+      <a class="mark" href="/">Open Dead Sea</a>
+      <nav class="nav" aria-label="Edition">
+        <a href="/catalog/" data-nav="catalog">Catalog</a>
+        <a href="/work/" data-nav="work">Works</a>
+        <a href="/community/" data-nav="community">Community</a>
+        <a href="/search/" data-nav="search">Search</a>
+        <a href="/about/" data-nav="about">About</a>
+      </nav>
+      <div id="auth-slot" class="auth-slot">
+        <a class="btn btn-secondary" href="/signin/">Sign in</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <p class="page-kicker">Review</p>
+    <h1>The signed-in queue.</h1>
+    <p class="lede" id="review-ledger">Comments and proposed readings from people who are signed in. Reviewers vote. An editor records approval.</p>
+    <div id="review-list"></div>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-inner">
+      <p>opendeadsea.org. Photographs stay at the libraries that published them.</p>
+      <p><a href="/preview/">Page templates</a> · <a href="/about/">Licenses</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -22,6 +22,11 @@ are for human review, not the edition. The catalog then buckets every
 manuscript as no translation, AI translation, human sign off, or human
 edit recommended (`python3 scripts/export_translation_queue.py`).
 
+The signed-in desk (`/account/`) is the comment / propose / vote /
+approve loop. Git history is on `/history/` (public repo commits plus
+the site's own record). GitHub OAuth is still pending; preview a role
+from the desk until the App secrets exist.
+
 Next human step: confirm the App is installed on this repo only. Next
 machine step after secrets: `docs/AUTH.md`.
 

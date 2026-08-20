@@ -196,13 +196,236 @@ function loadQueue(mss) {
 
 function lineHTML(line, mss) {
   const num = `<span class="orig-num" dir="ltr">${esc(lineNum(line))}</span>`;
+  const ref = line.ref || "";
   if (line.lacuna || (!line.text && !line.spaced && !(line.words && line.words.length))) {
-    return `<li class="orig-row"><p class="orig-lacuna">${num} No letters survive on this line in the transcription.</p></li>`;
+    return `<li class="orig-row" data-ref="${esc(ref)}"><p class="orig-lacuna">${num} No letters survive on this line in the transcription.</p></li>`;
   }
   const wordsClass = line.words && line.words.length ? " orig-line-words" : "";
   const he = `<p class="orig-line${wordsClass}" lang="${esc(mss.lang || "he")}" dir="${esc(mss.dir || "rtl")}">${num}${heInner(line, mss)}</p>`;
   const en = line.en ? `<p class="orig-en" lang="en" dir="ltr">${esc(line.en)}</p>` : "";
-  return `<li class="orig-row${line.en ? " has-tr" : ""}">${he}${en}</li>`;
+  const tools = `<div class="line-tools">
+    <button type="button" class="line-tool" data-line-act="comment" data-ref="${esc(ref)}">Comment</button>
+    <button type="button" class="line-tool" data-line-act="suggest" data-ref="${esc(ref)}">Suggest</button>
+    <span class="line-mark" data-line-mark="${esc(ref)}" hidden></span>
+  </div>`;
+  return `<li class="orig-row${line.en ? " has-tr" : ""}" data-ref="${esc(ref)}">${he}${en}${tools}</li>`;
+}
+
+function ensureDeskStore() {
+  if (window.odsDesk) return Promise.resolve(window.odsDesk);
+  return new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = "/js/desk-store.js";
+    script.onload = () => resolve(window.odsDesk);
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+}
+
+function lineCurrent(row) {
+  const words = Array.from(row.querySelectorAll(".orig-word"))
+    .map((b) => b.textContent)
+    .join(" ");
+  if (words.trim()) return words.trim();
+  const t = row.querySelector(".orig-he-text");
+  return t ? t.textContent.trim() : "";
+}
+
+function paintLineMarks(mss) {
+  if (!window.odsDesk) return;
+  document.querySelectorAll("[data-line-mark]").forEach((el) => {
+    const ref = el.getAttribute("data-line-mark") || "";
+    const comments = window.odsDesk.commentsFor("mss", mss.id, ref);
+    const proposals = window.odsDesk.proposalsFor(mss.id, ref);
+    const n = comments.length + proposals.length;
+    if (!n) {
+      el.hidden = true;
+      el.textContent = "";
+      return;
+    }
+    el.hidden = false;
+    el.textContent = `${n} on this line`;
+  });
+}
+
+function ensureRail() {
+  let rail = document.getElementById("mss-rail");
+  if (rail) return rail;
+  const body = document.getElementById("mss-body");
+  if (!body || !body.parentNode) return null;
+  let wrap = document.getElementById("mss-work");
+  if (!wrap) {
+    wrap = document.createElement("div");
+    wrap.id = "mss-work";
+    wrap.className = "mss-work";
+    body.parentNode.insertBefore(wrap, body);
+    wrap.appendChild(body);
+  }
+  rail = document.createElement("aside");
+  rail.id = "mss-rail";
+  rail.className = "mss-rail";
+  rail.setAttribute("aria-label", "Line review");
+  wrap.appendChild(rail);
+  return rail;
+}
+
+function closeRows() {
+  document.querySelectorAll(".orig-row.is-open").forEach((row) => row.classList.remove("is-open"));
+}
+
+function renderRail(mss, row, mode) {
+  const rail = ensureRail();
+  if (!rail) return;
+  const session = window.odsSession && window.odsSession.last;
+  const user = session && session.user;
+  const cap = (session && session.capabilities) || {};
+  if (!user) {
+    rail.innerHTML = `<p class="hint">Sign in to comment or propose a reading. GitHub sign-in waits on the App. Open the desk to preview a role.</p><p><a class="btn btn-secondary" href="/account/">Open the desk</a></p>`;
+    return;
+  }
+  const ref = (row && row.getAttribute("data-ref")) || "";
+  const current = row ? lineCurrent(row) : "";
+  const comments = window.odsDesk.commentsFor("mss", mss.id, ref);
+  const proposals = window.odsDesk.proposalsFor(mss.id, ref);
+  const composer =
+    mode === "suggest"
+      ? `<form id="rail-form" class="composer">
+          <div class="field">
+            <span class="label">Current</span>
+            <p class="rail-current" lang="${esc(mss.lang || "he")}" dir="${esc(mss.dir || "rtl")}">${esc(current || "(none)")}</p>
+          </div>
+          <div class="field">
+            <label for="rail-reading">Proposed reading</label>
+            <input id="rail-reading" lang="${esc(mss.lang || "he")}" dir="${esc(mss.dir || "rtl")}" required maxlength="80" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="rail-reason">Reason</label>
+            <textarea id="rail-reason" required maxlength="2000"></textarea>
+          </div>
+          <div class="actions">
+            <button class="btn btn-primary" type="submit">Propose this reading</button>
+            <button class="btn btn-ghost" type="button" data-line-act="comment">Comment instead</button>
+          </div>
+          <p class="hint" id="rail-status" role="status"></p>
+        </form>`
+      : `<form id="rail-form" class="composer">
+          <div class="field">
+            <label for="rail-comment">Comment${ref ? " on " + esc(ref) : ""}</label>
+            <textarea id="rail-comment" required maxlength="2000"></textarea>
+          </div>
+          <div class="actions">
+            <button class="btn btn-primary" type="submit"${cap.suggest ? "" : " disabled"}>Post comment</button>
+            <button class="btn btn-ghost" type="button" data-line-act="suggest"${cap.suggest ? "" : " hidden"}>Suggest a reading</button>
+          </div>
+          <p class="hint" id="rail-status" role="status"></p>
+        </form>`;
+  const thread = comments
+    .map((c) => `<li><p class="thread-meta">${esc(c.author_login)} · ${esc(String(c.created_at || "").slice(0, 10))}</p><p>${esc(c.body)}</p></li>`)
+    .join("");
+  const props = proposals
+    .map(
+      (p) =>
+        `<li><a href="/proposal/?id=${esc(p.id)}">${esc(window.odsDesk.statusLabel(p.status))} · ${esc(p.proposed_form)}</a></li>`,
+    )
+    .join("");
+  rail.innerHTML = `
+    <p class="rail-kicker">${esc(mss.label || mss.id)}</p>
+    <h2>${mode === "suggest" ? "Propose a reading" : "Comment"}</h2>
+    <p class="hint">${ref ? esc(ref) : "This line"}.</p>
+    ${composer}
+    ${props ? `<h3>Proposed readings</h3><ul class="rail-list">${props}</ul>` : ""}
+    ${thread ? `<h3>Thread</h3><ol class="thread">${thread}</ol>` : `<p class="hint">No comments on this line yet. A comment appears in every signed-in person's queue.</p>`}`;
+  if (window.odsIcons) window.odsIcons.paint();
+  const form = document.getElementById("rail-form");
+  if (form) {
+    form.addEventListener("submit", (ev) => {
+      ev.preventDefault();
+      const status = document.getElementById("rail-status");
+      if (mode === "suggest") {
+        const reading = (document.getElementById("rail-reading") || {}).value || "";
+        const reason = (document.getElementById("rail-reason") || {}).value || "";
+        if (!reading.trim()) {
+          if (status) status.textContent = "Enter the reading you are proposing.";
+          return;
+        }
+        if (reason.trim().length < 12) {
+          if (status) status.textContent = "Give a short reason. A dozen characters is enough to start.";
+          return;
+        }
+        window.odsDesk
+          .addProposal(user, {
+            mss_id: mss.id,
+            mss_label: mss.label || mss.id,
+            line_ref: ref,
+            current_form: current,
+            proposed_form: reading.trim(),
+            reason: reason.trim(),
+          })
+          .then((rec) => {
+            location.href = "/proposal/?id=" + encodeURIComponent(rec.id);
+          });
+        return;
+      }
+      const text = (document.getElementById("rail-comment") || {}).value || "";
+      if (text.trim().length < 12) {
+        if (status) status.textContent = "Give a short comment. A dozen characters is enough to start.";
+        return;
+      }
+      window.odsDesk
+        .addComment(user, { target_type: "mss", target_id: mss.id, line_ref: ref, body: text.trim() })
+        .then(() => {
+          paintLineMarks(mss);
+          renderRail(mss, row, "comment");
+        });
+    });
+  }
+}
+
+function bindDesk(mss, root) {
+  if (!root || root.dataset.deskBound) return;
+  root.dataset.deskBound = "1";
+  ensureRail();
+  const open = (mode, row) => {
+    closeRows();
+    if (row) {
+      row.classList.add("is-open");
+      row.scrollIntoView({ block: "nearest" });
+    }
+    renderRail(mss, row, mode);
+  };
+  root.addEventListener("click", (ev) => {
+    const btn = ev.target.closest("[data-line-act]");
+    if (!btn) return;
+    const row = btn.closest(".orig-row");
+    open(btn.getAttribute("data-line-act") || "comment", row);
+  });
+  const wanted = new URLSearchParams(location.search).get("line");
+  if (wanted) {
+    const row = root.querySelector(`.orig-row[data-ref="${wanted}"]`);
+    if (row) open("comment", row);
+  }
+}
+
+function paintMssHistory(mss, credit) {
+  if (!credit || !window.odsDesk) return;
+  const events = (window.odsDesk.snapshot().events || []).filter((e) => e.mss_id === mss.id).slice(0, 6);
+  const git = (window.odsDesk.snapshot().git || []).filter((g) => {
+    const hay = String(g.message || "");
+    return hay.indexOf(mss.id) !== -1 || hay.indexOf(mss.label || "") !== -1;
+  }).slice(0, 6);
+  if (!events.length && !git.length) {
+    const box = document.createElement("p");
+    box.innerHTML = `Edition history: <a href="/history/">git and the site record</a>.`;
+    credit.appendChild(box);
+    return;
+  }
+  const items = git
+    .map((g) => `<li><a href="${esc(g.href)}" target="_blank" rel="noopener noreferrer">${esc(g.message)}</a> · ${esc(g.short)}</li>`)
+    .concat(events.map((e) => `<li><a href="${esc(e.href || "/history/")}">${esc(e.title)}</a></li>`));
+  const box = document.createElement("div");
+  box.className = "mss-history";
+  box.innerHTML = `<h2>Edition history</h2><ul>${items.join("")}</ul><p><a href="/history/">Full history</a></p>`;
+  credit.appendChild(box);
 }
 
 function tocKind(c, mss) {
@@ -297,6 +520,7 @@ function boot() {
     })
     .then((mss) => loadFirstDraft(mss))
     .then((mss) => loadQueue(mss))
+    .then((mss) => ensureDeskStore().then((api) => api.load().then(() => mss)).catch(() => mss))
     .then((mss) => {
       document.body.dataset.script = mss.script || "";
       const bits = [];
@@ -358,6 +582,8 @@ function boot() {
         body.innerHTML = `${plates}${pager}<div class="${wrapClass}"${wrapAttr}>${frags}</div>${pager}${jump}`;
         if (mss.script === "paleohebrew" || mss.script === "mixed") renderToggle(mss.script);
         bindWordLookup(body, mss);
+        paintLineMarks(mss);
+        bindDesk(mss, body);
       }
 
       const srcInfo = mss.source || {};
@@ -375,6 +601,7 @@ function boot() {
           credit.innerHTML = `<p>Wording from <a href="${esc(srcInfo.wording_repo || "https://github.com/ETCBC/dss")}">${esc(srcInfo.wording_dataset || "ETCBC/dss")}</a> (Abegg), ${esc(srcInfo.wording_license || "CC BY-NC 4.0")}. Lexical grounding from <a href="${esc(srcInfo.lexicon_repo || "https://github.com/ETCBC/bhsa")}">${esc(srcInfo.lexicon_dataset || "ETCBC/BHSA 2021")}</a>, ${esc(srcInfo.lexicon_license || "CC BY-NC 4.0")}.${aid} Photographs stay at the libraries that published them.</p>`;
         }
       }
+      paintMssHistory(mss, credit);
       if (window.odsIcons) window.odsIcons.paint();
     })
     .catch(() => {
