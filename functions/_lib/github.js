@@ -43,7 +43,13 @@ export async function fetchGithubUser(accessToken) {
   return { id: String(data.id), login: String(data.login) };
 }
 
+const CANONICAL_HOSTS = new Set(["opendeadsea.org", "www.opendeadsea.org"]);
+
 export function redirectUri(request, env) {
   if (env.OAUTH_REDIRECT_URI) return env.OAUTH_REDIRECT_URI;
-  return `${new URL(request.url).origin}/auth/callback`;
+  const url = new URL(request.url);
+  if (CANONICAL_HOSTS.has(url.hostname)) {
+    return "https://opendeadsea.org/auth/callback";
+  }
+  return `${url.origin}/auth/callback`;
 }

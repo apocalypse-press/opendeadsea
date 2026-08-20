@@ -23,7 +23,7 @@ If that 404s: GitHub → your profile → **apocalypse-press** → **Settings**
 | GitHub App name | `Open Dead Sea` |
 | Description | `Lets a contributor propose a corpus edit on opendeadsea.org as a GitHub pull request under their own account.` |
 | Homepage URL | `https://opendeadsea.org/` |
-| Callback URL | `https://opendeadsea.org/auth/callback` |
+| Callback URL | `https://opendeadsea.org/auth/callback` (exact, no `www`, no trailing slash) |
 | Setup URL | leave blank |
 | Setup URL on update | leave unchecked |
 | Webhook Active | **uncheck** (GitHub Actions already watch pull requests) |
@@ -32,8 +32,10 @@ If that 404s: GitHub → your profile → **apocalypse-press** → **Settings**
 | Request user authorization (OAuth) during installation | **checked** |
 | Enable Device Flow | unchecked |
 
-Callback is a placeholder until the login page exists. GitHub will accept
-it. We will add that route before anyone but you signs in.
+Callback is live as a Pages Function (`functions/auth/callback.js`).
+Without the client secret the route sends you back to `/signin/` and
+says sign-in is not open yet. Add `http://127.0.0.1:8788/auth/callback`
+if you want to test OAuth on a laptop.
 
 ---
 
@@ -117,8 +119,10 @@ Reply with only:
 - Confirmation that it is installed on `opendeadsea` only
 - Confirmation that the `.pem` is saved on your machine
 
-Do **not** paste the Client secret or the PEM. When we wire login I will
-ask you to drop those into Wrangler secrets on the VPS, not into mail.
+Do **not** paste the Client secret or the PEM. Login routes are already
+on Pages. Once the App exists, drop the client id, client secret, and a
+new `SESSION_SECRET` into Wrangler secrets (`docs/AUTH.md`), not into
+mail.
 
 ---
 
