@@ -117,9 +117,8 @@ python3 scripts/export_diagrams.py
 ```
 
 Writes `site/data/diagrams/<BOOK>.json`. The manuscript rail's Diagram
-control loads that pack. Signed-in only in the UI. Macula parent links are
-missing for some latter prophets, so those verses show role clusters
-instead of a full tree.
+control is shown only when a real Macula parent tree exists. Verses without
+parent links are not offered. It is not the Qumran diplomatic line.
 
 ## First-draft English (machine-aid)
 

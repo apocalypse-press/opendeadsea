@@ -106,12 +106,15 @@ def main() -> int:
                 rec = diagram(book, ch, vs)
             except Exception:
                 rec = None
-            if not rec:
+            if not rec or rec.get("shape") != "tree":
                 missed += 1
                 continue
             pack[f"{ch}.{vs}"] = rec
             built += 1
+        dest = DEST / f"{book}.json"
         if not pack:
+            if dest.exists():
+                dest.unlink()
             continue
         (DEST / f"{book}.json").write_text(
             json.dumps(pack, ensure_ascii=False, separators=(",", ":")) + "\n",

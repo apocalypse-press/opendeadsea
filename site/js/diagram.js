@@ -97,7 +97,11 @@
     return loadIndex().then((idx) => {
       const list = (idx.books && idx.books[mac]) || [];
       if (list.indexOf(key) === -1) return null;
-      return loadBook(mac).then((pack) => pack[key] || null);
+      return loadBook(mac).then((pack) => {
+        const rec = pack[key] || null;
+        if (!rec || rec.shape !== "tree") return null;
+        return rec;
+      });
     });
   }
 
@@ -118,13 +122,13 @@
   }
 
   function render(rec) {
-    if (!rec || !rec.tree) {
-      return `<p class="hint">No Bibla Lingua tree for this verse yet.</p>`;
+    if (!rec || !rec.tree || rec.shape !== "tree") {
+      return "";
     }
     const linear = (rec.linear || [])
       .map((w) => `<span class="diag-chip" title="${esc(w.gloss || "")}"><b lang="he" dir="rtl">${esc(w.text)}</b> ${esc(w.n || "")}</span>`)
       .join("");
-    const shape = rec.shape === "tree" ? "Macula syntax tree" : "Role clusters (Macula parent links were not ingested for this book)";
+    const shape = "Macula syntax tree";
     return `<p class="hint">${esc(rec.authorization || "")}</p>
       <p class="diag-linear">${linear}</p>
       <p class="hint">${esc(shape)}. ${esc(rec.book || "")} ${esc(String(rec.chapter))}:${esc(String(rec.verse))}.</p>

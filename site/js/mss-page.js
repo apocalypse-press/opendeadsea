@@ -209,7 +209,7 @@ function lineHTML(line, mss) {
   const tools = `<div class="line-tools">
     <button type="button" class="line-tool" data-line-act="comment" data-ref="${esc(ref)}">Comment</button>
     <button type="button" class="line-tool" data-line-act="suggest" data-ref="${esc(ref)}">Suggest</button>
-    ${book && chapter && verse ? `<button type="button" class="line-tool" data-line-act="diagram" data-book="${esc(book)}" data-chapter="${esc(chapter)}" data-verse="${esc(verse)}">Diagram</button>` : ""}
+    ${book && chapter && verse ? `<button type="button" class="line-tool" data-line-act="diagram" data-book="${esc(book)}" data-chapter="${esc(chapter)}" data-verse="${esc(verse)}" hidden>Diagram</button>` : ""}
     <span class="line-mark" data-line-mark="${esc(ref)}" hidden></span>
   </div>`;
   return `<li class="orig-row${line.en ? " has-tr" : ""}" data-ref="${esc(ref)}" data-book="${esc(book)}" data-chapter="${esc(chapter)}" data-verse="${esc(verse)}">${he}${en}${tools}</li>`;
@@ -244,6 +244,23 @@ function lineCurrent(row) {
   if (words.trim()) return words.trim();
   const t = row.querySelector(".orig-he-text");
   return t ? t.textContent.trim() : "";
+}
+
+function paintDiagramButtons() {
+  if (!window.odsDiagram) return;
+  const buttons = Array.from(document.querySelectorAll("[data-line-act='diagram']"));
+  buttons.forEach((btn) => {
+    const book = btn.getAttribute("data-book") || "";
+    const chapter = btn.getAttribute("data-chapter") || "";
+    const verse = btn.getAttribute("data-verse") || "";
+    if (!book || !chapter || !verse) {
+      btn.hidden = true;
+      return;
+    }
+    window.odsDiagram.has(book, chapter, verse).then((ok) => {
+      btn.hidden = !ok;
+    });
+  });
 }
 
 function paintLineMarks(mss) {
@@ -323,7 +340,10 @@ function renderRail(mss, row, mode) {
         const body = document.getElementById("diag-body");
         const st = document.getElementById("diag-status");
         if (st) st.hidden = true;
-        if (body) body.innerHTML = window.odsDiagram.render(rec);
+        if (body) {
+          const html = rec && rec.shape === "tree" ? window.odsDiagram.render(rec) : "";
+          body.innerHTML = html || `<p class="hint">No reliable syntax tree for this verse, so the auto diagram is not offered.</p>`;
+        }
       })
       .catch(() => {
         const st = document.getElementById("diag-status");
@@ -629,6 +649,7 @@ function boot() {
         if (mss.script === "paleohebrew" || mss.script === "mixed") renderToggle(mss.script);
         bindWordLookup(body, mss);
         paintLineMarks(mss);
+        paintDiagramButtons();
         bindDesk(mss, body);
       }
 
