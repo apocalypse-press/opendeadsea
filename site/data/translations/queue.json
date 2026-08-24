@@ -20,20 +20,20 @@
  "default": "none",
  "authorization": "Public translation-queue buckets for the catalog. AI translation is a machine-aid first draft, not the edition. Human sign off is maintainer-set until crowdsourced review ships.",
  "counts": {
-  "none": 31,
-  "ai": 714,
+  "none": 27,
+  "ai": 715,
   "signoff": 0,
-  "edit": 282
+  "edit": 285
  },
  "manuscript_count": 1027,
  "manuscripts": {
   "CD": {
    "queue": "edit",
    "source": "derived",
-   "valid": 82,
-   "planned": 331,
+   "valid": 412,
+   "planned": 0,
    "error": 1,
-   "invalid": 0,
+   "invalid": 1,
    "line_count": 414,
    "pack": false
   },
@@ -880,10 +880,10 @@
   "1Q20": {
    "queue": "edit",
    "source": "derived",
-   "valid": 337,
-   "planned": 124,
+   "valid": 458,
+   "planned": 0,
    "error": 0,
-   "invalid": 4,
+   "invalid": 7,
    "line_count": 465,
    "pack": false
   },
@@ -1428,12 +1428,12 @@
    "pack": true
   },
   "1QHa": {
-   "queue": "none",
+   "queue": "edit",
    "source": "derived",
-   "valid": 0,
-   "planned": 931,
+   "valid": 782,
+   "planned": 143,
    "error": 0,
-   "invalid": 0,
+   "invalid": 6,
    "line_count": 931,
    "pack": false
   },
@@ -1520,10 +1520,10 @@
   "11Q10": {
    "queue": "edit",
    "source": "derived",
-   "valid": 231,
-   "planned": 192,
-   "error": 1,
-   "invalid": 5,
+   "valid": 423,
+   "planned": 0,
+   "error": 0,
+   "invalid": 6,
    "line_count": 429,
    "pack": false
   },
@@ -1608,14 +1608,14 @@
    "pack": false
   },
   "11Q19": {
-   "queue": "none",
+   "queue": "ai",
    "source": "derived",
-   "valid": 0,
-   "planned": 1064,
+   "valid": 1064,
+   "planned": 0,
    "error": 0,
    "invalid": 0,
    "line_count": 1064,
-   "pack": false
+   "pack": true
   },
   "11Q2": {
    "queue": "edit",
@@ -5000,8 +5000,8 @@
   "4Q299": {
    "queue": "edit",
    "source": "derived",
-   "valid": 185,
-   "planned": 276,
+   "valid": 448,
+   "planned": 13,
    "error": 0,
    "invalid": 0,
    "line_count": 461,
@@ -5960,8 +5960,8 @@
   "4Q382": {
    "queue": "edit",
    "source": "derived",
-   "valid": 189,
-   "planned": 263,
+   "valid": 430,
+   "planned": 22,
    "error": 0,
    "invalid": 0,
    "line_count": 452,
@@ -6448,12 +6448,12 @@
    "pack": false
   },
   "4Q418": {
-   "queue": "none",
+   "queue": "edit",
    "source": "derived",
-   "valid": 0,
-   "planned": 1060,
-   "error": 0,
-   "invalid": 0,
+   "valid": 1058,
+   "planned": 0,
+   "error": 1,
+   "invalid": 1,
    "line_count": 1060,
    "pack": false
   },
@@ -7938,12 +7938,12 @@
    "pack": false
   },
   "4Q51": {
-   "queue": "none",
+   "queue": "edit",
    "source": "derived",
-   "valid": 0,
-   "planned": 886,
+   "valid": 447,
+   "planned": 438,
    "error": 0,
-   "invalid": 0,
+   "invalid": 1,
    "line_count": 886,
    "pack": false
   },
@@ -7970,8 +7970,8 @@
   "4Q512": {
    "queue": "edit",
    "source": "derived",
-   "valid": 371,
-   "planned": 159,
+   "valid": 494,
+   "planned": 36,
    "error": 0,
    "invalid": 0,
    "line_count": 530,
