@@ -115,31 +115,33 @@ BOOK_NAMES = {
 
 IAA_FALLBACK = {
     "1Qisaa": {
-        "manuscript_number": "1QIsaa",
         "short_name": "1Q Isa",
         "name": "1Q Isaiah",
         "composition_name": "Isaiah",
         "copy": "a",
         "site": "Qumran, Cave 1",
-        "iaa_page": "https://www.deadseascrolls.org.il/explore-the-archive/search#q=1QIsaa",
+        "museum_url": "https://dss.collections.imj.org.il/isaiah",
+        "museum_only": True,
     },
     "1QpHab": {
-        "manuscript_number": "1QpHab",
         "short_name": "1QpHab",
         "name": "1Q Pesher Habakkuk",
         "composition_name": "Habakkuk Pesher",
         "copy": "",
         "site": "Qumran, Cave 1",
-        "iaa_page": "https://www.deadseascrolls.org.il/explore-the-archive/search#q=1QpHab",
+        "museum_url": "https://dss.collections.imj.org.il/habakkuk",
+        "museum_only": True,
     },
     "1QS": {
-        "manuscript_number": "1QS",
+        "manuscript_id": "1Q28-2",
+        "manuscript_number": "1Q28",
         "short_name": "1Q S",
         "name": "1Q Community Rule",
         "composition_name": "Community Rule",
         "copy": "",
         "site": "Qumran, Cave 1",
-        "iaa_page": "https://www.deadseascrolls.org.il/explore-the-archive/search#q=1QS",
+        "iaa_page": "https://www.deadseascrolls.org.il/explore-the-archive/manuscript/1Q28-2",
+        "museum_url": "https://dss.collections.imj.org.il/community",
     },
 }
 
@@ -161,9 +163,10 @@ def load_iaa_names() -> None:
     if path.exists():
         IAA_NAMES.update(json.loads(path.read_text(encoding="utf-8")))
     for key, rec in IAA_FALLBACK.items():
-        cur = IAA_NAMES.get(key)
-        if not cur or not cur.get("name") or "Multiple Compositions" in (cur.get("name") or ""):
-            IAA_NAMES[key] = rec
+        # These three Cave 1 sigla need curated ownership/copy metadata.  Merge
+        # it over the bulk IAA import: replacing the entire imported record used
+        # to discard 1QS's real IAA id and manufacture the nonexistent 1QS-1.
+        IAA_NAMES[key] = {**(IAA_NAMES.get(key) or {}), **rec}
 
 
 WIKIPEDIA_TITLES: dict = {}
@@ -195,10 +198,10 @@ def repo_source_url(commit: str, first_node: int, last_node: int) -> str | None:
 def iaa_copy_url(raw_label: str) -> str | None:
     """IAA archive page for the scroll's digitized copy (real photos page)."""
     rec = IAA_NAMES.get(raw_label) or {}
-    number = rec.get("manuscript_number")
-    if not number:
+    manuscript_id = rec.get("manuscript_id")
+    if not manuscript_id or rec.get("museum_only"):
         return None
-    return f"https://www.deadseascrolls.org.il/explore-the-archive/manuscript/{number}-1"
+    return f"https://www.deadseascrolls.org.il/explore-the-archive/manuscript/{manuscript_id}"
 
 
 def official_names(raw_label: str, familiar: str) -> tuple[str, str, dict]:
@@ -754,6 +757,8 @@ def main() -> None:
                 rec["en_kind"] = "machine-aid"
             current["lines"].append(rec)
 
+        siglum, official_name, iaa = official_names(s["label"], familiar)
+        museum_url = iaa.get("museum_url") or s["museum_url"]
         commit = meta.get("corpus_commit", "")
         copy_url = iaa_copy_url(s["label"])
         for frag in fragments:
@@ -763,9 +768,10 @@ def main() -> None:
             frag["repo_url"] = repo_source_url(commit, min(nodes), max(nodes))
             if copy_url:
                 frag["iaa_url"] = copy_url
+            elif museum_url and iaa.get("museum_only"):
+                frag["museum_url"] = museum_url
 
-        siglum, official_name, iaa = official_names(s["label"], familiar)
-        iaa_url = iaa.get("iaa_page") or s["iaa_url"]
+        iaa_url = None if iaa.get("museum_only") else (iaa.get("iaa_page") or s["iaa_url"])
         if iaa_url and "search#q=" in str(iaa_url):
             iaa_url = f"https://www.deadseascrolls.org.il/explore-the-archive/search#q={siglum}"
         payload = {
@@ -785,7 +791,7 @@ def main() -> None:
             "word_count": int(s["word_count"] or 0),
             "translation_count": sum(1 for frag in fragments for ln in frag["lines"] if ln.get("en")),
             "iaa_url": iaa_url,
-            "museum_url": s["museum_url"],
+            "museum_url": museum_url,
             "wikipedia_url": wikipedia_url(s["label"]),
             "source": source,
             "fragments": fragments,
@@ -819,7 +825,7 @@ def main() -> None:
                 "composition": community.get("composition"),
                 "word_count": payload["word_count"],
                 "iaa_url": payload["iaa_url"],
-                "museum_url": s["museum_url"],
+                "museum_url": museum_url,
                 "wikipedia_url": payload["wikipedia_url"],
                 "path": f"/m/{slug}/",
                 "lines_with_text": nonempty,

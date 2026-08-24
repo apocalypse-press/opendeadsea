@@ -50,6 +50,7 @@ CODEOWNERS                Tier 3
 ```bash
 node scripts/validate-fragments.mjs
 node scripts/validate-lexicon.mjs
+node scripts/validate-photo-links.mjs
 node scripts/validate-translations.mjs
 node scripts/validate-translation-queue.mjs
 ```
@@ -79,5 +80,4 @@ D1:
 npx wrangler d1 create opendeadsea-trust
 npx wrangler d1 execute opendeadsea-trust --file=schema/d1.sql --remote
 ```
-
 

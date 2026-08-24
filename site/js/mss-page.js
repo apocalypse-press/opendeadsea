@@ -632,6 +632,9 @@ function boot() {
         if (frag.iaa_url) {
           links.push(`<a href="${esc(frag.iaa_url)}" target="_blank" rel="noopener noreferrer">IAA photos</a>`);
         }
+        if (frag.museum_url) {
+          links.push(`<a href="${esc(frag.museum_url)}" target="_blank" rel="noopener noreferrer">Israel Museum photos</a>`);
+        }
         if (frag.repo_url) {
           links.push(`<a href="${esc(frag.repo_url)}" target="_blank" rel="noopener noreferrer">ETCBC source</a>`);
         }

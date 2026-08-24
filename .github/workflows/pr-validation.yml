@@ -29,6 +29,9 @@ jobs:
       - name: Validate manuscript registry and bible coverage
         run: node scripts/validate-manuscripts.mjs
 
+      - name: Validate official photograph links
+        run: node scripts/validate-photo-links.mjs
+
       - name: Validate first-draft translation packs
         run: node scripts/validate-translations.mjs
 
