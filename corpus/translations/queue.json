@@ -20,10 +20,10 @@
  "default": "none",
  "authorization": "Public translation-queue buckets for the catalog. AI translation is a machine-aid first draft, not the edition. Human sign off is maintainer-set until crowdsourced review ships.",
  "counts": {
-  "none": 35,
-  "ai": 700,
+  "none": 31,
+  "ai": 714,
   "signoff": 0,
-  "edit": 292
+  "edit": 282
  },
  "manuscript_count": 1027,
  "manuscripts": {
@@ -878,12 +878,12 @@
    "pack": true
   },
   "1Q20": {
-   "queue": "none",
+   "queue": "edit",
    "source": "derived",
-   "valid": 0,
-   "planned": 465,
+   "valid": 337,
+   "planned": 124,
    "error": 0,
-   "invalid": 0,
+   "invalid": 4,
    "line_count": 465,
    "pack": false
   },
@@ -1408,12 +1408,12 @@
    "pack": true
   },
   "1Q8": {
-   "queue": "none",
+   "queue": "edit",
    "source": "derived",
-   "valid": 0,
-   "planned": 565,
+   "valid": 525,
+   "planned": 38,
    "error": 0,
-   "invalid": 0,
+   "invalid": 2,
    "line_count": 565,
    "pack": false
   },
@@ -1460,10 +1460,10 @@
   "1QS": {
    "queue": "edit",
    "source": "derived",
-   "valid": 3,
-   "planned": 279,
-   "error": 1,
-   "invalid": 0,
+   "valid": 282,
+   "planned": 0,
+   "error": 0,
+   "invalid": 1,
    "line_count": 283,
    "pack": false
   },
@@ -1488,14 +1488,14 @@
    "pack": false
   },
   "1QpHab": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 64,
-   "planned": 140,
-   "error": 1,
-   "invalid": 1,
+   "valid": 206,
+   "planned": 0,
+   "error": 0,
+   "invalid": 0,
    "line_count": 206,
-   "pack": false
+   "pack": true
   },
   "10Q1": {
    "queue": "ai",
@@ -1510,9 +1510,9 @@
   "11Q1": {
    "queue": "edit",
    "source": "derived",
-   "valid": 5,
-   "planned": 168,
-   "error": 1,
+   "valid": 147,
+   "planned": 27,
+   "error": 0,
    "invalid": 0,
    "line_count": 174,
    "pack": false
@@ -1600,10 +1600,10 @@
   "11Q18": {
    "queue": "edit",
    "source": "derived",
-   "valid": 29,
-   "planned": 216,
-   "error": 1,
-   "invalid": 0,
+   "valid": 219,
+   "planned": 26,
+   "error": 0,
+   "invalid": 1,
    "line_count": 246,
    "pack": false
   },
@@ -1630,10 +1630,10 @@
   "11Q20": {
    "queue": "edit",
    "source": "derived",
-   "valid": 14,
-   "planned": 237,
-   "error": 1,
-   "invalid": 0,
+   "valid": 249,
+   "planned": 0,
+   "error": 0,
+   "invalid": 3,
    "line_count": 252,
    "pack": false
   },
@@ -2200,10 +2200,10 @@
   "3Q15": {
    "queue": "edit",
    "source": "derived",
-   "valid": 12,
-   "planned": 168,
-   "error": 1,
-   "invalid": 0,
+   "valid": 178,
+   "planned": 0,
+   "error": 0,
+   "invalid": 3,
    "line_count": 181,
    "pack": false
   },
@@ -2288,14 +2288,14 @@
    "pack": true
   },
   "4Q1": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 23,
-   "planned": 225,
-   "error": 1,
+   "valid": 249,
+   "planned": 0,
+   "error": 0,
    "invalid": 0,
    "line_count": 249,
-   "pack": false
+   "pack": true
   },
   "4Q10": {
    "queue": "ai",
@@ -2758,14 +2758,14 @@
    "pack": true
   },
   "4Q14": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 9,
-   "planned": 188,
-   "error": 1,
+   "valid": 198,
+   "planned": 0,
+   "error": 0,
    "invalid": 0,
    "line_count": 198,
-   "pack": false
+   "pack": true
   },
   "4Q140": {
    "queue": "edit",
@@ -3000,9 +3000,9 @@
   "4Q163": {
    "queue": "edit",
    "source": "derived",
-   "valid": 6,
-   "planned": 249,
-   "error": 1,
+   "valid": 241,
+   "planned": 15,
+   "error": 0,
    "invalid": 0,
    "line_count": 256,
    "pack": false
@@ -3638,14 +3638,14 @@
    "pack": true
   },
   "4Q223_224": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 38,
-   "planned": 154,
-   "error": 1,
+   "valid": 193,
+   "planned": 0,
+   "error": 0,
    "invalid": 0,
    "line_count": 193,
-   "pack": false
+   "pack": true
   },
   "4Q225": {
    "queue": "edit",
@@ -4398,14 +4398,14 @@
    "pack": false
   },
   "4Q266": {
-   "queue": "none",
+   "queue": "ai",
    "source": "derived",
-   "valid": 0,
-   "planned": 564,
+   "valid": 564,
+   "planned": 0,
    "error": 0,
    "invalid": 0,
    "line_count": 564,
-   "pack": false
+   "pack": true
   },
   "4Q267": {
    "queue": "edit",
@@ -4480,10 +4480,10 @@
   "4Q270": {
    "queue": "edit",
    "source": "derived",
-   "valid": 6,
-   "planned": 187,
-   "error": 1,
-   "invalid": 0,
+   "valid": 173,
+   "planned": 19,
+   "error": 0,
+   "invalid": 2,
    "line_count": 194,
    "pack": false
   },
@@ -5018,14 +5018,14 @@
    "pack": true
   },
   "4Q30": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 2,
-   "planned": 194,
-   "error": 1,
+   "valid": 197,
+   "planned": 0,
+   "error": 0,
    "invalid": 0,
    "line_count": 197,
-   "pack": false
+   "pack": true
   },
   "4Q300": {
    "queue": "edit",
@@ -5168,14 +5168,14 @@
    "pack": false
   },
   "4Q319": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 17,
-   "planned": 183,
-   "error": 1,
+   "valid": 201,
+   "planned": 0,
+   "error": 0,
    "invalid": 0,
    "line_count": 201,
-   "pack": false
+   "pack": true
   },
   "4Q32": {
    "queue": "edit",
@@ -5740,10 +5740,10 @@
   "4Q364": {
    "queue": "edit",
    "source": "derived",
-   "valid": 354,
-   "planned": 49,
-   "error": 1,
-   "invalid": 1,
+   "valid": 377,
+   "planned": 28,
+   "error": 0,
+   "invalid": 0,
    "line_count": 405,
    "pack": false
   },
@@ -5918,14 +5918,14 @@
    "pack": false
   },
   "4Q379": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 42,
-   "planned": 144,
-   "error": 1,
+   "valid": 187,
+   "planned": 0,
+   "error": 0,
    "invalid": 0,
    "line_count": 187,
-   "pack": false
+   "pack": true
   },
   "4Q38": {
    "queue": "ai",
@@ -6148,14 +6148,14 @@
    "pack": false
   },
   "4Q391": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 3,
-   "planned": 196,
-   "error": 1,
+   "valid": 200,
+   "planned": 0,
+   "error": 0,
    "invalid": 0,
    "line_count": 200,
-   "pack": false
+   "pack": true
   },
   "4Q392": {
    "queue": "edit",
@@ -6440,9 +6440,9 @@
   "4Q417": {
    "queue": "edit",
    "source": "derived",
-   "valid": 14,
-   "planned": 180,
-   "error": 1,
+   "valid": 195,
+   "planned": 0,
+   "error": 0,
    "invalid": 1,
    "line_count": 196,
    "pack": false
@@ -6588,14 +6588,14 @@
    "pack": false
   },
   "4Q428": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 35,
-   "planned": 154,
+   "valid": 189,
+   "planned": 0,
    "error": 0,
    "invalid": 0,
    "line_count": 189,
-   "pack": false
+   "pack": true
   },
   "4Q429": {
    "queue": "edit",
@@ -7680,9 +7680,9 @@
   "4Q487": {
    "queue": "edit",
    "source": "derived",
-   "valid": 27,
-   "planned": 156,
-   "error": 1,
+   "valid": 170,
+   "planned": 14,
+   "error": 0,
    "invalid": 0,
    "line_count": 184,
    "pack": false
@@ -7728,14 +7728,14 @@
    "pack": true
   },
   "4Q491": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 6,
-   "planned": 189,
-   "error": 1,
+   "valid": 196,
+   "planned": 0,
+   "error": 0,
    "invalid": 0,
    "line_count": 196,
-   "pack": false
+   "pack": true
   },
   "4Q492": {
    "queue": "ai",
@@ -7780,10 +7780,10 @@
   "4Q496": {
    "queue": "edit",
    "source": "derived",
-   "valid": 4,
-   "planned": 261,
-   "error": 1,
-   "invalid": 0,
+   "valid": 265,
+   "planned": 0,
+   "error": 0,
+   "invalid": 1,
    "line_count": 266,
    "pack": false
   },
@@ -7968,10 +7968,10 @@
    "pack": false
   },
   "4Q512": {
-   "queue": "none",
+   "queue": "edit",
    "source": "derived",
-   "valid": 0,
-   "planned": 530,
+   "valid": 371,
+   "planned": 159,
    "error": 0,
    "invalid": 0,
    "line_count": 530,
@@ -8180,10 +8180,10 @@
   "4Q531": {
    "queue": "edit",
    "source": "derived",
-   "valid": 10,
-   "planned": 184,
-   "error": 1,
-   "invalid": 0,
+   "valid": 179,
+   "planned": 13,
+   "error": 0,
+   "invalid": 3,
    "line_count": 195,
    "pack": false
   },
@@ -8528,14 +8528,14 @@
    "pack": false
   },
   "4Q56": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 0,
-   "planned": 273,
-   "error": 1,
+   "valid": 274,
+   "planned": 0,
+   "error": 0,
    "invalid": 0,
    "line_count": 274,
-   "pack": false
+   "pack": true
   },
   "4Q560": {
    "queue": "ai",
@@ -8638,14 +8638,14 @@
    "pack": true
   },
   "4Q57": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 212,
-   "planned": 93,
-   "error": 1,
+   "valid": 306,
+   "planned": 0,
+   "error": 0,
    "invalid": 0,
    "line_count": 306,
-   "pack": false
+   "pack": true
   },
   "4Q570": {
    "queue": "ai",
@@ -9010,9 +9010,9 @@
   "4Q70": {
    "queue": "edit",
    "source": "derived",
-   "valid": 13,
-   "planned": 165,
-   "error": 1,
+   "valid": 169,
+   "planned": 10,
+   "error": 0,
    "invalid": 0,
    "line_count": 179,
    "pack": false
@@ -9030,10 +9030,10 @@
   "4Q72": {
    "queue": "edit",
    "source": "derived",
-   "valid": 6,
-   "planned": 218,
-   "error": 1,
-   "invalid": 0,
+   "valid": 224,
+   "planned": 0,
+   "error": 0,
+   "invalid": 1,
    "line_count": 225,
    "pack": false
   },
@@ -9170,9 +9170,9 @@
   "4Q84": {
    "queue": "edit",
    "source": "derived",
-   "valid": 2,
-   "planned": 198,
-   "error": 1,
+   "valid": 163,
+   "planned": 38,
+   "error": 0,
    "invalid": 0,
    "line_count": 201,
    "pack": false
@@ -10198,14 +10198,14 @@
    "pack": true
   },
   "8Q3": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 39,
-   "planned": 144,
+   "valid": 183,
+   "planned": 0,
    "error": 0,
    "invalid": 0,
    "line_count": 183,
-   "pack": false
+   "pack": true
   },
   "8Q4": {
    "queue": "edit",
