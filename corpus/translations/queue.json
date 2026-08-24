@@ -20,10 +20,10 @@
  "default": "none",
  "authorization": "Public translation-queue buckets for the catalog. AI translation is a machine-aid first draft, not the edition. Human sign off is maintainer-set until crowdsourced review ships.",
  "counts": {
-  "none": 39,
-  "ai": 693,
+  "none": 35,
+  "ai": 700,
   "signoff": 0,
-  "edit": 295
+  "edit": 292
  },
  "manuscript_count": 1027,
  "manuscripts": {
@@ -118,14 +118,14 @@
    "pack": true
   },
   "5-6hev1b": {
-   "queue": "none",
+   "queue": "ai",
    "source": "derived",
    "valid": 0,
    "planned": 0,
    "error": 0,
    "invalid": 0,
    "line_count": 0,
-   "pack": false
+   "pack": true
   },
   "8HevXIIgr": {
    "queue": "none",
@@ -3280,10 +3280,10 @@
   "4Q196": {
    "queue": "edit",
    "source": "derived",
-   "valid": 1,
-   "planned": 164,
-   "error": 1,
-   "invalid": 0,
+   "valid": 146,
+   "planned": 18,
+   "error": 0,
+   "invalid": 2,
    "line_count": 166,
    "pack": false
   },
@@ -3428,14 +3428,14 @@
    "pack": false
   },
   "4Q209": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 148,
-   "planned": 22,
-   "error": 1,
+   "valid": 171,
+   "planned": 0,
+   "error": 0,
    "invalid": 0,
    "line_count": 171,
-   "pack": false
+   "pack": true
   },
   "4Q21": {
    "queue": "ai",
@@ -3598,10 +3598,10 @@
    "pack": false
   },
   "4Q22": {
-   "queue": "none",
+   "queue": "edit",
    "source": "derived",
-   "valid": 0,
-   "planned": 684,
+   "valid": 569,
+   "planned": 115,
    "error": 0,
    "invalid": 0,
    "line_count": 684,
@@ -4410,9 +4410,9 @@
   "4Q267": {
    "queue": "edit",
    "source": "derived",
-   "valid": 21,
-   "planned": 140,
-   "error": 1,
+   "valid": 152,
+   "planned": 10,
+   "error": 0,
    "invalid": 0,
    "line_count": 162,
    "pack": false
@@ -5910,9 +5910,9 @@
   "4Q378": {
    "queue": "edit",
    "source": "derived",
-   "valid": 4,
-   "planned": 150,
-   "error": 1,
+   "valid": 132,
+   "planned": 23,
+   "error": 0,
    "invalid": 0,
    "line_count": 155,
    "pack": false
@@ -5998,14 +5998,14 @@
    "pack": false
   },
   "4Q385a": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 146,
-   "planned": 20,
+   "valid": 166,
+   "planned": 0,
    "error": 0,
    "invalid": 0,
    "line_count": 166,
-   "pack": false
+   "pack": true
   },
   "4Q385b": {
    "queue": "ai",
@@ -6590,9 +6590,9 @@
   "4Q428": {
    "queue": "edit",
    "source": "derived",
-   "valid": 4,
-   "planned": 184,
-   "error": 1,
+   "valid": 35,
+   "planned": 154,
+   "error": 0,
    "invalid": 0,
    "line_count": 189,
    "pack": false
@@ -7858,24 +7858,24 @@
    "pack": true
   },
   "4Q502": {
-   "queue": "none",
+   "queue": "ai",
    "source": "derived",
-   "valid": 0,
-   "planned": 793,
+   "valid": 793,
+   "planned": 0,
    "error": 0,
    "invalid": 0,
    "line_count": 793,
-   "pack": false
+   "pack": true
   },
   "4Q503": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 1,
-   "planned": 654,
+   "valid": 655,
+   "planned": 0,
    "error": 0,
    "invalid": 0,
    "line_count": 655,
-   "pack": false
+   "pack": true
   },
   "4Q504": {
    "queue": "edit",
@@ -7958,11 +7958,11 @@
    "pack": false
   },
   "4Q511": {
-   "queue": "none",
+   "queue": "edit",
    "source": "derived",
-   "valid": 0,
-   "planned": 671,
-   "error": 0,
+   "valid": 670,
+   "planned": 0,
+   "error": 1,
    "invalid": 0,
    "line_count": 671,
    "pack": false
@@ -8648,14 +8648,14 @@
    "pack": false
   },
   "4Q570": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 57,
-   "planned": 112,
+   "valid": 169,
+   "planned": 0,
    "error": 0,
    "invalid": 0,
    "line_count": 169,
-   "pack": false
+   "pack": true
   },
   "4Q571": {
    "queue": "ai",
@@ -9108,14 +9108,14 @@
    "pack": true
   },
   "4Q78": {
-   "queue": "edit",
+   "queue": "ai",
    "source": "derived",
-   "valid": 18,
-   "planned": 144,
+   "valid": 162,
+   "planned": 0,
    "error": 0,
    "invalid": 0,
    "line_count": 162,
-   "pack": false
+   "pack": true
   },
   "4Q79": {
    "queue": "ai",
@@ -10200,9 +10200,9 @@
   "8Q3": {
    "queue": "edit",
    "source": "derived",
-   "valid": 10,
-   "planned": 172,
-   "error": 1,
+   "valid": 39,
+   "planned": 144,
+   "error": 0,
    "invalid": 0,
    "line_count": 183,
    "pack": false
@@ -10280,8 +10280,8 @@
   "Mur88": {
    "queue": "edit",
    "source": "derived",
-   "valid": 1,
-   "planned": 616,
+   "valid": 607,
+   "planned": 10,
    "error": 0,
    "invalid": 0,
    "line_count": 617,

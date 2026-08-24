@@ -1,0 +1,1215 @@
+{
+ "id": "4Q209",
+ "label": "4Q209",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 171,
+ "scroll_id": 138,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q209 f1i:1": {
+   "en": "And he fired in the night of Seth in seven three And in then he stood and he dealt with the door of the fourth",
+   "notes": "Uncertain elements include the reconstruction of 'אֱדַיִן' and 'ערב_1', as well as the meaning of 'שביעין'. The phrase 'in seven three' is a literal translation of the visible text, though its meaning is unclear. The translation avoids adding subjects or objects not licensed by the source.",
+   "line_id": 7183,
+   "source_hash": "6b3a978f9ee5f864b7d88312c8ecbc236b156fa8c36bed29d99d12e352a8d6a4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f1i:2": {
+   "en": "And he took the rest of the nights of Dan, four weeks. And he gathered in the days of Dan, three weeks and a half. And he placed in the light of three weeks and a",
+   "notes": "Uncertain reconstruction and missing text at the end of the line.",
+   "line_id": 7184,
+   "source_hash": "0479f40f944e59922ecedfbb6fea994ee86c5d74c1777a467ef2eac216939c8b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f1i:3": {
+   "en": "And then he went out from the fourth door and ruled in the rest of the days of Dan, the three and a half. And he [no recoverable text]",
+   "notes": "The translation omits untranslatable fragments and uncertain reconstructions. The phrase 'three and a half' is retained despite uncertainty in the source. The final clause is incomplete due to damage, indicated by '[no recoverable text]'.",
+   "line_id": 7185,
+   "source_hash": "72df8f01cb827be61f82da0d80b06018a86eec874c914b33d8335732a7bdc430",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f1i:4": {
+   "en": "And then he stood bail and dealt with the door of the third, and he received the rest of the nights of Dan, three and a half. And he collected in the days of Dan, four. And he placed in it.",
+   "notes": "Uncertain elements include the glosses for positions 9, 11, 12, 19, 23, 25, 28, 30, and 32. The phrase 'they compare with' is suggested by repeated phrase evidence but is not directly reflected in the translation due to lack of direct support in the recoverable text.",
+   "line_id": 7186,
+   "source_hash": "c0ddcf19e1d598848245d24d16d32c623538d8feb74d8eabe4d9c1749744896f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f1i:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with many uncertain or untranslatable elements. The phrase 'in seven' is partially supported by phrase evidence, but the overall meaning remains unclear due to missing or ambiguous words.",
+   "line_id": 7187,
+   "source_hash": "d45c2472a5eb3328cce8ebba5a0e19cd38a13b31b355c98222ebee410ed8364a",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f1i:6": {
+   "en": "Four, and in then he stood bail and he dealt with and he took the rest of the night of Dan the three and he collected in the adders of Dan the four and the half and he placed at the river",
+   "notes": "Positions 13, 15, 17, 22, 24, 28: Uncertain glosses. Positions 31-32: Phrase evidence suggests 'at the river' but lacks certainty.",
+   "line_id": 7188,
+   "source_hash": "390f067437431af09356f5c852d83146bab831de504f808e821e24da52fe5433",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f1i:7": {
+   "en": "Seven four and a half and in then he went out and ruled in the rest of the adders of Dan seven two and a half and he fired in the night nine in seven",
+   "notes": "Positions 1, 15, 17, 21, 28: uncertain gloss. Position 23: uncertain reconstruction. Positions 5, 21: untranslatable punctuation. Position 27: suffix merged into preceding word.",
+   "line_id": 7189,
+   "source_hash": "d04124396a494de05f3ad358c07f16fb90e84c8692df01163d699957f901d16e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f1i:8": {
+   "en": "Four and a half. And in then he stood bail and dealt with the door of the second. And he took the rest of the nights of Dan, two and a half. And he waited in adders",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'stood bail' is a possible interpretation of the verb 'ערב' based on the provided lexical gloss. The term 'adders' is a direct translation of 'יממ', but its context is unclear. The numbers and fractions are translated directly from the provided numerical glosses.",
+   "line_id": 7190,
+   "source_hash": "d01814a608829480231ff8a77116e3b1cccdddd2693f07bc070232182b4555fa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f1i:9": {
+   "en": "And he placed in the light of the seven five. And then went out from the door of the second and he ruled in the rest of the adders of Dan seven two. And he fired in the night of the ten in the seven.",
+   "notes": "The translation includes several uncertain terms and phrases due to the fragmentary nature of the text. The phrase 'at the river' is a dominant contextual rendering for positions 3-4, but it is not directly supported by the visible transcription. Similarly, 'they compare with' is a dominant contextual rendering for positions 2-3, but it does not align with the visible morphology. The phrase 'in seven' is a dominant contextual rendering for positions 32-33, but its support is weak. 'Teen in' is a dominant contextual rendering for positions 31-32, but its support is also weak. The terms 'שביעין' (seven) and 'חמשה' (five) are uncertain, and their meanings are not clearly established in this context. The particle 'ָא' at positions 14, 16, and 22 is uncertain and has been omitted from the translation. The term 'אניר' at position 28 is translated as 'he fired' based on its morphology and lexical gloss, but its exact meaning in this context is unclear.",
+   "line_id": 7191,
+   "source_hash": "82d967f917e68168658e96be9bb003217b7e8e0e116ddff879ce38775f7d03b4",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f1i:10": {
+   "en": "Five, and in the evening he stood bail, and he dealt with the rest of the nights of Dan, two weeks, and he collected in the days of Dan, five weeks and a half, and he placed in the light of weeks",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'stood bail' is a possible interpretation of the verb 'stand bail / become evening / be pleasing / mix'. The phrase 'dealt with' is a possible interpretation of the verb 'deal with / insert / enter'. The phrase 'collected' is a possible interpretation of the verb 'collect / wait for'. The phrase 'placed in' is a possible interpretation of the verb 'be like / place / be equal'.",
+   "line_id": 7192,
+   "source_hash": "daea4ca00ede1f76f5b4c8a5c4e34a125b2a9946ba1717ac511ca1732a6fb3d1",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f1i:11": {
+   "en": "Five and a half. And then he went out and ruled in the rest of the days of Dan, the seventh sharp one and a half. And he shone in the night of one ten in seven",
+   "notes": "Uncertain transcription at positions 24, 27. Reconstructed text at positions 1, 28.",
+   "line_id": 7193,
+   "source_hash": "4cb6ccc11c67ec1c68f79404a40ab74ed803032676ddac69c2bc90f8ed4c5234",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f1i:12": {
+   "en": "And half. And in then he stood bail and he dealt with. And he took the rest of the night of Dan one and half. And he waited in adders of Dan six. And he placed in the light of the sevens.",
+   "notes": "The translation follows the visible transcription and morphology, preserving uncertainty and lacunae. The phrase 'at the river' is not supported by the visible text, so it is omitted. The translation avoids adding unlicensed subjects, objects, or relationships.",
+   "line_id": 7194,
+   "source_hash": "ac81d36e4ea49620cdeb1474c24995931b2bea7867a8825dc89d856f1d91ca66",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f1ii:7": {
+   "en": "covering",
+   "notes": "The translation reflects the recoverable verb 'covering' (כסה) in its participle form. The remaining characters (ε and ׃) are untranslatable and omitted, as they do not contribute to a defensible English rendering.",
+   "line_id": 7195,
+   "source_hash": "0f2a2c3625002521b508494f4ec921ce200a6a61d545915a3cd98b31e07e504c",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f2i:8": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew. The visible characters (ε, ], ׃) do not form translatable words, and their presence is noted but not translated.",
+   "line_id": 7196,
+   "source_hash": "1ad275c75a8888b1156484504944c34cfd61042803633dbc2fd6ae419381ca0c",
+   "source_condition": "uncertain"
+  },
+  "4Q209 f2ii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ש##[, ׃) with no clear lexical or grammatical meaning. The reconstructed relative marker (]ש##[) is too fragmentary to translate. No defensible English words survive.",
+   "line_id": 7197,
+   "source_hash": "715e61abbcda483220e567cc1e4fdac1d54e8032fa2dee3e50fc371d110b2c12",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f2ii:2": {
+   "en": "And he fired in the night, two and ten in seven Seth. And then he stood bail and dealt with. And he received the rest of the night of Dan, one seven.",
+   "notes": "Uncertain reconstruction and meaning of 'שביע' and 'דןשביע'; possible lacuna or damage in the text.",
+   "line_id": 7198,
+   "source_hash": "5af7e5899c06c272b9cc5072176624aa0ad8bb2c21ae2f1ec641933bc86c8f3e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f2ii:3": {
+   "en": "He collected in the day of Dan, the seven Seth and the half. And they compare with at the river, the seven Seth and the half. And then he went out and ruled in the rest of the day of Dan.",
+   "notes": "The phrase 'at the river' is a high-confidence contextual rendering of positions 14-15, supported by repeated phrase evidence. The phrase 'they compare with' is a high-confidence contextual rendering of positions 13-14, supported by repeated phrase evidence. The translation conservatively preserves all recoverable words, including uncertain and reconstructed terms, without adding unlicensed content.",
+   "line_id": 7199,
+   "source_hash": "5b73ae9423f5e3cab78da4280467f2fcfafc15d3d3500e55c4653f6913aec32e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f2ii:4": {
+   "en": "Half of the seventh, and he shined in the night of three ten in the sevens, and Seth and half. And then he stood bail and dealt with and received the rest.",
+   "notes": "The translation includes reconstructed and uncertain words. The phrase 'in the night of three ten in the sevens' is based on repeated phrase evidence and context-free lexical glosses. The verbs 'stood bail', 'dealt with', and 'received' are translated based on their context-free lexical glosses, but their exact meaning in this context is uncertain.",
+   "line_id": 7200,
+   "source_hash": "93d215942af837c189dceaa8b24f8d51ff930baf999d41760bed2fd5c6d1f0b2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f2ii:5": {
+   "en": "Night, Dan, half, seventh. And he collected all the adders, Dan, his whole.",
+   "notes": "Uncertain elements include the meaning of 'שביע' (seventh) and the function of the final 'ε'. The phrase 'every Dan his whole' is a reconstruction based on repeated phrase evidence.",
+   "line_id": 7201,
+   "source_hash": "0e7e438b10f629616109ee7ba682ac326fef7240532a662d85d3b0f1da4dda68",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f2ii:6": {
+   "en": "And he kindled in the night of the four-teen in all the night of Dan, all",
+   "notes": "The phrase 'four-teen in' is a dominant contextual rendering for positions 6-8. 'In all' is a dominant rendering for positions 8-9. The sequence 'Dan, all' reflects positions 12-13, with 'Dan' as a proper noun and 'all' as a suffix. The translation conservatively follows the recoverable text, preserving uncertainty and reconstructions without additions.",
+   "line_id": 7202,
+   "source_hash": "bc2df8f5a8562847d1318457e3b473fc608fca89b78d5743d269965f620a4a31",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f2ii:7": {
+   "en": "And in the night of fifteen in the covering half of the seventh, it was impossible from the light of the half of the seventh. And then it went out and burned.",
+   "notes": "Uncertain elements include the preposition 'in' (position 2), the noun 'night' (position 3), and the noun 'seventh' (positions 9, 15). The phrase 'fifteen in' is supported by repeated phrase evidence. The translation conservatively retains all recoverable elements without adding uncertain subjects or connectors.",
+   "line_id": 7203,
+   "source_hash": "a99e582455a91f35b6a2ae41421c364b8e03f564d0b652373f1e4120f5bafef2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f2ii:8": {
+   "en": "The rest of the nights of Dan, the seven and Seth, and the half. And he gathered in the adders of Dan, the one of the seven. And then the evening stood, and he dealt. And the covering rest.",
+   "notes": "The translation includes uncertain and reconstructed elements, particularly in the phrases 'the nights of Dan' and 'the adders of Dan,' where the particle 'א' and the preposition 'ב' are partially recovered. The terms 'שביעין' and 'שביע' are translated based on context but remain uncertain. The verbs 'ערב' and 'עלל' are rendered as 'stood' and 'dealt' respectively, with their exact sense unclear. The final phrase 'כסה שאר' is translated as 'the covering rest,' though its syntax is ambiguous.",
+   "line_id": 7204,
+   "source_hash": "301f30e6dbd75c47c774a87dc8f17ab6555aed9933440fdad85fb2647e11e09c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f2ii:9": {
+   "en": "Adders of Dan, the seventh Seth and half. And in the night, six teen in covering the seventh one, and he gathered from its light.",
+   "notes": "Uncertain reconstruction of 'ב#' and 'ל#[ ילא'. The phrase 'six teen in' is a high-confidence repeated phrase evidence, but its meaning is unclear. The lexical gloss for 'שביעין' and 'שביע' is uncertain.",
+   "line_id": 7205,
+   "source_hash": "cd3191e6bfc3a90160fc006d74e817a888857f12a7f7b318a1f6b9c8d672f8f3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f2ii:10": {
+   "en": "[one] seventh, one. And in then? he went out and he answered [the rest] of the nights of Dan, of the seventh ones of Seth. And he waited in the adders of Dan, of one seventh, and half. And in then",
+   "notes": "Three uncertain terms (then?, rest, Dan#) and three reconstructions (one, seventh, then) are present. The translation omits untranslatable punctuation marks and a surviving source character (ן) that cannot be translated independently.",
+   "line_id": 7206,
+   "source_hash": "736fe2650490a5124123c368756acd56cd07d6790c16f58443de7a6017c6a8a4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f2ii:11": {
+   "en": "[He stood bail] and dealt with, and covered the rest of the adders of Dan, the prisoners of five and a half.",
+   "notes": "The translation includes reconstructed text in brackets. The meaning of several words remains uncertain, including the final 'ε', which is omitted from the translation.",
+   "line_id": 7207,
+   "source_hash": "9d98f4ba316756b73d1193966b501cfec50c8f00d11979cb4752c5957ef13aab",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f2ii:12": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew. All visible characters are either damaged, reconstructed, or untranslatable punctuation marks.",
+   "line_id": 7208,
+   "source_hash": "7178db984f0084b1565cefcc064df7ba4a19f183ba1be4e5ebc969bfd5d00078",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments (ε] # [ε) with no recoverable lexical content. All visible forms are either unknown or reconstructed with uncertainty.",
+   "line_id": 7209,
+   "source_hash": "cd94f9845434d2caf3d14c26ac9c4cf12555ef6db9b197de13b30be4435a3eaf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f3:2": {
+   "en": "And he will fire in the night of two in seven one. And then he stood and dealt with the door of the second. And he took the rest of the nights of Dan seven.",
+   "notes": "Uncertain elements include the reconstruction of 'two' (position 5), the meaning of 'one' (position 8), and the gloss of 'Dan' (position 27). The phrase 'in seven' (positions 6-7) is supported by repeated evidence but remains contextually ambiguous.",
+   "line_id": 7210,
+   "source_hash": "8e264497d5821f7d8961bc4538984f35d4e33005a4112e5eb460ea5c95a9dda0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f3:3": {
+   "en": "Seth and he waited in adders at the seventh one and half and they compare with at the river one and half and in then went out from the door second and he ruled in rest",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'at the river' is supported by repeated evidence for positions 15-16, and 'they compare with' is supported for positions 14-15. Uncertain terms include 'one' (positions 8, 9, 18), 'half' (position 11), 'and' (position 13), 'they compare with' (position 14), and 'in' (position 15).",
+   "line_id": 7211,
+   "source_hash": "4d53932b39239ab8ff4439faa974ea053722e47f87ea60e5c2549ac5fc253128",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f3:4": {
+   "en": "[Adders] Dan [the] five and half and he shined in night third in seven one and half and then evening and dealt and received",
+   "notes": "Uncertain terms and reconstructions: 'adders' (position 1), 'Dan' (position 3), 'five' (position 5), 'half' (positions 7, 18), 'shined' (position 10), 'night' (position 12), 'third' (position 13), 'seven' (position 15), 'one' (position 16), 'evening' (position 23), 'dealt' (position 25), 'received' (position 28). Phrase evidence applied: 'third in seven' (positions 13-15). Omitted untranslatable characters and unknown punctuation.",
+   "line_id": 7212,
+   "source_hash": "ffd8660682806d8af8d03bd89a453d04955c9c246ebfd7a3dcd0dd0ff588de05",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f3:5": {
+   "en": "The rest of the night of Dan, seven five and half. And he collected in adders of Dan, two. And he placed at the light, two. And then he went out.",
+   "notes": "Positions 5, 6, 9, 14, 18, 23, 25 contain uncertain or unknown elements. Positions 20-21 translated based on repeated phrase evidence 'they compare with' but adapted to singular verb form due to morphological evidence. Position 21-22 translated based on repeated phrase evidence 'at the river' but adapted to 'at the light' due to visible transcription.",
+   "line_id": 7213,
+   "source_hash": "e92ea9e7d1d9c3e651e80b08429f0261727412e8eb10cb8cd269c9107e51c7e3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f3:6": {
+   "en": "And he ruled in the rest of the days of Dan, seven five. And he fired in the night, four by seven two. And then",
+   "notes": "The translation includes reconstructed text and uncertain glosses. The phrase 'four by seven' is supported by repeated phrase evidence. The meaning of 'שביעין' and 'חמשה' is unclear, but they are translated based on their morphological analysis. The final 'then' is incomplete due to the damaged transcription.",
+   "line_id": 7214,
+   "source_hash": "16bff8417ac59da673d40058b0f121cfa05f17b74d0da05facb428f058912db6",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f3:7": {
+   "en": "He stood bail and dealt with the door of the third and received the rest of the nights of Dan seven five and waited in the adders of Dan seven two and a half and placed at the river",
+   "notes": "Uncertain elements include the lemma ]ע##ל (position 3), particle ל## (position 4), noun ת##רע (position 5), particle א (position 6), noun תלית#[ י (position 7), particle א (position 8), unknown lemma ׃ (position 9), noun שביעין (position 16), number חמשה (position 17), unknown lemma ׃ (position 18), noun ימם (position 22), particle א (position 23), noun שביעין (position 25), unknown lemma ׃ (position 29). Phrase evidence suggests 'at the river' for positions 32-33 and 'they compare with' for positions 31-32, but these are not adopted due to lack of direct support in the visible transcription.",
+   "line_id": 7215,
+   "source_hash": "66763ca4dee9c81de1372250a0e63c6b11d5a55a9c600e9bf60c899141e50f0b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f3:8": {
+   "en": "Seventh two and half and then went out from the third door",
+   "notes": "Uncertain transcription and reconstruction in several words. The translation follows the visible morphology and lexical glosses where available, but some parts are speculative due to damage and uncertainty.",
+   "line_id": 7216,
+   "source_hash": "037e217fe1942cb39748f8f7ef4f00b1700c9be7c78c17a6de250a982057b1f3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f3a:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ל##י?, # [ε) with no clear lexical or grammatical meaning. The reconstructed and uncertain elements do not provide sufficient basis for translation. No defensible English words survive.",
+   "line_id": 7217,
+   "source_hash": "638e735baecad62ee905a4f01c4b7abc914ecd736a3461693fe260ecca33e889",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f3a:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew. All visible characters are either untranslatable or uncertain, with no recoverable meaning.",
+   "line_id": 7218,
+   "source_hash": "dbf8a9c9170cba0a16626684bd8fe189b4b228fe2e1258d462262d9e0d63a40b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f4:1": {
+   "en": "Four and in then he went out and he kindled in the rest of the night of Dan in the three and he collected in adders of Dan four",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase contains ambiguous or unclear elements, particularly around positions 11, 13, and 20, where the lexical gloss is uncertain. The final 'four' is retained despite its proximity to the end of the line, as it is a recoverable lexical item.",
+   "line_id": 7219,
+   "source_hash": "2780c6ba9e85f14197a5f1a06e8074375b13a7f2e932e6cccdc27a2b633a5db9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f4:2": {
+   "en": "And half. And then he stood bail and dealt with. And the covering of the rest of the adders, Dan, the seventh, two and half.",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'stood bail and dealt with' is based on the verbs 'ערב' and 'עלל' with their respective glosses. The term 'שביעי?ן?' is translated as 'the seventh' despite uncertainty. The final 'תרין ופלג' is rendered as 'two and half' based on the provided glosses.",
+   "line_id": 7220,
+   "source_hash": "48accf08b79e87aa89acfdf24472e5ec9ec44b784899cf46f4fba370be306ce7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f4:3": {
+   "en": "And in the night of four and twenty in its covering four and half and he gathered from the light of the sevens four",
+   "notes": "Uncertain elements include the meaning of 'שבי' and 'שביעין', and the reconstruction of '[ ו]' and '[ מ]'. The phrase 'ובציר' is translated based on the lexical gloss, but its exact meaning in context is unclear.",
+   "line_id": 7221,
+   "source_hash": "065df9232f9dccb953a963d30d59aecae09ba539cc36be2865eb7f324f15334b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f4:4": {
+   "en": "And half. And then he went out, and he kindled in the rest of the night of Dan, two and half. And he waited in the adders of Dan, seven, five.",
+   "notes": "The translation includes reconstructed and uncertain terms, notably 'Dan' and numerical references. The phrase 'two and half' reflects 'תרין' (two) and 'פְּלַג' (half), with uncertain reconstruction. 'Adders' translates 'יְמָם', a term with unclear context. The final 'seven, five' represents 'שביעין חמשה', possibly indicating a sequence or count.",
+   "line_id": 7222,
+   "source_hash": "8ee48ff3feb8235a3a2233ab6a5804c631d7869d3249d2fda1b739943255d480",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f5:1": {
+   "en": "Weeks five and half, and in the night of the Timnite ten, covering weeks two and gathering from its light",
+   "notes": "Uncertain reconstruction of 'חמ ]ש##ה' and 'נהור׳ה ]'. The phrase 'עשר ב׳ה' is translated based on repeated phrase evidence as 'teen in'.",
+   "line_id": 7223,
+   "source_hash": "6c618bca43bb479e072de22255e14e308f7304c54c3dfe730644e37f08b4af5d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f5:2": {
+   "en": "Seventh two and then he went out and he shined rest of the night of Dan seventh five and half and he waited in adders",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'Seventh two' is uncertain due to damage and reconstruction. 'He shined' is a literal rendering of the verb 'anor' with an uncertain gloss. 'Rest of the night of Dan' includes an uncertain adjective 'Dan'. 'Seventh five and half' includes uncertain numbers. 'He waited in adders' includes an uncertain gloss for 'adders'.",
+   "line_id": 7224,
+   "source_hash": "7a4d64a9ce3eb5f5b11610ada79f8ea569d009e2b7d926992757689990b209fc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f5:3": {
+   "en": "Dan, two prisoners. And in then he stood bail and dealt with. And covering the rest of the adders of Dan, five prisoners.",
+   "notes": "The transcription contains uncertain and reconstructed elements, particularly in positions 2, 8, 16, and 19. The lexical glosses for positions 2, 16, and 18 are unclear, and the translation reflects the visible morphology and recoverable words. The phrase 'שאר ימם' is translated as 'rest of the adders' based on the provided glosses, though its exact meaning remains uncertain.",
+   "line_id": 7225,
+   "source_hash": "b34439bb6c91f8b9acd850bdd05326b5a45cd7fae6e4130659fa599011e1411f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f5:4": {
+   "en": "And in the night of nine ten in the covering of the two and gathered from the light of the two and then",
+   "notes": "The phrase 'nine ten' is translated as 'nineteen' based on repeated phrase evidence. The terms 'שביעין' and 'נהור׳ה' lack trusted glosses, so their translation is uncertain. The final word 'אדין' is incomplete due to the fragment's end.",
+   "line_id": 7226,
+   "source_hash": "2816eedca5dbc56f3620937995857f13cf9b2fe4f9a21f38cd7a3265100026b9",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f5:5": {
+   "en": "He went out and kindled the rest of the nights of Dan of the sevens five and he waited in the adders of Dan of the sevens two and a half and then",
+   "notes": "Several words are uncertain or reconstructed, including 'חמשה' (five), 'שביעין' (sevens), and 'אדין' (then). The translation follows the visible morphology and lexical glosses where possible, but some phrases remain ambiguous.",
+   "line_id": 7227,
+   "source_hash": "e7a651829ac374877bc636f57127edb79db1cbfcec334c4447f576a5e6743b59",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f5:6": {
+   "en": "He stood bail and dealt with the covering of the rest of the adders, Dan of the four and the half, and in the twenty-second covering of the weeks",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'Dan of the four and the half' is uncertain due to the damaged text. The term 'adders' is a possible gloss for 'יממ', but its meaning is unclear in this context. The final phrase 'in the twenty-second covering of the weeks' is also uncertain due to the damaged text.",
+   "line_id": 7228,
+   "source_hash": "16f3016edfa4d2557297be2a281befbe50beb65664dc391ca6d09347db268b72",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f5:7": {
+   "en": "Two and a half and it was impossible from the light of the seventh two and a half. And then he went out.",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the word 'שביעין' and the final 'ε'. The translation reflects the visible morphology and lexical glosses, but the exact meaning of some phrases remains unclear.",
+   "line_id": 7229,
+   "source_hash": "30ab749b81c5c4e1ee819333195ffc519d48acdc111c951ba7605adeb261da5f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f6:4": {
+   "en": "Five and a half, and then he went out and shone in the rest of the nights of Dan, the seventh, one and a half. And he waited in the adders of Dan, the seventh, Seth. And then",
+   "notes": "Uncertain reconstruction at position 18. Unclear lexical glosses at positions 1, 13, 15, 19, 24, 26, 28. Translation of 'אניר' as 'shone' is based on context, as the lexical gloss is 'fire'.",
+   "line_id": 7230,
+   "source_hash": "4f3d2fa397ddd5df9f8da7f287cd8f8ef4c24d691d87b1401bd9f89d3b9ee4bc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f6:5": {
+   "en": "He stood bail and dealt with the covering rest of the adders of Dan, one. And in the night of seven and twenty in the covering of the weeks, Seth and [no recoverable text] from the light.",
+   "notes": "The translation includes reconstructed and uncertain terms. 'Seth' is uncertain due to damage and ambiguous gloss. The final phrase is heavily damaged, with no recoverable text beyond 'from the light'.",
+   "line_id": 7231,
+   "source_hash": "3a5f847ad182ab75b41ad9595fc9f98915f1109f0b9e943d932293b18571a257",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f6:6": {
+   "en": "[Seven Seth and in then he went out and he answered rest nights Dan seven one and he waited in adders Dan seven Seth and half and in then he stood]",
+   "notes": "Two words reconstructed, one uncertain. Glosses unavailable for several tokens. Translation preserves all recoverable elements but remains fragmentary.",
+   "line_id": 7232,
+   "source_hash": "c9eda78345f49bf0f15abe1d31aeb95bbdf689068dde1ae50e064cc256449325",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f6:7": {
+   "en": "And he dealt with, and covered the rest of the adders of Dan, half of one. And in the night of the Timnite and twenty in it, the covering of the six and half and impossible from its light.",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'adders of Dan' is a literal rendering of the visible text, though its meaning is unclear. The 'night of the Timnite' is uncertain due to the damaged state of the text. The phrase 'twenty in it' is a literal translation of the visible text, but its referent is unclear. The 'covering of the six and half' is a literal rendering, though its meaning is uncertain. The final phrase 'impossible from its light' is a literal translation, but its relationship to the preceding text is unclear.",
+   "line_id": 7233,
+   "source_hash": "fca8f1c4f6d42c4fc53056182f5e056708a85ef02c3cb76a6e860c4dd053335d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f6:8": {
+   "en": "Seventh Seth and half And then went out and fire the rest of the night of Dan half seventh one And he waited in the day of Dan all And then evening and dealt with",
+   "notes": "Uncertain reconstruction at position 12. Phrase evidence applied at positions 25-26.",
+   "line_id": 7234,
+   "source_hash": "5ebad4b99a21d6ea22441f0232256c17959f4e22285a52b6f68d5b728b95949c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f6:9": {
+   "en": "[to the] door and the covering of the adders of Dan all and he took all the rest of the light and the wheel went out [empty] from all the light [obscured] with the sun",
+   "notes": "Uncertain elements: 'adders' (position 9), 'went out [empty]' (position 21), '[obscured]' (position 25). Reconstructed elements: 'to the' (position 1), 'sun' (position 27).",
+   "line_id": 7235,
+   "source_hash": "2e05194ed4b6ef1a321f66275b0db76ca09156c57b86753f0b76deb1e836169e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f6:10": {
+   "en": "to and she",
+   "notes": "The translation is highly uncertain due to extensive damage and reconstruction. The phrase 'to teach' is a possible contextual rendering for positions 8-9, but it lacks strong support. Most words are fragmentary or untranslatable. [no recoverable text] for positions 1, 3, 6, 7, 10, 11, 12, 13.",
+   "line_id": 7236,
+   "source_hash": "07d626b80e5fcaa8e021feec233dbfdd06b7e84ebbdf87e253ee5c4408f00ddf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7i:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic or Greek lexical units. The visible characters (ε, א) do not form a translatable word in this context.",
+   "line_id": 7237,
+   "source_hash": "ce84af2270bc4ba7b5e0add5762296d311c151cfce65e1fa43b8ba6168c04cb8",
+   "source_condition": "uncertain"
+  },
+  "4Q209 f7i:8": {
+   "en": "and half",
+   "notes": "The first character 'ε' is untranslatable and omitted. The final punctuation mark '׃' is omitted as it has no independent translation. The word 'פ ]ל#ג' is marked as uncertain but translated as 'half' based on its lemma and gloss.",
+   "line_id": 7238,
+   "source_hash": "9945304194934fac021a47144057f1b3b63caf347197152cf4c73ef6ce56c3ee",
+   "source_condition": "uncertain"
+  },
+  "4Q209 f7ii:2": {
+   "en": "And he collected in the day of Dan seven, four and a half. And then he stood bail and dealt with. And the rest covered the day of Dan seven",
+   "notes": "The translation includes uncertain terms and reconstructed text, particularly around the numerical expression and the verbs 'stood bail' and 'dealt with,' which have multiple possible meanings. The phrase 'the rest covered' is also uncertain due to the ambiguous gloss of 'כסה'.",
+   "line_id": 7239,
+   "source_hash": "e2ab7eaef773e2d8787991feaca7ae08de96f74453a278cc722d06ed9d729504",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f7ii:3": {
+   "en": "Two and a half, and in the night of four and twenty in the covering of the seventh four and a half, and it was impossible from the light",
+   "notes": "Uncertain elements include the ending of 'עשרי ]ן?' and the meaning of 'שביעין'. The phrase 'בציר מ נהור׳ה' is translated conservatively due to ambiguity in the verb 'בציר'.",
+   "line_id": 7240,
+   "source_hash": "85e71029caf23650e86e01ecfc870435a5738d66568a557e9a443147c4817720",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7ii:4": {
+   "en": "Seven four and a half and in then he went out and he kindled in the rest of the night of Dan seven two and a half and he waited",
+   "notes": "Uncertain elements include the reconstruction of 'שביעין' and the meaning of 'א'. The translation conservatively follows the provided glosses and visible morphology, retaining all recoverable words in order.",
+   "line_id": 7241,
+   "source_hash": "cd01436551309a7e5a9c9233d98bea2c9c3202b1f30de55c45acfeb8fe96217f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7ii:5": {
+   "en": "In adders of Dan seven five. And in then he stood bail and he dealt with. And covering the rest of adders of Dan seven two.",
+   "notes": "The translation includes uncertain and reconstructed elements, particularly in the interpretation of 'שביעין' and 'חמשה', which lack clear glosses. The verbs 'ערב' and 'על' are translated based on their morphological indicators, but their exact sense remains ambiguous. The phrase 'כסה שאר ימם' is translated conservatively, preserving the participle form of 'כסה'.",
+   "line_id": 7242,
+   "source_hash": "f77ebfe635f3b607f58133fb18b956baaafc7ba1186b07ae5850d88bb5b3e1c7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7ii:6": {
+   "en": "And in the night of the five and twenty in the covering of the seven five and it was impossible from its light of the seven five",
+   "notes": "Uncertain glosses for 'חמשה', 'שביעין', and 'נהור׳ה' limit translation confidence. The final 'חמשה' is marked as uncertain in the source.",
+   "line_id": 7243,
+   "source_hash": "486c4dd494b6af25e50ccdb8924a49211c179d08d5698f084cf12ebf70116827",
+   "source_condition": "uncertain"
+  },
+  "4Q209 f7ii:7": {
+   "en": "And then he went out, and he shone in the rest of the night of Dan, two weeks. And he waited in the day of Dan, five and a half weeks.",
+   "notes": "The translation of several words is uncertain due to ambiguous or unknown lexical glosses, including 'שביעין' (weeks?) and 'חמשה' (five?). The punctuation marks are omitted as they do not carry independent meaning.",
+   "line_id": 7244,
+   "source_hash": "e0257498fa55b5bd5a9365daa2b6fa8cb94f2dacbc265e9fe0c77e63d8b1156c",
+   "source_condition": "clean"
+  },
+  "4Q209 f7ii:8": {
+   "en": "And then he stood bail and dealt with the door of the second and covered the rest of the adders of Dan, one and a half.",
+   "notes": "The transcription contains uncertain and reconstructed elements, particularly around positions 6, 8, and 12, which may affect the precise meaning. The lexical gloss for 'א' (positions 9 and 11) is unclear, and the term 'שביע' (position 19) lacks a trusted gloss. The translation conservatively follows recoverable words and visible morphology, preserving the structure despite uncertainties.",
+   "line_id": 7245,
+   "source_hash": "6309cb664ec67908625d6dd59c2abfd54d7e08ba6a155d221ad0fd104919d545",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7ii:9": {
+   "en": "And in the night of Seth and twenty in the covering of the seventh five and half and he gathered from the light of the seventh five",
+   "notes": "The translation includes uncertain terms and lacks clear contextual evidence for some words. The phrase 'שביעין חמשה' is repeated but its meaning is unclear. The word 'שתה' is translated as 'Seth' based on the provided gloss, but its exact meaning in this context is uncertain. The verb 'בציר' is translated as 'gathered' based on one of its possible glosses.",
+   "line_id": 7246,
+   "source_hash": "8427285a5883022ba31fb79dbd9ae52bcd2676baabcf7f2454f8c554d7a089d3",
+   "source_condition": "uncertain"
+  },
+  "4Q209 f7ii:10": {
+   "en": "And half. And then he went out from the second door, and he kindled in the rest of the night of Dan, one and half. And he waited in adders.",
+   "notes": "The translation includes uncertain elements due to ambiguous or unclear lexical items, particularly 'שביע' (position 20) and 'א' (positions 10, 12, 18, 29), which are treated as contextual placeholders. The phrase 'one and half' is a conservative rendering of 'חד ופלג' (positions 21-23), preserving the order and structure of the source.",
+   "line_id": 7247,
+   "source_hash": "3cc35efd33773f556b18bc82c0224c4f6991ef2bbe12975d3e969bc3b89f608b",
+   "source_condition": "clean"
+  },
+  "4Q209 f7ii:11": {
+   "en": "Dan seventh Seth and then he stood bail and he dealt with and he covering the rest of adders of Dan one and in the night seven",
+   "notes": "The translation includes uncertain terms like 'Seth' and 'adders,' which are based on provided glosses. The phrase 'he stood bail' and 'he dealt with' are based on the visible morphology and lexical glosses. The overall structure is fragmented, and some terms like 'שביעין' and 'שאר' lack clear context-free glosses, leading to potential ambiguity.",
+   "line_id": 7248,
+   "source_hash": "3ef6409780696d694ce608615229238d79c4adb12e8a4b03c21a916d42619c0f",
+   "source_condition": "clean"
+  },
+  "4Q209 f7ii:12": {
+   "en": "And twenty in the covering of the sevens, Seth, and he gathered from the light of the sevens, Seth. And then went out and burned.",
+   "notes": "The translation includes reconstructed and uncertain elements. The meaning of 'שביעין' and 'שב##[ יעין' is unclear, represented as 'sevens'. 'שתה' is translated as 'Seth' based on lexical gloss, but its exact meaning in context is uncertain. 'נ ]ה##ו(# ר #)׳ה' is reconstructed as 'light' but is uncertain. 'אניר ]' is translated as 'burned' based on the lexical gloss 'fire', but the form is uncertain.",
+   "line_id": 7249,
+   "source_hash": "386d151838b7248d1e75e6be364d56fec25056bebeaee383c2e2c4792f53f507",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7ii:13": {
+   "en": "The rest of the night of Dan, one. And he collected in the adders of Dan, the Sethites and the half. And then he stood bail and dealt with.",
+   "notes": "The translation is highly uncertain due to damaged and ambiguous text. The phrase 'Sethites' is a possible interpretation of 'שביעין' based on the lexical gloss 'Seth'. The verb 'עלל' is translated as 'dealt with' due to its broad lexical gloss, but the exact meaning is unclear. The text contains several reconstructed and uncertain words, and the overall meaning is fragmentary.",
+   "line_id": 7250,
+   "source_hash": "6729f280cb096b79028bc9da114c6fca46b1de1867066ef74ed4d60bdf5a0043",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7iii:1": {
+   "en": "And he fired in the night of the Timnite in seven four And then he stood bail and dealt with in the night of Dan she was finished",
+   "notes": "Uncertain elements include the phrase 'in seven four' and the final verb 'she was finished', which may be incomplete or damaged. The phrase 'in seven' is supported by repeated evidence, but 'four' remains uncertain. The final verb's subject is unclear, and the translation assumes a feminine singular subject based on the verb's morphology.",
+   "line_id": 7251,
+   "source_hash": "bf080a980aa5ee338cd1cefe07adc371761456970f1dde729397dd4f1e549b41",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7iii:2": {
+   "en": "The sun to all my engraved door first and let loose to return to come and to go out in engraved",
+   "notes": "The translation is highly uncertain due to ambiguous and unclear lexical items, reconstructed text, and lack of contextual evidence. The phrase 'to all my engraved door first' is particularly problematic, as the relationship between the elements is unclear. The verbs 'let loose', 'return', 'come', and 'go out' appear to be infinitives, but their subjects and objects are not specified. The final phrase 'in engraved' is also uncertain, as it seems to be a prepositional phrase without a clear antecedent.",
+   "line_id": 7252,
+   "source_hash": "d72cebe1e5cc21bdf83aa56275ad4284087158a258545a14ce5ff6ebe5bbe7c5",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f7iii:3": {
+   "en": "He stood bail and dealt with the rest of the nights of Dan, three of the seventh, and he collected in the days of Dan, four of the seventh, and half, and then",
+   "notes": "The translation includes uncertain and reconstructed elements, particularly around the damaged and unclear terms 'שביעין' and 'ו?[פלג'. The phrase 'ובאדין' is translated as 'and then' based on the lexical gloss, but its exact meaning in context is unclear.",
+   "line_id": 7253,
+   "source_hash": "04547cfe0955edd82e36b47446a113f2205c70682fcf68a58edcc47825bf5e0b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7iii:4": {
+   "en": "He went out and ruled in the rest of the adders of Dan, two and a half. And he kindled in the night, nine in the seven.",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'ninth in' and 'in seven' are supported by repeated phrase evidence. The lexical gloss for 'שביעין' is uncertain, but the context suggests a plural form related to 'seven'. The word 'פל##ג#?' is translated as 'half' based on its lexical gloss, despite its uncertainty.",
+   "line_id": 7254,
+   "source_hash": "8cae135d9aae32b170b9515eada966aa2a0444d76b3b3d6622f68b34ed49e292",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7iii:5": {
+   "en": "Four and a half, and then he stood bail and dealt with in the night of Dan, he let loose the sun to return and to come in the engraved and to stand bail",
+   "notes": "The translation contains uncertainties due to damaged text and ambiguous lexical items. The phrase 'he stood bail and dealt with' is a tentative interpretation of the verbs 'ערב' and 'עלל' in the context. The phrase 'let loose the sun' is based on the verb 'שרה' and the noun 'שמש'. The prepositions 'to' and 'in' are added for fluency but are not explicitly licensed by the source text. The word 'engraved' is a tentative translation of 'חרת' and may not be accurate. The final verb 'to stand bail' is repeated from earlier in the sentence due to the repetition of the root 'ערב' but its exact relationship to the preceding material is unclear.",
+   "line_id": 7255,
+   "source_hash": "2014615d5842e69bf2ee7a19a91b6b2c8a9aa2bee4ac5084b7ac54aba876cd90",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7iii:6": {
+   "en": "In their wealth and in then [month] he stood and dealt with the door of the fifth and he took the rest of the nights of Dan two",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a possible month name and several particles with unclear glosses. The translation conservatively follows the visible morphology and lexical glosses where available, omitting unsupported connectors and possessives. Uncertainty in the source is reflected in the notes rather than the translation.",
+   "line_id": 7256,
+   "source_hash": "c8683a6656bf01ed167782347cecf0a9adf8975644f80e267a61b9253ed38d1f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7iii:7": {
+   "en": "And half. And he waited in adders of Dan seven five. And he placed at the light seven five complete. And then he went out.",
+   "notes": "Positions 9, 11, 15, 16, 19 are reconstructed or uncertain. Phrase evidence suggested 'at the river' for positions 15-16 and 'they compare with' for 14-15, but these were not adopted due to insufficient support and the need to preserve visible morphology and lexical items. The translation conservatively follows recoverable words in order, omitting unsupported relations and retaining uncertainty in the notes.",
+   "line_id": 7257,
+   "source_hash": "15a38a91a62ca3cce5585fa89b026709ea0bef9209c14f931378f3096485dc68",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7iii:8": {
+   "en": "From the door of the fifth and he ruled in the rest of the adders of Dan two And he fired in the night of ten in",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'teen in' is supported by repeated evidence but its meaning is unclear. The lexical gloss for 'שביעין' is uncertain, translated as 'two' based on morphology. The final preposition 'in' is incomplete and its object is uncertain.",
+   "line_id": 7258,
+   "source_hash": "410036cc43c6a51bbab63f3993f7ad6366fd07e36733dc7715b7823f7f25bc18",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f7iii:9": {
+   "en": "Seven five. And in then he stood and he dealt with. And he took the rest of the night of Dan seven two. And he waited in the day of Dan.",
+   "notes": "The translation includes reconstructed and uncertain elements, particularly in the first word 'שביעין' and the particle 'א'. The exact meaning of some terms remains unclear due to limited context.",
+   "line_id": 7259,
+   "source_hash": "88f23b6167d868f9df74c96e86380033e6fc945ea4ece16a3c61114f9e9459cd",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f7iii:10": {
+   "en": "Seven, five and half",
+   "notes": "The transcription includes an untranslatable character 'ε' and a punctuation mark '׃' which are omitted in the translation. The word 'שב[ יעין' is reconstructed and translated as 'seven' based on the lemma 'שׁביע'.",
+   "line_id": 7260,
+   "source_hash": "13672eb8f1ba630e28049a1c3f82cecffb7a3d540fe3b5d1d795c565511b2ce1",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f8:1": {
+   "en": "Dan and he placed in the whole and he fired in the night of fourteen",
+   "notes": "Uncertain transcription and reconstruction in positions 1, 4, 5, 6. Phrase evidence suggests 'fourteen' for positions 13-14, 'they compare with' for positions 3-4, and 'in all' for positions 4-5, but these are not adopted due to lack of direct support in the transcription. Position 7 (ε) and 8 (׃) are omitted as they cannot be translated independently.",
+   "line_id": 7261,
+   "source_hash": "93d941559fba6ac6b5ae104cac9315475e18378e19c7932e711d495c4a167cbe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f8:2": {
+   "en": "in all the night of Dan of all",
+   "notes": "The phrase 'of Dan of all' is a literal translation of the visible morphology, though its meaning is uncertain. The final 'ε' and '׃' are untranslatable and omitted.",
+   "line_id": 7262,
+   "source_hash": "356d5fbbf86c9e35a641cc8229a5d34cd5fbf1dd680839be065e030ebd799cb2",
+   "source_condition": "clean"
+  },
+  "4Q209 f8:3": {
+   "en": "and in the night of fifteen in",
+   "notes": "The phrase 'fif- teen in' is supported by repeated phrase evidence. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 7263,
+   "source_hash": "696dae6d505d0d583b284481cdd055e8bf72f40b0f9d9f419ba1322939943e97",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f8:4": {
+   "en": "to return and to come in engraved",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged particles and suffixes. The final 'ε' and '׃' are untranslatable and omitted. The phrase is fragmented, with no recoverable subjects or objects.",
+   "line_id": 7264,
+   "source_hash": "2cf3bbdc6db6322cd0538e9950bba4c5afa9b7a57262201f354d941775810ffd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f9:1": {
+   "en": "And in that case he stood bail and dealt with and received the rest of the night of Dan the exiles",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the words 'ש##[ אר' (rest), 'ליל ]י?' (night), 'א#' (uncertain particle), and 'ד#ן?' (Dan). The final word 'שבי ]עין[' is reconstructed as 'exiles' but its meaning is uncertain. The characters 'ε' at the beginning and end are omitted as they cannot be translated independently.",
+   "line_id": 7265,
+   "source_hash": "aa66cc3c421539af25037cdac37bd1189268ced5f461e81594d724bbc579cf41",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f9:2": {
+   "en": "And half and in then he went out and he ruled in the rest of the adders of Dan the weeks",
+   "notes": "The transcription contains uncertain and unknown elements, including a damaged 'half' and two untranslatable characters (ε). The phrase 'the weeks' is a reconstruction of 'שב[ יעין'.",
+   "line_id": 7266,
+   "source_hash": "9046cf6ac8d452bec38aa3b121884b32339aaaa68ed0d712eeba346638852d7e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f9:3": {
+   "en": "And half. And in then he stood bail and he dealt with. And he took the rest of the night of Dan",
+   "notes": "The translation includes reconstructed and uncertain elements, particularly in the phrase 'the rest of the night of Dan,' where the text is damaged and partially reconstructed. The initial 'ε' and final 'ε' are untranslatable and omitted.",
+   "line_id": 7267,
+   "source_hash": "3bc7eec547f61abcb99199bce9443097306d96f562f6a94587737235dde1ea9e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f9:4": {
+   "en": "Three and half then he went out",
+   "notes": "Uncertain reconstruction of 'three' (תְּלָת) and 'half' (פְּלַג). Unclear meaning of damaged particles and punctuation. Final 'ε' and '׃' omitted as untranslatable.",
+   "line_id": 7268,
+   "source_hash": "75e8efa586782f69e62b75ca5e7cbba3b85027e831fb4f466711fa81f3d1039f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f10:1": {
+   "en": "night",
+   "notes": "The initial character 'ε' and the final 'א' are untranslatable in this context and are omitted from the translation.",
+   "line_id": 7269,
+   "source_hash": "27af94bdc8c5cd91280c76881133473e266f64d8337f0b8cb63c35a2490409a9",
+   "source_condition": "clean"
+  },
+  "4Q209 f10:2": {
+   "en": "Dan in the sevens Seth",
+   "notes": "The transcription contains a reconstructed element ('[ דן') and an uncertain character ('ε'). The lexical gloss for 'שׁביע' is unclear, but the context suggests a plural form related to 'sevens'. The term 'שתה' is translated based on its lexical gloss, favoring 'Seth' as the most contextually relevant option.",
+   "line_id": 7270,
+   "source_hash": "080c448747ad3360c947b536c97d1fcdba9438cbcd55422fbe898c4115aa8e1d",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f10:3": {
+   "en": "in the rest of the night",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged preposition 'in' (ב##), a reconstructed noun 'rest' (ש#א#[ ר), and a partially visible noun 'night' (]ליל[ י). The final particle (א ]) and punctuation mark (׃) are omitted as they cannot be translated independently. The translation conservatively reflects only the recoverable lexical items.",
+   "line_id": 7271,
+   "source_hash": "82e274fac5f5baa4ffa15acd5e230aae29c55897eabb602c328f3d816c9dddf9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f11:1": {
+   "en": "night of Dan half",
+   "notes": "Uncertain elements include the first character 'ε', the particle 'א', and the final segment 'ן#?'. The word 'שביע' has no trusted gloss and its meaning is unclear.",
+   "line_id": 7272,
+   "source_hash": "52e5831dd9952f681f3383b135cdabe4f752f0ec54f5df2cdfa26b5b017534b0",
+   "source_condition": "uncertain"
+  },
+  "4Q209 f11:2": {
+   "en": "went out and ruled",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The translation reflects the recoverable verbs 'went out' (נפק) and 'ruled' (שלט), both in the perfect tense. The conjunction 'and' (ו) is reconstructed. Uncertainty remains due to the fragmentary state of the text.",
+   "line_id": 7273,
+   "source_hash": "d95b03f934d209848df15c2a8263c36e8a9930bbd35b5a0489256a85f7bd68ba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f12:1": {
+   "en": "in adders of Dan",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 7274,
+   "source_hash": "3a02a09af8d90ed8367e9e74874f278557247da9a4a0ae625d5fc6eaeea872ed",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f12:2": {
+   "en": "And he fired",
+   "notes": "The verb 'אניר#[ε' is reconstructed and uncertain, with the gloss 'fire' suggested for the root 'נור'. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 7275,
+   "source_hash": "78d5537004e7e5051a7f6d58b8c671f60495afe14b913df7ec469a45ad774657",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f12:3": {
+   "en": "In adders of Dan",
+   "notes": "The transcription contains uncertain characters (ε, ׃) and a reconstructed word (יממ[). The particle 'א' has no trusted gloss, so its function is unclear. The translation reflects the recoverable lexical items in order, but the overall meaning remains uncertain due to the damaged state of the text.",
+   "line_id": 7276,
+   "source_hash": "b467ed92fc883b0d8cda926e38eb99fda790bbc663dda93211f14224459be4e9",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f13:1": {
+   "en": "and he fired in the night",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed word (לילא#[), indicating uncertainty. The translation reflects recoverable content conservatively.",
+   "line_id": 7277,
+   "source_hash": "dbcae3adfb8e3dd1491133f49159eae608d496dcad726ca838ee84f1826b47e7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f13:2": {
+   "en": "five and half",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the numeral 'five' and the noun 'half'. The particles 'and' and the final punctuation mark are also present but not fully recoverable. The translation reflects the visible lexical items, with uncertainty noted.",
+   "line_id": 7278,
+   "source_hash": "5b779daebddfb7af9b458a85442a3718ef31854eaf812278f9f8de1458191de8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f14:1": {
+   "en": "the rest of the adders of Dan",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the initial and final characters (ε) which are omitted from the translation. The word 'שְׁאָר' is reconstructed and uncertain, translated as 'rest'. The particle 'א' has no trusted gloss and is omitted.",
+   "line_id": 7279,
+   "source_hash": "42ce4b6397829e9cb518a4d62de461bb2ee046fe5620e459a7ca3cf28d588646",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f14:2": {
+   "en": "and he gathered from the light",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed term (נ[ הור׳ה). The verb 'בציר' is translated as 'gathered' based on the provided gloss, though its exact sense is uncertain.",
+   "line_id": 7280,
+   "source_hash": "e1c6c0a0996baaddceb514d64fc18ab407bf28ad4239690b423177ea496a718c",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f14:3": {
+   "en": "adders of Dan [no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed word (שביע[ ין) with no trusted gloss. The translation retains recoverable words 'adders of Dan' and marks the unrecoverable portion as '[no recoverable text]'",
+   "line_id": 7281,
+   "source_hash": "99e6aa318e6f23cbaf5b8a48a6df5f2a87c03f7e7e209c6907847ec02b1e7cbf",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f14:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain reconstructions, with no defensible English words surviving.",
+   "line_id": 7282,
+   "source_hash": "e6541f6114dd2225ef80623c1eb8f83098e940006968a3272f847bfec93f1ec6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f15:1": {
+   "en": "Three and the sevens went out",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form and unknown characters. The translation reflects recoverable words in order, with 'ε' omitted as untranslatable. The verb 'נפק' is reconstructed and uncertain, translated as 'went out' based on its lexical gloss.",
+   "line_id": 7283,
+   "source_hash": "f30e11ec30668ee38562cd8d45a5c4ad46d36e223fdf560b822d06722cdf8fd6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f15:2": {
+   "en": "and he collected in adders of Dan",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed particle (א[). The translation reflects recoverable words in order, omitting unsupported elements.",
+   "line_id": 7284,
+   "source_hash": "509b52ec342de1699a0df815c317261037ee1310c41790232df4b16409782f4c",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f15:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε,  #  #, ש[, ׃) with no clear lexical or grammatical meaning. The only reconstructable element (ש[) suggests a relative particle, but it lacks context for translation. No defensible English words survive.",
+   "line_id": 7285,
+   "source_hash": "c942d8694900de201b9483ef56975627d6e4c4737dd87e9c3366747b85b24b46",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f16:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic or Greek lexical units. The visible characters are either damaged, uncertain, or untranslatable fragments.",
+   "line_id": 7286,
+   "source_hash": "3f12c110b74bdf41f587cd2382fb1902b21fc5a841a05bbdf1f5c8406575599c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f16:2": {
+   "en": "In adders of Dan the seventh and then he stood bail and he dealt with the door of the third and covered the rest",
+   "notes": "Several words are uncertain or reconstructed, including the preposition 'in', the noun 'adders', the adjective 'seventh', the verb 'stood bail', the noun 'door', and the noun 'rest'. The particle 'א' is untranslated due to uncertainty. The symbol 'ε' and the punctuation marks '׃' are omitted from the translation as they cannot be independently translated.",
+   "line_id": 7287,
+   "source_hash": "ff31cfda577c51dd946d479a3ddbf746844418875dc0e3790f498938f24347ee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f16:3": {
+   "en": "Adders of Dan, sevens and in night and twenty in its cover sevens and he gathered",
+   "notes": "The translation includes reconstructed and uncertain elements. The term 'שביעין' is of unclear meaning, and the fragment's syntax is incomplete. The verb 'בציר' has multiple possible senses, and the overall structure is fragmented.",
+   "line_id": 7288,
+   "source_hash": "e1251cb06901373b33297ea15fddccdf47d3b0c166fc368d299aa4167cacac69",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f16:4": {
+   "en": "From the light of the seventh, and went out from the door of the third, and he burned in the rest of the night of Dan",
+   "notes": "The translation includes reconstructed and uncertain elements. The word 'שביעין' is translated as 'the seventh' based on context, but its exact meaning is unclear. The particle 'ε' and the punctuation mark '׃' are omitted as they cannot be translated independently. The word 'אנ[ יר' is reconstructed as 'he burned' based on the lemma 'נור' and the morphology 'vAp3ms'.",
+   "line_id": 7289,
+   "source_hash": "e5b6c75a737b0366bf26ada0b9ca318e56c33788d4f7afe629be7aee74ae1829",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f16:5": {
+   "en": "And he collected in the day of Dan, the sevens, and half of the sevens, and in the evening he dealt with",
+   "notes": "The translation includes reconstructed and uncertain elements, particularly around the damaged and unclear portions of the text. The phrase 'שביעין' (sevens) is repeated with uncertain meaning, and the particle 'ε' and other damaged characters are omitted from the translation. The verb 'על' is translated as 'deal with' based on the provided gloss, but its exact sense is unclear. The overall structure is fragmented, and some elements are speculative due to the condition of the manuscript.",
+   "line_id": 7290,
+   "source_hash": "0b2ef3a76fe8b8ba3720e3b720c502d780b57b5e30ad4ff77810671a93de0a80",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f17:1": {
+   "en": "one and in then",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed word (אד[ ין). The final punctuation mark (׃) is omitted from the translation.",
+   "line_id": 7291,
+   "source_hash": "419efe04ac8f48beb3e9ef51e568527f653ba3eb0ff0585694ef8f67b3b58987",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f18:1": {
+   "en": "covering the [seventh]",
+   "notes": "The final characters 'יעיןε׃' are uncertain and not translated. The word 'ש[ ביעין' is reconstructed and its gloss is unclear, but 'seventh' is a plausible interpretation based on the visible form.",
+   "line_id": 7292,
+   "source_hash": "bc40d51056da854e94b582901c558ab95ffd07468d41bbc0701372fafcf4896e",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f19:1": {
+   "en": "He stood bail and dealt with and covered",
+   "notes": "The translation includes all recoverable words in order. The first character 'ε' and the final 'ε' are omitted as they cannot be translated independently. The reconstruction and uncertainty are noted but not bracketed in the translation.",
+   "line_id": 7293,
+   "source_hash": "2bb336e7d17607286b6bafd92d7e7f09e0907761f481ca34bd662e6a2c8eed70",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f19:2": {
+   "en": "[no recoverable text]",
+   "notes": "The line contains heavily damaged and uncertain fragments with no defensible English translation. Visible forms include partial or uncertain characters (ε, ]ן#, ש#ת#ה#, ו?, ב#, ל#[, ילא, ε, ׃) without sufficient context to reconstruct meaningful content.",
+   "line_id": 7294,
+   "source_hash": "1071311890b553254049e4e18fc4bf3295f0f7871cc5d064b2e314ad38fbd30e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f20:1": {
+   "en": "in the night",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a relative particle and unknown characters. The translation reflects the recoverable words 'in' and 'night', with uncertainty noted.",
+   "line_id": 7295,
+   "source_hash": "72de1e17c6ae673067bc32d28e1c2cad1e48ff1541fd6e60d04ac354296f69de",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f20:2": {
+   "en": "In adders of Dan his weeks",
+   "notes": "Uncertain reconstruction and gloss for 'שב#[ יעין'; 'ε' and '׃' omitted as untranslatable; 'א' gloss unclear but retained as 'his' based on morphology.",
+   "line_id": 7296,
+   "source_hash": "d41d84704a152dda0dbd74baf1bdfb740080d34fe0c49a26d0a4b8b76443125b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f21:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain characters, with no recoverable lexical items that can be confidently rendered into English.",
+   "line_id": 7297,
+   "source_hash": "e3aa2877ac80a921d442558155869960075aa9b1e993ecc957f9ae38015ac078",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f22:1": {
+   "en": "And he fired in the night five by two in seven",
+   "notes": "Uncertain reconstruction and glosses for positions 1, 6, 7, and 8. Position 1 is omitted due to unknown meaning. Phrase evidence supports 'five by' and 'in seven' for positions 6-7 and 7-8 respectively.",
+   "line_id": 7298,
+   "source_hash": "b8a7c36df3096d79c979e21fe1cd6306347ee29b519bb9c389106bd8d566478e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f22:2": {
+   "en": "And half. And in then he stood bail and he dealt with. And he took the rest of the night of Dan of the sevens four and half. And he waited for in adders of Dan of the sevens",
+   "notes": "The translation contains several uncertain or reconstructed words, including '[ ו' (position 1), '׃' (positions 3, 10, 21), and ']פ##לג' (position 20). The lexical glosses for some words are also uncertain, such as '׃' (positions 3, 10, 21) and 'א' (positions 15, 26). The phrase 'שביעין' (positions 17, 28) has an uncertain gloss, and its meaning is unclear. The word 'יממ' (position 25) is translated as 'adders', but its context is uncertain.",
+   "line_id": 7299,
+   "source_hash": "783f251ec064a5143c60c54e93ec64cf2f7d7542766994868714bc41ee9ec006",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f22:3": {
+   "en": "Three, and he placed in light, sevens, three, and then went out and ruled in the rest of the days of Dan, sevens, four.",
+   "notes": "The phrase 'at the river' and 'they compare with' are suggested by repeated phrase evidence but do not fit the context. The translation follows the visible transcription and morphology. Uncertainty in the reconstruction of 'שב##[ יעין' is noted.",
+   "line_id": 7300,
+   "source_hash": "ac2795913dcb5aeaa8b3b3432292be4dacc7398f69fb86d68cbe04f7a1a5d7bf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f23:1": {
+   "en": "and destruction and they were completed",
+   "notes": "The transcription contains untranslatable fragments and uncertain reconstructions. The translation reflects only recoverable lexical items. The term 'חרבן' is translated as 'destruction' based on its morphology and context, though its gloss is uncertain. The verb 'שלמו' is rendered as 'they were completed' based on its perfect tense and third-person plural form.",
+   "line_id": 7301,
+   "source_hash": "4bf7ad37db10d0762e5072b88abc09a684e67145d636f6618f0539a3608c7e05",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f23:2": {
+   "en": "Two tens, doors, four winds of the heavens, its well-being and its interpretation, I have seen for a son of Methuselah",
+   "notes": "Uncertain reconstruction in 'heavens' and 'I have seen'; phrase evidence supports 'two tens' and 'four winds of the heavens'; 'son' is a possible gloss for 'bar' in this context.",
+   "line_id": 7302,
+   "source_hash": "82fefcee138cab7f1e6693dd630ac306a8f084a1c730175490aabf82db7b5e91",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f23:3": {
+   "en": "And they meet to the east, to the east in which he is first, and they meet to the south, to the south of tin, to dwell much",
+   "notes": "Uncertain elements include the reconstruction of 'first' (position 10), the meaning of 'tin' (position 18), and the suffix in 'in' (position 25). The translation conservatively follows the visible morphology and lexical glosses, omitting unsupported connectors and possessives.",
+   "line_id": 7303,
+   "source_hash": "62041ff62a172e55cbae3fcde344ba9071c5119d01ebfad0acf945e46f094b91",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f23:4": {
+   "en": "from eternity and to the great wind of the west in it",
+   "notes": "Uncertain elements include the damaged preposition 'מ ]ן#?' and the relative particle 'די'. The transcription contains untranslatable characters and damage, with some words reconstructed or uncertain.",
+   "line_id": 7304,
+   "source_hash": "0a144d021341e18b872b7bacbaaa1e5c78733f720013aeea7b9eb9b4240000de",
+   "source_condition": "uncertain"
+  },
+  "4Q209 f23:5": {
+   "en": "You come, stars of heaven, a hundred standing bail, a hundred dealing with, and all of them stars, and in this meeting at sunset.",
+   "notes": "The transcription contains uncertain and reconstructed elements, particularly in positions 2 and 18. The translation conservatively follows the visible morphology and lexical glosses, with 'standing bail' and 'dealing with' reflecting possible senses of 'ערבין' and 'עללין' respectively. The phrase 'in this meeting at sunset' is a paraphrase based on available evidence, retaining grammatical structure and semantic relationships.",
+   "line_id": 7305,
+   "source_hash": "3d47396b12ec5655e76f1c207291c2d998fce0d5f4a946e994b24dcc9d4d2dca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f23:6": {
+   "en": "And to the north in which they hide and gather and go about the whole of the heavens and go to the places of rest of the heavens.",
+   "notes": "The translation includes reconstructed and uncertain words. The phrase 'every raven' is a repeated phrase evidence but does not fit the context, so it was not used. The meaning of some words remains uncertain, and the text contains damage, particularly at the end.",
+   "line_id": 7306,
+   "source_hash": "3dcc2e6beb5ffbced8b2a2092c9816fcaf01c6613958ae138344d570c758a6f2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f23:7": {
+   "en": "And to the ruler in that from there of the vessels of heaven. And even in the sunrise of a hundred [no recoverable text].",
+   "notes": "Uncertain elements include the meaning of 'מדנח' and 'ת#מן', the reconstruction of '[ י ]ן#?', and the interpretation of 'זרחי?ן#?'. The translation conservatively omits unsupported elements and retains visible lexical items.",
+   "line_id": 7307,
+   "source_hash": "5b6b4b1c0adaedbf20c93e2bbc6be3d31b03f9488a4ac892196ef1eea14d7e40",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f23:8": {
+   "en": "And I saw three earths, one from them to speak in the sons of man, and one from",
+   "notes": "Uncertain fragments reconstructed as '[and]' and '[from them]' with low confidence. The phrase 'the sons of man' is supported by repeated evidence but its exact relationship to surrounding words is unclear. The final preposition 'from' is incomplete and its object is uncertain.",
+   "line_id": 7308,
+   "source_hash": "71db5ee07cd66cdbf8539be6afca4047bddc89ee0050e7fd94f1d9d57e996470",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f23:9": {
+   "en": "And one from them to the desert-dwellers and to seven in the park of truth",
+   "notes": "Uncertain reconstruction and glosses for several words; 'מדברין' and 'קושט' have no trusted gloss.",
+   "line_id": 7309,
+   "source_hash": "53d250e2a0cb359341bf2bd9e906d4b729a31b7275cb168c8d85f0e1769b6a8e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f23:10": {
+   "en": "And I saw seven rows of Ram from the whole [of the rows] that are upon the world, and will he come down on their snow.",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'will he come down on' is supported by repeated phrase evidence. The particle 'א' and the character 'ε' are omitted from the translation due to uncertainty and lack of independent translatability.",
+   "line_id": 7310,
+   "source_hash": "5a4e310767fe7396a5e815d3a0871f67e9daa51ea86323280161a45eef968eb7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f24:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains damaged and uncertain fragments with no clear lexical or semantic content. The phrase evidence 'light up for' is not supported by the visible morphology or recoverable words. No defensible English translation can be constructed from the provided data.",
+   "line_id": 7311,
+   "source_hash": "9e9d5eadfa15dd9d01cf65743170b139d8a6cfbece6c2785cc620364730b105f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f24:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]א##ת##[, ׃) with no clear lexical or grammatical meaning. The reconstructed element ]א##ת##[ is speculative and lacks context. No defensible English translation can be derived from the surviving material.",
+   "line_id": 7312,
+   "source_hash": "e154b1f35aec4dd109b7ad04ad2d72f0adceadd796d4e9689008a75ae6df249e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f25:1": {
+   "en": "years to",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged preposition (ל##). The translation reflects recoverable words 'years' and 'to', with uncertainty noted.",
+   "line_id": 7313,
+   "source_hash": "a12463b2db2e9b83a6ffeca38d0b8c211837b53ab3166766bc6f4950a7b9472f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f25:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of two untranslatable Greek letters (epsilon) in an Aramaic context, with no recoverable lexical content.",
+   "line_id": 7314,
+   "source_hash": "e38f3f52c412a3a3116450d406e07e57b6306899a4ef8dc65b31381f0a870785",
+   "source_condition": "clean"
+  },
+  "4Q209 f25:3": {
+   "en": "I have seen another that goes away",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character at the start and a damaged word 'ח ]ש##בון'. The phrase 'אחזית ל׳ה די' is translated based on repeated phrase evidence as 'they have seen for', but the context here suggests a first-person singular interpretation. The final 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 7315,
+   "source_hash": "2ea0f4039a78a8f56d2df307b6de3e7b55de2a89384981741706ee00913405c3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f25:4": {
+   "en": "to new",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The word 'חדשׁ' (new) is partially recoverable, but the surrounding context is unclear. The preposition 'ל' (to) is reconstructed. Other characters (ε, ׃) cannot be translated independently and are omitted. Uncertainty is high due to fragmentary state.",
+   "line_id": 7316,
+   "source_hash": "14d57bfc974a7f2c278da9c2d3a9aa6937631b2578d6434f4b5b240002d7dd8d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f26:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (ε, #) with no recoverable lexical content. No defensible English translation is possible.",
+   "line_id": 7317,
+   "source_hash": "c17547b6f7041592237b62cf1fdf43111e26a546ec8629d7962c4b986cff5eae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f26:2": {
+   "en": "[no recoverable text]",
+   "notes": "The line contains untranslatable fragments, reconstructed and uncertain elements, and no coherent recoverable text.",
+   "line_id": 7318,
+   "source_hash": "48f6bb29afeea69c7089f7a09ea85db2f117cc7c914ec1e67d91d3b1f57526c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f26:3": {
+   "en": "Seventy weeks and twenty and two days and lacking from the word of the sun",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character 'ε' and a damaged final word. The translation conservatively reflects recoverable content without speculative additions.",
+   "line_id": 7319,
+   "source_hash": "7e29de7fec074a8021ddf3f00f1bf6274927c14213cb72584695dacf94543e7d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f26:4": {
+   "en": "in as image vision? resembling in light in the light",
+   "notes": "Uncertain transcription and reconstruction at multiple points. No recoverable text for initial and final fragments. Phrase evidence partially supports 'in the light' but is not definitive.",
+   "line_id": 7320,
+   "source_hash": "61a6560a9734b601d84b2c531faaa5ed0de22612ec28b482168efccc4873758f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f26:5": {
+   "en": "In the night from the end, resembling a vision of Dan, like the form of mankind, and in adders from the end",
+   "notes": "Uncertain elements include the transcription and lemma of the first and last characters, the lemma of the second character, and the reconstruction of 'from' at the end. The lexical gloss for 'דמות' is unclear, and 'אנש#' is reconstructed with uncertainty.",
+   "line_id": 7321,
+   "source_hash": "51d39ec4b5e6cc3494a4d31e693043e8c9546e367b4a8bcc010529525a046f1c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f26:6": {
+   "en": "Light his uniqueness and now make known I to a son",
+   "notes": "Uncertain elements include the meaning of 'בלחוד׳הי' and the function of the Greek letter epsilon (ε) at the beginning and end of the line. The phrase 'ל׳ך בר׳י' is translated based on repeated phrase evidence as 'to a son', though 'בר׳י' could also mean 'grain' or 'open field'.",
+   "line_id": 7322,
+   "source_hash": "f3adfa60077b68476652c99a15b159fae8170f6ccfc1737db54fe5f07ce19f5f",
+   "source_condition": "clean"
+  },
+  "4Q209 f26:7": {
+   "en": "account brother and he made known",
+   "notes": "Uncertain transcription and reconstruction in 'account' and 'he made known'. The final 'ε' and '׃' are omitted as they cannot be translated independently.",
+   "line_id": 7323,
+   "source_hash": "e4b5623c2396ba3d2e977fd30db0fb9e0a402f217e5adfaccd8ca0654dce4f08",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f27:1": {
+   "en": "end a",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged 'end' and an uncertain particle 'a'. The initial and final characters are untranslatable and omitted.",
+   "line_id": 7324,
+   "source_hash": "3447f19f12e5d9b9c71b0e2a641d50b71c0d2b2fe9e33bd049b0c512268565ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f27:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of two untranslatable characters (ε) with no recoverable lexical content.",
+   "line_id": 7325,
+   "source_hash": "7045752f2fe73ac7302033747909106bef23d339d45b67f010c6973ac17e7ee3",
+   "source_condition": "clean"
+  },
+  "4Q209 f27:3": {
+   "en": "account end",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The term 'חשבון' is translated as 'account' based on its visible form, but its exact meaning is unclear. 'סֹוף' is translated as 'end' based on its lexical gloss, though its reconstruction is uncertain. The other elements (ε, ː) are untranslatable and omitted.",
+   "line_id": 7326,
+   "source_hash": "2e2daac24c8a09abf76ff4cf724bdb4489d941b9de87c95b4ba7827b4019b58d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f28:1": {
+   "en": "to their appointments, to their new things, to their banners",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged conjunction (ו#?[). The translation reflects recoverable words in order, omitting untranslatable characters and preserving uncertainty in notes.",
+   "line_id": 7327,
+   "source_hash": "24474c2be843d8fbe43b9c1b16ebeb6de2db88a2ef7c7408cee2d1722e928cb2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f28:2": {
+   "en": "and as an official to the whole of their tradition four",
+   "notes": "Uncertain reconstruction of 'official' and 'four'; no trusted gloss for the first and last characters; 'tradition' is a tentative translation of an uncertain term.",
+   "line_id": 7328,
+   "source_hash": "4842baa1fb55ae53de466de3141bcbced30054dcca2fcfbeaf545a4aae4e82ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f28:3": {
+   "en": "heads which",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The word 'ראשין' (heads) is clear, but the surrounding text is fragmentary. The relative particle 'דִּי' (which) is partially reconstructed. The preposition 'ל' (to) and other elements are uncertain. Translation conservatively focuses on recoverable content.",
+   "line_id": 7329,
+   "source_hash": "2bff724d38c7275a9b3fe573ceb7c898b194e1e5a14bb9650398fd6fccf515f9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f28:4": {
+   "en": "explaining in days",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed word (י[ ומין from יֹום). The translation reflects recoverable content conservatively.",
+   "line_id": 7330,
+   "source_hash": "5b0239b06930437d012b13a9aa311f71b5bee4338bf96d9e6e3c36c90b3ed6e2",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f28:5": {
+   "en": "and these names",
+   "notes": "Translation is uncertain due to damaged and reconstructed text. The word 'א ]ל##ן#?' is a damaged form of 'אִלֵּין' (these), and 'שמהת#[' is a reconstructed form of 'שֻׁם' (name). The symbols 'ε' and '׃' are untranslatable and omitted.",
+   "line_id": 7331,
+   "source_hash": "4f62987682c5e21936b7d6368a3b9f08b544068bf37fbb830810600abab4f75b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f29:1": {
+   "en": "two",
+   "notes": "The transcription is heavily damaged, with only the reconstructed word 'תְּרֵין' (two) recoverable. The surrounding characters (ε) are untranslatable and likely represent damage or editorial marks. The uncertainty in the reconstruction is noted.",
+   "line_id": 7332,
+   "source_hash": "7cbd7a67b779248642a635f4a2b583a3c3440237a0cbaf156ac96f5793b99ddd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f29:2": {
+   "en": "seventh four",
+   "notes": "Uncertain transcription and reconstruction. The translation reflects recoverable lexical items without speculative additions.",
+   "line_id": 7333,
+   "source_hash": "8d767002aa6c75ba2f7cd2b6b8590c36dddfe27da9a0c209f2c88b186db4174c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f29:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible characters include Greek epsilon (ε), Hebrew ayin (ע), and punctuation marks, but no coherent lexical units survive.",
+   "line_id": 7334,
+   "source_hash": "276635951399a7e00d41fc042ca10a971c8bc1b676519ddd6f2e90ff48888ef0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f30:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged Hebrew/Aramaic word (]שביעין[), with no clear context or recoverable meaning.",
+   "line_id": 7335,
+   "source_hash": "847013b2d2d4e1d050480769d7e1d12b47fee283934376edcd042667cda303ec",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f31:1": {
+   "en": "adders Dan",
+   "notes": "The transcription contains untranslatable characters (ε, ː) and an uncertain particle (ָא). The translation reflects only the recoverable lexical items 'adders' and 'Dan'.",
+   "line_id": 7336,
+   "source_hash": "23c791f66c200fc3964bf4800e7a9cd0763761ad2fab5f8904340bf00839f42e",
+   "source_condition": "clean"
+  },
+  "4Q209 f32:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, including reconstructed and unidentifiable characters (ε, ]שביע#[, ׃). No defensible English translation can be derived from the surviving material.",
+   "line_id": 7337,
+   "source_hash": "e6016a51ceb6aae1dd9067e029a8c2153f4ebf274bd767439ca07f0c2ffe8ecc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f33:1": {
+   "en": "Three and he was like in light sevens three and in then went out and ruled in rest of adders of Dan sevens four",
+   "notes": "Uncertain terms and syntax due to damaged transcription. Phrase evidence partially applied but context remains ambiguous. Omitted untranslatable characters and uncertain elements without brackets or placeholders.",
+   "line_id": 7338,
+   "source_hash": "9c77506da8aadd5d7ecd30b7700ae749b2bdb4d93c8afa68e2af74c8d210e027",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f33:2": {
+   "en": "And he fired in the night of Seth in the three sevens. And then he stood and dealt with the door. And he received the rest of the nights of Dan of sevens",
+   "notes": "The translation includes uncertain elements due to ambiguous or unknown lexical items, particularly 'שביעין' and 'ε'. The phrase 'in the night of Seth in the three sevens' is a conservative rendering of the reconstructed and visible elements, though the exact meaning remains unclear. The word 'ε' is omitted from the translation as it cannot be independently translated.",
+   "line_id": 7339,
+   "source_hash": "9213aed8a8be3cb170ea7b80919e607d758e527911839b19cdf90a8f5e1da3f3",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f33:3": {
+   "en": "Four and he waited in adders of Dan three and a half and he placed in light three and a half and then he went out",
+   "notes": "Uncertain terms and reconstructions are present in the source, particularly around the phrase 'three and a half' which may be incomplete or damaged. The phrase 'in adders of Dan' is unclear and may require further context for accurate translation. The term 'light' is uncertain and may have a different meaning in this context.",
+   "line_id": 7340,
+   "source_hash": "128af6196ec92eddf1094f45a869b86743c6774d6e3d19980d84e191949a805d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f34:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters with no clear lexical or semantic recoverable content. All words are marked as uncertain or reconstructed, with no trusted glosses available.",
+   "line_id": 7341,
+   "source_hash": "c1304f3179d5d3a63ea8a5b0730e25fd2a181522fd7deb20857b40ed4fd35c6c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f34:2": {
+   "en": "sun in",
+   "notes": "The transcription contains uncertain and unknown elements, including damaged characters and unclear morphology. The word 'שמש' is translated as 'sun' based on its lexical gloss. The particle 'ב' is translated as 'in' based on its lexical gloss, though its position and reconstruction are uncertain. Other elements, including 'ε', ']ע##חד', and '׃', are omitted due to insufficient evidence for translation. The phrase 'in' is retained as it aligns with the lexical gloss of 'ב', but its context is unclear.",
+   "line_id": 7342,
+   "source_hash": "85d51f2cbe0f6d24d2c9062162a3087af2bea79a949f0d6b7c21450779f9bc38",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f35:1": {
+   "en": "and she dealt with the sun",
+   "notes": "The transcription contains uncertain and unknown characters, including a Greek epsilon (ε) and a damaged Hebrew conjunction (ו?). The verb 'עלת' is translated as 'dealt with' based on the provided gloss, but its exact sense is uncertain. The noun 'שמש' is clearly 'sun'. The final particle 'א[' is reconstructed but its function is unclear.",
+   "line_id": 7343,
+   "source_hash": "209da76518c97cf54e1c9554fe80106592246de668999493d3d93a25dc043b94",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f35:2": {
+   "en": "night",
+   "notes": "The transcription is heavily damaged, with only the word 'night' recoverable. The other characters are uncertain or untranslatable.",
+   "line_id": 7344,
+   "source_hash": "33e5bb6dd6342c18e7c6d48d44fc63243ef519f4189e671129b1048fde83751d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f36:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain fragments, with no defensible English words surviving.",
+   "line_id": 7345,
+   "source_hash": "7dff2bee6fa9c9bc3133bdf563f8de363d9065a97029694672cbc118d6285c48",
+   "source_condition": "uncertain"
+  },
+  "4Q209 f36:2": {
+   "en": "one and",
+   "notes": "The transcription contains untranslatable characters and a reconstructed particle. The translation reflects recoverable words only, omitting uncertain elements.",
+   "line_id": 7346,
+   "source_hash": "113001d0bfcaf439adc9271e6ddf4eec851e356a9cf12aeb157fba9ce417512b",
+   "source_condition": "reconstructed"
+  },
+  "4Q209 f37:1": {
+   "en": "which covers",
+   "notes": "The translation is based on the phrase evidence for positions 2-3, with a dominant contextual rendering of '[which] covers'. The first and last characters are untranslatable fragments, and their uncertainty is noted here.",
+   "line_id": 7347,
+   "source_hash": "94660900d13e616ac09879f4d232210cd4f71170de442edab4bd658a097ed291",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f37:2": {
+   "en": "night of Dan",
+   "notes": "The transcription contains uncertain and unknown elements, including a possible particle 'א' and untranslatable characters 'ε' and '׃'. The word 'לֵילֵי' is reconstructed and uncertain, but its gloss 'night' is used. The adjective 'דֵּן' is translated as 'Dan'.",
+   "line_id": 7348,
+   "source_hash": "04d71cd16f4813079522107038d20c3e31ff2f06950603c81a27140cd775046b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f38:1": {
+   "en": "in night five",
+   "notes": "Uncertain transcription and reconstruction of 'night' and 'five'; punctuation mark and other characters omitted as untranslatable.",
+   "line_id": 7349,
+   "source_hash": "848c8e7a626f7935382ae83fd792264f6db5727db67d5285da10fd538b4f56cc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f39:1": {
+   "en": "whole in places",
+   "notes": "The transcription is heavily damaged and uncertain. The translation retains recoverable words but omits unsupported elements. Uncertainty in the source is noted but not bracketed in the translation.",
+   "line_id": 7350,
+   "source_hash": "6444a3aff638aa9b2153401362a9ad5edc54e1762d118462e8fbcc91423daffe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f39:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew. All visible characters are either untranslatable or uncertain, with no recoverable meaning.",
+   "line_id": 7351,
+   "source_hash": "a42ee81a39d92941beecdf45e460f96a19b0a69966766cc3151f0fbb8ebbc4b3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f40:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, #, כ#ש#[, ׃) with no clear lexical or semantic content. No defensible English translation can be derived from the surviving material.",
+   "line_id": 7352,
+   "source_hash": "5b72295a3f5b828821498ed70bd90f8498ca49a03a0c74fc0ef406202d3ab40f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q209 f41:1": {
+   "en": "in night",
+   "notes": "The transcription contains uncertain and unknown elements, including a reconstructed word 'לילי' (night) and multiple untranslatable characters (ε, ː). The translation reflects only the recoverable content.",
+   "line_id": 7353,
+   "source_hash": "d14372e93b6f57cd70b5587f27cf8a48a9243a2a5bcf8f5ff61d090dad3d63b4",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}
