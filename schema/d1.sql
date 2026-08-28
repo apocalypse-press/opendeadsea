@@ -1,6 +1,7 @@
 -- ARCH-DSS-2026-CF-FREE trust store
--- D1 holds reputation, tier, academic flags, and votes only.
--- Corpus text stays in Git. Official plates are outbound links only.
+-- D1 holds contributor identity, trust state, suggestions, comments, reviews,
+-- and public desk events. Corpus text stays in Git. Official plates are
+-- outbound links only.
 
 CREATE TABLE IF NOT EXISTS users (
   user_id           TEXT PRIMARY KEY,

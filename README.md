@@ -33,9 +33,11 @@ work.
 ```text
 site/                     Cloudflare Pages (lander + page templates)
 functions/                GitHub OAuth + D1 suggestion/review API
-schema/d1.sql             Reputation and votes
-schema/fragment.schema.json
-corpus/fragments/         Diplomatic JSON (Git is source of truth)
+schema/                   D1 and corpus contracts
+corpus/mss/               Canonical generated manuscript records
+corpus/translations/      Machine-draft packs and public queue
+corpus/fragments/         Diplomatic JSON contract fixtures
+site/m/                   Exact generated manuscript/chapter presentation
 docs/AUTH.md              How to drop App secrets later
 docs/UI-TEMPLATES.md      Page kinds
 docs/CODETREE-AND-CLOUD.md  Imports + Cloudflare/GitHub map
@@ -62,8 +64,11 @@ node scripts/test_diagram.mjs
 ```bash
 export CLOUDFLARE_API_TOKEN
 export CLOUDFLARE_ACCOUNT_ID=0008b5fcd92c808c166ce6fb25c4a12f
-# Deploy from the repo root so /functions ship with site/.
-npx wrangler pages deploy --project-name=opendeadsea --commit-dirty=true
+# Run from a clean repository root so Wrangler also compiles /functions.
+sha="$(git rev-parse HEAD)"
+npx wrangler pages deploy site --project-name=opendeadsea --branch=main \
+  --commit-hash="$sha" --commit-message="$(git log -1 --pretty=%s)" \
+  --commit-dirty=false
 ```
 
 Local:

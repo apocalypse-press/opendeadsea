@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opendeadsea.org/schema/manuscript.schema.json",
+  "title": "Open Dead Sea manuscript index record",
+  "type": "object",
+  "required": ["id", "label", "path", "languages"],
+  "additionalProperties": true,
+  "properties": {
+    "id": { "type": "string", "minLength": 1, "pattern": "^[A-Za-z0-9._+-]+$" },
+    "label": { "type": "string", "minLength": 1, "description": "Official siglum from ETCBC/dss (scrolls.label)." },
+    "name": { "type": "string", "description": "Familiar English name when one is established. Empty otherwise." },
+    "provenance": { "type": "string" },
+    "biblical": { "type": "boolean" },
+    "languages": { "type": "array", "items": { "type": "string" } },
+    "fragment_count": { "type": "integer", "minimum": 0 },
+    "line_count": { "type": "integer", "minimum": 0 },
+    "word_count": { "type": "integer", "minimum": 0 },
+    "lines_with_text": { "type": "integer", "minimum": 0 },
+    "iaa_url": { "type": ["string", "null"] },
+    "museum_url": { "type": ["string", "null"] },
+    "path": { "type": "string", "pattern": "^/m/" }
+  }
+}

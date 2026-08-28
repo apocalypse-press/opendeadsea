@@ -1,0 +1,9 @@
+# Local only. Copy to .dev.vars (gitignored). Never put these in chat or email.
+# AUTH_ALLOW_MOCK=1 lets /auth/mock set a fake session for UI work.
+# Leave AUTH_ALLOW_MOCK unset in production.
+
+# AUTH_ALLOW_MOCK=1
+# GITHUB_CLIENT_ID=
+# GITHUB_CLIENT_SECRET=
+# SESSION_SECRET=
+# OAUTH_REDIRECT_URI=http://127.0.0.1:8788/auth/callback

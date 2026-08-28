@@ -16,14 +16,17 @@ is at the bottom. Tree, imports, and cloud bindings:
 | 2 | Peer reviewer | GitHub OAuth plus reputation above 500 or academic verification | Vote on PRs. Trigger preview builds. Two Tier 2 approvals merge a Tier 1 PR. |
 | 3 | Maintainer | SSH key listed in CODEOWNERS | Emergency hotfix, trust override, write to `main`, academic verification. |
 
-## Edit pipeline
+## Public edit pipeline
 
-1. Contributor clicks Suggest Edit on a line or token.
-2. GitHub App user-to-server token opens a PR under that user. PR body carries reputation, change summary, fragment ids.
-3. `pr-validation.yml` checks fragment JSON schema, posts a trust badge, posts a diff preview, applies anti-abuse checks.
-4. Quorum (2x Tier 2 or 1x Tier 3) merges. Actions rebuild Pages.
+1. A reader clicks **Improve translation** on one machine-draft line.
+2. GitHub OAuth identifies the contributor; the suggestion is saved to D1.
+3. Editors comment and review it in the public desk.
+4. An accepted suggestion is applied to the Git translation pack, validated,
+   committed, and deployed.
 
-No Cloudflare Worker is required to create the PR.
+The first three steps are live. Step four is currently a maintainer operation.
+A GitHub App/PR bridge is optional later automation, not a dependency of the
+public correction loop.
 
 ## Trust storage
 

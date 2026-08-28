@@ -1,7 +1,7 @@
 function params() {
   const search = new URLSearchParams(location.search);
   return {
-    fragment: search.get("fragment") || "1QIsa-a-40-3-sample",
+    fragment: search.get("fragment") || "",
     token: search.get("token") || "0",
     mss: search.get("mss") || "1Qisaa",
     line: search.get("line") || "",

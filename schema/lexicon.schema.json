@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opendeadsea.org/schema/lexicon.schema.json",
+  "title": "Open Dead Sea lexicon record",
+  "type": "object",
+  "required": ["id", "form", "language", "gloss"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9._:-]+$",
+      "description": "Academic morph code, the primary id. SBL-style consonantal transliteration of the lemma (e.g. qol, qara, YHWH). Not a Strong's number."
+    },
+    "form": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Consonantal Unicode lemma in Hebrew or Aramaic script."
+    },
+    "language": {
+      "type": "string",
+      "enum": ["hebrew", "aramaic"]
+    },
+    "pos": {
+      "type": "string",
+      "description": "Morphological class of the lemma (noun, verb, particle, adverb, properNoun...)."
+    },
+    "gloss": {
+      "type": "string",
+      "minLength": 1,
+      "description": "One-line gloss. Public-domain dictionaries only (BDB 1906 for Hebrew, Jastrow 1903 for Aramaic)."
+    },
+    "strongs": {
+      "type": "array",
+      "description": "Optional Strong's code(s) as metadata for joins to public-domain lexicons (Strong 1890). The academic morph code in id is the primary key, never Strong's.",
+      "items": {
+        "type": "string",
+        "pattern": "^[HG][0-9]{4,5}$"
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}
