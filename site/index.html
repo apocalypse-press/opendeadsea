@@ -4,10 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <title>Open Dead Sea. Coming soon.</title>
-  <meta name="description" content="A public edition of the Dead Sea Scrolls. Read the agreed Hebrew and Aramaic text with translations. Photographs stay at the libraries that hold them. Proposed readings are reviewed before they enter the edition.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Open Dead Sea.</title>
+  <meta name="description" content="Read Hebrew and Aramaic Dead Sea Scrolls transcriptions beside clearly labeled machine-draft English, and help improve one line at a time.">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32-dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16-dark.png" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#030712" media="(prefers-color-scheme: dark)">
   <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=Inter:wght@400;500;600&family=Lora:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/tokens.css">
   <link rel="stylesheet" href="/styles.css">
@@ -16,51 +23,115 @@
   <a class="skip" href="#main">Skip to content</a>
   <header class="mast">
     <p class="mark">Open Dead Sea</p>
-    <p class="status"><span class="sr-only">Status: </span>Coming soon</p>
+    <a class="mast-signin" href="/signin/">Sign in</a>
   </header>
 
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
-      <h1 id="hero-title">A public edition of the Dead Sea Scrolls.</h1>
-      <p class="lede">Read the agreed Hebrew and Aramaic wording, with translations. When someone proposes a different reading, the reason stays visible, and the change enters the edition only after review. For the photographs, each manuscript sends you to the library that published them.</p>
+      <h1 id="hero-title">Read the Scrolls. Help improve the translation.</h1>
+      <p class="lede">Open Dead Sea places Hebrew and Aramaic transcriptions beside clearly marked machine-draft English. Anyone can read. Sign in with GitHub to improve one line; each suggestion enters a public review queue.</p>
+      <p class="hero-actions"><a class="donate" href="/catalog/?queue=ai">Read a machine draft</a><a href="/catalog/">Browse all manuscripts</a></p>
       <p class="witness" lang="he" dir="rtl">קול קורא במדבר</p>
-      <p class="witness-cap">Isaiah 40:3, as it appears among the Isaiah copies from Qumran.</p>
+      <p class="witness-cap">Isaiah 40:3 in 1QIsaa. The transcription and draft remain visibly distinct.</p>
     </section>
 
-    <section class="split" aria-labelledby="what-title">
+    <section class="split" aria-labelledby="demo-title">
       <div>
-        <h2 id="what-title">What you will be able to do</h2>
-        <p>Come and read without signing in. Sit with the Hebrew or Aramaic and a translation. See why a word was read one way and not another.</p>
-        <p>When proposing a change is open, you will sign in with a free GitHub account, the same kind of account many shared writing projects use. You mark a word, give your reading and a short reason, and others can answer you. Nothing enters the public text until it has been reviewed.</p>
+        <h2 id="demo-title">Start reading</h2>
+        <p>No account is required. Open a familiar manuscript, browse by siglum, or find biblical and community works.</p>
+      </div>
+      <ul class="tiers">
+        <li>
+          <a href="/m/1Qisaa/">
+            <h3>Read a manuscript</h3>
+            <p>Start with 1QIsaa, the Great Isaiah Scroll.</p>
+          </a>
+        </li>
+        <li>
+          <a href="/catalog/">
+            <h3>Browse the catalog</h3>
+            <p>Find a manuscript by cave, siglum, language, or draft status.</p>
+          </a>
+        </li>
+        <li>
+          <a href="/work/">
+            <h3>Browse the works</h3>
+            <p>Move between biblical books and Qumran community texts.</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="split" aria-labelledby="help-title">
+      <div>
+        <h2 id="help-title">Improve one line</h2>
+        <p>You do not need to understand the whole editorial system. If a draft line is unclear or wrong, fix that line.</p>
       </div>
       <ol class="tiers">
         <li>
-          <h3>Reader</h3>
-          <p>No account. The public text, translations, links to the photographs at their libraries, and the record of every proposed change.</p>
+          <h3>1. Read</h3>
+          <p>Compare the original-language transcription with the machine draft.</p>
         </li>
         <li>
-          <h3>Contributor</h3>
-          <p>Suggest a better reading, or comment on someone else's. Credit accrues when your work is accepted.</p>
+          <h3>2. Improve</h3>
+          <p>Choose “Improve translation,” sign in with GitHub, and write better English. A note is optional.</p>
         </li>
         <li>
-          <h3>Peer reviewer</h3>
-          <p>Trusted readers, either by a record of accepted work or by academic standing. They accept a proposal or send it back. Two reviewers must agree before a contributor's change becomes part of the edition.</p>
-        </li>
-        <li>
-          <h3>Editor</h3>
-          <p>The small group that keeps the edition. They can act in an emergency, and they confirm academic standing for reviewers.</p>
+          <h3>3. Review</h3>
+          <p>Your suggestion becomes public immediately as a proposal. Editors decide what enters the checked translation.</p>
         </li>
       </ol>
     </section>
 
-    <section class="band" aria-labelledby="host-title">
-      <h2 id="host-title">Kept in the open</h2>
-      <p>The wording of the edition is public, with a history you can follow. We do not keep the photographs here. Those remain with the Israel Antiquities Authority and the other libraries that published them. Each manuscript page will send you there.</p>
+    <section class="split" aria-labelledby="labels-title">
+      <div>
+        <h2 id="labels-title">What the labels mean</h2>
+        <p>The site does not disguise machine output as finished scholarship.</p>
+      </div>
+      <dl class="about-list">
+        <div>
+          <dt>Machine draft</dt>
+          <dd>Generated English awaiting human correction. Useful for reading, but not yet checked.</dd>
+        </div>
+        <div>
+          <dt>Needs help</dt>
+          <dd>An editor has flagged a published machine draft for focused correction before human signoff.</dd>
+        </div>
+        <div>
+          <dt>Human checked</dt>
+          <dd>A person has reviewed the English. The public proposal history still shows how it changed.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="split" aria-labelledby="host-title">
+      <div>
+        <h2 id="host-title">Sources stay visible</h2>
+        <p>Open Dead Sea began with a Cohere-supported machine-translation project. The site keeps generated English, source transcription, and human judgment visibly separate.</p>
+      </div>
+      <ul class="tiers">
+        <li>
+          <h3>Transcription</h3>
+          <p>Hebrew and Aramaic wording comes from ETCBC/dss and is credited on every manuscript.</p>
+        </li>
+        <li>
+          <h3>Photographs</h3>
+          <p>We link to the Israel Antiquities Authority and holding libraries instead of copying their images.</p>
+        </li>
+        <li>
+          <h3>Changes</h3>
+          <p>Suggestions and editorial decisions remain public so readers can inspect the work.</p>
+        </li>
+      </ul>
     </section>
   </main>
 
   <footer>
-    <p>opendeadsea.org. You can look now. Proposing a new reading is not open yet.</p>
+    <p>opendeadsea.org. Read freely; sign in only when you want to improve a translation.</p>
+    <p class="foot-note">Open Dead Sea is a project of Jesus People SF and
+      Apocalypse Press, a 501(c)(3) nonprofit. Your support keeps the
+      edition free for every reader.</p>
+    <p><a class="donate" href="https://jesuspeoplesf.com/donate/">Donate</a></p>
   </footer>
 </body>
 </html>

@@ -5,6 +5,7 @@ import {
   parseCookies,
   sessionSecret,
 } from "./http.js";
+import { loadUser } from "./users.js";
 
 function b64urlEncode(bytes) {
   let bin = "";
@@ -96,10 +97,13 @@ export function capabilitiesFor(user) {
 export async function requireUser(request, env) {
   const session = await readSession(request, env);
   if (!session || !session.sub) return null;
+  const current = await loadUser(env, session.sub);
   return {
     id: String(session.sub),
-    login: String(session.login || "user"),
-    tier: Number.isFinite(session.tier) ? session.tier : 1,
+    login: String((current && current.github_username) || session.login || "user"),
+    // D1 is authoritative on every write. A missing/unavailable row falls
+    // back to contributor, never to a reviewer/editor tier cached in a cookie.
+    tier: current && Number.isFinite(current.tier_level) ? current.tier_level : 1,
   };
 }
 

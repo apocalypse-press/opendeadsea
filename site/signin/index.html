@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <title>Proposal. Open Dead Sea.</title>
-  <meta name="description" content="A public translation suggestion and its editorial review.">
+  <title>Sign in. Open Dead Sea.</title>
+  <meta name="description" content="Sign in with GitHub to improve a machine-draft translation on Open Dead Sea.">
   <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32-dark.png" media="(prefers-color-scheme: dark)">
@@ -21,10 +21,9 @@
   <link rel="stylesheet" href="/app.css">
   <script src="/js/icons.js" defer></script>
   <script src="/js/session.js" defer></script>
-  <script src="/js/desk-store.js" defer></script>
-  <script src="/js/desk-pages.js" defer></script>
+  <script src="/js/signin.js" defer></script>
 </head>
-<body class="app" data-page="proposal" data-template="1">
+<body class="app" data-page="signin" data-template="1">
   <a class="skip" href="#main">Skip to content</a>
   <header class="shell">
     <div class="shell-bar">
@@ -32,7 +31,6 @@
       <nav class="nav" aria-label="Edition">
         <a href="/catalog/" data-nav="catalog">Catalog</a>
         <a href="/work/" data-nav="work">Works</a>
-        <a href="/community/" data-nav="community">Community</a>
         <a href="/search/" data-nav="search">Search</a>
         <a href="/about/" data-nav="about">About</a>
       </nav>
@@ -43,7 +41,20 @@
   </header>
 
   <main id="main" class="page">
-    <div id="proposal-root"></div>
+    <p class="page-kicker">Sign in</p>
+    <h1>Sign in to improve a translation.</h1>
+    <p class="lede">Reading is always open. GitHub sign-in gives your suggestion a public author and lets you follow its review. We receive your public profile; we never see your GitHub password.</p>
+    <div class="callout" id="signin-reason" hidden>
+      <svg class="ico" data-i="circle-alert"></svg>
+      <p></p>
+    </div>
+    <div class="actions">
+      <a class="btn btn-primary" id="signin-start" href="/auth/login?next=/account/">
+        <svg class="ico" data-i="github"></svg>
+        Continue with GitHub
+      </a>
+      <a class="btn btn-secondary" href="/catalog/">Keep reading without an account</a>
+    </div>
   </main>
 
   <footer class="foot">

@@ -157,7 +157,9 @@ function applyFirstDraft(mss, pack) {
 
 function loadFirstDraft(mss) {
   if (!mss || !mss.id) return Promise.resolve(mss);
-  const names = [mss.id];
+  const names = [];
+  if (mss.translation_pack) names.push(mss.translation_pack);
+  if (names.indexOf(mss.id) === -1) names.push(mss.id);
   if (mss.label) {
     const slug = String(mss.label).replace(/\//g, "-");
     if (slug && names.indexOf(slug) === -1) names.push(slug);
@@ -207,8 +209,7 @@ function lineHTML(line, mss) {
   const chapter = line.chapter || mss.chapter || "";
   const verse = line.verse || "";
   const tools = `<div class="line-tools">
-    <button type="button" class="line-tool" data-line-act="comment" data-ref="${esc(ref)}">Comment</button>
-    <button type="button" class="line-tool" data-line-act="suggest" data-ref="${esc(ref)}">Suggest</button>
+    <button type="button" class="line-tool" data-line-act="suggest" data-ref="${esc(ref)}">${line.en ? "Improve translation" : "Add translation"}</button>
     ${book && chapter && verse ? `<button type="button" class="line-tool" data-line-act="diagram" data-book="${esc(book)}" data-chapter="${esc(chapter)}" data-verse="${esc(verse)}" hidden>Diagram</button>` : ""}
     <span class="line-mark" data-line-mark="${esc(ref)}" hidden></span>
   </div>`;
@@ -237,13 +238,9 @@ function ensureDeskStore() {
   });
 }
 
-function lineCurrent(row) {
-  const words = Array.from(row.querySelectorAll(".orig-word"))
-    .map((b) => b.textContent)
-    .join(" ");
-  if (words.trim()) return words.trim();
-  const t = row.querySelector(".orig-he-text");
-  return t ? t.textContent.trim() : "";
+function lineTranslation(row) {
+  const text = row && row.querySelector(".orig-en");
+  return text ? text.textContent.trim() : "";
 }
 
 function paintDiagramButtons() {
@@ -311,12 +308,16 @@ function renderRail(mss, row, mode) {
   const session = window.odsSession && window.odsSession.last;
   const user = session && session.user;
   const cap = (session && session.capabilities) || {};
+  const ref = (row && row.getAttribute("data-ref")) || "";
   if (!user) {
-    rail.innerHTML = `<p class="hint">Sign in to comment or propose a reading. GitHub sign-in waits on the App. Open the desk to preview a role.</p><p><a class="btn btn-secondary" href="/account/">Open the desk</a></p>`;
+    const next = `${location.pathname}${ref ? `?line=${encodeURIComponent(ref)}&suggest=1` : ""}`;
+    rail.innerHTML = `<p class="rail-kicker">Help improve this draft</p>
+      <h2>${ref ? esc(ref) : "Translation"}</h2>
+      <p class="hint">Sign in with GitHub, suggest better English, and an editor will review it.</p>
+      <p><a class="btn btn-primary" href="/signin/?next=${encodeURIComponent(next)}">Sign in to suggest</a></p>`;
     return;
   }
-  const ref = (row && row.getAttribute("data-ref")) || "";
-  const current = row ? lineCurrent(row) : "";
+  const current = row ? lineTranslation(row) : "";
   const comments = window.odsDesk.commentsFor("mss", mss.id, ref);
   const proposals = window.odsDesk.proposalsFor(mss.id, ref);
   if (mode === "diagram") {
@@ -356,20 +357,19 @@ function renderRail(mss, row, mode) {
     mode === "suggest"
       ? `<form id="rail-form" class="composer">
           <div class="field">
-            <span class="label">Current</span>
-            <p class="rail-current" lang="${esc(mss.lang || "he")}" dir="${esc(mss.dir || "rtl")}">${esc(current || "(none)")}</p>
+            <span class="label">Current machine draft</span>
+            <p class="rail-current rail-current-en" lang="en" dir="ltr">${esc(current || "No draft yet")}</p>
           </div>
           <div class="field">
-            <label for="rail-reading">Proposed reading</label>
-            <input id="rail-reading" lang="${esc(mss.lang || "he")}" dir="${esc(mss.dir || "rtl")}" required maxlength="80" autocomplete="off">
+            <label for="rail-reading">Your translation</label>
+            <textarea id="rail-reading" lang="en" dir="ltr" required maxlength="2000" autocomplete="off"></textarea>
           </div>
           <div class="field">
-            <label for="rail-reason">Reason</label>
-            <textarea id="rail-reason" required maxlength="2000"></textarea>
+            <label for="rail-reason">What did you improve? <span class="hint">Optional</span></label>
+            <textarea id="rail-reason" maxlength="2000"></textarea>
           </div>
           <div class="actions">
-            <button class="btn btn-primary" type="submit">Propose this reading</button>
-            <button class="btn btn-ghost" type="button" data-line-act="comment">Comment instead</button>
+            <button class="btn btn-primary" type="submit">Send suggestion</button>
           </div>
           <p class="hint" id="rail-status" role="status"></p>
         </form>`
@@ -395,10 +395,10 @@ function renderRail(mss, row, mode) {
     .join("");
   rail.innerHTML = `
     <p class="rail-kicker">${esc(mss.label || mss.id)}</p>
-    <h2>${mode === "suggest" ? "Propose a reading" : "Comment"}</h2>
+    <h2>${mode === "suggest" ? "Improve the translation" : "Comment"}</h2>
     <p class="hint">${ref ? esc(ref) : "This line"}.</p>
     ${composer}
-    ${props ? `<h3>Proposed readings</h3><ul class="rail-list">${props}</ul>` : ""}
+    ${props ? `<h3>Translation suggestions</h3><ul class="rail-list">${props}</ul>` : ""}
     ${thread ? `<h3>Thread</h3><ol class="thread">${thread}</ol>` : `<p class="hint">No comments on this line yet. A comment appears in every signed-in person's queue.</p>`}`;
   if (window.odsIcons) window.odsIcons.paint();
   const form = document.getElementById("rail-form");
@@ -413,10 +413,9 @@ function renderRail(mss, row, mode) {
           if (status) status.textContent = "Enter the reading you are proposing.";
           return;
         }
-        if (reason.trim().length < 12) {
-          if (status) status.textContent = "Give a short reason. A dozen characters is enough to start.";
-          return;
-        }
+        const submit = form.querySelector("button[type='submit']");
+        if (submit) submit.disabled = true;
+        if (status) status.textContent = "Saving your suggestion…";
         window.odsDesk
           .addProposal(user, {
             mss_id: mss.id,
@@ -428,12 +427,16 @@ function renderRail(mss, row, mode) {
           })
           .then((rec) => {
             location.href = "/proposal/?id=" + encodeURIComponent(rec.id);
+          })
+          .catch((error) => {
+            if (submit) submit.disabled = false;
+            if (status) status.textContent = error.message || "The suggestion could not be saved. Please try again.";
           });
         return;
       }
       const text = (document.getElementById("rail-comment") || {}).value || "";
-      if (text.trim().length < 12) {
-        if (status) status.textContent = "Give a short comment. A dozen characters is enough to start.";
+      if (!text.trim()) {
+        if (status) status.textContent = "Write a comment first.";
         return;
       }
       window.odsDesk
@@ -441,6 +444,9 @@ function renderRail(mss, row, mode) {
         .then(() => {
           paintLineMarks(mss);
           renderRail(mss, row, "comment");
+        })
+        .catch((error) => {
+          if (status) status.textContent = error.message || "The comment could not be saved. Please try again.";
         });
     });
   }
@@ -466,8 +472,10 @@ function bindDesk(mss, root) {
   });
   const wanted = new URLSearchParams(location.search).get("line");
   if (wanted) {
-    const row = root.querySelector(`.orig-row[data-ref="${wanted}"]`);
-    if (row) open("comment", row);
+    const row = Array.from(root.querySelectorAll(".orig-row")).find(
+      (candidate) => candidate.getAttribute("data-ref") === wanted,
+    );
+    if (row) open(new URLSearchParams(location.search).get("suggest") ? "suggest" : "comment", row);
   }
 }
 
@@ -583,8 +591,8 @@ function boot() {
       if (!r.ok) throw new Error(String(r.status));
       return r.json();
     })
-    .then((mss) => loadFirstDraft(mss))
     .then((mss) => loadQueue(mss))
+    .then((mss) => loadFirstDraft(mss))
     .then((mss) => ensureDeskStore().then((api) => api.load().then(() => mss)).catch(() => mss))
     .then((mss) => ensureDiagram().then(() => mss).catch(() => mss))
     .then((mss) => {
@@ -662,7 +670,10 @@ function boot() {
           .join("");
         const pager = mss.view === "chapter" ? chapterPager(mss) : "";
         const jump = mss.view === "chapter" ? chapterJump(mss) : "";
-        body.innerHTML = `${plates}${pager}<div class="${wrapClass}"${wrapAttr}>${frags}</div>${pager}${jump}`;
+        const draftNotice = mss.translation_count
+          ? `<aside class="draft-notice"><strong>Machine draft</strong><p>This English has not been human checked. If a line can be clearer or more accurate, choose <em>Improve translation</em>.</p></aside>`
+          : "";
+        body.innerHTML = `${plates}${pager}${draftNotice}<div class="${wrapClass}"${wrapAttr}>${frags}</div>${pager}${jump}`;
         if (mss.script === "paleohebrew" || mss.script === "mixed") renderToggle(mss.script);
         bindWordLookup(body, mss);
         paintLineMarks(mss);

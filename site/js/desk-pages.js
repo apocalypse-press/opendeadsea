@@ -15,7 +15,7 @@ function statusOf() {
 
 function queueItem(item) {
   const kind =
-    item.kind === "proposal" ? "Proposed reading" : item.kind === "reply" ? "Reply" : "Comment";
+    item.kind === "proposal" ? "Translation suggestion" : item.kind === "reply" ? "Reply" : "Comment";
   const unread = item.unread ? `<span class="badge badge-info">New</span>` : "";
   const status =
     item.status && window.odsDesk
@@ -46,12 +46,8 @@ function renderGuest(root) {
     <div class="callout">
       <svg class="ico" data-i="log-in"></svg>
       <div>
-        <p>The desk is for people who are signed in. GitHub sign-in waits on the App. Preview a role here to walk the comment, propose, vote, and approve path.</p>
-        <div class="actions role-switch" role="group" aria-label="Preview a role">
-          <button type="button" class="btn btn-primary" data-preview="1">Contributor</button>
-          <button type="button" class="btn btn-secondary" data-preview="2">Reviewer</button>
-          <button type="button" class="btn btn-secondary" data-preview="3">Editor</button>
-        </div>
+        <p>Sign in with GitHub to suggest a better translation and follow its review.</p>
+        <p><a class="btn btn-primary" href="/signin/?next=/account/">Continue with GitHub</a></p>
       </div>
     </div>`;
   if (window.odsIcons) window.odsIcons.paint();
@@ -89,16 +85,16 @@ function renderDesk(state) {
       <div class="stat"><b>${esc(names[user.tier] || "Contributor")}</b><span>Tier</span></div>
       <div class="stat"><b>${esc(String(user.reputation || 0))}</b><span>Reputation</span></div>
     </div>
-    <p class="lede">${esc(user.login)}. Comments land in every signed-in person's queue. Reviewers vote. An editor records approval. Git history sits next to the site record.</p>
+    <p class="lede">${esc(user.login)}. Your translation suggestions and their review appear here.</p>
     <div class="desk-grid">
       <section>
         <h2>Your queue</h2>
-        ${queue.length ? `<ul class="index">${queue.slice(0, 12).map(queueItem).join("")}</ul>` : `<p class="hint">Nothing in the queue. Open a manuscript and leave a comment or propose a reading.</p>`}
-        <p class="actions"><a class="btn btn-secondary" href="/review/">Full review queue</a><a class="btn btn-ghost" href="/catalog/?queue=ai">Manuscripts with AI translation</a></p>
+        ${queue.length ? `<ul class="index">${queue.slice(0, 12).map(queueItem).join("")}</ul>` : `<p class="hint">Nothing here yet. Open a machine draft and choose Improve translation.</p>`}
+        <p class="actions"><a class="btn btn-secondary" href="/review/">All suggestions</a><a class="btn btn-ghost" href="/catalog/?queue=ai">Machine drafts</a></p>
       </section>
       <section>
         <h2>Your proposals</h2>
-        ${mine.length ? `<ul class="index">${mine.map((p) => queueItem({ id: p.id, kind: "proposal", title: p.mss_label, blurb: p.reason, at: p.created_at, login: p.author_login, href: "/proposal/?id=" + encodeURIComponent(p.id), status: p.status })).join("")}</ul>` : `<p class="hint">You have not proposed a reading yet.</p>`}
+        ${mine.length ? `<ul class="index">${mine.map((p) => queueItem({ id: p.id, kind: "proposal", title: p.mss_label, blurb: p.reason, at: p.created_at, login: p.author_login, href: "/proposal/?id=" + encodeURIComponent(p.id), status: p.status })).join("")}</ul>` : `<p class="hint">You have not suggested a translation yet. Open any machine draft and choose Improve translation.</p>`}
         ${needsVote.length && cap.review ? `<h2>Needs a vote</h2><ul class="index">${needsVote.map((p) => queueItem({ id: p.id, kind: "proposal", title: p.mss_label, blurb: p.reason, at: p.updated_at || p.created_at, login: p.author_login, href: "/proposal/?id=" + encodeURIComponent(p.id), status: p.status })).join("")}</ul>` : ""}
         ${needsApprove.length && cap.maintain ? `<h2>Editor approval</h2><ul class="index">${needsApprove.map((p) => queueItem({ id: p.id, kind: "proposal", title: p.mss_label, blurb: p.reason, at: p.updated_at || p.created_at, login: p.author_login, href: "/proposal/?id=" + encodeURIComponent(p.id), status: p.status })).join("")}</ul>` : ""}
       </section>
@@ -109,14 +105,7 @@ function renderDesk(state) {
       ${history.length ? `<ul class="index">${history.map(historyItem).join("")}</ul>` : `<p class="hint">No history loaded yet.</p>`}
       <p class="actions"><a class="btn btn-secondary" href="/history/">Open the full history</a><a class="btn btn-ghost" href="https://github.com/apocalypse-press/opendeadsea/commits/main" target="_blank" rel="noopener noreferrer">GitHub log</a></p>
     </section>
-    <div class="actions role-switch" role="group" aria-label="Preview a role">
-      <span class="hint">Preview a role</span>
-      <button type="button" class="btn btn-ghost" data-preview="1">Contributor</button>
-      <button type="button" class="btn btn-ghost" data-preview="2">Reviewer</button>
-      <button type="button" class="btn btn-ghost" data-preview="3">Editor</button>
-      <button type="button" class="btn btn-ghost" data-preview="0">Guest</button>
-      <a class="btn btn-ghost" href="/auth/logout?next=/">Sign out</a>
-    </div>`;
+    <div class="actions"><a class="btn btn-ghost" href="/auth/logout?next=/">Sign out</a></div>`;
   if (window.odsIcons) window.odsIcons.paint();
 }
 
@@ -131,7 +120,7 @@ function renderReview(state) {
     ledger.textContent = `${open.length} open proposal${open.length === 1 ? "" : "s"} · ${items.length} item${items.length === 1 ? "" : "s"} in the signed-in queue`;
   }
   if (!items.length) {
-    list.innerHTML = `<p class="hint">The queue is empty. Comments and proposed readings from signed-in people appear here.</p>`;
+    list.innerHTML = `<p class="hint">No translation suggestions have been submitted yet.</p>`;
     return;
   }
   list.innerHTML = `<ul class="index">${items.map(queueItem).join("")}</ul>`;
@@ -182,7 +171,7 @@ function renderProposal() {
 
   root.innerHTML = `
     <p class="page-kicker">Proposal</p>
-    <h1>Proposed reading on ${esc(p.mss_label || p.mss_id)}</h1>
+    <h1>Suggested translation on ${esc(p.mss_label || p.mss_id)}</h1>
     <ul class="meta-list">
       <li><span class="k">Manuscript</span><a href="/m/${esc(p.mss_id)}/${p.line_ref ? `?line=${encodeURIComponent(p.line_ref)}` : ""}">${esc(p.mss_label || p.mss_id)}${p.line_ref ? " · " + esc(p.line_ref) : ""}</a></li>
       <li><span class="k">Author</span><span>${esc(p.author_login)}</span></li>
@@ -192,17 +181,18 @@ function renderProposal() {
     <div class="diff">
       <div class="diff-pane">
         <h2>Current</h2>
-        <p lang="he" dir="rtl">${esc(p.current_form || "(none)")}</p>
+        <p dir="auto">${esc(p.current_form || "(none)")}</p>
       </div>
       <div class="diff-pane">
         <h2>Proposed</h2>
-        <p lang="he" dir="rtl">${esc(p.proposed_form)}</p>
+        <p dir="auto">${esc(p.proposed_form)}</p>
       </div>
     </div>
     <h2>Reason</h2>
     <p>${esc(p.reason)}</p>
     ${voteBlock}
     ${approveBlock}
+    <p class="hint" id="proposal-action-status" role="status"></p>
     <h2>Thread</h2>
     ${
       comments.length
@@ -220,14 +210,30 @@ function renderProposal() {
   root.querySelectorAll("[data-vote]").forEach((btn) => {
     btn.addEventListener("click", () => {
       if (!user) return;
-      window.odsDesk.vote(user, p.id, Number(btn.getAttribute("data-vote"))).then(() => renderProposal());
+      const status = document.getElementById("proposal-action-status");
+      btn.disabled = true;
+      window.odsDesk
+        .vote(user, p.id, Number(btn.getAttribute("data-vote")))
+        .then(() => renderProposal())
+        .catch((error) => {
+          btn.disabled = false;
+          if (status) status.textContent = error.message || "The review could not be saved. Please try again.";
+        });
     });
   });
   const approveBtn = root.querySelector("[data-approve]");
   if (approveBtn) {
     approveBtn.addEventListener("click", () => {
       if (!user) return;
-      window.odsDesk.approve(user, p.id).then(() => renderProposal());
+      const status = document.getElementById("proposal-action-status");
+      approveBtn.disabled = true;
+      window.odsDesk
+        .approve(user, p.id)
+        .then(() => renderProposal())
+        .catch((error) => {
+          approveBtn.disabled = false;
+          if (status) status.textContent = error.message || "The approval could not be saved. Please try again.";
+        });
     });
   }
   const form = document.getElementById("proposal-reply");
@@ -237,13 +243,16 @@ function renderProposal() {
       const box = document.getElementById("reply-body");
       const status = document.getElementById("reply-status");
       const text = box && box.value.trim();
-      if (!text || text.length < 12) {
-        if (status) status.textContent = "Give a short comment. A dozen characters is enough to start.";
+      if (!text) {
+        if (status) status.textContent = "Write a comment first.";
         return;
       }
       window.odsDesk
         .addComment(user, { target_type: "proposal", target_id: p.id, body: text })
-        .then(() => renderProposal());
+        .then(() => renderProposal())
+        .catch((error) => {
+          if (status) status.textContent = error.message || "The comment could not be saved. Please try again.";
+        });
     });
   }
 }

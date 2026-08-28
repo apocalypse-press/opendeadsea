@@ -1,40 +1,38 @@
 # Open Dead Sea
 
-Versioned Dead Sea Scrolls corpus. Public reading first. Gatekept community
-edits through GitHub pull requests.
+Public Dead Sea Scrolls transcription and machine-draft translation workspace.
+Reading is open; GitHub sign-in is used only to suggest and review improvements.
 
 Spec and built-vs-remaining ledger: `docs/ARCH-DSS-2026-CF-FREE.md`.  
-Code tree, imports, and Cloudflare/GitHub bindings: `docs/CODETREE-AND-CLOUD.md`.  
 Repo: https://github.com/apocalypse-press/opendeadsea  
 Site: https://opendeadsea.org/
 
-## Built vs remaining (2026-08-18)
+## Current state (2026-08-28)
 
-Built: lander, page templates, OAuth *routes*, D1 *schema*, fragment
-schema + CI, academic morph codes, outbound plate links, CODEOWNERS stub.
+Built: 1,027-manuscript catalog, original-language reading pages, 713 complete
+machine-draft packs referenced by 715 catalog records, GitHub OAuth, D1-backed
+public suggestions/comments/review, source links, and deterministic validators.
 
-Not built: PR-from-edit, live reputation in CI, full BDB/Jastrow ingestion,
-votes/quorum, academic verification, edition translations (human-reviewed).
+Remaining: sustained human review, accepted-translation release tooling, the
+GitHub PR bridge, and full BDB/Jastrow ingestion.
 
 First-draft machine-aid English is staged for manuscripts whose Explorer
 drafts are complete: `python3 scripts/export_first_drafts.py`. Those packs
 are for human review, not the edition. The catalog then buckets every
-manuscript as no translation, AI translation, human sign off, or human
-edit recommended (`python3 scripts/export_translation_queue.py`).
+manuscript as no translation, machine draft, human checked, or needs help
+(`python3 scripts/export_translation_queue.py`). Partial/rejected Explorer work
+stays unpublished and therefore remains in no translation.
 
-The signed-in desk (`/account/`) is the comment / propose / vote /
-approve loop. Git history is on `/history/` (public repo commits plus
-the site's own record). GitHub OAuth is still pending; preview a role
-from the desk until the App secrets exist.
-
-Next human step: confirm the App is installed on this repo only. Next
-machine step after secrets: `docs/AUTH.md`.
+The signed-in desk (`/account/`) stores translation suggestions, comments,
+reviews, and approvals in D1. GitHub OAuth is live. Git history is shown on
+`/history/`; turning an accepted suggestion into a GitHub PR remains separate
+work.
 
 ## Layout
 
 ```text
 site/                     Cloudflare Pages (lander + page templates)
-functions/                GitHub OAuth + /api/me (inert without secrets)
+functions/                GitHub OAuth + D1 suggestion/review API
 schema/d1.sql             Reputation and votes
 schema/fragment.schema.json
 corpus/fragments/         Diplomatic JSON (Git is source of truth)
@@ -53,6 +51,10 @@ node scripts/validate-lexicon.mjs
 node scripts/validate-photo-links.mjs
 node scripts/validate-translations.mjs
 node scripts/validate-translation-queue.mjs
+node scripts/test_session.mjs
+node scripts/test_review_api.mjs
+node scripts/test_desk_store.mjs
+node scripts/test_diagram.mjs
 ```
 
 ## Deploy
@@ -80,4 +82,3 @@ D1:
 npx wrangler d1 create opendeadsea-trust
 npx wrangler d1 execute opendeadsea-trust --file=schema/d1.sql --remote
 ```
-

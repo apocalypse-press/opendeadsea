@@ -16,19 +16,19 @@ export async function onRequestPost(context) {
     return json({ error: "Send JSON." }, 400);
   }
   const text = String(body.body || "").trim();
-  if (text.length < 12) {
-    return json({ error: "Give a short comment. A dozen characters is enough to start." }, 400);
-  }
+  if (!text) return json({ error: "Write a comment first." }, 400);
+  if (text.length > 2000) return json({ error: "Keep the comment under 2,000 characters." }, 400);
   const targetType = body.target_type === "proposal" ? "proposal" : "mss";
   const targetId = String(body.target_id || "").trim();
   if (!targetId) return json({ error: "Name the manuscript or proposal." }, 400);
+  if (targetId.length > 240) return json({ error: "That target id is too long." }, 400);
 
   const rec = {
     id: nid("c"),
     target_type: targetType,
     target_id: targetId,
-    line_ref: String(body.line_ref || "").trim(),
-    parent_id: body.parent_id ? String(body.parent_id) : null,
+    line_ref: String(body.line_ref || "").trim().slice(0, 240),
+    parent_id: body.parent_id ? String(body.parent_id).slice(0, 240) : null,
     body: text,
     author_user_id: user.id,
     author_login: user.login,
@@ -46,7 +46,8 @@ export async function onRequestPost(context) {
       created_at: rec.created_at,
     });
   } catch (err) {
-    return json({ error: "Could not store the comment yet.", detail: String(err && err.message) }, 503);
+    console.error("comment insert failed", err);
+    return json({ error: "The comment could not be saved. Please try again." }, 503);
   }
   return json({ comment: rec }, 201);
 }

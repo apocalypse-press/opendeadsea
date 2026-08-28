@@ -103,14 +103,26 @@
     const remote = await fetch("/api/desk", { credentials: "same-origin" })
       .then((r) => (r.ok ? r.json() : null))
       .catch(() => null);
-    const git = remote && remote.git ? remote.git : [];
-    cache = {
-      proposals: overlay(overlay(seed.proposals, local.proposals), remote && remote.proposals),
-      comments: overlay(overlay(seed.comments, local.comments), remote && remote.comments),
-      events: overlay(overlay(seed.events, local.events), remote && remote.events),
-      git,
-      source: remote && remote.source ? remote.source : "local",
-    };
+    if (remote && Array.isArray(remote.proposals)) {
+      // The shared desk is authoritative. Never mix browser-only sample or
+      // optimistic records into a live response: other readers must see the
+      // same proposal ids and state.
+      cache = {
+        proposals: remote.proposals || [],
+        comments: remote.comments || [],
+        events: remote.events || [],
+        git: remote.git || [],
+        source: remote.source || "remote",
+      };
+    } else {
+      cache = {
+        proposals: overlay(seed.proposals, local.proposals),
+        comments: overlay(seed.comments, local.comments),
+        events: overlay(seed.events, local.events),
+        git: [],
+        source: "local",
+      };
+    }
     return cache;
   }
 
@@ -144,18 +156,18 @@
     }
   }
 
+  function postError(result, fallback) {
+    const error = new Error((result.data && result.data.error) || fallback);
+    error.status = result.status;
+    return error;
+  }
+
   async function addComment(user, payload) {
-    const rec = {
-      id: nid("c"),
-      target_type: payload.target_type || "mss",
-      target_id: payload.target_id,
-      line_ref: payload.line_ref || "",
-      parent_id: payload.parent_id || null,
-      body: String(payload.body || "").trim(),
-      author_user_id: user.id,
-      author_login: user.login,
-      created_at: nowIso(),
-    };
+    const result = await post("/api/comments", payload);
+    if (!result.ok || !result.data.comment) {
+      throw postError(result, "The comment could not be saved. Please try again.");
+    }
+    const rec = result.data.comment;
     const state = snapshot();
     state.comments = overlay(state.comments, [rec]);
     addEvent(state, {
@@ -171,26 +183,15 @@
       created_at: rec.created_at,
     });
     persist(state);
-    await post("/api/comments", rec);
     return rec;
   }
 
   async function addProposal(user, payload) {
-    const rec = {
-      id: nid("p"),
-      mss_id: payload.mss_id,
-      mss_label: payload.mss_label || payload.mss_id,
-      line_ref: payload.line_ref || "",
-      current_form: payload.current_form || "",
-      proposed_form: String(payload.proposed_form || "").trim(),
-      reason: String(payload.reason || "").trim(),
-      author_user_id: user.id,
-      author_login: user.login,
-      status: "open",
-      votes: [],
-      created_at: nowIso(),
-      updated_at: nowIso(),
-    };
+    const result = await post("/api/proposals", payload);
+    if (!result.ok || !result.data.proposal) {
+      throw postError(result, "The suggestion could not be saved. Please try again.");
+    }
+    const rec = result.data.proposal;
     const state = snapshot();
     state.proposals = overlay(state.proposals, [rec]);
     addEvent(state, {
@@ -203,7 +204,6 @@
       created_at: rec.created_at,
     });
     persist(state);
-    await post("/api/proposals", rec);
     return rec;
   }
 
@@ -211,16 +211,17 @@
     const state = snapshot();
     const proposal = state.proposals.find((p) => p.id === proposalId);
     if (!proposal) throw new Error("Proposal not found");
-    const votes = (proposal.votes || []).filter((v) => v.voter_user_id !== user.id);
-    votes.push({
-      voter_user_id: user.id,
-      voter_login: user.login,
+    const result = await post(`/api/proposals/${encodeURIComponent(proposalId)}/vote`, {
       vote_value: voteValue,
       comment: comment || "",
-      created_at: nowIso(),
     });
+    if (!result.ok || !result.data.vote) {
+      throw postError(result, "The review could not be saved. Please try again.");
+    }
+    const votes = (proposal.votes || []).filter((v) => v.voter_user_id !== user.id);
+    votes.push(result.data.vote);
     proposal.votes = votes;
-    proposal.status = statusAfterVotes(votes, false);
+    proposal.status = result.data.status || statusAfterVotes(votes, false);
     proposal.updated_at = nowIso();
     addEvent(state, {
       id: nid("e"),
@@ -232,10 +233,6 @@
       created_at: proposal.updated_at,
     });
     persist(state);
-    await post(`/api/proposals/${encodeURIComponent(proposalId)}/vote`, {
-      vote_value: voteValue,
-      comment: comment || "",
-    });
     return proposal;
   }
 
@@ -243,7 +240,11 @@
     const state = snapshot();
     const proposal = state.proposals.find((p) => p.id === proposalId);
     if (!proposal) throw new Error("Proposal not found");
-    proposal.status = "approved";
+    const result = await post(`/api/proposals/${encodeURIComponent(proposalId)}/approve`, {});
+    if (!result.ok) {
+      throw postError(result, "The approval could not be saved. Please try again.");
+    }
+    proposal.status = result.data.status || "approved";
     proposal.updated_at = nowIso();
     addEvent(state, {
       id: nid("e"),
@@ -255,7 +256,6 @@
       created_at: proposal.updated_at,
     });
     persist(state);
-    await post(`/api/proposals/${encodeURIComponent(proposalId)}/approve`, {});
     return proposal;
   }
 
@@ -281,7 +281,7 @@
       items.push({
         id: p.id,
         kind: "proposal",
-        title: `Proposed reading on ${p.mss_label || p.mss_id}`,
+        title: `Translation suggestion on ${p.mss_label || p.mss_id}`,
         blurb: `${statusLabel(p.status)} · ${yes} reviewer approval${yes === 1 ? "" : "s"}`,
         at: p.updated_at || p.created_at,
         login: p.author_login,

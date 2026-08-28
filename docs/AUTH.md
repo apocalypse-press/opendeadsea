@@ -1,8 +1,7 @@
 # GitHub OAuth framework
 
-Reading stays public. Sign-in exists so a contributor can propose a
-reading as themselves. The routes are in place. They stay inert until
-the GitHub App secrets are on the Pages project.
+Reading stays public. Sign-in lets a contributor suggest a translation as
+themselves. GitHub OAuth and the production Pages secrets are live.
 
 ## Routes
 
@@ -22,7 +21,8 @@ the GitHub App secrets are on the Pages project.
 `ods_session` is HttpOnly, Secure, SameSite=Lax, seven days. Payload is
 HMAC-SHA256 (`v1.body.sig`) with `SESSION_SECRET` (or the GitHub client
 secret if that is all you have). It holds GitHub user id, login, and a
-tier snapshot. It does **not** store the GitHub access token. Opening a
+tier snapshot. Write routes reload the current tier from D1, so the cookie
+cannot preserve revoked review authority. It does **not** store the GitHub access token. Opening a
 pull request later will need a separate, encrypted store.
 
 ## Secrets (not in Git)
@@ -54,10 +54,6 @@ Do not paste the client secret or the PEM into chat or mail.
 
 ## Local UI without secrets
 
-Open any template and use the preview bar (Reader / Contributor /
-Reviewer / Editor). That is `sessionStorage` only. It does not mint a
-real cookie.
-
 Optional laptop mock cookie:
 
 ```bash
@@ -70,23 +66,13 @@ Then `/auth/mock?as=contributor|reviewer|editor`.
 
 ## Built vs remaining (auth only)
 
-Built: routes, signed session cookie, D1 upsert hook, capability flags
-on `/api/me`, mock route that stays 404 unless `AUTH_ALLOW_MOCK=1`,
-signin page + `oauth-pending` copy. Verified live on
-`https://opendeadsea.org/auth/login` (302) and `/api/me`
-(`configured: false`).
+Built: GitHub OAuth, signed session cookie, D1 user upsert, current-tier
+authorization on writes, capability flags on `/api/me`, and a mock route that
+stays 404 unless `AUTH_ALLOW_MOCK=1`.
 
-Remaining, in order:
-
-1. GitHub App exists and is installed on `apocalypse-press/opendeadsea`
-   (`docs/github-app-setup.md`).
-2. Pages secrets: `GITHUB_CLIENT_ID`, `GITHUB_CLIENT_SECRET`,
-   `SESSION_SECRET`.
-3. Persist the user-to-server token (encrypted), not in the cookie.
-4. `/edit/` opens a PR under that user.
-5. App JWT for installation (`GITHUB_APP_ID` + PEM) if CI or the
-   site must act as the App rather than the user.
-6. Academic verification write path (Tier 3).
+Remaining: persist an appropriately scoped user/App token only if accepted
+suggestions are later opened as GitHub pull requests. The current public
+suggestion and review loop does not need that token.
 
 Do not turn Bot Fight Mode back on until the new routes are walked with
 the challenge JS. It blanked the lander once against CSP.

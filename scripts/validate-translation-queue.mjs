@@ -8,6 +8,7 @@ const SITE = join(ROOT, "site", "data", "translations", "queue.json");
 const CATALOG = join(ROOT, "corpus", "manuscripts.json");
 const OVERRIDES = join(ROOT, "corpus", "translation-queue-overrides.json");
 const schema = JSON.parse(readFileSync(join(ROOT, "schema", "translation-queue.schema.json"), "utf8"));
+const packIndex = JSON.parse(readFileSync(join(ROOT, "corpus", "translations", "index.json"), "utf8"));
 
 let failed = 0;
 function fail(msg) {
@@ -21,8 +22,8 @@ const catalog = JSON.parse(readFileSync(CATALOG, "utf8"));
 const overrides = JSON.parse(readFileSync(OVERRIDES, "utf8"));
 const keys = new Set((schema.properties.default.enum || []));
 
-if (JSON.stringify(payload.counts) !== JSON.stringify(site.counts)) {
-  fail("site/data/translations/queue.json counts drifted from corpus copy");
+if (JSON.stringify(payload) !== JSON.stringify(site)) {
+  fail("site/data/translations/queue.json drifted from corpus copy");
 }
 for (const k of schema.required) if (!(k in payload)) fail(`queue.json: missing ${k}`);
 if (payload.default !== "none") fail("queue.json: default must be none");
@@ -30,6 +31,7 @@ const bucketKeys = (payload.buckets || []).map((b) => b.key);
 if (bucketKeys.join(",") !== "none,ai,signoff,edit") fail("queue.json: buckets order");
 
 const catalogIds = new Set(catalog.map((m) => m.id));
+const packIds = new Set((packIndex.manuscripts || []).map((m) => m.id));
 const rows = payload.manuscripts || {};
 for (const id of catalogIds) {
   if (!rows[id]) fail(`queue.json: missing catalog id ${id}`);
@@ -39,6 +41,12 @@ for (const id of Object.keys(rows)) {
   const rec = rows[id];
   if (!keys.has(rec.queue)) fail(`queue.json#${id}: bad queue`);
   if (rec.source !== "derived" && rec.source !== "override") fail(`queue.json#${id}: bad source`);
+  if (rec.pack && !rec.pack_id) fail(`queue.json#${id}: pack has no pack_id`);
+  if (!rec.pack && rec.pack_id) fail(`queue.json#${id}: pack_id set while pack is false`);
+  if (rec.pack_id && !packIds.has(rec.pack_id)) fail(`queue.json#${id}: missing pack ${rec.pack_id}`);
+  if ((rec.queue === "ai" || rec.queue === "signoff" || rec.queue === "edit") && !rec.pack_id) {
+    fail(`queue.json#${id}: ${rec.queue} queue has no published pack`);
+  }
 }
 
 const counted = { none: 0, ai: 0, signoff: 0, edit: 0 };

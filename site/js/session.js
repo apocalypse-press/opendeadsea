@@ -165,6 +165,9 @@ async function fetchMe() {
 
 function mergePreview(me) {
   if (me.user) return { ...me, preview: false };
+  // Preview personas are a local-development aid. The production API reports
+  // mock=false, so an old sessionStorage value can never imitate authority.
+  if (!me.mock) return { ...me, preview: false };
   const key = previewKey();
   if (key == null || !PERSONAS[key]) {
     return { ...me, preview: false };

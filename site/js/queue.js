@@ -1,9 +1,9 @@
 (function (root) {
   const BUCKETS = [
     { key: "none", label: "No translation", badge: "badge" },
-    { key: "ai", label: "AI translation", badge: "badge badge-info" },
-    { key: "signoff", label: "Human sign off", badge: "badge badge-ok" },
-    { key: "edit", label: "Human edit recommended", badge: "badge badge-warn" },
+    { key: "ai", label: "Machine draft", badge: "badge badge-info" },
+    { key: "signoff", label: "Human checked", badge: "badge badge-ok" },
+    { key: "edit", label: "Needs help", badge: "badge badge-warn" },
   ];
   const byKey = {};
   BUCKETS.forEach((b) => {
@@ -25,6 +25,7 @@
       const hit = rows[m.id];
       m.queue = (hit && hit.queue) || fallback;
       m.queue_source = (hit && hit.source) || "derived";
+      m.translation_pack = (hit && hit.pack_id) || null;
     });
     return mss;
   }
@@ -44,15 +45,15 @@
   function lede(key, translationCount) {
     if (key === "ai") {
       if (translationCount) {
-        return `AI translation on ${translationCount} lines. Human sign off is the next step. Not the edition's translation`;
+        return `Machine draft on ${translationCount} lines. Help improve it`;
       }
-      return "AI translation. Human sign off is the next step. Not the edition's translation";
+      return "Machine draft. Help improve it";
     }
     if (key === "signoff") {
-      return "Human sign off. A reviewer accepted this English without sending it back for rewrite";
+      return "Human checked translation";
     }
     if (key === "edit") {
-      return "Human edit recommended. Do not sign off the machine English as it stands";
+      return "Machine draft needs help";
     }
     return "No translation in the edition yet";
   }

@@ -32,9 +32,9 @@ RANK = {"valid": 3, "invalid": 2, "error": 1, "planned": 0}
 
 BUCKETS = [
     {"key": "none", "label": "No translation"},
-    {"key": "ai", "label": "AI translation"},
-    {"key": "signoff", "label": "Human sign off"},
-    {"key": "edit", "label": "Human edit recommended"},
+    {"key": "ai", "label": "Machine draft"},
+    {"key": "signoff", "label": "Human checked"},
+    {"key": "edit", "label": "Needs help"},
 ]
 ALLOWED = {row["key"] for row in BUCKETS}
 
@@ -100,20 +100,21 @@ def classify(stats: dict[str, int], has_pack: bool, override: str | None) -> tup
         return override, "override"
     if has_pack:
         return "ai", "derived"
-    if stats["error"] or stats["invalid"]:
-        return "edit", "derived"
-    if stats["valid"] and stats["planned"]:
-        return "edit", "derived"
+    # Partial or rejected Explorer work is not published. Calling it "needs
+    # help" gives readers an action they cannot take because there is no draft
+    # to edit. Keep it in "none" until a maintainer deliberately publishes and
+    # overrides a pack for public repair.
     return "none", "derived"
 
 
-def has_published_pack(mss: dict, stems: set[str]) -> bool:
+def published_pack_id(mss: dict, stems: set[str]) -> str | None:
     if mss.get("id") in stems:
-        return True
+        return str(mss["id"])
     label = mss.get("label") or ""
-    if label and slugify(label) in stems:
-        return True
-    return False
+    label_slug = slugify(label)
+    if label_slug and label_slug in stems:
+        return label_slug
+    return None
 
 
 def build_queue(catalog: list[dict], by_label: dict[str, dict[int, str]], stems: set[str], overrides: dict[str, str]) -> dict:
@@ -125,7 +126,8 @@ def build_queue(catalog: list[dict], by_label: dict[str, dict[int, str]], stems:
     for mss in catalog:
         mss_id = mss["id"]
         stats = stats_for(by_label.get(mss.get("label") or "", {}))
-        packed = has_published_pack(mss, stems)
+        pack_id = published_pack_id(mss, stems)
+        packed = pack_id is not None
         queue, source = classify(stats, packed, overrides.get(mss_id))
         counts[queue] += 1
         rec = {
@@ -134,6 +136,8 @@ def build_queue(catalog: list[dict], by_label: dict[str, dict[int, str]], stems:
             **stats,
             "pack": packed,
         }
+        if pack_id:
+            rec["pack_id"] = pack_id
         if source == "override":
             rec["derived"] = classify(stats, packed, None)[0]
         manuscripts[mss_id] = rec
@@ -143,7 +147,7 @@ def build_queue(catalog: list[dict], by_label: dict[str, dict[int, str]], stems:
         "authorization": (
             "Public translation-queue buckets for the catalog. "
             "AI translation is a machine-aid first draft, not the edition. "
-            "Human sign off is maintainer-set until crowdsourced review ships."
+            "Human checked and needs-help states are maintainer-set after review."
         ),
         "counts": {row["key"]: int(counts.get(row["key"], 0)) for row in BUCKETS},
         "manuscript_count": len(catalog),

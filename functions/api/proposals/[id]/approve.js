@@ -30,6 +30,7 @@ export async function onRequestPost(context) {
     });
     return json({ id, status: "approved" });
   } catch (err) {
-    return json({ error: "Could not record approval yet.", detail: String(err && err.message) }, 503);
+    console.error("proposal approval failed", err);
+    return json({ error: "The approval could not be saved. Please try again." }, 503);
   }
 }

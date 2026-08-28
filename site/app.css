@@ -1217,9 +1217,6 @@ button.orig-word:focus-visible {
 .composer .field textarea {
   max-width: none;
 }
-body[data-signed-in="0"] .line-tools {
-  display: none;
-}
 .line-tools {
   display: flex;
   flex-wrap: wrap;
@@ -1278,6 +1275,26 @@ body[data-signed-in="0"] .line-tools {
   margin: 0;
   font-family: var(--font-he);
   font-size: 22px;
+}
+.rail-current-en {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  line-height: 1.5;
+}
+.draft-notice {
+  max-width: 48rem;
+  margin: 0 0 var(--space-6);
+  padding: var(--space-4);
+  border-inline-start: 3px solid var(--color-border-focus);
+  background: var(--color-surface-sunken);
+}
+.draft-notice strong {
+  display: block;
+  margin-bottom: var(--space-1);
+}
+.draft-notice p {
+  margin: 0;
+  color: var(--color-text-secondary);
 }
 .rail-list {
   list-style: none;

@@ -11,4 +11,8 @@ database_name = "opendeadsea-trust"
 database_id = "e927cf87-b4d0-48f2-b950-f63832b3f5b1"
 
 # GitHub App secrets stay in Wrangler / GitHub Actions, never in the corpus.
-# Required later: GITHUB_APP_ID, GITHUB_APP_PRIVATE_KEY, GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET
+# Pages Functions in /functions read these from the dashboard or .dev.vars:
+#   GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET, SESSION_SECRET
+#   OAUTH_REDIRECT_URI (optional; defaults to this origin + /auth/callback)
+#   AUTH_ALLOW_MOCK=1 is local/preview only. Never set it in production.
+# Later, for opening PRs: GITHUB_APP_ID, GITHUB_APP_PRIVATE_KEY

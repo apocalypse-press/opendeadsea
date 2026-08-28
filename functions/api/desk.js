@@ -14,7 +14,7 @@ export async function onRequestGet(context) {
         user_id: session.sub,
         github_username: session.login,
         reputation_score: 0,
-        tier_level: Number.isFinite(session.tier) ? session.tier : 1,
+        tier_level: 1,
         academic_verified: 0,
       },
     );

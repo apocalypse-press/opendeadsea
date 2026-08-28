@@ -20,19 +20,21 @@ export async function onRequestPost(context) {
   }
   const value = Number(body.vote_value);
   if (value !== 1 && value !== -1) return json({ error: "Vote must be approve or request changes." }, 400);
+  const comment = String(body.comment || "").trim();
+  if (comment.length > 2000) return json({ error: "Keep the review note under 2,000 characters." }, 400);
 
   const rec = {
     proposal_id: id,
     voter_user_id: user.id,
     voter_login: user.login,
     vote_value: value,
-    comment: String(body.comment || "").trim(),
+    comment,
     created_at: nowIso(),
   };
   try {
-    await upsertVote(env, rec);
     const row = await env.DB.prepare(`SELECT id FROM proposals WHERE id = ?`).bind(id).first();
     if (!row) return json({ error: "That proposal is not on the server yet." }, 404);
+    await upsertVote(env, rec);
     const votes = await env.DB.prepare(
       `SELECT vote_value FROM proposal_votes WHERE proposal_id = ?`,
     )
@@ -44,13 +46,14 @@ export async function onRequestPost(context) {
       id: nid("e"),
       kind: value === 1 ? "vote-approve" : "vote-changes",
       mss_id: "",
-      title: `${user.login} ${value === 1 ? "approved" : "asked for changes on"} a proposed reading`,
+      title: `${user.login} ${value === 1 ? "approved" : "asked for changes on"} a translation suggestion`,
       href: `/proposal/?id=${encodeURIComponent(id)}`,
       login: user.login,
       created_at: rec.created_at,
     });
     return json({ vote: rec, status });
   } catch (err) {
-    return json({ error: "Could not store the vote yet.", detail: String(err && err.message) }, 503);
+    console.error("proposal vote failed", err);
+    return json({ error: "The review could not be saved. Please try again." }, 503);
   }
 }

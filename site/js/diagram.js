@@ -2,6 +2,7 @@
   const INDEX = "/data/diagrams/index.json";
   const cache = {};
   let index = null;
+  let indexPromise = null;
 
   const ODS_TO_MACULA = {
     Gen: "GEN",
@@ -63,7 +64,8 @@
 
   function loadIndex() {
     if (index) return Promise.resolve(index);
-    return fetch(INDEX)
+    if (indexPromise) return indexPromise;
+    indexPromise = fetch(INDEX)
       .then((r) => (r.ok ? r.json() : null))
       .then((data) => {
         index = data || { books: {} };
@@ -73,6 +75,7 @@
         index = { books: {} };
         return index;
       });
+    return indexPromise;
   }
 
   function loadBook(book) {

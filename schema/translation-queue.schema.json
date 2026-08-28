@@ -44,6 +44,7 @@
           "invalid": { "type": "integer", "minimum": 0 },
           "line_count": { "type": "integer", "minimum": 0 },
           "pack": { "type": "boolean" },
+          "pack_id": { "type": "string", "minLength": 1 },
           "derived": { "type": "string", "enum": ["none", "ai", "signoff", "edit"] }
         }
       }

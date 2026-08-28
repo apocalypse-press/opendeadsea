@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <title>Proposal. Open Dead Sea.</title>
-  <meta name="description" content="A public translation suggestion and its editorial review.">
+  <title>Suggest a translation. Open Dead Sea.</title>
+  <meta name="description" content="Suggest clearer or more accurate English for one line of a machine draft.">
   <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32-dark.png" media="(prefers-color-scheme: dark)">
@@ -21,10 +21,9 @@
   <link rel="stylesheet" href="/app.css">
   <script src="/js/icons.js" defer></script>
   <script src="/js/session.js" defer></script>
-  <script src="/js/desk-store.js" defer></script>
-  <script src="/js/desk-pages.js" defer></script>
+  <script src="/js/edit.js" defer></script>
 </head>
-<body class="app" data-page="proposal" data-template="1">
+<body class="app" data-page="edit" data-template="1">
   <a class="skip" href="#main">Skip to content</a>
   <header class="shell">
     <div class="shell-bar">
@@ -32,7 +31,6 @@
       <nav class="nav" aria-label="Edition">
         <a href="/catalog/" data-nav="catalog">Catalog</a>
         <a href="/work/" data-nav="work">Works</a>
-        <a href="/community/" data-nav="community">Community</a>
         <a href="/search/" data-nav="search">Search</a>
         <a href="/about/" data-nav="about">About</a>
       </nav>
@@ -43,7 +41,48 @@
   </header>
 
   <main id="main" class="page">
-    <div id="proposal-root"></div>
+    <nav aria-label="Breadcrumb">
+      <ol class="crumbs">
+        <li><a href="/read/">1QIsa-a</a></li>
+        <li><span aria-current="page">Suggest a translation</span></li>
+      </ol>
+    </nav>
+    <p class="page-kicker">Contributor</p>
+    <h1>Improve this translation</h1>
+    <p class="lede">Write clearer or more accurate English for this line. An editor will review your suggestion.</p>
+
+    <div class="callout" data-needs-missing="suggest">
+      <svg class="ico" data-i="log-in"></svg>
+      <div>
+        <p>Sign in with a free GitHub account to suggest a translation.</p>
+        <p><a class="btn btn-primary" href="/signin/?next=/edit/">Sign in</a></p>
+      </div>
+    </div>
+
+    <form id="edit-form" data-needs="suggest" hidden>
+      <input type="hidden" id="fragment-id" name="fragment" value="1QIsa-a-40-3-sample">
+      <input type="hidden" id="token-index" name="token" value="0">
+      <div class="field">
+        <span class="label">Current machine draft</span>
+        <p class="lex-head" lang="en" dir="ltr">No draft supplied.</p>
+      </div>
+      <div class="field">
+        <label for="reading">Your translation</label>
+        <textarea id="reading" name="reading" lang="en" dir="ltr" required maxlength="2000"></textarea>
+      </div>
+      <div class="field">
+        <label for="reason">What did you improve? <span class="hint">Optional</span></label>
+        <textarea id="reason" name="reason" maxlength="2000"></textarea>
+      </div>
+      <div class="actions">
+        <button class="btn btn-primary" type="submit">
+          <svg class="ico" data-i="square-pen"></svg>
+          Send suggestion
+        </button>
+        <a class="btn btn-secondary" href="/read/">Cancel</a>
+      </div>
+      <p id="form-status" class="hint" role="status"></p>
+    </form>
   </main>
 
   <footer class="foot">

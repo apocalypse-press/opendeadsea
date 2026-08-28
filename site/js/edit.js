@@ -51,16 +51,11 @@ document.addEventListener("ods:session", (event) => {
     const reading = document.getElementById("reading");
     if (reason) reason.closest(".field").classList.remove("is-error");
     if (!latest.capabilities.suggest || !latest.user) {
-      setReason("form-status", "Sign in with GitHub to propose a reading. Or preview a role from the desk.");
+      setReason("form-status", "Sign in with GitHub to suggest a translation.");
       return;
     }
     if (!reading || !reading.value.trim()) {
-      setReason("form-status", "Enter the reading you are proposing.");
-      return;
-    }
-    if (!reason || reason.value.trim().length < 12) {
-      if (reason) reason.closest(".field").classList.add("is-error");
-      setReason("form-status", "Give a short reason. A dozen characters is enough to start.");
+      setReason("form-status", "Enter your suggested translation.");
       return;
     }
     ensureDeskStore()
@@ -78,8 +73,8 @@ document.addEventListener("ods:session", (event) => {
       .then((rec) => {
         location.href = "/proposal/?id=" + encodeURIComponent(rec.id);
       })
-      .catch(() => {
-        setReason("form-status", "The proposal could not be stored on this browser.");
+      .catch((error) => {
+        setReason("form-status", error.message || "The suggestion could not be saved. Please try again.");
       });
   });
 });
