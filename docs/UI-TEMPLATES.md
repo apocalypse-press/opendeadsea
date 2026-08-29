@@ -14,7 +14,7 @@ The lander at `/` sends readers directly to machine drafts and the catalog.
 |---|---|---|
 | Lander | `/` | Promise of the edition. No app chrome. |
 | Template index | `/preview/` | Map of every page kind. |
-| Catalog | `/catalog/` | Manuscript list. Translation-queue chips: no translation, machine draft, human checked, needs help. Each row opens `/m/<siglum>/`. |
+| Catalog | `/catalog/` | Manuscript list. Translation-queue chips: no translation, machine draft, human checked, pending approval. Each row opens `/m/<siglum>/`. |
 | Manuscript | `/m/<siglum>/` | Official IAA-style siglum page. Original-language wording from ETCBC/dss. Biblical scrolls with chapters open a hub, then `/m/<siglum>/<chapter>/`. |
 | Reader | `/read/` | One line. Select a token. Outbound plate link. |
 | Work | `/work/` | Biblical books. Open a book, then manuscripts or a chapter with every copy that still has it. |

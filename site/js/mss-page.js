@@ -362,8 +362,26 @@ function ensureRail() {
   rail.id = "mss-rail";
   rail.className = "mss-rail";
   rail.setAttribute("aria-label", "Line tools");
+  rail.setAttribute("tabindex", "-1");
   wrap.appendChild(rail);
   return rail;
+}
+
+function revealRail() {
+  const rail = document.getElementById("mss-rail");
+  if (!rail) return;
+  const reveal = () => {
+    const bounds = rail.getBoundingClientRect();
+    if (bounds.top < 0 || bounds.top >= window.innerHeight) {
+      rail.scrollIntoView({ block: "start" });
+    }
+    rail.focus({ preventScroll: true });
+  };
+  if (typeof window.requestAnimationFrame === "function") {
+    window.requestAnimationFrame(reveal);
+  } else {
+    reveal();
+  }
 }
 
 function closeRows() {
@@ -530,6 +548,7 @@ function bindDesk(mss, root) {
       row.scrollIntoView({ block: "nearest" });
     }
     renderRail(mss, row, mode);
+    revealRail();
   };
   root.addEventListener("click", (ev) => {
     const btn = ev.target.closest("[data-line-act]");

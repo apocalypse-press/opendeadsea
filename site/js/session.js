@@ -65,7 +65,7 @@ function ensureCommunityNav() {
   const a = document.createElement("a");
   a.href = "/community/";
   a.setAttribute("data-nav", "community");
-  a.textContent = "Community";
+  a.textContent = "Communal mss";
   if (work && work.nextSibling) nav.insertBefore(a, work.nextSibling);
   else if (work) work.after(a);
   else nav.appendChild(a);

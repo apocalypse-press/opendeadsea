@@ -32,7 +32,7 @@ BUCKETS = [
     {"key": "none", "label": "No translation"},
     {"key": "ai", "label": "Machine draft"},
     {"key": "signoff", "label": "Human checked"},
-    {"key": "edit", "label": "Needs help"},
+    {"key": "edit", "label": "Pending approval"},
 ]
 ALLOWED = {row["key"] for row in BUCKETS}
 

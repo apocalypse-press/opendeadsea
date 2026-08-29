@@ -152,7 +152,7 @@ Every catalog manuscript is in one public queue bucket:
 | No translation | `none` | No complete public draft pack. Partial or rejected machine work stays private. |
 | Machine draft | `ai` | A complete first-draft pack is on the site and open for correction. |
 | Human checked | `signoff` | Maintainer override after a person checks the English. |
-| Needs help | `edit` | Maintainer override for a published pack that should be corrected before signoff. |
+| Pending approval | `edit` | Maintainer override for a published pack awaiting correction or approval before signoff. |
 
 ```sh
 python3 scripts/export_translation_queue.py

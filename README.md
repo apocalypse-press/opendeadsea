@@ -24,7 +24,7 @@ drafts are complete: `python3 scripts/export_first_drafts.py`. An optional,
 explicit Explorer recovery-publication overlay can replace only exact
 hash-bound failed rows that passed the provider-free recovery audit; any drift
 fails the export. Those packs are for human review, not the edition. The catalog then buckets every
-manuscript as no translation, machine draft, human checked, or needs help
+manuscript as no translation, machine draft, human checked, or pending approval
 (`python3 scripts/export_translation_queue.py`). Partial/rejected Explorer work
 stays unpublished and therefore remains in no translation.
 

@@ -3,7 +3,7 @@
     { key: "none", label: "No translation", badge: "badge" },
     { key: "ai", label: "Machine draft", badge: "badge badge-info" },
     { key: "signoff", label: "Human checked", badge: "badge badge-ok" },
-    { key: "edit", label: "Needs help", badge: "badge badge-warn" },
+    { key: "edit", label: "Pending approval", badge: "badge badge-warn" },
   ];
   const byKey = {};
   BUCKETS.forEach((b) => {
@@ -53,7 +53,7 @@
       return "Human checked translation";
     }
     if (key === "edit") {
-      return "Machine draft needs help";
+      return "Machine draft pending approval";
     }
     return "No translation in the edition yet";
   }
