@@ -78,6 +78,8 @@ database.
   -> site/m/ + site/work/
 
 ~/dss-explorer/reviews/*-detached-drafts.json
+~/dss-explorer/reviews/dss-command-a-03-2025-recovery-publication-overlay.json
+  -> scripts/detached_draft_sources.py (fail-closed provenance merge)
   -> scripts/export_first_drafts.py
   -> corpus/translations/ + site/data/translations/
   -> scripts/export_translation_queue.py
@@ -87,7 +89,9 @@ database.
 Original-language wording is derived from the pinned ETCBC/dss commit recorded
 in `scripts/export_orig_lang.py`; license and attribution are in
 `docs/SOURCES.md`. Translation packs retain their model, prompt, source-commit,
-source-hash, and review status. Partial or rejected Explorer drafts are not
+source-hash, and review status. Recovered rows are accepted only through the
+explicit overlay after its result, plan, artifact, row, and corpus hashes are
+rechecked. Partial or rejected Explorer drafts are not
 published as editable English.
 
 ## Browser and edge flows

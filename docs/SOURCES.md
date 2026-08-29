@@ -135,6 +135,14 @@ Writes `corpus/translations/<siglum>.json` and a served copy under
 `line.en` as a first draft. It is not the edition translation. Incomplete
 manuscripts (planned, error, or invalid leftovers) are held back.
 
+The exporter also reads the single explicit Explorer recovery-publication
+overlay when present. `scripts/detached_draft_sources.py` verifies the overlay's
+canonical hash and every bound result, plan, lane file, source row, recovered
+row, line identity, and corpus commit before replacing a rejected lane row with
+an audited `valid` machine draft. A missing overlay is harmless; a configured
+overlay with any drift aborts the export. The overlay never changes Explorer's
+original lane files or production translation state.
+
 ## Translation queue (catalog buckets)
 
 Every catalog manuscript is in one public queue bucket:

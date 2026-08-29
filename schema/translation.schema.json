@@ -21,7 +21,17 @@
           "notes": { "type": "string" },
           "line_id": { "type": ["integer", "null"] },
           "source_hash": { "type": "string" },
-          "source_condition": { "type": "string" }
+          "source_condition": { "type": "string" },
+          "recovery": {
+            "type": "object",
+            "required": ["prompt_version", "provider", "model", "request_identity"],
+            "properties": {
+              "prompt_version": { "type": "string", "minLength": 1 },
+              "provider": { "type": "string", "minLength": 1 },
+              "model": { "type": "string", "minLength": 1 },
+              "request_identity": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+            }
+          }
         }
       }
     }

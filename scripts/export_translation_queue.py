@@ -17,18 +17,16 @@ Does not unfreeze DSS Explorer production translations.
 from __future__ import annotations
 
 import json
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 
+from detached_draft_sources import load_best_lines as load_draft_records
+
 ROOT = Path(__file__).resolve().parents[1]
-EXPLORER = Path.home() / "dss-explorer"
-REVIEWS = EXPLORER / "reviews"
 CATALOG = ROOT / "corpus" / "manuscripts.json"
 PACK_DIR = ROOT / "corpus" / "translations"
 SITE_PACK = ROOT / "site" / "data" / "translations"
 OVERRIDES = ROOT / "corpus" / "translation-queue-overrides.json"
-GLOB = "p*_w*_c*-command-a-03-2025-detached-drafts.json"
-RANK = {"valid": 3, "invalid": 2, "error": 1, "planned": 0}
 
 BUCKETS = [
     {"key": "none", "label": "No translation"},
@@ -44,24 +42,10 @@ def slugify(label: str) -> str:
 
 
 def load_best_lines() -> dict[str, dict[int, str]]:
-    by_label: dict[str, dict[int, str]] = defaultdict(dict)
-    if not REVIEWS.is_dir():
-        return by_label
-    for path in REVIEWS.glob(GLOB):
-        try:
-            payload = json.loads(path.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError):
-            continue
-        for item in payload.get("items") or []:
-            label = item.get("scroll_label")
-            line_id = item.get("line_id")
-            if not label or line_id is None:
-                continue
-            status = str(item.get("status") or "planned")
-            prev = by_label[label].get(int(line_id))
-            if prev is None or RANK.get(status, -1) > RANK.get(prev, -1):
-                by_label[label][int(line_id)] = status
-    return by_label
+    return {
+        label: {line_id: row["status"] for line_id, row in lines.items()}
+        for label, lines in load_draft_records().items()
+    }
 
 
 def pack_stems(pack_dir: Path) -> set[str]:

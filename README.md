@@ -9,10 +9,10 @@ Site: https://opendeadsea.org/
 
 ## Current state (2026-08-29)
 
-Built: 1,027-manuscript catalog, original-language reading pages, 896 complete
-machine-draft packs referenced by 900 catalog records, GitHub OAuth, D1-backed
+Built: 1,027-manuscript catalog, original-language reading pages, 900 complete
+machine-draft packs referenced by 904 catalog records, GitHub OAuth, D1-backed
 public suggestions/comments/review, source links, and deterministic validators.
-The remaining 127 catalog records have no published translation pack: 101
+The remaining 123 catalog records have no published translation pack: 97
 retain planned/error/invalid machine lines, and 26 Greek witnesses lack source
 wording in the current corpus.
 
@@ -20,8 +20,10 @@ Remaining: sustained human review, accepted-translation release tooling, the
 GitHub PR bridge, and full BDB/Jastrow ingestion.
 
 First-draft machine-aid English is staged for manuscripts whose Explorer
-drafts are complete: `python3 scripts/export_first_drafts.py`. Those packs
-are for human review, not the edition. The catalog then buckets every
+drafts are complete: `python3 scripts/export_first_drafts.py`. An optional,
+explicit Explorer recovery-publication overlay can replace only exact
+hash-bound failed rows that passed the provider-free recovery audit; any drift
+fails the export. Those packs are for human review, not the edition. The catalog then buckets every
 manuscript as no translation, machine draft, human checked, or needs help
 (`python3 scripts/export_translation_queue.py`). Partial/rejected Explorer work
 stays unpublished and therefore remains in no translation.

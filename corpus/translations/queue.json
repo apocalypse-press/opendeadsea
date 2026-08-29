@@ -20,22 +20,23 @@
  "default": "none",
  "authorization": "Public translation-queue buckets for the catalog. AI translation is a machine-aid first draft, not the edition. Human checked and needs-help states are maintainer-set after review.",
  "counts": {
-  "none": 127,
-  "ai": 900,
+  "none": 123,
+  "ai": 904,
   "signoff": 0,
   "edit": 0
  },
  "manuscript_count": 1027,
  "manuscripts": {
   "CD": {
-   "queue": "none",
+   "queue": "ai",
    "source": "derived",
-   "valid": 413,
+   "valid": 414,
    "planned": 0,
    "error": 0,
-   "invalid": 1,
+   "invalid": 0,
    "line_count": 414,
-   "pack": false
+   "pack": true,
+   "pack_id": "CD"
   },
   "Mas1": {
    "queue": "ai",
@@ -1590,14 +1591,15 @@
    "pack": false
   },
   "1QS": {
-   "queue": "none",
+   "queue": "ai",
    "source": "derived",
-   "valid": 282,
+   "valid": 283,
    "planned": 0,
    "error": 0,
-   "invalid": 1,
+   "invalid": 0,
    "line_count": 283,
-   "pack": false
+   "pack": true,
+   "pack_id": "1QS"
   },
   "1QSa": {
    "queue": "ai",
@@ -2400,10 +2402,10 @@
   "3Q15": {
    "queue": "none",
    "source": "derived",
-   "valid": 178,
+   "valid": 180,
    "planned": 0,
    "error": 0,
-   "invalid": 3,
+   "invalid": 1,
    "line_count": 181,
    "pack": false
   },
@@ -6999,14 +7001,15 @@
    "pack": false
   },
   "4Q417": {
-   "queue": "none",
+   "queue": "ai",
    "source": "derived",
-   "valid": 195,
+   "valid": 196,
    "planned": 0,
    "error": 0,
-   "invalid": 1,
+   "invalid": 0,
    "line_count": 196,
-   "pack": false
+   "pack": true,
+   "pack_id": "4Q417"
   },
   "4Q418": {
    "queue": "ai",
@@ -8901,10 +8904,10 @@
   "4Q531": {
    "queue": "none",
    "source": "derived",
-   "valid": 179,
+   "valid": 180,
    "planned": 13,
    "error": 0,
-   "invalid": 3,
+   "invalid": 2,
    "line_count": 195,
    "pack": false
   },
@@ -9824,14 +9827,15 @@
    "pack_id": "4Q71"
   },
   "4Q72": {
-   "queue": "none",
+   "queue": "ai",
    "source": "derived",
-   "valid": 224,
+   "valid": 225,
    "planned": 0,
    "error": 0,
-   "invalid": 1,
+   "invalid": 0,
    "line_count": 225,
-   "pack": false
+   "pack": true,
+   "pack_id": "4Q72"
   },
   "4Q72a": {
    "queue": "ai",

@@ -11,46 +11,17 @@ from __future__ import annotations
 
 import json
 import shutil
-from collections import defaultdict
 from pathlib import Path
 
+from detached_draft_sources import REVIEWS, load_best_lines
+
 ROOT = Path(__file__).resolve().parents[1]
-EXPLORER = Path.home() / "dss-explorer"
-REVIEWS = EXPLORER / "reviews"
 CORPUS = ROOT / "corpus" / "translations"
 SITE = ROOT / "site" / "data" / "translations"
-GLOB = "p*_w*_c*-command-a-03-2025-detached-drafts.json"
-RANK = {"valid": 3, "invalid": 2, "error": 1, "planned": 0}
 
 
 def slugify(label: str) -> str:
     return label.replace("/", "-")
-
-
-def load_best_lines() -> dict[str, dict]:
-    by_label: dict[str, dict] = defaultdict(dict)
-    for path in REVIEWS.glob(GLOB):
-        try:
-            payload = json.loads(path.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError):
-            continue
-        generator = payload.get("generator") or {}
-        corpus = (payload.get("cohort") or {}).get("corpus_commit")
-        for item in payload.get("items") or []:
-            label = item.get("scroll_label")
-            line_id = item.get("line_id")
-            if not label or line_id is None:
-                continue
-            status = str(item.get("status") or "planned")
-            prev = by_label[label].get(int(line_id))
-            if prev is None or RANK.get(status, -1) > RANK.get(prev["status"], -1):
-                by_label[label][int(line_id)] = {
-                    "status": status,
-                    "item": item,
-                    "generator": generator,
-                    "corpus_commit": corpus,
-                }
-    return by_label
 
 
 def ready_manuscripts(by_label: dict[str, dict]) -> list[tuple[str, dict, dict]]:
@@ -68,6 +39,11 @@ def ready_manuscripts(by_label: dict[str, dict]) -> list[tuple[str, dict, dict]]
 
 def pack_for(label: str, lines: dict, meta: dict) -> dict:
     ordered = [lines[k]["item"] for k in sorted(lines)]
+    recovered = [
+        item
+        for item in ordered
+        if item.get("publication_tier") == "audited-recovery-machine-draft"
+    ]
     return {
         "id": slugify(label),
         "label": label,
@@ -86,6 +62,17 @@ def pack_for(label: str, lines: dict, meta: dict) -> dict:
             "prompt_version": (meta.get("generator") or {}).get("prompt_version"),
             "response_contract": (meta.get("generator") or {}).get("response_contract"),
         },
+        **(
+            {
+                "recovery_overlay": {
+                    "version": "dss-detached-draft-recovery-publication-overlay-v1",
+                    "line_count": len(recovered),
+                    "review": "provider-free-audited",
+                }
+            }
+            if recovered
+            else {}
+        ),
         "lines": {
             str(item.get("reference")): {
                 "en": item.get("translation") or "",
@@ -93,6 +80,19 @@ def pack_for(label: str, lines: dict, meta: dict) -> dict:
                 "line_id": item.get("line_id"),
                 "source_hash": item.get("source_hash"),
                 "source_condition": item.get("source_condition"),
+                **(
+                    {
+                        "recovery": {
+                            "prompt_version": item.get("recovery_prompt_version"),
+                            "provider": item.get("provider"),
+                            "model": item.get("model"),
+                            "request_identity": item.get("request_identity"),
+                        }
+                    }
+                    if item.get("publication_tier")
+                    == "audited-recovery-machine-draft"
+                    else {}
+                ),
             }
             for item in ordered
             if item.get("reference")
