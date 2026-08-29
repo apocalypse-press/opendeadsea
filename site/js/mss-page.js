@@ -154,7 +154,7 @@ function originalText(line) {
 }
 
 function copyButton(kind, label, text) {
-  return `<button type="button" class="line-copy" data-copy-text="${esc(text)}" data-copy-label="${esc(label)}" aria-label="Copy ${esc(label)}">Copy ${esc(kind)}</button>`;
+  return `<button type="button" class="line-tool" data-copy-text="${esc(text)}" data-copy-label="${esc(label)}" aria-label="Copy ${esc(label)}">Copy ${esc(kind)}</button>`;
 }
 
 function writeClipboard(text) {
@@ -271,14 +271,16 @@ function lineHTML(line, mss) {
   }
   const wordsClass = line.words && line.words.length ? " orig-line-words" : "";
   const originalLabel = String(mss.lang || "").toLowerCase().startsWith("arc") || (mss.languages || []).some((lang) => /aramaic/i.test(lang)) ? "Aramaic" : "Hebrew";
-  const he = `<div class="line-copy-block orig-copy-block">${copyButton(originalLabel, originalLabel, originalText(line))}<p class="orig-line${wordsClass}" lang="${esc(mss.lang || "he")}" dir="${esc(mss.dir || "rtl")}">${num}${heInner(line, mss)}</p></div>`;
-  const en = line.en ? `<div class="line-copy-block en-copy-block">${copyButton("English", "English", line.en)}<p class="orig-en" lang="en" dir="ltr">${esc(line.en)}</p></div>` : "";
+  const he = `<div class="line-copy-block orig-copy-block"><p class="orig-line${wordsClass}" lang="${esc(mss.lang || "he")}" dir="${esc(mss.dir || "rtl")}">${num}${heInner(line, mss)}</p></div>`;
+  const en = line.en ? `<div class="line-copy-block en-copy-block"><p class="orig-en" lang="en" dir="ltr">${esc(line.en)}</p></div>` : "";
   const book = line.book || mss.book || "";
   const chapter = line.chapter || mss.chapter || "";
   const verse = line.verse || "";
   const tools = `<div class="line-tools">
     <button type="button" class="line-tool" data-line-act="suggest" data-ref="${esc(ref)}">${line.en ? "Improve translation" : "Add translation"}</button>
     ${book && chapter && verse ? `<button type="button" class="line-tool" data-line-act="diagram" data-book="${esc(book)}" data-chapter="${esc(chapter)}" data-verse="${esc(verse)}" hidden>Diagram</button>` : ""}
+    ${copyButton(originalLabel, originalLabel, originalText(line))}
+    ${line.en ? copyButton("English", "English", line.en) : ""}
     <span class="line-mark" data-line-mark="${esc(ref)}" hidden></span>
   </div>`;
   return `<li class="orig-row${line.en ? " has-tr" : ""}" data-ref="${esc(ref)}" data-book="${esc(book)}" data-chapter="${esc(chapter)}" data-verse="${esc(verse)}">${he}${en}${tools}</li>`;
