@@ -1,0 +1,326 @@
+{
+ "id": "4Q25",
+ "label": "4Q25",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 44,
+ "scroll_id": 803,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q25 f1i:1": {
+   "en": "And he called to Moses, and Yahweh spoke to him from the tent of meeting, saying, Speak to the people of Israel, and you shall say",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 42211,
+   "source_hash": "f497358ca1beb475139c8e7420d15357204adecab172cd05964163050bab3fb3",
+   "source_condition": "reconstructed"
+  },
+  "4Q25 f1i:2": {
+   "en": "When a human brings a present to Yahweh from the cattle, from the oxen, and from the sheep",
+   "notes": "Uncertain elements include the reconstruction of 'אל׳הם' and 'מ׳כם', the damaged 'ה##' and 'ב#המה', and the uncertain 'מן?['. The phrase 'a present to Yahweh' is supported by repeated evidence, while 'of rams dyed red' and 'he will present from' are less certain in this context.",
+   "line_id": 42212,
+   "source_hash": "de0fd366150ec2deb17ee90c3f9a1ee451ec698aa5c9fd0948407dffe2049821",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f1i:3": {
+   "en": "You will present the offering. If a burnt offering from the cattle, a male unblemished he will present it.",
+   "notes": "Uncertainty in reconstruction and transcription at positions 12 and 13, resolved using repeated phrase evidence.",
+   "line_id": 42213,
+   "source_hash": "e766f1dde793b18f24f49368354a84a897eb0a7db9703848a6e42623a6da57c3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f1i:4": {
+   "en": "To the entrance of the tent of meeting he will bring near his pleasure before Yahweh and he leaned his hand upon the head",
+   "notes": "Uncertain reconstruction and damage affect 'to,' 'faces,' 'hand,' and 'upon.' Phrase evidence supports 'entrance of the tent of meeting' and 'before Yahweh.' The sense of 'pleasure' is contextually uncertain. 'He leaned' is a paraphrase for semantic clarity.",
+   "line_id": 42214,
+   "source_hash": "48697148bc000b540dcc1ea4e9aa0ecaddee3de56f28c78068114cd52a901c2d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f1i:5": {
+   "en": "The burnt-offering and he was pleased to make atonement on. And he slaughtered the young one of the herd before Yahweh and they approached",
+   "notes": "Uncertain transcription at the end of the line. The phrase 'and they approached' is uncertain due to damage in the source text.",
+   "line_id": 42215,
+   "source_hash": "841d870c5ce9026011da9ec2e9e48d850b4f7996bb02e866d891c24f9c4b1ca2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f1i:6": {
+   "en": "The sons of Aaron the priests took the blood and tossed the blood upon the altar surrounding",
+   "notes": "The phrase 'the sons of Aaron the priests' is a reconstruction based on repeated phrase evidence. The verb 'tossed' is a translation of 'זרקו', which can also mean 'be white', but the context suggests the former. The preposition 'upon' is used to translate 'על', which can also mean 'height', but the context suggests the former. The word 'surrounding' is a translation of 'סביב', which is a particle indicating a spatial relationship.",
+   "line_id": 42216,
+   "source_hash": "8a156e0784c61ba5fccfe9142e2a066be7b5c1eea922f198363e1d4121b482ef",
+   "source_condition": "reconstructed"
+  },
+  "4Q25 f1i:7": {
+   "en": "The opening of the tent of appointment. And he stripped the burnt-offering and cut it into pieces. And they gave [no recoverable text].",
+   "notes": "The phrase 'the opening of the tent of appointment' is supported by repeated phrase evidence. The final word is uncertain due to damage in the source text.",
+   "line_id": 42217,
+   "source_hash": "03e98443ef787d3d9986aea7d846325b3b868ce9e95c1f749c3b29dde85a3fcd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f1ii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) with no clear Hebrew or Aramaic lexical correspondence. No recoverable text survives for translation.",
+   "line_id": 42218,
+   "source_hash": "822c0b704d2676d85667bce34ee914cca0e7cd31f3fa64dd1431326b80df0925",
+   "source_condition": "clean"
+  },
+  "4Q25 f1ii:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible lexical items surviving for translation.",
+   "line_id": 42219,
+   "source_hash": "3421aa7ada916df58b28967ec5d4eb6d27b7e255301bc0ab2e21629d36106a34",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f1ii:3": {
+   "en": "and [no recoverable text]",
+   "notes": "The transcription contains a damaged word (ה#[) and an untranslatable character (ε), with no recoverable meaning. The final character (׃) is a punctuation mark and not translated.",
+   "line_id": 42220,
+   "source_hash": "368ef9bd07d74b4bf65028c6d30c5e5b0928deca40bc1f077b7cc1a1d54388dd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f2:1": {
+   "en": "And he will make smoke the priest to the altar of the bread of a fire offering",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly the first character 'ε' and the uncertain word at the end.",
+   "line_id": 42221,
+   "source_hash": "57bb1d646626466073b56c059e3cc69fb8eef886e7667de35ff6dfdb93d0b0bd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f2:2": {
+   "en": "to an odor of soothing incense whole fat to YHWH a statute of perpetuity to generations in all places",
+   "notes": "Uncertain reconstruction of YHWH and statute. Unclear relationship between fat and YHWH. Lacuna before 'to generations'",
+   "line_id": 42222,
+   "source_hash": "7100937c2e052d1a6e6153cc9141eaefb0b8018d718156dafe88f6fc2c7e77cc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f2:3": {
+   "en": "fat and any blood not you must eat",
+   "notes": "Uncertainty in the final verb form due to damage; translation follows high-confidence phrase evidence for 'blood not you must eat' and 'any blood not'.",
+   "line_id": 42223,
+   "source_hash": "0c77284248cda4c3a5381c52eb777de261b85d6d9fa9e41159cabc85924c6e7f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f2:4": {
+   "en": "And he spoke, Yahweh to Moses, saying: Speak to the people of Israel [no recoverable text]",
+   "notes": "The transcription is damaged, with two reconstructed words and two uncertain words. The phrase 'Yahweh to Moses' is supported by high-confidence evidence. The phrase 'to the people of Israel' is also supported by high-confidence evidence. The final part of the transcription is too damaged to recover any defensible English words.",
+   "line_id": 42224,
+   "source_hash": "dc4bea42444edf9acbd1ecc2b26998c259df17ee523d39165ebc951396447cca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f2:5": {
+   "en": "For it will sin by inadvertence from all the commandments of Yahweh which she has not made, and he made one",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'it will sin by inadvertence' and 'all the commandments of Yahweh'. The final phrase 'and he made one' is uncertain due to damage and low pattern support.",
+   "line_id": 42225,
+   "source_hash": "467f5e479fb62fd43bc06aa125c2fbd304bf71b219b5aaa492541119b33d627c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f2:6": {
+   "en": "From if the priest the anointed he misses to guiltiness the people and he approached upon sin his",
+   "notes": "Uncertain reconstruction in 'מ׳הנה' and 'אשמ#ת##['. Uncertain reading in 'י?חטא'. Phrase evidence supports 'priest (the) anointed' as a repeated pattern.",
+   "line_id": 42226,
+   "source_hash": "4f69afd3ff7b8d1601b1370c3b4ade198a772b9d3e780172c8c652ac8332439a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f2:7": {
+   "en": "which he missed, a young bull, a son of cattle, unblemished, to YHWH, to sin. And he brought the young bull to the opening",
+   "notes": "The phrase 'a young bull, a son of cattle, unblemished' is supported by repeated phrase evidence. The verb 'missed' is a reconstruction of the damaged form 'חט[ א'.",
+   "line_id": 42227,
+   "source_hash": "e53496861dcf04e28bf60bd848cae4aa72788041d589b17782d23503723c4454",
+   "source_condition": "reconstructed"
+  },
+  "4Q25 f2:8": {
+   "en": "the tent of meeting before YHWH and he supported his hand upon the head of the bull and slaughtered",
+   "notes": "Uncertain transcription and reconstruction in multiple positions. Phrase evidence supports 'the tent of meeting', 'before YHWH', and 'the head of the bull'. The sequence 'he supported his hand' is a high-confidence paraphrase of a repeated phrase.",
+   "line_id": 42228,
+   "source_hash": "e3d627a797cfb158d93c2090d2b2f1b29292c88e8cafde97cce6c24e3b470b2b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f2:9": {
+   "en": "a young bull before YHWH and he will take the priest the anointed from the blood of the young bull and bring him to the tent",
+   "notes": "Uncertain reconstruction of 'priest' and 'tent'. Phrase evidence supports 'he will take the priest' and 'anointed from the blood of the young bull'.",
+   "line_id": 42229,
+   "source_hash": "d199538100551cc486a58dd9eead9bdfe35bd4f1df7164077fc97e4afe955f64",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f2:10": {
+   "en": "At the appointed time, he will dip the priest's finger in the blood and spatter the blood seven times before",
+   "notes": "Uncertain reconstruction of 'appointment' and 'priest'",
+   "line_id": 42230,
+   "source_hash": "3204e85c0f47f927e62392819292f7385ec0109feeaeafa69d1293b427b51f64",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f2:11": {
+   "en": "YHWH the face of the curtain of holiness",
+   "notes": "Uncertainty in transcription and reconstruction of 'YHWH' and 'face'; phrase evidence supports 'YHWH with the face' but is not fully aligned with the visible morphology.",
+   "line_id": 42231,
+   "source_hash": "bfdf62e46b442a2c8e47cbe80f424af0c6a0e4d310dd7cc572ccb15af7e5a197",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f3:1": {
+   "en": "From outside the camp to a pure place, to the pouring out of the fatty ash, and he burned it upon trees.",
+   "notes": "The phrase 'the pouring out of the fatty ash' is a reconstruction based on repeated phrase evidence. The object marker 'et' is uncertain and omitted from the translation.",
+   "line_id": 42232,
+   "source_hash": "9b382537cbd849414c0f6e92194ab08a5589f51eb88e0511073c919ce9ef817d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f3:2": {
+   "en": "In the fire upon the rubbish-heap, the fatness will be burned",
+   "notes": "The phrase 'the pouring out of the fatty ash' is a repeated pattern, but it is not directly reflected in the translation due to the lack of explicit lexical support. The translation follows the visible morphology and lexical glosses, with the verb 'burn' in the nifal stem indicating a passive sense.",
+   "line_id": 42233,
+   "source_hash": "eaa0af15e202bf08c2d40fe30387d4bc8bb79c81ed3b6969095fbf53244c1926",
+   "source_condition": "reconstructed"
+  },
+  "4Q25 f3:3": {
+   "en": "And if all the congregation of Israel err and it was concealed anything from the assembly and they will do one",
+   "notes": "Uncertain transcription at position 11, reconstructed text at position 1.",
+   "line_id": 42234,
+   "source_hash": "e2903c05eaef2510d647127e0151976796b97a771b4253c2c861438807ce0170",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f3:4": {
+   "en": "From all the commandments of Yahweh which they did not make, and they did wrong, and she knew the sin which",
+   "notes": "The phrase 'from all the commandments of Yahweh' is supported by repeated phrase evidence. The verb 'make' is translated based on the lexical gloss, but its exact sense is uncertain. The verb 'know' is reconstructed and marked as uncertain. The final relative clause is incomplete due to damage.",
+   "line_id": 42235,
+   "source_hash": "be0f549ff95d98246bc9fcd06fe81bfe70c5256a047a6f9a13f4c475ed509f8a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f3:5": {
+   "en": "They missed upon and brought near the assembly a young bull a young one of the herd to a sin offering and they brought",
+   "notes": "Uncertain reconstruction at the end of the line. The phrase 'a young one of the herd to a sin offering' is supported by repeated phrase evidence.",
+   "line_id": 42236,
+   "source_hash": "6f4ca4b8686bf861fd5b51b46307f904d4bd16ef9dcc86599ecad0e1a046a941",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f4:1": {
+   "en": "And he brought the offering which missed, a male goat of goats, a male unblemished, and he leaned his hand.",
+   "notes": "Uncertainty in the transcription and reconstruction of 'ק##רבנ׳ו' (offering) and 'יד׳ו' (his hand) is not reflected in the translation. The phrase 'a male unblemished' and 'a male goat of goats' are supported by repeated phrase evidence.",
+   "line_id": 42237,
+   "source_hash": "5f0b751df9eada47dcb596199d24f65bd77a48fcc14b9bcc3b55b0b5d193ad8b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f4:2": {
+   "en": "Upon the head of the male goat and he will cut the throat of in the place where someone cuts the throat of the burnt-offering before the faces",
+   "notes": "Uncertain reconstruction of 'place' and 'he will cut the throat of'. Low support for 'go up before ahead of'.",
+   "line_id": 42238,
+   "source_hash": "7342e9506a3b77243a69750aba6b5887ae5eea56e31a03e170cf87a2eb74bcd2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f4:3": {
+   "en": "YHWH [is] the sin offering and the priest shall take from the blood of the sin offering on his finger and he shall put",
+   "notes": "Uncertainty due to reconstruction and damage in the source text, particularly around the conjunction and preposition.",
+   "line_id": 42239,
+   "source_hash": "739400e17ce1ae870120ab21c4b8e5cdc3f4d79b574aa83ca3947a0b3298ff6c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f4:4": {
+   "en": "the horns of the altar of the burnt offering and its blood he will pour out to the base of the altar of the burnt offering",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 42240,
+   "source_hash": "9c244162ce8840b84600db353dc3bc822f5e59908c8ca68828da64950f432753",
+   "source_condition": "reconstructed"
+  },
+  "4Q25 f4:5": {
+   "en": "All its fat he will smoke on the altar as the fat of the peace offerings and he will make atonement upon the priest",
+   "notes": "Reconstructed text at positions 1 and 5. Phrase evidence supports 'all fat', 'the sacrifice of the peace offerings', 'he will make [it] smoke to the', 'make atonement on', and 'on the priests'.",
+   "line_id": 42241,
+   "source_hash": "948486d5b3f354a7548895e25ca414e7cd47b2c411a1e6be3ba9490c20a1cc2c",
+   "source_condition": "reconstructed"
+  },
+  "4Q25 f4:6": {
+   "en": "From her sin and it will be forgiven to her. And if a person one it will sin by inadvertence from the people of the land in doing",
+   "notes": "Uncertain reconstruction at position 14. Omitted untranslatable punctuation at position 6.",
+   "line_id": 42242,
+   "source_hash": "9ecd0b190aa89ffef980f00c798aad112a81a32e1582edc6d60a6821bf9e65b0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f4:7": {
+   "en": "One from the commandments of Yahweh which they do not make, and he did wrong. Or it has been made known to his sin.",
+   "notes": "Reconstructed text in positions 1 and 14. Uncertainty in position 12.",
+   "line_id": 42243,
+   "source_hash": "1ee03d43188297c74c96e28762d0f27835cd4fd766480ec974868784839ce95e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f5:1": {
+   "en": "And the priest took a handful from the fullness of his handful the memorial offering",
+   "notes": "Reconstructed text is present but does not affect the translation. Phrase evidence strongly supports the sequence 'the priest from' and 'from the fullness his handful'.",
+   "line_id": 42244,
+   "source_hash": "a2709327d6da0f4a1b1622a594cacab082972546127c8b46ac75fad8db02423b",
+   "source_condition": "reconstructed"
+  },
+  "4Q25 f5:2": {
+   "en": "And he made smoke on the altar the fire offerings of Yahweh, the sin offering it. And he made atonement on the priest.",
+   "notes": "Uncertainty in the transcription is noted for the words 'יהו' and 'כפ', which may affect the translation. The phrase 'the fire offerings of Yahweh' is supported by repeated phrase evidence, while 'the sin offering it' and 'make atonement on' are supported by semantic constraints and repeated phrase evidence, respectively.",
+   "line_id": 42245,
+   "source_hash": "91e271855cfb23ec3a9bcb9d9ced1c5cba2017814717fdbdfcb24bd9af2f46ec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f6:1": {
+   "en": "One wafer, and one he placed upon the fats, and upon the thigh of the right, and he gave the",
+   "notes": "The phrase 'the thigh of the right' is supported by repeated evidence. The translation conservatively follows the visible morphology and lexical items, with uncertainty in the final phrase due to damage.",
+   "line_id": 42246,
+   "source_hash": "2847edf82bd16f3d62180c8d6f76f0282b5d795ba17cca8d8083a121c2cf9aeb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f6:2": {
+   "en": "the whole upon the palms of Aaron and upon the palms of his sons he swung them as a wave-offering before Yahweh and he took",
+   "notes": "Uncertain reconstruction of 'upon' (position 3).",
+   "line_id": 42247,
+   "source_hash": "5db41551c7b6a02b7f8361ae5eb0fb0dbbd5839824ec2d62b654433a72c47cec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f6:3": {
+   "en": "Moses (et) from upon the palms and he will make smoke the altar upon the burnt-offering installations they",
+   "notes": "The object marker 'את' is reconstructed and uncertain. The phrase 'Moses (et)' is supported by repeated phrase evidence. The verb 'יקטר' is translated as 'will make smoke' based on its hifil stem and wayy tense. The lexical gloss 'installation' for 'מלאים' is context-free and may not fit the context.",
+   "line_id": 42248,
+   "source_hash": "ad2b3173eafaf19b85d45e006078376b2d6ee350020b590dbae002aa2e69e8a2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f6:4": {
+   "en": "To an odor of soothing, a fire offering it to YHWH. And he took Moses, the breast, and he waved a wave-offering.",
+   "notes": "The phrase 'to an odor of soothing' follows high-confidence repeated phrase evidence for positions 1-3. The sequence 'a fire offering it' is supported by repeated evidence for positions 3-5. The verb 'he took' is licensed by visible morphology and repeated evidence for positions 10-11. 'Moses' is directly recoverable. 'The breast' is supported by visible morphology and lexical gloss. 'And he waved a wave-offering' follows repeated evidence for positions 16-17. No recoverable text survives for the final punctuation mark.",
+   "line_id": 42249,
+   "source_hash": "90f0734fa8ffa1afa8224a530e3a90d18f23467ccf933c2c456f3614daa9a487",
+   "source_condition": "reconstructed"
+  },
+  "4Q25 f7:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and untranslatable characters, with one reconstructed element (ק[) and two unidentifiable symbols (ε, ׃). No defensible English words can be derived from the available evidence.",
+   "line_id": 42250,
+   "source_hash": "c3b70aaaf2b8db25cfc7eb8cbb2889a578bcaa17846e9b9ec7ed10e52a18e192",
+   "source_condition": "reconstructed"
+  },
+  "4Q25 f8:1": {
+   "en": "to or",
+   "notes": "The transcription contains uncertain and reconstructed elements, including untranslatable characters (ε) and a damaged 'או' (or). The particle 'ל' (to) is clear, but the overall meaning is fragmented due to extensive damage and uncertainty.",
+   "line_id": 42251,
+   "source_hash": "69f528b0880607422357a674ec35041869c91e6bbb93d19ec178c84310f74af2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f8:2": {
+   "en": "wreath",
+   "notes": "The translation is based on the reconstructed word ]ליה[ with the gloss 'wreath'. The surrounding characters (ε) and the final punctuation mark (׃) are omitted as they cannot be translated independently. The reconstruction is noted, but the translation adheres to the visible lexical item.",
+   "line_id": 42252,
+   "source_hash": "43b06a47dd024ef291dfb199f7013dd9d7dc2e0a3f3b0fa742e4e936836e6d80",
+   "source_condition": "reconstructed"
+  },
+  "4Q25 f9:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (epsilon) and reconstructed placeholders, with no recoverable lexical content.",
+   "line_id": 42253,
+   "source_hash": "0396db02e2e676606040238eb1a87768a341e55e0c09cc0cc6b2f73dade20837",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q25 f9:2": {
+   "en": "the priests",
+   "notes": "Uncertain reconstruction and unrecoverable characters present.",
+   "line_id": 42254,
+   "source_hash": "3e178358d8b634b97d9c437d6f78e61a07af5860845989de8ae80a62e68a0fde",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

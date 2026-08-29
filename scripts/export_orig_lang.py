@@ -146,6 +146,7 @@ IAA_FALLBACK = {
 }
 
 IAA_NAMES: dict = {}
+SEARCH_METADATA: dict = {}
 
 
 def pretty_siglum(label: str) -> str:
@@ -176,6 +177,26 @@ def load_wikipedia_titles() -> None:
     path = CORPUS / "wikipedia.json"
     if path.exists():
         WIKIPEDIA_TITLES.update(json.loads(path.read_text(encoding="utf-8")))
+
+
+def load_search_metadata() -> None:
+    path = CORPUS / "search-metadata.json"
+    if path.exists():
+        SEARCH_METADATA.update(json.loads(path.read_text(encoding="utf-8")))
+
+
+def search_metadata(*keys: str) -> dict:
+    records = SEARCH_METADATA.get("scrolls") or {}
+    aliases: list[str] = []
+    summary = ""
+    for key in keys:
+        rec = records.get(key) or {}
+        for alias in rec.get("aliases") or []:
+            if alias not in aliases:
+                aliases.append(alias)
+        if not summary and rec.get("summary"):
+            summary = str(rec["summary"])
+    return {"aliases": aliases, "summary": summary}
 
 
 def wikipedia_url(raw_label: str) -> str | None:
@@ -608,6 +629,7 @@ def main() -> None:
         raise SystemExit(f"missing Explorer database {DB}")
     load_iaa_names()
     load_wikipedia_titles()
+    load_search_metadata()
 
     con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
     con.row_factory = sqlite3.Row
@@ -758,6 +780,7 @@ def main() -> None:
             current["lines"].append(rec)
 
         siglum, official_name, iaa = official_names(s["label"], familiar)
+        discovery = search_metadata(slug, s["label"], siglum)
         museum_url = iaa.get("museum_url") or s["museum_url"]
         commit = meta.get("corpus_commit", "")
         copy_url = iaa_copy_url(s["label"])
@@ -803,8 +826,7 @@ def main() -> None:
 
         facets = catalog_fields(payload["provenance"], langs, script)
         community = classify_community(s["label"], official_name, bool(s["biblical"]), iaa)
-        index.append(
-            {
+        index_rec = {
                 "id": slug,
                 "label": siglum,
                 "name": official_name,
@@ -830,7 +852,11 @@ def main() -> None:
                 "path": f"/m/{slug}/",
                 "lines_with_text": nonempty,
             }
-        )
+        if discovery["aliases"]:
+            index_rec["aliases"] = discovery["aliases"]
+        if discovery["summary"]:
+            index_rec["search_summary"] = discovery["summary"]
+        index.append(index_rec)
 
     extras_path = CORPUS / "extra-mss.json"
     if extras_path.exists():
@@ -1031,7 +1057,7 @@ def _extra_index(payload: dict) -> dict:
     langs = payload.get("languages") or []
     script = payload.get("script") or "greek"
     facets = catalog_fields(payload.get("provenance") or "", langs, script)
-    return {
+    rec = {
         "id": payload["id"],
         "label": payload["label"],
         "name": payload.get("name") or "",
@@ -1061,6 +1087,12 @@ def _extra_index(payload: dict) -> dict:
             IAA_NAMES.get(payload.get("id") or "") or IAA_NAMES.get(payload.get("label") or ""),
         ),
     }
+    discovery = search_metadata(payload.get("id") or "", payload.get("label") or "")
+    if discovery["aliases"]:
+        rec["aliases"] = discovery["aliases"]
+    if discovery["summary"]:
+        rec["search_summary"] = discovery["summary"]
+    return rec
 
 
 def _esc(s: str) -> str:

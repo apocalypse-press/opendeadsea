@@ -1,0 +1,340 @@
+{
+ "id": "4Q559",
+ "label": "4Q559",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 46,
+ "scroll_id": 601,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q559 f1:0": {
+   "en": "and who",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The particle 'כדי' has no trusted gloss and its meaning is uncertain.",
+   "line_id": 31202,
+   "source_hash": "76711bba26bf3158511271adbd8e578ef70550d9769ae14c89a1cd340b87f8d3",
+   "source_condition": "clean"
+  },
+  "4Q559 f1:1": {
+   "en": "See Esau who blessed Isaac and Jacob, who gnawed from his brother before him",
+   "notes": "Uncertainty in the transcription affects the names 'Isaac' and 'Jacob'. The verb 'gnaw' is contextually ambiguous but follows the provided gloss.",
+   "line_id": 31203,
+   "source_hash": "b1949e63846cd52a8f4d9bbae2fe56957e094aedfc19012d1ab603f4a0fbb2dd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f1:2": {
+   "en": "To sit already for years in the earth of the pure ones of Madnah",
+   "notes": "The phrase contains reconstructed elements and uncertain terms. The number '55' and the particle 'א' lack clear glosses. The term 'מדנח' is translated as 'Madnah' based on available evidence, but its exact meaning is uncertain.",
+   "line_id": 31204,
+   "source_hash": "e2da354208b1bfeba945be3c26188d38b4bb6f773dfffd9ab55cbf3c057e2d9f",
+   "source_condition": "reconstructed"
+  },
+  "4Q559 f1:3": {
+   "en": "And Joseph, son of Jacob, served two years in the land of Egypt",
+   "notes": "The numerical value of 'two years' is uncertain due to damage in the transcription. The preposition 'in' and the phrase 'land of Egypt' are reconstructed.",
+   "line_id": 31205,
+   "source_hash": "cc8d2d54934706da4a600b2126fec56bf65e41a8029e63949a8c7ba5023234be",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f1:4": {
+   "en": "Jacob descended already for two years",
+   "notes": "Uncertain elements include the number '130' and the suffix 'with'. The final characters 'ε' and '׃' are untranslatable and omitted. The phrase is fragmented and its syntax is incomplete.",
+   "line_id": 31206,
+   "source_hash": "b968542c0bcd7e8f6a289d1713f60ee0e43db57eaa1004e135261ca557858e64",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f2:0": {
+   "en": "and Nahor",
+   "notes": "The initial character 'ε' is untranslatable and omitted. Its presence may be a scribal error or damage.",
+   "line_id": 31207,
+   "source_hash": "872f68014bbf4cc27b72a774e6bcb0660cd74ac04926c1ef32e7634014f5fbea",
+   "source_condition": "clean"
+  },
+  "4Q559 f2:1": {
+   "en": "Terah bore Terah's son for years Abram bore",
+   "notes": "The numeral '70' is omitted due to uncertainty in its translation. The phrase is fragmented and reconstructed, with some uncertainty in the transcription.",
+   "line_id": 31208,
+   "source_hash": "5ca836b90d1401061162850628adf80c30c688c0a49df000260f0038f7fb2019",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f2:2": {
+   "en": "He, Abraham, and Abraham, grain of years",
+   "notes": "The phrase 'grain of years' is uncertain due to damage and ambiguous lexical glosses. The numerical sequence at the end is irretrievably damaged and omitted from the translation.",
+   "line_id": 31209,
+   "source_hash": "838cd128d3b6111abb879341f428b65f1444d5508c4e91242c3d08462567ae83",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f2:3": {
+   "en": "She bore Isaac from Sarah and Isaac, a son of sixty years, bore",
+   "notes": "The transcription is partially damaged and reconstructed. The numeral 'ך֜ך֜ך֜' is unclear and translated as 'sixty' based on the lemma provided, but its meaning is uncertain. The term 'ב#[ ר' is reconstructed and uncertain, translated as 'son' based on the gloss 'grain / son / pure / open field', but its exact meaning in this context is unclear.",
+   "line_id": 31210,
+   "source_hash": "c0f2d5c324a22a615442c18a40921b3b072d46d1b57500e62e0638e6a8f97311",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f2:4": {
+   "en": "Jacob and Jacob, son of two years, bore Levi",
+   "notes": "The numeral 'ך֜ך֜ך֜א֜א֜א֜א֜אֽ' is untranslatable and omitted. The verb 'אולד' is reconstructed and translated as 'bore'.",
+   "line_id": 31211,
+   "source_hash": "01cea6dc40e586f2bac55c0eaa0c34c26b62f53527a008cb9288468ae8d1aad9",
+   "source_condition": "reconstructed"
+  },
+  "4Q559 f2:5": {
+   "en": "And he gave to Levi all the books that are for Enoch, who guards them and will be given.",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'who guards them and will be given' is based on repeated phrase evidence and lexical glosses, but its exact meaning remains uncertain due to damage and reconstruction in the source text.",
+   "line_id": 31212,
+   "source_hash": "62698241b3aab2567a03ed94f1581a2fcec4944ce8cf1906790ec0ad4a74360a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f3:1": {
+   "en": "And he gave to Levi all the books that are to Enoch, who keeps for them, and he will give",
+   "notes": "The phrase 'who keeps for them' is a paraphrase based on repeated phrase evidence. The text is fragmentary, and some words are reconstructed or uncertain.",
+   "line_id": 31213,
+   "source_hash": "fe9f24229450de7a1cfc1676c4f14d5e4e8b12643c4afbeb4b70471085bda7ac",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f3:2": {
+   "en": "to all his grain and Levi a son of years [no recoverable text] he bore Kohath",
+   "notes": "The transcription is heavily damaged with multiple uncertain and reconstructed elements. The phrase '(et) a son' is supported by repeated evidence for 'Levi a son.' The numerical sequence and following text are irretrievably damaged, represented as '[no recoverable text].' Lacunae and uncertainties are not bracketed in the translation but noted here.",
+   "line_id": 31214,
+   "source_hash": "d973fbd8dbf65d1cca1fc6a2d62eef774dc2c82c7f3cee83ea6ddbb2f835f3d1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f3:3": {
+   "en": "And Kohath bore twenty-nine years Amram and Amram son",
+   "notes": "The numeral 'twenty-nine' is uncertain due to damage in the transcription. The names 'Amram' and 'Kohath' are reconstructed and uncertain. The term 'son' is repeated at the end, possibly due to textual corruption.",
+   "line_id": 31215,
+   "source_hash": "83411377eb4e81ca0194e2f1b09e1c77cd5af53e4f13108f260f43599eb1ae12",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f3:4": {
+   "en": "One hundred and fifteen years Aaron bore Aaron went out from Egypt",
+   "notes": "Uncertain reconstruction and gloss for several words, including the numerical value and the verb 'went out'. The phrase 'Aaron bore Aaron' is a direct translation of the visible text but may be contextually unclear.",
+   "line_id": 31216,
+   "source_hash": "41cf4016a03d6124ad52c1f0b615f992cecec9e465392dc60411ec95f5daa8b4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f3:5": {
+   "en": "With the sons of Levi, all these thousands and already",
+   "notes": "The numerical values '11' and '536' are omitted due to uncertainty in their translation. The phrase 'all these' is supported by repeated phrase evidence.",
+   "line_id": 31217,
+   "source_hash": "1ca54f294686424a527c563725c6da73118f71ce2a4ecfe84850d8ab3e460b24",
+   "source_condition": "reconstructed"
+  },
+  "4Q559 f4:1": {
+   "en": "Eighty-three years Aaron bore Eleazar",
+   "notes": "Reconstructed and uncertain text includes the numeral 'eighty-three' and the name 'Aaron'. The verb 'bore' is a perfect third-person masculine singular form of the root 'ילד'.",
+   "line_id": 31218,
+   "source_hash": "984965368f7eaac5374a1cbcabd2bc03439f5ee30c89a6a0fbf71d506cd54134",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f4:2": {
+   "en": "And from those who went out from the land of Egypt",
+   "notes": "The transcription is partially damaged, with reconstructions and uncertainty. The particle 'א' (position 7) has no trusted gloss and is omitted in translation. The phrase relies on contextual reconstruction and may not fully capture the original intent.",
+   "line_id": 31219,
+   "source_hash": "a12fe19bf2da82665eb17b728a058919ff78ae6adf3aedfadc82eaf3d772e99d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f4:3": {
+   "en": "who divided Korah, five years, and unto Joshua son",
+   "notes": "Uncertain reconstruction of 'years' (position 4); uncertain meaning of 'five' (position 5); final word 'son' is incomplete due to damage.",
+   "line_id": 31220,
+   "source_hash": "7f50a1fdde318badba3b9e3ed3659b5c89b067522d81b107e905fdf8050e3a4e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f4:4": {
+   "en": "Nun passed the Jordan and cut the uncircumcised people who were not",
+   "notes": "Several words are reconstructed or uncertain: 'Nun' is reconstructed; 'Jordan' is uncertain; 'uncircumcised' and 'people' are uncertain; the final 'who were not' is incomplete and uncertain.",
+   "line_id": 31221,
+   "source_hash": "80326f433b014ad3d9db2d38db45458ccf9a565feb9ee1b0a7f03263f18488f6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f4:5": {
+   "en": "He cut years in Gilgal",
+   "notes": "Uncertain elements include the numbers and the particle 'א'. The phrase 'ש#[ נין' is a reconstructed form of 'years'. The translation conservatively omits uncertain details and retains recoverable content.",
+   "line_id": 31222,
+   "source_hash": "dddcd62e84ea30b07c0589172a290d871333e6c59e8e54ae3e2af406295747bc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f4:6": {
+   "en": "In Shiloh and Shechem, years twenty, and from those who died, Eleazar",
+   "notes": "Uncertain elements include a damaged particle (position 5), an unclear number (position 7), and a reconstructed verb form (position 11).",
+   "line_id": 31223,
+   "source_hash": "842108372d76a0fb629f2404cde7f55b1095ed061ae4e2bc93f0db5ad5f5ec1e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f4:7": {
+   "en": "And Joshua, Cush, the wicked ones, the king of Aram",
+   "notes": "Uncertainty in the transcription and gloss of 'רשעתי?ם' (wicked ones) and 'כוש#' (Cush).",
+   "line_id": 31224,
+   "source_hash": "921d5a8ab3b5e5e38c0a6fa27993e12cea21b228717cda67f4d74f219b55933b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f4:8": {
+   "en": "Naharain two eight Othniel son Kenaz",
+   "notes": "The transcription is heavily damaged, and the meaning of several words is uncertain. The term 'נַהֲרַיִן' (Naharain) is reconstructed and its meaning is unclear. The number '8' is also uncertain. The word 'בַּר' is translated as 'son' based on its morphology, but it could also mean 'grain', 'pure', or 'open field'.",
+   "line_id": 31225,
+   "source_hash": "8d9933e4f174d4e883665ec1945712f887eb2938e7f7e0448d999d58b65695c4",
+   "source_condition": "reconstructed"
+  },
+  "4Q559 f4:9": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged and uncertain, with multiple reconstructed and ambiguous elements. The phrase 'Eglon the king of Moab' is supported by phrase evidence, but the surrounding material is too fragmented to construct a coherent translation. The numbers and other elements cannot be confidently rendered in English.",
+   "line_id": 31226,
+   "source_hash": "6d98ae265b1bd8c6c1db05dc2f13c283bfe56e4c316292b1061044e425ab95d0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f4:10": {
+   "en": "Ehud son of Gera eighty years Shamgar son of Anath",
+   "notes": "The numeral 'eighty' is uncertain due to repeated damaged characters. The translation preserves the visible order and morphology of the source text.",
+   "line_id": 31227,
+   "source_hash": "bc8cc6886eca88a3c85e97806257af65463c4497faf5adca1b7e8195382e09f5",
+   "source_condition": "reconstructed"
+  },
+  "4Q559 f5:1": {
+   "en": "Year one, Jabin the king of Canaan, years twenty, Deborah and Barak",
+   "notes": "Fragment combines proper names and numbers with uncertain syntax. 'Year' and 'years' are context-free glosses for the same lemma. 'Bar' is a partial match to the lemma 'Barak' and is translated as the proper name.",
+   "line_id": 31228,
+   "source_hash": "44f0036c5c1951065d427d5ae53b310822515374498dc6c9f8e910754f8b6356",
+   "source_condition": "reconstructed"
+  },
+  "4Q559 f5:2": {
+   "en": "Abinoam from who went out before years forty Gideon",
+   "notes": "Uncertain elements include the relative particle 'who' and the verb 'went out'. The numerical value 'forty' is unclear. The phrase lacks clear contextual constraints, and no repeated phrase evidence is available.",
+   "line_id": 31229,
+   "source_hash": "ed5e3d9038d35b2de8ae10c34813af388271d6a28a33941469968eb8257d2018",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f5:3": {
+   "en": "[ Son Jehoash ] years forty [ and Puah years twenty-three ]",
+   "notes": "Reconstructed text in positions 1 and 5. Numbers in positions 4 and 9 are uncertain due to damage.",
+   "line_id": 31230,
+   "source_hash": "b067f3b997ab0afcfe5ef7f8db97f7312d1242fb3382df8982132e7bc41c0bec",
+   "source_condition": "reconstructed"
+  },
+  "4Q559 f5:4": {
+   "en": "Jair the Gileadite two years",
+   "notes": "The transcription contains uncertain and damaged elements, including a possible particle (א##), a reconstructed term for 'years' (ש#נ#?ין#?), and an unclear numerical or symbolic character (ך֜א֜א֜). The final characters (ε and ׃) are omitted as they cannot be translated independently. The translation reflects recoverable content only.",
+   "line_id": 31231,
+   "source_hash": "0fcebc1cc458509e65e0b28f0902b68964de62c8a6673cd91aa723cd82381911",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f6:1": {
+   "en": "Philistine years Samson son of Manoah years",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged numeral and an unclear particle. The translation preserves recoverable words in order, omitting unsupported relations and uncertain characters.",
+   "line_id": 31232,
+   "source_hash": "4583533f9efacf07d2c366f8ddf1ce6bd72be712661fd92ab7936bc8cf187a0f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f6:2": {
+   "en": "Twenty Eli the priest in the years of Samuel son of Elkanah",
+   "notes": "Uncertain characters and reconstructions present in the source text are not fully recoverable. The translation omits uncertain elements and focuses on the most defensible content.",
+   "line_id": 31233,
+   "source_hash": "ef4c4c94987ed8d6ec35371521225a1cdc55dccddd749b37a7e41e0cadb60a54",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f7:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (ε, #) with no recoverable lexical content. All words are marked as unknown or reconstructed with high uncertainty. No defensible English translation is possible.",
+   "line_id": 31234,
+   "source_hash": "1fda17979edd5561c41b5a07ad5caf84a4ea9f26fe0eece811e672cb27e55b22",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f7:2": {
+   "en": "years sixty",
+   "notes": "The transcription contains uncertain and reconstructed elements, including untranslatable characters (ε) and a damaged numerical form. The translation reflects recoverable words 'years' (שנין) and 'sixty' (ך֜#ך֜ך֜), but the exact meaning and integrity of the line are uncertain due to damage and unclear context.",
+   "line_id": 31235,
+   "source_hash": "3be649d1caf618769257877c6c4e945750a83c98275953380d7f71b30ed23a76",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f7:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew. All visible characters are either damaged, reconstructed, or untranslatable punctuation marks.",
+   "line_id": 31236,
+   "source_hash": "82272c9374651e354ca4ee6def35c2e38c9573be34b2ef0b34b458187038d3f2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f8:1": {
+   "en": "years forty",
+   "notes": "The transcription contains untranslatable characters and a reconstructed numeral. The translation reflects only the recoverable lexical items 'years' and 'forty'.",
+   "line_id": 31237,
+   "source_hash": "94bba3b336d1f70a0057366a00c88756c41f66b81fb635ec766e16b52c3744a8",
+   "source_condition": "reconstructed"
+  },
+  "4Q559 f9:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items surviving. The visible forms are either unknown or too fragmentary to translate confidently.",
+   "line_id": 31238,
+   "source_hash": "ece4261890e01dc334fba980ce258a076cd0fa2a0e623d929669a31e7b4da08f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f9:2": {
+   "en": "years three to",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged numeral. The preposition 'to' is reconstructed.",
+   "line_id": 31239,
+   "source_hash": "4e493d50a91228fbedb8bcf0396c8acb58f93062e40886cc5f75d6034ffdaf72",
+   "source_condition": "reconstructed"
+  },
+  "4Q559 f10:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' in an Aramaic context, with no recoverable lexical content.",
+   "line_id": 31240,
+   "source_hash": "717f86dd4a55f5fc92b4286b76e850585374b5acc2d78f89f03602893db6f709",
+   "source_condition": "clean"
+  },
+  "4Q559 f10:2": {
+   "en": "these words",
+   "notes": "Uncertain transcription and reconstruction of several characters. The translation reflects the most recoverable content, but the exact wording is tentative.",
+   "line_id": 31241,
+   "source_hash": "fc65e4518912996615a821930464a050c1ba7182d437b82375e8250fcf04f7a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f10:3": {
+   "en": "therefore",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character 'ε' and a partial word 'ג['. The particle 'ל#הן' is translated as 'therefore' based on its lexical gloss, but its uncertainty is noted.",
+   "line_id": 31242,
+   "source_hash": "3894db36131304ab2dd01b294cb3e590ed1f869d2f5bde8db7b428b94eafc8fb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f10:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters with no clear lexical or syntactic recoverable content. The visible forms do not provide sufficient evidence for a defensible translation.",
+   "line_id": 31243,
+   "source_hash": "2c3fd2d33feb80ae372196b621057d0e62b1be9564e805f1c0966c1f2fbf5dd7",
+   "source_condition": "uncertain"
+  },
+  "4Q559 f11:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments (ε, ], #, א, צ[, ׃) with no clear lexical or grammatical meaning. The reconstructed and uncertain elements do not provide sufficient context for a defensible translation.",
+   "line_id": 31244,
+   "source_hash": "0e8714f017a424ab816b2de868d16dcfc0675834686c6e7336b74f652c0c307f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f12:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed numeral with uncertain meaning. No defensible English words survive.",
+   "line_id": 31245,
+   "source_hash": "95a4a07e1e1135765d6d1a4130e1a2eb473d5d499165173e03bcfa2f098529f4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f12:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ל##ם#[, ׃) with no clear lexical or semantic content. The reconstructed and uncertain elements do not provide sufficient basis for translation. No defensible English words survive.",
+   "line_id": 31246,
+   "source_hash": "ccda5d59cc298fb3bbc5edfd6e65f065916f93841ef1ecbea72208b4bfef0ed7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q559 f13:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment, with no recoverable lexical items.",
+   "line_id": 31247,
+   "source_hash": "1543c41df179a40a3825c7b63331794c7ea7f8b245af9f32558a1204283f3865",
+   "source_condition": "reconstructed"
+  }
+ }
+}

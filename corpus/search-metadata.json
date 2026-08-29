@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "coverage_note": "The Dead Sea Scrolls are fragmentary and do not preserve every book or chapter of the Hebrew Bible.",
+  "books": [
+    {"id":"Gen","name":"Genesis","chapters":50,"aliases":["gen","ge","gn"]},
+    {"id":"Ex","name":"Exodus","chapters":40,"aliases":["exod","exo","ex"]},
+    {"id":"Lev","name":"Leviticus","chapters":27,"aliases":["lev","le"]},
+    {"id":"Num","name":"Numbers","chapters":36,"aliases":["num","nm"]},
+    {"id":"Deut","name":"Deuteronomy","chapters":34,"aliases":["deut","deu","dt"]},
+    {"id":"Josh","name":"Joshua","chapters":24,"aliases":["josh","jos"]},
+    {"id":"Judg","name":"Judges","chapters":21,"aliases":["judg","jdg"]},
+    {"id":"Ruth","name":"Ruth","chapters":4,"aliases":["ru"]},
+    {"id":"1Sam","name":"1 Samuel","chapters":31,"aliases":["1 sam","1sam","first samuel","i samuel","1st samuel"]},
+    {"id":"2Sam","name":"2 Samuel","chapters":24,"aliases":["2 sam","2sam","second samuel","ii samuel","2nd samuel"]},
+    {"id":"1Kgs","name":"1 Kings","chapters":22,"aliases":["1 kings","1 kgs","1kgs","first kings","i kings","1st kings"]},
+    {"id":"2Kgs","name":"2 Kings","chapters":25,"aliases":["2 kings","2 kgs","2kgs","second kings","ii kings","2nd kings"]},
+    {"id":"1Chr","name":"1 Chronicles","chapters":29,"aliases":["1 chronicles","1 chr","1chr","first chronicles","i chronicles","1st chronicles"]},
+    {"id":"2Chr","name":"2 Chronicles","chapters":36,"aliases":["2 chronicles","2 chr","2chr","second chronicles","ii chronicles","2nd chronicles"]},
+    {"id":"Ezra","name":"Ezra","chapters":10,"aliases":["ezr"]},
+    {"id":"Neh","name":"Nehemiah","chapters":13,"aliases":["neh","nehem"]},
+    {"id":"Esth","name":"Esther","chapters":10,"aliases":["esth","est"]},
+    {"id":"Job","name":"Job","chapters":42,"aliases":["jb"]},
+    {"id":"Ps","name":"Psalms","chapters":150,"aliases":["psalm","psalms","ps","psa","psalter","the psalms"]},
+    {"id":"Prov","name":"Proverbs","chapters":31,"aliases":["prov","pro","prv"]},
+    {"id":"Eccl","name":"Ecclesiastes","chapters":12,"aliases":["eccl","ecc","qoheleth","kohelet"]},
+    {"id":"Song","name":"Song of Songs","chapters":8,"aliases":["song","song of solomon","canticles","canticle of canticles","cant"]},
+    {"id":"Is","name":"Isaiah","chapters":66,"aliases":["isa","is"]},
+    {"id":"Jer","name":"Jeremiah","chapters":52,"aliases":["jer","jr"]},
+    {"id":"Lam","name":"Lamentations","chapters":5,"aliases":["lam","lament"]},
+    {"id":"Ezek","name":"Ezekiel","chapters":48,"aliases":["ezek","eze","ezk"]},
+    {"id":"Dan","name":"Daniel","chapters":12,"aliases":["dan","dn"]},
+    {"id":"Hos","name":"Hosea","chapters":14,"aliases":["hos","hose"]},
+    {"id":"Joel","name":"Joel","chapters":4,"aliases":["jl"],"numbering_note":"This edition follows Hebrew chapter numbering, which has four chapters."},
+    {"id":"Amos","name":"Amos","chapters":9,"aliases":["am"]},
+    {"id":"Obad","name":"Obadiah","chapters":1,"aliases":["obad","ob"]},
+    {"id":"Jonah","name":"Jonah","chapters":4,"aliases":["jon","jnh"]},
+    {"id":"Mic","name":"Micah","chapters":7,"aliases":["mic","mi"]},
+    {"id":"Nah","name":"Nahum","chapters":3,"aliases":["nah","na"]},
+    {"id":"Hab","name":"Habakkuk","chapters":3,"aliases":["hab","hb"]},
+    {"id":"Zeph","name":"Zephaniah","chapters":3,"aliases":["zeph","zep"]},
+    {"id":"Hag","name":"Haggai","chapters":2,"aliases":["hag","hg"]},
+    {"id":"Zech","name":"Zechariah","chapters":14,"aliases":["zech","zec","zch"]},
+    {"id":"Mal","name":"Malachi","chapters":3,"aliases":["mal","ml"],"numbering_note":"This edition follows Hebrew chapter numbering, which has three chapters."}
+  ],
+  "scrolls": {
+    "1Qisaa": {
+      "aliases": ["Great Isaiah Scroll", "Isaiah Scroll", "1QIsa-a", "1QIsa a"],
+      "summary": "Nearly complete Isaiah manuscript from Qumran Cave 1."
+    },
+    "1QS": {
+      "aliases": ["Community Rule", "Rule of the Community", "Manual of Discipline", "Serek ha-Yahad"],
+      "summary": "Rule text associated with the community represented in the Qumran manuscripts."
+    },
+    "1QM": {
+      "aliases": ["War Scroll", "Rule of War", "War of the Sons of Light Against the Sons of Darkness"],
+      "summary": "Eschatological rule for a final war between the forces of light and darkness."
+    },
+    "3Q15": {
+      "aliases": ["Copper Scroll", "Copper Treasure Scroll"],
+      "summary": "Copper inventory text listing concealed locations and valuables."
+    },
+    "1QpHab": {
+      "aliases": ["Habakkuk Commentary", "Commentary on Habakkuk", "Pesher Habakkuk"],
+      "summary": "Running pesher interpretation of passages from Habakkuk."
+    },
+    "1Q20": {
+      "aliases": ["Genesis Apocryphon", "Apocryphon of Genesis"],
+      "summary": "Aramaic retelling and expansion of narratives from Genesis."
+    },
+    "1QHa": {
+      "aliases": ["Thanksgiving Hymns", "Thanksgiving Scroll", "Hodayot", "Hymns Scroll"],
+      "summary": "Large manuscript of the collection commonly called the Thanksgiving Hymns or Hodayot."
+    },
+    "CD": {
+      "aliases": ["Damascus Document", "Cairo Damascus Document", "Zadokite Fragments"],
+      "summary": "Admonition and legal collection preserved at Qumran and in medieval Cairo copies."
+    },
+    "11Q19": {
+      "aliases": ["Temple Scroll", "Great Temple Scroll"],
+      "summary": "Large legal text describing an ideal temple and related laws."
+    },
+    "11Q5-biblical": {
+      "aliases": ["Great Psalms Scroll", "Psalms Scroll", "11QPs-a", "11QPs a"],
+      "summary": "Large Psalms manuscript containing biblical psalms and additional compositions."
+    },
+    "11Q13": {
+      "aliases": ["Melchizedek Scroll", "11QMelchizedek", "11QMelch"],
+      "summary": "Eschatological interpretation centered on Melchizedek."
+    },
+    "4Q174": {
+      "aliases": ["Florilegium", "Eschatological Midrash"],
+      "summary": "Eschatological midrash assembling and interpreting scriptural passages."
+    },
+    "4Q175": {
+      "aliases": ["Testimonia", "4QTestimonia"],
+      "summary": "Collection of scriptural testimonia arranged around expected figures."
+    },
+    "4Q246": {
+      "aliases": ["Son of God Text", "Aramaic Apocalypse"],
+      "summary": "Aramaic apocalyptic text commonly called the Son of God Text."
+    },
+    "4Q521": {
+      "aliases": ["Messianic Apocalypse"],
+      "summary": "Apocalyptic text describing divine works associated with redemption."
+    },
+    "4Q525": {
+      "aliases": ["Beatitudes", "4QBeatitudes"],
+      "summary": "Wisdom text containing a sequence of beatitude sayings."
+    }
+  }
+}

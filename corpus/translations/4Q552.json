@@ -1,0 +1,305 @@
+{
+ "id": "4Q552",
+ "label": "4Q552",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 41,
+ "scroll_id": 590,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q552 f1i+2:1": {
+   "en": "from",
+   "notes": "The transcription contains uncertain and untranslatable elements, including an unknown character 'ε' and a damaged form ']ר##'. Only the particle 'מן' (from) is recoverable.",
+   "line_id": 30514,
+   "source_hash": "8be07679ed5d649fce8afd90d6a8ca61882541b335571411366aa3a4bc0eef1f",
+   "source_condition": "uncertain"
+  },
+  "4Q552 f1i+2:2": {
+   "en": "be hot",
+   "notes": "The transcription contains a mix of Greek (ε) and Aramaic (א##חם) characters. The Aramaic verb 'חמם' is translated as 'be hot', but the presence of the Greek letter and the uncertainty in the transcription make the overall meaning unclear.",
+   "line_id": 30515,
+   "source_hash": "be185ad0453ef6ceded902f424e5c47f886cb2fcb0796b57ce771e98319c17b4",
+   "source_condition": "uncertain"
+  },
+  "4Q552 f1i+2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with uncertain and unknown lexical items. No defensible English translation can be derived from the surviving fragments.",
+   "line_id": 30516,
+   "source_hash": "ddebfff7e431d4b7cf52cfe3815b32dd29b68a837bf0d7ace1d280dba073f8c4",
+   "source_condition": "uncertain"
+  },
+  "4Q552 f1i+2:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) in an Aramaic context, with no recoverable lexical content.",
+   "line_id": 30517,
+   "source_hash": "9764fd5f0be8bf6abeb2b0ef52b6f6ab318007240567ec2621e2db5438c1c853",
+   "source_condition": "clean"
+  },
+  "4Q552 f1i+2:5": {
+   "en": "They became angels who were",
+   "notes": "Uncertain transcription and reconstruction in positions 3 and 6. The phrase 'Yahweh an angel' is supported by repeated evidence but not directly reflected in the visible text.",
+   "line_id": 30518,
+   "source_hash": "6f63a965f89adad850acba3009e26186930c764252aba7ca57c124acb57f244e",
+   "source_condition": "uncertain"
+  },
+  "4Q552 f1i+2:6": {
+   "en": "They see to Daniel and he said to them to be his whole",
+   "notes": "The phrase 'to be his whole' is uncertain due to the fragmentary nature of the text. The reconstruction of 'מתחזין' is noted.",
+   "line_id": 30519,
+   "source_hash": "e9796eff556874fb4bb00c94ce26cf7cac728d62fe18d0c12b3946fb15050551",
+   "source_condition": "reconstructed"
+  },
+  "4Q552 f1i+2:7": {
+   "en": "They come in the hour of the days he Dan",
+   "notes": "Uncertainty in transcription and morphology affects positions 2, 3, and 7. Phrase evidence suggests 'days his' for positions 6-7, but 'his' is omitted due to lack of direct support in recoverable tokens. Position 8 is translated as 'Dan' based on lexical gloss, but its role as an adjective or proper noun is unclear.",
+   "line_id": 30520,
+   "source_hash": "e611c8de5804b540dced6964ca585e9bf2bca0701bed93c5fa2ec9abcb7cff58",
+   "source_condition": "uncertain"
+  },
+  "4Q552 f1i+2:8": {
+   "en": "He will be completing and he said to the king tin",
+   "notes": "Uncertain reconstruction of the first verb. The phrase 'he said to the king' is supported by repeated phrase evidence. The meaning of 'tin' and the final word is unclear.",
+   "line_id": 30521,
+   "source_hash": "6b2682384c1a1162009185c78fb23e73a4b8dbde5ea09556c8d197ee0465fffa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1i+2:9": {
+   "en": "They understand how all this was done. They became standing.",
+   "notes": "The transcription contains a reconstructed verb form and an uncertain particle. The phrase 'They became standing' reflects repeated phrase evidence for positions 7-8, though the dominant contextual rendering 'Yahweh arise' was not adopted due to lack of direct licensing in the source. The particle 'א' is omitted from the translation as its function is unclear.",
+   "line_id": 30522,
+   "source_hash": "3cdea0ad0a5ca95ce02289f4f53a810bc16ba2e7045da2252d151e7fa0ec00f8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1i+2:10": {
+   "en": "And the words which he says, they shall become, and to bring forth in interpretation.",
+   "notes": "The phrase 'he says Yahweh' is a high-confidence contextual rendering of the verbs 'say' and 'become', but it is not directly supported by the visible transcription. The translation conservatively retains the literal sense of the verbs. The preposition 'to' is added for English fluency, supported by the suffix 'ל׳הון'.",
+   "line_id": 30523,
+   "source_hash": "16bb27b5807c7b3ef0a4d92fa48ca4ba5466bbd026708cbf75115dc25255437b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1i+2:11": {
+   "en": "He becomes, and they arise, their lords, and in one from them",
+   "notes": "The translation includes a reconstructed verb form ('becomes') and an uncertain preposition ('in'). The phrase 'in one from them' is supported by repeated phrase evidence but remains ambiguous.",
+   "line_id": 30524,
+   "source_hash": "2e7519eeafc7f2de160fb325c4238288e0f36ac9345d06a4d28663bacf8baad0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1i+2:12": {
+   "en": "He will work in battle and I saw an angel who is upon now",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged particle (א) and a final uncertain phrase (כ ]ע##ן?). The translation conservatively retains all recoverable words in order, with uncertainty noted here.",
+   "line_id": 30525,
+   "source_hash": "314926d76c632bc925b373aab2173bd6e39091989cc46b22ed448a535220cd88",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1ii:1": {
+   "en": "A shining one, arise and four trees say to him",
+   "notes": "The transcription is partially damaged, with one reconstructed word ('trees'). The phrase 'say to him' is supported by repeated phrase evidence, though the antecedent of 'him' is unclear.",
+   "line_id": 30526,
+   "source_hash": "4f6e02b9d189919bcf574112e261128efbca7f4a70b1de6ee9222a7dd73b637f",
+   "source_condition": "reconstructed"
+  },
+  "4Q552 f1ii:2": {
+   "en": "And the tree arose, and they were distant from it. And he said to you, 'Will you see?'",
+   "notes": "The particle 'א' (position 4) has no trusted gloss and is omitted. The phrase 'he said to' is supported by repeated phrase evidence. The interrogative particle 'ה' (position 12) is rendered as 'Will' to indicate a question.",
+   "line_id": 30527,
+   "source_hash": "9a01d9e65ed3f9a94b6a6a13ea587d89c75a8e6ca8258f7774a602b2db899a42",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1ii:3": {
+   "en": "A fashion. And I said, I will see and understand in it. And I saw.",
+   "notes": "The transcription contains uncertain and reconstructed elements, particularly in positions 7 and 9-10. The phrase 'understand in it' is supported by repeated phrase evidence, though its support is limited. The translation conservatively retains all recoverable lexical items and their order, with uncertainty noted here.",
+   "line_id": 30528,
+   "source_hash": "dd829c63ffec1fed9284c423b80c5ad04ab78145fc8a0a610cd65d2a5634ecea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1ii:4": {
+   "en": "The tree which arises, he placed in the Madnach",
+   "notes": "Uncertain elements include the particle 'א' (position 2, 9), the pronoun 'ה##ו#?א' (position 5), and the noun 'מ##[ דנח' (position 8). The phrase 'he placed' is supported by repeated phrase evidence, but the overall syntax is uncertain due to damage and reconstruction.",
+   "line_id": 30529,
+   "source_hash": "3f58282c924539e1cde31e2f588cd6a279642cc7e04d360af648395f506fded3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1ii:5": {
+   "en": "And I asked, 'Who is the one with the name?' and said to Babylon, and I said to him",
+   "notes": "The phrase 'from there' is a high-confidence reconstruction of positions 3-4. 'To Babylon' is a high-confidence reconstruction of positions 7-8. 'He said to' is a low-confidence reconstruction of positions 11-12. The text is damaged and reconstructed, with uncertainty in the transcription and glossing of several words.",
+   "line_id": 30530,
+   "source_hash": "af9887e38a92ab89a3942fa3a6d068fc8ef9142cdd7728de81a2bf36b40f3c18",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1ii:6": {
+   "en": "You, he who is mighty in Persia. And I saw another tree.",
+   "notes": "The phrase 'you [are] it' is a high-confidence contextual rendering of the first two words. The particle 'א' at positions 11 and 13 is omitted from the translation due to uncertainty in its function.",
+   "line_id": 30531,
+   "source_hash": "a01fb44ab8e8503418250080277ef3f8e3e8d62c4d815f43ae61d02087fe9898",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1ii:7": {
+   "en": "That which descended to the west to dominate and stand",
+   "notes": "Uncertainty in the transcription and lemma of the final word 'קאם(  ?  )' is not reflected in the translation. The particle 'א' has no trusted gloss and is omitted from the translation.",
+   "line_id": 30532,
+   "source_hash": "74e262c6ae7ae358a73c0dad406f2ca6c40621a7e31050d35514fe79ff4d161e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1ii:8": {
+   "en": "To ? and I asked who [from there] and he said to Media",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 7. Phrase evidence suggests 'from there' for positions 6-7 and 'he said to' for positions 9-10. Position 2 has no trusted gloss. Position 3 and 12 are untranslatable punctuation marks.",
+   "line_id": 30533,
+   "source_hash": "e4f40cc84fad72408828bcadba3bb4f67d2584cef33d071e1edec81d264dada3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1ii:9": {
+   "en": "And I said to you, he who is mighty over all",
+   "notes": "Uncertainty in transcription and reconstruction of several words, including the conjunction 'and' (ו?), the relative particle (ד##[ י), and the noun 'all' (כול ?). Phrase evidence suggests 'he said to' and 'you [are] it', but the latter is not directly supported by the visible text. The translation conservatively retains recoverable elements without adding unlicensed content.",
+   "line_id": 30534,
+   "source_hash": "0ad7ae4c3b6ce66109090a9300111ee81ac460e834f4343a65d671758d62ae3d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1ii:10": {
+   "en": "strength of sea and upon shipyard and upon all the peoples and I saw",
+   "notes": "Uncertain transcription at position 6 (shipyard). Reconstructed text at position 8 (and).",
+   "line_id": 30535,
+   "source_hash": "92a831d59cd06cf7bd76b3eacde4f046fd6793c8dd51ae8ba483d6f74a5939f9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1ii:11": {
+   "en": "A tree, third, and I said to who from there and why",
+   "notes": "Uncertain reconstruction and transcription damage affect multiple words. The phrase 'from there' is supported by repeated evidence for 'מַן' and 'שֻׁם' together. 'He said to' is a common pattern for 'אמר' and 'לְ' but the first person 'I said' is visible. 'To kind' is less supported for 'לְ' and 'מַן'.",
+   "line_id": 30536,
+   "source_hash": "d811b154525ccbc7351bb6caef4613ee4747c713e68286ca7a55b0e97b9bd66c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f1ii:12": {
+   "en": "Your vision will change from them. And he said to Greece and I am a ruler over",
+   "notes": "The translation includes uncertain and reconstructed elements, particularly in the phrase 'Your vision will change from them,' which is based on damaged and reconstructed text. The final 'over' is incomplete due to the fragmentary nature of the source.",
+   "line_id": 30537,
+   "source_hash": "4f9897b93cb16de3363bc2e10d20d3231a3ca7aef8127f736e15e808455ebb9b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f3:1": {
+   "en": "which sprouted and I said to her this word that becomes",
+   "notes": "Uncertain transcription and reconstruction in positions 3 and 9. Unclear meaning of the particle 'ε' in positions 1 and 13.",
+   "line_id": 30538,
+   "source_hash": "aaf01b305cc8db104e9d6c63b393b188564a00f714f8ec47b348591904792d54",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f3:2": {
+   "en": "I laid upon above eyes and heard and saw",
+   "notes": "Uncertain reconstruction of 'עלא##[' as 'above' and 'חזי[ ת' as 'saw'. The characters 'ε' at the beginning and end are untranslatable and omitted.",
+   "line_id": 30539,
+   "source_hash": "8f7da9b633ac740a5de0205629e3a551bbfa03fa97df9af7e3e8e004b0f35487",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f3:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε, ] #, ע##ל, נ[, ε) with no clear lexical or grammatical meaning. The only identifiable element, 'ע##ל', is a damaged preposition 'upon' or 'height', but it lacks context for translation. All other elements are either unknown or too damaged to interpret.",
+   "line_id": 30540,
+   "source_hash": "042e5586b6359b43eb4e1a0a81868e1e2d4c4e2bfeda209d03ea612b0bc35d7c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f3:4": {
+   "en": "their strength, their power",
+   "notes": "Uncertain transcription and reconstruction of several words. The translation reflects the recoverable lexical items 'strength' and 'power' in the plural, masculine form.",
+   "line_id": 30541,
+   "source_hash": "d7e9351c194ee9e8df7ef7fabce67595f801ea3c62d0bab124715af8cf40bf55",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f3:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain reconstructions, with no defensible English words surviving.",
+   "line_id": 30542,
+   "source_hash": "d0882ce10f93f04b7135ceb22a3fcfad817184ca12827dd6c5daec7a242c9830",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f4:1": {
+   "en": "I",
+   "notes": "The transcription contains uncertain and untranslatable elements, including an unknown character (ε) and a damaged form (]ת##). The only recoverable word is 'אֲנָה' (I), which is translated directly. Other elements are omitted due to uncertainty or lack of defensible translation.",
+   "line_id": 30543,
+   "source_hash": "8748ea04d1a227112b1e46e7b780c05ee4946e848846ed548fd53c153396c1f9",
+   "source_condition": "uncertain"
+  },
+  "4Q552 f4:2": {
+   "en": "and he said",
+   "notes": "The initial 'ε' is untranslatable and omitted. The conjunction 'ו?' is uncertain but translated as 'and' based on visible morphology. The verb 'אמר' is confidently translated as 'he said' with third-person masculine singular perfect morphology.",
+   "line_id": 30544,
+   "source_hash": "146a23a89b82049a163bda51896231db62355ae444e4d0fccf02e0bbfa86a309",
+   "source_condition": "uncertain"
+  },
+  "4Q552 f4:3": {
+   "en": "to",
+   "notes": "The translation is based on the recoverable word 'ל׳י' (to) from the transcription. The other characters are either uncertain or do not contribute to a defensible translation. The final punctuation mark (׃) is omitted as it does not translate independently.",
+   "line_id": 30545,
+   "source_hash": "3b2ee9f9f4f69a17e71c626f39f9d97cce7dad00126661b641af30a985312550",
+   "source_condition": "reconstructed"
+  },
+  "4Q552 f5:8": {
+   "en": "and I said to him",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The phrase 'he said to' is supported by repeated evidence, but the first-person subject is directly recoverable from the verb morphology.",
+   "line_id": 30546,
+   "source_hash": "113a8b8cb67291ed7d6631cda211ea1cfee466a006a92f6aafdfb26634016268",
+   "source_condition": "clean"
+  },
+  "4Q552 f5:9": {
+   "en": "they rejoice",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The verb 'י?חדון' is uncertain but interpreted as 'rejoice' based on the provided lemma and gloss.",
+   "line_id": 30547,
+   "source_hash": "a99f49ceaa2234dd2955f5a7f20099a0d52f2c0b116d1c4c5c88f4d07900df9b",
+   "source_condition": "uncertain"
+  },
+  "4Q552 f5:10": {
+   "en": "his vision",
+   "notes": "The initial character 'ε' is untranslatable and omitted. 'חזו׳ה' is rendered as 'his vision' based on the provided gloss and morphology.",
+   "line_id": 30548,
+   "source_hash": "e24b733b5b59a29118f7799a6d03c1ee0f303d469ae8bd0babc7a37b5bd3e720",
+   "source_condition": "clean"
+  },
+  "4Q552 f5:11": {
+   "en": "you have spoken",
+   "notes": "The transcription contains uncertain and untranslatable elements, including an unknown character (ε) and a damaged form (]ה#ם). The verb 'מללתא' is translated based on its morphology and lexical gloss, but the overall meaning remains uncertain due to the fragmentary nature of the text.",
+   "line_id": 30549,
+   "source_hash": "341084524151e18d41fcc7260f8ffe3e4d8e2e8a3e1b7966d2ae9dccef66d17f",
+   "source_condition": "uncertain"
+  },
+  "4Q552 f5:12": {
+   "en": "the man who escapes",
+   "notes": "Uncertain transcription and gloss for initial 'ε' and '(  ?  )גבר'.",
+   "line_id": 30550,
+   "source_hash": "25bb55843ef1eca46c023617dcaa63d23b8d10b5c54aa61e08f833031676d88c",
+   "source_condition": "uncertain"
+  },
+  "4Q552 f6:9": {
+   "en": "Lords?",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The word 'מראי?' is glossed as 'lords' but is marked as uncertain. The particle 'א##[' is reconstructed and its function is unclear. The remaining characters are untranslatable fragments.",
+   "line_id": 30551,
+   "source_hash": "58eb316104d90ed05436af79ab511123249db1ccb11dd1fd762e1b1c7b86e650",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f6:10": {
+   "en": "The kingdom of God Most High will be given to another",
+   "notes": "Uncertain reconstruction of 'מלכות׳ ]ה##ון' as 'the kingdom'; 'א##[ חרן' is reconstructed as 'another'; two untranslatable characters 'ε' omitted.",
+   "line_id": 30552,
+   "source_hash": "d27c5199bc8e6a6d62de0c4c77f8c589cc037c6fee75d7ca96c6a6a3202c884a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f6:11": {
+   "en": "a king just who upon them sat",
+   "notes": "Uncertain reconstruction of 'just' (צַדִּיק) and 'sat' (יתב). Fragmentary nature leaves syntax incomplete.",
+   "line_id": 30553,
+   "source_hash": "aaaa760179ec7134850c95ab36717da1d2b3942f0f0c52b6b87ce64e00240084",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q552 f6:12": {
+   "en": "The mighty king of all, the exalted judges will serve",
+   "notes": "Uncertain reconstruction of 'judges' (דינין?). Untranslated source characters: ε, ’, ׃. Uncertain glosses for ε, ָא, and ׃.",
+   "line_id": 30554,
+   "source_hash": "23226214ac575ff3178b8a3fad325b7b444bb049709f61e1cca955beebdff6b1",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

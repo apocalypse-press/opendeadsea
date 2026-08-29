@@ -1,0 +1,396 @@
+{
+ "id": "4Q287",
+ "label": "4Q287",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 54,
+ "scroll_id": 274,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q287 f1:1": {
+   "en": "and lamps",
+   "notes": "The transcription contains uncertain characters, and the first word is unrecoverable. The translation reflects only the visible and interpretable elements.",
+   "line_id": 11803,
+   "source_hash": "7e4f68969d8d2a98ad0cfba4e3dbc7bfa9e7f8c3eb3717f10173564fc124d6d0",
+   "source_condition": "uncertain"
+  },
+  "4Q287 f1:2": {
+   "en": "in the signs",
+   "notes": "The transcription contains uncertain and untranslatable elements, including an unknown Greek character (ε) and a damaged Hebrew suffix (׳מה). The translation reflects only the recoverable Hebrew preposition 'ב' (in) and the plural form of 'מזלות' (signs), with uncertainty noted.",
+   "line_id": 11804,
+   "source_hash": "89987bab89ea489302553480f3744b19c4a981be0d38cb12a55612b21fcafeae",
+   "source_condition": "uncertain"
+  },
+  "4Q287 f1:3": {
+   "en": "in all the appointed times",
+   "notes": "Uncertain transcription and morphology in the first two words. Phrase evidence supports 'in all the appointed times' over 'in all times' based on higher canonical occurrence count.",
+   "line_id": 11805,
+   "source_hash": "b1042a572de30ea281ccc5e02cf560c1aa9c5dc36258ed24f596270a8876186d",
+   "source_condition": "uncertain"
+  },
+  "4Q287 f1:4": {
+   "en": "whole surely surely",
+   "notes": "The initial 'ε' and final punctuation mark are untranslatable and omitted. The repetition of 'surely' reflects the source text's duplication of 'אמן'.",
+   "line_id": 11806,
+   "source_hash": "a7a7d39266aa940288d7b5f944ee00354597ef6122e74be667a2298666dd711a",
+   "source_condition": "clean"
+  },
+  "4Q287 f1:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 11807,
+   "source_hash": "1842a6cb0e3c6a2790845b5d966e1cc24a7762a2dfbde844c518fc9ce0ae9b22",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f2:1": {
+   "en": "they and what their basins",
+   "notes": "Uncertain reconstruction and damaged text limit recoverable meaning. The pronoun 'they' and the plural form of 'basin' are supported, but the connection between elements is unclear.",
+   "line_id": 11808,
+   "source_hash": "7ea3d08a4ad921228e6881531bf0a0a9b4f7045a7ca6d12dfa9db8b96045789b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f2:2": {
+   "en": "they model ornament",
+   "notes": "Uncertain due to damaged and unknown characters. The translation reflects recoverable words in order, omitting untranslatable fragments.",
+   "line_id": 11809,
+   "source_hash": "41d628ce9591da3b24f6bf4b4b1520eff058b3e8da72cd79cf20a8bdb2cba1aa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f2:3": {
+   "en": "Walls but their weight doors their miracles",
+   "notes": "Uncertain reconstruction of 'כ#בוד׳מה' as 'their weight'; 'ε' at start and end omitted as untranslatable.",
+   "line_id": 11810,
+   "source_hash": "0f685c29fbc04a0a1a3d2f51ecfe10e8ae6b790b7606e9beb598aacfb9094ded",
+   "source_condition": "uncertain"
+  },
+  "4Q287 f2:4": {
+   "en": "What messengers of fire and winds of a cloud",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the initial 'ε' and the final 'ε', which are omitted from the translation. The word 'עןן' is translated as 'of a cloud' based on the lexical gloss, but its exact meaning in context is uncertain.",
+   "line_id": 11811,
+   "source_hash": "d0e8cf8adb16127872a8c092361a188af6ba63df740a82c889883ddb6d50ffbd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f2:5": {
+   "en": "shining woven stuff winds holiness holy things",
+   "notes": "Uncertain reconstruction and damaged text limit coherence. Phrase evidence suggests 'the spirit his holiness' and '[is] a holy thing of holy things,' but these are not fully supported by the visible transcription. Omitted untranslatable characters and uncertain forms.",
+   "line_id": 11812,
+   "source_hash": "35154c58973c5a5990c3b5f63738447b355628246a4fc2ed366cac97f1cbabed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f2:6": {
+   "en": "and firmaments of holiness",
+   "notes": "The transcription contains untranslatable fragments (ε, ] #  #  # [, ]ם##) and a reconstructed word (קודש#[). The translation reflects only the recoverable words 'and' (ו), 'firmaments' (רקיעי), and 'holiness' (קודש#[).",
+   "line_id": 11813,
+   "source_hash": "7b4e299c7885d2254d471b6e449b48df96530fd175e1536c2fe384ded7ef79bb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f2:7": {
+   "en": "They will cry out in joy, spirits of holiness, holy things in all the appointed times",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'the spirit his holiness' and 'all the appointed times'. The uncertain characters and reconstructions are reflected in the notes. The translation preserves the grammatical person, number, and semantic relationships from the source text.",
+   "line_id": 11814,
+   "source_hash": "94797bb0f1d645068982abdfcda72294a7b52545fc8fd5b1f51c0fc3a41f1a73",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f2:8": {
+   "en": "and they blessed the name of the glory of divinity",
+   "notes": "The phrase 'there the glory' is a repeated pattern, but it does not fit the recoverable syntax. The translation follows the visible word order and morphology. The final 'ε' is untranslatable and omitted.",
+   "line_id": 11815,
+   "source_hash": "c1593eb6c9d0d60f0cba03d5093a6ccd83542c9771ef190248725f2280e2e9c5",
+   "source_condition": "reconstructed"
+  },
+  "4Q287 f2:9": {
+   "en": "and all who serve holiness",
+   "notes": "The initial fragment 'ε]׳מ#ה' is uncertain and omitted. The phrase 'articles of service' is supported by repeated evidence for 'כול משרתי' but is not adopted due to the visible morphology indicating 'serve'. The final 'ε' is omitted as untranslatable.",
+   "line_id": 11816,
+   "source_hash": "23a452d90acdfe5ef3892aabe46e62af5f6b65a0124f3905d0359853169bca3f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f2:10": {
+   "en": "in complete deeds",
+   "notes": "The initial 'ε' and final 'ε' are untranslatable and omitted. The preposition 'בְּ' is uncertain but translated as 'in'. The adjective 'תָּמִים' is rendered as 'complete'. The noun 'מַעֲשֶׂה' is reconstructed and translated as 'deeds'.",
+   "line_id": 11817,
+   "source_hash": "601903078ae733bcdc9f8e79cd392e085fa0b6977eb4c73b3bfebe8ef5a685c0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f2:11": {
+   "en": "[no recoverable text]",
+   "notes": "The line contains heavily damaged and uncertain fragments with no defensible English translation. Visible forms include partial Hebrew characters and Greek letters, but no coherent words or phrases survive.",
+   "line_id": 11818,
+   "source_hash": "16b1164465be037b67f7ec40ea058e999fcf22de06d13d5695f87b204915e2b9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f2:12": {
+   "en": "all serving in splendour the ornament of messengers",
+   "notes": "Uncertain elements include a damaged initial character, the word 'whole', and 'ornament'. One word is reconstructed.",
+   "line_id": 11819,
+   "source_hash": "311593553c5fcb49f6650a7845d47edf492baf2c1ddea862fcc7140249aafbae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f2:13": {
+   "en": "spirits of holiness in their dwelling places the miracles of the messengers of justice",
+   "notes": "Uncertain reconstruction at 'dwelling places'; uncertain character at the start of the line omitted.",
+   "line_id": 11820,
+   "source_hash": "43e51c67f62353885a5e6397a4166941dbe7b75d9d99555bd160fc747963bd59",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f3:1": {
+   "en": "In fearing, they will bless the name of my holiness in blessings of holy ones, holy things",
+   "notes": "Uncertain reconstruction of 'blessings'; damaged text includes untranslatable characters (ε) and requires contextual smoothing.",
+   "line_id": 11821,
+   "source_hash": "b034c00d905ce8413e1a41f69ca02f30867ac8737c34c0aab4b2b2c2674674a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f3:2": {
+   "en": "and all the creations of the flesh all that you have created",
+   "notes": "The transcription contains untranslatable characters (ε, ##, ?) and uncertain reconstructions. The phrase 'כול׳מה' is treated as a suffixed form of 'כֹל'. The verb 'ברא' is reconstructed and uncertain, but translated based on visible morphology.",
+   "line_id": 11822,
+   "source_hash": "8e35c22648db06fc1a0dafe4898c977ce8069bbb500b856899f86095019098e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f3:3": {
+   "en": "cattle and bird and creeping animals and fish and seas and whole",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged or incomplete words. The translation reflects all recoverable lexical items in order, with uncertainty noted here. The initial and final characters (ε) are untranslatable and omitted from the translation.",
+   "line_id": 11823,
+   "source_hash": "d3ce353744d8bcf7994ff7fe3b2b057544083d9e38bd0bfa4b72736f86336849",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f3:4": {
+   "en": "You created the whole from the new",
+   "notes": "Uncertain transcription and reconstruction in multiple words. The translation reflects recoverable elements but remains tentative due to damage and ambiguity.",
+   "line_id": 11824,
+   "source_hash": "e751d2ca96ed2ab30bd8d285ca91058c0d46279d48eef38d66230daa6e1a6bb9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f3:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. All words are marked as unknown or reconstructed with uncertainty.",
+   "line_id": 11825,
+   "source_hash": "be6925c2acda48bce64e972edb7eb6e4d34f2941327b11ff55c4c695750d11de",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f4:1": {
+   "en": "a year in a year in a high official",
+   "notes": "The phrase 'a year in a year' is supported by repeated phrase evidence. The term 'high official' is a reconstructed and uncertain word. Two unrecoverable characters are omitted.",
+   "line_id": 11826,
+   "source_hash": "8f55d7d95a4a0267925b4a643781efb8df7c78e4bfc90667ba036e61e7abfadd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f4:2": {
+   "en": "Stubbornness of neck, and you rule the man",
+   "notes": "Uncertain transcription and reconstruction in positions 3, 6, 8, and 9. Position 1 and 9 are untranslatable fragments.",
+   "line_id": 11827,
+   "source_hash": "d0047c0ef1dcb51441e557be49a9ae3fb3abf680f8216c4a295105ab988b900a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f4:3": {
+   "en": "surely surely",
+   "notes": "The first 'surely' is uncertain due to damage in the transcription. The second 'surely' is clear. The surrounding characters (ε, ː, and additional ε) are untranslatable and omitted.",
+   "line_id": 11828,
+   "source_hash": "c9ba1a7c589252c56d6725ee0ac7f16c03c44091db8549e03a95ea5927cb0e4a",
+   "source_condition": "uncertain"
+  },
+  "4Q287 f4:4": {
+   "en": "in the whole",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The translation reflects the recoverable words 'in' (בְּ) and 'whole' (כֹּל), but the overall meaning is unclear due to the fragmentary nature of the text.",
+   "line_id": 11829,
+   "source_hash": "7f2f05a8a3a7be45417562a821c5acdf19951da0fc266f4a5cf5bcabf269dad4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f5:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments (ε, ], #, [, ε) with no recoverable lexical content. All words are marked as unknown or uncertain, and no contextual evidence supports a defensible translation.",
+   "line_id": 11830,
+   "source_hash": "5d9879e3b8f9cea0b3e95c0ed2877eeec3c2c1e9b278364d7a567a57d60b11c3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f5:8": {
+   "en": "the power of a multitude of nations to give",
+   "notes": "Uncertain reconstruction of 'multitude' and 'nations'; phrase evidence supports 'of a multitude of nations'.",
+   "line_id": 11831,
+   "source_hash": "d4221785a1332894e80f7e72441bc9dc3e8460309d0e814a436618f8cece987c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f5:9": {
+   "en": "clans in",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The word 'clans' is based on the lemma 'מִשְׁפָּחָה' (clan) with a plural feminine suffix. The preposition 'in' is translated from 'בְּ'. The remaining elements are either unknown or too damaged to recover meaningful text.",
+   "line_id": 11832,
+   "source_hash": "74d536e627ea358bd0400d22403c841e60f5583abcd5119811ae38c8e9be64cd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f5:10": {
+   "en": "in trustworthiness justice in to lift kingship",
+   "notes": "Uncertain reconstruction and gloss for 'אמ#ת' and 'צ##ד##ק׳כה'. Reconstructed verb 'הנש[ א' as infinitive construct. Untranslated 'ε' markers due to lack of recoverable meaning.",
+   "line_id": 11833,
+   "source_hash": "3edd35146b5bc12c34cd816ea19844a0a43fd98e17c57ae86b4dd06b5f015e93",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f5:11": {
+   "en": "And they will bless in unity all surely",
+   "notes": "Uncertain reconstruction and damage in 'יברכ ]ו#?׳כ##ה' and 'א##[ מן'. The initial 'ε' and final 'ε' are untranslatable and omitted. The translation conservatively retains recoverable elements without speculative additions.",
+   "line_id": 11834,
+   "source_hash": "ab038f6d8d547d992237ca27fc61c702e01f298ebfe445b3e57a1733b52996e1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f5:12": {
+   "en": "near to and seed",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged adjective 'קרו#?[ בי ]ם' (near) and a partially preserved noun 'זר[ ע' (seed). The phrase 'near to' is supported by repeated evidence. Untranslated characters and uncertainty are noted.",
+   "line_id": 11835,
+   "source_hash": "4ff29d687dd6439a14e6f6ccb9c04b4ca613f3920c292d625080c5dbd9c6c5ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f5:13": {
+   "en": "the clans of the earth to be",
+   "notes": "Uncertain reconstruction and damaged text at the end of the line. The phrase 'the clans of the earth' is supported by repeated evidence, but the final verb form is incomplete and uncertain.",
+   "line_id": 11836,
+   "source_hash": "c27dd895eeba2d9b2109ebc3433bf9c87d361f522fa90e0ba801360229ba979f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f6:1": {
+   "en": "The counsel of the gathering, they say, all together surely, surely. And after they curse wickedness and all",
+   "notes": "Uncertain reconstruction of 'כ##ול׳מה' as 'all'; uncertain meaning of final 'כול ]' as 'all'",
+   "line_id": 11837,
+   "source_hash": "5c5ba88ab73f2de31236b4e1a5760211bd153470bae4a10781bd411d0410a5da",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f6:2": {
+   "en": "Lot of his guiltiness and they answered and said cursed be wickedness in thought of his animosity and indignation he",
+   "notes": "Positions 7-8: 'saying [be] cursed' supported by repeated phrase evidence. Positions 14-15: 'indignation my' supported by repeated phrase evidence, but 'my' omitted due to uncertainty in the source. Uncertainty in positions 3 and 8 noted but not reflected in translation per guidelines.",
+   "line_id": 11838,
+   "source_hash": "f5403adbccf3a86d1833add4e6c97478e42b1b741f2213bd118f6a97bcf7da0d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f6:3": {
+   "en": "In dominion of his guiltiness and cursed, every wind, lot in thought of his guilt and cursed are they",
+   "notes": "Uncertainty in the transcription at position 6; phrase 'every wind' supported by repeated evidence.",
+   "line_id": 11839,
+   "source_hash": "b0a1206e9bc748d113d16d08bfaf9bc70d5f10233aece77207f8d407d37760f6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f6:4": {
+   "en": "In thoughts of menstruation uncleanness that they lot darkness and commission to pit eternity surely surely",
+   "notes": "Uncertain reconstruction of 'lot' (ג#?[ ורל). Phrase evidence suggests 'they lots' but is not fully supported. Translation retains visible lexical items conservatively.",
+   "line_id": 11840,
+   "source_hash": "a287d4c6e14df8e3268cb624cecca048b65d8e75b0d88f975173af3626d44e62",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f6:5": {
+   "en": "And cursed be the guilty one in all the ends of dominion, and the cursed ones, all the sons of worthlessness, in all his being.",
+   "notes": "Uncertain reconstruction of 'dominion' (position 8) and 'curse' (position 10). Phrase evidence supports 'sons of worthlessness' (positions 12-13) and 'all his being' (positions 15-16).",
+   "line_id": 11841,
+   "source_hash": "ef4297421718792e091c051bbd577bd664ebde9dd0a0eb256f3ba2f0ed9a1168",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f6:6": {
+   "en": "A stand until completion to the witness, surely, surely. And they added and said, cursed are you, messenger of the pit.",
+   "notes": "The transcription contains damaged and uncertain characters, particularly around positions 6-8, which may affect the exact rendering of 'surely, surely'. The phrase 'messenger of the pit' is supported by repeated phrase evidence, though 'destroying' is a possible alternative for the final word.",
+   "line_id": 11842,
+   "source_hash": "402ad2f32977c2181682dbe869c8728c04bafec39aa9c81a2acc41d343c8dabf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f6:7": {
+   "en": "And the spirit of destruction in all its thoughts, in all plans of abomination and counsel of wickedness",
+   "notes": "Uncertainty in the reconstruction of 'guiltiness' (position 9) and 'guilt' (position 17) is not reflected in the translation. The phrase 'all plans' is supported by repeated phrase evidence.",
+   "line_id": 11843,
+   "source_hash": "39d4b6ef39c17e91a0ff5f9fc7f85c3624e901b7dacbc00b2156ce5b40f99a80",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f6:8": {
+   "en": "And curse you in the dominion of your wickedness and in the service of your guilt and guiltiness with all the redeemed of Sheol and with reproaches of the pit",
+   "notes": "The phrase 'גאולי שאול' is translated as 'the redeemed of Sheol' based on the provided lexical gloss, though its exact meaning is uncertain. The text contains two reconstructed words, marked by brackets in the transcription.",
+   "line_id": 11844,
+   "source_hash": "5080f8ccc79174a104d557cbe9e75cb0232b77654d11586e4670e3d050884fce",
+   "source_condition": "reconstructed"
+  },
+  "4Q287 f6:9": {
+   "en": "And with all insults, all destruction, there is no rest, not in forgiveness, even in anger, to all eternity, surely, surely.",
+   "notes": "The phrase 'until perpetuity' is a high-confidence rendering of 'until eternity' based on repeated phrase evidence. The word 'surely' is repeated twice, indicated by the lemma 'אמן' appearing twice in the source text. The translation conservatively preserves all recoverable words and their order, without adding implied subjects or smoothing the syntax.",
+   "line_id": 11845,
+   "source_hash": "873186be9a26f6c6f41359bf64908280d3ebf98f2ffdc3fa9f13433ab732948a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f6:10": {
+   "en": "And cursed are all who make wicked thoughts and from days of purpose in the heart to ponder upon the covenant of God",
+   "notes": "Reconstructed text in positions 1 and 8. The phrase 'every [one who] does' is supported by repeated evidence but not directly reflected in the translation due to conservative adherence to recoverable tokens.",
+   "line_id": 11846,
+   "source_hash": "ecbdba9dda0b1c8e75c8e455e3af8875fa7f70c8d1410ae54f39fa74a3ef8743",
+   "source_condition": "reconstructed"
+  },
+  "4Q287 f6:11": {
+   "en": "upon the words of the seers of trustworthiness and to exchange the justices of the instruction",
+   "notes": "Uncertain elements include a damaged initial character (ε), a potentially incomplete verb form (המיר), and a questionable final character (ε). The object marker 'את' is translated as 'the' for fluency, though its function is primarily syntactic. The reconstruction of 'ה' is noted but not bracketed in the translation.",
+   "line_id": 11847,
+   "source_hash": "49bebfff18957385b7bd631fe31b04bf6c6ff0ac25e0806545d8267399dea106",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f7:1": {
+   "en": "their dark places",
+   "notes": "The transcription includes untranslatable characters (ε) at the beginning and end, which are omitted in the translation.",
+   "line_id": 11848,
+   "source_hash": "c3e1fa6558e9450a291fb93d13703ebc6f89acac89d8572236c4602dfd12934f",
+   "source_condition": "clean"
+  },
+  "4Q287 f7:2": {
+   "en": "surely surely",
+   "notes": "The transcription contains uncertain and reconstructed elements, including two instances of 'אמ ]ן#?' identified as 'surely'. The surrounding characters (ε, ː, and final ε) are untranslatable and omitted. Uncertainty is noted but not bracketed in the translation.",
+   "line_id": 11849,
+   "source_hash": "759db60c8a0be18ac60db924e491c6ed1c85a6ef508ee9c0981275ee0df8b1ca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f7:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions.",
+   "line_id": 11850,
+   "source_hash": "fcfb6e6dff08e80d16e2bc2d8cd098641911df1b64013051e32119ce6f9217ee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f8:12": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions. The visible characters (ε, ם) do not form translatable lexical units. All material is too damaged to recover meaningful English content.",
+   "line_id": 11851,
+   "source_hash": "6a3309abb711814e62fa9c9f6ee58b2ae2e56183f9e0fc4e7cbc706da2d539bb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f8:13": {
+   "en": "Guiltiness and eyes of fornication and work",
+   "notes": "The transcription contains untranslatable characters (ε) and a source-script punctuation mark (׃) which are omitted from the translation. The phrase 'עיני זנות' is translated literally as 'eyes of fornication' due to lack of contextual evidence for a figurative sense.",
+   "line_id": 11852,
+   "source_hash": "353a739b0dcc9d827e7274988f0681217dac821ad995e902c3dc980f5e24b879",
+   "source_condition": "clean"
+  },
+  "4Q287 f9:12": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments (ε, #) with no recoverable lexical content. All words are marked as uncertain or unknown, and no semantic constraints or phrase evidence are available.",
+   "line_id": 11853,
+   "source_hash": "267af4928cf8213d28ad7fee22d6698fe295a662d3f62eb46fcf8c07e68f542e",
+   "source_condition": "uncertain"
+  },
+  "4Q287 f9:13": {
+   "en": "He rejects in the reminders of his justice",
+   "notes": "The transcription contains untranslatable characters (ε, ː) and a reconstructed term ('צדק׳כ[ ה'). The translation reflects recoverable words in order, with uncertainty in the exact syntax due to damage.",
+   "line_id": 11854,
+   "source_hash": "c90b0eb39c9aef91dbd7a8a414a330c1913fddd85ea7fa230a32e32e84186d4a",
+   "source_condition": "reconstructed"
+  },
+  "4Q287 f10:12": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or fragments that can be translated into English.",
+   "line_id": 11855,
+   "source_hash": "7187955e16e99b0b3679c9cda1c4ab085755df1bace9b1152f7fa01ee3d01a93",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q287 f10:13": {
+   "en": "upon the anointed wind of holiness",
+   "notes": "The phrase 'the spirit his holiness' is supported by repeated evidence, but 'wind' is a more direct gloss for 'רוח'. The initial 'ε' and final 'ε׃' are untranslatable and omitted.",
+   "line_id": 11856,
+   "source_hash": "a4b46c5fd1277c29be03f6adb03f8f79714327d8ad2aa866f1e9f9dac6cde24c",
+   "source_condition": "reconstructed"
+  }
+ }
+}

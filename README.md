@@ -7,11 +7,14 @@ Spec and built-vs-remaining ledger: `docs/ARCH-DSS-2026-CF-FREE.md`.
 Repo: https://github.com/apocalypse-press/opendeadsea  
 Site: https://opendeadsea.org/
 
-## Current state (2026-08-28)
+## Current state (2026-08-29)
 
-Built: 1,027-manuscript catalog, original-language reading pages, 713 complete
-machine-draft packs referenced by 715 catalog records, GitHub OAuth, D1-backed
+Built: 1,027-manuscript catalog, original-language reading pages, 896 complete
+machine-draft packs referenced by 900 catalog records, GitHub OAuth, D1-backed
 public suggestions/comments/review, source links, and deterministic validators.
+The remaining 127 catalog records have no published translation pack: 101
+retain planned/error/invalid machine lines, and 26 Greek witnesses lack source
+wording in the current corpus.
 
 Remaining: sustained human review, accepted-translation release tooling, the
 GitHub PR bridge, and full BDB/Jastrow ingestion.
@@ -36,6 +39,7 @@ functions/                GitHub OAuth + D1 suggestion/review API
 schema/                   D1 and corpus contracts
 corpus/mss/               Canonical generated manuscript records
 corpus/translations/      Machine-draft packs and public queue
+corpus/search-metadata.json  Canonical book aliases and named-scroll metadata
 corpus/fragments/         Diplomatic JSON contract fixtures
 site/m/                   Exact generated manuscript/chapter presentation
 docs/AUTH.md              How to drop App secrets later
@@ -50,9 +54,12 @@ CODEOWNERS                Tier 3
 ```bash
 node scripts/validate-fragments.mjs
 node scripts/validate-lexicon.mjs
+node scripts/validate-manuscripts.mjs
 node scripts/validate-photo-links.mjs
+node scripts/validate-search-metadata.mjs
 node scripts/validate-translations.mjs
 node scripts/validate-translation-queue.mjs
+node scripts/test_search.mjs
 node scripts/test_session.mjs
 node scripts/test_review_api.mjs
 node scripts/test_desk_store.mjs

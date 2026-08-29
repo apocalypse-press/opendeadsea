@@ -1,0 +1,445 @@
+{
+ "id": "4Q59",
+ "label": "4Q59",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 61,
+ "scroll_id": 846,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q59 f1:1": {
+   "en": "And [Jerusalem]. It will be at the end of the days established: the mountain of the house of Yahweh in the chief of the mountains, and lifted up",
+   "notes": "Uncertain: [Jerusalem] (2). Omitted: he (20)",
+   "line_id": 46112,
+   "source_hash": "368019823c95644a5f907bb78867c61c95e5c34d1b32485affee598b8bb4d9e1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f1:2": {
+   "en": "From more than the hills and they will stream to all the nations. And they will come, peoples many, and they will say, 'Come, and let us go up to the mountain of Yahweh.'",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 46113,
+   "source_hash": "3e0c04ce6daa8d0ed31a510d2a1afb77d12bdd14fc8518c601ae00bf2669d814",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f1:3": {
+   "en": "And to the house of the God of Jacob, and he will teach from his ways, and so that we may walk in his paths, that from Zion it will go forth instruction.",
+   "notes": "The translation follows high-confidence phrase evidence and semantic constraints. The reconstructed final word 'instruction' is noted as uncertain in the source.",
+   "line_id": 46114,
+   "source_hash": "8ae9a5686e89c9e7d7dd993546c559c914f49b08af9157921af7d696ddebb933",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f1:4": {
+   "en": "And the word of Yahweh from Jerusalem. And he will judge between the nations and decide for many peoples, and they will beat swords.",
+   "notes": "The phrase 'of Yahweh from Jerusalem' is supported by repeated evidence and semantic constraints. 'They will beat swords' is supported by repeated evidence, though 'swords' is reconstructed. 'Many peoples' is a plausible but not dominant contextual rendering.",
+   "line_id": 46115,
+   "source_hash": "932786d1496db897371a2e5f6f694f04b071c90ad9f64d6f30b4a12fb91cf39b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f2_3:1": {
+   "en": "He will bring Yahweh upon you and upon your people and upon the house of your father the days which have not come from the day Ephraim departed",
+   "notes": "Position 11 has a reconstructed form. Position 18 has a contextually constrained sense.",
+   "line_id": 46116,
+   "source_hash": "0644be25e4a214be214792cd675d0e5f0b921fb45d077189a082c9432b6b10c0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f2_3:2": {
+   "en": "From Judah with the king of Assyria and it will be in the day that he will whistle for the fly which is at the end of the canals",
+   "notes": "Uncertain reconstruction of 'he' (position 13).",
+   "line_id": 46117,
+   "source_hash": "d5ac00fda461887c71840d142bda90484820b8c0199050670d5bebfde7925486",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f2_3:3": {
+   "en": "and for Deborah which [is] in the land of Assyria and they will come and they will settle of them in the wadis of the cliffs and in the clefts of the rocks and on all",
+   "notes": "Uncertain reconstruction of 'Assyria' and 'wadis' noted. Phrase evidence supports 'the clefts of the rocks'.",
+   "line_id": 46118,
+   "source_hash": "6814e776c0f6aea3e46f1f369abeeb0b22eca9ee61066237b6d9ee1e292e305d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f2_3:4": {
+   "en": "Thorn-bushes and in all the watering-places. In day (the) that he will shave (the) Lord with a razor (the) hired on (the) other sides (of) (the) River with the king.",
+   "notes": "Positions 12-13: Uncertain reconstruction. Position 20: \"Eber\" translated as \"other sides\" based on contextual evidence.",
+   "line_id": 46119,
+   "source_hash": "519aaa529b960b0b15452ef6b727abfb2f511d596e12a3a93e15eca5f097132b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f4_10:1": {
+   "en": "And I will call as witness for witnesses reliable, (et) Uriah the priest and (et) Zechariah the son of Jeberekiah. And I drew near to the prophetess and she conceived.",
+   "notes": "Uncertain reconstruction at positions 3, 4, 13, 17, 19. Positions 7, 15 omitted as unmatched or untranslatable.",
+   "line_id": 46120,
+   "source_hash": "48b8b30a087f60c036d3aeae72cdeb5399aa97a4195b936fe4105b670a111ae3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f4_10:2": {
+   "en": "And she bore a son and he said Yahweh call name plunder spoiling that before he will know the lad to call out my father and O someone will carry off",
+   "notes": "Uncertain elements include the reconstruction of 'she bore' (position 2), the reading of 'Yahweh' (position 6), and the interpretation of 'O' (position 23). The terms 'plunder' (position 10) and 'spoiling' (position 12) are context-free glosses with no clear connection. The phrase 'he will know the lad' (positions 17-19) is supported by repeated evidence but its relationship to surrounding material is unclear. The translation omits unsupported connectors and retains all recoverable lexical items in order.",
+   "line_id": 46121,
+   "source_hash": "a35355917c3ab696da158259fa3f694f48d2f8b33a77c5a20bf48b1df2290809",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f4_10:3": {
+   "en": "the wealth of Damascus and the plunder of Samaria before the presence of the king of Assyria and he repeated Yahweh to speak again to say because it has rejected",
+   "notes": "uncertain reconstruction and transcription damage throughout; uncertain word division between positions 14-15, 15-16, 16-17, 17-18, 18-19; uncertain object marker at positions 1, 5; uncertain preposition at position 17; uncertain particle at position 18; uncertain verb at position 14; uncertain named entity at positions 3, 7, 15; uncertain punctuation at positions 12, 21",
+   "line_id": 46122,
+   "source_hash": "f125b5f1ba731de08b5b7ce3e1aed5ebdb8458863aefb50b89e67327cc29ea60",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f4_10:4": {
+   "en": "The people, this one, the waters of [Shilo], who go to gentleness and melt with Rezin and the son of Remaliah, and therefore, there! the Lord is about to bring up on them",
+   "notes": "Uncertain reconstruction at positions 6, 8, 10, 13, 18, 19, 23, 24, 26. Positions 8, 14, 22 lack defensible English words.",
+   "line_id": 46123,
+   "source_hash": "3f4fcefcf13cbe6705cf4acea159fde73d08b91fa0491d803890960df7447839",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f4_10:5": {
+   "en": "[the] waters of the mighty river and the many, (et) the king of Assyria, and (et) all glory, and it will rise over all channels, and it will go over all",
+   "notes": "Uncertain reconstruction at positions 1, 9, 12, 15, 19, 20. Phrase evidence supports 'the king of Assyria' and 'all the ravines' but is advisory. Semantic constraints require 'the.waters', 'of', 'the.River', 'mighty', 'and', 'the', 'many', '(et)', 'the.king', 'of.Assyria', 'and', '(et)', 'all', 'glory', 'and', 'it.will.rise', 'over', 'all', 'channels', 'and', 'it.will.go', 'over', 'all'.",
+   "line_id": 46124,
+   "source_hash": "a1926b38689552984d7336a0458bf1fa1cdb91280d033abc323e75d5eee2ba2f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f4_10:6": {
+   "en": "And it will pass on in Judah, it will overflow, and it will pass over to Zoar, it will reach, and it will be the spreading(s) of its wings, the fullness of the breadth your land, to us, God.",
+   "notes": "The translation includes reconstructed and uncertain terms, with phrase evidence supporting 'of the breadth your land' and 'it will be the spreading(s)'. Unmatched DSS positions 11, 20, and 21 are omitted due to lack of clear contextual sense or constraints.",
+   "line_id": 46125,
+   "source_hash": "d87ce8083cafcade6d835a0ee177fb57c69cd7932ad2aa8499cf14dd4d03d1ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f4_10:7": {
+   "en": "Pasture, O peoples, and be shattered, and give ear, all the distant places of the earth, gird yourselves. Plan a plan, and it will be frustrated. Speak a word, it will not stand.",
+   "notes": "The translation follows the visible morphology and high-confidence constraints. The phrase 'the wickedness my people' is not supported by the visible text, so it is omitted. The contextual sense 'gird yourselves' is advisory but fits the hitpael stem of the verb. The phrase 'counsel counsel' is not supported, so 'plan a plan' is used instead. The phrase 'word? did I speak' is not supported, so 'speak a word' is used. The translation preserves the grammatical person, number, and semantic relationships.",
+   "line_id": 46126,
+   "source_hash": "c4ce9e98c45cc0aa1344e7abc013de7076fa6e9b4d78e87aa2c25c7729a66fba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f4_10:8": {
+   "en": "for people to God",
+   "notes": "",
+   "line_id": 46127,
+   "source_hash": "2c6df116f18d65df5c6f53e11d6045351f7e1e5ddff44864f294b6ebe2c8b88a",
+   "source_condition": "clean"
+  },
+  "4Q59 f4_10:9": {
+   "en": "Thus he said, Yahweh to the strength of the hand and he admonishes from walking in the way of the people this saying: Do not say, 'Conspiracy of all that'",
+   "notes": "Uncertain reconstruction of divine name (position 4) and second-person plural suffix (position 24). Lacuna in preposition (position 12) and relative pronoun (position 28).",
+   "line_id": 46128,
+   "source_hash": "ab0a1b4a480b7e847ce1993ecb6ac062831be5f56c32b53240867aa279b56086",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f4_10:10": {
+   "en": "It is saying, the people, this conspiracy, and the fear of him, you must not fear, and you must not regard with awe. (et) Yahweh of hosts, you will regard as holy, and he.",
+   "notes": "The translation includes reconstructed and uncertain elements, particularly in the phrase 'It is saying, the people, this conspiracy,' which is supported by phrase evidence but has low pattern support. The rendering of 'Yahweh of hosts' is well-supported, but the surrounding object markers and the final 'he' are less certain. The verbs 'you must not fear' and 'you must not regard with awe' are directly supported by the visible morphology, but 'you will regard as holy' is reconstructed and uncertain.",
+   "line_id": 46129,
+   "source_hash": "4620eca9564688480da86b3a566a3ef9ae76cd6f1dcf53d8e1bca1391701ff81",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f4_10:11": {
+   "en": "Your fear and he will tremble and he will become a sanctuary and a plague stone and a rock of stumbling for the two houses of Israel to a trap and a snare",
+   "notes": "Uncertain reconstruction at positions 23 and 24. Phrase evidence supports 'the house of Israel' and 'the house of Israel to' but the translation retains 'houses' from the visible plural morphology.",
+   "line_id": 46130,
+   "source_hash": "16bfee56da0388912a176820c1ab591484d84f087f6c4e1569668361713fcc3c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f7ii+11_16i:1": {
+   "en": "It consumes and it has kindled in the thickets of the forest and they have swirled a rising up of smoke by the wrath of Yahweh of hosts it has been scorched the land and it was the people",
+   "notes": "Positions 4, 5, 7, 9, 18 are uncertain. Positions 5, 9, 18 are reconstructed.",
+   "line_id": 46131,
+   "source_hash": "a8c0afaf702a768149c1ad628db25e72efb0dff216e276ec2849e0296feaa622",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f7ii+11_16i:2": {
+   "en": "Like fuel of a fire each to his brother they did not spare and it devoured on the right side and it was hungry and it ate on the left side and they were not all satisfied",
+   "notes": "The phrase 'each to his brother' is a contextual rendering with moderate support (0.7692). The phrase 'fuel of a fire' is a contextual rendering with strong support (1.0). The phrase 'seventy man' is a contextual rendering with weak support (0.5882) and is not used in the translation. The translation follows the required contextual senses and semantic constraints, preserving grammatical person, number, and semantic relationships. Uncertainty in the transcription is noted for positions 2, 5, 6, and 21, but the translation reflects the most defensible interpretation of the recoverable text.",
+   "line_id": 46132,
+   "source_hash": "50bc06cbec77cb81c66be1f93100bcec8c0ef9544c99197510b53bb550c47685",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f7ii+11_16i:3": {
+   "en": "the flesh his own arm they ate. Manasseh (et) Ephraim and Ephraim (et) Manasseh together they [were] on Judah for all this not it has turned back",
+   "notes": "Position 3: Verb form is uncertain. Position 15: Name is uncertain. Positions 13, 18: Unmatched in translation.",
+   "line_id": 46133,
+   "source_hash": "20ca37d223f2305be95183a7ee8b00965cb188855868650161e2aae7562e8155",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f7ii+11_16i:4": {
+   "en": "Even still, a hand is stretched out. Woe to those who decree decrees of wickedness and writers who trouble, they wrote to turn aside.",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged conjunction (position 2), a reconstructed suffix (position 4), and an uncertain noun (position 14). The translation follows required contextual senses where available, preserving grammatical relationships and semantic roles.",
+   "line_id": 46134,
+   "source_hash": "7f85ddf73424146a4ab8ce41f3ba63cd9508451dcbf1aa22b0b3654866614eb5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f7ii+11_16i:5": {
+   "en": "From the judgment of the poor and to tear away the justice of the afflicted, my people, to be widows as prey and the fatherless ones they will plunder. And what will you do?",
+   "notes": "Position 17: Uncertain verb reconstruction. Position 18: Untranslated source punctuation.",
+   "line_id": 46135,
+   "source_hash": "c56455e6c6f6fb09eb17f9c021732137a4a47b476f75f4e04f9d3085df47f80f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f7ii+11_16i:6": {
+   "en": "To the day of punishment and to the devastation from a distance it will come upon who will you flee for help and where will you leave abundance anyone kneeled down under",
+   "notes": "Uncertain reconstruction and damage at positions 9, 10, 12, 19, 20. Unmatched DSS position 20 omitted from translation.",
+   "line_id": 46136,
+   "source_hash": "c318cee98aea595c331017177bf57b77aab2fceea0fa2d3df2b5f32468fb68ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f7ii+11_16i:7": {
+   "en": "And the prisoners under those who were killed will fall for all this not it has turned back anger and still hand is stretched out woe to Assyria the rod my anger and a staff",
+   "notes": "Uncertain readings at positions 8, 17, and 18. Reconstructed text at positions 1, 10, and 18. Phrase evidence supports 'all this' at positions 7-8 and 'not it has turned back anger' at positions 9-11. Semantic constraints require negation at position 9 and specific semantic roles for several tokens.",
+   "line_id": 46137,
+   "source_hash": "3711b909ea8c9ed89d41e5a2c52f731b70542c3ab147a05737b640827a848a0f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f7ii+11_16i:8": {
+   "en": "It in hand indignation on a godless nation I and on the people my wrath I to plunder plunder and to take as spoil spoil and to make a trampling place",
+   "notes": "Reconstructed text with uncertain readings at positions 13 (my wrath) and 20 (take as spoil). Phrase evidence supports 'to plunder plunder' and 'take as spoil spoil' as repeated patterns.",
+   "line_id": 46138,
+   "source_hash": "6b42dc09a7542d95dec79a6b921c1b1a72ffb3ee371620ac56092c66cfbf94e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f7ii+11_16i:9": {
+   "en": "Like clay of the streets and he not thus he intended and his heart not thus it planned that to destroy in heart and to cut off nations",
+   "notes": "Positions 4, 10, 12, 19, and 22 are uncertain. Positions 1, 9, and 22 are reconstructed.",
+   "line_id": 46139,
+   "source_hash": "69473388f326a786740efb35f4af2cceb930e5f83b5d8f506a0590298ae1c495",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f7ii+11_16i:10": {
+   "en": "Not a few that he said not commanders alike kings not like Carchemish or not like Arpad",
+   "notes": "The translation omits the uncertain word at position 16 (כלנו) due to lack of contextual sense. The interrogative particles at positions 6 and 12 are omitted as their function is unclear. The phrase 'that he said' is retained based on the required contextual sense at position 5. The word 'alike' is used for 'יחדו' based on the required contextual sense at position 9.",
+   "line_id": 46140,
+   "source_hash": "0ce9a81b51fd435d0682ec671b7d4d662469182e1f752c5d7e8a64ba6381249b",
+   "source_condition": "reconstructed"
+  },
+  "4Q59 f7ii+11_16i:11": {
+   "en": "Hamath or not like Damascus, just as it has found hand to the kingdoms of the idol and images were more than Jerusalem and more than Samaria",
+   "notes": "Uncertain reconstruction of relative pronoun at position 9; uncertain reading of Samaria at position 6.",
+   "line_id": 46141,
+   "source_hash": "881d2691cf68eb137a50116dc457c60bc2939fb79dd90b2dc177858a0725afd4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f16i:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) with no clear Hebrew or Aramaic context. No recoverable lexical content survives for translation.",
+   "line_id": 46142,
+   "source_hash": "b215f9c70e302623bf6536e8129813befdf01c0253ec3c549262b2a56d51ca9f",
+   "source_condition": "clean"
+  },
+  "4Q59 f16i:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. The visible characters (ε, ן, and ׃) do not form translatable lexical units. The uncertain word at position 2 lacks recoverable content.",
+   "line_id": 46143,
+   "source_hash": "9ef87d1f207a3fb7f23c7061c54d02810d8d514f7be66ff248ff69e2d0ba0247",
+   "source_condition": "uncertain"
+  },
+  "4Q59 f16ii:1": {
+   "en": "And they will plunder the people of the east, Edom and Moab the undertaking of their hand, and the people of Ammon will be their subjects. And Yahweh will divide the tongue of the sea.",
+   "notes": "The object marker (et) at position 3 is reconstructed and uncertain. The phrase 'the undertaking of their hand' at positions 9-10 is a high-confidence contextual rendering. The phrase 'the people of Ammon' at positions 12-13 is a high-confidence contextual rendering. The phrase 'the tongue of the sea' at positions 20-21 is a contextual rendering with moderate support.",
+   "line_id": 46144,
+   "source_hash": "46d5e9361f3a0346f876c646d98afb41234fac06aa339bcfeda27c7b5ddf1e3f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f16ii:2": {
+   "en": "Egypt and he will brandish his hand on the River in the heat his wind and he into seven wadis and he will make walk in sandals",
+   "notes": "Uncertain reconstruction of 'Egypt'; uncertain gloss for 'עים' as 'the heat'; omitted untranslatable 'ב' at position 8.",
+   "line_id": 46145,
+   "source_hash": "51b1f8fabd6c1253b09b4b11f287de2adca65df3a34fa4879e8cda51b6f03223",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f17_18i+19:1": {
+   "en": "And you said on that day, O Yahweh, that you were angry with it, turning back anger. And may you comfort me.",
+   "notes": "The phrase 'I will give thanks to Yahweh' is a high-confidence contextual rendering of positions 7-8. Positions 13 and 15 are uncertain due to damage, with 'anger' and 'may you comfort me' being advisory renderings.",
+   "line_id": 46146,
+   "source_hash": "d850ecc172844e046a4b72f3686f9c7843475506f2b8f79fe25362d327de21bb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f17_18i+19:2": {
+   "en": "Here! God my salvation, I will trust and not tremble, for my protection and the strength of Yahweh, and Yahweh has become",
+   "notes": "The transcription is partially damaged, with one reconstructed word and one uncertain word. The phrase 'strength of Yahweh' is supported by repeated evidence. The final 'Yahweh' is uncertain due to damage in the source text.",
+   "line_id": 46147,
+   "source_hash": "9d13df51b6fd3e29a548c186edd0a72ff7ea6266c232775986a8dd32e5420afb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f17_18i+19:3": {
+   "en": "For salvation: and you will draw water with joy from the springs of salvation. And you will say in the day",
+   "notes": "The translation follows the visible transcription and semantic constraints. Uncertainty in the transcription is noted for positions 15 and 16, where the text is damaged. The phrase 'they drew water' is supported by repeated evidence but is not used here due to the required second-person grammatical person constraint. The prepositional phrases are rendered as advised or required by constraints.",
+   "line_id": 46148,
+   "source_hash": "58e6d44fcce417cb2874dd787fc454ee3f48bde6bfcd7821e0b757ef1b5954e8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f17_18i+19:4": {
+   "en": "That give thanks to Yahweh call on name make known among peoples deeds bring to remembrance that is exalted name sing praises to",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 46149,
+   "source_hash": "4a8676ed21ae0602aeb7b1732998eb7f10935c08452605e354a4870bd2308558",
+   "source_condition": "reconstructed"
+  },
+  "4Q59 f17_18i+19:5": {
+   "en": "Yahweh that he has done majesty is made known this in all the earth cry aloud and cry out O inhabitant of Zion that is great in",
+   "notes": "Uncertain reconstruction at positions 19-20. Position 6 (this) has no defensible translation.",
+   "line_id": 46150,
+   "source_hash": "b69c3d66e870626275c98f9b7e14e88599db80a1db297e17d2588d7e388706a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f17_18i+19:6": {
+   "en": "the holy one of Israel",
+   "notes": "The phrase 'the holy one of Israel' is supported by repeated phrase evidence and semantic constraints. The final punctuation mark is omitted as it cannot be translated independently.",
+   "line_id": 46151,
+   "source_hash": "8c9208c3d0b68f323d52a0b7c5844c11da9007e3ee18a56c619c38dc0977361c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f17_18i+19:7": {
+   "en": "The burden of Babylon, which he saw, Isaiah the son of Amoz: upon a mountain swept bare, lift up a standard, lift up a voice, to wave a hand, so that they may come.",
+   "notes": "The relative pronoun 'which' and the preposition 'upon' are reconstructed. The verb 'saw' is third-person singular, but the imperatives 'lift up' and 'wave' are second-person plural, creating a grammatical shift. The phrase 'so that they may come' is a paraphrase of the purpose clause implied by the conjunction 'so' and the third-person plural verb 'come'.",
+   "line_id": 46152,
+   "source_hash": "7db71b49c8f8d76f54b61ee0c8cf542a1f96d5e518d9984310d4d2068141bb62",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f17_18i+19:8": {
+   "en": "[The] doors of noble ones: I have commanded to my consecrated, also I have summoned my [ones] to anger, the exultant ones, my pride: [the] sound of a tumult on mountains",
+   "notes": "Positions 1, 16, 17, 18 are uncertain. Positions 13-14 are a repeated phrase.",
+   "line_id": 46153,
+   "source_hash": "37b2b3e1e6c1dc8ce33591dd66234429515cbf068ab3e9e1461d67c34d963ad1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f20_22:1": {
+   "en": "The sojourner upon them and they will attach themselves to the house of Jacob. And they, peoples, and they brought them to a place and they took possession of the house of Israel.",
+   "notes": "Positions 16-17: reconstructed lacuna. Position 9: untranslatable source punctuation.",
+   "line_id": 46154,
+   "source_hash": "b66021fb3f7f04054d8065dcbf063c1d54081f037c2decfaaa82af7f6751cc6f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f20_22:2": {
+   "en": "Upon the ground of Yahweh to servants and to maidservants and they will be taking captive to captors and they will rule over oppressors",
+   "notes": "Reconstructed preposition [upon] and damaged preposition [over] are uncertain. The phrase 'the ground they will become' is a high-confidence contextual rendering for 'ground of Yahweh' but contradicts visible morphology for 'become'; translation preserves visible verb forms.",
+   "line_id": 46155,
+   "source_hash": "f5be0419055b783d5cf4e163f4de030736134253f0624624a1e3ec72473b11ac",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f20_22:3": {
+   "en": "And it will be on the day when Yahweh gives rest to you from your pain and from your turmoil and from the hard labor which they labored by. And you will lift up the proverb this",
+   "notes": "The translation incorporates high-confidence contextual renderings for 'proverb (the) this' (positions 26-28), 'which they labored by' (positions 19-21), and 'gives rest Yahweh to' (positions 5-7). Uncertainty in reconstruction and gloss is noted for positions 3, 19, and 26. The translation preserves all recoverable lexical items and their relationships without adding unlicensed subjects or connectors.",
+   "line_id": 46156,
+   "source_hash": "7432dcdfb5cf851ed98fa011ad96f3d9ffe7eed1a965928f1f723e75961048e8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f20_22:4": {
+   "en": "To the king of Babylon and you will say, How! He has ceased [the] oppressor, it has ceased raging. He has broken Yahweh [the] staff of wicked [people], [the] scepter of rulers.",
+   "notes": "Positions 5, 14, and 17 are reconstructed. Positions 5 and 14 are uncertain. Position 11 and 18 are untranslatable punctuation. Position 10 has no trusted gloss.",
+   "line_id": 46157,
+   "source_hash": "f8c8256535fc53605ed30d8035777dc38f8fa6a52aba0bbcc5818f31d7df1070",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f20_22:5": {
+   "en": "They struck down the peoples in a blow of wrath, ceasing to rule in anger over nations in persecution which no one restrained. It is at rest; it is at peace, all the earth.",
+   "notes": "Position 6 has no defensible translation.",
+   "line_id": 46158,
+   "source_hash": "132e914ebfd43031a36ef1679cd7c38ffba01310aec19e36b3f0f4611566c9f0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f20_22:6": {
+   "en": "People have broken forth a shout of joy, also the fir trees have rejoiced to the cedars of Lebanon from then you lay down not he comes up the cutter on Sheol from beneath",
+   "notes": "Uncertain reconstruction and damage affect positions 5, 16, 17. Phrase evidence supports 'the cedars of Lebanon' (positions 8-9). Semantic constraints require negation at position 13, and specific participants and roles throughout.",
+   "line_id": 46159,
+   "source_hash": "095806e07ecaad0c0df485d7fcd9cd4f2614d423a555cbed8aa1cb39be9eff38",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f20_22:7": {
+   "en": "She was enraged to meet coming, it has roused to shades, all the leaders of the earth, it has made rise from thrones, all the kings of the nations, they will answer",
+   "notes": "Uncertain reconstruction at positions 5, 14, 16. Positions 14, 16 have advisory contextual senses.",
+   "line_id": 46160,
+   "source_hash": "1c59a50bd76f5729e53d0270d8668b86df3b12b36db6481f777c233ad0bd9020",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f20_22:8": {
+   "en": "And they will say to you, even you have been made weak like us, you have become like us. It has been brought down, Sheol, pride, he will die, a corpse, under part, maggot.",
+   "notes": "The translation includes all recoverable lexical items, with uncertainty in the rendering of some phrases due to damage and reconstruction. The phrase 'he will die' is a tentative rendering of the uncertain verb form. The term 'under part' is a literal translation of the uncertain suffix. The overall structure follows the semantic constraints and phrase evidence, with required contextual senses prioritized.",
+   "line_id": 46161,
+   "source_hash": "bfbda097e92d415f48f11421baffc25ab77fd5c369bc2d864523ca96a8b17832",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f20_22:9": {
+   "en": "And your coverings are worms How you have fallen from heaven, O shining one, son of dawn You have been cut down to the ground, O you who defeat over the nations And you said",
+   "notes": "Uncertain reconstruction and damage affect 'defeat over the nations' and 'you said'. Phrase evidence supports 'heaven O shining one' and 'you [are] saying'.",
+   "line_id": 46162,
+   "source_hash": "ba5ab0916a6610e6b1520d035d1b1b15bc8b549deb24fcbc29ec69786844d49b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f26:1": {
+   "en": "Quaking the earth, shaking kingdoms, he made the world like a wilderness and cities, tearing down, not opening the house of prisoners.",
+   "notes": "Uncertain reconstruction of 'ה ]ר##ס' and 'א##ס##[ ירי׳ו'. Phrase evidence supports 'the entrance of the house' and '[who] made [the] world'.",
+   "line_id": 46163,
+   "source_hash": "2a5fa91db59b135c3066ed81bcdf065417fcf5fc3f3070c9ef4d5f1303afcecb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f26:2": {
+   "en": "All the kings of the nations of them have lain down in splendor, each one in his own. And you have been thrown out from your tomb like a shoot abhorred.",
+   "notes": "Positions 11, 16 contain untranslatable characters. Position 16 is reconstructed and uncertain.",
+   "line_id": 46164,
+   "source_hash": "4aed1ae17ddee917987ed4ffd6f2896d8b3d362186d49553baef1425107d662c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f26:3": {
+   "en": "The clothing of those killed, pierced by the sword, who go down to the stones of the pit, like a corpse trodden down, you will not be united with in burial",
+   "notes": "Reconstructed text at positions 1, 13, and 15. Uncertain reconstruction at position 15. Phrase evidence supports 'one with' at positions 14-15, but 'you will be united with' is chosen for grammatical consistency.",
+   "line_id": 46165,
+   "source_hash": "90a389127cc8ff5a22836a151429fce5a1fe18de532dc4155c1ebbd0f67cdfaa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f18ii+23_24:1": {
+   "en": "Because you have ruined the land, you have slain the people, it will not be named forever, of perpetuity, the offspring of evil-doers. Prepare for sons, a place of slaughter, in the iniquity of their ancestors.",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 46166,
+   "source_hash": "70c8c3dbe3f2971661bf8696b2a4009f226914d2a3cb7c033e3c16fca0dd9c75",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f18ii+23_24:2": {
+   "en": "Not they will arise and they will take possession of the earth and they will fill the surface of the world cities and I will rise up on the utterance of Yahweh of hosts and I will cut off",
+   "notes": "The translation follows the visible transcription and morphology, with contextual senses for ambiguous terms. The phrase 'the utterance of Yahweh of hosts' is supported by repeated evidence. 'Surface of the world' is a canonical rendering of 'faces of the inhabited world.' 'Cities' is selected from the gloss options for 'ערים' given the context. The final verb 'הכרתי' is translated as 'I will cut off' based on its hifil stem and perfect tense, with the subject 'I' licensed by the first-person suffix.",
+   "line_id": 46167,
+   "source_hash": "490ae13547fa24c6fa34d0f0c4b620e589734a37595e45df05ca83a1012283ed",
+   "source_condition": "reconstructed"
+  },
+  "4Q59 f18ii+23_24:3": {
+   "en": "To Babylon name and remnant and posterity and progeny the utterance of Yahweh and I put into a possession of hedgehogs and pools of water and I swept",
+   "notes": "Uncertain reconstruction at positions 1-2. High-confidence phrase evidence supports 'the utterance of Yahweh' at positions 10-11 and 'pools of water' at positions 19-20. First person singular agency is required at positions 14 and 22. Prepositional phrase structure is required at positions 1, 2, and 15.",
+   "line_id": 46168,
+   "source_hash": "4a3e69f12e0a75afa6885327e39bd3cd6d63e4212786b12480750fc59ae75769",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f18ii+23_24:4": {
+   "en": "With a broom of destruction, the utterance of Yahweh of hosts: he has sworn, Yahweh of hosts, saying, 'If not just as I have intended, so it has happened.'",
+   "notes": "The transcription contains a reconstructed term (position 2) and an uncertain term (position 7), but both are reflected in the translation as 'broom' and an omitted punctuation mark, respectively. The phrase evidence and semantic constraints strongly support the rendering of 'the utterance of Yahweh of hosts' and 'Yahweh of hosts' as proper phrases. The translation preserves the grammatical person, number, and semantic relationships as indicated by the morphology and constraints.",
+   "line_id": 46169,
+   "source_hash": "f1e9bc429f0b540f386a983e3addd6f725d803cffccb93a2cdc3aea307a0c7b2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f18ii+23_24:5": {
+   "en": "And just as I have planned, it will stand.",
+   "notes": "The translation is based on the highest-supported repeated phrase evidence and semantic constraints. Uncertainty in the transcription and reconstruction is noted, particularly around the relative pronoun and the verbs 'advise' and 'arise/stand'. The final Greek character (ε) is omitted as it cannot be translated independently.",
+   "line_id": 46170,
+   "source_hash": "3d335c3d7c0efcadc190e2027e2b14b273a3d1c54661501b10f0af2921a2d440",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f18ii+23_24:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only damaged or untranslatable fragments.",
+   "line_id": 46171,
+   "source_hash": "7810d6c75a0ed40b11f3082c894aa4ae82265d4561bf60d67f43954ffa5d7f33",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q59 f25:1": {
+   "en": "And [one who] turned aside from evil, [was] plundered, and he saw Yahweh, and it was displeasing in [his] eyes, [as if] there was no justice. And he saw that there was no one, and he was appalled that there was no interposer.",
+   "notes": "Positions 12, 13, 14, and 21 are uncertain. Positions 1 and 21 are reconstructed.",
+   "line_id": 46172,
+   "source_hash": "78077dbc857149c30e84c69b9634236d4edffb18152cf66828e798be8bb72884",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

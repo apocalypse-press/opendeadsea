@@ -1,0 +1,249 @@
+{
+ "id": "4Q106",
+ "label": "4Q106",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 33,
+ "scroll_id": 906,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q106 f1:9": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and placeholders.",
+   "line_id": 48708,
+   "source_hash": "b62b6f6606954ca96eecd50df63056efecc7fe34e9debad412d2d9829a626dea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f1:10": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of fragmented and uncertain characters (ε, #) with no clear lexical or grammatical content. No defensible English translation can be derived from the visible material.",
+   "line_id": 48709,
+   "source_hash": "58d7898b990e7e1f6c96debc5b487c66883798e9ff90fe4d7f3211dbc5797759",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f1:11": {
+   "en": "And I did not slack until I came to the house of my mother and to",
+   "notes": "Uncertain transcription and reconstruction in positions 3, 4, 5, 6. Phrase evidence supports 'to the house my mother' and 'he went to house' but the translation follows the recoverable word order. Position 1 is omitted as it is untranslatable.",
+   "line_id": 48710,
+   "source_hash": "a6f75c5b4874ac1cddffaf69c8bc0f714558bf7d2752ac48293d2276ebf35805",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f1:12": {
+   "en": "I have adjured you, daughters of Jerusalem, by the gazelles",
+   "notes": "The phrase 'O daughters of Jerusalem by' is supported by repeated phrase evidence. The object marker 'אֵת' is uncertain and omitted. The word 'צבאות' is translated as 'gazelles' based on its lexical gloss, but its exact meaning in this context is uncertain.",
+   "line_id": 48711,
+   "source_hash": "6241e130335159cc61db7d44abcb4f8e374288476d6ffe0a17cde98102f86d24",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2i+3_5:1": {
+   "en": "Behold the couch of Solomon with sixty vigorous men surrounding from the warriors of Israel",
+   "notes": "The phrase 'from the warriors of Israel' is supported by repeated phrase evidence, though with limited support. The number 'sixty' has no trusted gloss, but the transcription is clear.",
+   "line_id": 48712,
+   "source_hash": "d970d8e883f56ede32740d7a4cd327dfaea242351876a41002f8ecff1a0a0f49",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2i+3_5:2": {
+   "en": "All who seize a dagger, [who were] trained of warfare, a man, each sword upon his thigh from trembling in nights",
+   "notes": "Uncertain reconstruction in 'trained of warfare' and 'each sword'. Lacuna indicated by brackets.",
+   "line_id": 48713,
+   "source_hash": "62acf5e9832279cfc33c04144644fb1c75862523bd5bbd5e417f862aaa56a266",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2i+3_5:3": {
+   "en": "A litter he made for king Solomon from the trees of Lebanon, its pillars he made of silver",
+   "notes": "The transcription is heavily damaged, with several uncertain and reconstructed words. The phrase 'king Solomon' is supported by high-confidence phrase evidence. The translation conservatively follows the recoverable order of words, preserving uncertainty and damage without adding unlicensed connectors or subjects.",
+   "line_id": 48714,
+   "source_hash": "e7cd58e698cd43bb17c3efd6a9145dbdfbd6e0e1e2658c99f64f645c8dd78932",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2i+3_5:4": {
+   "en": "a gold saddle-cloth of a chariot and purple-wool in its midst fitted with love from daughters of Jerusalem",
+   "notes": "The translation is highly uncertain due to extensive damage and reconstruction. The phrase 'daughters of Jerusalem' is supported by repeated phrase evidence, but the overall syntax and relationships between elements are unclear. Many words are reconstructed or uncertain, and the final punctuation mark is omitted as it has no clear English equivalent.",
+   "line_id": 48715,
+   "source_hash": "dca4be10a6b1db15d0f563fee920963c1a62465139adad13327ed106ec642a8d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2i+3_5:5": {
+   "en": "Go out and see, O daughters of Jerusalem by king Solomon in a wreath",
+   "notes": "Uncertainty in the transcription affects the preposition 'in' and the phrase 'daughters of Jerusalem by'; the latter is supported by repeated phrase evidence but with moderate confidence.",
+   "line_id": 48716,
+   "source_hash": "2e2d9eded11c6a6322f8840307ac2eb5efc8f07c8f5e653eaf5600a9c5b57ba1",
+   "source_condition": "uncertain"
+  },
+  "4Q106 f2i+3_5:6": {
+   "en": "Who surrounded to mother in the day of marriage on the day of the joy of his heart",
+   "notes": "The phrase 'to mother' is supported by repeated phrase evidence. The sequence 'in the day of marriage' and 'on the day of the joy of his heart' are supported by repeated phrase evidence, though the latter includes a possessive 'his' not directly licensed by the immediate context but inferred from the morphological suffix on 'לב׳ו'.",
+   "line_id": 48717,
+   "source_hash": "a5c2f3c5096179f810546b0efbb65fe902ad6536f339419dca4a73600a02a576",
+   "source_condition": "reconstructed"
+  },
+  "4Q106 f2i+3_5:8": {
+   "en": "Behold, beautiful my girl friend, behold beautiful eyes like doves from a distance to your veil as a flock",
+   "notes": "Uncertainty in transcription and reconstruction affects 'beautiful' (position 5), 'eyes' (position 6), 'from' (position 8), 'distance' (position 9), and 'your veil' (position 11). Phrase evidence supports 'beautiful my girl friend' and 'beautiful eyes'.",
+   "line_id": 48719,
+   "source_hash": "8928aa265c36e553c3a9e85d5fc7da88f0a7fc8969ba86a5da71cb52505070a1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2i+3_5:9": {
+   "en": "the goats your hair which went down from Gilead as Eder the cut off your teeth they ascended",
+   "notes": "Uncertain elements include the verb 'went down' (position 5), the noun 'Eder' (position 11), the verb 'cut off' (position 13), and the noun 'teeth' (position 14). The transcription contains damaged or ambiguous characters, and some words are reconstructed.",
+   "line_id": 48720,
+   "source_hash": "0c14b1ea157bc12abe764614c2b2fde6ed2d15a0780f2758e6fb70437f2ac27d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2i+3_5:10": {
+   "en": "From the washing which all bore twins and the bereaved of children there is not in, as the thread of the scarlet",
+   "notes": "The phrase 'bearing twins' is uncertain due to damage in the source text. The translation follows the highest-supported repeated phrase evidence for 'washing which all' and 'deprived of offspring there [is] not among'. The final phrase 'of the thread of the scarlet' is supported by repeated phrase evidence, though with lower confidence.",
+   "line_id": 48721,
+   "source_hash": "0171d362d90855f5e574325b591bcecd58b0a323a4ec986c478b2436ad15d7c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2i+3_5:11": {
+   "en": "Your lips and your words are lovely as a slice of the pomegranate from the distance to your veil",
+   "notes": "Uncertain elements include the preposition 'כ##' (as/like), the noun 'פ##לח' (slice), the article 'ה#' (the), the particle 'בע#ד' (distance), and the noun 'צ#מ[ ת ]׳ך#' (veil). The phrase 'slice of the pomegranate' is supported by repeated evidence.",
+   "line_id": 48722,
+   "source_hash": "ab560a4d7fabd1b577db7036e3444431bcef7ae4e92595026ed6f90a98962cb8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2i+3_5:12": {
+   "en": "As a tower, David's neck, built to stone courses, a thousand the shield hung up in all the shields of the vigorous",
+   "notes": "Uncertainty in the transcription and reconstruction of the text may affect the translation. The phrase 'hung up in' is supported by repeated phrase evidence, but its exact meaning in this context is unclear. The word 'ג#?בורים' is marked as uncertain in the transcription, and its translation as 'vigorous' is based on the provided lexical gloss.",
+   "line_id": 48723,
+   "source_hash": "a0bfcce934455df7b63b0c50e0163fc28605702facfcdde36a95737c81275a23",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2i+3_5:13": {
+   "en": "Your breasts are like two fawns, twins of a gazelle that pasture among lilies",
+   "notes": "Uncertain elements include the transcription of several words and the meaning of 'תאומי'. The translation follows high-confidence phrase evidence where available.",
+   "line_id": 48724,
+   "source_hash": "be3ad2cc2685b7416cc216799e1a7439bdca82e720d9c4de89d7cbc36cde0b4a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2i+3_5:14": {
+   "en": "The day and they will flee the shadows I go to the mountain of myrrh to the hill of the incense",
+   "notes": "Uncertainty in the transcription is noted for the word 'מו ]ר#' (myrrh). The phrase 'they will flee the shadows' is a high-confidence repeated phrase, and 'go to' is a context-free gloss for 'אלך ל׳י'.",
+   "line_id": 48725,
+   "source_hash": "f86248f3949ab4704b7953db6aa07528207c081cceac2f3aa6dfaeab876a5697",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2ii:1": {
+   "en": "All beautiful my friend and no blemish in you",
+   "notes": "The phrase 'כל׳[ ךיפהרעית׳י' is translated based on repeated phrase evidence. The word 'מום' is uncertain due to lack of gloss, but 'blemish' is a plausible interpretation. The final '׃' is omitted as it is an unknown punctuation mark.",
+   "line_id": 48726,
+   "source_hash": "fa37c31aa623a5480d93e003a314e09cdc1ca4a4f6bb126eb2d765e6af20cefd",
+   "source_condition": "reconstructed"
+  },
+  "4Q106 f2ii:3": {
+   "en": "To the garden of the nut I descended to see in the bud of the wadi to see if",
+   "notes": "The phrase 'he went down to see' is supported by repeated phrase evidence for positions 4-6, but the first-person verb 'I descended' is directly attested. The translation retains the literal order and participants without adding unlicensed subjects or connectors.",
+   "line_id": 48728,
+   "source_hash": "efb19ae5ba84591633918096bd4190e2c4f64dd9874374488f373ce25b85ad24",
+   "source_condition": "reconstructed"
+  },
+  "4Q106 f2ii:4": {
+   "en": "it budded? the vine had they bloomed? the pomegranates not I know my soul she put me",
+   "notes": "Uncertain reconstruction of 'פרחה#[', 'נפש׳י', and 'שמת׳ני'. Phrase evidence suggests possible renderings for word sequences.",
+   "line_id": 48729,
+   "source_hash": "3969f856cf47fda87eb8fda288fcd455ea3777b6f594d8b7fa1433ba1974f2be",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2ii:5": {
+   "en": "Chariots with noble people, return, return, the Shulammite, and we will see in you",
+   "notes": "The transcription is partially damaged and reconstructed. The phrase 'with noble [people]' is supported by repeated evidence. The verbs 'return' are repeated imperatives. 'Shulammite' is a proper noun with no trusted gloss. The final phrase 'who] look on' is a low-confidence reconstruction.",
+   "line_id": 48730,
+   "source_hash": "bac3f7f0aa27836c70acb33814cbcd31bb99941c55e0c8ee0123ce74bdf69245",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2ii:6": {
+   "en": "What, you see in Shulamite as a round dance of the camps. How beautiful are your feet!",
+   "notes": "Reconstructed and uncertain elements include the verb 'see' and the proper noun 'Shulamite'. The phrase 'how beautiful are your feet' is supported by repeated phrase evidence.",
+   "line_id": 48731,
+   "source_hash": "5f4646286ca002c265b55d65f5835e6ae4c46405ba248550b397853b9f771604",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2ii:7": {
+   "en": "in sandals of a willing daughter of turnings of thighs like ornaments",
+   "notes": "Uncertain reconstruction of 'sandals' and damaged context; phrase evidence suggests 'house of a noble [person]' but does not fit recoverable tokens.",
+   "line_id": 48732,
+   "source_hash": "c16cee3821d845ad39bb0c81e8394a186c13f8072279c1cb04ed9e563449bdd0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2ii:8": {
+   "en": "the work of the hands of the artisan, the navel of the bowl, the enclosure will not diminish",
+   "notes": "Reconstructed and uncertain elements present. Phrase evidence partially applied.",
+   "line_id": 48733,
+   "source_hash": "60cab17b6c91730099ec717855c839c82275bd28621a94fb2836f6096d46125b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2ii:9": {
+   "en": "The mixed wine in the belly, a heap of wheat, fenced in lilies: two",
+   "notes": "The transcription contains damaged and uncertain elements, including a reconstructed word ('belly') and an uncertain particle ('ה##'). The final colon indicates a potential pause or break in the text, but its exact function is unclear.",
+   "line_id": 48734,
+   "source_hash": "4d128f86c38ff95179ed8d2593feb724f493292e2af47b2ff12afb47e1dcbaba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2ii:10": {
+   "en": "Your breasts are like two fawns, twins of a gazelle. Your neck is like a tower of Shen.",
+   "notes": "The phrase 'like two fawns' is supported by repeated phrase evidence. The phrase 'twins of a gazelle' is also supported by repeated phrase evidence. The phrase 'tower of Shen' is a possible interpretation of the final words, given the lexical glosses and the context.",
+   "line_id": 48735,
+   "source_hash": "904a4c9f9d10a82df7683de605da4c1aaa8ccfa58218d74497fe89551ff0d8a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2ii:11": {
+   "en": "Your eyes in pools in Heshbon upon the gate of the house of many your nose as a tower",
+   "notes": "Uncertain transcription and reconstruction in 'pools', 'in', and 'Heshbon'. The phrase 'the gate of the house' is supported by repeated evidence. The sense of 'many' is unclear, and 'nose' may have a figurative meaning.",
+   "line_id": 48736,
+   "source_hash": "2c945923b8a793fe73fe0d935db6071081c47a118044e43724f922e0500c2380",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2ii:12": {
+   "en": "The Lebanon looks out upon the face of Damascus. Your chiefs over you as Carmel and poor",
+   "notes": "Uncertain transcription and reconstruction in 'looks out' (position 3) and 'Damascus' (position 5). Phrase evidence supports 'chiefs over' (positions 7-8).",
+   "line_id": 48737,
+   "source_hash": "d722e7e024b213bd0592da8584f52126cbbd01fe57c19b948c5f6c50788baa86",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2ii:13": {
+   "en": "your head as purple-wool the king bound in troughs how beautiful",
+   "notes": "Uncertain reconstruction of 'אר#ג?מ##ן#?' as 'purple-wool' and '[ מ ]לך##' as 'the king'. Phrase evidence suggests 'how beautiful' for 'מה יפית'.",
+   "line_id": 48738,
+   "source_hash": "916a85ae50c14e323b7bc98bf973dd552daf5b31a05d151b5910326960fa7d05",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f2ii:14": {
+   "en": "How pleasant is love in comforts",
+   "notes": "The phrase 'how pleasant' is supported by repeated phrase evidence. The translation conservatively follows the recoverable text, preserving the structure and meaning without adding unlicensed elements.",
+   "line_id": 48739,
+   "source_hash": "6f7ff2002d0f82c75ab2348c517bc1a2af1580015902bc9d2c9e223f4b7f2143",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f6i:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only a Greek letter fragment (ε) and uncertain symbols.",
+   "line_id": 48740,
+   "source_hash": "34b1ea35ec1a892215482df888a38866249953d0274174880c54efba15ab597a",
+   "source_condition": "uncertain"
+  },
+  "4Q106 f6ii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only a reconstructed preposition 'in' and an untranslatable character, with no defensible English words surviving.",
+   "line_id": 48741,
+   "source_hash": "2fa1ff98a922a70e8e496813ceb4bb21763ea7d3046b06f1fc6a48fde7feed03",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q106 f6ii:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and untranslatable characters, with one reconstructed element. No defensible English words can be derived from the provided evidence.",
+   "line_id": 48742,
+   "source_hash": "bb256a918d500fb669565a59b8fbdbec05e22b79322eef17034a4897df619e01",
+   "source_condition": "reconstructed"
+  }
+ }
+}

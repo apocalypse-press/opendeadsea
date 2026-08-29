@@ -1,0 +1,60 @@
+{
+ "id": "4Q373a",
+ "label": "4Q373a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 6,
+ "scroll_id": 360,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q373a f1:1": {
+   "en": "to make to be gathering with two brothers and in all this Joseph is cast",
+   "notes": "Uncertain reconstruction of 'with' and 'this'; damaged text at positions 3, 10, and 14; ambiguous gloss for 'אחי׳ו' (brother / brazier / alas), 'brother' chosen based on context.",
+   "line_id": 15312,
+   "source_hash": "3280103ab5e54e41b6847b98f5d876c4eb192467cf05700fb03b54b5f5efaf34",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q373a f1:2": {
+   "en": "In the earths not know to and in people foreigner and in whole world",
+   "notes": "Fragmentary and uncertain reconstruction with multiple lacunae and damaged text. The translation reflects recoverable words in order, but the syntax is incomplete and uncertain. The preposition 'to' is omitted due to insufficient evidence. The particle 'and' is repeated based on visible morphology, but its placement is uncertain. The final preposition 'in' is retained despite uncertainty. Untranslated characters and punctuation are omitted.",
+   "line_id": 15313,
+   "source_hash": "0212067ae78ce1ec1f39d032ba92d463f5dca0a9ba298740dadb81734b071e9c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q373a f1:3": {
+   "en": "Dispersing all the mountains, desolate from and stupid, considering dishonour upon them",
+   "notes": "Uncertain reconstruction and gloss for 'מ##פ##ו#?צ##פ##צ##י#?[ ם' (disperse). Phrase evidence suggests 'heavens (from)' for 'שממים מ׳הם' but is not adopted due to low support. Uncertain gloss for 'ק##לו#?ן#?' (dishonour).",
+   "line_id": 15314,
+   "source_hash": "2314c259d88b4c22a48cad5299c8375ea3e23fadf7d73759f2c06dd4714eabc3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q373a f1:4": {
+   "en": "And they make for them high places on a mountain high to provoke Israel to jealousy and they spoke words",
+   "notes": "Uncertain reconstruction at positions 13 and 14. Phrase evidence supports 'on a mountain high' and '(into) high places'.",
+   "line_id": 15315,
+   "source_hash": "a5a2df1ecd8bba3068f368adca33ee8c98f2b2459fff992bf93adc20759fb918",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q373a f1:5": {
+   "en": "The sons of Jacob and they estimated in the words of their mouth to blaspheme upon the tent",
+   "notes": "Uncertain reconstruction of 'גד ]ף##' and 'ע##ל'. Reconstructed 'אוה[ ל ]' as 'tent'.",
+   "line_id": 15316,
+   "source_hash": "fe7fd93d581ff92ef0511884193a7aa768ee27783e3f2659f8eeacfd67582b93",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q373a f1:6": {
+   "en": "Zion and they spoke a word of falsehood and all the words of deceit they spoke to provoke anger",
+   "notes": "The phrase 'a word of falsehood' and 'all the words' are supported by repeated phrase evidence. The final verb is reconstructed and its exact sense is uncertain.",
+   "line_id": 15317,
+   "source_hash": "d7060856c73a77e26b69d8035c9fb9fbffa4e33e199457cdefcaa16f05e55002",
+   "source_condition": "reconstructed"
+  }
+ }
+}

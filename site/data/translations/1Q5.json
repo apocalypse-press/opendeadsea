@@ -1,0 +1,893 @@
+{
+ "id": "1Q5",
+ "label": "1Q5",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 125,
+ "scroll_id": 743,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q5 f1:1": {
+   "en": "And I said to you at that time, saying, I am not able to carry you alone",
+   "notes": "The phrase 'carry you alone' is uncertain due to damage in the source text. The word 'alone' is reconstructed from 'בד׳י', which may also mean 'linen, part, stave / idle talk'.",
+   "line_id": 36866,
+   "source_hash": "e56192cff7fc028c6cb16a9db77324234601603d650709fff30cb2b35c95b63e",
+   "source_condition": "uncertain"
+  },
+  "1Q5 f1:2": {
+   "en": "YHWH your gods multiplied you, and behold the day as the stars of the heavens for multitude",
+   "notes": "The phrase 'the heavens for multitude' is a high-confidence repeated pattern. 'YHWH God' is a common rendering of the final two words, but the preceding 'YHWH' is already translated, so it is omitted to avoid redundancy.",
+   "line_id": 36867,
+   "source_hash": "c78ddcc721a574838fc8a4fd18084e82317c2d18759dda599aee9e31decad416",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f1:3": {
+   "en": "Your fathers will add upon you like a thousand times, and he will bless you as he spoke to you",
+   "notes": "The phrase 'upon you' is a reconstruction. The word 'thousand' is used in a non-literal sense, possibly referring to a large number or group. The phrase 'as he spoke to you' is a reconstruction based on the context.",
+   "line_id": 36868,
+   "source_hash": "68e95735502a35d296ea625b2d5e4bb7e2716778fad06106eb5fa4e056ab7aee",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f1:4": {
+   "en": "I will carry your linen, your burden, and your law-case. Ascribe to men, wise and understanding, and knowing.",
+   "notes": "The transcription contains two reconstructed words and one uncertain word. The phrase 'ascribe to' is supported by repeated phrase evidence for positions 10-11. The phrase 'men, wise' is supported by repeated phrase evidence for positions 12-13. The translation preserves the grammatical person, number, and semantic relationships of the source text.",
+   "line_id": 36869,
+   "source_hash": "9210ae99814d52840c2b999abd9136b529b3892e0e09fe31e415f6b9b4c3f2b0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f2:1": {
+   "en": "A land of wheat and barley and vine and fig and pomegranate, a land of olive oil and honey, a land in which you will not eat in poverty.",
+   "notes": "The phrase 'a land of olive tree' is supported by repeated evidence, but 'olive oil' is a more natural English rendering of the reconstructed 'זית שׁמן'. The verb 'תאכל' is second-person masculine singular, but the suffix 'ב׳ה' is third-person feminine singular, creating a grammatical mismatch. The translation prioritizes the visible morphology of the verb.",
+   "line_id": 36870,
+   "source_hash": "ea7812a608a58fa29c983ffb66e484c523b823741a2c97235c237facfb4c1bd4",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f2:2": {
+   "en": "Bread you will not lack, all in the land whose stones [are] iron and from its mountains you will hew bronze",
+   "notes": "The phrase 'in the land' is supported by repeated evidence. The verb 'will lack' is reconstructed from the visible morphology. The phrase 'whose stones [are] iron' is a literal translation of the visible text, though the possessive relationship is implicit. The final clause 'you will hew bronze' is supported by the visible verb and object, with 'mountains' as the implied source.",
+   "line_id": 36871,
+   "source_hash": "52103de00e39c5cc5b11019742da42e6cd7449aeee910282ce2c835a86008506",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f3:1": {
+   "en": "And he gave to Yahweh the two tablets of stone written by the finger of God and upon them as all the words which Yahweh spoke with you on the mountain.",
+   "notes": "Uncertain reconstruction of damaged word 'finger' (position 12).",
+   "line_id": 36872,
+   "source_hash": "afac494d6c515543c5a6ae7ec11f5e267e8362bc470520754e06bf80d4c072b1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f4:1": {
+   "en": "Is it not they in the other side of the Jordan after the way of the entrance of the setting of the sun?",
+   "notes": "The phrase 'the other side of the Jordan' is a high-confidence contextual rendering of positions 6-8. The phrase 'of the setting of the sun' is a contextual rendering of positions 11-13. The phrase 'the way of the entrance of' is a contextual rendering of positions 10-12.",
+   "line_id": 36873,
+   "source_hash": "9fe458debdc986c27c29e8c2da675902bbe63af8e588a635f61f2cb5714d8e12",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f4:2": {
+   "en": "In the land of the Canaanite dwelling in the desert in front of the Gilgal by the side of the great trees of Moreh, that you",
+   "notes": "The phrase 'the land of the Canaanite' is supported by repeated phrase evidence. 'Dwelling' is a conservative rendering of the verb 'sit' in this context. 'Desert' is chosen over 'poplar' for 'aravah' due to the context. 'Gilgal' and 'Moreh' are proper nouns. The final clause is incomplete, and 'that you' is a direct translation of the visible text, with uncertainty about the intended meaning.",
+   "line_id": 36874,
+   "source_hash": "df4a2abe6e8cbab85935cb17220122dd92d64f94260a9abbd4a3e021666ab190",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f4:3": {
+   "en": "You shall pass the Jordan to go to take possession of the land which Yahweh your God gives to you",
+   "notes": "The phrase 'pass the Jordan' is supported by repeated phrase evidence. The phrase 'which Yahweh your God' is supported by repeated phrase evidence. The phrase 'go to take possession of' is supported by repeated phrase evidence, though with lower confidence. The phrase 'gives to you' is supported by repeated phrase evidence, though with lower confidence.",
+   "line_id": 36875,
+   "source_hash": "6508990ec9f7522b0523414201360411eae0f7721eff548f30aa366e68142f88",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f5:1": {
+   "en": "From your cattle and from your threshing-floor and from your pit which the Lord has blessed give to him. And remember that a slave you were.",
+   "notes": "Uncertain reconstruction of 'Lord' (position 12) and 'gods' (position 13). Uncertain conjunction at position 17. The translation preserves the visible text and structure, avoiding additions for fluency.",
+   "line_id": 36876,
+   "source_hash": "35eb48722ca5052b267dd5f1351ab19a33007cb40eebdb5ec288236b8730af2a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f5:2": {
+   "en": "In the land of Egypt and YHWH your God bought you off thus I [am] commanding you to make the word this the day",
+   "notes": "Uncertain reconstruction of 'א ]נ?כי' as 'I [am]' and 'ע#ש##[' as 'to make'. The phrase 'I [am] commanding' is supported by repeated phrase evidence. The translation of 'כן' as 'thus' is uncertain, and its exact meaning in this context is unclear.",
+   "line_id": 36877,
+   "source_hash": "3a65ce88635d07e1c20c4a75c15eded71885691ccb50b04b1bb86c737c26c598",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f6:1": {
+   "en": "[The] people of Egypt, because of multiplying horses, and YHWH said to you, Do not add to return in this way still.",
+   "notes": "The transcription contains two reconstructed words and one uncertain word. The phrase evidence and semantic constraints were considered in the translation.",
+   "line_id": 36878,
+   "source_hash": "036b758f8b87ab82e7637769ea65079e88a5c23e10b7d8e24bc0dfceecd5eeed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f6:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment with no clear meaning. The visible forms do not provide sufficient evidence for a defensible English translation.",
+   "line_id": 36879,
+   "source_hash": "e2893c2d33ce738372f9d29dbe4b68662af09c4480aae1e8c1dd3bbddedc8d48",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f7:1": {
+   "en": "Cover for the people of Israel who bought off YHWH and",
+   "notes": "Uncertain reconstruction of 'people' and 'Israel'; relative pronoun and verb form are reconstructed; 'YHWH' is a proper noun; conjunction 'and' indicates continuation.",
+   "line_id": 36880,
+   "source_hash": "d798418fbf324e07b564db1555ec06761f00774c7c6afb0d0b6c21855a6c0978",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f7:2": {
+   "en": "You shall give innocent blood in the midst of your people Israel and it will be covered for them the blood and you will burn the innocent blood from your midst",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'it will be covered' is based on uncertain reconstruction. The term 'burn' is chosen over 'be stupid' due to contextual constraints. The phrase 'the blood' is partially reconstructed.",
+   "line_id": 36881,
+   "source_hash": "42a75a1bd4962c988b28ae1f15c6d2ef5baf05bf3065a6b10a1944b7a80c43e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f7:3": {
+   "en": "For you do the right in the eyes of Yahweh.",
+   "notes": "The phrase 'in the eyes of Yahweh' is supported by repeated phrase evidence. The verb 'do' is a conservative rendering of the imperfect verb 'תעשה'. The particle 'כי' is translated as 'for' to introduce a reason or explanation. The final characters '׃ε' are omitted as they cannot be translated independently.",
+   "line_id": 36882,
+   "source_hash": "7ea10dfc6463b8b64207be9969bf2020bbcdf99936cc2ec86f06c5f66247c3ed",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f7:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment with no clear meaning. The visible forms do not provide sufficient evidence for a defensible English translation.",
+   "line_id": 36883,
+   "source_hash": "bf576fb778bdd1e89110e4759a36cf2922622f72690246f9c6e4b5bc4cb914ab",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f8i:2": {
+   "en": "who",
+   "notes": "The transcription contains an untranslatable Greek letter 'ε' and the Hebrew relative particle 'אשר'. The Greek letter is omitted from the translation as it cannot be independently translated.",
+   "line_id": 36884,
+   "source_hash": "526ec34bda81e186602ff31ad8de30a96419d2cc5611ac633d3d28d388ad475b",
+   "source_condition": "clean"
+  },
+  "1Q5 f8i:3": {
+   "en": "man",
+   "notes": "The transcription includes an untranslatable Greek letter 'ε' and a Hebrew punctuation mark '׃', both omitted from the translation.",
+   "line_id": 36885,
+   "source_hash": "614e2b4af511102078b3ce778e66ac57f9814d53851bec5050c53bea7a45f899",
+   "source_condition": "clean"
+  },
+  "1Q5 f36:1": {
+   "en": "When a man takes a new woman, he shall not go out in service, nor shall he pass upon every matter.",
+   "notes": "The phrase 'he shall not go out in service' is a reconstruction based on the visible transcription and morphology. The term 'service' is chosen over 'gazelle' due to contextual constraints. The final 'ε' and '׃' are omitted as they cannot be translated independently.",
+   "line_id": 36886,
+   "source_hash": "6c0f35e47aae1afe7db051351f6c42a275afe50235d8d462c6c571d8346e93d9",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f8ii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The line is heavily damaged with only a few recoverable words. The phrase 'מַשָּׁאָה את' is reconstructed and uncertain, 'מאומה' means 'something', 'לא' means 'not', and 'תבא' means 'come'. However, the context and syntax are unclear, and no coherent translation can be constructed without significant speculation. The phrase 'בית׳ו' suggests 'his house', but the surrounding context is too fragmented to confirm. Similarly, 'עבט' and 'עבט׳ו' are uncertain, with 'עבט' possibly meaning 'borrow' or 'change' and 'עבט׳ו' possibly meaning 'pledge'. The remaining words are too damaged or uncertain to translate reliably.",
+   "line_id": 36887,
+   "source_hash": "3396f8bc3d5737c5b923af4861659839e0ee16a4ade0031b474ce16958a04fd0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f8ii:2": {
+   "en": "You shall go out to the pledged outside. And if a humble man, he will not lie down in his pledge. Return, you will return to him.",
+   "notes": "The translation follows the visible morphology and phrase evidence, preserving the grammatical person, number, and semantic relationships. Uncertainty in the reconstruction of 'א[ לי׳ך' is noted, but the context-free gloss 'to' is used as it aligns with the highest-supported phrase evidence. The phrase 'he not you will lie down' is used for positions 13-15 based on repeated phrase evidence. The translation avoids adding unlicensed pronouns or connectors, and retains the context-free glosses where no stronger evidence is available.",
+   "line_id": 36888,
+   "source_hash": "06a881333a925ff48e9b610f7aad2bbcd1b79b172b6318572616fb90dee5894e",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f8ii:3": {
+   "en": "The pledge as the sun comes and lies in its wrapper and blesses you will be justice before Yahweh your God",
+   "notes": "Uncertain reconstruction of 'sun' and 'to you'",
+   "line_id": 36889,
+   "source_hash": "a23a0c7f07ed8e536eb1a47003bc6b8bc1f4d1ebad7e8a7d351a34335f0dd276",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f8ii:4": {
+   "en": "Do not oppress the humble and poor, the brother or sojourner in your land, in your gates. In the day you give wages, and it will not come.",
+   "notes": "The phrase 'you must oppress a hired laborer' is a repeated pattern with moderate support, but it contradicts the visible negation particle 'לא' and the imperative 'do not oppress'. The translation retains the visible negation and imperative structure. The phrase 'you will pay wage[s]' has low support and is not adopted as it introduces an unsupported future tense. The word 'אח#[ י׳ך' is reconstructed and marked as uncertain. The translation uses 'brother' based on the provided gloss, but the uncertainty is noted here. The word 'שכר' is translated as 'wages' based on the context, though the gloss suggests 'hire' or 'Sacar'. The final verb 'תבוא' is feminine singular, but no clear antecedent is recoverable from the source; the translation uses a neuter singular 'it' to avoid inventing a participant.",
+   "line_id": 36890,
+   "source_hash": "2c0af944e9b1174ed7a1d0f93d498abc1991975dfc1cf06b6ce8996eaf662523",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f8ii:5": {
+   "en": "Upon him the sun that he humble and to him lift up his soul and not call upon you to YHWH and was in you",
+   "notes": "The translation reflects the visible transcription and morphology, with phrase evidence informing the rendering of 'lift up his soul' and 'call upon you.' The final phrase 'and was in you' is uncertain due to the fragmentary nature of the text, but follows the visible morphology and lexical glosses.",
+   "line_id": 36891,
+   "source_hash": "1c7deb3fdf1039daf0c0ec65a03b3f83d3f7c403c097ef3583f31e47dbc88081",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f8ii:6": {
+   "en": "Offence not parents on children and children not they will be put to death on parents each for his own offence they will be put to death",
+   "notes": "The translation follows the highest-supported repeated phrase evidence for positions 3-5, 9-11, and 14-16. The phrase 'each for his own' is supported by 100% pattern evidence and is preferred over context-free glosses. Positions 1-2 and 18 are omitted as they contribute no recoverable content. The reconstruction of 'אב#[ ות' as 'parents' is noted but not bracketed in the translation. No uncertainty is signaled in the translation field.",
+   "line_id": 36892,
+   "source_hash": "1c7f7b8d6cb92260901704f0435ddcdb0caad5fc75642682ea95df967e72457d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f9:1": {
+   "en": "There shall not be for you in your bag a stone and a stone, large and small. There shall not be for you in your house an ephah and an ephah, large and small.",
+   "notes": "The translation follows the visible transcription and morphology, with reconstruction noted for positions 1 and 8. The phrase 'stones large' is supported by repeated evidence, but the translation retains the singular form to match the source text. The phrase 'not it will belong to' is a high-confidence constraint, but the translation avoids adding an implied possessive. Uncertainty in punctuation is not reflected in the translation.",
+   "line_id": 36893,
+   "source_hash": "f2e94148a2bc642592c7871b331c94dc3ab37085a81fbabaa73a203f2607e95b",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f9:2": {
+   "en": "A stone of Salem and justice will belong to you, an ephah of Salem and justice will belong to you, so that you may prolong your days upon the land which Yahweh your God gave",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 36894,
+   "source_hash": "085a6c19e6eb10f29aa579a303b63580db1f2fdee3d225c47776492aaa580d78",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f9:3": {
+   "en": "to you that abomination of Yahweh God of all who does these all who does injustice remember what Amalek did to you in the way",
+   "notes": "Uncertain reconstruction at positions 6, 8. Phrase evidence applied to positions 3-5, 7-9, 10-11. Lexical glosses used for remaining words.",
+   "line_id": 36895,
+   "source_hash": "cedd91c6ab3ecf30d4a6bb9306d208aeba2ad535c7a6957fd95980822d815bfd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f9:4": {
+   "en": "When you went out from Egypt, he met you in the way, and cut off all the worn-out ones after you, and you were faint and weary, and did not fear gods.",
+   "notes": "Positions 6-7 and 16 are uncertain. Phrase evidence supports 'cut off all the worn-out ones after you' and 'did not fear gods'.",
+   "line_id": 36896,
+   "source_hash": "d55645eec96a5c1c013680befffb45f2c5e8cc7194f8cbaff2edc871ad623328",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f10:1": {
+   "en": "He will accompany you, and you will not accompany him. He will be a head, and you will be to a tail. And all these curses will come upon you, and they will pursue you.",
+   "notes": "Positions 10 and 16 are uncertain reconstructions. The phrase 'curses (the) these' is supported by repeated evidence.",
+   "line_id": 36897,
+   "source_hash": "d09bd7d7e6b2f1832608779c6907c2ea9b4e5a815983e5dbe8c31c3ec5c994b5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f10:2": {
+   "en": "And they will overtake you unto your destruction because you did not listen to the voice of Yahweh your God to keep his commandments and his regulations which he commanded you. And they will be unto you a sign",
+   "notes": "Uncertain reconstruction of 'your God' and 'unto you a sign'",
+   "line_id": 36898,
+   "source_hash": "b5dd3242b43b13f0cdcdc8fa95560413dc5a12d53a849757b577be4742f637f8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f10:3": {
+   "en": "And a sign in your seed forever, under which you did not serve YHWH your God in joy and in goodness of heart from the abundance of all.",
+   "notes": "The phrase 'et Yahweh God' is supported by repeated phrase evidence. 'Goodness of heart' and 'abundance of all' are also supported by repeated phrase evidence.",
+   "line_id": 36899,
+   "source_hash": "db72d6af8e061053133888c562a9ae92cd9596c94b9f893e4c5010fede037e62",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f10:4": {
+   "en": "And you will serve your enemies whom he has sent, Yahweh, in hunger and in thirst and in nakedness and in lack of everything, and he gave a yoke of iron upon your neck until destroying you.",
+   "notes": "Positions 6-7: The phrase evidence supports both 'he sent Yahweh' and 'whom he has sent Yahweh'; the latter fits the context better. Position 28: The infinitive construct form suggests a purpose clause, translated as 'until destroying you'.",
+   "line_id": 36900,
+   "source_hash": "a93b761b99d033a22cc3a2a968959986b85a77aeb610d7f0b75dab8aadc70a5e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f11:1": {
+   "en": "You standing the whole day before Yahweh your God your chiefs your tribes",
+   "notes": "Uncertain reconstruction of נ?צבים as 'standing'; uncertain suffixed forms of 'your' in כל#׳כם, אלהי׳כם, ראשי׳כם, שבטי׳כם; phrase evidence supports 'before Yahweh', 'Yahweh God', and 'the chiefs your tribes'",
+   "line_id": 36901,
+   "source_hash": "b177512b4d1f3ca038e0e3cf748eb87945b3570f41246d1015a076899c698d5a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f11:2": {
+   "en": "Your elders and officers, every man of Israel, your little ones and your women, and the sojourner in the midst of your camps, from the woodcutters until",
+   "notes": "Uncertain reconstruction of 'women' (position 10). Phrase evidence supports 'every man of Israel' (positions 4-6), 'woodcutters' (positions 18-19), and 'in the midst of your camps' (positions 14-16).",
+   "line_id": 36902,
+   "source_hash": "962d0afe372bda23fae42515d66baa1140ffd999c2c593cae344119fcfcfb33f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f11:3": {
+   "en": "Drawing your waters to pass in the covenant of Yahweh your God and in the curse which Yahweh your God cut with you today",
+   "notes": "The translation follows high-confidence phrase evidence for 'covenant of Yahweh' and 'which Yahweh God'. The verb 'pass' reflects the infinitive construct form, though its sense is uncertain. The phrase 'drawing your waters' is supported by repeated evidence but its connection to the rest of the sentence is unclear.",
+   "line_id": 36903,
+   "source_hash": "b027ba3a07db0a8a1d0b71f961910883ce0bac6aeea526f78caa9d10a69a30b7",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f12_13i:1": {
+   "en": "He spoke to you and as he swore to your fathers, to Abraham, to Isaac, and to Jacob: and not only you, but I [am] making [no recoverable text]",
+   "notes": "Uncertainty in the reconstruction of 'Jacob' and 'I [am] making' due to damage. The phrase 'I [am] making' is partially reconstructed and uncertain. The final portion of the text is irretrievably damaged, represented as '[no recoverable text]'",
+   "line_id": 36904,
+   "source_hash": "57eb2a46c6c24d7401d61f953b1893d7cc6ef9574cc90752fb5b32733b0ce32b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f12_13i:2": {
+   "en": "This covenant and this curse: that which is here today before Yahweh our God and",
+   "notes": "The translation includes a reconstructed particle '[ ה' and a damaged word 'יש׳נו'. The phrase 'before Yahweh' is supported by repeated evidence, and 'Yahweh our God' is a common canonical pattern. The final 'and' is incomplete, indicating the sentence continues.",
+   "line_id": 36905,
+   "source_hash": "5b3f22a76908938fe605234f0268f943044ed1e5ce4318409610a72c5e7bd928",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f12_13i:3": {
+   "en": "which is not here with us this day: for you know",
+   "notes": "The phrase 'the land of Egypt' is a high-confidence reconstruction based on repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, preserving the grammatical person and number. Uncertainty in the transcription is noted, particularly with the damaged lexical unit 'אינ׳נו' and the unknown punctuation mark '׃'.",
+   "line_id": 36906,
+   "source_hash": "3ead07f7825efdcff09db557f62bbfe76b694bc2a25d6daf413793133a1a63c3",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f12_13i:4": {
+   "en": "We passed in the midst of the peoples whom you passed through, and you saw their abominations and their idols of wood and stone, silver and gold.",
+   "notes": "The translation includes reconstructed and uncertain terms, with 'passed' and 'saw' reflecting the visible morphology. The phrase 'in the midst' is supported by repeated evidence, though its dominance is limited. Uncertainty in the transcription is noted for 'saw' and 'abominations'.",
+   "line_id": 36907,
+   "source_hash": "93ab44487c28226950817781a11d072e31d918e17bbb9f5f557b53cf5cbdea13",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f12_13i:5": {
+   "en": "who are with lest there be in anyone a man or a woman or a clan or a rod which is turning away this day from Yahweh our God",
+   "notes": "Position 3 is untranslatable; omitted surviving punctuation. Position 10 is uncertain; translated as visible. Position 14 is uncertain; translated as visible.",
+   "line_id": 36908,
+   "source_hash": "e3f7719363cb2406a612f32a5d82245e0841b2686cdd334d66db8c7ad3b323b5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f12_13i:6": {
+   "en": "to go to work the gods of the nations those lest in them root be fertile head and wormwood and it was in hearing the words",
+   "notes": "The phrase 'be fertile head and wormwood' is uncertain due to damage and unclear syntax. The translation follows visible morphology and phrase evidence where possible, but the exact relationships between these elements remain ambiguous.",
+   "line_id": 36909,
+   "source_hash": "842dad6ed7521d00408f70beeb6d9427fc99c179452bb1108396056ccfc3d8a3",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f12_13i:7": {
+   "en": "The curse, this one blessed in his heart, to say peace it will belong to, that in stubbornness I walk because of",
+   "notes": "Uncertain reconstruction and damage affect the flow. The phrase 'saying peace it will belong to' is supported by repeated evidence. 'Stubbornness their own heart' is a plausible but not mandatory rendering of positions 15-17. The final preposition 'because of' is reconstructed.",
+   "line_id": 36910,
+   "source_hash": "ccc2f78060ec144163bbd46f21f401e24308ae0f4a0ef6cd924ec00d118992c7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f12_13i:8": {
+   "en": "The thirsty one: not he was willing, Yahweh, to forgive, that then it will smoke the anger of Yahweh and his jealousy in the man, that and it lay down in him",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence guiding contextual disambiguation. Uncertainty arises from the damaged state of the text, particularly around the object marker and the suffixed prepositions. The phrase 'not he was willing, Yahweh' is supported by repeated evidence, as is 'the anger of Yahweh.' The verb 'lie down' is rendered based on morphological indicators, with the preposition 'in' suffixed to the pronoun. No recoverable text is lost, but the syntax is fragmented due to damage.",
+   "line_id": 36911,
+   "source_hash": "685a26b2699cfb934ff85ae0176e316cc5b939aaf163b48109c1ae378fff58ec",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f12_13i:9": {
+   "en": "All these curses written in this scroll, and YHWH wiped the name from under the heavens. And he separated YHWH for evil from all",
+   "notes": "Positions 21-24 are reconstructed and uncertain. Positions 1-19 form a coherent clause, but positions 20-26 are fragmented and their connection to the first clause is uncertain.",
+   "line_id": 36912,
+   "source_hash": "fb5e4c05f0f102041da6cccfb522667267b205d5cc6840b9568fdc7b81d1a411",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f28:1": {
+   "en": "The tribes of Israel as all the curses of the covenant written in the book of the law this",
+   "notes": "The phrase 'the tribes of Israel' is supported by repeated phrase evidence. 'As all' is a conservative translation of 'כְּ כֹל', though 'according to all' is also attested. 'Curses' is uncertain due to damage and low pattern support. 'The covenant written' follows the highest-supported rendering of positions 7-9. 'The book of the law' is a dominant contextual rendering. 'This' is directly supported by the gloss for 'זה'.",
+   "line_id": 36913,
+   "source_hash": "c50bafa0740bdfbf5ad55a42090fcd60c2537833e33d2abd4db2052e7b0e8eb4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f13ii:1": {
+   "en": "And you have chosen life so that you and your seed may live. To love Yahweh your God, to listen in his voice.",
+   "notes": "The phrase 'to listen in his voice' is a reconstruction based on repeated phrase evidence, with dominant contextual rendering 'listen to voice' (0.1625 support).",
+   "line_id": 36914,
+   "source_hash": "8185e91bb9849c2c0ba0cde7a4d433a0dd26d95ac71aaf3e3630750a2fd387d8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f13ii:2": {
+   "en": "And to cleave to it that he your lives and the length of your days to dwell upon the land which Yahweh swore to your fathers to Abraham",
+   "notes": "Uncertain reconstruction at position 5. Phrase evidence supported 'which he swore Yahweh' and 'Yahweh to ancestors' for positions 16-18 and 18-20 respectively. 'Length of days' is a common phrase supported by evidence at positions 9-10.",
+   "line_id": 36915,
+   "source_hash": "e82a07c7a46572fca07e4d8738311ef53e2c91d8eb107b8fc3d718f4fc255ad6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f13ii:3": {
+   "en": "to Isaac and to Jacob to give to them",
+   "notes": "The final punctuation mark is omitted as it has no recoverable translation.",
+   "line_id": 36916,
+   "source_hash": "b0eb23e6e4107580718c25c7a93e25e0a2ecc6b67d27ce0c00b6635a4a4e03c3",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f13ii:4": {
+   "en": "And Moses finished speaking all these words to all Israel. And he said to them, A son of one hundred and twenty years I am.",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 36917,
+   "source_hash": "d6f21461027450823911f7fa1822628b03146c8979914d3b53c0155a78393a6c",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f13ii:5": {
+   "en": "On this day I am not able still to go out and to come. YHWH said to me, 'You shall not pass this Jordan. YHWH your God he'",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'YHWH your God he' is supported by repeated phrase evidence. The verb 'pass' is used for 'עבר' based on its visible morphology and lexical gloss. The translation preserves the grammatical person, number, and semantic relationships. No uncertainty is present in the source text.",
+   "line_id": 36918,
+   "source_hash": "dc2321a794100adb4ca300b86c420df798e9f1fd2f5a3bb33032b712bbabfb81",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f13ii:6": {
+   "en": "Passing before you, he will destroy these nations before you, and you will trample them down, Joshua, passing before you.",
+   "notes": "The verb 'ישמיד' is reconstructed and uncertain. The phrase 'יהושע הוא עבר לפניך' is a repeated phrase with moderate support, suggesting the name 'Joshua' as a proper noun.",
+   "line_id": 36919,
+   "source_hash": "0a1c7ebfc762debe48d4900ad49539cd052e4d2e0f587ff9830ab864f1b6d7d1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f13ii:7": {
+   "en": "As YHWH spoke, and did to them as he did to Sihon and Og the king of the Amorite and their land, whom he destroyed",
+   "notes": "The phrase 'as YHWH spoke' is a reconstruction of the damaged text. The phrase 'Og the king of the Amorite' is a high-confidence contextual rendering. The phrase 'whom he destroyed' is a high-confidence contextual rendering, but the object marker 'et' is omitted in the translation as it is not reflected in the recoverable source words.",
+   "line_id": 36920,
+   "source_hash": "7186172ec863b5adc7e2e0eee101f45bdf8af2b86a5783c31af4ad2ec5996d8e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f13ii:8": {
+   "en": "And he has given them into your hand and you shall do to them according to all the commandment which I commanded you. Be strong and courageous, do not fear and do not be dismayed.",
+   "notes": "The phrase 'be strong and courageous, do not fear and do not be dismayed' is a paraphrase based on repeated phrase evidence for positions 19-21. The phrase 'all the commandment' is a paraphrase based on repeated phrase evidence for positions 10-12. The phrase 'which I commanded you' is a paraphrase based on repeated phrase evidence for positions 12-15.",
+   "line_id": 36921,
+   "source_hash": "1f07bb88adeef5709a1c3f72ca27c5a938094a14419ea62ab060a627e4b76c49",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f13ii:9": {
+   "en": "from their faces that YHWH God he walks with you not he will neglect you and not he will leave you",
+   "notes": "Uncertain reconstruction of 'gods' (position 5) and damaged syntax. Phrase evidence suggests 'YHWH God' but the plural form is retained where visible. No recoverable text for the final damaged word.",
+   "line_id": 36922,
+   "source_hash": "3ae14c19b638676e840ee0ea68bf87f1154965dd0e7419151a182f9205662808",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f14:1": {
+   "en": "You shall come with this people to the land which he swore, Yahweh, to their ancestors to give to them, and you shall take possession of them.",
+   "notes": "The translation follows high-confidence phrase evidence for 'which he swore Yahweh' and 'to give to'. The verb 'swear' is reconstructed with uncertainty. The final 'them' reflects the suffixed object marker on 'take possession', but its referent is unclear.",
+   "line_id": 36923,
+   "source_hash": "dd8bff24755cdbe2f6e50f16cd2745b2a93dbb99f4b79e32cf920a948ad825ff",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f14:2": {
+   "en": "And YHWH he the one walking before you he will be with you not will he be slack and not will he leave you do not fear and do not be terrified and he wrote",
+   "notes": "Positions 10, 12, and 15 have uncertain reconstructions. Position 21 is an unknown punctuation mark.",
+   "line_id": 36924,
+   "source_hash": "3e138281d6cfe4d3ca1408b2b11bbb572055fd84bdbb5ece64e28fdc95dd9078",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f14:3": {
+   "en": "Moses gave this instruction to the priests, the sons of Levi, who were to carry the ark of the covenant of Yahweh, and to all the elders",
+   "notes": "Uncertain reconstruction of בני (sons) and נש[אים (carry). High-confidence phrase evidence supports 'the ark of the covenant of Yahweh' and 'all the elders'.",
+   "line_id": 36925,
+   "source_hash": "1b8c5558a6de8edc240c5f89241317d80d041f3d1613b1a408124a79adba9a0c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f14:4": {
+   "en": "Israel And he commanded Moses them to say from [the] end of seven years in the appointed year of the remission in the festival of the covers",
+   "notes": "Uncertain reconstruction at position 14. Phrase evidence supported 'Moses (et)' and 'he commanded Moses (et)' for positions 5-6 and 4-5-6 respectively. Phrase evidence also supported 'from [the] end of seven' and 'end of seven years' for positions 9-10-11 and 10-11-12 respectively.",
+   "line_id": 36926,
+   "source_hash": "0066360de53034f58400396556b11de817391b5f71b7721056bb4aa76c1912d3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f15:1": {
+   "en": "Assemble the people, the men and the women, and those unable to march, and the sojourner who is in your gates, so that they may hear",
+   "notes": "The transcription contains a damaged character at the start, which is omitted from the translation. The word at position 10 is reconstructed and marked as uncertain, but translated as 'women' based on the provided lemma and gloss. The phrase 'people the men' is supported by repeated phrase evidence.",
+   "line_id": 36927,
+   "source_hash": "70e0dbef36e2612715ae09dd70f7f6524be85a35ec92304c7789112f15795623",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f15:2": {
+   "en": "They shall learn and fear Yahweh your God, and keep to do all the words of this instruction. And their sons who did not know",
+   "notes": "The phrase 'they shall learn' is reconstructed. The phrase 'and keep to do' is partially reconstructed. The phrase 'this instruction' is a dominant contextual rendering for positions 15-17. The phrase 'Yahweh your God' is a dominant contextual rendering for positions 4-6.",
+   "line_id": 36928,
+   "source_hash": "c22f6d0102a31c3a7035a233ed83028eaa0c6f91ed4016c4b010c55f745a0eae",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f15:3": {
+   "en": "Hear and learn to fear Yahweh your God all the days you are alive upon the land where you are about to pass over",
+   "notes": "Reconstructed text and uncertain glosses are present. The phrase 'where you are about to pass over' is supported by repeated evidence. 'Yahweh your God' is a high-confidence rendering of the divine name with suffix.",
+   "line_id": 36929,
+   "source_hash": "5dc9ef86fbc64a49807214e43425e30aa0ff75dd8779e6a1a75252b4a6ebbbf9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f16_19:1": {
+   "en": "your fathers",
+   "notes": "The transcription contains uncertain and untranslatable elements, including a Greek fragment (ε) and damaged symbols (#). The sole recoverable word is 'אבתי׳כם', translated as 'your fathers'.",
+   "line_id": 36930,
+   "source_hash": "e93a1ff672ad4dd501ba179aed2e6354da9f1c161fa2bc1457267a55349540be",
+   "source_condition": "uncertain"
+  },
+  "1Q5 f16_19:2": {
+   "en": "And Yahweh saw and despised from anger my sons and my daughters",
+   "notes": "The transcription contains uncertain characters and damage, particularly in the rendering of 'grief' (כע ]ס#). The phrase 'the fear of Yahweh' is a high-confidence semantic constraint but does not fit the visible morphology; the translation follows the recoverable text instead.",
+   "line_id": 36931,
+   "source_hash": "b729633e01012b64d6c423ac45583f4fa22a2e53ac716f6b378bbcda44a61c5b",
+   "source_condition": "uncertain"
+  },
+  "1Q5 f16_19:3": {
+   "en": "And he said, I will hide my face from seeing what? [will be] the outcome, that the generation of upheaval, they [were] the sons, not they trusted in",
+   "notes": "Uncertain reconstruction and meaning of 'אמן' and 'ב׳ם##' at the end of the line. The phrase 'they [were] the sons' is supported by repeated phrase evidence, but its exact relationship to the preceding text is unclear.",
+   "line_id": 36932,
+   "source_hash": "9aeb84926f6714a1daeb0a9a670a19f5141bb37872e08e51d5a7474294caa8ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f16_19:4": {
+   "en": "They were jealous, not toward God, being discontent in their vanity, and I will be jealous, not with the people, in a stupid nation, I will be discontent.",
+   "notes": "The translation follows the visible transcription and morphology, with uncertainty in the reconstruction of some words. The phrase 'בלא' is translated as 'not toward' and 'ב' is translated as 'in' based on the context. The word 'הם' is translated as 'they' and 'אני' as 'I' based on the person and number. The verbs 'קנאו׳ני' and 'אקניא׳ם' are translated as 'were jealous' and 'will be jealous' respectively, following the tense and stem. The nouns 'אל' and 'עם' are translated as 'God' and 'people' based on the lexical gloss. The adjective 'נב' is translated as 'stupid' based on the lexical gloss.",
+   "line_id": 36933,
+   "source_hash": "5eeb17eddbf25073074cdbaf1398621c55076ff6984927d108165b716564902d",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f16_19:5": {
+   "en": "For a fire was kindled and burned unto Sheol lowest and consumed the earth and its produce and devoured the foundations of the mountains",
+   "notes": "Uncertain particles and suffixes omitted. Reconstructed text in positions 1, 5, 16. Phrase evidence supports 'Sheol lowest', 'a fire was kindled', 'consumed the earth', and 'foundations of the mountains'.",
+   "line_id": 36934,
+   "source_hash": "b5bc112dca9b50252f9a74e10c22d8076d5c8f3638cedf4f9c7ed218dc5c02f9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f16_19:6": {
+   "en": "I will sweep away upon evils arrows I will be complete in them hungry hunger and bread flame",
+   "notes": "Uncertain reconstruction and meaning due to damage and ambiguous lexical items. The phrase 'upon evils arrows' is a high-confidence repeated phrase, but its exact meaning is unclear. 'Bread' and 'flame' are context-free glosses with no clear connection to the surrounding text.",
+   "line_id": 36935,
+   "source_hash": "a1546d5948126d6d270b02c20faf9cbd13a494c3a8b2028ebb93f75053472ec6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f16_19:7": {
+   "en": "And a tooth of cattle I will send in with heat, gliding away from dust. From outside it will make childless a sword and from rooms of fright.",
+   "notes": "The translation incorporates high-confidence phrase evidence for 'from outside it will make childless' and 'it will make childless a sword'. Uncertainty remains in reconstructed terms 'heat' and 'rooms'.",
+   "line_id": 36936,
+   "source_hash": "5f62879a483a5bd888d659113aea9ad1c39ae71acdd6d57bea5da72fae0fe692",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f16_19:8": {
+   "en": "Even a young man, even a virgin, with a man of age. I said, 'I will split them.' I will cease from man, from Enosh, from mention.",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly 'י?ונק' and 'א ]שבית#', may affect the translation. The phrase 'אפאי׳הם' is uncertain and translated as 'I will split them' based on the provided gloss, but its exact meaning is unclear. The final two instances of '׃' are omitted from the translation as they cannot be translated independently.",
+   "line_id": 36937,
+   "source_hash": "4fad2172f21ba9e01811b249c2ee94bb557ef4c858654957e11fe18ef825504c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f16_19:9": {
+   "en": "Unless grief, an enemy dwells, lest they recognize their adversaries, lest they say, 'A hand raised,' and the Lord did not make all this.",
+   "notes": "The transcription contains damaged and uncertain characters, particularly around 'אד#נ?י?[' (Lord). The phrase 'כל זאת' is translated as 'all this' based on repeated phrase evidence. 'ידי׳נו רמה' is rendered as 'a hand raised' per dominant contextual rendering, though the support is partial (0.75). The verb 'אגור' is translated as 'dwells' based on its morphology and lexical gloss. The final punctuation mark (׃) is omitted as it has no clear translation.",
+   "line_id": 36938,
+   "source_hash": "f52c243310cefb58ed4ef981184efaee955fe15203b6061775265049ca2381c2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f16_19:10": {
+   "en": "For a people perishing of counsel, they have no understanding. If only they were wise, they would comprehend this, they would understand to their end.",
+   "notes": "Positions 1-9: Phrase evidence supports 'by understanding' for positions 8-9, but the translation retains 'have no understanding' to preserve the literal sense of the glosses. Positions 11-17: The translation follows phrase evidence for 'they were wise they will comprehend' (positions 12-13) and 'they will understand (to) end' (positions 15-17), with 'this' (position 14) translated literally. The verb 'between' at position 15 is uncertain and translated as 'understand' based on gloss and phrase evidence.",
+   "line_id": 36939,
+   "source_hash": "5096c055ecf851e425386d24d380749cfc854156d729d9981ebd1537f3586884",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f20:1": {
+   "en": "To Benjamin he said Beloved of YHWH it will dwell to security on him sheltering on all the day and between his shoulders he dwelt",
+   "notes": "The translation follows high-confidence phrase evidence for the sequences 'to security on' (positions 7-9), 'he said David' (positions 3-4), and 'on all the' (positions 11-13). The sequence 'all the day' (positions 12-14) is supported but less dominant. The name 'David' is omitted as the visible form is 'beloved' (position 4). The final verb 'he dwelt' (position 18) is retained despite potential repetition with 'it will dwell' (position 6) to preserve all recoverable material.",
+   "line_id": 36940,
+   "source_hash": "11c3c515945d6be6b832fccf781bdae1c05742255fa9257d7b166b89f7fe23b3",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f20:2": {
+   "en": "And to Joseph he said be blessed YHWH of the earth's present from heaven from dew and from the primeval ocean's lying beneath",
+   "notes": "Uncertain elements include the reconstruction of 'and' at the start, the form of YHWH, the meaning of 'present', and the syntax of the final prepositional phrases.",
+   "line_id": 36941,
+   "source_hash": "1077152caa711507baf515ed55981dba44ba27872ad94cc1ac8678ecf4ef1da7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f20:3": {
+   "en": "The yield of the sun and from the present of produce of months and from the present of the earth and the fullness of the pleasure of the dweller of the blackberry bush, her yield to the head",
+   "notes": "The translation includes reconstructed text for 'yield' and 'fullness'. The term 'Jerah' is translated as 'months' based on the plural form. The phrase 'her yield' refers to the earth's yield, inferred from context. The final phrase 'to the head' is uncertain due to the fragmentary nature of the text.",
+   "line_id": 36942,
+   "source_hash": "c6dbd28902adb7e6386d0db432a037f7c093bf2a91240c842be0cced97217b1e",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f20:4": {
+   "en": "Joseph and to the crown of the head of the consecrated one his brothers first-born bullock ornament and horns of a wild ox his horns in people he will gore together",
+   "notes": "Uncertain reconstruction of 'first-born bullock ornament' and 'his horns in people'. Phrase evidence supports 'crown of the head of the consecrated one' and 'horns of a wild ox'.",
+   "line_id": 36943,
+   "source_hash": "7c8fdf8560deaf8d1a9a24798d78cedc7a5b6188baa899aead56eaf2daac1706",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f21:1": {
+   "en": "And to Zebulun, he said, 'Rejoice, Zebulun, in your going out, and Issachar in your tents.' People of the mountain will call",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form and an uncertain gloss for Zebulun. The translation preserves the visible morphology and syntax without adding unlicensed connectors or subjects.",
+   "line_id": 36944,
+   "source_hash": "db003b2009affd4cb1276d6709a52733dee814f070524ee51ed25b52f115c74b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f21:2": {
+   "en": "There they will slaughter sacrifices of righteousness, for abundance; seas will suck, and covering, hiding sand.",
+   "notes": "The phrase 'sacrifices of righteousness' is supported by repeated evidence. The translation conservatively follows the visible morphology and lexical glosses, with uncertainty in the reconstruction of 'justice' (צֶדֶק) and the meaning of 'sea' (יָם) in this context.",
+   "line_id": 36945,
+   "source_hash": "501d012fd830ed9d845c4e59140f0231a6a5a880aa244ef68e574fd4e50e864d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f22:1": {
+   "en": "The righteousness of YHWH made and his judgments with Israel. And to Dan said Dan: a lion's whelp leaps from Bashan.",
+   "notes": "Reconstructed text in positions 1 and 11. Uncertain particle in position 10.",
+   "line_id": 36946,
+   "source_hash": "55c9ed40f545ce024e75dfe09d14c74ad47344473d978239a0d45fe4ad1e4efd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f22:2": {
+   "en": "And to Naphtali he said, 'Naphtali is sated with pleasure, and full of the blessing of YHWH, the sea and the south he will trample down.'",
+   "notes": "The phrase 'the blessing of YHWH' is a reconstruction based on repeated phrase evidence. The verb 'he will trample down' is an imperative in the original text, but the translation uses a future tense to maintain natural English syntax.",
+   "line_id": 36947,
+   "source_hash": "db7d54b06f50bd335d5a738a1b025b4387b3148321c0cf0bcb664e77afcd5352",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f23:1": {
+   "en": "And to Asher, who said, 'Blessed from the sons of Asher who will be pleasing, his brothers, and he dipped in oil his foot.'",
+   "notes": "The translation includes reconstructed text and an uncertain character (ε) at the end, which is omitted in the translation. The phrase 'he dipped in oil his foot' is a literal rendering of the visible morphology, though its meaning is unclear.",
+   "line_id": 36948,
+   "source_hash": "b016d5a24338d7c0e71c56e8b0bece506536e875e80b4e25e1dab8c409038aa4",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f24:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment without sufficient context for meaningful translation.",
+   "line_id": 36949,
+   "source_hash": "997b26781a1b9216ff6bc58cf1681de4d20b409d7c1b11d359901208e9f7ad62",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f24:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and reconstructions with no defensible English equivalents.",
+   "line_id": 36950,
+   "source_hash": "703cdb2af51c211106ea40270ca2be3218ada640a5f07396b6b393dce98ceaa6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f24:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 36951,
+   "source_hash": "e4e6a974feda9e130a3713602bd0bdcd7dc9c599cfd05ad50d05262c4a709d64",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f25:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain characters. The visible forms 'ε', ']אחר׳ו?', and '# [' do not provide sufficient evidence for translation.",
+   "line_id": 36952,
+   "source_hash": "6cd54dd706c2816cf860b57c39d15a4c57692d66fad67dbe6c17f2a22506296a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f25:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too damaged to interpret.",
+   "line_id": 36953,
+   "source_hash": "0f04483abce198bd104a15c51d440f966296cc4a98a00edeb2329ea3b6cba2a5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f26:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation.",
+   "line_id": 36954,
+   "source_hash": "b495970225b1cf70fa92cb63dac9ca7dfa57e7d96f5d6b4901adfcd8051485ba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f26:2": {
+   "en": "and [no recoverable text]",
+   "notes": "The second and third word positions contain untranslatable fragments, with the second being a reconstruction and the third uncertain. No contextual or repeated phrase evidence is available to clarify their meaning.",
+   "line_id": 36955,
+   "source_hash": "221f5816b1590b4aa6b9a324e03e7e5f611019e36eef93d4371c4be44509be73",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f26:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only a reconstructed shin (ש[), an untranslatable epsilon (ε), and a punctuation mark (׃), none of which provide defensible English words.",
+   "line_id": 36956,
+   "source_hash": "64ae4f1f081b8d9e53068dbacb4056287d81e6c7f428ad79f08b1d1d588ab9eb",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f27:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements with no defensible English translation.",
+   "line_id": 36957,
+   "source_hash": "96a14d2b4787f3b987e85fa4f955b60d8f7e768cae0e19c5a0256b742d05fb79",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f27:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε, ׃) and a damaged word (כל[), leaving no defensible English words.",
+   "line_id": 36958,
+   "source_hash": "75cd6dd6dfa67c14c1c101685798de4be5cdb9c5419b8be2d9ce969f00cfbd92",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f29:1": {
+   "en": "who",
+   "notes": "The transcription is heavily damaged, with only the relative particle 'אשר' (who) recoverable. The surrounding characters (ε, י?[, ε) are uncertain or untranslatable. The reconstruction and uncertainty are noted here.",
+   "line_id": 36959,
+   "source_hash": "f0291937b38ff0b8997f3c91536a31ab03369058d6066f0ef1ab0ecad53098d3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f29:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and untranslatable fragments, including Greek and Hebrew characters that cannot be independently translated. The only recoverable element is a reconstructed preposition 'to', but it lacks context to form a coherent phrase.",
+   "line_id": 36960,
+   "source_hash": "1685ea4ea95beaf697f915e42fa9c10e1f9a578328a75f6689bc5530dc5561a9",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f30:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment ]אתם[ (possibly 'you'), but no defensible English words survive.",
+   "line_id": 36961,
+   "source_hash": "f569f29025a53f53903c0d98c60716f7d29ce56826b2c154130d6f385179ebed",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f31:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 36962,
+   "source_hash": "030e941d19f0b295037825d11f81f4ac655e6f60260fe0bf3fc8ec7ee65327ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f31:2": {
+   "en": "You have seen",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown prefix and a damaged suffix. The verb 'ראיתם' is clearly a second-person masculine plural perfect form of 'ראה' (see), but the surrounding material is too fragmentary to recover additional meaning.",
+   "line_id": 36963,
+   "source_hash": "694666f0bef1a4f552ab4b0bf9d94634a699de4e0e5cbc1fe182d1a4ee5b92cc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f32:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or reconstructed with high uncertainty.",
+   "line_id": 36964,
+   "source_hash": "c2ad26961a68ab42e5ffb62f2e6bc9b43209c7fd299fdee074199d7d820fe340",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f32:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and untranslatable fragments. The visible characters do not form defensible lexical units in Hebrew or any related language.",
+   "line_id": 36965,
+   "source_hash": "9fa7205f6787634ad3579e1d16de6778d8e004d0359e178e12f14124b400027c",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f33:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain elements, leaving no defensible English words.",
+   "line_id": 36966,
+   "source_hash": "c613c2ec94c4499ad1c6dacac55f0937ebde4bb0d351d90133e9ee8db7facffb",
+   "source_condition": "uncertain"
+  },
+  "1Q5 f34:1": {
+   "en": "to a fellow",
+   "notes": "The transcription contains untranslatable characters and damage. The preposition 'to' is uncertain. The noun 'fellow' is reconstructed but certain. The final character is untranslatable and omitted.",
+   "line_id": 36967,
+   "source_hash": "21407b7565684e3d9b01e28914d4f2035f5b1493597ab30799bf5592b658d650",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f35:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible characters include Greek epsilon (ε), Hebrew yodh-heh (יה), and a punctuation mark (׃), but their combination does not yield recoverable meaning.",
+   "line_id": 36968,
+   "source_hash": "781067ffb61f1e33c2f32c615938e4fac29c856d2e85c85b4c9855ea144f9f87",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f37:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items surviving. The visible forms include uncertain characters and reconstructions, preventing a defensible translation.",
+   "line_id": 36969,
+   "source_hash": "50fa601316054a937626aafd2a10e987ca0051a47366d93cd8f0dd960f4e0b10",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f37:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible. All visible lexical items are either unknown or reconstructed with high uncertainty.",
+   "line_id": 36970,
+   "source_hash": "ba279dc533375dd105965fd63247ec9cbed8eae63e2033aeda8bb9f024eedae6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f38:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. All words are marked as unknown or reconstructed with uncertainty.",
+   "line_id": 36971,
+   "source_hash": "58d00b2877eeae14b86541d9762487a7200e34c47295fc7b80d3613211597fd0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f38:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible forms include untranslatable characters and reconstructions with no clear meaning.",
+   "line_id": 36972,
+   "source_hash": "a4b6f7a6d18e42685b523f693773756154014f9fdcd857f9b7723c4cc6c54f90",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f39:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 36973,
+   "source_hash": "09dc0528cde2e93dbe4fde68fb1eac1f0209384c343ea7c129cfbc44133fc4f5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f39:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and untranslatable fragments. The visible characters do not form defensible lexical units in Hebrew or Greek. The sole reconstructed element is a preposition 'to', but it lacks context for meaningful translation.",
+   "line_id": 36974,
+   "source_hash": "e04c3092dec665e857cb4e4bafd0d1996fc3aa65e7dc8fbb3fae343a0221b86d",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f40:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]מ#[, ε) with no clear lexical or morphological basis for translation. The reconstructed and uncertain elements provide no defensible English wording.",
+   "line_id": 36975,
+   "source_hash": "8f4f1ab6801a03129a687f2a3ca470b60cc40ac9110080c1a4461352c9b9415a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f40:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 36976,
+   "source_hash": "566ebb2dd91cf4f5b711a04f21767819dd4a7db19b5efda271dccc42c07eb94a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f41:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the visible lexical items.",
+   "line_id": 36977,
+   "source_hash": "f169e577cf08e98bd922e3542b49af378850886aadce3c96a5241230bddb7368",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f41:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and punctuation marks. The visible characters (ε, ׃) and reconstructed elements do not form translatable lexical units.",
+   "line_id": 36978,
+   "source_hash": "460c5249d5d4db0e6f8d1e40312b84286add62125bb3a400fb40b2c917aaf44b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f42:1": {
+   "en": "and",
+   "notes": "Most text is damaged or unrecoverable. The only translatable word is the conjunction 'and'.",
+   "line_id": 36979,
+   "source_hash": "00da9ee8c524f05603cc9b1d8f707638aeed5e4b6463dd66db72984bfc5358da",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f43:1": {
+   "en": "mountains",
+   "notes": "The transcription contains untranslatable characters and a reconstructed plural form of 'mountain'.",
+   "line_id": 36980,
+   "source_hash": "42c4c1a54172ec1f986134d18ffa50f235836a885f03e492eef5cae4e2f8fa05",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f44:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments without sufficient context or identifiable lexical items.",
+   "line_id": 36981,
+   "source_hash": "784a8bcfc4a9b132634c1d9adfa308faede8d86de234a325ee2afa74d18c11cb",
+   "source_condition": "clean"
+  },
+  "1Q5 f44:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. No recoverable text survives for translation.",
+   "line_id": 36982,
+   "source_hash": "343202f15ef14db8b8b925d4d38511ab188dfaf7a0442ed74a2439054cd61ab1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f45:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and reconstructions with high uncertainty. No defensible English words survive.",
+   "line_id": 36983,
+   "source_hash": "b9031cf43b7d9d435a3ed28ae6f1fa19b24d5f96aef6f1d59bc70a7618fd9920",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f45:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only untranslatable fragments and punctuation.",
+   "line_id": 36984,
+   "source_hash": "98238289938e57d3dbf50b2dc9d38ee0964efe6ec23af3a2f4c6227d33ee98af",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f46:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments (ε]בל[ε) with no clear lexical or semantic content. The reconstructed portion (]בל[) is insufficient for meaningful translation.",
+   "line_id": 36985,
+   "source_hash": "1f1f5fdd0887ec2da4652b552486ec8af278928852bab0da2481cd8dae4f2241",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f46:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed 'to' preposition, but no defensible English words survive.",
+   "line_id": 36986,
+   "source_hash": "19d67b3154d1be6a1d32db9553bddf0ceb505f96f58a0a724f09cda649b0c5dc",
+   "source_condition": "reconstructed"
+  },
+  "1Q5 f47:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items due to extensive damage and uncertainty. All visible forms are either unknown or reconstructed with high uncertainty, leaving no basis for translation.",
+   "line_id": 36987,
+   "source_hash": "7e95c4b4f5cd8cca9f507dc219bc1e09026351aef0779d551f4ab5d2070ef9b9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f48:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only damaged or untranslatable characters (ε,  #, ׃).",
+   "line_id": 36988,
+   "source_hash": "277d5c385138aa0bc98483b8f78d3bd42ee0e7af28a1d4ff48af784a558cb95c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f49:1": {
+   "en": "to you",
+   "notes": "The transcription contains uncertain and untranslatable elements, including damaged characters and punctuation. The recoverable text indicates a preposition 'to' with a second-person plural suffix, rendered as 'to you'. All other elements are omitted due to insufficient evidence.",
+   "line_id": 36989,
+   "source_hash": "dba4e120be2d610100004b18754ecedf43393e28313ba0022372f6f2c6c949f7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q5 f50:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only damaged or untranslatable fragments (ε, ] # ל # [, ׃) with no recoverable lexical content.",
+   "line_id": 36990,
+   "source_hash": "59e5eb24d72c2c7257fbccdb59251119de0dc53d9e4181181af1bad7caaced44",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

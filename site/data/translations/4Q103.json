@@ -1,0 +1,270 @@
+{
+ "id": "4Q103",
+ "label": "4Q103",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 36,
+ "scroll_id": 902,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q103 f1:1": {
+   "en": "Justice watches the way and guilt distorts sin",
+   "notes": "Reconstructed text in positions 1 and 7. Uncertainty in position 7 due to damaged transcription. Phrase evidence suggests 'the integrity your ways' for positions 3-4, but visible morphology and transcription do not support the possessive or plural forms, so it is not applied.",
+   "line_id": 48643,
+   "source_hash": "1cde144e40bd0cc9731270446d557cdf85a6fd0698c25e4c1c8017ab22ace281",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f1:2": {
+   "en": "There is one becoming rich and not all are impoverished and abundance great",
+   "notes": "The transcription is partially damaged, and the verb 'be poor' is uncertain. The phrase 'abundance great' is a repeated pattern with moderate support.",
+   "line_id": 48644,
+   "source_hash": "9a48f07a592f70333e6e73099a17a6fecee084c7f74c9e6d8d27302e397e68cd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f1:3": {
+   "en": "A ransom for his life, a rich man and poor, not he listens to a rebuke",
+   "notes": "Translation incorporates high-confidence phrase evidence for 'the ransom his life', 'of a person wealth', and 'not he listens to a rebuke'. Uncertainty in reconstruction and gloss for 'גְּעָרָה' is noted but does not affect the translation.",
+   "line_id": 48645,
+   "source_hash": "70dfca6da83e3f5ce3aca4870ae030ae7d8b3744fadb0ab8d6b6326a25863b98",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f1:4": {
+   "en": "The light of the righteous rejoices, and the lamp of the wicked is extinguished.",
+   "notes": "The phrase evidence strongly supports the contextual renderings used in the translation. The uncertainty in the transcription is reflected in the notes, but the translation follows the most supported contextual evidence.",
+   "line_id": 48646,
+   "source_hash": "c0fb49907c65c45892f40c69fa5d35fe9b85fd03760b429aa84b70dbc77691b7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f2_4:1": {
+   "en": "A witness of falsehood, sought to boast wisdom and knowledge to understand, it was slight. Go from the counterpart.",
+   "notes": "The phrase 'a witness of falsehood' is supported by repeated evidence. The verb 'be slight' is translated conservatively as 'it was slight' due to the absence of a clear subject. The final clause 'go from the counterpart' is a direct translation of the imperative verb and prepositional phrase, with 'counterpart' used for 'neged' based on its lexical gloss.",
+   "line_id": 48647,
+   "source_hash": "3674157e674cd0562dff9affd268b8d1394500e65da874bc47f7754c49df599f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f2_4:2": {
+   "en": "To a man, Kesil, and not know lips of knowledge. Wisdom, shrewd, to understand his way.",
+   "notes": "The transcription is heavily damaged, and the translation is highly uncertain. The phrase 'lips of knowledge' is a repeated phrase with high support. The phrase 'of a sensible [person] [is] to understand' is a repeated phrase with moderate support. The phrase 'he understands way' is a repeated phrase with low support. The translation is a conservative attempt to account for every recoverable word, but many words are uncertain or reconstructed.",
+   "line_id": 48648,
+   "source_hash": "9d0d6c05138349e3486f076ddfe4e594c532b1b014164e56b8fed73098ca0b5d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f2_4:3": {
+   "en": "And foolishness of fools, deceit. Fools boast guilt, and between upright ones, pleasure.",
+   "notes": "Reconstructed and uncertain text includes 'Kesil / Orion / insolent' (position 3). Phrase evidence supports 'foolishness of fools' (positions 2-3), 'do not show yourself a mocker' (positions 6-7), and 'upright [people] favor' (positions 11-12), but the translation follows visible morphology and recoverable words in order.",
+   "line_id": 48649,
+   "source_hash": "41cb85490473f03bffbe58e73c83fcaf93c8e6e8f5ee11fae0861aa203ad699c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f2_4:4": {
+   "en": "To know the heart's bitterness and the soul's joy, and not to stand surety for a stranger. House of the wicked.",
+   "notes": "The phrase 'he stands surety for a stranger' is a paraphrase based on repeated phrase evidence. The translation conservatively retains all recoverable words in order, with uncertainty in the reconstruction of 'יודע#[' noted.",
+   "line_id": 48650,
+   "source_hash": "74070f6d2b362bc49c04ce3f29c91f90bff7d08ef82f54a2c27f2c7c623507ff",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f2_4:5": {
+   "en": "He will destroy the tent of the righteous, he will cause it to sprout. There is a right way before a man and his end",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'he will cause it to sprout' is based on the verb 'יפריח' with a hifil stem, but its exact meaning is uncertain. The phrase 'there is a right way before a man' is supported by repeated phrase evidence, and 'his end' is a reconstructed suffix.",
+   "line_id": 48651,
+   "source_hash": "84c53330db1b8a5b83792b71005f2e0c5da74445f841ee0127628d9e6c0e2c14",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f2_4:6": {
+   "en": "Ways of death, even in laughter the heart will be in pain, and the end of joy is grief.",
+   "notes": "The phrase 'pain of heart' is supported by repeated evidence. The translation conservatively follows the visible order and morphology, with no added subjects or connectors.",
+   "line_id": 48652,
+   "source_hash": "220c5d54160b932cdbb74791a7ccf5a8843e17b0b02e03fe56692e5169121453",
+   "source_condition": "reconstructed"
+  },
+  "4Q103 f5_7i+8_10:1": {
+   "en": "Oppressing the poor, he reproaches the maker and honours the poor",
+   "notes": "Uncertainty in the transcription and lexical glosses for positions 3, 5, and 7. The phrase 'he reproaches the maker' is supported by repeated phrase evidence, but the exact wording is uncertain. The translation conservatively retains all recoverable words in order, with natural synonyms and category shifts where necessary to maintain the proposition.",
+   "line_id": 48653,
+   "source_hash": "d271aacce3718dc281d907cee800ec0d574525ebd974d7e3ebb836617058f64d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:2": {
+   "en": "In his evil he pushes the guilty and he seeks refuge in his death the just",
+   "notes": "Uncertainty in transcription and reconstruction affects 'evil', 'guilty', 'seeks refuge', and 'just'. The translation conservatively preserves recoverable material without adding missing subjects or smoothing repetition.",
+   "line_id": 48654,
+   "source_hash": "0e731788d5caec65390e80c0ae19666cf3c3fdd06d985b93f597a4306e4c0959",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:3": {
+   "en": "In a discerning heart wisdom will settle and in the interior of the insolent it will be known",
+   "notes": "The phrase 'a discerning heart' is supported by repeated evidence. The verb 'will settle' is uncertain due to damage, but 'settle' is chosen based on the context-free gloss. The preposition 'in' is reconstructed. The term 'insolent' is a possible rendering of 'Kesil', but its exact meaning is uncertain.",
+   "line_id": 48655,
+   "source_hash": "a87f4736a12ba5c4bce3b39e243265e1ae75ccacba7f0051da6dbc8a94ec6ee5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:4": {
+   "en": "Justice will exalt a people, and a lacking to peoples, sin",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly 'רומם' and 'ח##סר#'. The translation reflects the visible morphology and lexical glosses where possible, but some phrases are tentative due to damage and ambiguity.",
+   "line_id": 48656,
+   "source_hash": "8b07a15f8db98b38a59c521d99419a32a648836c0dfd79df943db870048bbb29",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:5": {
+   "en": "The pleasure of the king, a servant who acts prudently, and the fury of Yahweh will be ashamed.",
+   "notes": "Reconstructed and uncertain elements include the initial 'pleasure' (רצון), the verb 'will be' (תהי), and the suffix 'of Yahweh' (ת׳ו). The phrase 'a servant who acts prudently' is supported by repeated evidence. The rendering 'of the fury of Yahweh' is a contextual paraphrase with moderate support.",
+   "line_id": 48657,
+   "source_hash": "bb2cffa43d6b3c1d79a309ebe1fa673f86bdfec6dafdc2281606cf18e10ce794",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:6": {
+   "en": "A tender answer will turn back the anger and the word of pain will ascend, also.",
+   "notes": "The phrase 'it will turn back the anger' is supported by repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, preserving uncertainty in the notes. The final punctuation mark is omitted as it cannot be translated independently.",
+   "line_id": 48658,
+   "source_hash": "815d2fc3785f0e1ebb36c98bb44b6e022af0e4730a7d6968137011ccd39a740b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:7": {
+   "en": "Tongue of wise men, it will be good in knowledge and mouth of fools bubbles",
+   "notes": "Uncertainty in transcription and reconstruction affects 'wise men', 'it will be good', and 'fools'. The phrase 'mouth of fools' is supported by repeated evidence, but 'bubbles' is a context-free gloss for the verb 'naba'.",
+   "line_id": 48659,
+   "source_hash": "7a46fd64b26c947c28f4ab0a86023553724a76dedcd0b794754494debd31673d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:8": {
+   "en": "Foolishness in every place the eyes of Yahweh watching evil and good",
+   "notes": "Reconstructed and uncertain elements include the initial word 'foolishness' and the phrase 'evil'. The phrase 'the eyes of Yahweh' is supported by repeated evidence. The prepositional phrase 'in every place' is a conservative rendering of the available tokens.",
+   "line_id": 48660,
+   "source_hash": "4213458ccc1dcc5bbb76c770c40baffeac383ac37853a525241c434f8e8f359d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:9": {
+   "en": "Healing of the tongue, a tree of life, and crookedness in breaking in wind",
+   "notes": "The phrase 'in breaking' is supported by repeated phrase evidence. The translation conservatively retains all recoverable words, including uncertain terms like 'tree' and 'alive/living'.",
+   "line_id": 48661,
+   "source_hash": "505b808a558d3b2218a3fa31ccd4d3a05e5efb541fac158eee41f34adea76680",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:10": {
+   "en": "A foolish man contemns chastening, and keeps rebuke heaping",
+   "notes": "The transcription is partially reconstructed and uncertain. The phrase 'keeps rebuke heaping' is supported by repeated phrase evidence, but the exact relationship between the verbs is unclear. The translation conservatively retains the visible morphology and lexical items without adding unlicensed connectors or participants.",
+   "line_id": 48662,
+   "source_hash": "74811b5f61faf4ba93372a024cdbb7b23dd2060603531b5a8fa2c29597fd5dae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:11": {
+   "en": "house of the just, strength, much and in the yield of the wicked, taboo",
+   "notes": "Uncertain reconstruction of 'strength' (חֹסֶן). No recoverable text for the final punctuation mark.",
+   "line_id": 48663,
+   "source_hash": "d14effe684b93bc258c1a4921fe30cafb216fc670a34aa4216b4e0c18daeec3d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:12": {
+   "en": "The lips of the wise scatter knowledge and the heart of fools not thus",
+   "notes": "Uncertainty in the verb 'scatter / measure off' (position 3) due to damage. Reconstruction of 'lips' (position 1) and potential ambiguity in 'thus' (position 9).",
+   "line_id": 48664,
+   "source_hash": "4afcf5c16a7d2e758d255374e1f97680eeae3226f0ee99f658ed05b71dfd8f86",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f5_7i+8_10:13": {
+   "en": "The sacrifice of the wicked is an abomination to Yahweh, and the prayer of the upright is His pleasure.",
+   "notes": "The phrase 'of the wicked' is uncertain due to damage in the source text. The connection between 'abomination' and 'Yahweh' is supported by canonical evidence. The translation of 'prayer' and 'pleasure' is supported by the context-free lexical gloss and repeated phrase evidence.",
+   "line_id": 48665,
+   "source_hash": "e9b12bd6a7864ff9bbda5429cb2b700c70d16d64851c306ad4ae1577457e657c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:1": {
+   "en": "A wise son rejoices a father and a fool a person",
+   "notes": "Uncertainty in transcription and reconstruction noted for 'סו?ללה' and 'אב##'. Reconstructed '[ ו' as 'and'.",
+   "line_id": 48666,
+   "source_hash": "48732f0565aacc6ed2ef2dc57e6b83bd9b549b0b1a033700067e5925dbf33d92",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:2": {
+   "en": "Despise foolishness, joy to lacking of heart and man",
+   "notes": "The phrase 'lacking of heart' is supported by repeated phrase evidence. The translation conservatively preserves the order and content of recoverable words, including uncertain and reconstructed elements.",
+   "line_id": 48667,
+   "source_hash": "3067b9af002a9829b0c68caca357b089f9edae6ffd611a7da965ddd88dba106d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:3": {
+   "en": "Understanding will be right to walk. Break thoughts in confidential talk.",
+   "notes": "The transcription contains damage and uncertainty, particularly in positions 6 and 9. The phrase 'break thoughts' is a reconstruction based on repeated phrase evidence, but its support is limited. The translation conservatively preserves all recoverable lexical items without adding unlicensed connectors or participants.",
+   "line_id": 48668,
+   "source_hash": "0057021b9ade88d1c35dac54ac4d865fd5535a256677ac030629ae5b310eed35",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:4": {
+   "en": "And in a multitude of counselors joy will arise, not a man in purpose.",
+   "notes": "The phrase 'in a multitude of counselors' is supported by repeated phrase evidence. The verb 'will arise' is reconstructed. The word 'joy' is uncertain due to damage. The final phrase 'not a man in purpose' is a conservative translation of the available lexical items, though the exact relationship between 'man' and 'purpose' remains unclear.",
+   "line_id": 48669,
+   "source_hash": "3e15c237b18d1645808d335298e0d2a42aa659a3bd0973100fb0545d32624f9e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:5": {
+   "en": "mouth and word in time of what [is] good path of the living",
+   "notes": "Uncertain reconstructions and damage affect 'time', 'what', 'good', and 'path'. Phrase evidence suggests 'what [is] good' as a possible reading.",
+   "line_id": 48670,
+   "source_hash": "94801ad65f0afc16f2b23226a3d35c009bf1df0f841124aa92ffe71191d5161b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:6": {
+   "en": "to the top to prosper because of turning aside from the nether world and below",
+   "notes": "Uncertain reconstruction of 'prosper' and 'nether world'. Damaged syntax and missing connectors limit coherence.",
+   "line_id": 48671,
+   "source_hash": "0be1b42b50f45b11f427841b430fff3b50f9ff0911bfaea6bfe2b66ab4d1c20a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:7": {
+   "en": "The house of the haughty he will tear down, and YHWH will set the boundary of the widow.",
+   "notes": "The transcription contains damaged and uncertain elements, particularly around the divine name YHWH, which is partially reconstructed. The final punctuation mark is untranslatable and omitted.",
+   "line_id": 48672,
+   "source_hash": "143a4e7bc3a31f75b654c080589cf9740a3616a638a5c1d94757ba8533523249",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:8": {
+   "en": "Abomination of Yahweh, evil thought and pure words",
+   "notes": "Uncertainty in the transcription and reconstruction of 'thought' and 'pure'; 'antler' is a possible but less likely gloss for 'words'.",
+   "line_id": 48673,
+   "source_hash": "5cba7772ae5cd7b9ac755eb1365fc3249074e4797411c8abc7372ae8f8041bc3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:9": {
+   "en": "Kindness. Troubling a house, cutting off profit, and hating gifts, he lives.",
+   "notes": "The transcription contains significant damage and uncertainty. The phrase 'troubling a house' is supported by repeated evidence. 'Cutting off profit' and 'hating gifts' are based on visible morphology and lexical glosses. The final verb 'he lives' is directly translated from the surviving text. Uncertainty in the transcription is not reflected in the translation per instructions.",
+   "line_id": 48674,
+   "source_hash": "f3faec3a679999aab4aaccc5b031e1ef952edc6085c4e6e11794089a5ce9ca3d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:10": {
+   "en": "The heart of the righteous to be lowly and the mouth of the wicked bubbles evils",
+   "notes": "The verb 'bubble' (position 8) is uncertain due to damage and reconstruction. The phrase 'mouth of the wicked' is supported by repeated evidence.",
+   "line_id": 48675,
+   "source_hash": "97d3335538cd30b361b22e84d43ccc06b3ed0f63121bf042ed8ccf1a3e58cdaa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:11": {
+   "en": "Yahweh is remote from the guilty, and the prayer of the just he will hear",
+   "notes": "Positions 1-2: 'remote Yahweh' is supported by repeated phrase evidence. Position 7: reconstructed and uncertain, but 'just' is the best available gloss. Position 9: untranslated source punctuation mark omitted.",
+   "line_id": 48676,
+   "source_hash": "ca4e4cc9a977fc4c5954892fecafe5edc2df5f2baa5bca7e7bd62ce9ea9806d8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:12": {
+   "en": "A lamp, eyes, let it rejoice the heart, a good report, grow fat",
+   "notes": "The translation reflects the recoverable words in order, with uncertainty in the first word ('[ מא ]ו#?ר' reconstructed as 'lamp'). The phrase 'let it rejoice the heart' is supported by repeated evidence, and 'a good report' is a high-confidence phrase. The final verb 'grow fat' is uncertain due to the damaged context.",
+   "line_id": 48677,
+   "source_hash": "d328ec830f1cc3700c30f9a706409a4ae976fcd26c752d4570930ea14fefe350",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q103 f7ii+11_14:13": {
+   "en": "A bone of an ear hears rebuke, living in the midst of wise ones she lodges",
+   "notes": "The transcription contains two uncertain words and two reconstructed words. The phrase 'hears rebuke' is supported by repeated evidence, but its pattern support is not dominant. The translation conservatively follows the visible morphology and lexical glosses, preserving the original word order and grammatical relationships.",
+   "line_id": 48678,
+   "source_hash": "78462eb325558942bcaa694e6486fbf684d0f6acaf18b7660973b52a30306b94",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

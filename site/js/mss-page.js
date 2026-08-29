@@ -57,9 +57,10 @@ function bindWordLookup(root, mss) {
   if (!root || root.dataset.lexBound) return;
   root.dataset.lexBound = "1";
   root.addEventListener("click", (ev) => {
-    const btn = ev.target.closest("button.orig-word");
-    if (!btn) return;
-    const raw = btn.getAttribute("data-lex") || btn.getAttribute("data-form") || "";
+    const link = ev.target.closest("a.orig-word");
+    if (!link || ev.defaultPrevented || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+    ev.preventDefault();
+    const raw = link.getAttribute("data-lex") || link.getAttribute("data-form") || "";
     ensureLexicon()
       .then(() => {
         const rec = window.odsLexicon.resolve(raw, mss && (mss.lang || mss.languages));
@@ -124,14 +125,80 @@ function heInner(line, mss) {
         const t = w.t || "";
         const paleo = w.script === "paleo";
         const lex = w.lex || "";
-        return `<button type="button" class="orig-word${paleo ? " is-paleo" : ""}" data-square="${esc(t)}" data-form="${esc(t)}"${lex ? ` data-lex="${esc(lex)}"` : ""}${paleo ? ' data-force-paleo="1"' : ""} aria-label="Look up lemma">${esc(paleo ? toPaleo(t) : wrapHints(t))}</button>`;
+        const href = `/lex/?q=${encodeURIComponent(lex || t)}`;
+        return `<a class="orig-word${paleo ? " is-paleo" : ""}" href="${esc(href)}" data-square="${esc(t)}" data-form="${esc(t)}"${lex ? ` data-lex="${esc(lex)}"` : ""}${paleo ? ' data-force-paleo="1"' : ""} aria-label="Look up ${esc(t)} in the lexicon">${esc(paleo ? toPaleo(t) : wrapHints(t))}</a>`;
       })
       .join(" ");
   }
   const raw = line.spaced || line.text || "";
   const paleo = mss.script === "paleohebrew";
-  const shown = paleo ? toPaleo(raw) : wrapHints(raw);
-  return `<span class="orig-he-text${paleo ? " is-paleo" : ""}" data-square="${esc(raw)}">${esc(shown)}</span>`;
+  return String(raw)
+    .split(/(\s+)/)
+    .map((token) => {
+      if (!token) return "";
+      if (/^\s+$/.test(token)) return token;
+      const shown = paleo ? toPaleo(token) : wrapHints(token);
+      if (!/[\u05D0-\u05EA]/.test(token)) {
+        return `<span class="orig-he-text${paleo ? " is-paleo" : ""}" data-square="${esc(token)}">${esc(shown)}</span>`;
+      }
+      const href = `/lex/?q=${encodeURIComponent(token)}`;
+      return `<a class="orig-word${paleo ? " is-paleo" : ""}" href="${esc(href)}" data-square="${esc(token)}" data-form="${esc(token)}" aria-label="Look up ${esc(token)} in the lexicon">${esc(shown)}</a>`;
+    })
+    .join("");
+}
+
+function originalText(line) {
+  if (line.spaced) return String(line.spaced);
+  if (line.words && line.words.length) return line.words.map((word) => word.t || "").filter(Boolean).join(" ");
+  return String(line.text || "");
+}
+
+function copyButton(kind, label, text) {
+  return `<button type="button" class="line-copy" data-copy-text="${esc(text)}" data-copy-label="${esc(label)}" aria-label="Copy ${esc(label)}">Copy ${esc(kind)}</button>`;
+}
+
+function writeClipboard(text) {
+  if (navigator.clipboard && window.isSecureContext) return navigator.clipboard.writeText(text);
+  return new Promise((resolve, reject) => {
+    const area = document.createElement("textarea");
+    area.value = text;
+    area.setAttribute("readonly", "");
+    area.style.position = "fixed";
+    area.style.opacity = "0";
+    document.body.appendChild(area);
+    area.select();
+    try {
+      if (!document.execCommand("copy")) throw new Error("copy failed");
+      resolve();
+    } catch (error) {
+      reject(error);
+    } finally {
+      area.remove();
+    }
+  });
+}
+
+function bindCopy(root) {
+  if (!root || root.dataset.copyBound) return;
+  root.dataset.copyBound = "1";
+  root.addEventListener("click", (ev) => {
+    const button = ev.target.closest("button[data-copy-text]");
+    if (!button) return;
+    const previous = button.textContent;
+    writeClipboard(button.getAttribute("data-copy-text") || "")
+      .then(() => {
+        button.textContent = "Copied";
+        button.setAttribute("aria-label", `${button.getAttribute("data-copy-label") || "Text"} copied to clipboard`);
+        window.setTimeout(() => {
+          button.textContent = previous;
+          button.setAttribute("aria-label", `Copy ${button.getAttribute("data-copy-label") || "text"}`);
+        }, 1400);
+      })
+      .catch(() => {
+        button.textContent = "Copy failed";
+        window.setTimeout(() => { button.textContent = previous; }, 1400);
+      });
+  });
 }
 
 function applyFirstDraft(mss, pack) {
@@ -203,8 +270,9 @@ function lineHTML(line, mss) {
     return `<li class="orig-row" data-ref="${esc(ref)}"><p class="orig-lacuna">${num} No letters survive on this line in the transcription.</p></li>`;
   }
   const wordsClass = line.words && line.words.length ? " orig-line-words" : "";
-  const he = `<p class="orig-line${wordsClass}" lang="${esc(mss.lang || "he")}" dir="${esc(mss.dir || "rtl")}">${num}${heInner(line, mss)}</p>`;
-  const en = line.en ? `<p class="orig-en" lang="en" dir="ltr">${esc(line.en)}</p>` : "";
+  const originalLabel = String(mss.lang || "").toLowerCase().startsWith("arc") || (mss.languages || []).some((lang) => /aramaic/i.test(lang)) ? "Aramaic" : "Hebrew";
+  const he = `<div class="line-copy-block orig-copy-block">${copyButton(originalLabel, originalLabel, originalText(line))}<p class="orig-line${wordsClass}" lang="${esc(mss.lang || "he")}" dir="${esc(mss.dir || "rtl")}">${num}${heInner(line, mss)}</p></div>`;
+  const en = line.en ? `<div class="line-copy-block en-copy-block">${copyButton("English", "English", line.en)}<p class="orig-en" lang="en" dir="ltr">${esc(line.en)}</p></div>` : "";
   const book = line.book || mss.book || "";
   const chapter = line.chapter || mss.chapter || "";
   const verse = line.verse || "";
@@ -293,7 +361,7 @@ function ensureRail() {
   rail = document.createElement("aside");
   rail.id = "mss-rail";
   rail.className = "mss-rail";
-  rail.setAttribute("aria-label", "Line review");
+  rail.setAttribute("aria-label", "Line tools");
   wrap.appendChild(rail);
   return rail;
 }
@@ -309,17 +377,6 @@ function renderRail(mss, row, mode) {
   const user = session && session.user;
   const cap = (session && session.capabilities) || {};
   const ref = (row && row.getAttribute("data-ref")) || "";
-  if (!user) {
-    const next = `${location.pathname}${ref ? `?line=${encodeURIComponent(ref)}&suggest=1` : ""}`;
-    rail.innerHTML = `<p class="rail-kicker">Help improve this draft</p>
-      <h2>${ref ? esc(ref) : "Translation"}</h2>
-      <p class="hint">Sign in with GitHub, suggest better English, and an editor will review it.</p>
-      <p><a class="btn btn-primary" href="/signin/?next=${encodeURIComponent(next)}">Sign in to suggest</a></p>`;
-    return;
-  }
-  const current = row ? lineTranslation(row) : "";
-  const comments = window.odsDesk.commentsFor("mss", mss.id, ref);
-  const proposals = window.odsDesk.proposalsFor(mss.id, ref);
   if (mode === "diagram") {
     const book = (row && row.getAttribute("data-book")) || mss.book || "";
     const chapter = (row && row.getAttribute("data-chapter")) || mss.chapter || "";
@@ -352,6 +409,17 @@ function renderRail(mss, row, mode) {
       });
     return;
   }
+  if (!user) {
+    const next = `${location.pathname}${ref ? `?line=${encodeURIComponent(ref)}&suggest=1` : ""}`;
+    rail.innerHTML = `<p class="rail-kicker">Help improve this draft</p>
+      <h2>${ref ? esc(ref) : "Translation"}</h2>
+      <p class="hint">Sign in with GitHub, suggest better English, and an editor will review it.</p>
+      <p><a class="btn btn-primary" href="/signin/?next=${encodeURIComponent(next)}">Sign in to suggest</a></p>`;
+    return;
+  }
+  const current = row ? lineTranslation(row) : "";
+  const comments = window.odsDesk.commentsFor("mss", mss.id, ref);
+  const proposals = window.odsDesk.proposalsFor(mss.id, ref);
 
   const composer =
     mode === "suggest"
@@ -455,7 +523,6 @@ function renderRail(mss, row, mode) {
 function bindDesk(mss, root) {
   if (!root || root.dataset.deskBound) return;
   root.dataset.deskBound = "1";
-  ensureRail();
   const open = (mode, row) => {
     closeRows();
     if (row) {
@@ -676,6 +743,7 @@ function boot() {
         body.innerHTML = `${plates}${pager}${draftNotice}<div class="${wrapClass}"${wrapAttr}>${frags}</div>${pager}${jump}`;
         if (mss.script === "paleohebrew" || mss.script === "mixed") renderToggle(mss.script);
         bindWordLookup(body, mss);
+        bindCopy(body);
         paintLineMarks(mss);
         paintDiagramButtons();
         bindDesk(mss, body);

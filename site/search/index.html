@@ -22,6 +22,7 @@
   <script src="/js/icons.js" defer></script>
   <script src="/js/session.js" defer></script>
   <script src="/js/lexicon.js" defer></script>
+  <script src="/js/search-core.js" defer></script>
   <script src="/js/search-page.js" defer></script>
 </head>
 <body class="app" data-page="search" data-template="1">
@@ -46,17 +47,18 @@
     <h1>Find a line, a word, or a manuscript.</h1>
     <form class="search-box" action="/search/" method="get" role="search">
       <label class="sr-only" for="q">Search the edition</label>
-      <input id="q" name="q" type="search" placeholder="Isaiah, קול, 1QIsa-a" autocomplete="off">
+      <input id="q" name="q" type="search" placeholder="Isaiah 1, isa 1, קול, Great Isaiah Scroll" autocomplete="off">
       <button class="btn btn-primary" type="submit">
         <svg class="ico" data-i="search"></svg>
         Search
       </button>
     </form>
+    <aside id="search-note" class="callout search-note" role="status" hidden></aside>
     <div id="search-empty" class="callout">
       <svg class="ico" data-i="info"></svg>
       <div>
-        <p>Type a manuscript label, a Hebrew or Aramaic form, or a work name.</p>
-        <p>Lemma search uses the seeded Hebrew and Aramaic lexicon. The academic morph code is the key.</p>
+        <p>Type a manuscript label, a common scroll name, a Hebrew or Aramaic form, or a Bible reference such as <em>Isaiah 1</em> or <em>isa 1</em>.</p>
+        <p>Spelling is forgiving. Chapter results state when this fragmentary edition has no surviving witness.</p>
       </div>
     </div>
     <ul class="index" id="results" hidden></ul>

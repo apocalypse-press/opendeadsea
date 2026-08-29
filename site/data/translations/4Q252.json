@@ -1,0 +1,487 @@
+{
+ "id": "4Q252",
+ "label": "4Q252",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 67,
+ "scroll_id": 212,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q252 1:1": {
+   "en": "In the year four hundred and eighty of the life of Noah, it has come to the end of Noah and the gods.",
+   "notes": "The phrase 'four hundred and eighty' is supported by repeated phrase evidence. The verb 'come' is translated as 'it has come' based on the visible morphology and lexical gloss. The phrase 'end of Noah and the gods' is a conservative translation, preserving the grammatical relationships and semantic constraints.",
+   "line_id": 9424,
+   "source_hash": "7b59fa99add8d7d0ba4601ccb9a37613f7372c49a62d8a8ce38edb6344b4e5b8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 1:2": {
+   "en": "He said, 'Not a spirit dwells in man forever, and their days are determined: one hundred and twenty.'",
+   "notes": "The transcription contains a damaged word ('א##מר') and a suffixed form ('רוח׳י') with uncertain translation. The phrase 'ימי׳הם' is a plural possessive form of 'day', but its exact sense is unclear. The numbers 'one hundred' and 'twenty' are translated directly from the context-free glosses.",
+   "line_id": 9425,
+   "source_hash": "154e9ed85bdf67240e863e9b54e95bcc282dd08f5e384f74d1efddca460b37e3",
+   "source_condition": "uncertain"
+  },
+  "4Q252 1:3": {
+   "en": "Year unto end of waters, deluge. And waters of deluge were upon the earth in year six hundred(s) year.",
+   "notes": "Uncertainty in the first word 'ש#נה' is not reflected in the translation. The phrase 'in year six hundred(s) year' is supported by repeated phrase evidence, though it appears redundant in English.",
+   "line_id": 9426,
+   "source_hash": "60817d5fdcf52ef1eb52b65bc652b8e603e5a45b4b63d5104d08051fc3780c66",
+   "source_condition": "uncertain"
+  },
+  "4Q252 1:4": {
+   "en": "To the life of Noah, in the month, the second, in one, in sabbath, on the seventeen, in it: on that day",
+   "notes": "The phrase 'on the seventeen' is uncertain due to the uncertain status of the word 'עשר#' (position 14). The word 'ב׳ו' (position 15) is translated as 'in it' based on its morphology and lexical gloss, but its exact meaning in this context is unclear. The punctuation mark '׃' (position 16) is omitted from the translation as it cannot be translated independently.",
+   "line_id": 9427,
+   "source_hash": "5158a5f7cccf597006f4840764bbf10cb208c16e8740ad6161e9399b7d703256",
+   "source_condition": "uncertain"
+  },
+  "4Q252 1:5": {
+   "en": "All the springs of the deep great and the windows of the heavens they were opened and it was the rain upon",
+   "notes": "The translation follows high-confidence phrase evidence for 'the springs of the deep', 'the windows of the heavens', and 'it was the rain'. The adjective 'great' is a context-free gloss for 'רבה' in this gender/number. The final preposition 'upon' is literal but lacks an object in the source.",
+   "line_id": 9428,
+   "source_hash": "7cd7df5fc7df61af01a6ca8de0c1c682a280823c3686c71fac2054738bf18353",
+   "source_condition": "clean"
+  },
+  "4Q252 1:6": {
+   "en": "The earth forty day and forty night until day twenty and six in month",
+   "notes": "The phrase 'day twenty' is supported by repeated phrase evidence. The lexical gloss for 'ארבעים' is uncertain, but its visible form and morphology suggest 'forty'. The translation conservatively retains all recoverable words in order, without smoothing or adding missing subjects.",
+   "line_id": 9429,
+   "source_hash": "329beef22cad6dda16b0340519e4cfa1c5ca449568ecafc92df8f16f00983343",
+   "source_condition": "uncertain"
+  },
+  "4Q252 1:7": {
+   "en": "The third day, five on the sabbath. And the waters prevailed upon the earth fifty and one hundred day[s].",
+   "notes": "Uncertainty in the transcription at position 14 (א#רץ) is reflected in the translation as 'the earth'. The phrase 'fifty and one hundred day[s]' is a direct translation of the numerical sequence, though its exact meaning is unclear.",
+   "line_id": 9430,
+   "source_hash": "ea0283a9d608e108bea9115f7c54d07f49e268d67486e44f656e0c0fffa704e0",
+   "source_condition": "uncertain"
+  },
+  "4Q252 1:8": {
+   "en": "Until the fourteenth day of the seventh month, three in the Sabbath. And in the end of fifty.",
+   "notes": "The phrase 'three in the Sabbath' is uncertain due to the damaged token at position 9. The word 'חמשים' (fifty) has no trusted gloss, but its translation is retained based on visible morphology.",
+   "line_id": 9431,
+   "source_hash": "564734b1ddfcb64f1d245328dfed219db1494b107ac133c108dbc3cc17afe3ff",
+   "source_condition": "uncertain"
+  },
+  "4Q252 1:9": {
+   "en": "And one hundred day diminished the waters two days day the fourth and day the fifth and day",
+   "notes": "Uncertainty in transcription at positions 10 and 11, affecting the phrase 'day the fourth'. Phrase evidence suggests 'day (the) fourth' as a possible rendering.",
+   "line_id": 9432,
+   "source_hash": "1f2e9ba9304b0c4f83da81150edd0395f29b4af62e5c920897bd39688f24f5ba",
+   "source_condition": "uncertain"
+  },
+  "4Q252 1:10": {
+   "en": "On the sixth, the ark settled upon the mountains of Ararat. It was the day of the seventeenth of the month, the seventh.",
+   "notes": "The phrase 'the mountains of Ararat' is a reconstruction based on the visible text and known biblical context. The phrase 'It was the day of the seventeenth of the month, the seventh' includes a reconstructed pronoun and a repeated 'the seventh' for clarity, following high-confidence phrase evidence.",
+   "line_id": 9433,
+   "source_hash": "c9a8b98c2f482f4a1d819f5cce05bcef3cee7ebcefca045ff26bf9a9aee57f8b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 1:11": {
+   "en": "And the waters were, and going and diminishing until the tenth month. On the first of the fourth day.",
+   "notes": "Uncertainty in the reconstruction of 'ה##לוך' and the meaning of the final '׃'.",
+   "line_id": 9434,
+   "source_hash": "ac81e243dbc42a1ea5f18217002e493871cde8df2bfa82e5cf89faf7152f3379",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 1:12": {
+   "en": "to sabbath they were visible the heads of the mountains and it was from the end of forty days to see the heads",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly 'נר#א##ו' (see), 'מ#ק##ץ' (from the end), and 'הר#אות' (to see). The phrase 'they were visible the heads of the mountains' is supported by repeated phrase evidence, but the overall syntax is fragmented and uncertain.",
+   "line_id": 9435,
+   "source_hash": "c63ecec46c86bb21ce0356d67af3df3099f224166f513efc7aa1eff33fe41491",
+   "source_condition": "uncertain"
+  },
+  "4Q252 1:13": {
+   "en": "The mountain and he opened Noah the window of the ark. A day one in sabbath he day ten",
+   "notes": "Uncertain reconstruction of 'mountain' and 'opened'; contextual rendering of 'a day one' and 'in sabbath' preferred over less supported alternatives; 'he day ten' retains uncertain word order due to low pattern support.",
+   "line_id": 9436,
+   "source_hash": "ac46d6971184bdb33465f7e24bb275071ef50750d09ce61d78c7d8a655507dd7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 1:14": {
+   "en": "In the eleventh month he sent the dove to see whether the waters had abated and not",
+   "notes": "The phrase 'one plus ten' is a reconstruction of the number eleven. The verb 'be slight' is translated as 'abated' based on the context. The particle 'לוא' is translated as 'and not' to maintain the negation in the sentence.",
+   "line_id": 9437,
+   "source_hash": "307171e4b814a9581167f4692e36f4c915bfa0278dbac66105425ee65de3b183",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 1:15": {
+   "en": "She found a resting place and came to the ark. And he waited again seven days, other",
+   "notes": "The transcription contains two reconstructed words and two uncertain words. The phrase 'he waited again seven' is supported by repeated phrase evidence. The phrase 'seven days other' is partially supported by repeated phrase evidence, but 'other' is reconstructed and uncertain.",
+   "line_id": 9438,
+   "source_hash": "6c7036fcfe9bfa2a2b10d7a214ea1b013facf52ee9e91adef29ece371842be90",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 1:16": {
+   "en": "And he added to send, and she came to a leaf of olive, fresh plucked in its mouth, it is the twentieth day",
+   "notes": "The phrase 'a leaf of olive' is a reconstruction based on repeated phrase evidence. The phrase 'it is the twentieth day' is a reconstruction of the damaged text, with 'he' being a reconstructed pronoun.",
+   "line_id": 9439,
+   "source_hash": "778d3853b6fa07bb021283bb951a29ccd1faf53d6b797bafa7655c1d72edd511",
+   "source_condition": "reconstructed"
+  },
+  "4Q252 1:17": {
+   "en": "And four for eleven-month, in one of [sabbath]. And Noah knew that they abated the waters.",
+   "notes": "The phrase 'one of [sabbath]' is reconstructed and uncertain. The verb 'abated' is a paraphrase of the ambiguous 'be slight' gloss, supported by repeated phrase evidence.",
+   "line_id": 9440,
+   "source_hash": "e8a5aa23bc342ec41bd17f3c2d3b702eb129f7c71e23ddcd8f2962296577238b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 1:18": {
+   "en": "From the earth. And from the end of seven days he sent the dove, and not",
+   "notes": "The phrase 'from the earth' is a literal translation of the preposition 'from' (מִן) followed by the definite article 'the' (הַ) and the noun 'earth' (אֶרֶץ). The phrase 'from the end of seven days' is supported by repeated phrase evidence. The verb 'sent' (שלח) is in the third-person masculine singular perfect tense, indicating a past action performed by an unspecified subject. The object marker 'אֵת' is uncertain due to damage, but it is typically used to mark direct objects. The noun 'dove' (יֹונָה) is feminine singular, and the particle 'and not' (וְלֹא) indicates negation, though its exact scope is unclear due to the damaged text.",
+   "line_id": 9441,
+   "source_hash": "d43f25590a111714a54ff06e65c8825efed79dbfe29425613c02f99f7625c7c9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 1:19": {
+   "en": "She added to return still. This is the day one of two plus ten the month in one",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'two plus ten' is supported by repeated evidence. The preposition 'to' is omitted before 'return' due to uncertainty in the source. The final preposition 'in' is reconstructed.",
+   "line_id": 9442,
+   "source_hash": "fe432d80b7a9f003869cc96c5f99505bdde79277f858c414dc578842df6bd077",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 1:20": {
+   "en": "On the Sabbath, and from the end of thirty days and one day from sending the dove which did not add",
+   "notes": "The transcription contains damaged and uncertain elements, including a reconstructed number 'thirty' and a verb 'did not add' with uncertain completion. The phrase structure is fragmented, and the exact relationship between clauses is unclear.",
+   "line_id": 9443,
+   "source_hash": "ca2b179d8b4c04471dd06183f6a409433f51e1d33313335080b5bb404653765f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 1:21": {
+   "en": "Return, still they were dry, the waters from upon the earth, and he turned aside Noah the covering of the ark",
+   "notes": "The transcription contains damaged and reconstructed elements, including a partially preserved word after 'חרבו' and a reconstructed 'ים' in 'מ##[ ים'. The verb 'יסר' is in the wayyiqtol form, indicating a sequential past action. The object marker 'את' precedes 'מכסה', specifying it as a direct object. The final word 'תבה#[', though damaged, is clearly the feminine singular noun 'ark'. Uncertainty arises from the damaged state of some words, but the overall syntax and semantics are recoverable.",
+   "line_id": 9444,
+   "source_hash": "87ddde4721bbe4abb452d77aad3eec383bfc5e80372deed88098b1c1294be41e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 1:22": {
+   "en": "And he saw, behold, the surface of the ground was dry in the fourth, in one of the month, the first.",
+   "notes": "The phrase 'the surface of the ground' is a high-confidence reconstruction based on repeated phrase evidence. The phrase 'month (the) first' is also supported by repeated phrase evidence. The verb 'was dry' is a reconstruction of the damaged form '[ חרבו'.",
+   "line_id": 9445,
+   "source_hash": "600fae41e72aebddf7ddd48ad131886709976c0c1cf066a0d36dec6bfb1db5e8",
+   "source_condition": "reconstructed"
+  },
+  "4Q252 2:1": {
+   "en": "In one and six hundreds year of life of Noah and in the seven-teen day of the second month",
+   "notes": "The translation follows high-confidence phrase evidence for 'hundreds year of', 'seven-teen day of', and 'month (the) second'. The preposition 'to' is omitted before 'life' and 'day' as unsupported by recoverable tokens or constraints. Uncertainty in 'מאות#' is noted but does not affect translation wording.",
+   "line_id": 9446,
+   "source_hash": "6f371cdd6487fc8580e494f51939630d34147a827a578adb6b9793dbbfb8bf95",
+   "source_condition": "uncertain"
+  },
+  "4Q252 2:2": {
+   "en": "The earth was dry in one sabbath. In the day that Noah went out from the ark to the end of years",
+   "notes": "",
+   "line_id": 9447,
+   "source_hash": "554c3125c4779c4fd0b269494933af89870fcf46b0cf49afc403313796991fa2",
+   "source_condition": "clean"
+  },
+  "4Q252 2:3": {
+   "en": "Complete to the days of three hundred sixty and four in one in sabbath in seven",
+   "notes": "The phrase 'three hundred' is supported by repeated phrase evidence. The final word 'seven' is uncertain due to damage in the transcription.",
+   "line_id": 9448,
+   "source_hash": "bf284414cff476ff2d58e5fdff1592359a56175c8487c34c0d44a2942c8715a4",
+   "source_condition": "uncertain"
+  },
+  "4Q252 2:4": {
+   "en": "One and six Noah from the ark to the appointment of the year",
+   "notes": "",
+   "line_id": 9449,
+   "source_hash": "fbc51896fa72c0e42ac33339186189bc077257a90bb6fec6ae142e5d6d66eb38",
+   "source_condition": "clean"
+  },
+  "4Q252 2:5": {
+   "en": "Complete. And Noah awoke from the wine, and he knew what he had done.",
+   "notes": "The final verb 'עשה' is marked as uncertain in the source data.",
+   "line_id": 9450,
+   "source_hash": "ab326860acc199c91ea4ba66b341e43b97e4b153a06e5108ee616b72a8faf306",
+   "source_condition": "uncertain"
+  },
+  "4Q252 2:6": {
+   "en": "To his son, the small one, and he said, cursed be Canaan, a slave of slaves, he will be to his brothers. And not.",
+   "notes": "The phrase 'Canaan a slave' and 'a slave of slaves' are supported by repeated phrase evidence. The verb 'say' is translated as 'he said' based on the visible morphology. The particle 'and' is translated as 'and' based on the lexical gloss. The verb 'be' is translated as 'will be' based on the tense. The particle 'to' is translated as 'to' based on the lexical gloss. The noun 'brother' is translated as 'brothers' based on the number.",
+   "line_id": 9451,
+   "source_hash": "4e9fd835a0e350b183cd0bd4ea28ed8bdf7f94a308ab02c65038d17517401bf3",
+   "source_condition": "clean"
+  },
+  "4Q252 2:7": {
+   "en": "He slighted Ham, that if his son, that he blessed the sons of Noah and in the tents of Shem he will dwell",
+   "notes": "Uncertain conjunction before 'and'; phrase evidence supports 'the sons of Noah' and 'the tents of Shem'.",
+   "line_id": 9452,
+   "source_hash": "d0d84b8ce607fe02d047d75cbcb602e61eea02d02a52e2950f726d6ce0793330",
+   "source_condition": "uncertain"
+  },
+  "4Q252 2:8": {
+   "en": "The earth he gave to Abraham, loving him. A son of a hundred and forty years, Terah in his going out.",
+   "notes": "The phrase 'loving him' is uncertain due to damage in the source text. The number 'forty' is reconstructed. The phrase 'in his going out' is a literal translation of the infinitive construct, but the exact referent is unclear.",
+   "line_id": 9453,
+   "source_hash": "698fa7110326c67a25d36de0f43525f2b841e0105389dce5f0df27b902625b1c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 2:9": {
+   "en": "From Ur of the Chaldeans, and he came to Haran, and Abram, son of seventy years. And five years he sat.",
+   "notes": "Uncertain elements include the town name 'Haran' and the number 'seventy'. The phrase 'son of seventy years' is uncertain due to damage and reconstruction.",
+   "line_id": 9454,
+   "source_hash": "87463db4b094a41d66e2e09a323c742f3de7034cebfda180c7ece22c34630839",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 2:10": {
+   "en": "Abram in Haran and after he went out the land of Canaan sixty",
+   "notes": "The phrase 'the land of Canaan' is supported by repeated phrase evidence. The number 'sixty' is reconstructed and uncertain. Two unknown characters (ε) and a uncertain word are omitted from the translation.",
+   "line_id": 9455,
+   "source_hash": "37bea9e0ffe46919ad581dce2f364d5b41c154d64a55f83fdf2be801af366f5a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 2:11": {
+   "en": "The cow and the ram and the goat Abram not",
+   "notes": "Translation includes reconstructed and uncertain elements. The final 'not' is a partial reconstruction of 'לא[', and the goat is a reconstruction of 'ע##[ ז'. The character 'ε' at positions 9 and 12 is untranslatable and omitted.",
+   "line_id": 9456,
+   "source_hash": "dc3c10da0fe6ae703cc7d439322a137f75ce958442bf93f2b37b909d27c127c6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 2:12": {
+   "en": "The fire in passing, he took for",
+   "notes": "Uncertain reconstruction and damaged text at positions 4, 6, 8, and 9. The phrase 'take for' is supported by repeated evidence, but its exact relationship to preceding content is unclear due to damage.",
+   "line_id": 9457,
+   "source_hash": "1ecb3079c87ff63e1d85d4be98686e3ded20e8b8f31cb04027dbf73bfe070909",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 2:13": {
+   "en": "to go out Abram Canaan",
+   "notes": "The transcription is heavily damaged, with uncertain reconstructions and unknown characters. The translation reflects only the recoverable lexical items in order, without adding implied subjects or relationships. Uncertainty in the reconstruction of 'Abram' and 'Canaan' is noted, as well as the presence of untranslatable characters (ε, ː).",
+   "line_id": 9458,
+   "source_hash": "48d78a09b529f5f2c80de31d2a81672843ee0741f5717a6c6d097d3851265e50",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:1": {
+   "en": "as which written two",
+   "notes": "The transcription includes an uncertain character (ε) and a damaged numeral (]ש##נים). The translation reflects recoverable words in order, but the exact sense remains uncertain due to damage and missing context.",
+   "line_id": 9459,
+   "source_hash": "06a3e364e6d6064682708e7dd97cc55e2e9ca48855c5c1a6074a2b706a4990f0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:2": {
+   "en": "Ten men of Gomorrah and even",
+   "notes": "The transcription includes uncertain and damaged elements, particularly the reconstructed word 'אנשים' and the unclear character 'ε'. The phrase 'עמו ]רה' is interpreted as 'Gomorrah' based on lexical evidence. The conjunction 'וגם' is translated as 'and even' to maintain the conjunction and emphasis.",
+   "line_id": 9460,
+   "source_hash": "b04812b808e7f923297a6489e628625767da1a0fac25cca4c5c109fbea825e94",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:3": {
+   "en": "the town this just",
+   "notes": "Uncertain reconstruction of 'this' and untranslated character 'ε' due to damage. The phrase is fragmented and lacks clear syntactic connections.",
+   "line_id": 9461,
+   "source_hash": "6d8ab0deacf755b21f70f00bfd2fb4b4b73c4bb824f5e164778cb2dd6696ebdf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:4": {
+   "en": "I am not to their idle talk they shall be consecrated",
+   "notes": "Uncertain reconstruction of 'אנ#?ו#?כ##[ י ]' as 'I am'; 'ε' and '] # ים' are untranslatable fragments; 'ל' is a preposition 'to' but its object is unclear; 'בד׳ם' interpreted as 'idle talk' based on lexical gloss; 'יחרמו' translated as 'they shall be consecrated' with uncertainty about the exact sense of 'consecrate / mutilate'.",
+   "line_id": 9462,
+   "source_hash": "19e45cfbbd23ae027505d6068af036b8ec8fabd017c0d3877fec6c8ca5294bc3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:5": {
+   "en": "And if not found there and all the found and plunder",
+   "notes": "Uncertain reconstruction at position 5; untranslatable character at position 6; uncertain word at position 13.",
+   "line_id": 9463,
+   "source_hash": "328e0a91912e5880a4f7c5f2d196cc2d5be6d6142f6586e01422295cf6975ae8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:6": {
+   "en": "And the children, and the rest of eternity. And he sent.",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged word and an unknown character (ε). The translation reflects recoverable words in order, with uncertainty noted here.",
+   "line_id": 9464,
+   "source_hash": "9cf59ad8a2e6428bc3b7941163c178de233e8f9b6951cbf05f040064ba463c0a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:7": {
+   "en": "Abraham took the heavens in his hand",
+   "notes": "The transcription includes an unknown character 'ε' and a damaged preposition 'ה', which are omitted in the translation. The verb 'יקח' is in the wayyiqtol form, indicating a past tense narrative sequence.",
+   "line_id": 9465,
+   "source_hash": "e425e0473ee5db6410b3bbcb5734648a6213ea21d8a07d3ba78e9d94b609db0b",
+   "source_condition": "reconstructed"
+  },
+  "4Q252 3:8": {
+   "en": "And he said to me, 'Now I know'",
+   "notes": "The transcription includes a damaged particle 'ε' at the end, which cannot be translated independently and is omitted. The phrase 'he said to' is supported by repeated phrase evidence.",
+   "line_id": 9466,
+   "source_hash": "2c15e7119b334343f94f4637dada71e6903eaf291c9fb49f39c3cad60bbb1f41",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:9": {
+   "en": "only one from",
+   "notes": "The phrase 'together from' is a high-confidence contextual rendering of the first two words, but it introduces an unsupported connector 'together'. The translation retains 'only one from' based on recoverable source tokens. The final character 'ε' and the punctuation mark '׃' are omitted as they cannot be translated independently.",
+   "line_id": 9467,
+   "source_hash": "2be88b34a64e060d03bac81d2ccbf7a95192b7acb93c02c39ea11fef597ddfda",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:10": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only a reconstructed fragment and an uncertain character.",
+   "line_id": 9468,
+   "source_hash": "7ac9ff4996afa97d4ee74deb868c8d190d06f029a61b937f896a81c853ef9b66",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:11": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only a reconstructed fragment (# [) and an untranslatable character (ε), with no recoverable lexical content.",
+   "line_id": 9469,
+   "source_hash": "25efc6a3923e1a4f77dd7716657984ddb80839c84e70fe1b56b61f7afb43c437",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:12": {
+   "en": "God Almighty will bless",
+   "notes": "The verb 'bless' is reconstructed and uncertain. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 9470,
+   "source_hash": "d2f48b330b48c420d423a5705469652353cf822be9902371709c43d138e85526",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:13": {
+   "en": "The blessing of my father Abraham",
+   "notes": "The transcription is partially damaged, with reconstructions and uncertainty in the first and third words. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 9471,
+   "source_hash": "7c72a897f2d566c4bfed3c8217eb13e6c1bf10a4c0443b9d5207b00da09f4378",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 3:14": {
+   "en": "she will be",
+   "notes": "The transcription contains uncertain and untranslatable elements, including damaged characters and punctuation. The verb 'תהי[ ה' is the only recoverable lexical item, translated as 'she will be'. Other elements are omitted due to uncertainty or lack of defensible translation.",
+   "line_id": 9472,
+   "source_hash": "c1618e0b79ce7f93d553b50a6c3de48ed8e0ce43ee1785a563295184e97ef012",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 4:1": {
+   "en": "Timna was the concubine of Eliphaz the son of Esau and she bore to him Amalek who struck",
+   "notes": "Reconstructed verb 'strike' (נכה) is uncertain due to damage. Phrase evidence supports 'Eliphaz the son' and 'she bore to him'.",
+   "line_id": 9473,
+   "source_hash": "8b43a384429cf1a0fbbb74534663bd7c647c1365fd7c1689a24eb9fc5039088f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 4:2": {
+   "en": "Saul, as he spoke to Moses at the end of the days, you will wipe out the remembrance of Amalek.",
+   "notes": "The phrase 'the end of the days' is a supported contextual rendering for positions 8-10. The phrase 'the remembrance of Amalek' is a supported contextual rendering for positions 12-14.",
+   "line_id": 9474,
+   "source_hash": "9b3982cc3f151146d002f1d6afe3ec2eea996796f419bcde4f5d0e3a64affc86",
+   "source_condition": "clean"
+  },
+  "4Q252 4:3": {
+   "en": "From under the heavens, the blessings of Jacob, Reuben your firstborn",
+   "notes": "The phrase 'of Jacob Reuben' and 'of Reuben the firstborn' are supported by repeated phrase evidence. The translation follows the visible morphology and lexical glosses, with no uncertainty or reconstruction.",
+   "line_id": 9475,
+   "source_hash": "56970783dff4f92bf9fb7678ee13a59c3a99dd1d35c2fe9cb84d52ca2b7c93d6",
+   "source_condition": "clean"
+  },
+  "4Q252 4:4": {
+   "en": "And the beginning of his generative power, the remainder, uprising, and protection. You have been insolent like water, you will not remain. You have ascended.",
+   "notes": "The phrase 'the beginning his generative power' is supported by repeated evidence. The translation conservatively follows the visible morphology and lexical glosses, preserving the structure and content of the source text.",
+   "line_id": 9476,
+   "source_hash": "68447998047a11decfa9375dc7f9a335ae8195c219897b6c27a32cfd9d0f6b55",
+   "source_condition": "clean"
+  },
+  "4Q252 4:5": {
+   "en": "the couches of my father then you defiled the couches and he ascended its interpretation and he reproved which",
+   "notes": "The translation follows the visible morphology and lexical glosses. The phrase 'אשר הוכיח׳ו אשר' is translated conservatively as 'which he reproved which' due to the repeated relative particle 'אשר' without clear contextual disambiguation.",
+   "line_id": 9477,
+   "source_hash": "664536e5fb023ffbc48f4530ee1b61858ee8577dc8ce610f9ce94d2b96354228",
+   "source_condition": "clean"
+  },
+  "4Q252 4:6": {
+   "en": "He lay with Bilhah his concubine and said to his firstborn you to Reuben he",
+   "notes": "Uncertain elements include the conjunction 'and' (position 5), the phrase 'firstborn you to' (positions 7-9), and the name 'Reuben' (position 11). The character 'ε' (position 10) is untranslatable and omitted.",
+   "line_id": 9478,
+   "source_hash": "3e79f620b35b380b07e8b6902807128b01d95feb6c2d53eca19a4f9b51939ef6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 4:7": {
+   "en": "Beginning [no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, including a reconstructed word and untranslatable characters. Only 'ראשית' (beginning) is recoverable with certainty.",
+   "line_id": 9479,
+   "source_hash": "39185540bcf3aabc2e69f3053d205c637c043d3854d8a8eb1d3c9c3c8652ee6f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 5:1": {
+   "en": "Not turn aside a mighty one from the tribe of Judah in being to Israel dominion",
+   "notes": "Uncertain transcription and reconstruction at the beginning of the line. The phrase 'the tribe of Judah' is supported by repeated evidence, but 'Yahweh to Israel' is not strongly supported here. The translation conservatively retains all recoverable elements without adding unlicensed connectors or subjects.",
+   "line_id": 9480,
+   "source_hash": "726f8db817be01b3095cd522e9200c91df7233987c96b18bb73f7b166e631d88",
+   "source_condition": "uncertain"
+  },
+  "4Q252 5:2": {
+   "en": "Not he will cut inhabitant of throne to David that he marked out she covenant the kingship",
+   "notes": "Uncertain transcription at positions 2 and 4. Reconstructed text at position 1. Phrase evidence suggests possible renderings for word pairs, but the overall syntax is fragmented.",
+   "line_id": 9481,
+   "source_hash": "2978c3e5ef19b822238d15de4a41c8da368cf97194829e8ecf1b6b2fc86f44a3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 5:3": {
+   "en": "And the thousands of Israel, they are the banners until the coming of the anointed one of justice, a sprout",
+   "notes": "The phrase 'of the families of Israel' is a high-confidence contextual rendering for positions 2-3, but 'thousands of Israel' is retained based on visible morphology. Uncertainty in the transcription at position 3 is noted but does not affect the translation.",
+   "line_id": 9482,
+   "source_hash": "7baaaa98b1a814602ebcd8f2ff6fb31547d213584dd5f32fccee6b256e55cb6c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 5:4": {
+   "en": "David that to and to his seed was given a covenant of kingship to his people unto generations of perpetuity which",
+   "notes": "The phrase 'generations of perpetuity' is supported by repeated phrase evidence for positions 13-14. The translation retains all recoverable words in order, including the relative particle 'which' at the end, which cannot be omitted without losing source material.",
+   "line_id": 9483,
+   "source_hash": "9af79858fae721223daec7e1e0fee669179fb7cf0778538ead094ba5ca1adebd",
+   "source_condition": "clean"
+  },
+  "4Q252 5:5": {
+   "en": "He kept the instruction with the men of the gathering",
+   "notes": "Uncertain reconstruction of the initial word and a damaged particle. The translation omits an untranslatable surviving character and a source-script punctuation mark.",
+   "line_id": 9484,
+   "source_hash": "8da1fca4f753f64a766dae1f595cb636588863f81b3584b095d7ea1f5c9a3a6e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 5:6": {
+   "en": "she assembly of men",
+   "notes": "The initial characters (ε] #) are untranslatable and omitted. 'כנסת' is translated as 'assembly' based on its morphology and lexical gloss, though its exact meaning is uncertain.",
+   "line_id": 9485,
+   "source_hash": "09a29064fdfad53edd85f0aa9f7a9d628c9c8c1302dd61b978a85984b6e3a43c",
+   "source_condition": "uncertain"
+  },
+  "4Q252 5:7": {
+   "en": "he gave",
+   "notes": "The transcription is heavily damaged, with only the verb 'נתן' (give) clearly recoverable. The preceding characters (ε] #) are uncertain and cannot be translated independently. The translation reflects only the verifiable content.",
+   "line_id": 9486,
+   "source_hash": "4dbfbc1b2968e83fd4b855c051feef1d62d2884f707a05afc854ea0c81178cfb",
+   "source_condition": "uncertain"
+  },
+  "4Q252 6:1": {
+   "en": "He will give delicacies",
+   "notes": "The final characters are damaged and cannot be translated independently. The word 'מעדני' is plural but the verb 'יתן' is singular, creating a grammatical mismatch.",
+   "line_id": 9487,
+   "source_hash": "738632fbc2f10d43135b4fca279c7571ac167f33ed6e5b7f94cd213c21c2bfca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 6:2": {
+   "en": "antlers",
+   "notes": "The transcription is heavily damaged, with only the word 'שפר' (antlers) recoverable. The remaining characters are uncertain or untranslatable.",
+   "line_id": 9488,
+   "source_hash": "2b411b7466337eaff5d853861925ea01dc347c58891d8da504336ed10f11af7a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q252 6:3": {
+   "en": "You the",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 9489,
+   "source_hash": "fc4a88e0b48bdb4b4684b1a628b2aa875aa7797c1a9c79dc9f4e4b39c2b2eb9d",
+   "source_condition": "reconstructed"
+  },
+  "4Q252 6:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only reconstructed and uncertain symbols with no clear lexical or grammatical meaning. The visible characters do not form translatable words or phrases.",
+   "line_id": 9490,
+   "source_hash": "54da017e68b47bf7df600f8efab507f19ab54b0ac2be5825ba2a7e2884919150",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

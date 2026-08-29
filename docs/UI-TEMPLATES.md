@@ -20,7 +20,7 @@ The lander at `/` sends readers directly to machine drafts and the catalog.
 | Work | `/work/` | Biblical books. Open a book, then manuscripts or a chapter with every copy that still has it. |
 | Community | `/community/` | Qumran community texts: commentaries, liturgies, and other Yahad works, then the copies. |
 | Lexeme | `/lex/` | Academic morph code (SBL consonantal transliteration). Strong's shown as metadata, never as the key. |
-| Search | `/search/` | Find a line, lemma, or manuscript. |
+| Search | `/search/` | Fuzzy manuscript/common-name, lemma, and Bible chapter lookup with fragmentary-coverage notices. |
 | Suggest translation | `/edit/` | Contributor form. Posts a D1-backed public translation suggestion. |
 | Proposal | `/proposal/?id=` | Current draft vs suggested translation, comments, review, editor approval. |
 | Review queue | `/review/` | Public translation suggestions and discussion. |

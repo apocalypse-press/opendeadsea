@@ -1,0 +1,375 @@
+{
+ "id": "1QSa",
+ "label": "1QSa",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 51,
+ "scroll_id": 3,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1QSa 1:1": {
+   "en": "And this is the high official for all the congregation of Israel in the end of the days in the gathering to walk",
+   "notes": "The phrase 'the end of the days' is supported by repeated evidence. 'All the congregation of Israel' is a high-confidence contextual rendering. The verb 'to walk' is uncertain due to the damaged state of the text.",
+   "line_id": 698,
+   "source_hash": "9da9f7b5266852de41f3b577690b978543ec2001f1022d8f48d11c9bcbe57c86",
+   "source_condition": "reconstructed"
+  },
+  "1QSa 1:2": {
+   "en": "Upon the mouth of justice of the sons of Zadok the priests and the men of their covenant who turned aside from walking in the way",
+   "notes": "Uncertain reconstruction of סר#[ ו as 'who turned aside' and ]ד#רך as 'way'. Phrase evidence supports 'Zadok the priest' and 'the sons of Zadok'.",
+   "line_id": 699,
+   "source_hash": "a0184b7d02446f28170ec50f3539f8ec82e9d2eecf1448a38b8377f936823b20",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:3": {
+   "en": "The people, they are the men whose counsel, who observed the covenant in the midst of guilt to cover the distance of the earth.",
+   "notes": "Uncertain reconstruction of 'כפ##[ ר' as 'cover' and 'אר ]ץ##' as 'earth'. Phrase evidence suggests 'the person his counsel' and 'you have observed covenant', but the translation follows the visible morphology and lexical glosses where possible.",
+   "line_id": 700,
+   "source_hash": "752faed6cdbd29da43a38f5201bdce4ab0fb7bcc1c2219e2b388dcd19ea4f359",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:4": {
+   "en": "When they come, they will assemble all the people, from the youngest to the women, and they will proclaim in their ears.",
+   "notes": "The phrase 'every (the) [one who] comes' is a repeated pattern with moderate support (0.4375), but it is not directly reflected in the translation due to the lack of explicit subject in the source. The phrase 'he read aloud in ears' is also a repeated pattern, but it is not directly applicable here as the verb is 'call' (קראו) rather than 'read'. The translation conservatively follows the visible morphology and lexical glosses, preserving the grammatical person, number, and semantic relationships.",
+   "line_id": 701,
+   "source_hash": "115e05f40322172ea2107b982214cc1f48c3d86091cbf218e83e622beb78839d",
+   "source_condition": "reconstructed"
+  },
+  "1QSa 1:5": {
+   "en": "and all the statutes of the covenant and to understand in all their judgments, lest they err in their mistakes",
+   "notes": "Reconstructed text at positions 1 and 14. Uncertain text at position 14.",
+   "line_id": 702,
+   "source_hash": "c07ca63a2bdc77ac47621359bcadd0005ad4554e237bdae5c8af6a3e1807c9f1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:6": {
+   "en": "And this the high official to all the host of the gathering to every (the) native-born in Israel. And from the youth",
+   "notes": "The phrase 'to every (the) native-born' is supported by repeated phrase evidence. The phrase 'all the host of' is supported by repeated phrase evidence. The translation of 'צבאות' as 'host' is preferred over 'service' or 'gazelle' based on contextual evidence. The word 'נע[ ורי׳ו ]' is reconstructed as 'נְעוּרִים' (youth) based on the provided lemma.",
+   "line_id": 703,
+   "source_hash": "cf0c34b4fdd2d08245f9f6755fa88edbdd8f8cfbad3bef76563eb5464bf76787",
+   "source_condition": "reconstructed"
+  },
+  "1QSa 1:7": {
+   "en": "To learn in the letter of the pronunciation and as the mouths of their days they will prosper in the statutes of the covenant and to take",
+   "notes": "The transcription is partially damaged, with reconstructions and uncertainties. The term 'הגי' has no trusted gloss, and its meaning is unclear. The particle 'ל#' is reconstructed and uncertain. The translation conservatively follows the recoverable text, preserving grammatical structures and semantic relationships without adding unlicensed content.",
+   "line_id": 704,
+   "source_hash": "d5cd6947a8fbd2dd09f3fb690f5bed05b398db542f5de56a2084521abfcfcd20",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:8": {
+   "en": "Chastening in their justice: ten years come in the child and a son of twenty year[s]",
+   "notes": "The phrase 'ten years' is supported by repeated evidence. 'A son of twenty year[s]' is also supported by repeated evidence, though 'a son of twenty' is more common. The verb 'come' is uncertain due to damage. The term 'child' refers to <those unable to march>.",
+   "line_id": 705,
+   "source_hash": "597727211ab9e59c4e70e8faf491a1ee94e233c1143d8af5c17f9f214b76b859",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:9": {
+   "en": "Upon the appointed to come in the lot within the clan to the gathering in the holiness and not he shall approach",
+   "notes": "The translation includes reconstructed text for positions 1, 10, 14, and 19. Position 19 is marked as uncertain due to damage in the source text.",
+   "line_id": 706,
+   "source_hash": "b2961c0c3103e558968b172cee5fa9a076a3c05e283c0b20acf77660a5008360",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:10": {
+   "en": "To a woman to know to lying of a male if to mouth he has fulfilled of twenty year[s] in know[ing] good",
+   "notes": "Uncertain reconstruction of 'twenty' (position 14) and 'knowing' (position 17). Phrase evidence supports 'lying of a male' (positions 6-7), 'of twenty year[s]' (positions 14-15), and 'know (of) good' (positions 17-18).",
+   "line_id": 707,
+   "source_hash": "3cb45917d9e12fb57a7d5a34b3e90dd8c796238cee4834dc5a4a96236f1c6f06",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:11": {
+   "en": "And evil. And thus she will receive to warn upon the judgments of the instruction and to stand in the rumor of judgments.",
+   "notes": "The phrase 'upon the judgments' is supported by repeated phrase evidence. The verb 'to stand' is reconstructed and uncertain. The word 'rumor' is a possible translation of 'Mishma', but its exact meaning is uncertain.",
+   "line_id": 708,
+   "source_hash": "f0e05e0122b10b7bf73fdebb8d0089cec012ef1a29b491bad7a331dad6762f4d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:12": {
+   "en": "And in the filling of it, a son of five and twenty years will come to stand in the foundations of the congregation.",
+   "notes": "The phrase 'a son of five and twenty years' is supported by repeated phrase evidence. The verb 'will come' is a translation of 'יבוא' in the third person singular masculine imperfect form. The phrase 'to stand in the foundations of the congregation' is a translation of 'ל...יצ]ב ביסודות עדת', with 'יצ]ב' reconstructed as 'יצב'.",
+   "line_id": 709,
+   "source_hash": "36276bc677d45ca4b7fc189807c6e49fa8db2bda64ffb91b07b2aa2a25b53c80",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:13": {
+   "en": "The holiness to serve the service of the congregation. And a son of thirty years will approach to conduct a case.",
+   "notes": "The phrase 'serve the service' is supported by repeated phrase evidence. The verb 'approach' is uncertain due to the damaged transcription. The phrase 'to conduct a case' is supported by repeated phrase evidence.",
+   "line_id": 710,
+   "source_hash": "6a4e12fbd8023cdc13cb2bb292ced193cb9a9c6244946b3d6992a78709ce2b83",
+   "source_condition": "uncertain"
+  },
+  "1QSa 1:14": {
+   "en": "And of justice to stand in the heads of the families of Israel to leaders of hundreds leaders",
+   "notes": "The phrase 'leaders of hundreds leaders' is a repeated pattern in the text, but its exact meaning is uncertain. The word 'fifty' is reconstructed and its meaning is unclear.",
+   "line_id": 711,
+   "source_hash": "1275364de1be4616f8df6fe420f40d27ef3b92a9a07bacd6a9319f7b342d0398",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:15": {
+   "en": "Leaders of tens, judges and officers for their tribes in all their clans upon the mouth of their sons",
+   "notes": "The phrase 'leaders of tens' is a reconstruction based on repeated evidence. The term 'officers' is used despite uncertain glossing. The preposition 'upon' is reconstructed. The phrase 'upon the mouth of their sons' is uncertain due to fragmentary text.",
+   "line_id": 712,
+   "source_hash": "b43cb569e78cd1b6dcfa340e83bbfd95204a462e8ebbb327709b82deead2ddea",
+   "source_condition": "reconstructed"
+  },
+  "1QSa 1:16": {
+   "en": "Aaron the priests and all the heads of the fathers of the congregation which came out the lot to stand in service",
+   "notes": "Uncertain reconstruction in 'התי[ צב' and 'ע##בוד(^ ו ^)ת'. Phrase evidence supported 'the heads of the fathers of' and 'it came out the lot'.",
+   "line_id": 713,
+   "source_hash": "13ab4c7db961ed915ee8f38028ba4e701c33405969832f2a6d44a7203dcb68ac",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:17": {
+   "en": "To go out and to come before the congregation. And to the mouth of his insight with the completeness of his way, he will be strong in his hips to stand and serve.",
+   "notes": "The phrase 'the congregation' is a high-confidence contextual rendering for positions 7-9. The phrase 'the integrity your ways' is a repeated phrase evidence for positions 16-17, but it is not fully supported by the visible morphology, so it is not used in the translation. The translation conservatively follows the visible morphology and lexical glosses, preserving the grammatical person, number, and semantic relationships.",
+   "line_id": 714,
+   "source_hash": "0490e1ab5e438df10b0916e442cd0671c7505536595b5f816a58886bd732e2d5",
+   "source_condition": "reconstructed"
+  },
+  "1QSa 1:18": {
+   "en": "The work of deeds in the midst of brothers, in interval of multitude to little, this upon this, they will honor each from neighbor.",
+   "notes": "Uncertain elements: 'בי ]ן?' (interval), 'ר#וב' (multitude), 'מועט' (little). Reconstructed elements: 'אחי׳ו[' (brothers), '[ זה' (this).",
+   "line_id": 715,
+   "source_hash": "33bbcd7a0d9a0dc914a843e77108a17977f228b4c7e036d35e6ced3c11545287",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:19": {
+   "en": "And in the multiplying of years to the mouth of strength they will give the burden of the work of the gathering and all the men of simplicity",
+   "notes": "The phrase 'to the mouth of strength' is a reconstruction based on repeated phrase evidence. The word 'work' is a reconstruction of a damaged lexical unit. The translation preserves the grammatical person, number, and semantic relationships of the source text.",
+   "line_id": 716,
+   "source_hash": "35e40d233c607715b8e0c0b162f47a373d60ef39865f08140ada07126c91e956",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:20": {
+   "en": "Not shall come in lot to stand upon the congregation of Israel to the law-case of justice and to carry a burden of the congregation",
+   "notes": "The phrase 'the congregation of Israel' is supported by repeated phrase evidence. The verb 'carry' is a conservative translation of 'lift/take' given the context of 'burden'. The preposition 'to' is used consistently for the particle 'לְ' throughout the line.",
+   "line_id": 717,
+   "source_hash": "6c390900417b6f11425a2bb357a4d735382e0022afcee2688450d574659c159c",
+   "source_condition": "reconstructed"
+  },
+  "1QSa 1:21": {
+   "en": "And to stand in war to humble nations. Only in your high official the service writes his clan.",
+   "notes": "Uncertain characters in positions 13 and 14 affect the translation of 'the service'. The phrase evidence and semantic constraints do not provide further clarification.",
+   "line_id": 718,
+   "source_hash": "3b1204e9d658acb83b4264ea811ef903fa2602af6a41d57ef43dadd5b0eaff64",
+   "source_condition": "uncertain"
+  },
+  "1QSa 1:22": {
+   "en": "And in the work of the forced labour which he makes as his deed. And the descendants of Levi shall stand, a man in his standing.",
+   "notes": "",
+   "line_id": 719,
+   "source_hash": "2c913a134208c4610d367b40536be5f287d807e9655d5b1316fd7a3abc1d83e7",
+   "source_condition": "clean"
+  },
+  "1QSa 1:23": {
+   "en": "Upon the mouth of the sons of Aaron to bring and to lead out all the congregation, a man in his high official position, upon the hand of the heads",
+   "notes": "The phrase 'the sons of Aaron' is a supported contextual rendering. 'All the congregation' is a high-confidence phrase with strong support. 'High official' is a context-free gloss for 'סרכ׳ו'. The final prepositional phrase is ambiguous and may require further context for precise translation.",
+   "line_id": 720,
+   "source_hash": "24da5da66c0d7c738598e6b9c384db641df8edbbe0825ad2300e07109dbd1092",
+   "source_condition": "clean"
+  },
+  "1QSa 1:24": {
+   "en": "The gathering to the chiefs and to the judges and to the officers to the number of all their hosts upon the mouth of the sons of Zadok the priests",
+   "notes": "Uncertain reconstruction of 'father' (position 1). Uncertain gloss for 'officers' (position 11). High-confidence phrase evidence supports 'Zadok the priest' (positions 19-21), 'number of every' (positions 13-14), and 'all the host' (positions 14-15).",
+   "line_id": 721,
+   "source_hash": "ed0aec1c008e5f7538c5e9db2774b81c5137b97328fe4284c00eb1d84faca636",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:25": {
+   "en": "And all the heads of the fathers of the congregation, and if there be an attestation to all the assembly for justice or",
+   "notes": "The phrase 'all the assembly' is supported by repeated phrase evidence. The phrase 'the heads of the fathers of' is also supported by repeated phrase evidence. The translation retains the context-free glosses for other words, following the evidence precedence.",
+   "line_id": 722,
+   "source_hash": "735a5bda16af3b2977479a7594c35d067215b782a8de0e5a5a422c0c8fadb544",
+   "source_condition": "reconstructed"
+  },
+  "1QSa 1:26": {
+   "en": "to my counsel, gathering or to attestation of war and they were holy, three days to be all the one who comes",
+   "notes": "The third word is uncertain due to damage in the transcription. The phrase 'three days' is supported by repeated evidence, but the context does not clearly license 'Yahweh' in the translation, so it is omitted.",
+   "line_id": 723,
+   "source_hash": "8fdfa8cbe822d9a27ad70521d9b0c68a80866bcf35a6f1dc1b938b3544e3e091",
+   "source_condition": "uncertain"
+  },
+  "1QSa 1:27": {
+   "en": "When ready to they the men called to the counsel of the gathering from a son of twenty whole",
+   "notes": "Uncertain transcription at position 3; reconstructed word at position 1; phrase evidence supports 'from a son of twenty' and 'a son of twenty'; translation conservatively retains all recoverable elements without smoothing.",
+   "line_id": 724,
+   "source_hash": "e452f598a557abdb33974cadc218ea20b3dc97ea1320682bfdbb4c4f5477d8cd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:28": {
+   "en": "The wise, the witness, and the understanding, and the knowing, the complete of the way, and the men of strength",
+   "notes": "The transcription is partially damaged, and some words are reconstructed. The phrase 'the men of (the) strength' is supported by repeated evidence, but its exact structure is uncertain.",
+   "line_id": 725,
+   "source_hash": "3564097cc49dd6507bc1c9095207142042796ab12ba7a72371f8fe5896993623",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 1:29": {
+   "en": "The chiefs of the rods and all judges and their officers and the commanders of the thousands and chiefs of the hundreds",
+   "notes": "Position 8 (שוטרי׳הם) has no trusted gloss; translated as 'officers' based on context. Reconstruction at positions 1 and 14.",
+   "line_id": 726,
+   "source_hash": "a07cb256e9bcb0039ef23955ab0604b7d5178f81da12776af8fd01b23bd3fd46",
+   "source_condition": "reconstructed"
+  },
+  "1QSa 2:1": {
+   "en": "And to the fifties and to the tens and the Levites in their division, its work. These",
+   "notes": "Uncertain gloss for 'חמשים'; reconstructed text in 'תו[ ך'; uncertain reading in 'עבו#?דת׳ו'.",
+   "line_id": 727,
+   "source_hash": "fd8a920b1efe4095ba0610b264ddc303b65c42da39d2468adecc3f7a05cf596e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:2": {
+   "en": "The men, the name, summoned, the appointment, those appointed to the counsel of the gathering in Israel",
+   "notes": "Uncertainty in the transcription affects 'counsel', 'the', and 'gathering'. Phrase evidence suggests 'there he was met' for 'name, summoned', but this is not adopted due to lack of direct support in the visible transcription.",
+   "line_id": 728,
+   "source_hash": "d0d62ac8d347cadb46042a9a5a80501e21d03d209686607a2d2272f16d6627d7",
+   "source_condition": "uncertain"
+  },
+  "1QSa 2:3": {
+   "en": "Before the sons of Zadok the priests, and every man touched by one from all uncleanness(es)",
+   "notes": "The phrase 'from all uncleanness(es)' is supported by repeated phrase evidence with high confidence. 'Zadok the priests' is a dominant pattern, but 'the priests' is retained for clarity. 'Every man touched by one' is a conservative translation of the visible morphology, with 'one' supported by repeated phrase evidence.",
+   "line_id": 729,
+   "source_hash": "c990792b39be73beae9dc885a8cb78e5dbba3d8426a634bc22d81640c42c3358",
+   "source_condition": "uncertain"
+  },
+  "1QSa 2:4": {
+   "en": "The man must not come to the assembly of God. And all the men touched by these to not.",
+   "notes": "The phrase 'touched by these' is uncertain due to damaged text (positions 14, 16). The particle 'to' at the end is uncertain and may be incomplete.",
+   "line_id": 730,
+   "source_hash": "84f84d88ba58e740a70101a935742a0299149f90cb526a6a999eaf775c9c140a",
+   "source_condition": "uncertain"
+  },
+  "1QSa 2:5": {
+   "en": "Maintain a stand in the midst of the congregation and all who are touched in his flesh, smitten in the feet, or",
+   "notes": "Uncertain reconstruction of damaged text at the end of the line.",
+   "line_id": 731,
+   "source_hash": "e4323e242a0273e26a0756af35a9231e497c92ee1dd3cac1a8e4643f7da9d9b2",
+   "source_condition": "uncertain"
+  },
+  "1QSa 2:6": {
+   "en": "hands of a lame or blind or deaf or speechless or blemish touched in his flesh",
+   "notes": "The phrase 'touched in his flesh' is supported by repeated phrase evidence. The word 'מום' has no trusted gloss, but its context suggests 'blemish'.",
+   "line_id": 732,
+   "source_hash": "b885d7b4784694aa6b5e4e05504d18d6aba9ce1475fee7746b47f7849ea5859a",
+   "source_condition": "uncertain"
+  },
+  "1QSa 2:7": {
+   "en": "To see eyes, or an old man stumbling, not to be strong among the congregation.",
+   "notes": "The phrase 'they saw eyes' is a repeated phrase with low support (0.3); 'a man old' is a repeated phrase with full support (1.0); 'among the congregation' is a repeated phrase with moderate support (0.75). The gloss for 'בלתי' is uncertain (?), but its visible morphology and position suggest a negation. The translation conservatively retains all recoverable words and their order, with natural English syntax.",
+   "line_id": 733,
+   "source_hash": "c1ece4f94c5ce40242389d806a71d21b263ad5055b41a8f5cdef8b334f87c1f8",
+   "source_condition": "clean"
+  },
+  "1QSa 2:8": {
+   "en": "Not to them it will come to stand in the midst of the congregation of men the name that messengers",
+   "notes": "Uncertainty in transcription and reconstruction affects the translation's fluency. The phrase 'it will come' is a reconstruction based on repeated phrase evidence. The term 'midst' is uncertain due to damage. 'Congregation' is a possible rendering of 'gathering' but context is unclear. 'Men' is a reconstruction. 'Name' is uncertain in its reference. 'Messengers' is a direct translation but its role in the sentence is ambiguous.",
+   "line_id": 734,
+   "source_hash": "39ac8b6f10d0452684eeea17391f7c7326bf0d587acb744409db8f958b08154e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:9": {
+   "en": "Holiness in their witness. And if there is a word to one of these to speak to the counsel of the holiness",
+   "notes": "Uncertain reconstruction of 'word' (דב#[ ר). Phrase 'one of these' supported by repeated evidence.",
+   "line_id": 735,
+   "source_hash": "f75662e610336d9f33dd5713e816ec52eeef91297186f4a139f0465f424cfe21",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:10": {
+   "en": "And inquire from his mouth and to the midst of the congregation not he brought the man that touched",
+   "notes": "Uncertainty in the transcription affects the translation of the final verb. The phrase 'among the congregation' is supported by repeated evidence, while 'he brought the man' has weaker support.",
+   "line_id": 736,
+   "source_hash": "67cfff8a713d2d57b1ff28f36b5e07c4c67f37f1872143fd9a20413d0bc6570c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:11": {
+   "en": "He, this is the seat of the men of the name, summoned to the appointment for the counsel of the gathering, if he bears",
+   "notes": "Uncertainty in the final verb due to damaged text; phrase 'of the name' supported by repeated evidence but contextually ambiguous.",
+   "line_id": 737,
+   "source_hash": "0eb50dd358569bca08862e0bd4a0022443d5aa5f0efcad8b01896ac26e7dc0f1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:12": {
+   "en": "[God] the anointed ones. He will come, the priest, the head of all the congregation of Israel and all",
+   "notes": "The translation includes reconstructed text for positions 1, 2, and 7. The object marker 'את' at position 2 is uncertain. The phrase 'the head of all the congregation of Israel' is supported by repeated phrase evidence. The final 'and all' is incomplete due to damage, with the intended meaning unclear.",
+   "line_id": 738,
+   "source_hash": "f4dd587961a6bede02d236e05e12666dc6dfbf3ae2592f78da0e03ba36f075a4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:13": {
+   "en": "The fathers the sons of Aaron the priests summoned of the appointment the men of the name and they sat",
+   "notes": "Uncertain reconstruction of 'fathers' and punctuation mark. Translation retains all recoverable elements in order, including repeated 'the' particles and uncertain phrase connections.",
+   "line_id": 739,
+   "source_hash": "549f9da1342230b84a421fa9238bba209276ceb841c826163984820fec7204ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:14": {
+   "en": "before his face everyone to the mouth of his weight and after the anointed of Israel they sat before his face heads",
+   "notes": "Uncertain reconstruction of 'anointed' and 'heads' due to damage. Phrase evidence partially supports 'before a person' and 'everyone to the mouth', but full context is unclear.",
+   "line_id": 740,
+   "source_hash": "f6678d463a7b8a3842a95dc956b2747c698f40e7919e20e57762d0347b320932",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:15": {
+   "en": "of the families of Israel each to the mouth of his weight as his standing in their camps and as their journeys and all",
+   "notes": "The translation follows high-confidence phrase evidence for 'of the families of Israel' and 'each to the mouth'. The phrase 'his weight as his standing' is uncertain due to reconstruction and damage. The final 'and all' is incomplete, with the last word possibly truncated.",
+   "line_id": 741,
+   "source_hash": "e9a1490e1a0f466a9aa6065b1d651f3aec729a74277b4e3cdcd832a03f03c0da",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:16": {
+   "en": "The heads of the fathers of the congregation with the wise ones of the holy congregation sat before them, each man to his mouth",
+   "notes": "Uncertain reconstruction of 'fathers' and 'wise ones'. The phrase 'each man to his mouth' is a literal translation of the surviving text, but its meaning is unclear.",
+   "line_id": 742,
+   "source_hash": "987070a1978c844ba160fa470db01035f5ae4c7dc8ab3c11d983dac2533ab69d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:17": {
+   "en": "His honor and if to the table of gathering they are appointed or to drink the wine and arrange the table",
+   "notes": "Uncertain reconstruction of 'and' (position 3).",
+   "line_id": 743,
+   "source_hash": "3a43597b9e31466aa38896aa3652fc5e427bff876e1402b152c8da127e901dac",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:18": {
+   "en": "The gathering and mixing the wine to drink, he will not send a man with his hand in the beginning",
+   "notes": "Uncertain reconstruction of 'and' (position 3) and 'drink' (position 8). Phrase evidence suggests 'let go everyone (et)' for positions 10-12, but it does not fit the context. Similarly, 'men (et) hand' for positions 11-13 is not adopted due to low support and contextual mismatch.",
+   "line_id": 744,
+   "source_hash": "6b2dc1dd17ac8578d4aebefd05e7c68cf3c1c43919219593fb3674b137931939",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:19": {
+   "en": "The bread and the wine to the face of the priest. That he blessed the beginning of the bread.",
+   "notes": "Uncertain reconstruction at 'כיא##[' and 'מ ]ברך'. Phrase evidence suggests 'his blessing he blessed' for positions 12-14, but it is not strongly supported. The translation follows the visible morphology and lexical glosses where possible.",
+   "line_id": 745,
+   "source_hash": "c6df772997850437aa1a41cb0b425dc880a86b08dcc4efcf3493b1963385be68",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:20": {
+   "en": "And the wine they will send, and stretch out a hand on the bread before presence. And after he sends the anointed of Israel, his hand.",
+   "notes": "The phrase 'stretch out a hand on' is supported by repeated phrase evidence. 'Bread before presence' is a contextual rendering with moderate support. The verb 'sends' is uncertain due to damage in the source text.",
+   "line_id": 746,
+   "source_hash": "362115b9a32d171d063fef2552fda5061e25ecd8411d491523603e974fcf3cb3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1QSa 2:21": {
+   "en": "In bread. And after they bless all the congregation, each man to his mouth. And as this portion they do",
+   "notes": "Uncertain reconstruction of damaged text at positions 4, 11, and 21. Phrase evidence supports 'all the congregation' and 'they bless all', but the latter is less certain due to lower pattern support. The phrase 'each man to his mouth' is supported but with moderate confidence. The final clause 'as this portion they do' is based on repeated phrase evidence, though its support is relatively low.",
+   "line_id": 747,
+   "source_hash": "65c179ba1ed05e54bea2ff9befeb177fb12a6dd5c7dcf2f4439445b602600bbe",
+   "source_condition": "reconstructed"
+  },
+  "1QSa 2:22": {
+   "en": "to the whole row that they appoint unto ten men",
+   "notes": "Reconstructed text in positions 3 and 8. The phrase 'ten men' is supported by repeated phrase evidence.",
+   "line_id": 748,
+   "source_hash": "0db52793487b6261f9bd6b1cb6f341befc132a60cf6d6ae469e0329c618bda16",
+   "source_condition": "reconstructed"
+  }
+ }
+}

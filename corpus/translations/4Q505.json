@@ -1,0 +1,242 @@
+{
+ "id": "4Q505",
+ "label": "4Q505",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 32,
+ "scroll_id": 543,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q505 f120:1": {
+   "en": "soul",
+   "notes": "The transcription contains untranslatable characters and damage, with only the word 'soul' recoverable. The initial and final characters (ε) are omitted as they cannot be translated independently. The damaged characters (]ת##) are noted but not translated.",
+   "line_id": 25874,
+   "source_hash": "f520085b653a45160e37ffb2f7dedc154f12c692154cd81e0cf9f11420e6efb5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f120:2": {
+   "en": "to not",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed particle (בלתי[). The translation reflects the recoverable particles 'to' (לְ) and 'not' (בלתי), with uncertainty in the surrounding material.",
+   "line_id": 25875,
+   "source_hash": "455795c8c69a25effb265953b0e09f9c5d3bfdee9cdbc7f4ffd66420eb01854f",
+   "source_condition": "reconstructed"
+  },
+  "4Q505 f120:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible characters include a preposition 'to' (ל), but the surrounding material is too fragmentary to construct meaningful content.",
+   "line_id": 25876,
+   "source_hash": "4e1403e3f2b4634226760450cacca1b98ce43df85f549d6508fb77b84eeae70d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f121:1": {
+   "en": "from our way",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation. The damaged word 'ד ]רכינו' is translated as 'our way' based on the provided lemma and gloss.",
+   "line_id": 25877,
+   "source_hash": "5e896fea5a2fd1ed07ca95ef7aeafe0955c805e8c6184b3e6c4885c2f29bc44a",
+   "source_condition": "clean"
+  },
+  "4Q505 f121:2": {
+   "en": "commandments",
+   "notes": "The transcription is heavily damaged, with only the reconstructed word 'מצו ]ו#?תי׳כה[' (commandments) being recoverable. The other characters (ε, ː) are untranslatable and omitted. Uncertainty is high due to extensive damage and reconstruction.",
+   "line_id": 25878,
+   "source_hash": "473d5b80b93a3507291af155ca5c6dddf851c9de2e6dcd822380080c2fcd82a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f122:1": {
+   "en": "Moses the servant",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged prefix and suffix. The phrase 'Moses the servant' is supported by repeated evidence, though the exact morphological details are unclear.",
+   "line_id": 25879,
+   "source_hash": "704960fad5d3f44efb09a6ed068c0234ccde2db5261750e0c618cac045dd6997",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f122:2": {
+   "en": "avenging",
+   "notes": "The translation is based on the recoverable verb 'נקם' (avenge) in its masculine singular participle form. All other elements are uncertain or untranslatable, including damaged and reconstructed characters. The final punctuation mark is omitted as it has no independent meaning.",
+   "line_id": 25880,
+   "source_hash": "0fbec3b5202ab485107f84c522796683a9cd1a3a360b0f44dc125196e48da016",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f123:1": {
+   "en": "and in the nations",
+   "notes": "The transcription contains uncertain and untranslatable characters (ε,  ׃), and the word 'גו#?י#?ם##[' is reconstructed and uncertain. The translation reflects the recoverable words 'and' (ו) and 'in' (ב) with the plural form of 'nations' (גֹּוי) based on visible morphology.",
+   "line_id": 25881,
+   "source_hash": "01c2fe5ea89a28d2858b304e1a46e3ab9665879b0d4dd7d73b3ae90c291ad3da",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f124:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items or semantic constraints to guide translation. The reconstructed word is too fragmentary to interpret confidently.",
+   "line_id": 25882,
+   "source_hash": "1730fe6685c8e0955dfcdd4d0e3181d69d39c77d10f6bc1872212f812f76f35a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f124:2": {
+   "en": "to the earth",
+   "notes": "Translation is highly uncertain due to extensive damage and reconstruction. The phrase 'to the earth' is based on repeated phrase evidence, but its context is unclear. Many characters are unrecoverable or ambiguous.",
+   "line_id": 25883,
+   "source_hash": "d071e2527ff35b9def2605d2cfc0b140fb8f2cfcf7aacb2581689a60b869d8cc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f124:3": {
+   "en": "and in the way we are firm",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The translation reflects recoverable words in order, preserving uncertainty and omitting unsupported content. The phrase 'ε] # הובעבור#[נאמין#ε' contains fragments of Hebrew and Greek, with 'ו' (and), 'ב' (in), 'עבור' (way), and 'נאמין' (we are firm) as the primary recoverable elements. Other characters and fragments are omitted due to uncertainty or lack of independent translatability.",
+   "line_id": 25884,
+   "source_hash": "8f6a84a66780d1f9977e0eb3d096a976d57bf821a68e992d2ffc5f558b57dc46",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f124:4": {
+   "en": "To eternity and you arise to a covenant in Horeb",
+   "notes": "Uncertain reconstruction and transcription damage affect the translation. The phrase 'to a covenant' is supported by repeated evidence, but 'I will raise up for' is not directly applicable due to the visible morphology. The initial and final 'ε' are omitted as they cannot be translated independently.",
+   "line_id": 25885,
+   "source_hash": "71ffbf71962529e79b9b67fb110da8b999e78f582cc7fd0c082c7e692900e25f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f124:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The phrase evidence for 'the islands' is not supported by the visible morphology or transcription.",
+   "line_id": 25886,
+   "source_hash": "00558345f59b70299de39707282b8e7add2f784a04327f0c2d26b2877d9389a1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f124:6": {
+   "en": "to Abraham and to Isaac and to Jacob he chose in their seed other to",
+   "notes": "Uncertain elements include the damaged particles and the reconstruction of 'Jacob'. The phrase 'he chose in their seed other to' is supported by repeated evidence but remains uncertain due to the fragmentary nature of the text.",
+   "line_id": 25887,
+   "source_hash": "1dce437939ced5048d7d5419c63d5f6c0e5eac56cf1094ddfff258bb9a306df2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f124:7": {
+   "en": "holy one standing before faces",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Phrase evidence supports 'he stood before' but is not mandatory. Translation retains recoverable elements without adding unlicensed subjects or connectors.",
+   "line_id": 25888,
+   "source_hash": "3391a7870f9256c246c1f41f263d7d7d90bf35651dd62a27f45521b877259620",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f124:8": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and punctuation marks with no clear lexical or semantic value.",
+   "line_id": 25889,
+   "source_hash": "d1ebd5ac5c7f71f76ff07e5fd581f29c603ff3f9c4899f407d9ad3d07038cf8a",
+   "source_condition": "clean"
+  },
+  "4Q505 f125:1": {
+   "en": "keeping males",
+   "notes": "Translation is highly uncertain due to extensive damage and reconstruction. The verb 'keeping' is based on the visible form ']ש##מורים', but its context is unclear. The term 'males' is a tentative reconstruction of 'זכ#', which is partially recovered and uncertain. The surrounding characters (ε, #, [, ]) are untranslatable and omitted.",
+   "line_id": 25890,
+   "source_hash": "57f8b1f18ef9c02f14ae13c4396bd4fae10d0a20c9c0c65b33d15c328a180bd7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f125:2": {
+   "en": "You were lame upon our houses",
+   "notes": "Uncertainty in transcription and lemma for 'פסחת ]ה#' and 'ב#ת##י?׳נו'. The translation reflects visible morphology and context-free glosses, with no recoverable text for the unknown characters 'ε'.",
+   "line_id": 25891,
+   "source_hash": "54dae915f8f484fe03b442f610be2dbbe62d541a251fe0b8dd66ad6ecd55359d",
+   "source_condition": "uncertain"
+  },
+  "4Q505 f125:3": {
+   "en": "not he drew off",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed verb form (חלצ׳כ[). The verb 'draw off' is based on the lemma 'חלץ' and its morphology.",
+   "line_id": 25892,
+   "source_hash": "7d3d5acedb2301c86282f0d1d8cc29958898b9f2a886bd3be2b880a649b1e865",
+   "source_condition": "reconstructed"
+  },
+  "4Q505 f125:4": {
+   "en": "all the nations",
+   "notes": "Uncertain transcription and morphology in 'כ##ול' and 'גוי#?ם##'. Phrase evidence strongly supports 'all the nations' for the sequence 'כ##ול ה גוי#?ם##'.",
+   "line_id": 25893,
+   "source_hash": "0ff97932d90ce465e81e24a3dc6110904e2387402b0b45ceb15e28eb9669e416",
+   "source_condition": "uncertain"
+  },
+  "4Q505 f126:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. Visible characters include Greek epsilon (ε) and partial Hebrew letters (שׁמ, ׳כה), but no coherent lexical units survive.",
+   "line_id": 25894,
+   "source_hash": "7b6d96eec474b4d6396e579034b5b4107d7f2b3f6dd6a672bca3a9ff3598d3bd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f126:2": {
+   "en": "you called my sons",
+   "notes": "The phrase 'you called my sons' is based on the recoverable words and phrase evidence. The transcription includes uncertain and reconstructed elements, particularly in the verb form 'קראת׳נ#?[' which is translated as 'you called' with uncertainty. The phrase evidence supports 'the son of Kore' but is not directly applied here due to the visible morphology and transcription constraints.",
+   "line_id": 25895,
+   "source_hash": "8d9716743825911d753731878eacaf8da744267c90e19a3fc418ec8f797b007d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f126:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 25896,
+   "source_hash": "bc019283b03715426330f3ecdeeffd4cb3e902cc98165f04c104c6ccd5a96b3b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f127:1": {
+   "en": "in",
+   "notes": "The transcription is heavily damaged, with most words unrecoverable. Only the preposition 'in' (בְּ) is clearly identifiable. The phrase evidence suggests a possible context, but it is not directly translatable due to insufficient surviving text. The remaining characters are too fragmented to yield a defensible translation.",
+   "line_id": 25897,
+   "source_hash": "37e3e2737aaa23330ddd2d5e02a4b4184184c9ce60b1706b1d3c004144d9c97d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f127:2": {
+   "en": "my wonders",
+   "notes": "The transcription includes a reconstructed suffix and an untranslatable character (ε). The translation reflects the recoverable lexical item 'wonders' with a possessive suffix, but the exact form and context remain uncertain.",
+   "line_id": 25898,
+   "source_hash": "aeb1a7ee14becab0791df12b8a01cde51182e6919443073fab75362c2c2592d0",
+   "source_condition": "reconstructed"
+  },
+  "4Q505 f127:3": {
+   "en": "You were superior",
+   "notes": "The transcription is damaged and partially reconstructed. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 25899,
+   "source_hash": "78198cac488146253f08243ebad5459eb47f5c1007164f01d1fae877138b7a5d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f127:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and reconstructions with no defensible English equivalents.",
+   "line_id": 25900,
+   "source_hash": "2f17bb545ccaca5e6074b00ead47a97808e534f4ceaf0803691edec6e89c379e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f128:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a damaged verb form 'אפק' in the hitpael stem, with no recoverable context or high-confidence constraints to guide translation. The visible morphology and damage prevent a defensible English rendering.",
+   "line_id": 25901,
+   "source_hash": "a1c2d3119fdb80d7b69544c4a05b1d47fa8413a416184798009ad48f081f2529",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f128:2": {
+   "en": "in his interior in a pillar",
+   "notes": "Uncertain reconstruction and damaged text affect the phrase's clarity. The first and last characters are untranslatable fragments.",
+   "line_id": 25902,
+   "source_hash": "7b96cad1f8d5c70a727c3fd49e7efb7ba50a6e20eb682e43b85e8e2902ae5094",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f128:3": {
+   "en": "you have spoken",
+   "notes": "The transcription is heavily damaged, with only a reconstructed verb form (דבר_2, vpp2ms) surviving. The translation reflects the visible morphology, but uncertainty remains due to the fragmentary state of the text.",
+   "line_id": 25903,
+   "source_hash": "1868567bb4c83cd5892a9d17f59b53509a32fbb9ec916df61691efd89db93adf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f129:1": {
+   "en": "and to the name the great",
+   "notes": "Uncertain transcription and reconstruction in 'שמ׳כ ]ה#' (name / Shem) and 'גדול##[' (great). The phrase 'the name of the great [people]' is a repeated pattern but not directly supported here. Omitted '[no recoverable text]' for untranslatable 'ε' fragments.",
+   "line_id": 25904,
+   "source_hash": "e3eda4c54e29bb7797a05f8996f0b7a3737b36b325102be530e7d50b97d12068",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q505 f129:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with only a partially reconstructed relative particle (אשר) and untranslatable fragments. No defensible English words survive.",
+   "line_id": 25905,
+   "source_hash": "8018da14002b8e05ace4ad78a04abb524b35a1f270a376b391ccf0d150b28830",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

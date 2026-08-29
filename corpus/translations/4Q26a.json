@@ -1,0 +1,333 @@
+{
+ "id": "4Q26a",
+ "label": "4Q26a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 45,
+ "scroll_id": 805,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q26a f1:1": {
+   "en": "and supported his hand upon the head of the offering and slaughtered it at the entrance of the tent of meeting and they tossed the blood upon the altar",
+   "notes": "Uncertain reconstruction of damaged tokens: ס#מ#ך (support), י?ד##׳[ (hand). Phrase evidence supports 'supported hand upon the head of the offering' (positions 3-7), 'entrance of the tent of meeting' (positions 10-12), and 'tossed the blood upon the altar' (positions 14-24).",
+   "line_id": 42288,
+   "source_hash": "dfba74be015e24ba79a527634d71bd0772d503f7ce12c816f299cf0c2a357d0c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f1:2": {
+   "en": "Surrounding, he will present from the sacrifice of the peace offerings a fire offering to Yahweh, the fat which covers the interior and all the fat.",
+   "notes": "Uncertain reconstruction of 'surrounding' (סָבִיב) and 'sacrifice' (זֶבַח_1). High-confidence phrase evidence supports 'he will present from the sacrifice', 'of the peace offering(s) a fire offering', and 'the fat which covers'. 'All the fat' is a repeated phrase with strong support.",
+   "line_id": 42289,
+   "source_hash": "32a3db45bafa5f73711ebd2e96a6dbad38338a615691bbffb170ed6702cab5c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f1:3": {
+   "en": "upon the interior and the two kidneys and the fat which [is] upon the loins and the appendage of liver",
+   "notes": "Uncertain conjunction at position 6. Reconstructed text at positions 1 and 10.",
+   "line_id": 42290,
+   "source_hash": "6c6acd55ffe725be669c750fee6ae277030463d0eee3aeafdcfa5433b9844066",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f2:1": {
+   "en": "And they made smoke the sons of Aaron the altar the burnt-offering which",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The phrase 'the sons of Aaron' is supported by repeated phrase evidence. The translation conservatively follows the recoverable text without adding implied subjects or smoothing syntax.",
+   "line_id": 42291,
+   "source_hash": "9f99d682f62dd7ea45320d39ac9a8fe1eb4ece164a3ee56c6f9e02083b441c40",
+   "source_condition": "clean"
+  },
+  "4Q26a f2:2": {
+   "en": "Upon the wood which is upon the fire that is upon the altar, a fire offering of an odor of soothing to Yahweh",
+   "notes": "Uncertain reconstruction of damaged text at positions 3, 4, 5, and 6. Phrase evidence supports the rendering of 'a fire offering of an odor of soothing to Yahweh' for positions 12-16.",
+   "line_id": 42292,
+   "source_hash": "8606dd97283e1893d5f14923ed47b1d8e7bc7f049061a40f980ace19efb23d8c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f2:3": {
+   "en": "And if from the flock the offering to the sacrifice of the peace offerings to Yahweh, a male or a female unblemished he shall present it.",
+   "notes": "Uncertainty in the transcription is noted for the word 'צ ]א#ן' (cattle). The phrase 'unblemished he' is supported by repeated phrase evidence. The translation follows the visible morphology and lexical glosses, with preference given to repeated phrase evidence where available.",
+   "line_id": 42293,
+   "source_hash": "9e8938974bc698d8fa403889555bdf31079633875b2314628d555c0b7e577ee0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f2:4": {
+   "en": "Approaching his offering and he brought it before Yahweh and he supported his hand on the head of his offering and slaughtered it before",
+   "notes": "Uncertain transcription and reconstruction in 'and he brought it' (ו#?). Phrase evidence supports 'before Yahweh' and 'on the head his present' but introduces 'his' without clear licensing in the source. 'Supported' is chosen over 'lean' for clarity. 'Slaughtered' is preferred over 'cut the throat of' for naturalness.",
+   "line_id": 42294,
+   "source_hash": "1b69a38def7eaf3ddced3f57fd5a3643f2baf001cf02e234087383e8b291a166",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f2:5": {
+   "en": "the tent of meeting and they will sprinkle the sons of Aaron the blood upon the altar surrounding",
+   "notes": "Uncertain elements include the verb 'toss/be white' (position 4), 'sons' (position 5), 'Aaron' (position 6), and the object marker (position 7). The phrase 'they will sprinkle the sons of Aaron' is supported by repeated evidence. The translation conservatively follows the recoverable text without adding uncertain subjects or connectors.",
+   "line_id": 42295,
+   "source_hash": "5f68c4155f6d023f0c6cc43ec896fe6dfe414a7fb40c60a49df00fb5a83e7fab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f3:1": {
+   "en": "As a native from you, he will be to the sojourner, the sojourner with you, and you loved",
+   "notes": "The phrase 'from you' is uncertain due to the reconstructed nature of the text. The verb 'dwell' is translated as 'sojourn' based on the dominant contextual rendering, but it could also mean 'be afraid' or 'attack'. The object marker 'את׳כם' is omitted from the translation as it does not add meaningful information in English.",
+   "line_id": 42296,
+   "source_hash": "73f7c9e6bec8a85e46381f6bb368200fa2db7eed3eb4b4352e682d2069352606",
+   "source_condition": "reconstructed"
+  },
+  "4Q26a f3:2": {
+   "en": "As you were sojourners in the land of Egypt, I am Yahweh your God.",
+   "notes": "The phrase 'as you were sojourners' is supported by repeated phrase evidence. The sequence 'in the land of Egypt I' and 'I am Yahweh' are strongly supported by canonical patterns. The final phrase 'your God' is a natural completion based on the provided glosses and constraints.",
+   "line_id": 42297,
+   "source_hash": "dc499e4adb35f13788bbe154c212c9d161073ea65981ed1cff006199a8906089",
+   "source_condition": "reconstructed"
+  },
+  "4Q26a f3:3": {
+   "en": "Do not do injustice in justice, in measure, in weight, and in mesura. Stones of justice.",
+   "notes": "The transcription contains reconstructed and uncertain elements, particularly at the end. The phrase 'אבני צ##[ ד ]ק' is translated conservatively as 'stones of justice,' with the final word being a reconstruction.",
+   "line_id": 42298,
+   "source_hash": "410e9bd02bae30f416a92aad2f6378f1e34fee9043ca1cf0d9e4e7c7992a7c67",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f3:4": {
+   "en": "An ephah of righteousness and a hin of righteousness will belong to you. I am Yahweh your God, who",
+   "notes": "The phrase 'an ephah of righteousness' is supported by repeated evidence. 'I am Yahweh your God' is a high-confidence reconstruction. The final 'who' indicates a relative clause introduced by 'which' or 'who,' but the fragment ends abruptly.",
+   "line_id": 42299,
+   "source_hash": "46100d3c5e4f35bcadf5fdd16c85d41731f26d92bcca1bb0f7cef73ab9905f61",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f3:5": {
+   "en": "I brought you out from the land of Egypt. And you will keep all statutes",
+   "notes": "Uncertain reconstruction in 'statutes' and following conjunction. Lacuna before final object marker.",
+   "line_id": 42300,
+   "source_hash": "9282d85d0d095ea32cea38edac2dc89fc33a0a6fd3a2e4ebfe9a5b387b05498a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f4:1": {
+   "en": "To Moses (cmp) saying and to the people of Israel you will say a person a person of the people of Israel",
+   "notes": "Uncertain reconstruction of 'saying' (position 4). High-confidence phrase evidence supports 'Moses (cmp) saying' and 'to the people of Israel'. Repeated phrase evidence suggests 'a person a person of' and 'of the people of Israel'.",
+   "line_id": 42301,
+   "source_hash": "a5045e7564b6140b561d99b941d2fff70948cb7ad3f734714bd2d82e9b04b1ec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f4:2": {
+   "en": "And from the sojourner who sojourns in Israel, whom he has given from his seed to Moloch, he will surely be put to death",
+   "notes": "The phrase 'sojourner [who] sojourns' is supported by repeated evidence. The phrase 'of Israel who he has given' is a contextual rendering with moderate support. The phrase 'king surely (die) you will die' and 'surely (die) he will be put to death' are contextual renderings with varying support. The translation preserves the grammatical person, number, and semantic relationships. Uncertainty in reconstruction is noted for 'Israel'.",
+   "line_id": 42302,
+   "source_hash": "b66151e5eb8d602673cb9ed2324d8213531f7c02e17f659c1ce7f053df07091c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f4:3": {
+   "en": "The people of the land stone him with stones, and I will set face in the man that",
+   "notes": "The verb 'stone' is reconstructed and uncertain. The phrase 'I will set face' is a repeated phrase with high support, but its meaning is unclear. The phrase 'person (the) that' is a repeated phrase with moderate support, but its relationship to the preceding text is uncertain.",
+   "line_id": 42303,
+   "source_hash": "2bd5ecebfaeec18e65c32de5742436b143685a71828b24e499a8a6eaf756a846",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f4:4": {
+   "en": "And I cut off from the midst of his people that he had given to Moloch because of being unclean",
+   "notes": "The phrase 'from the midst his people' and 'he had given to the king' are supported by repeated phrase evidence. The object marker 'et' is uncertain due to damage. The final verb 'be unclean' is an infinitive construct.",
+   "line_id": 42304,
+   "source_hash": "db87fe6664b5e1dfc4e17ccd8e9f31ed54ca5e51a0debd5617f11f1c3010c124",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f5:1": {
+   "en": "And a man or a woman that will be in them",
+   "notes": "The phrase 'a man or a woman' is supported by repeated phrase evidence. The verb 'will be' is a conservative translation of 'יהיה' in the third-person singular masculine form. The prepositional phrase 'in them' is a direct translation of 'ב׳הם', though its referent is uncertain due to damage and reconstruction.",
+   "line_id": 42305,
+   "source_hash": "3dc4ac2cc202a78b705f1f305fdd596e2652610a060d62e94587bdb2139b52cd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f5:2": {
+   "en": "A spirit of the dead or a soothsayer, they will surely die, they will be put to death with stones, their blood in",
+   "notes": "Reconstructed and uncertain terms include 'soothsayer' and the final prepositional phrase. The phrase 'their blood in' is supported by repeated evidence but remains fragmentary.",
+   "line_id": 42306,
+   "source_hash": "c9360c8456268ed3639626a16da8ab6cfe43a7667c1f04d0f5dd97bb47afb5b0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f5:3": {
+   "en": "And he said, Yahweh to Moses say to the priests the descendants of Aaron and you shall say to them concerning a soul not",
+   "notes": "The phrase 'concerning a soul not' is uncertain due to the damaged state of the text. The reconstruction of 'to Moses' is based on repeated phrase evidence.",
+   "line_id": 42307,
+   "source_hash": "5d66557cd7e32cff8f63dae8bb1329c7b7079f02f18a93853d941cdd791a7cec",
+   "source_condition": "reconstructed"
+  },
+  "4Q26a f5:4": {
+   "en": "He shall be unclean in his people. That if to his body, to the near to him, to his mother, and to his father, and to his son, and to his daughter",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'the near to him' is supported by repeated phrase evidence. No uncertainty is signaled in the translation, but the notes clarify the basis for the rendering.",
+   "line_id": 42308,
+   "source_hash": "00ce5dcedc3d1746ee6f35b85ab95a60305bb553d987d0b7ab3b5ebd62f7a9dd",
+   "source_condition": "reconstructed"
+  },
+  "4Q26a f5:5": {
+   "en": "And to my brother and to my sister the virgin near to me who has not been to a man to become unclean",
+   "notes": "The phrase 'to become unclean' is a reconstruction based on repeated phrase evidence. The phrase 'near to me' is a reconstruction based on repeated phrase evidence. The phrase 'who has not been to a man' is a reconstruction based on repeated phrase evidence.",
+   "line_id": 42309,
+   "source_hash": "ec696f7774e8fea5806e589d04a5d77bdbe794b106ceb4c556f81f34b4be3d53",
+   "source_condition": "reconstructed"
+  },
+  "4Q26a f5:6": {
+   "en": "And he shall not be unclean with the lord in his people to be defiled",
+   "notes": "Uncertainty in the reconstruction of the particle 'ל#' and the lemma 'חלל_1' due to damage. The gloss for 'חלל_1' is ambiguous, but 'defile' is chosen based on context.",
+   "line_id": 42310,
+   "source_hash": "3f3eee6e44b6fabfc2c6bdc1d52a8f5dcb98dd3c053ae83bc2e6bc66644ecd12",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f6:1": {
+   "en": "and a daughter of a man, a priest",
+   "notes": "The phrase 'a daughter of a man' is supported by repeated phrase evidence. The transcription contains uncertain and reconstructed elements, including untranslatable characters and damage.",
+   "line_id": 42311,
+   "source_hash": "380d6a0a0509f92a4e49130f7267c67d91ac2ba4eea8fa57954745db77bffb8b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f6:2": {
+   "en": "For she began to defile the house of her father, she shall be burned in fire",
+   "notes": "The phrase 'began to defile' reconstructs a damaged verb form. The phrase 'shall be burned' uses a repeated phrase pattern with moderate support. The phrase 'the house of her father' uses a repeated phrase pattern with low support.",
+   "line_id": 42312,
+   "source_hash": "8479feebc626e8c1cea2f36c4a676e247f998092e9e410f0267a6fefed13e89c",
+   "source_condition": "reconstructed"
+  },
+  "4Q26a f6:3": {
+   "en": "From his brothers who pour upon the head the oil of anointing and he filled his hand to wear the garments",
+   "notes": "Uncertain elements include the relative pronoun 'who' and the verb 'pour'; the phrase 'the oil of anointing' is supported by repeated evidence; 'his hand' and 'the garments' are contextually implied but not explicitly stated in the source.",
+   "line_id": 42313,
+   "source_hash": "7bb08551bb080f149b0f3e0ac1a028400bcf1ab176c5528163b8b233dfd6965e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f6:4": {
+   "en": "His head not let loose and his garments not rent and upon all souls dead not he will come",
+   "notes": "Uncertain conjunction after 'let loose'; reconstructed object marker before 'head'; phrase evidence supports 'corpses of dead [person][s]' and 'of dead [person][s] not he will go'; uncertain final verb form.",
+   "line_id": 42314,
+   "source_hash": "4fe769d47a92ec7e4cde46a600e5b9369b07bdda95c3754f00293af36b2ee9c3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f6:5": {
+   "en": "To his father and to his mother he shall not be unclean. And from the sanctuary he shall not go out, and he shall not profane the sanctuary.",
+   "notes": "The phrase 'he shall not profane the sanctuary' is supported by repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, preserving the structure and meaning of the original text.",
+   "line_id": 42315,
+   "source_hash": "64c26116d1a873e43be31e001206fd7943327fb4fd6860376ca333545a84793c",
+   "source_condition": "reconstructed"
+  },
+  "4Q26a f7:1": {
+   "en": "He will approach to present the fire offerings of Yahweh, and the bread of his God, he will not approach to present.",
+   "notes": "The phrase 'the fire offerings of Yahweh' is supported by repeated phrase evidence. The phrase 'the bread of his God' is supported by repeated phrase evidence, though with lower confidence. The verb 'approach to present' is supported by repeated phrase evidence. The negation 'not' is explicitly present in the source. Uncertainty in the source text is noted for the word 'מוּם' (position 7), which has no trusted gloss.",
+   "line_id": 42316,
+   "source_hash": "b51d88d03b2586c609040263774ed8f690192e1a4db9e8b1a71d3666b09f39bb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f7:2": {
+   "en": "The bread of his God, from the holy places, and from the holy things it will be eaten. Only to the curtain he will not come.",
+   "notes": "Positions 6 and 12 contain untranslatable characters. Position 12 is a sentence divider and does not affect translation.",
+   "line_id": 42317,
+   "source_hash": "eabddfdc31cfde184416ca14ba4c67b4b23fcc9b7e82c7e3677bf223ee516a40",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f7:3": {
+   "en": "And to the altar no one shall approach because of a blemish in it, and he shall not defile my sanctuaries, for I [am] Yahweh",
+   "notes": "The phrase 'because of a blemish in it' is a contextual rendering of the uncertain word 'מ ]ום' (position 8) combined with the preposition 'ב׳ו' (position 9). The phrase 'I [am] Yahweh' is a high-confidence rendering of the repeated phrase evidence for positions 15-17.",
+   "line_id": 42318,
+   "source_hash": "63a70426d57e4190ea2898c6799d1f1c9bd65b712d19598d427fe5e6c9e61be0",
+   "source_condition": "reconstructed"
+  },
+  "4Q26a f7:4": {
+   "en": "Their sanctifying and Moses spoke",
+   "notes": "The first word is a reconstructed form of 'be holy' in the piel participle, masculine singular. The phrase 'and Moses spoke' is supported by repeated evidence, though the dominant rendering 'he spoke Moses' is not followed due to person mismatch with the source.",
+   "line_id": 42319,
+   "source_hash": "edd068a55c8b2c3f3ed05b9d43c0e7645144d39fc89d1dd0296d44e89f5e143d",
+   "source_condition": "reconstructed"
+  },
+  "4Q26a f7:5": {
+   "en": "to Aaron and to his sons and to all Israel",
+   "notes": "The phrase 'to all Israel' is supported by repeated phrase evidence. The transcription contains reconstructed and uncertain elements, but all recoverable words are accounted for in the translation.",
+   "line_id": 42320,
+   "source_hash": "cbd7b0287ee6165c8ee7a428bd39550b6edb3e97f692bacde2e5d6099271fb46",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f8:1": {
+   "en": "a man a man from the offspring of Aaron",
+   "notes": "The initial ε is omitted as it cannot be translated independently. The phrase 'the offspring of Aaron' is supported by repeated phrase evidence. Uncertainty in the transcription is noted but does not affect the translation.",
+   "line_id": 42321,
+   "source_hash": "95b4456f4ebd6d9b20cb92ef8190f5c929421f7cdd5a50dab5fb6657570142e3",
+   "source_condition": "uncertain"
+  },
+  "4Q26a f8:2": {
+   "en": "And he who has a skin disease or a discharge, in holy things he shall not eat until he is cleansed, and the one who touches any unclean person or man",
+   "notes": "The phrase 'in holy things he shall not eat' is supported by repeated phrase evidence. The phrase 'any unclean person or man' is a combination of two separate phrase evidence entries, with the latter part being less certain due to lower support.",
+   "line_id": 42322,
+   "source_hash": "ccf1375ecca2de7d21423f6e322b83ef4859d0b53a4baff773a342c46cac7cda",
+   "source_condition": "reconstructed"
+  },
+  "4Q26a f8:3": {
+   "en": "Which shall go out from a laying of seed, or a man who he will touch in every swarming thing unclean",
+   "notes": "The phrase 'a laying of seed' is a supported rendering of 'שכבת זרע'. 'Anyone who he will touch' follows repeated evidence for 'איש אשר יגע'. 'Every swarming thing' is a high-confidence interpretation of 'כל שרץ'. The transcription contains one reconstructed word (אשר) and one uncertain word (שרץ).",
+   "line_id": 42323,
+   "source_hash": "9f01d6526b744c306027e4874a477d42517c547cfcf5575a3e5721d80e4a57a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f8:4": {
+   "en": "Whoever defiles himself or a human who defiles himself to all uncleanness. A soul which it will touch.",
+   "notes": "The phrase 'to all uncleanness' is supported by repeated phrase evidence. The phrase 'a soul which it will touch' is supported by repeated phrase evidence, though the verb 'touch' is uncertain.",
+   "line_id": 42324,
+   "source_hash": "fb50b1fc249302222db511a9c76ef9a04c5f71be4b57600ca61c793251a96568",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f9:1": {
+   "en": "And the son of his house, they will eat in his bread. And a daughter of a priest that she will be to a man strange.",
+   "notes": "Uncertain particles and damaged syntax prevent fluent reconstruction. Phrase evidence supports 'daughter of a priest' and 'to a man strange' but does not license adding English connectors or possessives. The translation preserves recoverable material without inventing relations.",
+   "line_id": 42325,
+   "source_hash": "be6cf05246db0fee85a9188e541fb1701d24bd8183763fdc2376b4bd09caa0a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f9:2": {
+   "en": "In the contribution of the holiness not she will eat. And a daughter of a priest that she will be a widow and divorced and seed",
+   "notes": "Uncertain reconstruction and gloss for 'קדשי ]ם##' (holiness). Uncertain reconstruction for 'כ#י#?[' (that). The phrase 'בת כהן' is supported by repeated evidence as 'a daughter of a priest'. The sequence 'תהיה אלמנה' is supported as 'she will be a widow'.",
+   "line_id": 42326,
+   "source_hash": "7d1878dee157a3ffe1b225091edf6ee7d921c7901fcf64ce6aa05a8c53b2da49",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f9:3": {
+   "en": "There is no returning to my father's house like in youth from bread my father will eat and any stranger",
+   "notes": "The phrase 'any stranger' is supported by repeated phrase evidence. The phrase 'to my father's house' is a reconstruction based on contextual evidence, but its support is low. The phrase 'from bread my father' is uncertain due to low support in repeated phrase evidence.",
+   "line_id": 42327,
+   "source_hash": "5d91d6513f14c1ac7e4f9cc411af76f28805e098cbd4d48a06ad6ba6d6e048e3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f9:4": {
+   "en": "Not he will eat in and a man that he will eat a holy thing in error and he added his fifth upon and gave",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence guiding 'he will eat a holy thing' and 'five on'. Uncertainty in the verb 'eat' (position 2) is noted but does not affect the translation. The source punctuation mark (position 4) is omitted as it cannot be translated independently. Lacunae and reconstructions are preserved without brackets or placeholders.",
+   "line_id": 42328,
+   "source_hash": "09f668a4c575223e3efca22b833de2476f5e7889b31286c07f287f1374a02fc0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f9:5": {
+   "en": "To the priest the holiness and they shall not defile the holy things of the sons of Israel whom they shall raise",
+   "notes": "Uncertain object marker (et) and reconstructed text in 'the holy things of the sons of Israel'.",
+   "line_id": 42329,
+   "source_hash": "8d431df96a4a29f7f0949289fa5c41f5923d3364aab3ccbac064e7ecb221561f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f9:6": {
+   "en": "To YHWH. And they lifted the sin and guiltiness in eating their holy things that I [am] YHWH.",
+   "notes": "The translation follows the visible morphology and phrase evidence, retaining the supplied context-free glosses for uncertain terms. The phrase 'I [am] YHWH' is supported by repeated phrase evidence with high confidence. Uncertainty in object markers and reconstructions is noted but not bracketed in the translation.",
+   "line_id": 42330,
+   "source_hash": "11378cc676383a150ef810dbea533117a28f3cf5a80409b9dfb093dd71ef688c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q26a f9:7": {
+   "en": "being sanctified",
+   "notes": "The transcription contains a reconstructed form of the verb 'to be holy' in the Piel participle, masculine singular construct form. The final character is a punctuation mark and is not translated.",
+   "line_id": 42331,
+   "source_hash": "d25c3deeda11d9a39ae8aac1736312ab76ae37f4473415c8aca415abfa65bb8d",
+   "source_condition": "reconstructed"
+  },
+  "4Q26a f9:8": {
+   "en": "And he spoke to Moses, saying: Speak to Aaron and to his sons and to all the people.",
+   "notes": "The transcription is partially reconstructed and uncertain. The phrase 'and he spoke to Moses, saying' is supported by repeated evidence. 'Speak to Aaron' and 'to all the people' are also supported by repeated evidence. The phrase 'and to his sons' is a conservative translation of the visible text, though its context is uncertain.",
+   "line_id": 42332,
+   "source_hash": "9b0be69efd65511f599f6574aa136256467e2be6c66d872e7eb6bf65b31ed871",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

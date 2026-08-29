@@ -1,0 +1,326 @@
+{
+ "id": "4Q385",
+ "label": "4Q385",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 44,
+ "scroll_id": 372,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q385 f1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a Greek letter 'ε' and a damaged Hebrew fragment ']די', neither of which can be independently translated or combined into a coherent English phrase.",
+   "line_id": 16780,
+   "source_hash": "812f7969b8f3a17a3d6cd86e9864688a876a9709cfbab819403fc61f92f94049",
+   "source_condition": "clean"
+  },
+  "4Q385 f1:2": {
+   "en": "you return",
+   "notes": "The transcription contains an uncertain prefix and a damaged verb form. The verb 'שׁוב' is translated as 'return' based on its lexical gloss, with the second-person masculine plural imperative implied by the morphology. The prefix 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 16781,
+   "source_hash": "dae2827879a534c680e9f4e22e0cdf0069ac31a9045c7839dc4cddcca8c30356",
+   "source_condition": "uncertain"
+  },
+  "4Q385 f1:3": {
+   "en": "upon them",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The suffix '׳הם' is a third-person masculine plural pronoun, and 'עַל' is a preposition meaning 'upon' or 'on'. The final punctuation mark '׃' is omitted as it does not contribute to the translation.",
+   "line_id": 16782,
+   "source_hash": "4baddb2eccf377384e4dafb680ad0acc5b11f985270e8940cb39b244aebac7f2",
+   "source_condition": "uncertain"
+  },
+  "4Q385 f2:1": {
+   "en": "For I YHWH am the redeemer of my people to give to them the covenant",
+   "notes": "The verb 'redeem' is uncertain due to damage in the transcription. The phrase 'to give to' is supported by repeated phrase evidence.",
+   "line_id": 16783,
+   "source_hash": "803225f83bfd8c27f8f3378ec0d233724542c38e1d93d2aafb99f336b314c8f3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f2:2": {
+   "en": "And I said, Yahweh, I have seen many from Israel who loved your name, and they went",
+   "notes": "The phrase 'he says Yahweh' is a high-confidence contextual rendering for the sequence 'said Yahweh'. The phrase 'you have seen many [things]' is a possible rendering for 'seen many', but the context suggests 'many from Israel' is more appropriate. The sequence 'of Yahweh I saw' is a low-confidence rendering and is not used in the translation.",
+   "line_id": 16784,
+   "source_hash": "495df1f3c6ad26a69d65ad999aee51f9a4fe31fc86ebf82bb8f912b6700b7074",
+   "source_condition": "reconstructed"
+  },
+  "4Q385 f2:3": {
+   "en": "In the ways of your heart and these when will they be? And how will their loyalty be complete? And he says Yahweh",
+   "notes": "The transcription contains damaged and uncertain elements, including incomplete words and uncertain reconstructions. The phrase 'היכ#כ#ה#' is untranslatable due to severe damage, and its meaning is unclear. The verb 'יהיו?' is uncertain due to damage, but its context suggests a question about timing. The particle 'ו?' is also uncertain due to damage. The term 'חסד׳ם' is translated as 'loyalty' based on the provided gloss, but its exact sense in this context is unclear. The phrase 'ויאמריהוה' is translated as 'and he says Yahweh' based on repeated phrase evidence.",
+   "line_id": 16785,
+   "source_hash": "d20c1bea07dd6cbd9f7528e364500191d502a1b72bec07b57c2b47be887d4f1d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f2:4": {
+   "en": "To me, I will see the people of Israel and they will know that I [am] Yahweh",
+   "notes": "The phrase 'the people of Israel' is a high-confidence contextual rendering of 'בנ?י?ישראל'. The phrase 'I [am] Yahweh' is a high-confidence contextual rendering of 'אנייהוה'.",
+   "line_id": 16786,
+   "source_hash": "f1127729e646de695d34eb0a4f46ff3740ae723476a4ee35f5604fda3f4a2023",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f2:5": {
+   "en": "And he said, O son of humankind prophesy upon the bones, and you said, and they approach bone to its bone, and plunder",
+   "notes": "Uncertainty in the reconstruction of 'יק## # ב##ו#?' as 'they approach' is noted. The phrase 'O son of humankind prophesy' is supported by repeated phrase evidence.",
+   "line_id": 16787,
+   "source_hash": "9d5096309529587d5ae475d1fcb99dcfee1d50adc53e5bf05c4a03df085a4896",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f2:6": {
+   "en": "To the plunder, and it was thus. And he said a second prophecy, and they ascended upon sinews, and they spread skin.",
+   "notes": "The transcription contains uncertain characters and a reconstructed word. The phrase 'he put up on' is a high-confidence repeated phrase, but it does not fit the syntax of the sentence, so it is not used. The translation preserves the visible morphology and lexical items, but the meaning remains uncertain due to the damage and reconstruction.",
+   "line_id": 16788,
+   "source_hash": "dc7c448706696bac9225ca7b9beae14d56c9fd3fae00bbdb8241ec33fcd05dd7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f2:7": {
+   "en": "From above and it was so. And he said return, prophesy upon the four winds of the heavens. And they blow wind",
+   "notes": "Uncertain transcription and reconstruction in 'he said' (position 9) and 'wind' (position 20). Phrase evidence supports 'the four winds of the heavens' as a repeated expression.",
+   "line_id": 16789,
+   "source_hash": "d5448f8754648d75cb445ddebc3eef591df7840abf9fdb178e578233bd3c6901",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f2:8": {
+   "en": "In the slain and it was thus and they lived with many men and they blessed Yahweh of hosts whom",
+   "notes": "Uncertain reconstruction of initial preposition and damaged verb. Unclear syntax around 'and it was thus.' Relative pronoun 'whom' added for fluency but not explicitly licensed by source.",
+   "line_id": 16790,
+   "source_hash": "143ec8dda0cfbc20af4c55410f36c596606087fc9778cadb397280f86e55e370",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f2:9": {
+   "en": "They lived and I said YHWH when they will be these and he said YHWH to",
+   "notes": "The translation includes all recoverable words in order. The phrase 'he said YHWH to' is supported by repeated phrase evidence. The verb 'lived' is reconstructed and translated based on the lemma and morphology. The particle 'and' is translated from the conjunction 'ו'. The phrase 'when they will be these' is a literal translation of the provided words, though its meaning is uncertain. The final preposition 'to' is translated from the suffix 'אל׳[ י', with the damaged final letter omitted from the translation.",
+   "line_id": 16791,
+   "source_hash": "cb22c6cd813d692b6187f103565ab4af2947faa5ff654c791b4db7067fc72301",
+   "source_condition": "reconstructed"
+  },
+  "4Q385 f2:10": {
+   "en": "which, from [the] end of days, bends a tree and raises it up",
+   "notes": "The phrase 'from [the] end of days' is supported by repeated evidence. The verbs 'bends' and 'raises it up' are in the third-person singular masculine imperfect form, consistent with the visible morphology. The particle 'which' is a conservative translation of the relative pronoun 'אשר'. The uncertain character 'ε' and the punctuation mark '׃' are omitted from the translation as they cannot be independently translated.",
+   "line_id": 16792,
+   "source_hash": "876a3e7661f1ea34895cbba5ca2dfee79f8b4f88d844e0fa0fff364b3d832fb5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions. The visible characters do not form translatable lexical units.",
+   "line_id": 16793,
+   "source_hash": "b8b317880710ba9699f31e2163c2325e436b6dd591e942054dc0c3adbc7a64d2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f3:2": {
+   "en": "YHWH and they arose all the people and they stood upon their feet to praise",
+   "notes": "The transcription contains untranslatable characters (ε) and damaged text, with reconstruction and uncertainty in the verb 'stood' (יע##[ מד ]ו?). The phrase 'all the people' is supported by repeated evidence, but the overall syntax is fragmented.",
+   "line_id": 16794,
+   "source_hash": "bb9c3ed8ae0a844c84476c843914ab05a39964be095b4c8c70ad46ef8e91d8be",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f3:3": {
+   "en": "And to praise Yahweh of hosts, and I spoke with them",
+   "notes": "The translation accounts for all recoverable words in order. Uncertainty arises from reconstructed text and an unknown final character (ε), which is omitted from the translation.",
+   "line_id": 16795,
+   "source_hash": "a43047de57a133e303c492d16a6482c0ce52417f76515e3ebe1b9f686087c84a",
+   "source_condition": "reconstructed"
+  },
+  "4Q385 f3:4": {
+   "en": "And he said, Yahweh to the son of humankind say",
+   "notes": "Uncertainty in transcription and reconstruction at positions 8 and 9. The phrase 'son of humankind' is supported by repeated evidence, but the exact wording of the imperative 'say' is uncertain due to damage.",
+   "line_id": 16796,
+   "source_hash": "920b7e22ac4b40c3b01e87774b5468c04f2dcc450bf610bc2571204994d99846",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f3:5": {
+   "en": "In a place of burial they will lie down until that",
+   "notes": "Uncertain reconstruction of 'קבו ]ר##ת׳ם' as 'burial' and 'אשר##[' as 'that'. Two untranslatable characters 'ε' omitted.",
+   "line_id": 16797,
+   "source_hash": "7eef6137607d330e96af5f7dd572bd440401c869da57c1a8a582624ae64fee2c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f3:6": {
+   "en": "from graves and from the earth",
+   "notes": "Uncertainty in the transcription and morphology of 'קב ]ר##י׳כם' (grave) noted but translated as a whole unit. Untranslated characters 'ε' omitted as they cannot be independently translated.",
+   "line_id": 16798,
+   "source_hash": "dfd2e135d8ef94f5863681cb80396c9547ece20c610c6996d453b62430821285",
+   "source_condition": "uncertain"
+  },
+  "4Q385 f3:7": {
+   "en": "to [the one] who [was] over the yoke on Egypt",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Phrase evidence supports 'to [the one] who [was] over' and 'on Egypt' but with some uncertainty. Two untranslatable characters omitted.",
+   "line_id": 16799,
+   "source_hash": "74215f32fbe482659941b5f0e3b6caac10f148c270a0a447fdbd1d5d2d253fd2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f4:1": {
+   "en": "under my judge",
+   "notes": "The initial 'ε' is untranslatable and omitted. 'דונ׳י' is interpreted as a suffixed form of 'judge' with uncertain gloss, but context suggests a judicial or authoritative figure.",
+   "line_id": 16800,
+   "source_hash": "597f099b668baaaee92b9aba9ec04876523f878775bb20f9300af688a04ddd91",
+   "source_condition": "clean"
+  },
+  "4Q385 f4:2": {
+   "en": "Rejoice over my soul, and they disturb the days, hastening until they say",
+   "notes": "The transcription is partially damaged, and the translation reflects the recoverable text. The word 'ש#מח' is uncertain, and 'ה#' is also uncertain, but both are translated based on the provided gloss. The phrase 'יתבהלו' is translated as 'they disturb' based on the hitpael stem and the gloss 'disturb'. The word 'מהר' is translated as 'hastening' based on the piel stem and the gloss 'hasten / obtain'. The overall structure and meaning are preserved, but some uncertainty remains due to the damaged transcription.",
+   "line_id": 16801,
+   "source_hash": "adaa8563d56cca7d48f443bd37ec97b9accdf7cea85fe3159ff245ea4eb617ad",
+   "source_condition": "uncertain"
+  },
+  "4Q385 f4:3": {
+   "en": "The man, do not hasten the days because of trampling down the sons of Israel.",
+   "notes": "The phrase 'the sons of Israel' is supported by repeated phrase evidence. The verb 'יירשו' is translated as 'trampling down' based on the provided lexical gloss, though it may also mean 'inherit' in other contexts.",
+   "line_id": 16802,
+   "source_hash": "d2f2c763d5c5b243d5a05eafc7a825a9de4be767a9d433ed5a20ac1f14e9363f",
+   "source_condition": "clean"
+  },
+  "4Q385 f4:4": {
+   "en": "And he said to Yahweh, 'Do not turn away your face, Ezekiel, behold, gather.'",
+   "notes": "Uncertainty in the transcription affects the translation of the final verb 'gather/cut down' and the particle 'behold'.",
+   "line_id": 16803,
+   "source_hash": "f8900de463e2afbf02ff0897b9b30defd36fce96b1310a7be941daf679e58827",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f4:5": {
+   "en": "the days and the years",
+   "notes": "Uncertain due to damaged characters (ε) and reconstructed text (ל). The phrase is incomplete and may have additional context or connections not recoverable from the provided text.",
+   "line_id": 16804,
+   "source_hash": "ca8cd4be92974661c803876c12d9453d86e62e558f96e9809edf92d02647fd09",
+   "source_condition": "reconstructed"
+  },
+  "4Q385 f4:6": {
+   "en": "a little, as you said to",
+   "notes": "The final character 'ε' is untranslatable and omitted. The phrase 'as you said to' is supported by repeated phrase evidence.",
+   "line_id": 16805,
+   "source_hash": "82b15b4c949f490b057ec66fe1d1a9fd4c707336335b9ad63ca69116e931b8a4",
+   "source_condition": "reconstructed"
+  },
+  "4Q385 f4:7": {
+   "en": "For the mouth of Yahweh has spoken these",
+   "notes": "The phrase 'the mouth of Yahweh' is supported by repeated phrase evidence. The verb 'has spoken' is a direct translation of the visible morphology. 'These' is a translation of the adjective 'אלה'.",
+   "line_id": 16806,
+   "source_hash": "f45c0a402b1332525202ec00f4a60c8bf55e7a3ab49992baee1bee14039a01a3",
+   "source_condition": "reconstructed"
+  },
+  "4Q385 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and reconstructions with no clear lexical meaning. The visible forms (ε, ]אמפ # [, ε) do not provide sufficient evidence for a defensible English translation.",
+   "line_id": 16807,
+   "source_hash": "b766e89e7699fc365157ec437c531a96f594f0a96ed95c5e480536ddda073d6d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f5:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed partial word (בס), with no recoverable meaning or syntax.",
+   "line_id": 16808,
+   "source_hash": "fe7dbe64f58f7a6d754157088661d95b2cbee17ac93e5d259bef46fb823e47da",
+   "source_condition": "reconstructed"
+  },
+  "4Q385 f6:1": {
+   "en": "And they were my people",
+   "notes": "The final characters 'ה[ε' are damaged and cannot be translated independently; their meaning is uncertain.",
+   "line_id": 16809,
+   "source_hash": "0f441c1fd248d27eceaf9c5ccea55905501d0cdad663e717500727314e855a8d",
+   "source_condition": "reconstructed"
+  },
+  "4Q385 f6:2": {
+   "en": "In a good heart and in a delighting soul",
+   "notes": "The transcription contains damaged and uncertain elements, including a reconstructed word (soul) and an untranslatable character (ε). The translation reflects recoverable content conservatively.",
+   "line_id": 16810,
+   "source_hash": "d187068260dfacbc49c4e280a691eae2f69202a9a25480e4433b71ea879696ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f6:3": {
+   "en": "And hide as little [no recoverable text]",
+   "notes": "The final characters 'ק[ טε׃' are damaged and cannot be translated independently. The translation reflects the recoverable words and indicates the uncertainty.",
+   "line_id": 16811,
+   "source_hash": "95efc49381938be827369504a565a650c0baebb3bd43b3334f8ae7dfdaccdb60",
+   "source_condition": "reconstructed"
+  },
+  "4Q385 f6:4": {
+   "en": "and from breaches",
+   "notes": "The final characters are damaged and cannot be translated independently. One word is reconstructed.",
+   "line_id": 16812,
+   "source_hash": "152bfb76c2da671ffebce59b7cd6740b359a33c47346bfaa49597438d0450780",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f6:5": {
+   "en": "the sight which Ezekiel saw",
+   "notes": "Reconstructed and uncertain elements include the name 'Ezekiel' and a final untranslatable character.",
+   "line_id": 16813,
+   "source_hash": "5edefd0574a358a63a7033fa6da34e3861725c4c9e4d06f4b2ad0c721d1cfd32",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f6:6": {
+   "en": "He shone the chariot and four beasts a beast and in going not they turned",
+   "notes": "The translation includes a reconstructed character and an unknown character (ε), which is omitted in the translation. The phrase 'they moved not they turned' is supported by repeated phrase evidence.",
+   "line_id": 16814,
+   "source_hash": "d010c05083abc6185cee29f6cf31db4ed35b89ec1625bf68b3c6a15ff2573f0c",
+   "source_condition": "reconstructed"
+  },
+  "4Q385 f6:7": {
+   "en": "Back upon two the wild animal goes, the one and two of feet",
+   "notes": "The transcription includes uncertain and reconstructed elements, particularly in the final word. The character 'ε' at the end is untranslatable and omitted.",
+   "line_id": 16815,
+   "source_hash": "36f6c6d4cfb0c630d96ac15c9e1359ded728c0eebdb82ef877a33bbf16d4b050",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f6:8": {
+   "en": "Upon one it will be breath and before them this in principle this and likeness",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'one it will belong' is supported by repeated phrase evidence, but the overall syntax is fragmented. The term 'עקר' is uncertain and left as 'principle' based on available glosses. The final 'and likeness' is uncertain due to the damaged state of the text.",
+   "line_id": 16816,
+   "source_hash": "ded02fe6c66ed302e16606a302c7be2fa0eece0b99b7af242e9a606c6cdb60e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f6:9": {
+   "en": "The faces, one lion, one eagle, and one bull, and one of a human. And it was the hand.",
+   "notes": "The transcription contains damaged and uncertain elements, particularly around positions 2, 5, and 16. The phrase 'it was the hand' is supported by repeated evidence but remains uncertain due to reconstruction. The particle 'של' at position 12 has no trusted gloss and is omitted from the translation.",
+   "line_id": 16817,
+   "source_hash": "833367608fbae73b5e3eb6aaf2198039dab736e4c5fd8ff1d05c8ad0b02c6e79",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f6:10": {
+   "en": "A human, united from the sides of the wild animals, and cleaving to their wings, and the wheels",
+   "notes": "The transcription contains damaged and uncertain elements, including a possible lacuna after 'wings' and an uncertain final word 'wheels'. The verb 'united' is uncertain, and the particle 'and' is reconstructed. The translation conservatively reflects all recoverable lexical items without adding implied subjects or connectors.",
+   "line_id": 16818,
+   "source_hash": "7dbafc1ab3630328ea17aea270c53f7d91d2ce3296228b4ed8e5dc8e90e96d79",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f6:11": {
+   "en": "A wheel united to a wheel for walking from two Eber the wheels of fire",
+   "notes": "Reconstructed text and uncertainty in 'א##[ ופנים' noted. Translation conservatively follows recoverable lexical items.",
+   "line_id": 16819,
+   "source_hash": "6269dfca250e38a170f6366dcf4b4fdf756c3603d3e8c40a43d727f904db776e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f6:12": {
+   "en": "And it was in the midst of charcoals, living creatures like coals of fire",
+   "notes": "The verb 'היה' is uncertain. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 16820,
+   "source_hash": "38bb3a14760f42379cd14dd1dd38e7b49ea22c1c2eb8f0132b0dc903cf46d2a5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f6:13": {
+   "en": "And the wheels and the living creatures and the wheels and he will be upon their heads the firmament as the eye",
+   "notes": "Uncertain transcription in 'אופני?ם' (wheels?), 'יה[ י' (reconstructed as 'היה'), and 'ע ]ל#[' (reconstructed as 'על'). The character 'ε' is omitted as it cannot be translated independently. The phrase is fragmented and lacks clear syntax, with potential gaps in the text.",
+   "line_id": 16821,
+   "source_hash": "dede4eccb5bd33fd827da6602889fd475d21b5d53b08fb928b04597951aac921",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f6:14": {
+   "en": "The frost, the fear and it came a sound from upon the firmament",
+   "notes": "Uncertain transcription and reconstruction in positions 1, 2, 4, and 12. Position 5 is an unknown symbol. Position 12 contains an untranslatable character. Phrase evidence suggests 'it came a sound' for positions 7 and 8.",
+   "line_id": 16822,
+   "source_hash": "b84ec2593dec09af325d0099a3ed6eb3cfb05862a8a799783383a7d8f0be3c2e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q385 f6:15": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains mostly untranslatable fragments (ε, ]ל[, ׃) with no clear lexical or grammatical meaning. The reconstructed and uncertain elements do not provide sufficient context for a defensible translation.",
+   "line_id": 16823,
+   "source_hash": "6f700415fee2595b5dc4397434288b481df5b411a7db25fd8aa151bc34f39278",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

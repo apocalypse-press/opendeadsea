@@ -1,0 +1,354 @@
+{
+ "id": "4Q437",
+ "label": "4Q437",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 48,
+ "scroll_id": 433,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q437 f1:1": {
+   "en": "Bless my soul, O Lord, upon all wonders, unto eternity, and bless name, that he delivered the soul of the poor and",
+   "notes": "Uncertain reconstruction of 'נפ##ל[ אותי׳ו' as 'all wonders' based on phrase evidence. Uncertainty in the translation of 'שמ׳ו' as 'name' due to insufficient context. The final 'את ]' is omitted from the translation as it cannot be translated independently.",
+   "line_id": 21809,
+   "source_hash": "dfa056b9211da93447895ad8d2ef653ad6ffc74cfb93bf2ac9132fa92dca8263",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f1:2": {
+   "en": "The humble, do not despise, and do not forget the poor's distress. He opened his eyes to the poor and heard the cry of orphans. He inclined his ear.",
+   "notes": "The translation includes reconstructed and uncertain terms. The phrase 'incline ear' is supported by repeated evidence, while 'open eyes' has weaker support. The final colon is omitted as it cannot be translated independently.",
+   "line_id": 21810,
+   "source_hash": "7c4fd141c3d3a65ff8fd3235d20ed066acb70e9f352b2195d5d623ca52c32b1f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:1": {
+   "en": "from the congregation of inquirers",
+   "notes": "The initial and final characters (ε) are untranslatable and likely errors or damage. The particle 'מ#' is uncertain but translated as 'from'. The phrase 'מ # [' is reconstructed and untranslatable.",
+   "line_id": 21811,
+   "source_hash": "91ca2e5b2dd12fb634f75b316e2b29fbe7f56b00f6ba1af2a0792867d6d7da01",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:2": {
+   "en": "a net they have hidden to seize and they pursued a soul",
+   "notes": "Uncertain reconstruction of damaged verbs 'hide' and 'pursue'; reconstructed 'soul' is tentative.",
+   "line_id": 21812,
+   "source_hash": "3a811c457a064e311a832c5677f8c710f276897c159056791cb1a45d429a5bba",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:3": {
+   "en": "She will come with a dagger in their heart and their bows will be broken",
+   "notes": "The phrase 'it came [the] sword' is a high-confidence repeated phrase evidence for the sequence 'come' followed by 'dagger'. The translation preserves the grammatical person, number, and semantic relationships. Uncertainty in the transcription is noted, particularly with the reconstructed and uncertain characters.",
+   "line_id": 21813,
+   "source_hash": "0c68dbc8d2ad555d28d6b1ea64cdbba94b8df711116e012deac8404194c8f1ae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:4": {
+   "en": "Upon all this I will bless your name in life which you delivered me from the snare of peoples",
+   "notes": "The transcription contains an untranslatable Greek character (ε) and several damaged or uncertain words (זו ]א##ת, מ#, ק##ו#?ש). The phrase 'all this' is supported by repeated evidence. The verb 'delivered' is reconstructed from הצלת׳ני. The preposition 'from' is uncertain due to damage (מ#). The word 'snare' is uncertain due to damage (ק##ו#?ש).",
+   "line_id": 21814,
+   "source_hash": "768d50866801b6d24d75d195d24ed04a98f370a2e6d5546a28f20feb8b3b6254",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:5": {
+   "en": "and your covenant loyalty to a shield surrounding and [is] protecting life in peoples and in",
+   "notes": "Uncertain transcription and reconstruction in positions 2 and 16. Phrase evidence applied to positions 5-6 and 10-11.",
+   "line_id": 21815,
+   "source_hash": "47b0a26f004af7b4436fecb57fcbc6ff56caa185c7515f8a1bf1aed0a59c0df1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:6": {
+   "en": "Not you were ashamed, my lovers, in my portion, not I forgot: in the distress of soul",
+   "notes": "Uncertain transcription and reconstruction at positions 3 and 5. Phrase evidence suggests 'in bosom' for positions 5-6 and 'the distress his self' for positions 11-12, but these are not directly applied due to lack of explicit licensing. The translation conservatively retains recoverable elements without adding unlicensed connectors or participants.",
+   "line_id": 21816,
+   "source_hash": "8c9a8a4bbae665cc9de8ba28eafb6368f3ded622f49a59b66d3e50aaeb973368",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:7": {
+   "en": "You have forsaken me and not hidden your face from my supplications. And all my grief you have seen and my sins.",
+   "notes": "Uncertainty in the transcription includes a possible negation marker (לו ]א#) and a damaged conjunction (ו?). The phrase 'hide face' is supported by repeated evidence. The translation conservatively retains all recoverable elements without adding implied subjects or connectors.",
+   "line_id": 21817,
+   "source_hash": "ee08dcb8f13db300399f02a801578254ed427b5b4c49df9383fbebbefc5cc30d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:8": {
+   "en": "For from your face he will faint, your wind in distress to listen, you will hear the sound. In your quiver you hid, and in the shadow his hand.",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'your wind in distress to listen' is a conservative rendering of the uncertain sequence. The sequence 'you hid' is a reconstruction. The phrase 'in the shadow his hand' is supported by repeated phrase evidence.",
+   "line_id": 21818,
+   "source_hash": "dc330649f84c09458b8fffcd3e40dd34f7b9c0f3f6f22da53cfc0f703f9933d3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:9": {
+   "en": "He hid you and placed you to an arrow, purging in a hiding place, the palm of your hiding.",
+   "notes": "The transcription is heavily damaged with reconstructions and uncertainties. The translation reflects recoverable words in order, but the syntax is fragmented. The phrase 'כפ׳ךהסתרת׳נ#?י' is uncertain and translated conservatively. The final 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 21819,
+   "source_hash": "49dc25bc4e12cee7a7c8c1320a81375c6af05831f760416669c6e436e5a5eb23",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:10": {
+   "en": "And from clay you delivered me, lest I sink in it, and from the grain of peoples, lest it wash me off",
+   "notes": "Uncertainty in the transcription affects the translation of several words, including the verb 'deliver' (position 4), the phrase 'grain of peoples' (positions 9-11), and the verb 'wash off' (position 13). The phrase 'they have been sunk in [the]' is a repeated phrase evidence for positions 6-7, but it is not directly reflected in the translation due to the conservative approach. The final character 'ε' (position 16) is omitted from the translation as it cannot be translated independently.",
+   "line_id": 21820,
+   "source_hash": "1d3f2907f65631123742ec43fec3dc9afb8850552e97c2190e8ec80b07114082",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:11": {
+   "en": "I ran down in the depths and from the nether world ascended my soul, life was given to my face",
+   "notes": "Reconstructed and uncertain elements include the preposition 'in' (position 3), the noun 'depths' (position 4), the verb 'ascended' (position 9), and the noun 'soul' (position 10). The phrase 'life was given to my face' is supported by repeated phrase evidence.",
+   "line_id": 21821,
+   "source_hash": "4047e93b301f77360cb5bacd0cb312718f404ca8bfcd89ed77b363b86324c76a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:12": {
+   "en": "And a gathering of men, a sign, you sat before their faces and among the boys of justice, you were comforted. And upon the line of justice, you rejoiced.",
+   "notes": "The translation includes reconstructed and uncertain elements: 'sign' (מ##ופת), 'you sat' (ה#ו?ש[ בת ]), 'you were comforted' (נחמת##׳נ#?י#?), and 'line' (קו). The phrase 'he sat before presence' is supported by repeated evidence but adapted to fit the visible morphology. The final punctuation mark (׃) is omitted as it has no clear English equivalent.",
+   "line_id": 21822,
+   "source_hash": "26565992ad16474426d2e0463e4d96a3c3943cb4e46df3d1c1c38fdf51da9c61",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:13": {
+   "en": "My soul in the weight of justice you have kept alive my spirit. I will bless in all strength my Lord.",
+   "notes": "The phrase 'in all strength' is supported by repeated phrase evidence. The transcription contains two reconstructed words and one uncertain word.",
+   "line_id": 21823,
+   "source_hash": "0f74bf49baede80f85c14c383fbfa19f52fba0e93af88aee15683bfd40e29f61",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:14": {
+   "en": "And I will praise in rejoicing of heart your goodness, Lord, I remembered and was supported, my heart before your face. I examined.",
+   "notes": "The transcription contains damage and uncertainty, particularly around the preposition 'in' (position 3) and the phrase 'your goodness' (position 6). The phrase '(et) Lord' (positions 8-9) is supported by repeated evidence. The translation preserves the first-person singular perspective and the sequence of actions.",
+   "line_id": 21824,
+   "source_hash": "c5247bd2907274a5334a5870d248d7550d1db4739f57e71601dd0e4da159e570",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:15": {
+   "en": "To your salvation, Lord, I remember. And my heart rejoices when you lift up a horn. She thirsted.",
+   "notes": "Uncertain elements include the transcription of the divine name (position 3), the meaning of the unknown tokens (positions 4-5, 7, 14), and the reconstruction of 'horn' (position 13). The phrase 'when you' is supported by repeated evidence for positions 11-12. The phrase 'heart with' is less supported for positions 10-11. 'Lift up a horn' is supported for positions 12-13.",
+   "line_id": 21825,
+   "source_hash": "0a42f41c2a544e9ecfcbbb812c10a4d9d4c702e4ae154fba0a14788c51664fa3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2i:16": {
+   "en": "My soul to you clings, my soul after your deeds I will be concerned with. I remembered you upon my couch in the night watches.",
+   "notes": "The transcription is heavily damaged with several uncertain and reconstructed words. The phrase 'to you clings' is supported by repeated phrase evidence. 'After your deeds' is a conservative rendering of the visible morphology. 'I will be concerned with' is a context-free gloss for the verb 'אשיח'. 'Upon my couch' is a reconstruction of the prepositional phrase. 'In the night watches' is a direct translation of the plural noun 'אשמרות'.",
+   "line_id": 21826,
+   "source_hash": "4577d86eab8cac81a46e947f47f3046fbb56ac94d4409146164d0258697c2ded",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2ii:13": {
+   "en": "And I stood",
+   "notes": "The verb 'stood' is uncertain due to damage in the source text.",
+   "line_id": 21827,
+   "source_hash": "d3e0cdeb75ad073227094f8fe474a40bb77a3efc0582c6054c2bc39c9b44d739",
+   "source_condition": "uncertain"
+  },
+  "4Q437 f2ii:14": {
+   "en": "Their yoke-bars and to open tendons",
+   "notes": "The transcription is heavily damaged, with two reconstructed words and one uncertain word. The final character 'ε' is untranslatable and omitted. The phrase is fragmentary, and the exact relationship between the elements is unclear.",
+   "line_id": 21828,
+   "source_hash": "1fe6ce381d744b2d5b8e42588fffbc90b1c7830261c859a8353ace70c700bd0c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2ii:15": {
+   "en": "upon [the] soul to serve I brought",
+   "notes": "Uncertain transcription and reconstruction in 'soul' and 'I brought'. The phrase 'to serve I brought' is supported by repeated evidence but remains tentative. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 21829,
+   "source_hash": "b88dac33b073aa787e943244a9104b465c60b7830b5e464d71622a008ae3cccc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f2ii:16": {
+   "en": "I have arisen on to",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'on to' is supported by repeated phrase evidence. The verb 'have arisen' is a conservative rendering of the visible morphology. Untranslated characters and punctuation are omitted.",
+   "line_id": 21830,
+   "source_hash": "9d92596044e46c7495306dea09ec041d77c4632080a5970c965402c7c4e2e5c2",
+   "source_condition": "reconstructed"
+  },
+  "4Q437 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no identifiable lexical content. All visible forms are either incomplete, reconstructed, or untranslatable. No defensible English words can be derived from the provided evidence.",
+   "line_id": 21831,
+   "source_hash": "cbda4a5403760b79bf0401aedc6ed0b0fbdb768bd1438637ee3cfbc5066cca81",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f3:2": {
+   "en": "she is brought to the furnace",
+   "notes": "The transcription is heavily damaged, with uncertain readings and reconstructions. The verb 'come' is in the passive voice, indicating 'she is brought.' The noun 'furnace' is uncertain but retained as the most plausible gloss. The surrounding text is too fragmented to provide additional context.",
+   "line_id": 21832,
+   "source_hash": "644ba7c923b0caf77960e55461c5e1a618f4b21660b6209728b1b7fbdee37bf9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f3:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only Greek fragments (ε) and damaged symbols. No recoverable lexical items survive for translation.",
+   "line_id": 21833,
+   "source_hash": "8899123dbab8bc6afb14e88856a73eb23986fcc2ccaaab3b460d99454ccb94d1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f4:1": {
+   "en": "in deceptions",
+   "notes": "The transcription contains untranslatable characters and a reconstructed marker. The word 'מהותלות' is uncertain and lacks a trusted gloss, but its morphology suggests a plural feminine noun. The preposition 'ב' is translated as 'in'. The remaining characters are omitted as they cannot be independently translated.",
+   "line_id": 21834,
+   "source_hash": "be0ffebdc07a86a18faf2dc628885a7622d7337059606b2333c6364a93b503c2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f4:2": {
+   "en": "and to cling in your soul he commanded form supporting",
+   "notes": "The translation includes all recoverable words in order. The initial 'ε' and final 'ε' are omitted as they cannot be translated independently. The transcription contains a reconstructed word 'סמוך' and a damaged lexical unit 'צ ]וית׳ני', which are translated as 'form' and 'he commanded' respectively. The translation preserves the grammatical person, number, and semantic relationships present in the source text.",
+   "line_id": 21835,
+   "source_hash": "ce0bb3cb8dda2cbbf84794203ca61cae3f08e5cc35309317631d8f4fa356af50",
+   "source_condition": "reconstructed"
+  },
+  "4Q437 f4:3": {
+   "en": "You prospered, evil to pass from and a multitude",
+   "notes": "Uncertain reconstruction and damage affect the transcription. The phrase 'side from' is a high-confidence contextual rendering of 'עבר_1' and 'מִן', but it is not used here to avoid adding unlicensed prepositions. The translation retains the context-free glosses where possible.",
+   "line_id": 21836,
+   "source_hash": "6757de1d9fc71c3e97b1540984ba62e4330e94ea9fa53d63aa4a18c6537da688",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f4:4": {
+   "en": "compassion of man or wind [the] path of life and to walk in love loyalty",
+   "notes": "Two uncertain characters (ε) and one uncertain word (א ]ה##בת) are present. The phrase '[the] path of life' is supported by repeated evidence.",
+   "line_id": 21837,
+   "source_hash": "4cae54f729342b5fcad681174481a7f11ff2deb6500a7b50ea9b0006934e577f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f4:5": {
+   "en": "And in justice and justice and to be cautious to walk in all ways to God and pass from me",
+   "notes": "Uncertain reconstruction of 'ד#ר#כ#י' (position 12) and 'תעב#[ יר' (position 16). The phrase 'in all ways' is supported by repeated phrase evidence. The object marker 'א ]ת#' (position 18) is omitted due to uncertainty.",
+   "line_id": 21838,
+   "source_hash": "ab76ddaaac397b4fd5cfb2d07f4faaccaff4db48d0572adf29b096b4903b5390",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f4:6": {
+   "en": "A wind of terror and a wind of salvations you have clothed me with. Upon all these I will bless",
+   "notes": "The transcription contains damaged and uncertain elements, including reconstructed characters and uncertain lexical items. The phrase 'upon all these' is supported by repeated phrase evidence. The verb 'bless' is reconstructed and uncertain.",
+   "line_id": 21839,
+   "source_hash": "a01e738536ba07508f038af7a36afb6d0e9c6c643418c10295981ce72890c459",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f4:7": {
+   "en": "that your honor and your wonders which he delivered",
+   "notes": "Uncertain reconstruction and damage affect 'your wonders' and 'he delivered'. The initial 'ε' and final 'ε׃' are untranslatable.",
+   "line_id": 21840,
+   "source_hash": "14343041d7f8f05a66eae56581a33a42506ccf36fc5e2a098bbf46c52951c5ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions.",
+   "line_id": 21841,
+   "source_hash": "14963ca1d4b709ef1b1437a28e1fe846a088e58bac853f8e8e0b6e583c45a533",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f5:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items surviving. The visible forms include untranslatable characters (ε, ː) and fragmented Hebrew letters (מ, ׳נ, חרש) that cannot be confidently reconstructed into meaningful words. The morphology and glosses provide no reliable basis for translation.",
+   "line_id": 21842,
+   "source_hash": "46567656766a649c42294056c78a26a2297e78ccba944703b93a3d0bd5ea115b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f6:1": {
+   "en": "in a secret confidential talk of a miracle",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged final word and untranslatable characters (ε). The phrase 'פ#[ לא׳כה' is reconstructed as 'miracle' with uncertainty.",
+   "line_id": 21843,
+   "source_hash": "99b41a1d8435982f4f588b728522b44621d9a02edaa773ced6486f74f268ea40",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f6:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic lexical items, only fragmentary Greek letters (ε) and uncertain reconstructions with no recoverable meaning.",
+   "line_id": 21844,
+   "source_hash": "85d2f1e8cc47710529edadf9d303873dcfe37dca6fac323bb2d702111c377152",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f7:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments of Greek letters (ε) and a partially reconstructed Hebrew letter (פ). No meaningful translation is possible.",
+   "line_id": 21845,
+   "source_hash": "a148bfe923d577cb345694177124dca7630b2b17845e7cb55763fc2cd9e86efe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f7:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and uncertain reconstructions. The visible forms (ε, ]#, ]ע, יצר) do not provide sufficient evidence for translation. The lexical gloss 'shape' for 'יצר' is not supported by context or morphology.",
+   "line_id": 21846,
+   "source_hash": "85a01abeaa60e41e84da2a3eaed2b93c2f472841ce3e120c59eeb03a1c0fff4c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f7:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed 'to' preposition, but no defensible English words survive.",
+   "line_id": 21847,
+   "source_hash": "1bbc4bd7afe6444e55e5bdbf8887e8bd5a25a99de86c652d05f610e2a5884bef",
+   "source_condition": "reconstructed"
+  },
+  "4Q437 f8:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain characters, with no defensible English words surviving.",
+   "line_id": 21848,
+   "source_hash": "595529274be773ce35809aedf3f32c7da9ab07c669ae7d90ec36071a802a3c39",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f9:1": {
+   "en": "bribe in",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged preposition (ב#[). The translation reflects the recoverable words 'bribe' (שוחד) and the preposition 'in' (ב), with uncertainty due to damage.",
+   "line_id": 21849,
+   "source_hash": "2f926d4c5bd92fe4a71b8df945dc17088937db709c686877c37554625d10dc3f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f9:2": {
+   "en": "and they went after",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged particle (אח#[ ר), indicating uncertainty in the final word.",
+   "line_id": 21850,
+   "source_hash": "b2f13d971adc09acf403c14f2c48ba1671b1a8d6a5f5f211d8cb1883725d4694",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f9:3": {
+   "en": "Pouring forth rage upon the multitude driving away",
+   "notes": "The phrase 'it will pour forth rage' is supported by repeated evidence. The verb 'drive away' is reconstructed and uncertain. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 21851,
+   "source_hash": "b4aaa1b6fad066af615d4be1285bee11241d2623ccf26bed926aa3106441f5b7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f9:4": {
+   "en": "the whole inquiring",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed fragment (ת[). The phrase is incomplete and contextually ambiguous.",
+   "line_id": 21852,
+   "source_hash": "d9ba3561d2e9e69efc5e4ebb31ddfc3de3eca36796cfb48caa07d04afa3b7dfc",
+   "source_condition": "reconstructed"
+  },
+  "4Q437 f9:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 21853,
+   "source_hash": "64fabd702bd655ce188cdd97bf1653209b529facf9ced82f37c148d3ee49780e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f10:1": {
+   "en": "in trustworthiness",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The visible form 'ב#' is translated as 'in', and 'אמת׳ו#?' is rendered as 'trustworthiness', reflecting the lexical gloss. The surrounding characters (ε, ?[ε) are untranslatable and omitted.",
+   "line_id": 21854,
+   "source_hash": "b758380a8585b772e369bfc51e8bf691ae413302e9fe9c8b80b79a41bc1a8e0d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f10:2": {
+   "en": "foundation",
+   "notes": "The transcription is heavily damaged, with only the word 'foundation' recoverable. The surrounding characters are uncertain or untranslatable.",
+   "line_id": 21855,
+   "source_hash": "13e02acc335d9676295afe333d31a14bdd1410eca43ab5474e0552b7a2a7f722",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q437 f10:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items surviving. The reconstructed form ]ש#כ##ה##[ is too fragmentary to translate confidently, and the surrounding characters (ε) are untranslatable. The sole gloss 'be potent' is speculative and unsupported by context.",
+   "line_id": 21856,
+   "source_hash": "f8ad9155cea538affc437a64e2b45384e17bac774f48097d8471262eb01fbcf7",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

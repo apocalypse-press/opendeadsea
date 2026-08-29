@@ -1,0 +1,277 @@
+{
+ "id": "Xq3",
+ "label": "Xq3",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 37,
+ "scroll_id": 976,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "Xq3 1:1": {
+   "en": "And he called",
+   "notes": "The transcription is partially reconstructed, with the first letter of the first word being a reconstruction.",
+   "line_id": 51264,
+   "source_hash": "3f339ae1b353aed6b585623eab0160d668af3469eb8103944293383bf57bb1c9",
+   "source_condition": "reconstructed"
+  },
+  "Xq3 1:2": {
+   "en": "Moses",
+   "notes": "The transcription is damaged, but the visible form 'מש#ה#' corresponds to the proper noun 'Moses'.",
+   "line_id": 51265,
+   "source_hash": "6968060cd00e846fb2015c579f197a983e2c2b8949d66a67a0e6b003fbcaea51",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:3": {
+   "en": "to the whole",
+   "notes": "The final word 'יש' is unattested and cannot be translated independently; its meaning is uncertain.",
+   "line_id": 51266,
+   "source_hash": "c8a9e5556d62fa39d96b28349b07a125c935c1fce3eb57739e345f14ff8446b6",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:4": {
+   "en": "Israel and he said",
+   "notes": "The final character in the transcription is a damaged verb form, indicated by the uncertainty flag. The translation reflects the visible morphology and lexical gloss, but the exact sense of the verb is uncertain.",
+   "line_id": 51267,
+   "source_hash": "8412e284ae373c33eef377c798ccedd0806709a0c6197d594f5256d112d15874",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:5": {
+   "en": "to him hear",
+   "notes": "The phrase 'שמע׳ה#' is marked as uncertain in the source. The dominant contextual rendering 'do not listen' is not directly supported by the visible morphology, which indicates an imperative 'hear'. The translation conserves the recoverable words in order, without adding negation or smoothing the syntax.",
+   "line_id": 51268,
+   "source_hash": "1312efc9e4c82909733cd46d0a8bdad7d017164cefef981a23db562bd686299a",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:6": {
+   "en": "Israel the portions",
+   "notes": "The first word is damaged and uncertain, but 'Israel' is the best recoverable reading. The object marker 'את' is translated as a direct object relationship. The final word is plural, indicating 'portions' rather than 'portion'.",
+   "line_id": 51269,
+   "source_hash": "25c965cbb7a8712a0e30059a7fa2d2625ce15bc69adabb878c0e2bccd1230384",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:7": {
+   "en": "and the judgments which",
+   "notes": "The transcription is partially damaged, with uncertainty in the first word and the third word. The fourth word is reconstructed. The translation reflects the recoverable text, but the exact wording remains uncertain.",
+   "line_id": 51270,
+   "source_hash": "7a4904ea2cb6b405bfb91aa7d6d487df34a5552b51008940049a4cccd48918fa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xq3 1:8": {
+   "en": "I speak in your ears the day this",
+   "notes": "Uncertainty in transcription and reconstruction affects most words. Phrase evidence supports 'day (the) this' and 'I [am] speaking in' but with low confidence. The translation conservatively follows visible morphology and lexical glosses where possible.",
+   "line_id": 51271,
+   "source_hash": "0680bf5113b92e148aa27088827534b180cd972627a5a98a72daf886954ae3c5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xq3 1:9": {
+   "en": "And you learned and you kept to do them. Yahweh our God cut a covenant in Horeb.",
+   "notes": "Uncertain elements include the object marker 'א#ת#׳ם#', the verb 'ש#מ#ר#ת#ם#', the infinitive construct 'ע#שות׳ם', the divine name 'יהוה#', the verb 'כ#ר#ת', the preposition 'עמ#׳נ?ו?', the noun 'ברי?ת', and the place name 'חר#[ ב ]'.",
+   "line_id": 51272,
+   "source_hash": "842fd756e7e4a00f8cb26ed7d68a68404399a058d49a993fb90df9be694f4741",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xq3 1:10": {
+   "en": "Not our fathers, he made Yahweh with the covenant this, that us these here",
+   "notes": "Uncertain elements: 'אבת#י?׳נ?ו?' (fathers), 'יהו?ה#' (Yahweh), 'את#׳נו' (us), 'אנחנ?ו?' (us), 'א#לה' (these). Phrase evidence suggests 'he made Yahweh with' for positions 4-6, but this introduces an unsupported participant 'he'; retained 'made Yahweh with' as a paraphrase. Omitted unsupported 'he' and retained all recoverable words in order.",
+   "line_id": 51273,
+   "source_hash": "a770bc69009bd9909677d78b48e9cd478227896d24577b2b16f7c84b742d3c20",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:11": {
+   "en": "The day of our whole living, face in face he spoke YHWH with in the mountain from the middle of the fire I",
+   "notes": "Uncertain elements include the word 'חיי?ם' (alive/living), the particle 'ב#', the verb 'ד#בר' (speak/push back), the noun 'הר#' (mountain), and the noun 'אש#' (fire). The phrase 'the middle of the fire' is supported by repeated phrase evidence, as is 'mountain from the middle'. The translation retains all recoverable words in order, with no added subjects or connectors.",
+   "line_id": 51274,
+   "source_hash": "7eae55f3e88c3c999095b3f5ee1515f11e4e76a32e1fbb75f7d20fe3fe4eaaca",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:12": {
+   "en": "Stand between YHWH and you in that time to report to you the word of YHWH declare to you the word of YHWH that",
+   "notes": "The phrase 'between YHWH and you' is uncertain due to damage in the source text. The final word is incomplete and its meaning cannot be recovered.",
+   "line_id": 51275,
+   "source_hash": "d946ea31cc0cb988ab2ed2e653a034198ee5894d71075f9dcb117d550e738ae8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xq3 1:13": {
+   "en": "You feared from the presence of the fire and did not ascend in the mountain to say: I [am] Yahweh your God",
+   "notes": "Uncertain transcription and reconstruction in 'את#ם' (fear), 'א#ש' (fire), 'עלית#ם#' (ascend), 'ב#', 'ה#ר#' (mountain), 'ל#[', and 'א ]מר#' (say). Phrase evidence supports 'I [am] Yahweh your God' as a dominant rendering for positions 14-16, but '[am]' is not explicitly present in the transcription.",
+   "line_id": 51276,
+   "source_hash": "029da668a1e51bc747f9f1a97f10cd9c2b38f2d114fe0d9a5ec37292b9563ccb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xq3 1:14": {
+   "en": "I brought you out from the land of Egypt, from a house of slaves. There shall not be to you other gods.",
+   "notes": "The transcription contains damage and uncertainty, particularly around the suffix in 'הוציאת#׳ך' and the word 'ע#ב#ד#ים'. The phrase 'from the land of Egypt' and 'from a house of slaves' are supported by repeated evidence. The final phrase 'other gods' is supported by high-confidence evidence, though the exact wording is reconstructed.",
+   "line_id": 51277,
+   "source_hash": "92a60edfd96724bcd1749596e4edb619abb04473b25743c7f879826e45c7b958",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xq3 1:15": {
+   "en": "Upon my face: not you must make for yourself an idol, any form which is in the heavens from above, which is in the earth.",
+   "notes": "The phrase 'any form' is supported by repeated phrase evidence. The phrase 'not you must make for' is supported by repeated phrase evidence. The phrase 'which is in the heavens from above, which is in the earth' is a reconstruction based on the visible transcription and lexical glosses.",
+   "line_id": 51278,
+   "source_hash": "602730315a0e8d26dbe85b17f2e8792ada96bf966a6bc1e1641844233b13092a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xq3 1:16": {
+   "en": "from under the waters from under the earth not you must bow down to and not you must serve them that I",
+   "notes": "Uncertain reconstruction at positions 16 and 17. Phrase evidence supported 'not you must bow down to' and 'waters from under'.",
+   "line_id": 51279,
+   "source_hash": "6dfd3505e2b313e01ca4512d0f8e94daa3d9dad3eb62ce64912ecc1e371d0b05",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:17": {
+   "en": "YHWH your gods a jealous God visiting sin of fathers upon sons upon grandsons and upon a fourth generation to hate",
+   "notes": "The final verb is damaged and uncertain.",
+   "line_id": 51280,
+   "source_hash": "651fe1f69316cf5314ee098dbf9d6f02700614819945bdc4890cabaea87f6c05",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:18": {
+   "en": "And make loyalty to thousands of those who love and keep commandments. Do not lift the name of Yahweh.",
+   "notes": "The phrase 'covenant loyalty' is a high-confidence contextual rendering for positions 3-5, but 'loyalty' is retained for conservatism. The phrase 'thousands of [those' is a high-confidence contextual rendering for positions 5-7, but 'thousands of those' is used for naturalness. The phrase '(et) the name of Yahweh' is a high-confidence contextual rendering for positions 15-17, but 'the name of Yahweh' is used for naturalness.",
+   "line_id": 51281,
+   "source_hash": "b06d2e507d4a1545c7fe7bcd563a4a8431f04d0f8065ebf15faf48c82dffefa7",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:19": {
+   "en": "To vanity, your gods, for not he will leave unpunished Yahweh who takes the name to vanity. Keep",
+   "notes": "The translation follows high-confidence phrase evidence for positions 5-8 and 10-12. The final verb 'keep' is incomplete due to damage, and its object is uncertain. The phrase 'your gods' is a conservative rendering of the suffixed form 'א#ל#הי׳ך', despite uncertainty in the transcription. The sequence 'ל#שוא' is translated as 'to vanity' based on visible morphology and lexical gloss, but the preposition 'ל' is damaged. The verb 'ינקה' is rendered as 'will leave unpunished' following the dominant contextual rendering of the phrase evidence for positions 5-8. The proper noun 'יהוה' is translated as 'Yahweh' per its lexical gloss. The relative pronoun 'אשר' introduces a clause with the verb 'ישא', translated as 'takes' following phrase evidence for positions 10-12. The object marker 'את' precedes 'שמ׳ו', rendered as 'the name' based on its lexical gloss and phrase evidence. The final preposition 'ל#' is damaged and translated as 'to' based on its lemma and lexical gloss. The noun 'שוא' is translated as 'vanity' per its lexical gloss. The sentence ends with the verb 'שמור', translated as 'keep', but its object is not recoverable from the text.",
+   "line_id": 51282,
+   "source_hash": "b6c3d734328a69c21230716004fc7ff510f51cc3a84d9e5c4dfed3ea4bef98dd",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:20": {
+   "en": "The day of the sabbath to set apart, as Yahweh your God commanded. Six days you will labor and do",
+   "notes": "Uncertain transcription in 'day', 'the', 'sabbath', 'to', and 'set apart'. The phrase 'six days you will labor' is supported by repeated evidence, but 'and do' is added for fluency without explicit support.",
+   "line_id": 51283,
+   "source_hash": "2903790fe7e1b7e646e378d5d4172bdc8f28fbc54a52f7582ffa3ea76182b728",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:21": {
+   "en": "All your work. And in the seventh day is a sabbath to Yahweh your God, not you must do any",
+   "notes": "Uncertain elements include the suffixed form of 'work' and the verb 'make'. The translation follows high-confidence phrase evidence for 'seventh [is] a sabbath to,' 'not you must do any,' 'day (the) seventh,' and 'to Yahweh God.'",
+   "line_id": 51284,
+   "source_hash": "b1df48cfc7cd2508af90c8ae93e437141bb224040a10bfb174371d58c1ab757b",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:22": {
+   "en": "Your work, you, and your son, your daughter, and your servant, and your handmaid, your bullock, and your he-ass, and all your cattle, and your sojourner",
+   "notes": "Uncertainty in transcription marked with '?'; some words reconstructed or uncertain. Phrase evidence suggests 'work you' and 'any animal' but the latter is not strongly supported. Translation preserves visible morphology and lexical items, omitting unsupported connectors or subjects.",
+   "line_id": 51285,
+   "source_hash": "c076bce6465560b75ed666ec0ab7919c7efb8eb4ef07670e09b5f0f8847493c2",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:23": {
+   "en": "Which in your gates because of the settling of your servant and your maid like you. And remember that a servant you were",
+   "notes": "Uncertain transcription and reconstruction in multiple words. The phrase 'you will remember that a slave' and 'that a slave you were' are supported by repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, preserving uncertainty and avoiding additions.",
+   "line_id": 51286,
+   "source_hash": "50f71b65ef7c4884ebc980ad91414875c232f328bd3beb170f2903cd2246e148",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:24": {
+   "en": "in the land of Egypt and he brought you out Yahweh God from there and by a strong hand and in an outstretched arm",
+   "notes": "Uncertain readings in 'land of Egypt' (positions 2-3), 'he brought you out' (position 5), 'hand' (position 12), and 'strong' (position 13). The term 'אזרוע' (position 16) is translated as 'outstretched arm' based on context, though its gloss is uncertain.",
+   "line_id": 51287,
+   "source_hash": "69ce98380be09e1b5c20cc125286d45ee5d5ca3e1e95c4a0e9e9715968efcac4",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:25": {
+   "en": "Extended upon thus he commanded Yahweh your God to make the day of the sabbath. Honor your father and",
+   "notes": "The translation reflects visible morphology and repeated phrase evidence. Uncertainty arises from damaged text and ambiguous lexical items. The phrase 'he commanded Yahweh' is supported by repeated evidence but may be a paraphrase. 'Your God' is a context-free gloss for the suffixed form. 'The day of the sabbath' is a high-confidence repeated phrase. 'Honor your father and' follows visible morphology and repeated evidence, but the final conjunction indicates an incomplete thought.",
+   "line_id": 51288,
+   "source_hash": "4d311da9fdcf25dc66f9036abe4acffc09886f66822eceb5792ab8444ac92035",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:26": {
+   "en": "as he commanded Yahweh your God so that they may prolong your days and so that it may be good",
+   "notes": "Uncertain readings at positions 3 and 4; phrase evidence suggests 'as he commanded Yahweh' but the text is damaged. The verb 'be good' at position 12 is uncertain due to damage.",
+   "line_id": 51289,
+   "source_hash": "dee1c2bc4df5f31f5f4cfcfe706747975103d957a9853103e2746a2c8a6da762",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:27": {
+   "en": "Go upon the land which Yahweh your God gave to you. Do not kill. Do not commit adultery.",
+   "notes": "The phrase 'land which Yahweh' is supported by repeated evidence. The phrase 'which Yahweh God' is supported by repeated evidence. The phrase 'Yahweh God' is supported by repeated evidence. The phrase 'give to' is supported by repeated evidence.",
+   "line_id": 51290,
+   "source_hash": "7c2e916c72457b964aff691aa122674bf6eeb10adde441f9b68332e0ebf10be3",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:28": {
+   "en": "Do not steal. Do not answer falsely before your fellow as a witness of falsehood. Do not covet the wife your neighbor, nor desire his house.",
+   "notes": "The translation follows high-confidence phrase evidence for the sequences 'not you must covet the wife your neighbor' and 'the house your neighbor'. The verb in position 4 is uncertain due to damage, but the dominant pattern supports 'answer falsely'. The preposition in position 5 is uncertain, but the context suggests 'before'. The term in position 6 is rendered as 'fellow' based on its morphology and gloss, despite alternative meanings.",
+   "line_id": 51291,
+   "source_hash": "e6b183d9e64cf466aaed09ea8fe1c4ec751fd564e7261943204829b61d3cb5c8",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:29": {
+   "en": "his field, his servant, and his handmaid, his bullock, and his he-ass, and all that is your fellow's. And it will be that he will bring you.",
+   "notes": "Uncertain readings for 'servant' (ע#בד׳ו) and 'handmaid' (אמ#ת׳ו) due to textual damage. The phrase 'it will be that he will bring you' is supported by repeated evidence but with low confidence.",
+   "line_id": 51292,
+   "source_hash": "58f6a1491edb39a57b55c7f7446b326730279e2d97fe33a607e360abb27d870d",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:30": {
+   "en": "YHWH to the land of the Canaanite as I swore to your fathers and gave to you and it passed over all",
+   "notes": "Uncertain elements include the transcription of the land (א#רץ), the Canaanite (כנ?עני), gave (נתנ׳ה#), and to (ל׳ך#). The phrase 'it passed over all' is a low-confidence reconstruction of the final clause.",
+   "line_id": 51293,
+   "source_hash": "5335d1bc5fc0a825cbcbc4ac4e297e2d337c241fb7c28a01c7cccdc0ae034fcb",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:31": {
+   "en": "The firstborn of a womb to YHWH and every firstborn of cattle which it will belong to the males to YHWH and whole",
+   "notes": "Uncertain elements include the preposition 'to' (position 3), the term 'litter' (position 7), 'cattle' (position 9), and 'males' (position 14). The phrase 'and whole' at the end is incomplete and its meaning is unclear.",
+   "line_id": 51294,
+   "source_hash": "2122db8c73c5254e29732e88e68d7da994d003d786b7e4fe7c7d592d394cb363",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:32": {
+   "en": "Firstborn of a donkey you will redeem with a lamb and if not you will buy it and every firstborn of humankind among your sons you will redeem",
+   "notes": "Uncertain elements include the donkey reference, the second 'and', and the final verb form. The phrase 'firstborn of humankind' is supported by repeated evidence. The translation conservatively follows visible morphology and phrase evidence, retaining all recoverable words in order.",
+   "line_id": 51295,
+   "source_hash": "bfe1fb0a6f0dc275ae3ddb42b945e0e56484a10e27443aefd0554971304e2482",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xq3 1:33": {
+   "en": "And it was that Saul your son asks tomorrow, saying what? this and you said to him by strength of hand he brought forth",
+   "notes": "Uncertainty in transcription marked with '?'. Phrase evidence applied for 'by strength of hand' and 'saying what?'.",
+   "line_id": 51296,
+   "source_hash": "62e6cb7fb03af6debb8508955765c75f38deb29b6b10723423104306ffd25cd2",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:34": {
+   "en": "YHWH from Egypt from a house of slaves and it was that Pharaoh was hard to send us and he killed",
+   "notes": "The phrase 'from a house of slaves' is a high-confidence repeated phrase. The sequence 'YHWH from Egypt' is also a repeated phrase. The translation preserves the visible morphology and lexical items, including the repetition of 'from'. The final verb 'he killed' is translated based on the visible morphology and lexical gloss, but the object of the verb is not specified in the source text.",
+   "line_id": 51297,
+   "source_hash": "fe484ae84a6ca9b7f1b10db183a2fe56549249df497dfa0ec8ebb55f87803e94",
+   "source_condition": "clean"
+  },
+  "Xq3 1:35": {
+   "en": "YHWH every firstborn in the land of Egypt from the firstborn of humankind and until the firstborn of cattle thus I [am] sacrificing to YHWH",
+   "notes": "Positions 13 and 15 have uncertain transcription. Positions 17 and 19 are reconstructed.",
+   "line_id": 51298,
+   "source_hash": "02776bf0bb1835705917a1f23b75f3ef4506f3912e957ff8ac27c8c9ce785030",
+   "source_condition": "uncertain"
+  },
+  "Xq3 1:36": {
+   "en": "Every firstborn of a womb, male, and every firstborn of my sons I will buy off. And it will become a sign upon your hand and as totaphoth.",
+   "notes": "Uncertain reconstruction in 'ט[ ו ]ט#פת' (totaphoth). The phrase 'every firstborn of a womb' is supported by repeated phrase evidence. The verb 'אפדה' (buy off) is translated based on its lexical gloss. The phrase 'a sign upon your hand' is supported by repeated phrase evidence, though 'your' is uncertain due to damage in 'ע#ל' and 'יד׳כה'.",
+   "line_id": 51299,
+   "source_hash": "2e9347ba1162c166aeb4c79002022e8f15d6f249846b44feb12c6f1e689dc48f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Xq3 1:37": {
+   "en": "Between your eyes that by strength of hand Yahweh brought us out from Egypt",
+   "notes": "Uncertain elements: 'עיני׳ך#' (your eyes) and 'ב#' (in/by) are partially damaged or reconstructed. The phrase 'between your eyes' is literal; contextual sense may imply 'before your eyes' or 'in your sight'.",
+   "line_id": 51300,
+   "source_hash": "df8d6b164d220adae3fd124dc11a2516af4c74844ea34f4f41942866febcc7a9",
+   "source_condition": "uncertain"
+  }
+ }
+}

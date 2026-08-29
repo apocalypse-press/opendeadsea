@@ -9,6 +9,8 @@
     "id": { "type": "string", "minLength": 1, "pattern": "^[A-Za-z0-9._+-]+$" },
     "label": { "type": "string", "minLength": 1, "description": "Official siglum from ETCBC/dss (scrolls.label)." },
     "name": { "type": "string", "description": "Familiar English name when one is established. Empty otherwise." },
+    "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+    "search_summary": { "type": "string", "description": "Short, curated discovery note; not a textual identification claim." },
     "provenance": { "type": "string" },
     "biblical": { "type": "boolean" },
     "languages": { "type": "array", "items": { "type": "string" } },

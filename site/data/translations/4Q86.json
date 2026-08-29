@@ -1,0 +1,333 @@
+{
+ "id": "4Q86",
+ "label": "4Q86",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 45,
+ "scroll_id": 878,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q86 1:5": {
+   "en": "And he said to all the people, 'Surely praise Yahweh!'",
+   "notes": "The transcription is partially damaged and reconstructed, with uncertainty in the rendering of 'surely' and 'praise Yahweh'. The phrase 'all the people' is supported by repeated evidence, while 'praise Yahweh' is a common pattern. The translation conservatively follows the recoverable text, preserving the imperative and direct address.",
+   "line_id": 48150,
+   "source_hash": "5a64ab031f422a7b52b91a8054bf3fe545ffef41cf88067c009c08dd917ee51d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 1:6": {
+   "en": "Praise Yahweh that [is] good, sing praises to our God, [how] lovely [is] the song",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 7. Lacuna indicated by '[no recoverable text]' in position 7.",
+   "line_id": 48151,
+   "source_hash": "951fdad785267bfab4ecc43b031118d1c7ba27e71ef9d1d06e597ebec0465f36",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 1:7": {
+   "en": "Gods lovely pleasant praise. Rebuilding Jerusalem",
+   "notes": "Uncertainty in transcription and reconstruction of several words. The phrase 'rebuild Jerusalem' is supported by repeated evidence, but its dominance is moderate.",
+   "line_id": 48152,
+   "source_hash": "2945586b263e0b361e826c23ed4f0577cdbe1859f470d67b9871eeaa3124871a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 1:8": {
+   "en": "YHWH will wield Israel, gather the one who heals the broken",
+   "notes": "The phrase 'the banished [ones] of Israel' is supported by repeated evidence but does not fit the visible syntax; 'wield' is retained from the context-free gloss. The final preposition 'to' is omitted as it introduces an unsupported participant.",
+   "line_id": 48153,
+   "source_hash": "82618d1b7171dc9d26efc69476ffb770fe5c7193e2ecee15942ac4135b8808dc",
+   "source_condition": "reconstructed"
+  },
+  "4Q86 1:9": {
+   "en": "heart and saddling to their pains count number to stars",
+   "notes": "Uncertain reconstruction and damage in 'their pains'; translation preserves visible lexical items but syntax is fragmented.",
+   "line_id": 48154,
+   "source_hash": "b7a70b911d060b7de80330f556ea5d9aedc819114562eb053e718087b7cc7d32",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 1:10": {
+   "en": "to the whole names he will call",
+   "notes": "The transcription includes an untranslatable character (ε) and an unknown punctuation mark (׃), both omitted from the translation. The phrase 'שמות יקרא' is supported by repeated evidence as 'there he was met', but the visible morphology and syntax are prioritized, resulting in a more literal rendering.",
+   "line_id": 48155,
+   "source_hash": "cb9d24f615838bc81d92c45a2244ba1e40333a8b671258eed2fa5ee310741a2d",
+   "source_condition": "reconstructed"
+  },
+  "4Q86 2:1": {
+   "en": "[gate] blessed your sons in your interior the put boundary",
+   "notes": "Reconstructed and uncertain elements include '[gate]' and 'blessed'. The phrase 'blessed your sons' is supported by repeated evidence. The translation conservatively preserves all recoverable words in order, with uncertainty in the reconstruction of some terms.",
+   "line_id": 48156,
+   "source_hash": "ca51362ccf43a9d13098bc87ed0d47d0b5471ff70897838da992d1b4bd594ef9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 2:2": {
+   "en": "Peace, and fat, best of the wheat, will satisfy you",
+   "notes": "Uncertain transcription and reconstruction in 'peace' (position 1), 'and' (position 2), and the verb 'will satisfy' (position 5). The phrase 'best of the wheat' is supported by repeated evidence.",
+   "line_id": 48157,
+   "source_hash": "ebaa6697ef03a052defa66ca40353e274ffcf70aa54d9687f74c036a4711558a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 2:3": {
+   "en": "The sending of his word to the earth unto haste runs",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly 'אר#ץ' (earth), '[ ע ]ד#' (unto), and 'ירו ]ץ##' (runs). The phrase is fragmented and the exact meaning is unclear.",
+   "line_id": 48158,
+   "source_hash": "a726c0cad6b62c24409770217525fc3b7223df05c0821f54618577ae5235eb78",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 2:4": {
+   "en": "The word, giving snow like wool, like hoar frost, like dust",
+   "notes": "Uncertainty in transcription and reconstruction of some words, particularly 'ד#[ בר׳ו ]' and 'שלג#?['.",
+   "line_id": 48159,
+   "source_hash": "60aec5ea447d71691e61f957bb9909c74aa984e9c2951df55296f34648cc078a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 2:5": {
+   "en": "He scatters your proverbs like frost, bits before faces",
+   "notes": "The transcription contains a reconstructed verb 'יפזר' and a partially reconstructed 'משלי[ ך'. The particle '׃' is omitted as it has no recoverable gloss. The suffixed form 'קרח׳ו' is translated as 'frost' with a possessive 'your' inferred from the context-free gloss of the preceding verb. The preposition 'כ' is translated as 'like'. The noun 'פתים' is plural and translated as 'bits'. The preposition 'ל' is translated as 'before'. The noun 'פני' is plural and translated as 'faces'.",
+   "line_id": 48160,
+   "source_hash": "27dbfeee9cf4bdce54f45bae4a2435c5969deb67aebd293a91fa461f62fabc56",
+   "source_condition": "reconstructed"
+  },
+  "4Q86 2:6": {
+   "en": "Her cold, who will he stand",
+   "notes": "The transcription includes a reconstructed word ('[קרת׳ו') and an unknown character ('ε'). The phrase 'who will he stand' is supported by repeated phrase evidence, but the overall syntax is fragmented. The translation preserves recoverable elements without inventing connections.",
+   "line_id": 48161,
+   "source_hash": "313afa4faca84624e58b07e2a7ee4bd84b0ea93d6f99e815e601822ae7f58b66",
+   "source_condition": "reconstructed"
+  },
+  "4Q86 2:9": {
+   "en": "Not thus for all the nations and judgments",
+   "notes": "Uncertainty in 'כ##ל##' (whole) and 'מ##[ שפטים ]' (judgments) due to damage and reconstruction. Phrase evidence supports 'all the nations' and 'for all the nations' but the latter is less supported. Translation retains 'for' based on the highest-supported repeated phrase evidence.",
+   "line_id": 48162,
+   "source_hash": "d6535f2280bfaf7feddb11c2992dde4522b09f69e971f5d1da0c529880266de8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 2:10": {
+   "en": "Do not know them, praise Yahweh",
+   "notes": "Uncertainty in the verb 'praise' due to damaged transcription. The phrase 'praise Yahweh' is supported by repeated evidence.",
+   "line_id": 48163,
+   "source_hash": "bbf5b4a6bb953b5d02c0e1c0512262a69b2535bdbe82e39cd1ca122b927686b2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 2:11": {
+   "en": "Bless my soul, Yahweh Yahweh God",
+   "notes": "The transcription contains repeated 'Yahweh' and damaged text. Phrase evidence supports 'Bless my self' and 'Yahweh God' but the second 'Yahweh' is retained as visible. Uncertainty in the final word is noted but the gloss 'god(s)' is used.",
+   "line_id": 48164,
+   "source_hash": "e4fe6f1ba3d5c66ae361bd0f2fda27bbcd1b59d203aaa7c05aeb93d8af05ab67",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 2:12": {
+   "en": "You have grown very much in splendor and ornament, you will wear",
+   "notes": "Uncertainty in 'very much' (מְאֹד) and 'splendor' (הֹוד_1) due to damaged transcription. Phrase evidence supports 'ornament you will wear' but is not mandatory phrasing. Final verb 'cover/grasp' (עטה_1) omitted as it lacks clear connection to preceding text.",
+   "line_id": 48165,
+   "source_hash": "962cc069f88a02af3a8c982ea01722cdb949d5d1ee78a41f0fbf12fb0a731430",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 2:13": {
+   "en": "Light as a wrapper, stretching the heavens like a curtain. Meeting in waters, rising in the upper room.",
+   "notes": "Uncertainty in the reconstruction of 'נוט#[ י ]' and 'ע##ל[ יו ]ת׳ו'. The phrase 'waters [are] rising' is supported by repeated evidence, but its connection to the preceding context is unclear.",
+   "line_id": 48166,
+   "source_hash": "ad544fd53d939db3fcdaf915dcb79cc9cf4db5bd411d43b7e1f01895850633fb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 2:14": {
+   "en": "He places the clouds, his chariot, and goes upon the wings of the wind.",
+   "notes": "The verb 'הלך' is reconstructed and uncertain. The phrase 'על כנפי רוח' is translated as 'upon the wings of the wind' based on repeated phrase evidence.",
+   "line_id": 48167,
+   "source_hash": "9d7626dce67abd194e69204976f2e554fdd3b5e813064c1f4fda74a05b740351",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 2:15": {
+   "en": "making his messengers and serving fire",
+   "notes": "Reconstructed and uncertain elements include 'winds' and the final portion of the line. The phrase is fragmented, and some relationships between elements are unclear.",
+   "line_id": 48168,
+   "source_hash": "7ec31cc764c9b01dd07329221a9099345e7fd008fbccaf020a3c8f89598d7c82",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 2:16": {
+   "en": "devouring, it founded the earth upon its sites, not tottering",
+   "notes": "Uncertain reconstruction of 'devouring' and 'tottering'. Phrase evidence supports 'it founded [the] earth'.",
+   "line_id": 48169,
+   "source_hash": "95a25bd3137f205aaf71734121baac064f185da54827e110244742b4027a3b22",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 3:1": {
+   "en": "They will ascend mountains, they will descend valleys to the place",
+   "notes": "The transcription is partially damaged, with reconstructions and uncertainty in positions 3, 4, and 6. The phrase 'of mountains I went down' is a repeated pattern but does not fit the visible morphology and person/number agreement here. The translation preserves the third-person plural agency and semantic relationships from the recoverable text.",
+   "line_id": 48170,
+   "source_hash": "0011b487c098cc54b520d8b3f9f0a5c3790e08d61f06a130ee705920d642d98d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 3:2": {
+   "en": "You have founded for them a boundary, you have placed",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The translation reflects the recoverable verbs 'founded' (יסד) and 'placed' (שׂים) in the second person masculine singular perfect form, along with the preposition 'for them' (ל׳הם) and the noun 'boundary' (גְּבוּל). Other elements, including the initial Greek letter 'ε' and several damaged symbols, are omitted as they cannot be translated independently. Uncertainty is noted due to the fragmentary nature of the text.",
+   "line_id": 48171,
+   "source_hash": "feedd12410fec8d984952de11c98e9281fd6e674344583c37ba01aa2040670e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 3:3": {
+   "en": "They shall not pass, not return to cover the land",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly positions 3 and 4, may affect the precise meaning. The phrase 'cover the land' is supported by repeated evidence.",
+   "line_id": 48172,
+   "source_hash": "44712479a55465040389c7d52f738a0e392f305505df2e5e9b63f4c4a0015c5c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 3:4": {
+   "en": "Sending forth springs in wadis among the mountains",
+   "notes": "",
+   "line_id": 48173,
+   "source_hash": "14747202c79626881d9c42993181e738fc876763724c4e6c6b1f36bd8404a09e",
+   "source_condition": "clean"
+  },
+  "4Q86 3:5": {
+   "en": "They will go, they give drink to wild animals, the",
+   "notes": "Uncertain transcription and reconstruction in multiple words. The translation reflects recoverable content but omits unsupported elements. The final word is incomplete and its intended meaning is unclear.",
+   "line_id": 48174,
+   "source_hash": "fedd87f3564afe31cf7df56348e552b89494c011560a1d953ce713d4e1f1252a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 3:6": {
+   "en": "They are drunk, wild animals, his thirst",
+   "notes": "The transcription is heavily damaged, with uncertain readings for 'י#?ש##כירו?' and 'צ#מ#א#׳ם'. The translation reflects the visible morphology and lexical glosses, but the exact meaning remains unclear due to the damage.",
+   "line_id": 48175,
+   "source_hash": "7a9b5c8dee135de2d13ae8ef64ff182282ea09f3f44136af048871a0a35a9715",
+   "source_condition": "uncertain"
+  },
+  "4Q86 3:13": {
+   "en": "to go out bread from the earth",
+   "notes": "The verb 'go out' is reconstructed and uncertain. The phrase 'go out fight' is a possible contextual rendering but lacks sufficient evidence to override the visible morphology. The translation preserves the recoverable words in order, without adding missing subjects or smoothing repetition.",
+   "line_id": 48176,
+   "source_hash": "6f37de530ad08a13e270f06bfed8982542823e7d739f3b341554559505036554",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 3:14": {
+   "en": "And wine? rejoices the heart of a man",
+   "notes": "Uncertainty in 'wine?' and 'man' due to damaged transcription. Phrase evidence supports 'wine it makes glad' and 'a heart of a human' but the translation retains literal order and morphology.",
+   "line_id": 48177,
+   "source_hash": "a4e222565a60bf57e052f9e2854e0dd9fdd63ab1d41ef2d8bb04400a66b5ad9c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 3:15": {
+   "en": "to [cry/shine] faces oil",
+   "notes": "Uncertainty in the reconstruction of the verb 'cry/shine' and the presence of an unknown element denoted by '#'.",
+   "line_id": 48178,
+   "source_hash": "6eb9d9f4e20d777df4d7c487f7a4a73b9f2155497ad6d0d93c58933957ff8c1c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 3:16": {
+   "en": "And bread of the heart of a man supports",
+   "notes": "The phrase 'a heart of a man' is supported by repeated phrase evidence. The verb 'supports' is uncertain due to damage in the transcription.",
+   "line_id": 48179,
+   "source_hash": "cf3331fe24616d276494fb28cdba1f9d59d94de0b4d14877dd0940b15f642462",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 4:10": {
+   "en": "The sun shall rise and they shall be gathered",
+   "notes": "The phrase 'it rises the sun' is supported by repeated evidence, but the translation follows the visible morphology and lexical glosses more closely. The uncertainty in the word 'ש ]מ#ש' is noted but does not affect the overall translation.",
+   "line_id": 48180,
+   "source_hash": "8135319867d132872edee66e74728604217d92d6ba99f8879ec65be205e582c0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 4:11": {
+   "en": "And to the hiding places they lie down",
+   "notes": "Uncertainty in the transcription and reconstruction of the text, particularly around the word 'מעונ' which is marked as uncertain.",
+   "line_id": 48181,
+   "source_hash": "af3e64304dfafdea2163b606eef6b805556f418b08932902dbe29694fc886674",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 4:12": {
+   "en": "A man goes out to his doing",
+   "notes": "The transcription and morphology indicate a third-person singular imperfect verb 'goes out' with uncertainty, a singular noun 'man', and a preposition 'to' followed by a suffixed form 'his doing'. Phrase evidence suggests 'Edom' as a possible subject, but the visible text uses 'man'. The translation conservatively retains 'man' and accounts for all recoverable words.",
+   "line_id": 48182,
+   "source_hash": "fe830e01eeb63c20abc62455935f86693b70d302f2f2f00e837bcbb0e6738a66",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 4:13": {
+   "en": "and to his work until evening",
+   "notes": "The final word is reconstructed due to damage.",
+   "line_id": 48183,
+   "source_hash": "dc3a8d987993dcee83b568690e5acf53f7d22dbb721fcfe121d63f4f4b353e82",
+   "source_condition": "reconstructed"
+  },
+  "4Q86 4:14": {
+   "en": "How many are your deeds, YHWH?",
+   "notes": "The phrase 'how! they are many' is supported by repeated evidence for positions 1-2. The phrase 'the work of Yahweh' is partially supported for positions 3-4, but 'deeds' is used instead of 'work' to align with the plural form of the source. The reconstruction of 'YHWH' is noted as uncertain.",
+   "line_id": 48184,
+   "source_hash": "56f314fd78910625b9e5e7ab26ccdec97f46db4414309090eb72b40a66a57f07",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 4:15": {
+   "en": "All of them were made in wisdom",
+   "notes": "",
+   "line_id": 48185,
+   "source_hash": "8c23ab3a3ceda3b4003d7442ff55169b1ab41e9d666d1c006fac1403c3c83a1b",
+   "source_condition": "clean"
+  },
+  "4Q86 4:16": {
+   "en": "The earth is full of your property",
+   "notes": "The phrase 'it is full the earth' is supported by repeated evidence, but the possessive 'your' is added based on the morphology of 'קנינ׳ך' indicating second-person singular possession.",
+   "line_id": 48186,
+   "source_hash": "e6287ac2d5134a1004469eaac52f678eeb8e71d801a22d98b0b96037f82e89fc",
+   "source_condition": "clean"
+  },
+  "4Q86 4:17": {
+   "en": "this the great and broad hands",
+   "notes": "The phrase 'this the great' may reflect a repeated pattern 'this [is] the day' or 'the day [is] great', but the context here does not support a clear paraphrase. 'Broad hands' follows a repeated pattern 'broad of both sides', but the exact relationship is uncertain.",
+   "line_id": 48187,
+   "source_hash": "f5bcd25e59a0a9dde36ce9994dfcaa9268c8919bb1f606f872ecf54c26d949f2",
+   "source_condition": "reconstructed"
+  },
+  "4Q86 4:18": {
+   "en": "There creeping animals and no number",
+   "notes": "Uncertainty in the transcription and reconstruction of 'creeping animals' and 'number'.",
+   "line_id": 48188,
+   "source_hash": "38d42625660ca9752466c8d60345ea1286e2440e4e4478495848169714b51946",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 4:19": {
+   "en": "Small animals with great ones",
+   "notes": "The transcription is partially reconstructed, indicated by the opening bracket before 'חיות'. The final mark (׃) is untranslatable and omitted.",
+   "line_id": 48189,
+   "source_hash": "34ab8fc352a7fdf6342fd4f64e3042e73b2fd10fec40b8ff7fadc3e11bc97bd5",
+   "source_condition": "reconstructed"
+  },
+  "4Q86 5:15": {
+   "en": "I will sing to YHWH in the living",
+   "notes": "The transcription is heavily damaged and reconstructed. The verb 'sing' is uncertain due to fragmentation. The preposition 'to' and the divine name 'YHWH' are clear. The final phrase 'in the living' is highly uncertain due to damage and may not be fully recoverable.",
+   "line_id": 48190,
+   "source_hash": "2cf53286ecf49e5e522d04aec1667c851eec3b6d6f0dfbc3e676f37d0250a580",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 5:16": {
+   "en": "I will sing praises to God in still",
+   "notes": "The phrase 'I will sing praises to God' is supported by repeated phrase evidence. The final prepositional phrase 'in still' reflects the visible morphology and lexical gloss, though its exact sense is uncertain.",
+   "line_id": 48191,
+   "source_hash": "080456b58689d1cdf7d9f43e65e695a1ce7556ee5f965535bc19bf9cfa219ae3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 5:17": {
+   "en": "become evening upon shrub",
+   "notes": "Uncertain reconstruction and gloss for 'ש##יח׳י'; phrase evidence suggests 'evening on' but does not overwrite visible morphology.",
+   "line_id": 48192,
+   "source_hash": "bc97db6d900445661e916f894c1e62c940d2d05780ed4f1a6b4a2afe02d83fdf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 5:18": {
+   "en": "For they will be sinful from the earth",
+   "notes": "Reconstructed and uncertain elements include the verb 'will be' (ית[ מו) and the noun 'earth' (אר##[ ץ ]); the adjective 'sinful' (חטאי ]ם##) is uncertain.",
+   "line_id": 48193,
+   "source_hash": "6bdebc29eddfef686c829c5cd6644cf687fd6280a200c7117f4f04ef778564e4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q86 5:19": {
+   "en": "And the guilty ones still are not",
+   "notes": "The transcription is partially reconstructed, with the word 'רשע[ ים' containing a lacuna. The final character '׃' is an untranslatable punctuation mark and is omitted from the translation.",
+   "line_id": 48194,
+   "source_hash": "d415ad2ec9e176944bb0a8bbb20feb95da7f23036b3755c2f76e2e28d8372fee",
+   "source_condition": "reconstructed"
+  }
+ }
+}

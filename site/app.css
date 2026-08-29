@@ -746,11 +746,10 @@ body[data-page="manuscript"] .page h1 {
     align-items: start;
     direction: ltr;
   }
-  .orig-row.has-tr .orig-en {
-    margin: 0;
+  .orig-row.has-tr .en-copy-block {
     order: 1;
   }
-  .orig-row.has-tr .orig-line {
+  .orig-row.has-tr .orig-copy-block {
     order: 2;
   }
 }
@@ -995,6 +994,38 @@ body[data-page="manuscript"] .page h1 {
   line-height: 1.5;
   color: var(--color-text-primary);
 }
+.line-copy-block {
+  position: relative;
+  min-width: 0;
+  padding-top: 2rem;
+}
+.line-copy {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 28px;
+  padding: 0 var(--space-2);
+  border: 1px solid var(--color-border-default);
+  border-radius: 3px;
+  background: var(--color-surface-page);
+  color: var(--color-text-secondary);
+  font: 600 12px/1 var(--font-sans);
+  cursor: pointer;
+}
+.line-copy:hover {
+  background: var(--color-action-secondary-hover);
+  color: var(--color-text-primary);
+}
+.line-copy:focus-visible {
+  outline: var(--focus);
+  outline-offset: 2px;
+}
+.search-note {
+  margin-bottom: var(--space-6);
+}
+.search-note-warn {
+  border-color: var(--color-border-strong);
+}
 .orig-line.is-paleo,
 .orig-word.is-paleo,
 .orig-he-text.is-paleo {
@@ -1006,23 +1037,22 @@ body[data-page="manuscript"] .page h1 {
 .orig-word {
   white-space: nowrap;
 }
-button.orig-word {
-  appearance: none;
-  margin: 0;
-  padding: 0 0.12em;
-  border: 0;
+a.orig-word {
+  padding: 0 0.08em;
   border-radius: 2px;
-  background: transparent;
   color: inherit;
   font: inherit;
   line-height: inherit;
-  cursor: pointer;
+  text-decoration-color: var(--color-border-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
   min-height: 24px;
 }
-button.orig-word:hover {
+a.orig-word:hover {
   background: var(--color-action-secondary-hover);
+  text-decoration-color: currentColor;
 }
-button.orig-word:focus-visible {
+a.orig-word:focus-visible {
   outline: var(--focus);
   outline-offset: 2px;
 }
@@ -1391,6 +1421,9 @@ button.orig-word:focus-visible {
   .mss-work {
     grid-template-columns: minmax(0, 1fr) min(22rem, 34%);
     align-items: start;
+  }
+  .mss-work:not(:has(.mss-rail)) {
+    grid-template-columns: minmax(0, 1fr);
   }
   .mss-rail {
     position: sticky;

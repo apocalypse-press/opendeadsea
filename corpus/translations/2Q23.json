@@ -1,0 +1,235 @@
+{
+ "id": "2Q23",
+ "label": "2Q23",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 31,
+ "scroll_id": 66,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q23 f1:1": {
+   "en": "sitting",
+   "notes": "The transcription is heavily damaged, with only a reconstructed verb form 'ישׁב' (sit) recoverable. The surrounding characters are uncertain and do not contribute to a defensible translation. The verb is in the qal participle form, indicating a present or continuing action.",
+   "line_id": 3895,
+   "source_hash": "e1f98fc762f11bce96985451e3715c7171ef4823572cadcdf3da1af7cf704a83",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f1:2": {
+   "en": "and alas upon you and alas upon",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed word (הוי[). The phrase is fragmented and incomplete.",
+   "line_id": 3896,
+   "source_hash": "ec7e0a5feea83fb0b4468230b7ec9c30c7e97fbd7e0ccbf60d622a20f46e95eb",
+   "source_condition": "reconstructed"
+  },
+  "2Q23 f1:3": {
+   "en": "and flesh be many you have eaten",
+   "notes": "The initial 'ε' is untranslatable and omitted. The conjunction 'וְ' is uncertain but translated as 'and'. The word 'בָּשָׂר' is uncertain but rendered as 'flesh'. The verb 'אכלתמה' is second-person masculine plural perfect, translated as 'you have eaten'.",
+   "line_id": 3897,
+   "source_hash": "9403333dc809914e20ba3deb1aeb586b975eedfbaeddfc2bc73ab64a45574a96",
+   "source_condition": "uncertain"
+  },
+  "2Q23 f1:4": {
+   "en": "you will do all",
+   "notes": "The transcription contains uncertain and unknown elements, including an untranslatable Greek letter (ε) and a damaged Hebrew character (ר). The phrase 'you will do all' is supported by repeated evidence, but the overall meaning remains uncertain due to the fragmentary nature of the text.",
+   "line_id": 3898,
+   "source_hash": "7627a5d9c878ea240a755233ee9ea4322755d7364e794d1d6c2cf80ec88e0ba4",
+   "source_condition": "uncertain"
+  },
+  "2Q23 f1:5": {
+   "en": "in dagger and spear",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The particle ']ב#' is uncertain but translated as 'in' based on its morphology and gloss.",
+   "line_id": 3899,
+   "source_hash": "43f8435fd276b6af9b13be9c2ab61a0a7a89b74cb2827f63032eee3a9b440efb",
+   "source_condition": "uncertain"
+  },
+  "2Q23 f1:6": {
+   "en": "You push from a stone corner",
+   "notes": "The verb 'push' is reconstructed and uncertain. The preposition 'from' and nouns 'stone' and 'corner' are clear, but the overall syntax is fragmented.",
+   "line_id": 3900,
+   "source_hash": "bdc9d9301ce511372fae883d74bccbe0dbb909e999bd43cce83f22854d71060e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f1:7": {
+   "en": "the full he-goats",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The word 'תחת ]י#?ו#?ת' is uncertain and partially omitted, but 'lower' is retained based on the lemma 'תַּחְתִּי'. The translation focuses on the recoverable words 'ה' (the), 'מלאה' (full), and 'שעירים' (he-goats).",
+   "line_id": 3901,
+   "source_hash": "7db4d151155c9f5f723cf9ea3ca5a3937d7e48096accd64c627dd8b07f2bd917",
+   "source_condition": "uncertain"
+  },
+  "2Q23 f1:8": {
+   "en": "Do not praise yourselves in your image",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The verb 'תתהללו' is in the hitpael stem, suggesting a reflexive or intensive action. The suffix 'כם' indicates a second-person masculine plural pronoun.",
+   "line_id": 3902,
+   "source_hash": "9d73a9b88173a4c2276842feb26b486a1fff63968a094f82a288674cd402089b",
+   "source_condition": "clean"
+  },
+  "2Q23 f1:9": {
+   "en": "Behold from sunrise and from north",
+   "notes": "The initial 'ε]' and ']י׳נו' are untranslatable fragments; their meaning is unclear and omitted from the translation.",
+   "line_id": 3903,
+   "source_hash": "76ab3d0b851c3d0fe91a359cf3fad524b892491afed33c2e7eacc511e2f686c0",
+   "source_condition": "clean"
+  },
+  "2Q23 f1:10": {
+   "en": "they stumble, knees and [no recoverable text]",
+   "notes": "The transcription is heavily damaged, with uncertain readings and reconstructions. The verb 'stumble' is based on the lemma 'כשׁל' but is marked as uncertain. The conjunction 'and' is clear, but the following text is irretrievably lost. The initial 'ε' and the final reconstructed fragment cannot be translated with confidence.",
+   "line_id": 3904,
+   "source_hash": "2356252a28b9768e74149a98f7e787fe8a1d33aabdf153d3ad3fe57e093d47ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f1:11": {
+   "en": "and they fell pierced ones many",
+   "notes": "Uncertainty in the transcription and morphology of the fourth word; phrase evidence suggests 'slain [ones] many' as a possible rendering, but the visible form is retained where possible.",
+   "line_id": 3905,
+   "source_hash": "455502fc255212d8d51ae78c10547e10b40d2e8275cae70aaad35e11a14a7e4c",
+   "source_condition": "uncertain"
+  },
+  "2Q23 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no recoverable Hebrew words, only fragments and uncertain characters.",
+   "line_id": 3906,
+   "source_hash": "d98b94add522d87f4e44f7e8f3b7a41bfa3de5e9402ce1cde18560777655c749",
+   "source_condition": "uncertain"
+  },
+  "2Q23 f2:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible forms include a Greek letter (ε) and partially preserved Hebrew characters, but no coherent lexical units survive.",
+   "line_id": 3907,
+   "source_hash": "a4304361e096c13e53880139b1336889f27e67a2f258603fe9a691cc9720170b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f2:3": {
+   "en": "being desolate",
+   "notes": "The transcription is heavily damaged, with uncertain readings. The verb 'שומ#מים' is partially recoverable, suggesting a plural masculine participle form of 'שׁמם' (be desolate / be astonished). Other elements are indecipherable or too fragmentary to translate confidently.",
+   "line_id": 3908,
+   "source_hash": "478f54b7e80a0933c0f05e1f24775c417225ecc4c78ae0ee299b2ca0001363e8",
+   "source_condition": "uncertain"
+  },
+  "2Q23 f2:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or translatable fragments. The visible characters are either damaged, uncertain, or non-lexical marks.",
+   "line_id": 3909,
+   "source_hash": "881687d901dae77ce982e34d29026fb56970bfb1846aeb5f1b4f8040061dc7c9",
+   "source_condition": "uncertain"
+  },
+  "2Q23 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 3910,
+   "source_hash": "ee9a773206da8cda28fc3c7b1cb38db9a942aed53d5b8731818a94f69afa38c6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f3:2": {
+   "en": "and moon",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters (ε) and uncertain forms (]מ##ים). The word 'ירח' is translated as 'moon' based on its lexical gloss, but the surrounding material is too damaged to recover additional meaning.",
+   "line_id": 3911,
+   "source_hash": "020abef7becf67101cee00edbefb576fbf3416fd7a8e99a8b7729b444196d3a3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f3:3": {
+   "en": "becoming weak",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged marker (׃). The verb 'חולה' is translated based on its morphology and lexical gloss, but the surrounding context is unclear. The fragment 'כ # [' is reconstructed and uncertain, with no recoverable meaning.",
+   "line_id": 3912,
+   "source_hash": "5bc54c9c4421f84c09cf7ca111f602e89fccc643fb668a533fd6f753214bdce3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ם#[, ε) with no clear lexical or morphological basis for translation. The reconstructed element ]ם#[ is speculative, and no contextual or semantic constraints provide further guidance. No defensible English words can be derived from the available evidence.",
+   "line_id": 3913,
+   "source_hash": "4a445df245cc6879cf8f88cb1d6a338b79871b737d24fc5ec1fcec5ed1ceab09",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f4:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and damaged text with no clear lexical or semantic recoverable content.",
+   "line_id": 3914,
+   "source_hash": "f3256989d9be36d552b8cf5c2888794e98597ca2e92ebbb2dac95b1687e3450d",
+   "source_condition": "clean"
+  },
+  "2Q23 f4:3": {
+   "en": "enemy bag",
+   "notes": "Uncertain transcription and missing context prevent a confident translation. The first and last characters are untranslatable fragments. The second word is a damaged form of 'enemy' (אֹיֵב), and the third word is a damaged form of 'bag' (כִּיס).",
+   "line_id": 3915,
+   "source_hash": "34f3cf5b09089e902f151976fbd354caff0a42549199c428475c6cd237ac30f9",
+   "source_condition": "uncertain"
+  },
+  "2Q23 f4:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too damaged to translate independently.",
+   "line_id": 3916,
+   "source_hash": "b50c2011840d7c83e3ad4b96f6f353ce57d573b5568c659ffdf2d9a11ec50d25",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f5:1": {
+   "en": "fire",
+   "notes": "The transcription contains untranslatable characters (ε) before and after the recoverable word 'fire'. These characters are omitted from the translation.",
+   "line_id": 3917,
+   "source_hash": "e0cce530e4db20f943df025828329b08248b7c883d25b4a1ef198f9aa60920b8",
+   "source_condition": "reconstructed"
+  },
+  "2Q23 f5:2": {
+   "en": "to seize",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The visible morphology and lexical gloss suggest 'to seize,' but the overall meaning is uncertain due to the fragmentary nature of the text.",
+   "line_id": 3918,
+   "source_hash": "5cbb687b5014662794cac0c062265aac4b41133efdd3a45c4b9194fdb29a24fb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f5:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and untranslatable fragments. The visible Hebrew characters (עם) are incomplete and lack context for meaningful translation. The Greek letter epsilon (ε) appears twice but does not form a translatable word. No defensible English words survive.",
+   "line_id": 3919,
+   "source_hash": "40d6bf090d73e6c02e6e53bdaa8fc2f31dae4f09aa38b91aec88c09bd8c8344f",
+   "source_condition": "reconstructed"
+  },
+  "2Q23 f5:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and untranslatable fragments, including uncertain characters (ε), partial letters (]ת, מל[), and a punctuation mark (׃). No defensible English words can be derived from the visible material.",
+   "line_id": 3920,
+   "source_hash": "ec5919f67e65524124c77f55ce9cd877b55f7dbb1ba1680fd73d7852e8a343bf",
+   "source_condition": "reconstructed"
+  },
+  "2Q23 f6:1": {
+   "en": "His net shall be filled",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged prefix and suffix. The verb 'מלא' is reconstructed and uncertain, but its hitpael stem suggests a reflexive or passive sense. The translation prioritizes recoverable lexical items and preserves uncertainty without speculative additions.",
+   "line_id": 3921,
+   "source_hash": "b1c315320713c8b39091bd29fc636e4e9b447bebce77b0bf12c487584ce9512d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f6:2": {
+   "en": "all the highways",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation. The word 'מסלות' is reconstructed and translated as 'highways'.",
+   "line_id": 3922,
+   "source_hash": "5cf87b0dc7051dbd90037deccd9e0ccf8c624236e8761b95baf08c1470f68970",
+   "source_condition": "reconstructed"
+  },
+  "2Q23 f6:3": {
+   "en": "rule in all",
+   "notes": "The initial and final 'ε' are untranslatable and likely represent damage or editorial marks. The phrase 'ruling over all' is supported by repeated phrase evidence, but 'rule in all' is a more conservative translation given the visible morphology and lexical glosses.",
+   "line_id": 3923,
+   "source_hash": "c43b3fb860d2822e54aade823d1a04f3fa35ac9047766cbcd89b4a178a8e50c5",
+   "source_condition": "clean"
+  },
+  "2Q23 f6:4": {
+   "en": "in",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. Only the preposition 'ב' (in) is recoverable with certainty. Other elements (ε, ]חם, דר##[) are either unknown or too damaged to translate. The final 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 3924,
+   "source_hash": "940312d3f58131742b81af445674feea51b34eef625b325557591d306de11d2f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q23 f6:5": {
+   "en": "to make",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged verb form (עשות[). The translation reflects the recoverable particles and the reconstructed verb root, but the exact sense remains uncertain due to damage.",
+   "line_id": 3925,
+   "source_hash": "738a411d0c2a5980ad0b9471b35a506f3abb0f6b524379147ddf802d3f1e9818",
+   "source_condition": "reconstructed"
+  }
+ }
+}

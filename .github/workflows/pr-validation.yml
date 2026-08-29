@@ -29,6 +29,11 @@ jobs:
       - name: Validate manuscript registry and bible coverage
         run: node scripts/validate-manuscripts.mjs
 
+      - name: Validate search metadata and relevance fixtures
+        run: |
+          node scripts/validate-search-metadata.mjs
+          node scripts/test_search.mjs
+
       - name: Validate official photograph links
         run: node scripts/validate-photo-links.mjs
 

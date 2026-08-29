@@ -1,0 +1,746 @@
+{
+ "id": "Mas1b",
+ "label": "Mas1b",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 104,
+ "scroll_id": 993,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "Mas1b 1:1": {
+   "en": "The flesh at the entrance of the tent of appointment, and there you will eat it and the bread which",
+   "notes": "The phrase 'the entrance of the tent of appointment' is supported by repeated phrase evidence. The object marker 'את' is translated as 'it' for clarity, though its exact reference is uncertain.",
+   "line_id": 52499,
+   "source_hash": "ee48c5ac07b7495603cbcebd832364254cd3c048ea706bfe8e69bbf22e4342fa",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 1:2": {
+   "en": "In the basket of installations, as I commanded to say to Aaron and his sons, they shall eat",
+   "notes": "The phrase 'they shall eat' is uncertain due to damage in the source text. The word 'installation' is a context-free gloss for 'mela'im', which may require further clarification.",
+   "line_id": 52500,
+   "source_hash": "2bc84cbf9a83aaca223d4880162722ba01a5cb029e2252014ef1dfc85d7505ae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:3": {
+   "en": "And the remainder in the flesh and in the bread in the fire you shall burn. And from the entrance of the tent of meeting not.",
+   "notes": "The phrase 'from the entrance of the tent of meeting not' follows repeated phrase evidence with high support.",
+   "line_id": 52501,
+   "source_hash": "efa6fb7bcc1007cd429acfeb5e4d1e72a3d28d056f9bbb1a65663d95b919040c",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 1:4": {
+   "en": "You shall go out seven days until the day the days of your installation are completed, that seven",
+   "notes": "The phrase 'the days of your installation' is a paraphrase based on repeated phrase evidence. The final 'that seven' is uncertain due to damage in the source text.",
+   "line_id": 52502,
+   "source_hash": "896016a20328edc080408e9a317a2b4e59e19a95388809b682ad998395c8afae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:5": {
+   "en": "Days will fill your hand, as he did on this day command YHWH",
+   "notes": "Uncertain reconstruction at position 1. Uncertain transcription at position 14.",
+   "line_id": 52503,
+   "source_hash": "6355cf5d8147548646f392713842b35d439212c7c11125bd8bf7f45a4cda5ba5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:6": {
+   "en": "to make atonement on you",
+   "notes": "The phrase 'to make atonement on' is supported by repeated phrase evidence. The final 'ε' is untranslatable and omitted.",
+   "line_id": 52504,
+   "source_hash": "c5b009dd2ce3c79c155d5089f6de08c22febc79724cda574e01fb27bdf775af1",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 1:9": {
+   "en": "And it was on the eighth day that he summoned Moses to Aaron",
+   "notes": "Uncertainty in the transcription affects the translation of 'day' and 'eighth'. The phrase evidence strongly supports the rendering of 'day (the) eighth' and 'he summoned Moses to Aaron'.",
+   "line_id": 52505,
+   "source_hash": "7be633e64b29185b26d426273cfd042ad0fd9805eba960d7738904e3bbf820f5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:10": {
+   "en": "And to the sons and to the elders of Israel. And he said to Aaron: Take for yourself a bull, a young one.",
+   "notes": "The phrase 'the elders of Israel' is supported by repeated phrase evidence. The phrase 'a bull, a young one' is a paraphrase based on the dominant contextual rendering of positions 15-16. The translation follows the visible morphology and phrase evidence, with uncertainty noted for the lemma 'Israel'.",
+   "line_id": 52506,
+   "source_hash": "b0c9c7f5d4ab5b24fa122db936ca0e361335e345f3fdc4f3c2206c9b41e90080",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:11": {
+   "en": "of the herd to a sin offering and a ram to a burnt offering unblemished and approach to the face of Yahweh and to",
+   "notes": "The translation follows high-confidence phrase evidence where available. Uncertainty remains in the reconstruction of some words, particularly 'sin' (חַטָּאת), 'ram' (אַיִל_1), and 'burnt-offering' (עֹלָה). The final preposition 'to' (אל) is incomplete and its intended object is unclear.",
+   "line_id": 52507,
+   "source_hash": "c50112f804c5526c08149ff860f4b4eff8a7ab3634ab7663a8e4eafd176a16fd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:12": {
+   "en": "To the people of Israel you will speak, saying, 'Take a male goat of goats for a sin offering.'",
+   "notes": "The translation follows high-confidence phrase evidence for the sequence 'of Israel you will speak' and 'a male goat of goats to a sin offering.' The verb 'take' is reconstructed but supported by dominant patterns. Uncertainty remains in the exact sense of 'male goat' and the syntax connecting the final preposition.",
+   "line_id": 52508,
+   "source_hash": "c3d82f0215d62065c13148bf1a2c1f27f55f3bc607e13fc2a4850ff0ed607d89",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:13": {
+   "en": "And a bull, and a young ram, sons of a year, complete, for a burnt-offering. And a bullock, and a ram, for final offers.",
+   "notes": "The phrase 'sons of a year' is a reconstruction based on repeated phrase evidence. The terms 'young ram' and 'ram' are uncertain due to damage in the transcription. The final word 'offers' is a gloss for 'shelim', which is plural, though the singular form 'offer' might be more natural in English.",
+   "line_id": 52509,
+   "source_hash": "c4f6cea028678945fb1349f19edece4a66bdde863ca1d8816428fc36a62033e9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:14": {
+   "en": "To slaughter before the face of YHWH and a grain offering mixed with oil that the day of YHWH is seen",
+   "notes": "The phrase 'a grain offering mixed with oil' is supported by repeated phrase evidence. 'Before the face of YHWH' and 'the day of YHWH' are also supported by repeated phrase evidence. The verb 'to slaughter' is a context-free gloss. The particle 'and' is reconstructed and uncertain. The phrase 'that the day of YHWH is seen' is a conservative translation of the available evidence, though the exact relationship between the clauses is uncertain.",
+   "line_id": 52510,
+   "source_hash": "7bed350f0f0e0e6a08e1692976d134e79b5f1be3718e6931b38497f98033438d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:15": {
+   "en": "To them, and they took what Moses had commanded to the front of the tent of meeting, and they approached.",
+   "notes": "The phrase 'to the front of the tent of meeting' is supported by repeated phrase evidence. The verb 'approached' is a wayyiqtol form, indicating a past action. Uncertainty in the transcription is noted for the particles 'אל' and 'מועד'.",
+   "line_id": 52511,
+   "source_hash": "4d06f4045c6bafbcf75647be6635d9b54f79679dd277fea4fe0c251da118f840",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:16": {
+   "en": "All the congregation stood before Yahweh and he said Moses this the word",
+   "notes": "The translation follows high-confidence phrase evidence for 'he said Moses this' and 'all the congregation' while preserving the visible syntax. The relative particle 'which' is omitted as unsupported in this context. No uncertainty is signaled in the translation itself.",
+   "line_id": 52512,
+   "source_hash": "69e8d6ded0e1363df0f868a4fe6220b2e32178bd32231363fbd0a34d36ed4e75",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 1:17": {
+   "en": "He commanded Yahweh, 'Make, and he appeared to you the glory of Yahweh.' And he said Moses.",
+   "notes": "The translation follows high-confidence phrase evidence for key sequences. The verb 'command' is reconstructed but morphologically clear. 'He appeared to' is a paraphrase of the nifal 'see' supported by pattern evidence. 'The glory of Yahweh' is a dominant rendering of the noun sequence. 'And he said Moses' is a near-unanimous pattern match.",
+   "line_id": 52513,
+   "source_hash": "9c2e8af7daef36b5b83c974dee9c903c580380b2859eb3441af4d8e2827ceb14",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 1:18": {
+   "en": "To Aaron approach to the altar and make the sin offering and the burnt offering and cover",
+   "notes": "Uncertainty in the reconstruction of 'approach' and 'to' due to damage. Phrase evidence suggests 'offer (et) offering' for 'make the sin offering', but visible morphology and lexical glosses are prioritized.",
+   "line_id": 52514,
+   "source_hash": "527dff2e4cc4c024f35fe3d5f7940e05ae82371b7a8028a84866b7d8f0a09faa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:19": {
+   "en": "for you and for the people and make the offering of the people and cover for them",
+   "notes": "Uncertain reconstruction of 'make' and 'cover'. Phrase evidence suggests 'the present of the people' and 'he will make atonement for', but these are not directly supported by the visible text.",
+   "line_id": 52515,
+   "source_hash": "3424e7735bf3aaeafbc5649c3500f745f0e549811f4e0299e44a4a67e1cdbd86",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:20": {
+   "en": "As he had commanded Yahweh, he presented Aaron to the altar, and he slaughtered the bull.",
+   "notes": "The phrase 'as he had commanded Yahweh' is supported by repeated phrase evidence. The sequence 'he presented Aaron' is a high-confidence paraphrase of the visible text. The verb 'slaughter' is uncertain due to damage. The object 'the bull' is directly supported by the text.",
+   "line_id": 52516,
+   "source_hash": "272ff72faad2f2374159136ec4b7399c0853f330de3fb6ffbe5e0bace4f3bea5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:21": {
+   "en": "The sin offering which [is] for him and the sons of Aaron will present the blood to and he dipped his finger",
+   "notes": "Uncertain relative pronoun (אש ]ר##) and damaged syntax at the end of the line. Phrase evidence supports 'the sons of Aaron' and 'the blood to' as contextual renderings. Reconstruction required for 'יקרבו' and 'י[ טב ]ל'.",
+   "line_id": 52517,
+   "source_hash": "5b807dfefbd1834e7e9b261f7f8e97891aeef96a0c824a141ab19d30daef248e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:22": {
+   "en": "In blood and he will put it on the horns of the altar and the blood he poured to the base of the altar",
+   "notes": "Translation follows high-confidence phrase evidence for 'the horns of the altar' and 'the base of the altar'. Uncertainty in transcription marked with '?' is reflected in notes only. No brackets or placeholders used in translation.",
+   "line_id": 52518,
+   "source_hash": "807f8f14630da82c1dfc79a0d312e78eca36a7523fd38c537846a18a7ebfea47",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:23": {
+   "en": "And the fat, and the kidneys, and the appendage of the liver from the sin offering he made smoke.",
+   "notes": "Uncertainty in the transcription of 'כ ]ל#ית' (kidneys) is not reflected in the translation. The phrase 'the sin offering he made smoke' is supported by repeated phrase evidence.",
+   "line_id": 52519,
+   "source_hash": "879ac5761bc17e81a28501910a3652f29f52079c62c80a7cd66b630b892a5def",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 1:24": {
+   "en": "the altar as Yahweh commanded Moses",
+   "notes": "The final two characters (׃ε) are untranslatable and omitted.",
+   "line_id": 52520,
+   "source_hash": "2f232646fac7987f60f5a714aca30aacdc4f3830a8fdc0d31fd1a02360a8c12a",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 1:25": {
+   "en": "And he slaughtered the burnt-offering, and they brought forward the sons",
+   "notes": "The phrase 'they brought forward the sons' is supported by repeated phrase evidence. The initial 'ε' and '׃' are untranslatable and omitted. The final ']' indicates a line break in the source text.",
+   "line_id": 52521,
+   "source_hash": "2f9d8067c31153330ebd4e0b8020339de5e1b9435c9b5c2a8deb8476faa83ee3",
+   "source_condition": "clean"
+  },
+  "Mas1b 2:1": {
+   "en": "Aaron to the blood and he tossed it upon the altar surrounding and the burnt-offering",
+   "notes": "The transcription is partially damaged and reconstructed, with uncertainty in the first word and the object marker. The phrase 'Aaron to' is supported by repeated evidence, but the overall syntax is fragmented.",
+   "line_id": 52522,
+   "source_hash": "f8db681a16b0d04494b1fe5f5604d300fbdfea116c33390fdf87b5e19af03e97",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 2:2": {
+   "en": "They found to the pieces and the head and he smoked upon the altar and he washed",
+   "notes": "Uncertain elements include the preposition 'to' and a possible object marker or conjunction. The translation conservatively omits these uncertain elements and retains the visible lexical items in order.",
+   "line_id": 52523,
+   "source_hash": "b995333cb145b826aa8bab38cd87f6ed79602f1c694850d5586059cec940e46a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 2:3": {
+   "en": "He brought the interior and the kneelings, and he caused to smoke upon the burnt-offering of the altar. And he brought near",
+   "notes": "The translation follows the visible transcription and morphology. The lexical glosses are used as aids, and the translation preserves the grammatical person, number, and semantic relationships. The damaged syntax is not completed with additional subjects or objects, and uncertainty is noted where necessary.",
+   "line_id": 52524,
+   "source_hash": "0080dd27ce2b579ab69fe314c4f008698ca4f7fd090bb1a882a1fabb3a7641b4",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 2:4": {
+   "en": "the present of the people and he took the male goat of the sin offering which was the people's and he slaughtered it",
+   "notes": "The phrase 'the present of the people' is a reconstruction based on repeated phrase evidence. The phrase 'the male goat of the sin offering' is supported by high-confidence repeated phrase evidence. The relative clause 'which was the people's' is a reconstruction based on the visible morphology and lexical glosses.",
+   "line_id": 52525,
+   "source_hash": "e614a9186f0244ceee404a981a64530fb5667d9a62c39f68eb3b7d382be697ef",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 2:5": {
+   "en": "And he missed as the first",
+   "notes": "The transcription includes uncertain characters (ε) and a reconstructed particle (ו), which are omitted from the translation. The verb 'miss' is based on the visible morphology of 'יחטא׳הו'.",
+   "line_id": 52526,
+   "source_hash": "fe053323d4ad00c04a078e78b7b49e7a367cbbbab1b2af111367eb3bb531e9be",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 2:12": {
+   "en": "And he lifted Aaron his hand to the people and blessed them and descended",
+   "notes": "The initial 'ε' is untranslatable and omitted. The phrase 'he will bear Aaron (et)' is not supported by the visible morphology and is omitted. The translation follows the visible DSS transcription and morphology.",
+   "line_id": 52527,
+   "source_hash": "ab4a3d6fa992c0c1e057d0abd24d5eafa040609df0d0bbe352efe0a50da48a6c",
+   "source_condition": "clean"
+  },
+  "Mas1b 2:13": {
+   "en": "from making the sin and the burnt-offering and the final offers and Moses and Aaron to",
+   "notes": "Uncertain reconstruction of 'make' (position 2) and 'sin' (position 4). Phrase evidence suggests 'he went Moses' for positions 13-14, but it is not directly applicable here due to the context. Translation conservatively retains all recoverable words in order.",
+   "line_id": 52528,
+   "source_hash": "9bffaca4bbb76c4e4553dfdd4fbe2ab3b2f4247f35819d2f811290504b047c3d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 2:14": {
+   "en": "The tent of meeting and they went out and blessed the people and it appeared the glory of Yahweh to all",
+   "notes": "Reconstructed and uncertain elements include the initial 'tent' and the verb 'went out'. The phrase 'the glory of Yahweh' is supported by high-confidence evidence, but its connection to 'all' is less certain.",
+   "line_id": 52529,
+   "source_hash": "17386dd08191278073563037bb4437a06ad6045c45107be42ae9a3980863b360",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 2:15": {
+   "en": "The people. And fire went out from before Yahweh and consumed the whole altar.",
+   "notes": "The transcription contains a reconstructed particle 'מ' and an uncertain object marker 'את'. The phrase 'from before Yahweh' is supported by repeated evidence, while 'consumed the whole' is inferred from contextual constraints and lexical glosses.",
+   "line_id": 52530,
+   "source_hash": "1ac0371409f00bb1c55aade83d5cb05de355bee8562a820bfb6db0928a359bac",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 2:16": {
+   "en": "The burnt-offering and the fats, and it saw all the people, and they cried out, and they fell on their faces.",
+   "notes": "The translation includes reconstructed and uncertain elements, particularly around the object marker and the article before 'fats'. The phrase 'all the people' is supported by repeated evidence, and 'they fell on their faces' is a contextual rendering with moderate support.",
+   "line_id": 52531,
+   "source_hash": "43ed2a25f6f0153a64c2c0494d05873ef0d5380d485cfbefb3ff6878870643c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 2:17": {
+   "en": "And they took the sons of Aaron, Nadab and Abihu, each one a fire holder, and they put in fire.",
+   "notes": "Uncertainty in the reconstruction of the verb 'took' and the preposition 'in'. The phrase 'each one censer' is a dominant contextual rendering for positions 8-9, but 'each one a fire holder' is used here to maintain consistency with the provided glosses. The phrase 'the sons of Aaron [were] Nadab' is a dominant contextual rendering for positions 3-5, but '[were]' is omitted to avoid adding unlicensed material.",
+   "line_id": 52532,
+   "source_hash": "3b0639b001ce175da8e9e1c43e824373f816462a15a8f6c79c75735fe9045671",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 2:18": {
+   "en": "And they placed it upon the incense and brought it near before Yahweh, strange fire which not",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'before Yahweh' is supported by repeated phrase evidence. 'Strange fire' is a literal rendering of the adjectives and noun. The relative particle 'which' introduces a clause that is cut off by damage, indicated by the final 'not' without a clear antecedent.",
+   "line_id": 52533,
+   "source_hash": "112004b26380ae8e441edd8e1adec8a7ec5bb6a76cfd797163012ab1b209cf58",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 2:19": {
+   "en": "he commanded them",
+   "notes": "The translation follows the visible morphology and phrase evidence. The object marker 'them' is supported by the suffix on the verb. The final punctuation mark and the untranslatable character 'ε' are omitted from the translation.",
+   "line_id": 52534,
+   "source_hash": "49f91ffc9031097b148968b859dd3d6ae53f0e980204a0c95ce686429f0b607c",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 3:5": {
+   "en": "And he spoke to YHWH, to Aaron, saying: Wine and strong drink, do not drink, you and your sons",
+   "notes": "The transcription is heavily damaged, with several uncertain and reconstructed words. The phrase 'wine and strong drink, do not drink' is supported by repeated phrase evidence, but the context is unclear. The translation follows the visible morphology and lexical glosses, with some uncertainty in the reconstruction of the sentence structure.",
+   "line_id": 52535,
+   "source_hash": "9c3bdace2d8662466088ca2bfe1922c4b6f1156520c9c3f1377b05abdbac0122",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:6": {
+   "en": "When you come to the tent of meeting, you shall not die; it is a statute of perpetuity to your generations.",
+   "notes": "Source contains reconstructed or uncertain text.",
+   "line_id": 52536,
+   "source_hash": "d2ff12ba1fd6ee5dba4e25d5c19beae427fbbc786cd913fb1fbbcd70b9463358",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 3:7": {
+   "en": "And to separate between the holy and between the profane and between the unclean and between the [no recoverable text]",
+   "notes": "The final phrase is incomplete due to damage, with the last word uncertain and partially reconstructed. The lexical gloss for the final adjective is also uncertain, marked as '?' in the source.",
+   "line_id": 52537,
+   "source_hash": "27d11cea4ad499fc11fb19f970fa6b43bd5f3ba9fbdf7b6e996ac77ab33ceaf1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:8": {
+   "en": "And to teach the people of Israel all the statutes which YHWH spoke",
+   "notes": "The phrase 'the people of Israel' is a high-confidence reconstruction of 'בנ[ י ] ישראל'. 'All the statutes' is a repeated phrase with strong support. 'Which YHWH spoke' is a plausible but less certain reconstruction of 'ד##ב##[ ר יהוה ]'.",
+   "line_id": 52538,
+   "source_hash": "38f300e0dd5a1e636140c04a2ac3fe86726a0f248cacda51a8ba61b01620115b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:9": {
+   "en": "to them in the hand of Moses",
+   "notes": "The phrase 'the hand of Moses' is supported by repeated phrase evidence. The prepositional phrase 'to them' is reconstructed but supported by the morphology. The particle 'in' is translated based on its context-free gloss. Uncertainty in the transcription is noted for the name 'Moses'.",
+   "line_id": 52539,
+   "source_hash": "c9add0696eeddd0de1a4ad2068e8d41cd2cd2e731601fee51569d66673299026",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:10": {
+   "en": "And he spoke to Moses and to Aaron and to Eleazar and to Ithamar the sons of the remaining",
+   "notes": "Uncertain reconstruction at positions 10 and 13. Phrase evidence supports 'he spoke Moses to' and 'Moses to Aaron' sequences.",
+   "line_id": 52540,
+   "source_hash": "90100d44a61fc1fe89bec88b2ac2db03a5df32a97a5f3cd97be9137fe1203f51",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:11": {
+   "en": "Take the remaining present from the fire offerings of Yahweh and eat it with matzo",
+   "notes": "The phrase 'from the fire offerings of Yahweh' is supported by repeated phrase evidence. The verb 'eat' is uncertain due to damage in the source text.",
+   "line_id": 52541,
+   "source_hash": "5be11f6901ceba1830b438c87bdeee47fea9559f57f96520f3bd3ba13a476049",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:12": {
+   "en": "The altar that [is] a holy thing of holy things. And you shall eat it in a place holy",
+   "notes": "Uncertainty in verb 'אכ ]ל##תם' due to damage, reconstructed particles and punctuation.",
+   "line_id": 52542,
+   "source_hash": "dd0b2ffcf0d7550283bc244eeb27fefb7e519a16c54233744ed966e29aefbb75",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:13": {
+   "en": "His portion and portion, the sons are from the fire offerings of Yahweh, that thus I was commanded and the breast",
+   "notes": "The phrase 'the fire offerings of Yahweh' is supported by repeated phrase evidence. The verb 'was commanded' is reconstructed and uncertain. The final word 'breast' is uncertain due to the damaged transcription.",
+   "line_id": 52543,
+   "source_hash": "e8945f6941f0b1e4a81873686475c7700b69e66f67b133be16128f7562b6abe7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:14": {
+   "en": "The offering and the thigh of the contribution you will eat in a pure place, and your sons.",
+   "notes": "The phrase 'the thigh of the contribution' is supported by repeated evidence. 'A pure place' is a contextual rendering with moderate support. The final clause is incomplete due to damage, but 'and your sons' is recoverable.",
+   "line_id": 52544,
+   "source_hash": "29d70c62f174ef5ad0c60e4156b088b9a764608dbcd962db0ae0bc0e7b5df09e",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 3:15": {
+   "en": "And your daughters together with your portion and portion your sons have given from the sacrifices their peace offerings sons",
+   "notes": "The phrase 'house (et)' for positions 2-3 and 'the bosom their children' for positions 7-8 are not adopted due to lower pattern support. The translation retains visible morphology and lexical items in order, with uncertainty in connecting phrases.",
+   "line_id": 52545,
+   "source_hash": "d6f1d30018a5801efd0e967a7d2fa0b4a4f2424d8c457d2163e310d3ba73605a",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 3:16": {
+   "en": "Israel, the thigh of the contribution and the breast of the wave-offering upon the fire offerings of fat",
+   "notes": "Reconstructed and uncertain elements include the transcription and some lexical items. The phrase 'the breast of the wave-offering' is supported by repeated evidence. The term 'fire offerings' is plural, and 'fat' is uncertain due to damage.",
+   "line_id": 52546,
+   "source_hash": "466c7bed5b47a4c1fdb0ce9e8e922a74d95dae0e7e9a5b7b80d33b0f520aabe0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:17": {
+   "en": "They will bring to swing a wave-offering before the face of Yahweh and it was to you and to your sons to a portion",
+   "notes": "The phrase 'a wave-offering before the face of Yahweh' is supported by repeated evidence. The verb 'was' is uncertain due to damage in the source. The preposition 'to' is repeated for clarity in English, though it appears only once in the source. The phrase 'to you and to your sons' is a reconstruction based on morphological suffixes and repeated phrase evidence.",
+   "line_id": 52547,
+   "source_hash": "920b061ce3034bccdad4ad73b3a29c8e1292d041628eb2dd7ee0bdd321d139a7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:18": {
+   "en": "eternity as commanded Yahweh and the male goat of the sin offering inquire Moses",
+   "notes": "Reconstructed and uncertain elements include 'עולם' and 'דרשׁ'. The phrase 'the male goat of the sin offering' is supported by repeated evidence. The translation conservatively preserves all recoverable words in order, without adding unlicensed connectors or subjects.",
+   "line_id": 52548,
+   "source_hash": "441ce245d413318e3cc75422912dac250bc1aedeaca829e92976203de2b12b9e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:19": {
+   "en": "And behold, he was burned and was angry upon Eleazar and upon Ithamar, the son of Aaron.",
+   "notes": "The transcription contains reconstructed and uncertain elements, including the name 'Eleazar' and the preposition 'upon' before 'Ithamar'. The phrase 'the son of Aaron' is supported by repeated phrase evidence, but the connection to 'Ithamar' is uncertain due to damage in the source text.",
+   "line_id": 52549,
+   "source_hash": "2f386d6510d3bbc4690b3982fef688962a771a7fdaceb8ba727bcb2e215b0617",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:20": {
+   "en": "The remaining to say why not you ate the sin offering in the place of holiness",
+   "notes": "Uncertain particles and prepositions omitted. 'The place of (the) holiness' supported by repeated phrase evidence.",
+   "line_id": 52550,
+   "source_hash": "b6e5bab49b919abda616001bcf5eb3a287b434b7839a9b4f4c350a253ed43959",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:21": {
+   "en": "It is a holy thing of holy things, and he gave to lift the sin of the congregation to cover",
+   "notes": "The phrase 'a holy thing of holy things' follows the highest-supported repeated phrase evidence. The verb 'lift' is uncertain due to damage in the source text. The phrase 'the sin of the congregation' follows the highest-supported repeated phrase evidence.",
+   "line_id": 52551,
+   "source_hash": "66bc5d6c127fd8439fd2602147bea3b19b549a6e9626417eadf53d1caea73415",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:22": {
+   "en": "upon them before Yahweh Behold not it was brought the blood to the holiness within",
+   "notes": "Uncertain reconstruction of 'upon them' and 'behold'; damaged syntax in the second half of the line; phrase evidence suggests 'it was brought the blood' as a repeated construction.",
+   "line_id": 52552,
+   "source_hash": "b4890b25ebfae95325f822063b4f7b008789e3059f50355f7c9f8f6a46fd844a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:23": {
+   "en": "You shall eat it in the holy place as I commanded you. And he spoke to Aaron to Moses.",
+   "notes": "The phrase 'eat eat (et)' is a reconstruction based on repeated phrase evidence. The phrase 'Aaron to Moses' is supported by high-confidence semantic constraints and repeated phrase evidence.",
+   "line_id": 52553,
+   "source_hash": "36d62a35ad6ba5d3c6c4552a25b0683cde8806a2e4fca6e57f0c4b440d2a8d92",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:24": {
+   "en": "Behold, the day they have presented their sin and their burnt offering before Yahweh, and they called",
+   "notes": "Uncertainty in the reconstruction of 'פנ ]י#?' and 'ו#?' is noted. The phrase 'before Yahweh' is supported by repeated evidence. The verb 'קראנה' is reconstructed with uncertainty.",
+   "line_id": 52554,
+   "source_hash": "93c4828dc1aae884dc58d6d7fab2b36633bf8205fa38ced5398f41842bb00539",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 3:25": {
+   "en": "With these I ate the sin offering of the day which is good in the eyes of Yahweh and he heard",
+   "notes": "Reconstructed and uncertain elements include the object marker, the adjective 'these,' the verb 'ate,' and the divine name 'Yahweh.' The phrase 'in the eyes of Yahweh' is supported by repeated evidence. The final verb 'heard' is uncertain due to damage.",
+   "line_id": 52555,
+   "source_hash": "08f727b857d9bdd4305123f33b6acb13a205fa7c9585cee75e0e6ffc18fd4c6a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:1": {
+   "en": "And it was good in his eyes",
+   "notes": "The transcription contains a reconstructed word 'משה' (Moses) which is not reflected in the translation due to lack of context. The phrase 'ייטב בעיני׳ו' is translated based on repeated phrase evidence.",
+   "line_id": 52556,
+   "source_hash": "68fb8e32268a1d8e5263ff8aa1f888e65c3934fc1885f12c534bd2a0b3530826",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 4:2": {
+   "en": "And he spoke to Yahweh to Moses and to Aaron saying Speak to the sons",
+   "notes": "The phrase 'Yahweh to Moses' is a high-confidence reconstruction based on repeated phrase evidence. The verb 'saying' is an infinitive construct following the preposition 'to,' which is a common Hebrew construction. The final phrase 'to the sons' is uncertain due to the damaged transcription and is reconstructed based on contextual evidence.",
+   "line_id": 52557,
+   "source_hash": "9e93e1b54f00f944fcfb498864dd694a990068fa50fc8bebca9dcfce6c8e0a7d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:3": {
+   "en": "of Israel saying this is the wild animal which you will eat from all the livestock",
+   "notes": "Uncertainty in transcription and reconstruction affects positions 4, 5, and 7. Phrase evidence supports 'saying this is the' and 'of Israel saying' but introduces a relative clause structure not fully licensed by visible tokens. Omitted uncertain possessives and connectors not recoverable from source.",
+   "line_id": 52558,
+   "source_hash": "732d477ae69b7cfafc6da683db527fa3edaaaa2549103cfb29dd01c55192863c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:4": {
+   "en": "Upon the earth, all [is] dividing in two a hoof and cleaves a cleft of hooves [which] brings up",
+   "notes": "Uncertain reconstruction of 'א#[ רץ' as 'earth' and 'ש##[ סעת' as 'cleaves'. The phrase evidence supports the rendering of 'cleaves a cleft' and 'dividing in two a hoof'.",
+   "line_id": 52559,
+   "source_hash": "bc0e9fefbe3dbb26c8c890017f823b7312e8d84f007ffeb906e8c2422685e716",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:5": {
+   "en": "Cud in the animal you shall eat. Only this you shall not eat from those that bring up",
+   "notes": "Uncertainty in the reconstruction of 'ת##[ אכ ]ל##ו#?' and the meaning of 'מעלי ]'.",
+   "line_id": 52560,
+   "source_hash": "680ea8f77e3c295d3a28b873ee036c2e313265dcee0c8870cbe4a55ab790a133",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:6": {
+   "en": "the cud and from those which divide the hoof the camel that brings up the cud it",
+   "notes": "Uncertain reconstruction of 'gera' (cud) and 'parsa' (hoof). Phrase evidence supports the rendering of 'maaleh gera' as 'brings up cud'.",
+   "line_id": 52561,
+   "source_hash": "206eedc92a12d589a68c85c4941773a2b18f4c30beb0cb3c5076ab70e39d2096",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:7": {
+   "en": "And a hoof [is] not divided unclean it to you and the rock badger that ascends",
+   "notes": "The translation follows the highest-supported repeated phrase evidence for 'unclean it to you' and 'rock badger that ascends'. The verb 'is' is supplied for fluency where the gloss indicates a participle. The preposition 'to' is retained from the gloss of ל׳כם, though its object is unclear. The lacuna before 'hoof' is not indicated in the translation.",
+   "line_id": 52562,
+   "source_hash": "48e1ea81bd63ce8868d6358e2c79e37f70aedbd7511bb4ed13fe70167b01de52",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:8": {
+   "en": "Cud it and a hoof, not it divides in two, unclean it to your and the hare",
+   "notes": "The translation follows high-confidence phrase evidence for positions 1-2, 4-9, and 11-14. Positions 3 and 10 are omitted as unsupported connectors. Uncertainty in positions 4 and 5 is noted but does not affect the translation structure.",
+   "line_id": 52563,
+   "source_hash": "4bf4afdc3e34cb78883239311be6709c601d6b09f0b344e614420c1c3eeee174",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:9": {
+   "en": "For that which brings up cud she and a hoof not divides in two is unclean it to",
+   "notes": "Uncertain reconstruction of 'ascend' (position 2) and 'hoof' (position 6). The phrase '[is] unclean it to' is supported by repeated evidence, but its exact syntax is uncertain. The translation preserves the order of recoverable words but smooths the English minimally for readability.",
+   "line_id": 52564,
+   "source_hash": "40c7e433994da2fdc11b5d01f7b3f424d241ee7b515a7663c43327dc64d266b3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:10": {
+   "en": "And the swine that divides the hoof, it cleaves a cleft of hooves",
+   "notes": "Uncertainty in the transcription and reconstruction of some words may affect the translation's accuracy.",
+   "line_id": 52565,
+   "source_hash": "76a02c2336d3146d136f6eefa9e87d0fb331dd7d8beaca64ea6285c3042af6ea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:11": {
+   "en": "And he, its cud, shall not drag away, unclean it to you. From their flesh you shall not eat and in their corpse.",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly 'ג?רה' and 'ל׳כם#', may affect the translation's accuracy. The phrase 'its cud' is a tentative rendering of 'ג?רה', which is marked as uncertain. The suffix 'ל׳כם#' is also uncertain and translated as 'to you' based on contextual evidence, but its exact meaning is unclear.",
+   "line_id": 52566,
+   "source_hash": "f37d448364eb1a79c5d1eb38973f51f6bd65b1bb8af7ea8b609c1fb2b149d0bd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:12": {
+   "en": "Do not touch what is unclean they to this you will eat from all",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly 'ת##ג?עוט[ מאי ]ם##' and 'אשר ]', may affect the translation's accuracy. The phrase '[are] unclean they to' is supported by repeated evidence, but its exact placement and syntax are uncertain. The translation conservatively preserves the recoverable structure without adding implied subjects or connectors.",
+   "line_id": 52567,
+   "source_hash": "8e3e880111b4974ea8a9cc81a420be427a68872f1e4a756997f0b013aa528cf8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:13": {
+   "en": "In waters all that to fin and scale in waters in seas and in wadis",
+   "notes": "Uncertain reconstruction of 'fin' and 'scale'. Fragment retains visible repetition and uncertain syntax.",
+   "line_id": 52568,
+   "source_hash": "b6223c9e6c0ef8995521ee96da91b06cf18d4afdc232494f9a5e43697bc5096a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:14": {
+   "en": "You will eat them, and everything that has no fin and scale in seas and wadis.",
+   "notes": "The phrase 'be] the sign you will eat' is a repeated pattern, but it does not fit the visible morphology and syntax of the fragment. The translation follows the recoverable word order and visible morphology, preserving the plural imperative verb and the relative clause structure.",
+   "line_id": 52569,
+   "source_hash": "b4076b8099977df1682147c020b55d66873cefec4bea22530eb2738fc7dd5916",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:15": {
+   "en": "from every swarming thing of the waters and from every living creature that is in the water, something detestable they",
+   "notes": "Uncertain: 'כל' (position 2) marked as uncertain in source. Reconstructed: '[ שרץ ]' (position 3), '[ ו' (position 6). Phrase evidence applied for 'creature (the) living' (positions 9-11), '[are] detestable thing[s] they' (positions 15-16), and 'every (the) swarming thing' (positions 2-3).",
+   "line_id": 52570,
+   "source_hash": "49f226062815c299fc74eb1ba039bac081ffa8416204b1cc2a03bc103277f04a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:16": {
+   "en": "To them and something detestable will be to them from their flesh not you will eat and their corpse you will detest",
+   "notes": "Uncertain reconstruction at position 6; omitted untranslatable punctuation at positions 2 and 15.",
+   "line_id": 52571,
+   "source_hash": "93639ee2d205ab17b2e5ff861e5c661ec7a5cd2896aba724fef09ac0cad08e25",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:17": {
+   "en": "Every [thing] which has no fin and scale in the waters [is] a detestable thing it to you.",
+   "notes": "The transcription is partially reconstructed, with uncertainty in the first word. The phrase 'a detestable thing it to you' is supported by repeated evidence, though the syntax is fragmented.",
+   "line_id": 52572,
+   "source_hash": "2d481f15d139e6273f9e9be17268806ffa942687a443fc927f2d9e950bc2daf2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:18": {
+   "en": "And you shall detest these from the bird; they shall not eat the detestable thing.",
+   "notes": "Uncertainty in transcription and reconstruction affects 'these' (א ]ל#ה##), 'detest' (תשקצו?), 'the' (ה#), and 'bird' (ע##[ וף). The phrase '[are] detestable thing[s] they' is supported by repeated evidence for 'detestable thing they' (positions 10-11).",
+   "line_id": 52573,
+   "source_hash": "ded9a629feb91996db7c08bd71fc160389bb3dc36c63a1ee1b676021ddda639d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:19": {
+   "en": "The eagle and the vulture and the vulture and the red bird and the Ayyah to its kind",
+   "notes": "Uncertain reconstruction and damage in multiple tokens. Translation conservatively follows visible morphology and glosses, omitting unsupported connectors. Untranslated source characters and punctuation omitted per instructions.",
+   "line_id": 52574,
+   "source_hash": "a3672d5c0e50024e3d3157662e8176a44a28da59bbf8e63957f4131cf09e22a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:20": {
+   "en": "every raven to its kind and the daughter of the ostrich and the owl and the seagull",
+   "notes": "Uncertain reconstruction of initial [ את ]. Uncertain meaning of יענה, translated as 'ostrich' based on context. Uncertain meaning of שחף, translated as 'seagull' based on context.",
+   "line_id": 52575,
+   "source_hash": "11364e7ade685e004f1cf098261858c896deeb98d551ea6118c1222f36efa157",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:21": {
+   "en": "And the falcon of its kind, and the cup, and the cormorant, and the owl.",
+   "notes": "The transcription contains reconstructed and uncertain elements, particularly in the word 'כ#ו?[ ס' (position 11), which is tentatively translated as 'cup' based on the lemma 'כֹּוס_2'. The phrase 'falcon to kind' is supported by repeated phrase evidence.",
+   "line_id": 52576,
+   "source_hash": "43583a4853b1fd4ad6add6960fa9f10ac6f11f12d03c7db545708bb5c85269d0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:22": {
+   "en": "And the owl, and the owl, and the vulture, and the heron, and the bird.",
+   "notes": "Uncertainty in transcription and reconstruction affects the exact sequence and identity of some birds.",
+   "line_id": 52577,
+   "source_hash": "864f94c5b08c4f35534d867ec235ddccdb9d1ac34475a8be0ac5827334a0940f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:23": {
+   "en": "to the kind and the hoopoe and the bat every swarming thing of the bird that walks upon",
+   "notes": "Uncertain object marker before 'bat' omitted. Phrase evidence supports 'every (the) swarming thing' and '(the) swarming thing of (the) bird'. 'Insect [which] walks' is a paraphrase of phrase evidence for 'bird that walks upon'",
+   "line_id": 52578,
+   "source_hash": "e1706ddc59068f3acabfb6962d1c411aa96a535c65def5079fb0ca32097e9d0f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:24": {
+   "en": "Four abominations it is to you only this you will eat from all the swarming creatures",
+   "notes": "The preposition 'to' (ל׳כם#) is uncertain. The phrase 'Four abominations' is reconstructed from '[ ארבע שקץהוא ]'.",
+   "line_id": 52579,
+   "source_hash": "fab2f42c47aa4d7f3829848919b5962f4face8e64a9cd99468bfe7cfe5218172",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 4:25": {
+   "en": "the bird which walks on four [legs] not having knees from above its feet to leap",
+   "notes": "Uncertain reconstruction of 'four' and 'leap'. Phrase evidence supports 'walks on four [legs]' but is not fully context-sensitive.",
+   "line_id": 52580,
+   "source_hash": "ce01ddc9a80d1e4f20680d16f300a9947d74f945995a7724c5231b8c1609e898",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:4": {
+   "en": "You shall be unclean, every one who touches their corpse, until the evening. And all who carry it from their corpse",
+   "notes": "Uncertainty in reconstruction and gloss for positions 1, 4, and 9. Position 11 is an unknown punctuation mark and omitted. Translation retains visible morphology and lexical items, with notes on uncertainty.",
+   "line_id": 52581,
+   "source_hash": "6c2785edf117f7fa7224b4c666f810f952e08242376f5fc75a8230a52cda411a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:5": {
+   "en": "He will wash garments and be unclean until the evening to all the livestock which it is dividing in two",
+   "notes": "Uncertain elements include the reconstruction of 'יכבס' and 'ב#[', the gloss of 'ע ]ר#ב', and the particle 'ל##'. The phrase 'it is dividing in two' is supported by repeated phrase evidence.",
+   "line_id": 52582,
+   "source_hash": "e531228f7e4ab28dc1275589d7f73d2f5579f9c650adee4677dd89887aab4ebc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:6": {
+   "en": "A hoof and a cleft whence she cleaves and cud whence she ascends unclean they",
+   "notes": "Uncertain reconstruction of cleft (position 3), and (position 6), and cud (position 7). High confidence in the phrase '[are] unclean they' based on repeated evidence.",
+   "line_id": 52583,
+   "source_hash": "fa3f0c4cb37f55647a09d0c7c99d7afaf58857b0aa8a4b17b86e521a613777ca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:7": {
+   "en": "to all the [one who] touches (in) unclean and any [one which] walks on the palm in every animal",
+   "notes": "Uncertain reconstruction and damaged syntax prevent fluent rendering. The translation preserves recoverable lexical items in order, omitting unsupported connectors. Uncertainty in 'ב׳הם#' and 'י?טמא' noted but not bracketed in translation per instructions.",
+   "line_id": 52584,
+   "source_hash": "acecfc7f6091eba1722007d3c0c3737e39691d70d04b7562313195bfeaf43c32",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:8": {
+   "en": "Walking on four [legs] unclean they to all the one who touches in a corpse is unclean",
+   "notes": "Uncertain reconstruction of damaged text at positions 4, 10, and 12. The phrase 'walking on four [legs]' is supported by repeated evidence but remains tentative. The verb 'is unclean' at the end is reconstructed from damaged text.",
+   "line_id": 52585,
+   "source_hash": "5c565b17684d0e18efc194d3118303c93d8d7e0a8fd4ddb67705093e9551ea81",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:9": {
+   "en": "Until the evening and he who carries the carcass will wash his garments and he became unclean until the evening",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly 'ער ]ב#' and 'ע##ד', may affect the translation. The phrase 'he who carries the carcass' is supported by repeated phrase evidence, while 'he will wash garments' is a high-confidence contextual rendering.",
+   "line_id": 52586,
+   "source_hash": "ce6d4655ccb16d813ca9cc51ffb410067b0eabae9e51d73b086ab74ccfdbf47a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:10": {
+   "en": "[are] unclean they to and this to the unclean in swarming creatures",
+   "notes": "Uncertainty in reconstruction and transcription affects positions 1, 2, 7. Phrase evidence supports '[are] unclean they' and 'this to' but introduces '[are]' not directly from the transcription. Omitted uncertain punctuation and unsupported connectors.",
+   "line_id": 52587,
+   "source_hash": "14867233e3a4ccdee792beddbc3183b28e0cf14ecf630d0ba627b7f87160213f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:11": {
+   "en": "The swarming upon the earth, the mole-rat, and the jerboa, and the lizard of its kind, and the gecko.",
+   "notes": "Several words are reconstructed or uncertain: 'swarm' (ש#רץ), 'mole-rat' ([ ח ]ל##[ ד), 'jerboa' (עכ ]ב##ר##), and 'gecko' (אנק##ה##). The phrase 'of its kind' is a necessary addition for fluency, but it is not directly supported by the text.",
+   "line_id": 52588,
+   "source_hash": "22faa3b669424cfd401c58f444a0340e9c33c1552a693b53015c98f463e01ea9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:12": {
+   "en": "And the strength and the gecko and the reptile and the owl: these are the unclean to you in all",
+   "notes": "The translation includes reconstructed text for positions 1, 12, and 19. The lexical gloss for 'כ##ח' (position 3) is uncertain, with options 'strength' or 'lizard'; 'strength' is chosen here. The phrase 'ל׳כם ב[ כל ]' is translated conservatively without adding implied subjects or objects, despite repeated phrase evidence suggesting 'Levites with the instruments'.",
+   "line_id": 52589,
+   "source_hash": "ede84acf08c4715aab3872182c3fd0a3f45a35d21b67eefc354c56cd49d4fa10",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:13": {
+   "en": "The swarming creature, all that touches in death, will be unclean until evening. And all that it will fall.",
+   "notes": "Uncertainty in transcription and reconstruction affects positions 1, 2, 6, 8, 10, 13, 15, and 17. Phrase evidence supports 'all that it will fall' and 'every (the) [one who] touches', but the translation conservatively follows recoverable tokens without adding implied subjects or objects.",
+   "line_id": 52590,
+   "source_hash": "e8a453bc86d1954cbfef882c95735a5b5376ec36b5626e8bfaf861f5fab32100",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:14": {
+   "en": "upon them from death he will be unclean from every vessel of wood or garment or skin or sack",
+   "notes": "The phrase 'every vessel of wood' is supported by repeated phrase evidence. Several words are uncertain or reconstructed, including 'upon them', 'from death', 'garment', 'skin', and 'sack'.",
+   "line_id": 52591,
+   "source_hash": "3a883c18a8fa102797838fd8f1c7be3bb633f338fa85ec2e2891c22f5025b68c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:15": {
+   "en": "every vessel which will be made work in waters coming and was unclean until",
+   "notes": "Uncertain transcription and reconstruction in positions 4, 5, and 9. Phrase evidence supports 'every vessel which' (positions 1-3), 'work in' (positions 5-6), and 'waters coming' (positions 8-9). No high-confidence semantic constraints provided.",
+   "line_id": 52592,
+   "source_hash": "f7563c6a824f882766dc8bb2199ab75ce9ebb44f339681d71e0a3ee98f4111e3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:16": {
+   "en": "The evening and be clean and all a vessel of earthenware which it had fallen from to the midst of all which",
+   "notes": "Translation incorporates high-confidence phrase evidence for positions 8-9, 8-9-10, and 10-11-12. Uncertainty in transcription and reconstruction is not reflected in the translation per instructions.",
+   "line_id": 52593,
+   "source_hash": "6be4155781a07266aeeb1580c53e6c0409e0bbf85a92e26c28fe63e46bb84bbd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:17": {
+   "en": "In its midst it will be unclean and you will break from all the food which [he] eats [when] he comes",
+   "notes": "Uncertain elements include the suffix 'ו׳' in 'תוכ#׳ו?' and the word 'אכל#' due to damage. The phrase 'את׳ו תשברו' is translated based on repeated phrase evidence as 'you will break'. The verbs 'יטמא' and 'יבוא' are reconstructed and translated as 'it will be unclean' and 'he comes' respectively.",
+   "line_id": 52594,
+   "source_hash": "cbbf6908fc3272167edbf45d232da1ea340ec8adf3063d2957a6c0159f329db5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:18": {
+   "en": "Upon the waters shall be unclean and the drink which is drunk in every vessel shall be unclean",
+   "notes": "The phrase 'the vessels of the drink' is a high-confidence contextual rendering for positions 5-6. 'In every article' is a repeated phrase evidence for positions 9-11. 'Any unclean [thing]' is a repeated phrase evidence for positions 11-12. The translation conservatively follows the visible morphology and lexical glosses, with uncertainty in the reconstruction of some words.",
+   "line_id": 52595,
+   "source_hash": "87f453cefa09fa04eff8ff36460243379066a05c930606d19aa6454a45a51694",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:19": {
+   "en": "And all that falls from a corpse upon a furnace and hearths will be broken, unclean",
+   "notes": "Uncertainty in the transcription is reflected in the translation of 'all that' and 'unclean'. The phrase 'it will fall any of' is a repeated phrase evidence, but it is not used in the translation as it does not fit the context. The phrase 'all that it will fall' is also a repeated phrase evidence and is used in the translation.",
+   "line_id": 52596,
+   "source_hash": "ee0276694837d127c8fa8ab7636b9c95bce6ef9bc689170112caf3d8dcc43510",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:20": {
+   "en": "They and unclean will be to you Only a well and a cistern a collection of water will be clean",
+   "notes": "Uncertainty in transcription and reconstruction affects the translation's fluency. The phrase 'a collection of water' is supported by repeated evidence but its relationship to 'will be clean' is uncertain. The translation conservatively preserves all recoverable elements without adding unlicensed connectors or subjects.",
+   "line_id": 52597,
+   "source_hash": "56dad9605ad8bcba03a6f46ca7d731bde606298da688b3a74ac1a137612bbb82",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:21": {
+   "en": "And whoever touches in a corpse will be unclean and it will fall any of a corpse upon all the seed sown which you will sow",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'it will fall any of a corpse' follows repeated phrase evidence. The sequence 'seed sown' retains context-free glosses due to low pattern support for alternatives.",
+   "line_id": 52598,
+   "source_hash": "45135b0b98f0a4e83f5706a5c004ff3d12d67e3c5520941c2325fb62a356bd9e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:22": {
+   "en": "Pure he and that he gave water upon seed and it will fall any of their corpse upon it unclean he",
+   "notes": "Uncertain reconstruction of 'he' (position 2). Uncertain reconstruction of 'gave' (position 6). The phrase 'it will fall any of their corpse' is a high-confidence repeated phrase.",
+   "line_id": 52599,
+   "source_hash": "ccdbfd42cd7391d6fdcf7abcce4ceda42381dd39c3f831c479a39e319cfb1ae0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:23": {
+   "en": "to you and that it dies from the cattle which is to you for food",
+   "notes": "The phrase 'animal which it' is a repeated pattern but does not fit the context. The translation follows the visible morphology and lexical glosses, with 'to you' repeated as per the source.",
+   "line_id": 52600,
+   "source_hash": "f05906bccb48ca02b07a248408be413be3d1c3544ba4d32a5c1d07c666eaed3c",
+   "source_condition": "reconstructed"
+  },
+  "Mas1b 5:24": {
+   "en": "Whoever touches a corpse will be unclean until evening and he who eats from the corpse will wash his garments",
+   "notes": "The phrase 'who touches (in) carcass' is supported by repeated evidence. The phrase 'he will wash garments' is also supported by repeated evidence. The translation conservatively follows the recoverable text, preserving the structure and participants without adding unsupported elements.",
+   "line_id": 52601,
+   "source_hash": "bc458c4219cbe61f0404eee050b034b60346ae5faf3b90efa3f468e304f73a69",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "Mas1b 5:25": {
+   "en": "And he was unclean until the evening, and the one who carries the carcass will wash his garments, and he was unclean until",
+   "notes": "Uncertainty in the reconstruction of 'יכב#ס#' (wash) is noted. The phrase 'who carries the carcass' is supported by repeated evidence, but its exact syntax is uncertain. The final 'until' is incomplete due to damage.",
+   "line_id": 52602,
+   "source_hash": "2e686d131c66d91ae8e951aca62071a9fe1c4a3efd4104716fe9598b5c0ca224",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

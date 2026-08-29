@@ -1,0 +1,88 @@
+{
+ "id": "4Q62",
+ "label": "4Q62",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 10,
+ "scroll_id": 849,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q62 f1_2:1": {
+   "en": "Not he will grow dim and not he will crush until he will establish on earth justice and for instruction islands they will wait",
+   "notes": "Uncertain reconstruction at position 10; uncertain transcription at position 16; unsupported contextual rendering for positions 7-9 and 9-10; unmatched DSS positions 5 and 15 in semantic constraints.",
+   "line_id": 46328,
+   "source_hash": "55ec9d03b74c1a81899bbff6a6cdb6eb0ab5bc67fe22496e118c461c9f11e242",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62 f1_2:2": {
+   "en": "Thus he says to (the) God Yahweh [who] created the heavens and stretched [who] beat out the earth",
+   "notes": "Uncertain reconstruction and damage in positions 6 and 11. The phrase 'Yahweh [who] created the' and '[who] beat out the earth' are supported by repeated phrase evidence.",
+   "line_id": 46329,
+   "source_hash": "cc3db9ee9c95ba61a33bfa838cb7c46cafcece7dbb81d9c275c9d186f4bd48d1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62 f1_2:3": {
+   "en": "And the offspring who gives breath to the people on and spirit to walk in I [am] Yahweh I called",
+   "notes": "Uncertain reconstruction of 'YHWH' and 'spirit'; contextual rendering of 'I [am] Yahweh' preferred over 'Yahweh call'; 'to walk in' supported by phrase evidence; 'people on' and 'spirit to go' are less supported renderings.",
+   "line_id": 46330,
+   "source_hash": "67145ec8551062e9b07ffc758a3365b6e04291e69c7f836908695340a2f31808",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62 f1_2:4": {
+   "en": "In righteousness and I will take hold on your hand and I will watch and I will give to a covenant of perpetuity to light",
+   "notes": "The translation follows the visible transcription and morphology, with contextual senses for 'righteousness' and 'I will take hold' supported by semantic constraints. The phrase 'to a covenant of perpetuity' is a high-confidence repeated pattern. Uncertainty in the verb at position 8 is noted but does not affect the translation structure. No unsupported elements were added.",
+   "line_id": 46331,
+   "source_hash": "b11afb502de80e6092620005faf1f9962ff70a45293556cb32c70acdae624e7b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62 f1_2:5": {
+   "en": "of the nations to open eyes blind to bring out from a bulwark-maker prisoner from a house of imprisonment",
+   "notes": "The phrase 'from a house of imprisonment' is a high-confidence contextual rendering of positions 12-14. The phrase 'eyes of blind [people]' is a repeated pattern for positions 5-6, but 'eyes blind' is chosen for conservatism. The translation preserves all recoverable lexical items in order, with no added subjects or connectors.",
+   "line_id": 46332,
+   "source_hash": "e1b37daa81f42e9bb30971c091b718539522cd15337471d7b2674540e57c4d7a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62 f1_2:6": {
+   "en": "[Dwellers] of darkness. I [am] Yahweh, it name, and glory to another not I will give and praise",
+   "notes": "Positions 1-2 and 6-7 use high-confidence contextual renderings. Position 3 is untranslated punctuation. Position 14 is a reconstructed conjunction.",
+   "line_id": 46333,
+   "source_hash": "d714323082c98f70c8fc20867b75d5334f232e0b771408beba0799db3e970e34",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62 f1_2:7": {
+   "en": "To images the former things there! They have come and new things I am about to tell before before they will spring up",
+   "notes": "The translation includes two instances of 'before' due to the repeated token 'טרם' in the source. The phrase 'I am about to tell' is a paraphrase of the ambiguous verb 'מגיד' in the hifil stem, following the dominant contextual rendering of the phrase 'אני מגיד'. The translation conservatively retains all recoverable words in order, including the uncertain reconstructed preposition 'ב#[' rendered as 'before'.",
+   "line_id": 46334,
+   "source_hash": "667ac8858008360004a6c565baf9a603928a56bdebe88d1282ccb8a0d4388715",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62 f1_2:8": {
+   "en": "I will cause to hear you",
+   "notes": "The object marker is uncertain and may not be fully recoverable. The final punctuation mark is omitted as it has no independent translation.",
+   "line_id": 46335,
+   "source_hash": "6e8a4763b958f344c2337cb89fc658dddc48b1326a5ae13647620a5beb779d51",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62 f1_2:9": {
+   "en": "Sing to Yahweh a song new praise from the end of the earth O you who go down of the sea and what",
+   "notes": "Uncertain reconstruction at positions 1, 3, 8. Uncertain gloss at position 15.",
+   "line_id": 46336,
+   "source_hash": "cd88f43405fe785e08e7ed4aa4bad986957a83a990c2a6b19c4b8ef43622a3e5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q62 f1_2:10": {
+   "en": "Islands and their inhabitants, let them lift up the wilderness and cities and the villages where it dwells",
+   "notes": "Positions 1-3: 'Islands and their inhabitants' is a paraphrase based on contextual senses. Position 6: '[the] wilderness' is a reconstruction. Position 8: 'cities' is a required contextual sense. Position 9: '[the] villages' is a required contextual sense. Position 10: '[where] it dwells' is a required contextual sense. Positions 4, 11, 12: untranslated punctuation and unknown characters.",
+   "line_id": 46337,
+   "source_hash": "b8cdfdbdfe9d82d7c7ee768867713ad7523c0876536a54039a44d24b2c79ab0e",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

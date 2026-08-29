@@ -1,0 +1,410 @@
+{
+ "id": "11Q12",
+ "label": "11Q12",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 56,
+ "scroll_id": 676,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "11Q12 f1:1": {
+   "en": "We made known in going out",
+   "notes": "Uncertain transcription and reconstruction in 'הודע ]נ#?ו' and 'צ##[ את׳נו ]'. The first word 'ε' is untranslatable and omitted.",
+   "line_id": 33456,
+   "source_hash": "e2736de7278b982a5db1e4e5c45309771a351f9fd7bd546d87e556688b2d2e56",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f1:2": {
+   "en": "before the face of Yahweh our God the whole sins which they will make in the heavens",
+   "notes": "Uncertain reconstruction of 'to' (position 1) and 'in' (position 11). Uncertainty in verb form at position 10.",
+   "line_id": 33457,
+   "source_hash": "143714b9e2eff23ad4062eb3eb3e9697211c27e0b9c8d5bc7c1f49b3e70f04f5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f1:3": {
+   "en": "And in the earth, and in the light, and in the darkness, and in the whole. And they were man and woman mourning.",
+   "notes": "The transcription contains reconstructed text and uncertain elements, particularly in the final verb form 'מ##ת[ אבלים ]', which is tentatively translated as 'mourning' based on the provided lexical gloss. The phrase 'it will become Edom' from repeated phrase evidence was not applied as it does not align with the visible DSS tokens.",
+   "line_id": 33458,
+   "source_hash": "5f57e10fe0796810791432397a8bfbb6aea3d8ad9d03b1db37f717a8c2182651",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f1:4": {
+   "en": "Upon Abel four weeks and in four to the week the fifth",
+   "notes": "The transcription is partially reconstructed and contains uncertain elements, particularly the preposition 'in' and the final phrase 'the fifth.' The translation conservatively follows the recoverable order of words without adding unlicensed connectors or participants.",
+   "line_id": 33459,
+   "source_hash": "f717650aec8bee2e2a84fd4730f65bdf3205f95856ef5638327cbd1a8adf1773",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f1:5": {
+   "en": "They rejoiced and the man knew the second, his woman, and she bore to him a son and he called (et) name Seth",
+   "notes": "Reconstructed text in positions 1 and 15. Phrase evidence supported contextual renderings for 'he called (et) name' (positions 13-15), 'she bore to' (positions 9-10), and 'of the descendants' (positions 10-11), but the latter was not used as it did not fit the context.",
+   "line_id": 33460,
+   "source_hash": "86768584ffaf8ed16c1298eb50fe81b5ab5b1ea3afc14e7c496d1aaaa9e1fd6f",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f1:6": {
+   "en": "For he said, 'I will put to Yahweh a seed in another land under Abel, for he killed him.'",
+   "notes": "The transcription is partially reconstructed and uncertain at position 8. The phrase 'to Yahweh' is supported by repeated evidence, but 'I will set to' is less certain. The rendering of 'seed' and 'another land' is contextually supported, but 'under Abel' is less clear. The final clause 'for he killed him' is uncertain due to the damaged transcription.",
+   "line_id": 33461,
+   "source_hash": "51daeb01b67132e5973fb5a028a9e4f30d14d711899e9ee501ce79cbc20d2010",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f1:7": {
+   "en": "Cain in the sixth week he bore Azurah his daughter and Cain will take his sister",
+   "notes": "The transcription is partially reconstructed and uncertain. The term 'אזו ]ר#ה' is uncertain and translated as 'Azurah' based on the provided lemma. The final word 'אחות#׳[ ו ]' is reconstructed and uncertain, translated as 'his sister' with assumed possessive.",
+   "line_id": 33462,
+   "source_hash": "bd6dc50822742b38cd3b26a1e196695cb2e40e80cfb7ece60b4521828c50087e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f1:8": {
+   "en": "And the woman will bear to Enoch at the end of the fourth ram",
+   "notes": "The phrase 'she bore to' is supported by repeated evidence for positions 6-7. The term 'ram' is a context-free gloss for 'yobel' at position 13, but its exact meaning in this context is uncertain.",
+   "line_id": 33463,
+   "source_hash": "92457921f7d3e992ab3625fd7299024c2af0114fd62cc124f05d5018131ab669",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f1:9": {
+   "en": "And in the year one of the first week of the ram the fifth, the houses were built in the land.",
+   "notes": "The phrase 'year one of the first week' is a dominant contextual rendering with high support. The term 'ram' is a context-free gloss for 'yovel,' and 'fifth' is a numerical gloss. The verb 'nival' is translated as 'were built' to match the passive voice indicated by the morphology. The final word 'earth' is reconstructed as 'land' based on the context.",
+   "line_id": 33464,
+   "source_hash": "56113827f8da1d825aea5830d0b6c4e5ec0c0bdc092bac1fb74f393ba0998372",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f1:10": {
+   "en": "And Cain built a town and called the name like the name of Enoch and Adam",
+   "notes": "The phrase 'he called (et) name' is a high-confidence repeated pattern. The sequence 'the names of the sons' is also repeated but does not fit the visible syntax here. Two reconstructed characters are present in the transcription.",
+   "line_id": 33465,
+   "source_hash": "c8c6886e628f3d9f062e28bfb22d6e83f4447b4797b7608e3abd05a22ffca36e",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f1:11": {
+   "en": "He knew Eve, the woman, and she bore nine sons, and in the fifth week",
+   "notes": "The transcription contains reconstructed and uncertain elements, particularly in the final phrase involving 'week' and 'fifth'. The translation reflects recoverable content conservatively.",
+   "line_id": 33466,
+   "source_hash": "73545eca550c7eef35d64eee6b608450e5da6169cde25c8a1980d209b2c98a28",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f2:1": {
+   "en": "He took the man's sister, Kindness, to a woman, and she bore to him a son in the year",
+   "notes": "Reconstructed text in positions 1 and 14. Uncertain reading in position 14.",
+   "line_id": 33467,
+   "source_hash": "70aa671efd185782c69df29fe0618d75c928bfff1a13047b1fc4f816d1d14ac7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f2:2": {
+   "en": "The third to the week the fifth and he will be called Shem Kenan and in the end of the ram",
+   "notes": "The transcription contains reconstructed and uncertain elements, including the preposition 'in' and the final word 'ram'. The phrase 'she called name' is a high-confidence repeated pattern, but it does not fit the visible morphology and person agreement here.",
+   "line_id": 33468,
+   "source_hash": "eb1635e3d9054b6815492a66bf6f5ecdbb90c0e3e8f9d3184cb12d7f856cf20c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f2:3": {
+   "en": "The eighth took for Kenan a woman, his sister, Mahalath to a woman. And she will bear",
+   "notes": "The phrase 'Mahalath' is a proper noun with no trusted gloss available. The translation preserves the uncertainty in the source text.",
+   "line_id": 33469,
+   "source_hash": "284f89293ec390c5d8158eba423a59cae90531e2838473ba5a00ed780afe1912",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f2:4": {
+   "en": "to the son in the ram the ninth in the week the first in three to the week",
+   "notes": "Uncertain reconstruction at position 12; transcription damage at positions 1, 13, and 15.",
+   "line_id": 33470,
+   "source_hash": "efe6f875f3acc6465e87c92ef8089993a650f76319f5a0bee84ba052199c6722",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f3:1": {
+   "en": "To the fourth ram this and she bore to the son in the week of the fifth in the year",
+   "notes": "The phrase 'she bore to' is a high-confidence reconstruction based on repeated phrase evidence. The lexical gloss 'ram' for 'יובל' is retained due to lack of contextual constraints. The final 'in the year' is reconstructed from damaged text.",
+   "line_id": 33471,
+   "source_hash": "b11686b32b8e6b7df836709e8f5743901c607a69586b6b39a480cc1023879574",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f3:2": {
+   "en": "The fourth to the ram and he called the name Enoch this first",
+   "notes": "The transcription includes reconstructed characters and a final punctuation mark with no trusted gloss. The phrase 'he called (et) name' is supported by repeated evidence.",
+   "line_id": 33472,
+   "source_hash": "8b7f8860bc2194ed2b473c87f0be23c894df7b020f974c7f0175dd2687872362",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f4:1": {
+   "en": "And he will write in the book of the signs of the heavens as the portion of the months because they know",
+   "notes": "Uncertain reconstruction of 'למע ]ן#?' and 'י(# ד##ע #)ו#?'",
+   "line_id": 33473,
+   "source_hash": "c68832298aa29db8dbee1b0e42dd5ec4f6619011c170b93cc86ed96f6660f2cd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f4:2": {
+   "en": "The turning points of the years as regulations for all the months, first that",
+   "notes": "The phrase 'the turning points of the years' is supported by repeated phrase evidence. 'All the months' is a paraphrase of the supported phrase evidence for positions 8-9. 'First that' is a paraphrase of the supported phrase evidence for positions 11-12.",
+   "line_id": 33474,
+   "source_hash": "4cc5fbb48d995260b4dbd638283d23611d5ba34d097f35a545c39f77fd5a688f",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f4:3": {
+   "en": "He wrote an attestation and witnessed in the sons of man in the generations of the earth weeks the jubilees",
+   "notes": "The phrase 'O son of humankind' is a high-confidence repeated phrase, but it does not fit the context. The translation follows the visible morphology and lexical glosses instead. The word 'יובלים' is translated as 'jubilees' based on its lexical gloss, although it could also mean 'rams'.",
+   "line_id": 33475,
+   "source_hash": "d59650039d5f01ae8104f20e25abe4ddca172dcb7642d2ee3ee96240520a207c",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f5:1": {
+   "en": "The first one was buried in the ground, and it will be lacking to seventy years from a thousand",
+   "notes": "Uncertainty in the verb 'was buried' (נק ]ב#ר) and the number 'seventy' (שבעים) due to damage and unclear context.",
+   "line_id": 33476,
+   "source_hash": "e233430adf0b77aab867280bcb1ee916ad3a9722a72d9375ad71415ca8d56a00",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f5:2": {
+   "en": "The years that a thousand the years a day one in the attestation of the heavens",
+   "notes": "Uncertain reconstruction of 'the years' and 'a thousand the years'. Phrase evidence suggests 'the year a day' and 'a day one' as possible renderings.",
+   "line_id": 33477,
+   "source_hash": "8a7b0cb820747d71b259814beede6b531c9563284561bcad672be04f9bb7f181",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f5:3": {
+   "en": "It was written upon the tree of the knowledge that on the day you will eat from death. Thus",
+   "notes": "The phrase 'the tree of the knowledge' is a high-confidence reconstruction based on repeated evidence. 'You will eat from death' is supported by repeated phrase evidence. The final 'thus' is incomplete due to damage.",
+   "line_id": 33478,
+   "source_hash": "1f5b754f1399e8312c336316e22cadc5bab0508b0ac425ffcf8be4ba38754985",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f5:4": {
+   "en": "Not to complete the years of this day, that he may die in the fullness of this jubilee.",
+   "notes": "The phrase 'he may die' is a reconstruction based on repeated phrase evidence. The term 'jubilee' is used for 'yovel', though its meaning here is uncertain.",
+   "line_id": 33479,
+   "source_hash": "111780bc6b52cba50b242f4760c0bb0c2f5ac8e8a5528a9213b0815784c99beb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f6:1": {
+   "en": "Kain died and in the year that is and the house of Eli will fall and he will die in his house",
+   "notes": "The phrase 'year (the) that' is supported by repeated phrase evidence. The phrase 'the house of Eli' is a possible interpretation based on the provided data, but its support is low (0.2222). The translation assumes 'Kain' as a proper noun, though the gloss also suggests 'spear'.",
+   "line_id": 33480,
+   "source_hash": "2e4a2ae4a0303214b3d391e719b1199a51478816f42b89506d809cfb6ee3d1a0",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f6:2": {
+   "en": "And he will die in the stones that",
+   "notes": "Uncertainty in the transcription and an untranslatable character (ε) limit the translation's completeness.",
+   "line_id": 33481,
+   "source_hash": "f1dac2649734c7ee7c08243b23fa5a45a8c2124226da02c734c7e408e73c6b57",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f7:1": {
+   "en": "To the descendants and these the giants and violence multiplied in the earth and all flesh corrupted",
+   "notes": "Reconstructed text with uncertainty in 'giants' and 'multiplied'. The phrase 'all flesh' is supported by repeated evidence.",
+   "line_id": 33482,
+   "source_hash": "f334c2847b7caee8d62fc9e75a924bfcba4934b0402f6413f29a8a0bb967223d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f7:2": {
+   "en": "From the way of man unto animal and unto wild animal and unto bird and unto every the creeping thing",
+   "notes": "Reconstructed text in positions 1 and 8. Uncertainty in position 8 due to damaged transcription. Phrase evidence supported 'every (the) creeping thing' for positions 14-16 and 'humankind unto animal[s]' for positions 3-5, but the latter was not adopted due to the visible morphology and lexical gloss.",
+   "line_id": 33483,
+   "source_hash": "56e5ff2a5dad3143b47e907e4c5f38c4cac349eab4764bad44e4a25a116cee73",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f7:3": {
+   "en": "Upon the earth and all who destroyed their way and their regulations, and they defile to eat every man",
+   "notes": "Uncertain reconstruction and damage in the source text affect the translation's flow. The phrase 'eat every man' is supported by repeated phrase evidence but lacks contextual clarity.",
+   "line_id": 33484,
+   "source_hash": "c4135292b15acc08e0522b386d4b92d91ffb901024215c0ef0e80d10c769196b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f7:4": {
+   "en": "His fellow will grow in violence on the earth and all",
+   "notes": "The transcription is partially damaged, with two reconstructed words and one uncertain word. The final characters are untranslatable and omitted.",
+   "line_id": 33485,
+   "source_hash": "473f64ff7d5aecb2feb131b9cf9855cf01450f636ff4fdc38327acfd50f10c1c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f7a:1": {
+   "en": "And he shall put from the blood upon the flesh of the offering which is upon the altar",
+   "notes": "The transcription contains an uncertain character (ε) at the beginning and end, which are omitted in the translation. The particle 'ע' is reconstructed and translated as 'upon'. The translation follows the visible morphology and lexical glosses, with no additional contextual constraints applied.",
+   "line_id": 33486,
+   "source_hash": "465fb001e04a5c2043ccba32beb814e76d7d7eba6b45060d4b43305c2aab786c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f7a:2": {
+   "en": "and all the burnt-offerings ascend upon the altar",
+   "notes": "Uncertain: initial and final ε are untranslatable; 'כ ]ל##' is damaged but contextually supported as 'whole' or 'all'; '[ עו ]ל[ ו ]ת׳הם' is reconstructed as 'burnt-offerings' with high confidence.",
+   "line_id": 33487,
+   "source_hash": "69c30d62151f706c8990ba7f016aedded0c1af2a1bcee22a65fa835e3b68b75f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f7a:3": {
+   "en": "And you shall bring up a present, an offering, for acceptance before the face of Yahweh God.",
+   "notes": "The initial and final epsilon characters are untranslatable and omitted. The reconstruction of 'רָצֹון' (pleasure) is reflected in the translation as 'acceptance'.",
+   "line_id": 33488,
+   "source_hash": "3a8104a36c1ecade249ec574ae60379e686ca5efa8e2a7d0766a95a325b46513",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f8:1": {
+   "en": "and",
+   "notes": "The second word is unrecoverable due to damage, represented by 'ε' in the transcription.",
+   "line_id": 33489,
+   "source_hash": "ef2e5195b606a9eed0f863c6c526a2085856114495795d86534f4ad5ac0ef4a8",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f8:2": {
+   "en": "With Terah's father in Haran two weeks of years and in the sixth week",
+   "notes": "The phrase 'two weeks of years' is a literal translation of the Hebrew, though it may imply a duration of time. The reconstruction of 'Terah' is certain, but its grammatical relationship to 'father' is clarified by repeated phrase evidence.",
+   "line_id": 33490,
+   "source_hash": "1e6a95dd24cfdae4cb69542cde6f420e00b891985e5e488d49dad2ade8740bd3",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f8:3": {
+   "en": "In five by sat Abram in night in head of the month the seventh to look at",
+   "notes": "Reconstructed text in position 2. Phrase evidence supports 'month (the) seventh' and 'five by'. The verb 'look at' is an infinitive construct.",
+   "line_id": 33491,
+   "source_hash": "2e7305494609c2af555855d7dfe8b4fe745562a320d7ae55537cb34c5516a5f8",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f8:4": {
+   "en": "The star(s) from evening until morning to see what work of the year in rains. And it was",
+   "notes": "Uncertain reconstruction of 'star(s)' (כוכב#[ ים). Phrase evidence supports 'evening until morning' and 'to see what work?'",
+   "line_id": 33492,
+   "source_hash": "91080e0b9d789b72e21cca915aef68f4c8cf1ae3a480e5cf1e5da55b8da6d97f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f8:5": {
+   "en": "He sits to himself and looks, and a word comes in his heart, and he says all the signs",
+   "notes": "The phrase 'sitting you yourself' is a possible interpretation of the first few words, but it is not supported by the context. The phrase 'they said all' is a possible interpretation of the words 'he says all', but it is not supported by the context. The phrase 'I will provide for' is a possible interpretation of the words 'all the signs', but it is not supported by the context. The phrase 'comes word' is a possible interpretation of the words 'a word comes', but it is not supported by the context. The phrase 'my he repaid to' is a possible interpretation of the first few words, but it is not supported by the context. The phrase 'he [was] dwelling' is a possible interpretation of the first two words, but it is not supported by the context.",
+   "line_id": 33493,
+   "source_hash": "fc23bcaea67e29d1fd48adf104dd3d46ab04c502d857f46defb3aed763abf0a0",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f8:6": {
+   "en": "the stars",
+   "notes": "Uncertain reconstruction and untranslatable characters present.",
+   "line_id": 33494,
+   "source_hash": "1c8edbafe78cdb972d80dc92abc0d3709e137b253a67a2913be6f62c33d959da",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f9:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary Greek letters (ε) and reconstructed placeholders, with no recoverable lexical content in Hebrew or Aramaic. All visible forms are either unknown or reconstructed with high uncertainty, leaving no defensible basis for translation.",
+   "line_id": 33495,
+   "source_hash": "96e0222575e50dbdc425ccb110f13f7f4a62842b008c06786e88060976b0db3d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f9:2": {
+   "en": "And it was in the seventh week, the sixth",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The transcription contains a reconstructed word 'שב[ עה' which is translated as 'seventh'. The translation follows the visible morphology and lexical glosses provided.",
+   "line_id": 33496,
+   "source_hash": "3982126e6ce73890e3acc6bc992d13e9026281e7d515dfb4228e6f20d215f3c2",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f9:3": {
+   "en": "And he spoke with his father and he told him that he was going out from Haran to go the land",
+   "notes": "The phrase 'to go the land' is a high-confidence repeated phrase with dominant pattern support. The verb 'was going out' is a contextual rendering with moderate support, indicating a paraphrased past continuous form. The translation preserves the grammatical person, number, and semantic relationships from the source text.",
+   "line_id": 33497,
+   "source_hash": "7fec561fb4193667f3a874518c574bef9ee86028fddddd165997b1f696a23cf8",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f9:4": {
+   "en": "To see Canaan and return to him. And he said to Terah father in peace",
+   "notes": "Reconstructed text in positions 1 and 12. Uncertain text in position 12.",
+   "line_id": 33498,
+   "source_hash": "e12cbb5ae75e3a74d22a44ad837f1b33502dee74610e42af4cead0ebc8ea8e00",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f9:5": {
+   "en": "God of eternity makes right your way and Yahweh with keeps from all harm",
+   "notes": "Uncertain reconstruction at position 7. Phrase evidence supports 'from all harm' for positions 10-12 and 'all harm' for positions 11-12. 'Yahweh with' is supported for positions 6-7. '[Are] upright the ways' is a possible rendering for positions 3-4, but the translation follows the visible morphology. '[The] God of perpetuity' is a possible rendering for positions 1-2, but the translation uses 'God of eternity' based on the lexical gloss.",
+   "line_id": 33499,
+   "source_hash": "0dd1d78501416eb9b3b3545837707db15f17fb9af0e8d760c5f3604aa6176076",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f9:6": {
+   "en": "And he will not rule among all the people, O son of humankind, to do evil",
+   "notes": "The phrase 'to do evil' is supported by repeated phrase evidence and semantic constraints. The phrase 'among all the people' is supported by repeated phrase evidence. The phrase 'O son of humankind' is supported by repeated phrase evidence, though with lower confidence. The translation conservatively follows the recoverable text and evidence, preserving the grammatical structure and semantic relationships.",
+   "line_id": 33500,
+   "source_hash": "ef7eeca6f82fc3c02a727063a314e38eda4f7de846ac06979c5a3ded1c4bb4ed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f10:1": {
+   "en": "and kab",
+   "notes": "The transcription contains a damaged lexical unit 'נקב[' with a reconstructed lemma 'קב #' and an uncertain final character 'ε'. The translation preserves the recoverable 'kab' and the conjunction 'and', but omits the untranslatable 'ε' as explained here.",
+   "line_id": 33501,
+   "source_hash": "5dcf5827a6e361d98550c98e39af16f8bc8213557b721ef6a0e63ef8464c4deb",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f10:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 33502,
+   "source_hash": "e00ee2ff0e8a5a6594ba3f6d55008086683c9480e2d8a041efb84b4e1325af68",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f11:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments (ε] #  # [ε) with no recoverable lexical content. All visible forms are either unknown or reconstructed with uncertainty.",
+   "line_id": 33503,
+   "source_hash": "986604578706bb1605f54d5201f7c5c43ddb51de46fadb13e492a1ba3d039a93",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f11:2": {
+   "en": "Abram",
+   "notes": "The transcription is heavily damaged, with only the name 'Abram' partially recoverable. The surrounding characters (ε and ] #) are untranslatable and likely represent damage or editorial marks. The reconstruction of 'Abram' is based on the lemma and lexical gloss, but its presence in this context is uncertain.",
+   "line_id": 33504,
+   "source_hash": "aa2573b3d7041089d9437f741c31b8b062e2642cc0d568de34d94acaeed506fc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f11:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic lexical items, only damaged or untranslatable fragments.",
+   "line_id": 33505,
+   "source_hash": "ba3f68cd8fb6253a3d8ed4754a691f17180307c6d3b58d31f89b9764520df222",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "11Q12 f12:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain elements, with no recoverable lexical items.",
+   "line_id": 33506,
+   "source_hash": "12ca7933cb2cc72d106c6676f66d281ce1e91f21ff849cc56e1482565204072a",
+   "source_condition": "uncertain"
+  },
+  "11Q12 f12:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and no recoverable lexical items.",
+   "line_id": 33507,
+   "source_hash": "0b29a6b07162e34832c395bc559b3f5fd2b5be89be49a9b1c45452bb68b830a2",
+   "source_condition": "clean"
+  },
+  "11Q12 f12:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and a reconstructed preposition 'to', but no defensible English words survive.",
+   "line_id": 33508,
+   "source_hash": "60fd732b4bb92d3edf4dba65291655e16f09b840c2fce61778d0507ff8b43225",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f13:1": {
+   "en": "and",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment. Only the conjunction 'and' is recoverable.",
+   "line_id": 33509,
+   "source_hash": "038823934263f74593272f23cb21a477c2cded97025680c97bf6eb4043e8ee49",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f13:2": {
+   "en": "young bull",
+   "notes": "The transcription is heavily damaged, with only a partial word ]פר (per) surviving, which corresponds to the lexical gloss 'young bull'. The surrounding characters (ε, א[) are either untranslatable or reconstructed, leaving 'young bull' as the sole recoverable content.",
+   "line_id": 33510,
+   "source_hash": "1ff6b99c88f3d42015bef3606f961eafca77fa3303e367947ffb7a3d9694a6a6",
+   "source_condition": "reconstructed"
+  },
+  "11Q12 f13:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and untranslatable fragments, including Greek and Hebrew characters that cannot be independently translated. The reconstructed ]ל[ suggests a preposition 'to,' but without context or recoverable surrounding text, no defensible English translation can be formed.",
+   "line_id": 33511,
+   "source_hash": "ed8210b58d90897c79a1efa2d7ba32b8a0dc8130bfb02abb7d32dae9ba043452",
+   "source_condition": "reconstructed"
+  }
+ }
+}

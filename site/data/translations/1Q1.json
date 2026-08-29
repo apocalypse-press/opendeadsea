@@ -1,0 +1,305 @@
+{
+ "id": "1Q1",
+ "label": "1Q1",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 41,
+ "scroll_id": 739,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "1Q1 f1:1": {
+   "en": "And he saw God that [it was] good. And it was evening and it was morning a day, fourth.",
+   "notes": "Uncertainty in the reconstruction of the phrase 'that [it was] good' is noted. The translation follows the highest-supported repeated phrase evidence for the sequence 'it was evening and it was morning a day'.",
+   "line_id": 36632,
+   "source_hash": "c942d32b8302494f0c6768923c9ab29db34adb519562728820a5bc7539e25d5e",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f1:2": {
+   "en": "Gods let them swarm the waters, swarming creatures, creature living, and bird let it fly upon the earth upon the face of the firmament of the heavens",
+   "notes": "Reconstructed text in positions 1 and 5. Uncertain text in position 5. The phrase 'the firmament of the heavens' is supported by repeated evidence with 75% pattern support. The phrase 'creature living' is supported by repeated evidence with 55.56% pattern support. The phrase 'bird[s] let it fly' is supported by repeated evidence with 50% pattern support. The phrase 'let them swarm the waters' is supported by repeated evidence with 33.33% pattern support. The phrase 'land on the surface' is supported by repeated evidence with 33.33% pattern support.",
+   "line_id": 36633,
+   "source_hash": "a98df5654f975c591366e06f8a7c073ff316f280899424d014cbb4d981b3c379",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f1:3": {
+   "en": "And he created the gods of the sea, the great sea-monsters, and every living creature that creeps, which swarmed the waters.",
+   "notes": "The phrase 'creature (the) living' is a high-confidence contextual rendering for positions 12-14. The phrase 'he created God (et)' is a high-confidence contextual rendering for positions 2-4, but 'gods of the sea' is chosen to align with the plural 'god(s)' gloss and the context of sea creatures. The phrase 'living [which] creeps' is a contextual rendering for positions 14-16, but 'that creeps' is used for natural English flow. The phrase 'let them swarm the waters' is a low-confidence contextual rendering for positions 18-20, but 'which swarmed the waters' is used to maintain grammatical consistency.",
+   "line_id": 36634,
+   "source_hash": "14a4b63258a49d78e1b9d72e5442d9e2eedc1b156f9bd0c7762e468654e8737b",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f2:1": {
+   "en": "And he said, Who told you that you are naked? You from the tree which I commanded you not to eat from?",
+   "notes": "Uncertain reconstruction of damaged text in positions 7 and 8.",
+   "line_id": 36635,
+   "source_hash": "e84fe70ef3a254fd3e1c0c692c317d83632b78cd610ece596879cab487790d18",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f2:2": {
+   "en": "You ate. And he said the man the woman whom you gave with me, she gave to me from the tree, and I ate.",
+   "notes": "Uncertain reconstruction of 'with me' (position 11) and 'she' (position 12).",
+   "line_id": 36636,
+   "source_hash": "201c904dc0f219ff9235ff69084db086e56adb2c431c8771ef5836e72348a38e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f2:3": {
+   "en": "Yahweh God to the woman what this you have done and she said the serpent beguiled me and I ate and he says Yahweh",
+   "notes": "Uncertain reconstruction of damaged woman (position 11) and beguiled (position 14). High-confidence phrase evidence supports 'she said the woman' and 'the serpent beguiled me'",
+   "line_id": 36637,
+   "source_hash": "b6a30ba6021faaf663d31dbe0e59e54398b9565879ed0cba0df6285b5534b194",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f2:4": {
+   "en": "Gods to the serpent that you made this cursed you from all the cattle and from every animal of the field upon",
+   "notes": "Uncertain reconstruction of 'עש ]י(# ת #)' and 'א#רור' reflected in translation. Phrase evidence applied for 'every (the) animal of' and 'cursed you'.",
+   "line_id": 36638,
+   "source_hash": "1fa2b74af8354fa78577ae480a45f6224117fb27794247d318ee13ee0fb135e6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f2:5": {
+   "en": "You will walk about in your belly and eat dust all the days of your life",
+   "notes": "The phrase 'all the days of your life' is supported by repeated phrase evidence. The translation conservatively follows the recoverable text, preserving the second-person singular addressing and the imperative structure.",
+   "line_id": 36639,
+   "source_hash": "772430212e0922e790f936183b57dbdc0411ab526dfa7d62f23c7e762d9ba5f8",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f3:1": {
+   "en": "In the horns and Abraham went and he took the ram and he ascended it as a burnt offering under his son",
+   "notes": "Uncertain reconstruction of 'Abraham' and 'he took'; 'Tahath son' is a repeated phrase with moderate support.",
+   "line_id": 36640,
+   "source_hash": "ef995a72511ddd2c6ae4f7df5b20481e03f0e9f0d338b8809b26a8acdca2ab9f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f3:2": {
+   "en": "And he called Abraham, the name of the place that YHWH will see, which he said the day on the mountain",
+   "notes": "The translation follows high-confidence phrase evidence for 'the name of the place' and 'day on the mountain'. The sequence 'that YHWH will see' is supported by repeated phrase evidence with 50% dominance. The rendering of 'he said' is based on repeated phrase evidence with 33% dominance. The reconstruction of the initial conjunction 'and' is noted.",
+   "line_id": 36641,
+   "source_hash": "03fefc8b1507d041ff8d02c331ec85ff6efaf6fc222ea3aff51c3a55376d2553",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f3:3": {
+   "en": "YHWH will see, and he called the angel of YHWH to Abraham a second time from the heavens",
+   "notes": "The phrase 'the angel of YHWH to' is supported by repeated phrase evidence. The word 'second' is a context-free gloss for 'שנית', which is morphologically feminine but used here in a temporal sense.",
+   "line_id": 36642,
+   "source_hash": "a4e1fad605dc14debff1c886810a67db5e21591f59a09cb7e7745b8791a7d5d9",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f4:1": {
+   "en": "And he arose, the field of Ephron, which",
+   "notes": "The phrase 'the field of Ephron' is supported by repeated phrase evidence. The relative pronoun 'which' is added to reflect the function of 'asher' as a relative particle, but its referent is uncertain due to the fragmentary nature of the text.",
+   "line_id": 36643,
+   "source_hash": "806f0e4d3cb84867a8822f5990464b2077216d6c584b7f9a2d77fa8bdce998ac",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f4:2": {
+   "en": "in Machpelah which [is] to the face of Mamre the open field and the cave which [is] in and every the tree",
+   "notes": "Reconstructed text in positions 1 and 11. Uncertain text in position 11. Phrase evidence applied for 'the face of Mamre', 'every (the) tree', and 'cave which [is] in'.",
+   "line_id": 36644,
+   "source_hash": "d4eb5a4a0268752b30218b3f2764ef315a43b851cfd0fdca1f46342d492d64b7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f4:3": {
+   "en": "which in the field which in all the boundary surrounding to Abraham for purchase to the eyes of the sons of Heth",
+   "notes": "The translation follows the recoverable text closely, preserving the structure and order of the words. The phrase 'to the eyes of the sons of Heth' is supported by repeated phrase evidence, though its exact meaning remains uncertain. No additional subjects or connectors were added, and all visible lexical items are accounted for.",
+   "line_id": 36645,
+   "source_hash": "7d2d007727e6b54b71dc4c7c13a3d44362bee8aeecaa8e3cbfd95ab723303eec",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f4:4": {
+   "en": "In all those entering the gate of his city, and afterward he buried Abraham, Sarah his wife",
+   "notes": "The phrase 'all those entering the gate of his city' is a reconstruction based on repeated phrase evidence. The phrase 'he buried Abraham, Sarah his wife' is supported by high-confidence semantic constraints and repeated phrase evidence.",
+   "line_id": 36646,
+   "source_hash": "c6022596c9151fa9c98549e152bd1d9d1445b8605ed014da0b203d273d53bccc",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f4:5": {
+   "en": "to the cave of the field of the Machpelah upon the face of Mamre that is Hebron in the land of Canaan",
+   "notes": "Reconstructed text in positions 1 and 8. Uncertainty in position 8 due to damage. Phrase evidence supports the rendering of 'that is Hebron' and 'in the land of Canaan'.",
+   "line_id": 36647,
+   "source_hash": "1c92c5c296c600d2af83969167aa27f2ee1f8b1709c33bd38d540e31265aef81",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f5:1": {
+   "en": "And it was as when the camels were finished drinking, and the man took a gold nose-ring, a half-shekel by weight, and two",
+   "notes": "The phrase 'a half-shekel by weight' is a reconstruction based on the visible form 'בקע' and its lexical gloss. The final word 'שני' is incomplete, but its translation as 'two' is supported by its morphology and lexical gloss.",
+   "line_id": 36648,
+   "source_hash": "7ec9edc3474a23eb92c93e280a56109cd658cf5fa94ca1023f5300e25c64747c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f5:2": {
+   "en": "Bracelets on hands of ten gold, their weight. And he said, 'Daughter, who are you? Tell me, is there a house?'",
+   "notes": "The phrase 'bracelets on hands' follows repeated phrase evidence for positions 1-3. 'Ten gold' follows repeated phrase evidence for positions 4-5. 'Their weight' is a conservative translation of the suffixed form at position 6. The verb at position 9 is third-person masculine singular wayyiqtol of 'say'. The phrase 'daughter, who are you?' follows repeated phrase evidence for positions 10-12. The verb at position 13 is second-person feminine singular imperative hifil of 'report'. The particle at position 14 is translated as 'please' based on repeated phrase evidence. The preposition at position 15 is translated as 'to' based on its gloss. The interrogative particle at position 16 and the existence particle at position 17 are translated as 'is there' to form a coherent question. The final word is translated as 'house' based on its gloss.",
+   "line_id": 36649,
+   "source_hash": "28c6c5d8c76696d6ae3b06a89d63e8be92d6a19fe4aa1154a5d95e40169e1889",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f5:3": {
+   "en": "your father a place for us to lodge and she said to the daughter of Bethuel",
+   "notes": "The phrase 'your father' is reconstructed. The verb 'say' is reconstructed and its subject is implied. The phrase 'to the daughter of Bethuel' is supported by repeated phrase evidence.",
+   "line_id": 36650,
+   "source_hash": "d5e9586b1477cee1e70f2a15afca30243efc16cfdf0f6fc4b64e7ea0cbdfb197",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f6:1": {
+   "en": "and he said",
+   "notes": "The transcription contains uncertain and untranslatable elements, including a damaged conjunction 'ו?' and two unrecoverable characters 'ε'. A reconstructed 'א[' is omitted as it does not contribute to the translation. Phrase evidence suggests 'he said where?', but the preposition is not supported by recoverable text. Only the verb 'יאמר' and conjunction 'ו?' are translated.",
+   "line_id": 36651,
+   "source_hash": "21c3b03bc7e05c797dda5d78d49eb27513f1ec722308e5160490112fee69d91d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f6:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items due to extensive damage and uncertainty. All visible forms are either unknown or reconstructed with high uncertainty, leaving no basis for translation.",
+   "line_id": 36652,
+   "source_hash": "0b054b4ed62ae74cc63c8d4b10d3ea67d26fcc66bcfd7d01e5ac0f0b03b6b447",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f7:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable characters (ε] # [ε) with no recoverable lexical content. The reconstructed and uncertain elements do not provide sufficient evidence for translation.",
+   "line_id": 36653,
+   "source_hash": "f561c04392d1d8328b7792545acb6d01021a5de60c8f1ea0de71daf5f78e35ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f7:2": {
+   "en": "Lecah",
+   "notes": "The transcription contains damaged and untranslatable elements, including two instances of 'ε' and a source-script punctuation mark '׃', which are omitted from the translation. The reconstructed form ']לכה[' is translated as 'Lecah' based on the provided lexical gloss.",
+   "line_id": 36654,
+   "source_hash": "97f46bbfe6f054a5a6ae4d95a2f205444763fd11882bb188694d346d83ba1ebd",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f8:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items surviving. The visible forms include a possible verb root 'mr' (say/boast) and a preposition 'el' (to), but both are incomplete and lack sufficient context for translation. All other elements are untranslatable fragments or unknowns.",
+   "line_id": 36655,
+   "source_hash": "decfbd8e18ab1d4260aff08734cf0188ee0c6544e2b14ee4c1830ddeb8da74dd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f9:1": {
+   "en": "and he lifted",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged aleph (א). The verb 'lift' is based on the visible form 'ישא', but the overall meaning is uncertain due to the fragmentary nature of the text.",
+   "line_id": 36656,
+   "source_hash": "6eee72e73c37cd9995d369aba1dcf26be0061018ae71de5e38df98987c0071b7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f10:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of fragmentary and uncertain characters (ε, #, [) with no clear lexical or grammatical content. No defensible English translation is possible.",
+   "line_id": 36657,
+   "source_hash": "adbfbdbfc34d35f1b52f43238dd1d0dbfc9674d311cffb5c9b11ee810665237f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f10:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments, with no defensible English words surviving.",
+   "line_id": 36658,
+   "source_hash": "fbc48d00b1ce3b4e5f6b428c5f18f57d775e89bd386b70b1d0f5f38d26bc1a8f",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f11:1": {
+   "en": "and he said",
+   "notes": "The initial and final characters are untranslatable fragments, likely damage or editorial marks. The central verb is reconstructed but certain.",
+   "line_id": 36659,
+   "source_hash": "3536fc0c48858318f3156beceb42b773adb0a3662fd5b1144c635a0e4f1ba42f",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f11:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or reconstructed with high uncertainty.",
+   "line_id": 36660,
+   "source_hash": "7fe255bdb80edb4067232fd3e5a89f61d408689e615627991799bd107e6069ad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f12:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments without sufficient context or identifiable lexical items.",
+   "line_id": 36661,
+   "source_hash": "367d8a97e4d59aa189d0e0e1b23b7c26aede517bb4348ebdffe333485afb726b",
+   "source_condition": "clean"
+  },
+  "1Q1 f12:2": {
+   "en": "she bore to",
+   "notes": "The translation is based on the phrase evidence for positions 2 and 3, which strongly supports 'she bore to'. The other words are either unknown or untranslatable fragments, with no recoverable content.",
+   "line_id": 36662,
+   "source_hash": "3cf5239a425b7ab6983637a4b98cccf0b59b84a486bc20b93701a806d94c9bbb",
+   "source_condition": "reconstructed"
+  },
+  "1Q1 f13:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words or translatable fragments. All visible characters are either uncertain, damaged, or non-lexical marks.",
+   "line_id": 36663,
+   "source_hash": "fe99edac7d713dd5afcacd95f53182d351025fd34b42a454e655645ffabb9a32",
+   "source_condition": "uncertain"
+  },
+  "1Q1 f14:1": {
+   "en": "and they came",
+   "notes": "The initial and final characters are untranslatable fragments, likely damage or editorial marks. The conjunction 'and' is partially damaged but recoverable. The verb 'they came' is reconstructed but certain.",
+   "line_id": 36664,
+   "source_hash": "74a24dea17071836e9d889b4cf5fce0a57d5ab62c30fb091fd9e084bcc45c6e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f14:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain characters, with no recoverable lexical items that can be confidently rendered into English.",
+   "line_id": 36665,
+   "source_hash": "23e914f85ed758af213ef1b1b42cbcf39d7b3695ed49dd5137c1fe8c02eedba9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f15:1": {
+   "en": "gods",
+   "notes": "The transcription is heavily damaged, with only the word for 'gods' recoverable. The initial and final characters (ε) are untranslatable and likely remnants of damage. The reconstruction and uncertainty are noted but do not affect the translation of the recoverable word.",
+   "line_id": 36666,
+   "source_hash": "a37e77ba43f57a1e8c1c29df1366b41cef3375f8fc5387525bd1a8a93aa34f6c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f15:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no clear lexical or grammatical structure. No defensible English translation can be derived from the surviving material.",
+   "line_id": 36667,
+   "source_hash": "658ce2bdecf1eea6f97d952609f2164dc992fbc952b6aad40d82f16882aa3750",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f16:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no identifiable lexical content. The visible characters do not form translatable words, and the reconstruction is speculative.",
+   "line_id": 36668,
+   "source_hash": "3b457a05e907070a0066b8073845abbf9389586984feb44a0c2f555603dc409d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f16:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain elements, with no recoverable lexical items.",
+   "line_id": 36669,
+   "source_hash": "5d159aed836f738fcdbf77ca27335eefb8df36965228b1f229ba30bcd5e29dc3",
+   "source_condition": "uncertain"
+  },
+  "1Q1 f17:1": {
+   "en": "woe to",
+   "notes": "Translation based on repeated phrase evidence for positions 2-3. Uncertain characters and reconstructions are not reflected in the translation.",
+   "line_id": 36670,
+   "source_hash": "57f91a0e40b35a62a06c482173f94e8df51b7d505f172e031cffb2a26d62cd5f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f18:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible English words due to extensive damage and uncertainty.",
+   "line_id": 36671,
+   "source_hash": "39279246fa27978cb3c8d9e3664032ad809d195f60548e593df5ddd43ac33a71",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "1Q1 f19:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain reconstructions.",
+   "line_id": 36672,
+   "source_hash": "f563bba215c1599bb72e588c79fe8e5cc6b27da1a77d8b75a8d03566d1d5c1ed",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,424 @@
+{
+ "id": "4Q2",
+ "label": "4Q2",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 58,
+ "scroll_id": 776,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q2 f1i:1": {
+   "en": "In the beginning, he created gods, the heavens and the earth. And the earth was",
+   "notes": "The phrase 'he created gods' is supported by repeated phrase evidence, though the lexical gloss for 'ברא' typically means 'create'. The text is damaged, with two reconstructed words and one uncertain word, primarily in the latter part of the sentence.",
+   "line_id": 40061,
+   "source_hash": "73065bf4d1aeb4c940e4aedce2558b8389c02b7f02e121e94f41a277023ceed4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:2": {
+   "en": "emptiness and emptiness and darkness upon the surface of the deep and the spirit of God shook upon the surface of the waters",
+   "notes": "Uncertainty in 'בהו#?' (emptiness) noted. Reconstructed text in 'פנ[ י' (the surface of the deep) and 'מר ]חפת[ ' (shook) indicated. Phrase evidence supported 'the surface of the deep', 'the spirit of God', and 'the surface of the waters'.",
+   "line_id": 40062,
+   "source_hash": "4acd006a7cb68d3ed49a2b7529c8de8d691a803e2bde06c092d3028485069611",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:3": {
+   "en": "And God said, 'Let there be light,' and there was light. And God saw the light that it was good.",
+   "notes": "The text contains two reconstructed words and one uncertain word. The phrase 'he saw God (et)' is supported by repeated phrase evidence, but 'et' is omitted due to lack of direct evidence in the source. The translation follows the visible morphology and phrase evidence where possible.",
+   "line_id": 40063,
+   "source_hash": "e3f96455145486f854624f8c1da41acb7bfb2625e0b1ff8a966d375bbbf395c7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:4": {
+   "en": "And God separated between the light and between the darkness. And he called to God light day and to darkness",
+   "notes": "Uncertainty in the transcription affects the translation of 'light' and the overall syntax. The phrase 'he called God' is supported by repeated evidence, but the exact structure is unclear due to damage. The translation conservatively follows the recoverable text without adding implied subjects or connectors.",
+   "line_id": 40064,
+   "source_hash": "0d1e17d316facea62dcfbff9e52113146f1dd75679c5f56c7ccacb5c2f9ff4c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:5": {
+   "en": "He called at night, and it was evening, and it was morning, a day, one.",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'it was evening' and 'it was morning' are supported by repeated phrase evidence. The sequence 'morning, a day, one' is retained as per the source order, though its naturalness in English is sacrificed to preserve the original structure.",
+   "line_id": 40065,
+   "source_hash": "d3f856b95f3384bdbe7a88d3aec16628de5bc767d99cbba838b4b31563980b9a",
+   "source_condition": "reconstructed"
+  },
+  "4Q2 f1i:6": {
+   "en": "And he said God let it be firmament in the midst of the waters and let it be separating between waters to waters",
+   "notes": "Uncertain reconstruction of divine name and separation verb. Lacuna before 'firmament'.",
+   "line_id": 40066,
+   "source_hash": "1100993013fff249bd121bfed8b04e82ea96a02b9e6992b7d632f9c443bf9b5a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:7": {
+   "en": "God, you separated the firmament and between the waters which are from under the firmament and between the waters",
+   "notes": "Reconstructed and uncertain elements include the verb 'separate' and the particle 'interval'. The translation conservatively follows the visible morphology and lexical glosses, preserving the repetition and structure of the source text.",
+   "line_id": 40067,
+   "source_hash": "b52525ed4ff0214e1eac3275a8f07b4621ab5b70c2bf1fa7a2919dd2a0abe3db",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:8": {
+   "en": "which from upon the firmament and it was thus. And he called God to the firmament heavens and it was evening",
+   "notes": "Uncertain relative particle 'which' at the start. Reconstructed 'heavens' before 'and it was evening'. High-confidence phrase evidence supports 'he called God' and 'it was evening'.",
+   "line_id": 40068,
+   "source_hash": "1b8a7b8d1c750cc3526f9a2560cf4e87331e614e5b6d3154595bcb82ccb45de0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:9": {
+   "en": "And it was morning, the second day",
+   "notes": "The phrase 'it was morning' is supported by repeated phrase evidence. The sequence 'second day' is also supported by repeated phrase evidence. The conjunction 'and' is reconstructed but follows visible morphology.",
+   "line_id": 40069,
+   "source_hash": "6b253690078a866dda967d4e198eba57ba49a5987c6dca63f2e731466f88d7cb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:10": {
+   "en": "And he said, God, let the waters under the heavens be gathered to one place, and let dry land appear.",
+   "notes": "The transcription contains damage and uncertainty, particularly with the lemma 'א##להים' (god(s)) and the reconstructed word 'י?ב##[ שה ]' (dry land). The phrase 'ויאמר' is translated as 'and he said' based on the visible morphology and lexical gloss. The phrase 'יקוו המים' is translated as 'let the waters be gathered' based on the visible morphology and lexical gloss. The phrase 'מתחת השמים' is translated as 'under the heavens' based on the high-confidence phrase evidence. The phrase 'אל מקום אחד' is translated as 'to one place' based on the visible morphology and lexical gloss. The phrase 'תראה היבשה' is translated as 'let dry land appear' based on the visible morphology and lexical gloss.",
+   "line_id": 40070,
+   "source_hash": "00e5f456731d15d71ae0faf332f48dc5679eb9490b6e17c3015fac46a608f2cc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:11": {
+   "en": "And it was so. And he called God to the dry land, and to the gathering of the waters, he called seas. And he saw.",
+   "notes": "The phrase 'he called God' is supported by repeated phrase evidence. The translation retains the visible morphology and follows the provided lexical glosses where no contextual evidence is available. Uncertainty is noted for the verb 'קרא' at position 16, but its translation as 'called' is supported by the context and lexical gloss.",
+   "line_id": 40071,
+   "source_hash": "e18ee5c22b54eb5aee722b495f705d925a2f5a187a6576595f914bb17865fa7c",
+   "source_condition": "uncertain"
+  },
+  "4Q2 f1i:12": {
+   "en": "God(s) that good and said god(s) let grow green the earth vegetation plant(s) herb sowing seed tree",
+   "notes": "Uncertain elements include the form 'ט#וב' (good), the verb 'ת#ד#ש#א#' (let grow green), and the nouns 'ארץ#' (earth), 'ד##ש#א#' (vegetation), and 'עץ##' (tree). The phrase 'God(s) that good' is supported by repeated phrase evidence. The sequence 'earth vegetation plant(s)' and 'vegetation plant(s) herb sowing seed' are also supported by repeated phrase evidence. The translation conservatively follows the visible morphology and lexical glosses, preserving uncertainty and avoiding additions.",
+   "line_id": 40072,
+   "source_hash": "3a13f96cd05a82660b6498463a683d62ee3bced2ab6b3918dca8d5a9d1af9e4d",
+   "source_condition": "uncertain"
+  },
+  "4Q2 f1i:13": {
+   "en": "The fruit made fruit to its kind, whose seed is upon the earth, and it was so. And it brought forth the earth vegetation.",
+   "notes": "Uncertainty in the transcription is reflected in the translation's structure. The phrase 'the earth vegetation' is supported by repeated phrase evidence.",
+   "line_id": 40073,
+   "source_hash": "d0552619bdd93d1f4e5888aa1b7985597ab623b7ae38f169696b72792e551645",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:14": {
+   "en": "herb sowing seed to its kind and tree making fruit which its seed in its kind and he saw",
+   "notes": "Uncertain reconstruction of 'sowing' (position 2). Uncertain reconstruction of 'making' (position 8). Uncertain reconstruction of the relative particle (position 10). Uncertain reconstruction of 'seed' (position 11). Uncertain reconstruction of 'its kind' (position 14). Uncertain reconstruction of the verb 'saw' (position 16).",
+   "line_id": 40074,
+   "source_hash": "128f215093497e8563bee0c831e1cce3229f888c2593f767d57b23c436589c8a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:15": {
+   "en": "God that good and it was evening and it was morning day third",
+   "notes": "Uncertain transcription and reconstruction in 'good' (טו?ב#) and 'and' (ו#?). Reconstructed 'it was' (יהי) before 'evening'. Phrase evidence supports 'God that good', 'it was evening', and 'it was morning day third'.",
+   "line_id": 40075,
+   "source_hash": "2ece60cdb37765f48868bdbaabfd55eb922bd9a8344aefa5ded5db184459842a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:16": {
+   "en": "And God said, Let there be luminaries in the firmament of the heavens to separate between the day",
+   "notes": "Uncertain reconstruction of 'let there be' (position 4), 'luminaries' (position 5), and 'and' (position 15). Omitted untranslatable fragments at positions 6 and 16.",
+   "line_id": 40076,
+   "source_hash": "cb11b66daa848b75b8059978d6ce651455563b2319f44ef615c9d75d9eefe1c7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:17": {
+   "en": "The night and it will become a sign and to appointments and to days and years. And they were to the luminaries in the firmament.",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Phrase evidence supported 'luminaries in the firmament' and 'it will become a sign' but the latter was not fully adopted due to uncertainty in the source. Some particles and connectors omitted due to damage.",
+   "line_id": 40077,
+   "source_hash": "6fb30f9a61aff1e468fa6d1492d0f62a06c5a63c39c8aae2e09afe39a5ac459f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:18": {
+   "en": "The heavens to give light upon the earth and it was so and he made God (et) the two lamps",
+   "notes": "Uncertain reconstruction of 'הא#י?ר#' as 'give light' and 'ע##ל#' as 'upon'. Reconstructed 'אר##[ ץ' as 'earth'. Uncertain ']ה##' and 'מא#רת' as 'the' and 'lamps' respectively.",
+   "line_id": 40078,
+   "source_hash": "974e7df78b6dd920651944e5ed56f03afcf258c5d40c16a46d95df8e324d1430",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:19": {
+   "en": "The great luminaries to the dominion of the day and the lamp the small to dominion",
+   "notes": "Uncertain transcription and reconstruction in multiple places. Phrase evidence supports 'luminaries (the) great' for positions 5-7, but the overall syntax is fragmented and uncertain.",
+   "line_id": 40079,
+   "source_hash": "c48592b24ab1b9da6764d5f9d0283a715dec92db50185367ff3d70d9e9ae54c5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:20": {
+   "en": "The night and the stars. And he gave them, the gods, in the firmament of the heavens to give light.",
+   "notes": "Uncertainty in the transcription and reconstruction of 'יתן?[' and 'ש##מים'. The phrase 'they have put (et) gods' is a high-confidence contextual rendering for positions 9-11, but 'I will give (et)' is more common. The translation follows the more specific evidence.",
+   "line_id": 40080,
+   "source_hash": "b3d32a06470dca1bf4dfad084ebfd3e0fb5c96599d862ea7d6871f330b56e711",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:21": {
+   "en": "Upon the earth. And to rule in the day and in the night and to separate between the light and between the darkness and he saw",
+   "notes": "Several words are uncertain or reconstructed, including 'earth' (א##ר##ץ), 'and' (ו?), 'night' (לי(# ל #)ה##[), 'interval' (בי ]ן#?), 'the' (ה#), 'light' (א#ו(# ר #)), and 'and' (ו#?). The transcription contains damaged or unclear segments, and some words are partially preserved.",
+   "line_id": 40081,
+   "source_hash": "bf2ac4796bd7906827ac25985c51a753f35915df59f516c51fa9eeef0023c5a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:22": {
+   "en": "God that good and it was evening and it was morning day fourth",
+   "notes": "Uncertain characters and damage markers are present in the transcription for 'evening', 'morning', and 'fourth'. The translation preserves the recoverable words in order, without smoothing or adding missing subjects. Phrase evidence supports the sequences 'God that good', 'it was evening', and 'it was morning'.",
+   "line_id": 40082,
+   "source_hash": "0ce10aebfbfd2f24e80c66f10f3e8223f09330ad7c7b28a4f9c83f16b3aa3dce",
+   "source_condition": "uncertain"
+  },
+  "4Q2 f1i:23": {
+   "en": "And God said, Let the waters swarm with swarming creatures, a living soul, and let birds fly upon the earth.",
+   "notes": "Uncertainty in the transcription affects 'swarming creatures' (שרץ#), 'soul' (נ?פש), 'living' (ח#י?ה#), 'and' (ו#?), 'bird' (ע##ו#?ף), and 'fly' (י#?עו#?פף).",
+   "line_id": 40083,
+   "source_hash": "90dea6fa34b552cdd32948e6adc5e4d53daeb5f8d784669e487e9eaba0099db3",
+   "source_condition": "uncertain"
+  },
+  "4Q2 f1i:24": {
+   "en": "Upon the face of the firmament of the heavens and he created the gods the great sea-monsters",
+   "notes": "Uncertain particles at the end of the line are omitted.",
+   "line_id": 40084,
+   "source_hash": "0f7a082e2e95da190c99e5a4a1fc6920fd7ac7a88b098891ae9cac75abd371b0",
+   "source_condition": "uncertain"
+  },
+  "4Q2 f1i:25": {
+   "en": "Every living creature that swarms the waters, of their kind, and every winged bird",
+   "notes": "Uncertainty in the relative pronoun 'which' (position 7) and the suffixed form 'of their kind' (position 12). Reconstructed text at position 16.",
+   "line_id": 40085,
+   "source_hash": "acf04659e85f18d76185c8e167e46be0600ced110920be8e938587e0ea6486a2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:26": {
+   "en": "To his kind and he saw gods that good and he blessed them gods to say be fertile and be many and be full",
+   "notes": "Uncertain elements include the transcription of 'טו#?ב' (position 7), the object marker 'א#ת׳ם' (position 11), the particle 'ל#' (position 13), and the reconstructed verb 'אמר_1' (position 14). The phrase 'God (cmp) saying' is supported by repeated evidence for positions 12-14. The phrases 'he saw God (dm) that' and 'God (dm) that [it was] good' are supported for positions 4-6 and 5-7, respectively. Other supported phrases include 'he saw God' (positions 4-5), '(et) the gods' (positions 11-12), and 'bless (et)' (positions 10-11).",
+   "line_id": 40086,
+   "source_hash": "0a4debafb45996fe24032b2cd18f8646a3c5b5f39e8ee8e83d71c69b9bc22b5b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:27": {
+   "en": "the waters in seas and the bird multiply in earth and it was evening and it was morning day fifth",
+   "notes": "Uncertain reconstruction at positions 9, 11, 13. Phrase evidence supports 'it was evening' and 'it was morning' as dominant contextual renderings.",
+   "line_id": 40087,
+   "source_hash": "bf0f5f180142ae674dc4efb35422250d357cd9163e88c666194280bbf809c4a5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:29": {
+   "en": "And he said to the gods, Let the earth bring forth a living soul, the kind of cattle, and creeping things, and the wild animals of the earth.",
+   "notes": "The transcription is damaged and reconstructed in places, with uncertainty around the word 'gods' and the verb 'bring forth'.",
+   "line_id": 40089,
+   "source_hash": "9e61e0b4f3f357e4ad0edcf74599119e43814471ddbe6d28aac3d2499c838923",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1i:30": {
+   "en": "to kind and thus it was and he made God the animal of the earth to kind and the cattle to kind",
+   "notes": "Uncertain reconstruction of damaged verb at position 8. Fragment includes two uncertain characters at positions 6 and 22, omitted from translation.",
+   "line_id": 40090,
+   "source_hash": "c5831b47b0f71857acac2e0368ceb3c4c29ef19b7621a73927c03d3562725ccc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f2:1": {
+   "en": "the ground to his kind and he saw the gods that good and he said the gods let us make humankind in our image",
+   "notes": "Uncertain reconstruction of damaged transcription with two conjectured words.",
+   "line_id": 40091,
+   "source_hash": "cb97291f07a047b20083b2da1b208113ca8354b6124081636e50b16bae375f67",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f2:2": {
+   "en": "as the likeness and they tread in the fish the sea and in bird the heavens and in cattle and in all the earth and in all the creeping animals",
+   "notes": "Uncertain reconstruction of עֹוף (bird) and יָם (sea). High-confidence phrase evidence supports 'the fish of the sea', 'the bird[s] of the heavens', 'every (the) creeping thing', and 'all the earth'.",
+   "line_id": 40092,
+   "source_hash": "2434fd2c89ff7c6ba7c8b50d65098c388420728589b5a359a214be80e90a0fee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f2:3": {
+   "en": "The creeping upon the earth. And he created God (et) the human in image in image of God he created him",
+   "notes": "Uncertain reconstruction and damage affect positions 8, 10, and 19. Phrase evidence supports 'he created God (et)' and 'image of God' but introduces unsupported participants and connectors. Translation retains recoverable material without adding unlicensed content.",
+   "line_id": 40093,
+   "source_hash": "edd29e6d7e87076e4663932b1473a38dd543809980dce77e0662bd4f0a6b9f31",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f2:4": {
+   "en": "Male and female he created them. And he blessed them, and God said to them, 'Be fertile and multiply.'",
+   "notes": "The transcription is partially damaged, with two reconstructed words and two uncertain words. The phrase 'male and female he created them' is supported by repeated phrase evidence. The verb 'bless' is reconstructed and uncertain. The object marker 'them' is repeated, and the phrase 'God said to them' is supported by repeated phrase evidence. The imperative verbs 'be fertile' and 'multiply' are uncertain due to the damaged transcription.",
+   "line_id": 40094,
+   "source_hash": "fec5dee9570536fc3098443281fdffe3ccb1c6ab4d72176ce9d3249a1fdec7b9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f2:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and punctuation marks. The visible characters (ε, ׃) and reconstructed placeholders offer no translatable content.",
+   "line_id": 40095,
+   "source_hash": "a478bd71d2317d3023788d70a0783044f15c0210fe3a711982ecfb389a2b8300",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1ii:1": {
+   "en": "The third Tigris he the front of Asshur and the stream the fourth he Euphrates",
+   "notes": "Uncertain elements include 'Tigris' (position 3), 'he' (position 4), and 'go' (position 6). The phrase 'front of Asshur' is reconstructed at position 7.",
+   "line_id": 40096,
+   "source_hash": "3505c6693692f744f4ccdf61fc31b8c7819cf9dcb70509c8e962cd78bc434b38",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1ii:2": {
+   "en": "And Yahweh God took the man and settled him in the garden of Eden to till and keep it.",
+   "notes": "The phrase 'the garden of Eden' is supported by repeated phrase evidence. The verbs 'to till' and 'to keep' are inferred from the context-free lexical glosses of the damaged words, with 'till' being a natural synonym for 'work' in this context.",
+   "line_id": 40097,
+   "source_hash": "2e8e4034d085875e8452935800e1017085742c4e0ae2a0f46b48dfb5a54f36ae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1ii:3": {
+   "en": "And he commanded Yahweh God upon the human, saying, 'From all the trees of the garden you may eat.'",
+   "notes": "The phrase 'upon the human' is uncertain due to damage in the source text. The phrase 'you may eat' is reconstructed and uncertain. The phrase 'from all the trees of the garden' is supported by repeated phrase evidence but has low confidence. The phrase 'he commanded Yahweh God' is supported by repeated phrase evidence with moderate confidence.",
+   "line_id": 40098,
+   "source_hash": "c3496e8591fa7135465de3216cde28e8898acca34b00f0bde34ee35caeb3ab60",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1ii:4": {
+   "en": "of the knowledge good and evil not you must eat from that in the day you will eat from death surely you will die and he said",
+   "notes": "Uncertain reconstruction of damaged or fragmentary text throughout. The translation follows high-confidence phrase evidence where available, retaining context-free glosses for ambiguous terms. No recoverable text for the final word's missing characters.",
+   "line_id": 40099,
+   "source_hash": "d7c4b2263a2a091c93ac1c48cfeeb8398e93944218196e36ddf54c1485789f2a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1ii:5": {
+   "en": "Yahweh God not good to be the man alone I will make to help like before and shaped",
+   "notes": "Uncertain reconstruction of 'בד ]׳ו#?' as 'alone' and 'אע##ש##ה#' as 'I will make'. Phrase evidence supports 'a helper like before' and 'to help' but the translation retains recoverable words in order. The final 'וי(# צ #)ר' is translated as 'and shaped' with uncertainty due to damage.",
+   "line_id": 40100,
+   "source_hash": "2337af0d91f8321857c8e828f3095d280fed51607b4181120376d93ddd7cb592",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1ii:6": {
+   "en": "Yahweh God from the ground every wild animal of the open field and every the bird of the heavens and he brought",
+   "notes": "Reconstructed and uncertain elements include 'ground' (אֲדָמָה_1) and 'heavens' (שָׁמַיִם). The phrase 'every the bird of' follows repeated phrase evidence for positions 12-14. The translation conservatively retains all recoverable words in order, with no added subjects or connectors.",
+   "line_id": 40101,
+   "source_hash": "ca0aabce270b67b052fa1dae93124d5b50bd3b46876692aa77407718bb2dce0f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f1ii:7": {
+   "en": "to the human to see what he will call and all that he will call the man a living soul it his name",
+   "notes": "Uncertain transcription and reconstruction in positions 1-4, 8, 13, 19, and 20. Phrase evidence supports 'to see what?' (positions 4-6), 'of humankind to see' (positions 3-5), 'living it' (positions 17-18), 'creature living' (positions 16-17), 'what? will he call (to)' (positions 6-8), 'man a creature' (positions 15-16), and 'to all that he will call' (positions 10-12). No high-confidence semantic constraints provided.",
+   "line_id": 40102,
+   "source_hash": "2a2404ab0d907e9a6c404f3c189d6bc2a3ddbb31d8b90baac8e301f847bb1fef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:1": {
+   "en": "[YHWH and] she added to bear his brother Abel and he was Abel shepherding",
+   "notes": "The transcription is heavily damaged, with multiple lacunae and uncertain reconstructions. The translation reflects the recoverable words in order, but the syntax is fragmented. The object marker 'את' is omitted in the translation where it does not contribute to clarity. The verb 'יסף' (add) is reconstructed and uncertain. The infinitive 'לדת' (to bear) is uncertain. The suffix 'א#חי׳ו' (his brother) is uncertain. The name 'ה#[ בל' (Abel) is reconstructed and uncertain. The verb 'יהי' (was) is certain, but its connection to the following words is unclear. The final verb 'רעה' (shepherding) is certain but its subject is ambiguous.",
+   "line_id": 40103,
+   "source_hash": "980538278c78defe84ef0ba20bde0763e0f0a4896ab1d65fc2de070c54d5a435",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:2": {
+   "en": "And the cattle of Kain were a tiller of soil. And it was from the end of days and Kain came.",
+   "notes": "The phrase 'end of days' is supported by repeated phrase evidence. The verb 'were' is reconstructed based on morphological analysis. The phrase 'tiller of soil' is a paraphrase supported by phrase evidence. The final 'and Kain came' is uncertain due to damage and reconstruction.",
+   "line_id": 40104,
+   "source_hash": "127b8fc4129740477fd15c2e01180a72baa07ce31e5a54ac0bac8956715754a0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:3": {
+   "en": "From the fruit of the ground, an offering to YHWH. And futility it came, even he from the first-born",
+   "notes": "Uncertain elements include the transcription and reconstruction of 'Abel/breath' (position 10), the verb 'come' (position 11), and 'first-born' (position 15). The phrase 'futility it came' is a contextual rendering with moderate support.",
+   "line_id": 40105,
+   "source_hash": "504d71e9a7687cfd07e9a80c586d05f7b07b0042ff64c74293fc50dc85c9d967",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:4": {
+   "en": "And from the fat of the flock, YHWH looked to Abel and to his present. And to Kain.",
+   "notes": "The text is fragmentary with two reconstructed words and one uncertain word. The phrase 'YHWH looked' is supported by repeated evidence but with low confidence. The translation conservatively follows the visible morphology and lexical glosses, preserving the structure without adding unlicensed connectors or subjects.",
+   "line_id": 40106,
+   "source_hash": "49779f63bbc82ceaeb063238dc66e841524b2bfb319b0ebb9acbdf9d05b8a5fa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:5": {
+   "en": "His present offering not looked and he was hot to Kain and they fell his face and he said Yahweh to Kain",
+   "notes": "Uncertain transcription and reconstruction in positions 5, 13, and 14. Phrase evidence supports 'Yahweh to Cain' and 'he said Yahweh to' but the exact syntax is unclear. The translation conservatively follows the visible morphology and lexical glosses, preserving all recoverable words in order.",
+   "line_id": 40107,
+   "source_hash": "a0ab39c3c5240b933bc186b632841295624501f8c8f985f4372fc42f8be39a0c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:6": {
+   "en": "Why was it hot to you and why did they fall to your face? Is it not good to lift and if?",
+   "notes": "Uncertain reconstruction and gloss for several words, including 'ה##', 'ל#ו#?א', 'תיטי?ב', and 'ש##[ את'. Phrase evidence suggests 'it burned to' and 'they fell face' but is not strongly supported. Translation retains visible morphology and lexical items but notes uncertainty in reconstruction and gloss.",
+   "line_id": 40108,
+   "source_hash": "415716093fe6eaf5266283506ec620b323818024ed8ddcf500332cf6cae810f3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:7": {
+   "en": "You will not be good to the opening of sin and lie down to your impulse and you are ruling",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, particularly positions 6, 8, 9, and 12. The phrase 'you are ruling' is supported by repeated phrase evidence.",
+   "line_id": 40109,
+   "source_hash": "8d7612afd2e2a4d5c65a22414b17d48593586f53f0d7b6a956470066c4f5fe28",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:8": {
+   "en": "And he said Cain to Abel his brother and it was when they were in the field and he arose",
+   "notes": "Uncertain readings and reconstructions throughout, especially in the phrase 'it was when they were in the field.' The preposition 'in' is reconstructed. The verb 'arose' is uncertain.",
+   "line_id": 40110,
+   "source_hash": "212f6d28276c4fb2f8632b65ad5e5dd2daacc0faad253e8bb9128be5e2816df3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:9": {
+   "en": "Cain to Abel his brother and he killed him and he said Yahweh to Cain where is Abel",
+   "notes": "Uncertain reconstruction of Cain's name in the final instance. The transcription is damaged, and the translation reflects the visible lexical items conservatively.",
+   "line_id": 40111,
+   "source_hash": "290aa2b7507bf0999d96cc8b20dc5e4239591c9b1617805c1de64d0cc1168fae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:10": {
+   "en": "And he said, I do not know, O my brother, I",
+   "notes": "Uncertainty in transcription and reconstruction affects the translation's clarity, particularly around the interrogative particle and the proper name or title 'Shemer [were] Ahi'.",
+   "line_id": 40112,
+   "source_hash": "fde1723979169c59b680f6dca055ae0623cc6062e34fdc35d9b91f24c1c56f5b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:11": {
+   "en": "You have made a sound of the bloods of your brother they cried out to from the soil",
+   "notes": "Uncertain reconstruction of 'soil' and final characters. Fragment preserves damaged syntax and ambiguous participants.",
+   "line_id": 40113,
+   "source_hash": "721015b7a6fd9aed0131cd69f72f93864707e8e30f972173b02fd111c04a9bf8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3i:12": {
+   "en": "And now cursed are you from the soil that has opened its mouth to take",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly at the end of the line, may affect the precise meaning. The phrase 'to take' is uncertain due to damage in the source text.",
+   "line_id": 40114,
+   "source_hash": "8178cb2c76741621b62beae4dee70f1e9282f363441634c2ae7ede2e7e8db1fc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3ii:1": {
+   "en": "Kenan, after bearing Mahalalel, lived forty years and eight hundred years",
+   "notes": "The final 'ε' is untranslatable and omitted. The phrase 'eight hundred years' is supported by repeated phrase evidence.",
+   "line_id": 40115,
+   "source_hash": "b3700ab027218a84ac2333864fd88a1a1a7b6a6f9df2fb4347f9971bcd3e043a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f3ii:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only damaged or untranslatable characters (ε, ׃) and reconstructed placeholders.",
+   "line_id": 40116,
+   "source_hash": "a05e9cd6fdd61b07f69835e2ba6a2bc77317ac5b9d9bf68df0a1c8765b332c4c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with only a partial word 'יש##[' and an untranslatable character 'ε'. The lemma and gloss for the first word suggest 'existence', but the damage prevents a confident translation. The second character offers no interpretable content.",
+   "line_id": 40117,
+   "source_hash": "d073888de59cab5fe4f7544d0e6525fac6fcc266e483e155e1dcecd4ffc4f2a5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f4:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged and uncertain, with only fragments of words surviving. The first word 'י#?ד׳ו' is a damaged form of 'יָד' (hand) with uncertain morphology. The particle 'ל' (to) is clear, but the following words 'עמ##[' and 'ε' are heavily damaged and reconstructed, with no trusted gloss available. No meaningful translation can be constructed from the surviving material.",
+   "line_id": 40118,
+   "source_hash": "1f047345f80669e9123f405830c877e302110f01f1c758761cfe38d2c10a0e9d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q2 f4:3": {
+   "en": "to a people",
+   "notes": "The transcription is damaged and partially reconstructed. The final characters 'ε׃' are untranslatable and omitted.",
+   "line_id": 40119,
+   "source_hash": "08eab5e45b78c54d482b9677c2919e071f6763bd27cf049c81fc93a719b96744",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

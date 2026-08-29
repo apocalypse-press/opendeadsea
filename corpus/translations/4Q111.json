@@ -1,0 +1,249 @@
+{
+ "id": "4Q111",
+ "label": "4Q111",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 33,
+ "scroll_id": 911,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q111 1:1": {
+   "en": "There was as a widow much in nations mistress in provinces",
+   "notes": "Uncertain terms: 'much' (ר#בתי), 'mistress' (שר##[ תי). Reconstructed terms: 'was' ([ היתה), 'mistress' (שר##[ תי).",
+   "line_id": 48839,
+   "source_hash": "b16be6ce5b1fc4d8cb5695e57cd1494c14c387680551b4350bce9373cf56bdfe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 1:2": {
+   "en": "She was to forced labor, bitterly weep in the night and a tear upon",
+   "notes": "Translation preserves recoverable syntax and semantics without adding unlicensed subjects or connectors. Uncertainty in the exact relationship between clauses is not signaled in the translation but noted here. The final preposition 'upon' lacks an explicit object in the source, which is left implicit in the translation as per instructions.",
+   "line_id": 48840,
+   "source_hash": "5a32c6eff675c5f2ce5447a27e3a3741d65c1110d34b613147901118fa3d19cf",
+   "source_condition": "reconstructed"
+  },
+  "4Q111 1:3": {
+   "en": "There is no one to comfort from all who love all",
+   "notes": "Uncertain reconstruction of damaged text; 'from' and 'love' are tentative based on partial evidence.",
+   "line_id": 48841,
+   "source_hash": "701716ecce9bda17bbd4ba3a448d1ca98e1fe12380c6096f8390ec50ed09b595",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 1:4": {
+   "en": "They dealt treacherously in it, they were to enemies. It went into exile Judah from poverty",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence guiding the rendering of 'גלתה#יהודה מעני' as 'it went into exile Judah from poverty'. The lacuna and uncertainty in 'גלתה#' are noted but not bracketed in the translation. The phrase 'בגדו בה' is rendered as 'dealt treacherously in it' based on the lexical gloss and repeated phrase evidence. The sequence 'היו לאיבים' is translated as 'they were to enemies' following the visible morphology and lexical gloss.",
+   "line_id": 48842,
+   "source_hash": "5dc2be81ad99669eadac3a0dd418798163a926317166ec599b64c94524cc5bf4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 1:5": {
+   "en": "And from the multitude of her service she sat in the nations, not finding",
+   "notes": "Uncertainty in the reconstruction of 'י(# [ ש ]ב #)ה' (position 6) and the phrase 'ג[ וים' (position 8) is noted. The phrase 'service their' is supported by repeated evidence, but the translation retains 'her service' to preserve grammatical person and number.",
+   "line_id": 48843,
+   "source_hash": "3cc8a8e37fbcc3934773a30cd0b357917a0b49ac8fd61c738626df3ea75b583b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 1:6": {
+   "en": "A resting place for all who pursue, they overtook between the distresses, the ways",
+   "notes": "The translation reflects the visible morphology and lexical items. The phrase 'all who pursue' is supported by repeated phrase evidence. The final word 'ways' is a plural form, but the singular 'way' is used in the gloss; the plural is retained for accuracy. The transcription contains reconstructions and uncertainty, but all recoverable lexical items are accounted for.",
+   "line_id": 48844,
+   "source_hash": "e98f7cebd6fe106ee18772be1b0ead5b5affd2a8286b8cd37b8d8883ee2c258c",
+   "source_condition": "reconstructed"
+  },
+  "4Q111 1:7": {
+   "en": "Mourning Zion from destruction, those who come of an appointed feast, all its gates",
+   "notes": "The phrase 'all its gates' is supported by repeated phrase evidence. The verb 'come' is reconstructed and translated based on the provided lemma and gloss. The preposition 'from' is translated from the particle 'מִן'. The term 'destruction' is a context-free gloss for 'בְּלִי', which is treated as an aid. The phrase 'those who come of an appointed feast' is a paraphrase based on semantic constraints and repeated phrase evidence.",
+   "line_id": 48845,
+   "source_hash": "b6b5c3dd5c0dd68a7676bdd0b2eb10d275276f7a100b133760169afe1cc37700",
+   "source_condition": "reconstructed"
+  },
+  "4Q111 1:8": {
+   "en": "Desolate priests gasp my virgins thrust away",
+   "notes": "Uncertainty in the reconstruction of 'gasp' and the sense of 'thrust away' or 'grieve' for the final verb.",
+   "line_id": 48846,
+   "source_hash": "c398645e344513ad951894c009ca8194fd03603090d16e75c199cb50b453c527",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 1:9": {
+   "en": "And she was bitter to him, the Creator, to the head of his adversaries, it was easy",
+   "notes": "Uncertain reconstruction and meaning of 'ראוש##[' (head / Rosh / poison) and 'איבי׳ה' (be hostile) in the context of the sentence.",
+   "line_id": 48847,
+   "source_hash": "8794d6a441493532ee1aea3ca985b9e0595815ee6a45c211e3eebde342783c18",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 1:10": {
+   "en": "For YHWH thrust away upon the multitude of rebellion their children have gone",
+   "notes": "The phrase 'many transgressions' is supported by repeated evidence, but the translation retains the individual words 'multitude' and 'rebellion' to preserve source coverage. Uncertainty in reconstruction and gloss is noted for 'פשע##[ י׳ה'.",
+   "line_id": 48848,
+   "source_hash": "dbad3c788e74b257d3302e8e5b15fdf25bbea10d12bedc66c95f26317bd8708d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 1:11": {
+   "en": "The captive before the faces of the adversary and he went out from the daughter of Zion all the ornament",
+   "notes": "The phrase 'before the faces of the adversary' is supported by repeated phrase evidence. 'The daughter of Zion' is a common phrase with high support. 'He went out' is a possible interpretation of the verb 'יצ ]א' with the preposition 'מ'. The final phrase 'all the ornament' is a direct translation of the surviving words, though the context is unclear.",
+   "line_id": 48849,
+   "source_hash": "022be2ce76be2d9eb390bbbdb904c1bd1d8dad0761914356a912d3101fa50b8a",
+   "source_condition": "reconstructed"
+  },
+  "4Q111 2:1": {
+   "en": "They were chiefs like fallow bucks, and he did not find pasture",
+   "notes": "Uncertainty in the transcription and reconstruction of the text may affect the translation.",
+   "line_id": 48850,
+   "source_hash": "30554b28db7110e2a9375255c843946548e8f5ceb8c06506f98acb0f67c2a40e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 2:2": {
+   "en": "And they will go without strength before the pursuer. Remember YHWH.",
+   "notes": "Uncertainty in the transcription and reconstruction of 'י?לכו' and 'זכו#?ר׳ה' is not reflected in the translation. The phrase 'strength before face' is supported by repeated evidence, but 'face' is omitted in the translation to avoid adding an unsupported participant. The final punctuation mark '׃' is omitted as it cannot be translated independently.",
+   "line_id": 48851,
+   "source_hash": "e6a6a2988652942198edd82611d5cb5bbf2b6c5c4dd445ad3c2b2ca301a6510e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 2:3": {
+   "en": "the whole of our pain, which was from days of antiquity, in falling",
+   "notes": "The phrase 'days of antiquity' is supported by repeated phrase evidence. The translation conservatively retains all recoverable words in order, including the uncertain gloss for 'מכאוב׳נו' rendered as 'our pain'.",
+   "line_id": 48852,
+   "source_hash": "ccc6c4357c34e84eb7b56fa50c5f96c2e988161439476409db5e3355543f21d8",
+   "source_condition": "reconstructed"
+  },
+  "4Q111 2:4": {
+   "en": "In the hand of the adversary, and there is no helper, the adversaries laughed upon",
+   "notes": "The phrase 'peoples for [the] sufficiency' and 'in the hand their foes' are repeated patterns, but the translation follows the visible transcription and morphology. The lexical gloss for 'צַר_2' is given as 'adversary / narrow', but 'adversary' is chosen based on the context.",
+   "line_id": 48853,
+   "source_hash": "20350e9f77c09cb92ca02afc7cfabb246a46990e79248f3ec8057cf3c40d42c8",
+   "source_condition": "reconstructed"
+  },
+  "4Q111 2:5": {
+   "en": "all breakers, missed, Jerusalem upon",
+   "notes": "The phrase 'all breakers' is supported by repeated evidence. The verbs 'missed' and the preposition 'upon' are translated based on visible morphology and context-free glosses. The translation preserves the order and structure of the source text without adding unlicensed connectors or subjects.",
+   "line_id": 48854,
+   "source_hash": "ace21df83ce8aa92c2217c69009695df4447fce9226689f8afbc254ad4a7af22",
+   "source_condition": "reconstructed"
+  },
+  "4Q111 2:6": {
+   "en": "Thus to waver it was all honor they were lavish that they saw",
+   "notes": "Uncertain reconstruction of 'היתה' (position 4), '[ מכב ]ד##י#?׳ה##' (position 6), and 'ה##ז#?י#?לו' (position 7). Phrase evidence suggests 'all honor' for positions 5-6, but not strongly supported. No high-confidence semantic constraints provided.",
+   "line_id": 48855,
+   "source_hash": "ffcf33adabcd2ab71b178fc220e8afe0bc7bb7b3d725f5fcc022b02c458d0a42",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 2:7": {
+   "en": "Her nakedness even she gasped and returned backwards",
+   "notes": "Uncertain reconstruction of initial word 'ערותה' and final word 'אחור'. Phrase evidence suggests 'its [are] groaning' for 'היאה נאנחה' and 'they returned after' for 'תשב אחור', but visible morphology and transcription are prioritized.",
+   "line_id": 48856,
+   "source_hash": "d8ee0c5df14c091bba1fd47a39e9be69754511039503db379f6ce9dd3c30ded2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 2:8": {
+   "en": "Her uncleanness in its skirt and not remembering its end and she descended",
+   "notes": "Uncertainty in the transcription and reconstruction of 'ט#מאת׳ה' and 'ש[ ולי׳ה'.",
+   "line_id": 48857,
+   "source_hash": "ece7ab8f0e3de980c609eecc9e59d018c296fd1316fe88812da11c3eaa5cedf4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 2:9": {
+   "en": "Miracles, and there is no comforter to see Yahweh's affliction",
+   "notes": "The phrase 'there [is] not a comforter for' is a high-confidence contextual rendering for positions 3-5. 'To see' is a dominant pattern for positions 5-6. 'Yahweh (et) the affliction' is a supported rendering for positions 7-9, though 'affliction' is a less direct translation of 'poverty' in this context.",
+   "line_id": 48858,
+   "source_hash": "83337d2938582df52d610c3becffbb4d7e03cde7b18bdf2378076a77fb704b1c",
+   "source_condition": "reconstructed"
+  },
+  "4Q111 2:10": {
+   "en": "For the enemy has grown strong, his hand spread out, an adversary over all",
+   "notes": "The transcription contains reconstructed and uncertain elements, including the verb 'הגד#יל[' (position 2) and the final word 'כול ]' (position 9), which may affect the exact meaning. The particle '׃' (position 4) and the suffix 'יד׳ו' (position 5) are not independently translatable and are incorporated into the surrounding context.",
+   "line_id": 48859,
+   "source_hash": "6885288f8ae254e3e00b669a3af26d70f60540cda4a579379d6d8ff6e60dde1e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 2:11": {
+   "en": "his desire that she saw nations came his sanctuary",
+   "notes": "Uncertainty in the reconstruction of 'מחמ]ד##[ י׳ה' as 'his desire' and the possessive relationship between 'sanctuary' and 'his'.",
+   "line_id": 48860,
+   "source_hash": "e557a5ae7b74a6ddf767fdb15fae1eb57dc66153d474271f2a454b5b9fdeb50c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 3:1": {
+   "en": "Which you commanded, they shall not come. My precious ones in food, to return the soul, see YHWH and consider it.",
+   "notes": "Uncertainty in 'או#?כ##ל' (food) and 'ה#שיב' (return). Phrase evidence suggests 'to bring back self' for positions 9-11, but 'it returned the life' is also possible for positions 10-11. 'הב(^ י ^)ט׳ה' is translated as 'consider it' based on the lexical gloss 'look at' and the hifil stem.",
+   "line_id": 48861,
+   "source_hash": "baf8b57b46aa89eb9c6c01d82b68cc66563d197e3b020b4f7f51cbb47acf3304",
+   "source_condition": "uncertain"
+  },
+  "4Q111 3:2": {
+   "en": "For I was lavish. Not to the whole passing by on the way and see if there is pain.",
+   "notes": "The phrase 'the whole passing by on the way' is a contextual rendering of positions 8-10, supported by repeated phrase evidence. The verb 'see' at position 13 is uncertain due to damage. The noun 'pain' at position 16 has no trusted gloss.",
+   "line_id": 48862,
+   "source_hash": "c8f3a9c0144c9d4209097f495febeb5d5452f339bce433a73fb043516240e370",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 3:3": {
+   "en": "As the pain which they dealt to him who was afraid of YHWH in the day of the burning, from the high place he sent fire",
+   "notes": "Uncertain reconstruction of 'YHWH' and 'fire' due to damage. Phrase evidence supports 'the day of the burning' and 'sojourners you were in' but the latter is not fully recoverable here. Gloss for 'מכאוב׳י' is uncertain.",
+   "line_id": 48863,
+   "source_hash": "f20e4b7df1999d189b52c61636561b09949c6428bdeb6dcfb836a7866fe7dfb0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 3:4": {
+   "en": "In my bones he brought me down, he spread out a net to my feet, he returned me backward, he gave desolation, all",
+   "notes": "Uncertain elements include the net (position 6), the return/gather verb (position 9), and the backwards reference (position 10). The phrase 'he spread out a net for' is supported by repeated evidence, but its application here is uncertain due to the damaged text. The translation conservatively retains all recoverable words in order, without adding unlicensed connectors or subjects.",
+   "line_id": 48864,
+   "source_hash": "ec75e6b41d134e61ec60d536a1c34c982776e0881432585a3dfd17080deb7415",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 3:5": {
+   "en": "The day and ill, she was tied upon rebellion in hand, and he will intertwine his yoke upon neck, he has made feeble strength, he gave me",
+   "notes": "Uncertain elements include the prefix 'ה#' (position 1), the punctuation mark '׃' (position 5), the reconstructed word 'צ##[ ואר׳י' (position 15), and the suffix 'כוח#׳י' (position 17). The phrase 'he has made feeble strength' is supported by repeated phrase evidence.",
+   "line_id": 48865,
+   "source_hash": "d0329ca7c1dd76362512ecc39921fcbdec4fb89f9226c92d3bf8a6a39a203c5d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 3:6": {
+   "en": "YHWH by hand not I am able to arise he has thrown away all strong Lord in interior it is called on upon appointment",
+   "notes": "Uncertain elements include the verb 'arise/stand' (קו?ם#), the phrase 'Lord' (אדו?נ?י#?), and the preposition 'in' (ב##). The phrase 'I am able to rise' is supported by repeated evidence but remains tentative due to damage. The phrase 'he has thrown away all' is similarly supported but uncertain. The final word 'appointment' (מ#ו?[ עד ]) is reconstructed.",
+   "line_id": 48866,
+   "source_hash": "740e1006105d8b555aaa0ade77e391236bd1b5095e1266758946bd856c7c4e85",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 3:7": {
+   "en": "To break the young men of Gath, he trod the way of Yahweh by the virgin, the house of Judah. She spread out Zion in her hand, whence",
+   "notes": "Uncertain elements include the reconstruction of 'YHWH' (position 6), 'virgin' (position 8), and 'hand' (position 16). The phrase 'the way of Yahweh by' is supported by repeated evidence but remains contextually ambiguous. 'The house of Judah' and 'the virgin of the daughter' are supported by repeated phrase evidence but may not reflect the intended sense here. The final clause is incomplete due to damage and uncertainty.",
+   "line_id": 48867,
+   "source_hash": "87820569a545af27c6380b3ca0537927bdf318ae1153d249608773e7d2f716a2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 3:8": {
+   "en": "A comforter to all who love righteousness are you, YHWH, who watches over the Lord of Jacob surrounding his adversaries",
+   "notes": "The phrase 'a comforter to' is a high-confidence paraphrase of the opening words. 'YHWH' is a direct transcription of the tetragrammaton. 'Who watches' reflects the visible morphology of the verb. 'Surrounding his adversaries' is a conservative translation of the reconstructed phrase, retaining the possessive licensed by the suffix.",
+   "line_id": 48868,
+   "source_hash": "81d3bdfd4645984eabeaa76befb010e996bc29a35faa5a0f851e9ad1416ec960",
+   "source_condition": "reconstructed"
+  },
+  "4Q111 3:9": {
+   "en": "Was Zion to wield between them? Upon these, weeping, my eye shed tears, that it was far from me.",
+   "notes": "Uncertain readings: 'ציו?ן' (Zion?), 'בני׳המה#' (between them?), 'בכו#?' (weeping?). Reconstructed word: 'רחק#' (far).",
+   "line_id": 48869,
+   "source_hash": "aea4045cf77650046637f5ff2d6f4227588dce477d8ceb5905978f5e9e255b42",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 3:10": {
+   "en": "Repent, one who returns the soul, they were sons, desolate that a warrior, an enemy. Righteous is he, my Lord.",
+   "notes": "Uncertain reconstruction of 'repent' (נחם); uncertain gloss for 'sons' (בנ׳י#?); phrase evidence suggests 'that a warrior' (כיא גבר); 'righteous is he' (צדיק הוא) may be a title; 'my Lord' (אדוני) is a reconstruction.",
+   "line_id": 48870,
+   "source_hash": "e24b4bf377e687aa9a6310e33af19baca129af2ff383d80a0edb6bb06f47d25a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q111 f4:1": {
+   "en": "It was the Lord, as an enemy, who swallowed Israel, all its palaces; he ruined its strongholds.",
+   "notes": "The phrase 'all its palaces' is a high-confidence reconstruction of positions 8-9. The verb 'swallowed' at position 5 is repeated at position 7, but the latter is uncertain. The phrase 'he ruined its strongholds' is a high-confidence reconstruction of positions 10-11. The initial 'It was' is a conservative translation of the reconstructed verb 'was' at position 1, with 'the Lord' following as a high-confidence reconstruction of positions 1-2.",
+   "line_id": 48871,
+   "source_hash": "722dd33bd544f51b9918919d316ca68c38ad8581dab91ef39f6a3ca2ff0272bf",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,473 @@
+{
+ "id": "4Q321a",
+ "label": "4Q321a",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 65,
+ "scroll_id": 300,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q321a 1:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) with no clear Hebrew or Aramaic context. No lexical or semantic evidence supports a translation. The character cannot be independently translated into English.",
+   "line_id": 13522,
+   "source_hash": "c21082ce31a2f115e7dc2bcd1cc61ac8af96a95ddf7690a5c8af57ada64f228d",
+   "source_condition": "clean"
+  },
+  "4Q321a 1:2": {
+   "en": "the year the first in four in Gamul in one in first in five",
+   "notes": "The translation follows the recoverable words in order, preserving the visible morphology and lexical glosses. The phrase 'in four' is supported by repeated phrase evidence, but the overall structure remains fragmented. The initial 'ε' and final ']' are omitted as they cannot be translated independently. The meaning is uncertain due to the fragmented nature of the text.",
+   "line_id": 13523,
+   "source_hash": "f5400e7a10f010d88f0634ab6845b4cfe5238251ac3216069b9523c74a2bc0ee",
+   "source_condition": "clean"
+  },
+  "4Q321a 1:3": {
+   "en": "In Jedaiah, in grandsons, in the second, and in Maaziah, in seven-teen",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'seven-teen' is supported by repeated phrase evidence. The lexical glosses for 'grandsons' and 'second' are used due to lack of contextual constraints. The preposition 'in' is repeated based on the visible morphology of the particles.",
+   "line_id": 13524,
+   "source_hash": "b967668acecfa877fea4eaf4035c6557a929fc73325fd8cf86d3b36465d17a8c",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 1:4": {
+   "en": "Sabbath in thorn-bush in grandsons in second and pulverise in one in Malkijah in seven-teen in",
+   "notes": "The phrase 'seven-teen' is supported by repeated phrase evidence. The final 'in' is uncertain due to the unknown lemma at the end of the transcription.",
+   "line_id": 13525,
+   "source_hash": "020e1abf7db8b28f1c219d258d76e91a6c4b7295a6d9b5039144c78cb335f117",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 1:5": {
+   "en": "In one in Eliashib in nine and twenty in third and pulverise in two in jeshua in six",
+   "notes": "Reconstructed transcription includes '[no recoverable text]' for a surviving g character unable to be independently translated. the translation conservatively follows the order of words in the source text, but the meanin g of some phrases is uncertain.",
+   "line_id": 13526,
+   "source_hash": "e85a5c179faec0692ff6c5cc7dbe726f1308773d43173ffb45134610da4a3ac2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 1:6": {
+   "en": "teen in in three in Bilgah in eight and twenty in fourth",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Phrase evidence partially supports 'teen in'. Remaining translation follows context-free glosses.",
+   "line_id": 13527,
+   "source_hash": "b04228a653d50d51a36e001ea05fada91c396f304db51463f3123bc31ee2533c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 1:7": {
+   "en": "And pulverise in four in canopy in fif-teen in",
+   "notes": "The phrase 'fif-teen in' is supported by repeated phrase evidence. The final preposition 'in' is uncertain due to damage and is omitted from the translation.",
+   "line_id": 13528,
+   "source_hash": "e96aff16e91cf3cc2cff1e8845b2ddae80fba79b3501e41a59a9691af1595d09",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 1:8": {
+   "en": "In four, in Pethahiah, in seven and twenty, in fifth and pulverise, in five, in Hezir",
+   "notes": "The transcription is partially damaged, and the word 'דוק׳ו' (pulverise) is uncertain. The name 'חזי ]ר##' (Hezir) is also uncertain due to damage.",
+   "line_id": 13529,
+   "source_hash": "c837cfd6d76cc797e5dc7ac59089f88aef5d3d44c03fda603e61cfe514f78e42",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 1:9": {
+   "en": "On the fourteenth, in six, in Delaiah, in seven and twenty, in the sixth",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'four-teen in' is supported by repeated phrase evidence. The word 'Delaiah' is a proper noun and is translated as such. The final phrase 'in the sixth' is a direct translation of the surviving words.",
+   "line_id": 13530,
+   "source_hash": "c97e0d2dee102a0d092ae8f4c79f448b2031989c84492cc4d3acbf8b5ed49282",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 1:10": {
+   "en": "And pulverise the sabbath in Gamul on the fourteenth",
+   "notes": "The phrase 'four- teen in' is a reconstruction based on repeated phrase evidence. The term 'Gamul' is a proper noun with no trusted gloss available.",
+   "line_id": 13531,
+   "source_hash": "808a495f8fd93672f10574de188bd3b3df5fe6fdc2f10672c4b24b446028e397",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 1:11": {
+   "en": "Sabbath in Seorim in five and twenty in the seventh and pulverise in one in Jedaiah in two",
+   "notes": "The transcription contains reconstructed text and uncertain elements. The phrase 'דוק׳ו' is translated as 'pulverise' based on the provided lexical gloss, but its exact meaning in context is unclear. The proper noun 'שעורים' is rendered as 'Seorim' and 'ידעיה' as 'Jedaiah' based on the lexical gloss.",
+   "line_id": 13532,
+   "source_hash": "5a334ae7cb249596c724cb1ce1f83f7cd5d2d8f834d160ab725c5fda664536cf",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 1:12": {
+   "en": "In the tenth, in two in Abijah, in five and twenty in the eighth, and pulverise",
+   "notes": "The translation follows the recoverable words in order, preserving the visible morphology and lexical glosses. The phrase 'teen in' is supported by repeated phrase evidence, but the context does not license its use here. The final word 'pulverise' is uncertain due to the suffix and is translated conservatively.",
+   "line_id": 13533,
+   "source_hash": "e8106abb67ab8dd67865d5d1bfe8e275c93e1ee4adad81307c8371a457877b4e",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 1:13": {
+   "en": "In three on the right in two plus ten in Jakim",
+   "notes": "The phrase 'two plus ten' is supported by repeated phrase evidence. The term 'Jakim' is a proper noun, likely a personal name.",
+   "line_id": 13534,
+   "source_hash": "5fa70e5bf490946d010bb7414ed3fa7631b15a79864651cdea586468296a2e7b",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 2:1": {
+   "en": "In four and twenty in the ninth and pulverise in four in Shecaniah",
+   "notes": "The transcription is partially damaged and reconstructed, with uncertainty in the second word. The phrase is fragmented, and the exact relationships between the elements are unclear.",
+   "line_id": 13535,
+   "source_hash": "5c51edba02ca3016eb8c14c6d2d02a63453843ceb0f87c803a1187744a6f9cde",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 2:2": {
+   "en": "In one plus ten in five in Immer in three and twenty",
+   "notes": "Reconstructed text includes '[in]' before 'five'. The phrase 'one plus ten' is supported by repeated evidence. No uncertainty in the transcription or glosses.",
+   "line_id": 13536,
+   "source_hash": "0a3168117b2402beede444fbaa059bdd9bc6b478741df05ac98e8db7788a60ac",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 2:3": {
+   "en": "In the tenth, and pulverize in six in Jeshebeab in ten in",
+   "notes": "Uncertainty in the transcription and reconstruction of some words. The final word 'in' is a suffix and its meaning is unclear in this context.",
+   "line_id": 13537,
+   "source_hash": "8b109a211fcb0bacb1f6938ae367dc902337fcc9a190c73467e90951e8606608",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 2:4": {
+   "en": "In six in Ezekiel in two and twenty in one plus ten the month and pulverise",
+   "notes": "Reconstructed and uncertain text present. Phrase evidence applied for 'one plus ten' and 'ten the month'.",
+   "line_id": 13538,
+   "source_hash": "757e24ad4f515c8a52d62e6ccbd2f2046a37979c261e27fae7a829a9163f1aa8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 2:5": {
+   "en": "Sabbath in Pethahiah ninth in one in Jehoiarib in two",
+   "notes": "Translation follows visible transcription and morphology. Phrase evidence supports 'ninth in' as a repeated construction. No uncertainty or lacunae beyond the reconstructed preposition 'in' before 'ninth'.",
+   "line_id": 13539,
+   "source_hash": "4013f6ce9b52066dfac96e5eb44fdb1ea1e53e8ec5de9fa8a32614c4c395497a",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 2:6": {
+   "en": "And twenty in two years, in the tenth month, and in two in Delaiah in nine",
+   "notes": "The phrase 'in two years' is a reconstruction based on repeated phrase evidence. The word 'Delaiah' is a proper noun and its meaning is not further clarified.",
+   "line_id": 13540,
+   "source_hash": "5b718c0108ef15c36b1b5e1e45167aa1507b5c0dc659f2e3c70fdc945756e9d2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 2:7": {
+   "en": "in",
+   "notes": "The transcription contains an unknown punctuation mark and an untranslatable character (ε), which are omitted from the translation.",
+   "line_id": 13541,
+   "source_hash": "604f1441ecbc7e640502da378b6eaa51612283ab26c847c8e73fe87c702a37c9",
+   "source_condition": "clean"
+  },
+  "4Q321a 2:8": {
+   "en": "the second? the first month in two in Malkijah on twenty and pulverise",
+   "notes": "Uncertain reconstruction of 'second' and incomplete transcription at the end.",
+   "line_id": 13542,
+   "source_hash": "443b8af6c7a78fd38b0fcba282d606156d08d427219372f88d2eb02dcf6d8229",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 2:9": {
+   "en": "In three in Harim in seven in his coming in four in Jeshua in twenty",
+   "notes": "The phrase 'in seven in his coming' is a high-confidence contextual rendering of the phrase evidence, supported by 42 occurrences. The translation conservatively follows the recoverable words in order, preserving the repetition of 'in' and the proper names 'Harim' and 'Jeshua'.",
+   "line_id": 13543,
+   "source_hash": "a320e9342508ff47341e3e00e61c9a7a35cc8d0b88d0c8b4dba922be6dea840a",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 2:10": {
+   "en": "In the second, and pulverize in five, in a thorn-bush, in seven in. In five",
+   "notes": "The translation follows the recoverable words in order, preserving repetition and uncertainty. The phrase 'in seven in' reflects the visible morphology of 'ב׳וא' combined with 'ב'. The final 'in five' is incomplete due to the fragment's end.",
+   "line_id": 13544,
+   "source_hash": "c98edb5f7a5c3cd4b606c4a55950677a0c596e4e555d32bbc711dc05f9c7a88c",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 2:11": {
+   "en": "In the canopy, in the nineteenth, in the third, and pulverize, in six, in Eliashib, in six, in",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'nine-teen' is supported by repeated phrase evidence. The lexical glosses are used as aids, and the translation preserves the recoverable material without adding missing subjects or smoothing away repetition. Uncertainty is noted where applicable, but the translation avoids brackets, question marks, or placeholders.",
+   "line_id": 13545,
+   "source_hash": "98ffcaaa740c2ad062190de342b13d1a36169d3df63f0ee38f686133bcb095eb",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 2:12": {
+   "en": "Sabbath in shatter in eight-teen in fourth and pulverise in one in Immer in five",
+   "notes": "The phrase 'eight-teen' is supported by repeated phrase evidence. The translation follows the visible morphology and lexical glosses, preserving the structure and content of the source text.",
+   "line_id": 13546,
+   "source_hash": "33d2a5522ca9c5effcc43c073f3dc17d8f563a9202c43940712d882cae9e57cf",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 2:13": {
+   "en": "in one in Gamul in on the seventeen in fifth and pulverise in two",
+   "notes": "The phrase 'on the seventeen' is supported by repeated phrase evidence. The word 'Gamul' is a proper noun with no clear gloss. The word 'pulverise' is a reconstructed form with uncertain meaning in this context.",
+   "line_id": 13547,
+   "source_hash": "2083ab8179c1d3d1af2cc45962afd7c993704f2074531067c096ca0825dd8954",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 3:1": {
+   "en": "In ten, in second and pulverise, in three in Jeshebeab, in six and twenty in",
+   "notes": "The translation follows the recoverable words in order, preserving the visible morphology and lexical glosses. The phrase 'twenty in' is supported by repeated phrase evidence. No uncertainty or lacunae are present in the recoverable text.",
+   "line_id": 13548,
+   "source_hash": "cd1c1e346e2d86dc920708d36785152299e11d4de6341416cd3fb67a4ea94d95",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 3:2": {
+   "en": "In two in Immer in nine in third and pulverise in five in shatter in six and twenty",
+   "notes": "The text is a list of numbers and actions, possibly instructions or a sequence of events. The translation follows the order of words, preserving the repetition of the preposition 'in' and the conjunction 'and'. The verb 'pulverise' and 'shatter' are translated based on their lexical glosses.",
+   "line_id": 13549,
+   "source_hash": "10fff1e8a846b688f03ce75b227baf5ea45d59fa626abe586afbb8d1c47fbc93",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 3:3": {
+   "en": "In four in Ezekiel in eight in fourth and pulverise in six in Gamul",
+   "notes": "The transcription contains a reconstructed word ('[ ב׳וא') and an uncertain word (']ג?מול'). The translation preserves the order and content of recoverable words, but the overall meaning remains unclear due to fragmentation and uncertainty.",
+   "line_id": 13550,
+   "source_hash": "f5176d3112ba9f34b034e05379786aca139a9d4f70ae5bfc2b3040cdd51e22ae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 3:4": {
+   "en": "In four and twenty in, in five in Maaziah in seven in fifth",
+   "notes": "Uncertain reconstruction and damaged syntax result in a fragmented translation. The phrase 'twenty in' is supported by repeated phrase evidence, but the overall structure remains unclear.",
+   "line_id": 13551,
+   "source_hash": "da3ccccc183e22ff145ad742a110c4f405536128d1932109723134953f9dbe78",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 3:5": {
+   "en": "And [pulverise] in one of Harim in four and twenty in Sabbath in Malkijah in seven",
+   "notes": "Uncertain reconstruction of 'דו ]ק##׳ה' as 'pulverise'; uncertain reconstruction of 'אח#[ ד' as 'one'; uncertain reconstruction of 'שבע##[ ה ]' as 'seven'.",
+   "line_id": 13552,
+   "source_hash": "94053085a8b543c4c3a8629bb150c33b0458aa141368dcfa0e4ae034c0c60664",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 3:6": {
+   "en": "In the sixth, and pulverize in two in thorn-bush in three and twenty in",
+   "notes": "The translation follows the recoverable text closely, preserving the repetition of prepositions and the uncertain suffix at the end. The phrase 'twenty in' is supported by repeated phrase evidence, though its dominant pattern support is not high. The final suffix and punctuation mark are omitted from the translation due to uncertainty and lack of independent translatability.",
+   "line_id": 13553,
+   "source_hash": "cdaae75090dfed08ac1952332776f442fa4ad8359e3fab78e932d89fce0c2331",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 3:7": {
+   "en": "In one in Jeshua in five in seventh and pulverise in four in Eliashib in two and twenty",
+   "notes": "The transcription is heavily damaged, with several reconstructed and uncertain words. The translation follows the visible morphology and lexical glosses where possible, but the overall meaning remains unclear due to the fragmented state of the text.",
+   "line_id": 13554,
+   "source_hash": "0feecb31bcdefdaae5f9ff6ea2d5ac1968613185386e1b57ff565129d7f69979",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 3:8": {
+   "en": "In the second, in three in the balcony in five in the eighth and pulverise in five in Bilgah",
+   "notes": "Uncertain elements include the balcony (חופ ]ה##), the preposition (ב##), the number five (חמש##[ ה), and the name Bilgah (]ב#לגא). The translation conservatively retains all recoverable words in order, despite syntactic fragmentation and uncertainty.",
+   "line_id": 13555,
+   "source_hash": "919db57bf19bb60dae6bdf317de510ea193cc45df896a471f0ceed1c91116cef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 3:9": {
+   "en": "In one and twenty in, in four Hezir in four in ninth and pulverise",
+   "notes": "Uncertain reconstruction of 'ארב ]ע##ה' as 'four' noted. The phrase 'twenty in' is supported by repeated phrase evidence. The translation conservatively follows the order of recoverable words, preserving all visible lexical items.",
+   "line_id": 13556,
+   "source_hash": "ce00184df322177f24301f1f173f2425ad0adb5f7985d0a04bbe1c3155b5bc4c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 3:10": {
+   "en": "On the Sabbath, in Ezekiel, in one and twenty in. In six, in Jakin, in three, in tenth.",
+   "notes": "The translation follows the recoverable words in order, preserving the repeated prepositions and numbers. The phrase 'twenty in' is supported by repeated phrase evidence. The meaning of 'Jakin' is retained as a proper noun. No uncertainty is present in the source, but the syntax is fragmented.",
+   "line_id": 13557,
+   "source_hash": "41b5aa0763a211f07d64cef76952cead8b5c301e6e0b088fcdb3e0a9d259315f",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 3:11": {
+   "en": "And pulverise in one in Maaziah in nine-teen in sabbath in Jedaiah in two",
+   "notes": "The phrase 'nine-teen' is a reconstruction based on repeated phrase evidence. The final punctuation mark is omitted as it cannot be translated independently.",
+   "line_id": 13558,
+   "source_hash": "3eb0ea8236fd076dbee5c09ce86d085ca6a70356a6a72003de8599e20f6fb643",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 3:12": {
+   "en": "In the eleven-teenth month and pulverise in three in Seorim in nine-teen",
+   "notes": "The phrase 'nine-teen' is a reconstruction based on repeated phrase evidence. The term 'Seorim' is a proper noun and remains untranslated. The word 'pulverise' is a context-free gloss for the lemma 'דּוּק', which is treated as a verb here.",
+   "line_id": 13559,
+   "source_hash": "d9a33f84931693e2c05dd068bbfa76b638036dadb6f73ff055b925d2785fc098",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 3:13": {
+   "en": "In two in right in two in two plus ten the month and pulverise in four in Abijah in eight",
+   "notes": "The phrase 'two plus ten' is supported by repeated phrase evidence. The word 'right' is a tentative translation for 'מימין', which has no trusted gloss. The word 'pulverise' is a direct translation of 'דוק׳ו', but its context is unclear.",
+   "line_id": 13560,
+   "source_hash": "752ac4171374a938450692ab915ca01b25fc7d0192ca760829f670f249765534",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 4:1": {
+   "en": "teen in in five in Seorim in three and twenty in tenth",
+   "notes": "Fragmentary list of numerical terms with prepositions; 'Seorim' is a proper noun, possibly a place or group name.",
+   "line_id": 13561,
+   "source_hash": "976e877e6ee8ace75da7c1f7213b54e23fd2983cf1fe66b27bd93cf4a22a2c2c",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 4:2": {
+   "en": "And pulverise in six in Jedaiah in ten in six in Abijah in two",
+   "notes": "The translation follows the visible transcription and morphology strictly, preserving the repetition of prepositions and numbers. The lexical glosses are used as aids, and the translation avoids adding any unlicensed connectors or subjects. The final punctuation mark is omitted as it cannot be translated independently.",
+   "line_id": 13562,
+   "source_hash": "a55a6ed91bed8ba0f60f121216faf33ce96d9303eadca89e032d66aa63091e0f",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 4:3": {
+   "en": "And twenty in one plus ten the month and pulverise sabbath in thorn-bush in nine in",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'one plus ten the month' is supported by repeated phrase evidence. The term 'pulverise' is a context-free gloss for the suffixed form 'דוק׳ו'. The final preposition 'in' is repeated three times, reflecting the source text.",
+   "line_id": 13563,
+   "source_hash": "907f5f3c60bebcaae12683e3ce80a8eaccaa6ddf110f0250fdb1ca9e69207b90",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 4:4": {
+   "en": "In one in canopy in two and twenty in two ten the month and pulverise in two",
+   "notes": "The phrase 'two plus ten' is a paraphrase of the numerical expression 'two and ten' based on repeated phrase evidence. The term 'pulverise' is uncertain due to the damaged form 'דוק׳ו'.",
+   "line_id": 13564,
+   "source_hash": "14704de7a8e09fc1d1ce54c9e550a5a5fea3da4cc6a2a677ec7a3c78d36568dd",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 4:5": {
+   "en": "in Eliashib in ninth in",
+   "notes": "The phrase 'ninth in' is supported by repeated phrase evidence. The final preposition 'in' is uncertain due to the unknown lemma and gloss of the final word.",
+   "line_id": 13565,
+   "source_hash": "81246c4d38a5a914fd545cc6c203b22bc0c855e843f55b9d820fbc4525d7af50",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 4:6": {
+   "en": "The fifth in two in Hezir in twenty in first and pulverise in three in Bilgah",
+   "notes": "Uncertain reconstruction of initial 'ה#['; translation preserves all recoverable elements in order, but syntax is fragmented.",
+   "line_id": 13566,
+   "source_hash": "327e8d8b974e08cede5191fbf7418e1b130d519287e02ea15d1fead4b1a0c395",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 4:7": {
+   "en": "in seven in four in Jakin",
+   "notes": "Uncertainty in the reconstruction of 'שב#[ עה' (seven) and the presence of an unknown punctuation mark (׃). The phrase 'in seven in' is based on repeated phrase evidence, but its meaning is unclear.",
+   "line_id": 13567,
+   "source_hash": "3dcc4ca94f61ff1af69f3ddf54b90c9c122cb0c3ac7c028e8f1281d2ecf99d83",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 4:8": {
+   "en": "In twenty in the second and pulverise in five in Pethahiah in seven in",
+   "notes": "Uncertainty in the transcription and reconstruction of several words, including 'ש ]נ?י' (second), 'דו?ק#׳ו' (pulverise), and 'ב#[' (in). The phrase 'שבעה ב׳וא' is ambiguously translated as 'in seven in' due to lack of clear contextual evidence.",
+   "line_id": 13568,
+   "source_hash": "0373179f4d3f49771815de82429ee3b18113b5686e2652492b3516914c2f4a00",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 4:9": {
+   "en": "In five in Jehoiarib in nine-teen in third and pulverise in six in Delaiah",
+   "notes": "Uncertain reconstruction of 'Jehoiarib' and missing text indicated by damage.",
+   "line_id": 13569,
+   "source_hash": "5a30f6aec7bb3627be39cd13ec09d60583af64d30b9b573ec64ef1c05d2118b8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 4:10": {
+   "en": "In six in it in sabbath in right in eight teen in fourth and pulverise in one",
+   "notes": "Uncertain reconstruction at position 3; uncertain gloss at position 7; phrase evidence suggests 'eight-teen' at positions 9-10 and 'I will rejoice in' at positions 2-3, but the latter does not fit the visible morphology; translation retains context-free glosses where no better evidence is available.",
+   "line_id": 13570,
+   "source_hash": "319f9d958544c25316164466b18ffb8eb24ac56caa82fb75547f1c33d10f3f9d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 4:11": {
+   "en": "In [Seorim] in five by in one in Shecaniah on the seven-teen",
+   "notes": "Uncertain reconstruction of 'Seorim' and punctuation mark.",
+   "line_id": 13571,
+   "source_hash": "3424095168c64e2a7b089afa2489fdb9d3e88a5ba486bc1e90aa674004e523ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 4:12": {
+   "en": "In the fifth, and pulverise in two in Abijah in four by",
+   "notes": "The translation follows the recoverable words in order, preserving the visible morphology and lexical glosses. The phrase 'four by' is supported by repeated phrase evidence. No uncertainty or lacunae are present in the recoverable text.",
+   "line_id": 13572,
+   "source_hash": "3e09cbb3cf6b1534680f861a8ce9a31fc998ce23167b2fe4f8562175a7a3e2fa",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 4:13": {
+   "en": "In three, in Jeshebeab, in the seventeenth, in the sixth, and in the fourth, in Jakim, in four",
+   "notes": "The phrase 'on [the] seven-teen' is supported by repeated phrase evidence, but the translation retains the context-free glosses for consistency. The transcription contains repeated 'in' particles and numerical terms, which are translated conservatively without smoothing.",
+   "line_id": 13573,
+   "source_hash": "069e8339ee72b0b5ba514b7a4caa7737d5fdf581fd4303860818edb7d2d730fb",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 5:1": {
+   "en": "in four in shatter in fifteen in seventh and pulverise",
+   "notes": "Uncertain reconstruction and transcription damage affect the translation. The phrase 'fif- teen in' is supported by repeated phrase evidence. The word 'shatter' is uncertain due to transcription damage.",
+   "line_id": 13574,
+   "source_hash": "c4ad2999ac5378806818f03cb2b475c6123f58525fbcda2e2e9c77189966316e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 5:2": {
+   "en": "In five in Immer of two in. In six in Gamul in five teen in eighth and pulverise",
+   "notes": "Uncertain reconstruction at positions 6 and 10. Phrase evidence applied to positions 6-7 and 14-15. Position 8 is an unknown punctuation mark and omitted from translation.",
+   "line_id": 13575,
+   "source_hash": "c816ad57388400be5ba0824ebed68dfbc69f44d4dcf8e98a7348dd0198a85ae4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 5:3": {
+   "en": "Sabbath in Jakin of two in Sabbath in Harim on four-teen in ninth and pulverise in one",
+   "notes": "Uncertain reconstruction and gloss for 'Jakin' (position 3), 'Harim' (position 10), and 'four-teen' (positions 12-13). The phrase 'of two in' (positions 5-6) and 'four-teen in' (positions 12-14) are supported by repeated phrase evidence. The translation conservatively follows the recoverable text without adding implied subjects or connectors.",
+   "line_id": 13576,
+   "source_hash": "6255059ae087bb2a1ab02b9532993ee71698532f198a0f927a47b8df02598b09",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 5:4": {
+   "en": "In Jehoiarib one in. In three in Malkijah in grandsons and one in pulverise second",
+   "notes": "The translation includes reconstructed and uncertain terms. 'Grandsons' is a gloss for a damaged numeral. 'Pulverise' is a context-free gloss for a damaged term.",
+   "line_id": 13577,
+   "source_hash": "8ea99003ee8374ce7d75b5fc78d56b6f995579915df0f1aad719fa576849eb23",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 5:5": {
+   "en": "in two in thorn-bush in three-teen in tenth and pulverise in four in Jeshua in nine",
+   "notes": "Reconstructed and uncertain text includes 'pulverise' (דוק׳וה#[). Phrase evidence supports 'three-teen' (שלושה עשר).",
+   "line_id": 13578,
+   "source_hash": "0118648e47f9247bc88ac0f1f966e0d8fe9050cb7f4b15a3f7b9d35ea1c4b647",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 5:6": {
+   "en": "And twenty in three in Eliashib in two plus ten one plus ten the month and pulverise",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'two plus ten' and 'one plus ten' are supported by repeated phrase evidence. The final word 'pulverise' is uncertain due to damage in the source text.",
+   "line_id": 13579,
+   "source_hash": "f6064776e03301735af3c25ac177163174eb34504676a7c531d2286498536db9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 5:7": {
+   "en": "In six in balcony in nine and twenty teen in. In five in Bilgah in two plus ten",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'two plus ten' is supported by repeated phrase evidence. No uncertainty or lacunae are present.",
+   "line_id": 13580,
+   "source_hash": "ce7e9f6eb6e624a8f67fb9c458211455a01d6ded38e366820965b6706faf9d6b",
+   "source_condition": "clean"
+  },
+  "4Q321a 5:8": {
+   "en": "In two plus ten the month and pulverise sabbath in shatter in eight and twenty in",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 3, and 9. Phrase evidence supports 'two plus ten' and 'ten the month' but the overall syntax is unclear. The final token is an untranslatable punctuation mark.",
+   "line_id": 13581,
+   "source_hash": "3a5ef5570f08c6852aee3e8db48767bbff5b8a6faeeb94dd991a066183747d28",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 5:9": {
+   "en": "The sixth in six in Pethahiah in twenty in first and pulverized in two in Gamul in seven",
+   "notes": "Fragmentary and uncertain reconstruction with multiple lacunae. The translation preserves visible lexical items in order, but the syntax is damaged and relationships are unclear. Uncertainty in reconstruction and glossing is noted for positions 2, 3, 4, and 8.",
+   "line_id": 13582,
+   "source_hash": "b036cba923a35f58cd0f64cc168341eb739e007d4f294c9e8ffa379360b179df",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 5:10": {
+   "en": "And twenty in one in Maaziah in ten in second and in three in Jedaiah",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged prepositions and a possible suffix. The translation preserves all recoverable lexical items in order, but the syntax is fragmented due to lacunae.",
+   "line_id": 13583,
+   "source_hash": "edb6892380e666a172fca6b93ad2683dcc0660906431bd8c8322a6fef31d66e4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q321a 5:11": {
+   "en": "In six and twenty in two in Seorim in nine in third and pulverise in five",
+   "notes": "The translation follows the visible transcription and morphology strictly, preserving all recoverable lexical items. The phrase 'twenty in' is supported by repeated phrase evidence. The term 'Seorim' is retained as a proper noun due to its context-free gloss. The sequence of prepositions and numbers reflects the source order, with no additions or omissions.",
+   "line_id": 13584,
+   "source_hash": "b0be6e6b709eb04812e80d78765656bfef422ee4193e18675c0e3d189700002d",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 5:12": {
+   "en": "In right six and twenty in four in Abijah in eight in fourth and fine",
+   "notes": "The phrase 'twenty in' is supported by repeated phrase evidence. The word 'מימין' is translated as 'right' due to its visible form and morphology, despite the lack of a trusted gloss. The word 'דוק׳ו' is translated as 'fine' based on its lexical gloss, but its exact meaning in this context is uncertain.",
+   "line_id": 13585,
+   "source_hash": "f7e72148dc0809a9e568c92cdb1b62d6fc25476dce42d9aa14259c0abb23fc58",
+   "source_condition": "reconstructed"
+  },
+  "4Q321a 5:13": {
+   "en": "In six, Shecaniah in four and twenty in. In five, Jakim in seven in fifth.",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'twenty in' is supported by repeated phrase evidence. The text is fragmentary, and the exact relationships between the elements are unclear.",
+   "line_id": 13586,
+   "source_hash": "94be429dcb8b819c1be895847cd45a9b4a8d125946bbcfb19f470a71d66d79a0",
+   "source_condition": "reconstructed"
+  }
+ }
+}

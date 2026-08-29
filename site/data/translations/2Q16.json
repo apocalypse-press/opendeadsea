@@ -1,0 +1,284 @@
+{
+ "id": "2Q16",
+ "label": "2Q16",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 38,
+ "scroll_id": 770,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "2Q16 f1i:4": {
+   "en": "and she said",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The verb 'תאמר' is in the wayyiqtol form, indicating a past tense narrative sequence.",
+   "line_id": 39751,
+   "source_hash": "70dd016ab0132d803fac203d0a4bf5e09d78e133a9267cc916158629a6bfdf33",
+   "source_condition": "clean"
+  },
+  "2Q16 f1i:5": {
+   "en": "I will find grace in your eyes, my Lord, for you have comforted me and spoken",
+   "notes": "The phrase 'I will find grace in your eyes, my Lord' is supported by repeated phrase evidence. The reconstruction of 'אמצא' as 'I will find' is noted. The translation follows the visible morphology and lexical glosses, with 'נחמת׳ני' rendered as 'you have comforted me' and 'דברת' as 'spoken'.",
+   "line_id": 39752,
+   "source_hash": "6947ea3c644b32ecaa23fb4748aca1c598d5f497179df90bb825f49445882bee",
+   "source_condition": "reconstructed"
+  },
+  "2Q16 f1i:6": {
+   "en": "Upon your heart, your maidservant, and I will not be as one of your maidservants",
+   "notes": "The phrase 'I will not be as one of your maidservants' is supported by repeated phrase evidence. The transcription contains one reconstructed word ('[ על') and one uncertain word ('שפ ]ח#תי׳ך').",
+   "line_id": 39753,
+   "source_hash": "a92b2da982ef175ba7e7b34034ea525d17ebeef7ac16ab2169d8f395e9040f23",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f1i:7": {
+   "en": "And he said to Boaz, 'At the time of food, approach hither, and you ate from'",
+   "notes": "The phrase 'of Boaz' is supported by repeated evidence for positions 3-4. The phrase 'he said to' is supported by repeated evidence for positions 2-3. The imperative 'approach' is directed to a female based on morphology.",
+   "line_id": 39754,
+   "source_hash": "285921ce14bf944ab1df75ea9f3b4033934dbef650e31973cbd6a66147b37de8",
+   "source_condition": "reconstructed"
+  },
+  "2Q16 f1i:8": {
+   "en": "The bread and you dipped your bit in vinegar and she sits from the side of the harvesters",
+   "notes": "Uncertainty in the transcription is noted at position 12. The lexical gloss for 'צד' is ambiguous between 'side' and 'snare'; 'side' is chosen based on context. The verb 'קצרים' is translated as 'harvesters' based on the lexical gloss 'harvest / be short', favoring the participial sense.",
+   "line_id": 39755,
+   "source_hash": "96dec399166ef6c1c562c18596c1c30ae7f97348c7bc6851fc3d44a26a04eeea",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f1ii_4i:1": {
+   "en": "And he held out to the parched grain and she ate and was sated and she remained and she arose to gather",
+   "notes": "Uncertain reconstruction of 'be sated' and 'arise'. Phrase 'to the sound' not supported by visible morphology.",
+   "line_id": 39756,
+   "source_hash": "e0c01897cc1a580fe430f254b63577c351bf953d7a99866754d37b8c260db767",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f1ii_4i:2": {
+   "en": "And Boaz commanded his young men, saying, 'Even among the sheaves you shall gather.'",
+   "notes": "The transcription contains reconstructed text (positions 5, 8) and uncertainty (position 5). The object marker 'את' is omitted in translation as it does not add meaningful English content. The verb 'לקט' is in the piel stem, indicating an intensive or causative action, but the translation retains the basic sense of 'gather' due to lack of contextual evidence for a more specific rendering.",
+   "line_id": 39757,
+   "source_hash": "56d952e731583159498decabdb2d2c396ac37a550c06789cabc56d292435ebf5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f1ii_4i:3": {
+   "en": "And do not humiliate her. And even plunder, plunder from the bundles.",
+   "notes": "The transcription contains reconstructed text and an unknown punctuation mark, which are not reflected in the translation. The phrase 'plunder plunder' is supported by repeated phrase evidence.",
+   "line_id": 39758,
+   "source_hash": "c97555558bde2def63963b2e8df6d758263a9d833ced1ca8260f11c6e4f4fec9",
+   "source_condition": "reconstructed"
+  },
+  "2Q16 f1ii_4i:4": {
+   "en": "And you left and she gathered and not have you rebuked in and she gathered in the field",
+   "notes": "The phrase 'not have you rebuked in' is a reconstruction based on repeated phrase evidence. The text contains two reconstructed words and no uncertain words.",
+   "line_id": 39759,
+   "source_hash": "9330ed0703870b7d31c2078cc4c08bea5624fe454e09f2839f68136099f301d1",
+   "source_condition": "reconstructed"
+  },
+  "2Q16 f1ii_4i:5": {
+   "en": "Until the evening and she beat off the one who gathered and it was as an ephah",
+   "notes": "The verb 'beat off' is reconstructed and uncertain. The phrase 'the one who gathered' is a relative clause, but the antecedent is unclear.",
+   "line_id": 39760,
+   "source_hash": "0a80eb3766c627afb1995d11572becffea43d60908dfc58b5b45985185bba351",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f1ii_4i:6": {
+   "en": "Barley and she lifted and it came the city and she saw her mother-in-law the",
+   "notes": "The phrase 'it came the city' is supported by repeated phrase evidence. The translation preserves the visible morphology and lexical items, including the object marker 'the' at the end.",
+   "line_id": 39761,
+   "source_hash": "57a948b0cf0b20b944f7025638870f0a270bca761dc2332f05273a25adec7796",
+   "source_condition": "reconstructed"
+  },
+  "2Q16 f1ii_4i:7": {
+   "en": "which she gathered and brought out and gave to her who remained",
+   "notes": "The verb 'תתן' is reconstructed and uncertain. The phrase 'give to' is supported by repeated evidence.",
+   "line_id": 39762,
+   "source_hash": "c504daeb62245a7b9257560801e4f4f1a029e6443212f1763f03a70bad493bde",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f1ii_4i:8": {
+   "en": "In satiety and she said to the mother-in-law where you gathered the day",
+   "notes": "The phrase 'Lebo Hamath' was not used as it does not fit the context. The phrase 'he said to' was not used as the verb is in the feminine singular form. The translation follows the visible morphology and lexical glosses, with necessary reconstructions indicated by the source data.",
+   "line_id": 39763,
+   "source_hash": "b4191d6b1f1ec42248b6f6b4fe70e76ff7ac8266e32e2334a3c0147707b3d5de",
+   "source_condition": "reconstructed"
+  },
+  "2Q16 f4ii_5i:1": {
+   "en": "And whither have you made him recognise the blessed and she reported to her mother-in-law",
+   "notes": "The translation includes uncertain and reconstructed elements. The phrase 'whither have you made' is based on the provided glosses and morphology, but its exact meaning is unclear. 'Recognise the blessed' is a tentative rendering of the hifil participle of 'nkr' with 'blessed' as a possible interpretation of 'brk'. The final clause 'she reported to her mother-in-law' is incomplete due to damage, and the subject 'she' is inferred from the verb morphology.",
+   "line_id": 39764,
+   "source_hash": "ad8b11de2c7ce154b9399fc8a232c7fbedb7a489e97e1e2b9b592ca99697285b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f4ii_5i:2": {
+   "en": "The one who did with and said the name of the man",
+   "notes": "Uncertainty in reconstruction and damage affects the flow and clarity of the translation. The phrase 'as you dealt with' is a paraphrase based on repeated phrase evidence, but it is not a direct translation of the visible text. The translation conservatively retains all recoverable words in order, but the result is fragmented due to the limitations of the source material.",
+   "line_id": 39765,
+   "source_hash": "f8225d111a2a83d7cd66d95d72257082acd7650ada3f4c838dbc33c2b43463d5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f4ii_5i:3": {
+   "en": "I made with the day of Boaz and she said to Naomi the bride",
+   "notes": "Uncertain reconstruction of 'day' and 'Naomi'. Phrase evidence supports 'she said Naomi' and 'she said Naomi to'. Uncertain gloss for 'make' and 'say/boast'.",
+   "line_id": 39766,
+   "source_hash": "44b5e44a7be39e707f1cee41f4a3e165ffacb8573cf2141ec68b3fca0b57ff61",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f4ii_5i:4": {
+   "en": "Blessed be YHWH who has not left loyalty and the living",
+   "notes": "The phrase 'not he has left loyalty' is supported by repeated phrase evidence, but the translation follows the visible morphology and lexical glosses directly. The reconstruction of 'YHWH' is noted.",
+   "line_id": 39767,
+   "source_hash": "9f21817c66dbb8726764772a862651cb6f649439d67793cf49f0c91444e92e9d",
+   "source_condition": "reconstructed"
+  },
+  "2Q16 f4ii_5i:5": {
+   "en": "And [the] dying, she said to Naomi, it will draw near to the man",
+   "notes": "Uncertain transcription and reconstruction in 'and [the]' and 'dying'. Phrase evidence supports 'to Naomi' and 'it will draw near to the'. Low support for 'she said' and 'to the man'.",
+   "line_id": 39768,
+   "source_hash": "027a818b48ebd5f4f5a2f8233b5e274984e4a953d579d4364c0c81dd4f039259",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f4ii_5i:6": {
+   "en": "From our redeemer he and she said Ruth the Moabite even that he said",
+   "notes": "The transcription contains a damaged lexical unit 'גאל׳נו' translated as 'our redeemer' with uncertainty. The phrase 'Ruth the Moabite' is supported by repeated phrase evidence. The particle 'גם' is translated as 'even' based on its context-free gloss. The final verb 'אמר#' is uncertain but translated as 'he said' based on morphology.",
+   "line_id": 39769,
+   "source_hash": "d3118c2d641a84d39dbc86a5557c4b8982973f7caf07800002dce51dde79e0da",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f4ii_5i:7": {
+   "en": "to the boys who cleave to you until if they are completed",
+   "notes": "Uncertain reconstruction at position 9; damaged text at position 4.",
+   "line_id": 39770,
+   "source_hash": "5c7ff7cb3c9508ea416c1a785bef7416d6ac6fa59463bf66a46c1c1c3bd1b7a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f4ii_5i:8": {
+   "en": "The whole harvest which to me and she said Naomi to Ruth",
+   "notes": "The transcription contains a reconstructed word 'ק[ ציר' (harvest) and an uncertain punctuation mark '׃'. The phrase 'she said Naomi' is supported by repeated phrase evidence.",
+   "line_id": 39771,
+   "source_hash": "a4f0c03d022b996424497e6cab37da77955dbed312fbbe93a90fb7ab7622cea1",
+   "source_condition": "reconstructed"
+  },
+  "2Q16 f5ii_6i:1": {
+   "en": "As for the bride, the good daughter, that you go out with the girls, and they will not meet",
+   "notes": "Uncertainty in transcription and reconstruction of some words. The phrase 'the good [place] of the house' is a repeated pattern but not directly applicable here due to lack of direct evidence.",
+   "line_id": 39772,
+   "source_hash": "ecd8b6ce91b71aed7e0cf31559331be3a387f845e86fc3522388728d750d4c93",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f5ii_6i:2": {
+   "en": "in a field another and she clung to the girls in Boaz to gather",
+   "notes": "The phrase 'in a field another' is supported by repeated phrase evidence. The verb 'to gather' is an infinitive, and its subject is not explicitly stated in the source text.",
+   "line_id": 39773,
+   "source_hash": "5c07cd0a47ee44cdef7e4b303cfdaa5dbe12e2262c8dfa47a964f9529b00623e",
+   "source_condition": "reconstructed"
+  },
+  "2Q16 f5ii_6i:3": {
+   "en": "Until completing the harvest of the barley and the harvest of the wheat",
+   "notes": "Reconstructed text in positions 2 and 7. Uncertainty in position 7 due to damaged transcription.",
+   "line_id": 39774,
+   "source_hash": "139cd9b5df52b64f2aa99c2188ff08dd0e23205cf993da5bf85da1de46c76065",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f5ii_6i:4": {
+   "en": "And she sat with her mother-in-law and she said to Naomi her mother-in-law",
+   "notes": "Uncertainty in transcription and reconstruction of some words. The phrase 'to Naomi' is supported by repeated evidence, but 'he said to' is not directly applicable due to the feminine subject.",
+   "line_id": 39775,
+   "source_hash": "e61c56f459bf4d039246603894cbdaee825691295817e9710e826e0a5f0b1051",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f5ii_6i:5": {
+   "en": "O daughter, I seek to a resting place that it will go well for",
+   "notes": "Uncertainty in verb 'seek' (position 4); reconstructed text in 'daughter' (position 1) and 'will go well' (position 8).",
+   "line_id": 39776,
+   "source_hash": "876fc3c06fa348dbfc89726ba17c0f82340aa33c1809b18280e5160cd6d738ff",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f5ii_6i:6": {
+   "en": "And now, is not Boaz known, who was with you?",
+   "notes": "Uncertainty in the transcription and reconstruction of 'ב##עז' (Boaz) and 'מדע#[ ת׳נו' (known) is noted. The translation assumes a plausible reconstruction and context.",
+   "line_id": 39777,
+   "source_hash": "6fe2d6201a2f66de9afc7a25be95952afbd930a685db1db1fa347eeb1db94144",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f5ii_6i:7": {
+   "en": "Behold, he scatters the threshing-floor of barley",
+   "notes": "Uncertainty in the transcription of 'הנ ]ה#' and reconstruction of 'הוא['. The phrase 'his I will disperse' is a repeated pattern but not directly applicable here due to grammatical constraints.",
+   "line_id": 39778,
+   "source_hash": "24ae1d3a6c212838a62422b7b5e636ffc12eac16ba3e6eaad1d2fb4645d1ee36",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f5ii_6i:8": {
+   "en": "The night and you washed and you anointed and you put mantles upon you",
+   "notes": "Uncertain reconstruction of 'anointed' and damaged syntax.",
+   "line_id": 39779,
+   "source_hash": "0753bc6973c7402802d823c60e449ab249577d9f2ca014337fd078d4ce252283",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f6ii_7:2": {
+   "en": "And it was when he lay down, and you knew the place where he would lie down",
+   "notes": "Uncertainty in the transcription is noted for 'שכב׳ו?' and 'ו?'. The phrase 'place where he lay' is supported by repeated evidence.",
+   "line_id": 39780,
+   "source_hash": "fe9b000a36797fdcf1b29788421c0378f8ea2a6d8dc2d41f93e7382fa50321ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f6ii_7:3": {
+   "en": "And you came, and you uncovered, and you lay down, and he will report to",
+   "notes": "Uncertain reconstruction of 'ב#[ א ]ת' as 'come'. The phrase 'מַרְגְּלֹות' is uncertain and omitted from translation. The verb 'יגיד' is translated as 'will report' based on its morphology, but the exact sense is unclear.",
+   "line_id": 39781,
+   "source_hash": "e5da6d37781c7b65fd032f827c69fc6547010bfefa8d07ff72afe9f73a57736f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f6ii_7:4": {
+   "en": "Whatever you make and say to all that you will say I will do",
+   "notes": "The translation incorporates repeated phrase evidence for 'to all' and preserves the relative clause structure. Uncertainty in the reconstruction of 'ות#[ אמר' is noted but does not affect the translation's core proposition.",
+   "line_id": 39782,
+   "source_hash": "7a7d530ae3220256959e0d451538d073fe35d2cd0a663467db996af899c9940d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f6ii_7:5": {
+   "en": "And she descended the threshing floor and made as all that her mother-in-law commanded and he ate",
+   "notes": "The phrase 'you will go down the threshing floor' is a paraphrase of the dominant contextual rendering for positions 2-4. The phrase 'do according to all' is a paraphrase of the dominant contextual rendering for positions 6-8. The phrase 'to all that he had commanded' is a paraphrase of the dominant contextual rendering for positions 8-10. The translation preserves the grammatical person, number, and semantic relationships of the source text.",
+   "line_id": 39783,
+   "source_hash": "8bf6b75ce0b64e29eb2c42b3bdf32758789f6e77fca13881193a2dcfc5c8d6c6",
+   "source_condition": "reconstructed"
+  },
+  "2Q16 f6ii_7:6": {
+   "en": "Boaz and he drank and was good of heart and he came to lie down in the end of the heap",
+   "notes": "Uncertain transcription and reconstruction in multiple words. Phrase evidence supports 'good of heart'.",
+   "line_id": 39784,
+   "source_hash": "c9f520fb77b9fb047e50e53bc08b025407507af18f922366fe9abf7d3b0a0c91",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f6ii_7:7": {
+   "en": "And she came in secrecy, and she uncovered feet, and she lay down. And it was in the middle of the night.",
+   "notes": "The phrase 'the middle of the night' is a high-confidence reconstruction based on repeated phrase evidence. The word 'feet' is uncertain due to the lack of a trusted gloss and is included based on the visible transcription. The conjunction 'and' is repeated as per the source, despite potential redundancy in English.",
+   "line_id": 39785,
+   "source_hash": "8a9b404a868349f582fa28a6b02a596762114e918c62e8f4521c5a690480ee6b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f6ii_7:8": {
+   "en": "And the man trembled and grasped and behold a woman lying down at his feet",
+   "notes": "Uncertain reconstruction of 'trembled' and 'woman'. The phrase 'lying down at his feet' is partially supported by repeated evidence but remains uncertain due to damage.",
+   "line_id": 39786,
+   "source_hash": "04ba5beccedd84c311d576e1c01e74667ef37fad5081fdb275871e1423686386",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "2Q16 f8:3": {
+   "en": "And he said to redeem the portion of the field that belongs to our brother Elimelech, she sold",
+   "notes": "The phrase 'the portion of the field' is supported by repeated phrase evidence. The verb 'sell' is in the feminine singular, but the subject is not explicitly stated in the recoverable text.",
+   "line_id": 39787,
+   "source_hash": "ff64b388814a256132522714894393d324c700fe9a3ffdb5d61b873a1616a1ee",
+   "source_condition": "reconstructed"
+  },
+  "2Q16 f8:4": {
+   "en": "Naomi who returned from the field of Moab and I said I will uncover your ear to say",
+   "notes": "The translation follows the visible transcription and morphology. The phrase evidence supports 'Naomi who returned from the field of Moab' and 'I said I will uncover your ear.' The infinitive 'to say' is reconstructed but supported by the context.",
+   "line_id": 39788,
+   "source_hash": "11dc8964b3691a6269fb38f5e680aa1ff1e19d595f4f5b55dfdf5387b1ebddba",
+   "source_condition": "reconstructed"
+  }
+ }
+}

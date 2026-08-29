@@ -161,8 +161,10 @@ node scripts/validate-fragments.mjs
 node scripts/validate-lexicon.mjs
 node scripts/validate-manuscripts.mjs
 node scripts/validate-photo-links.mjs
+node scripts/validate-search-metadata.mjs
 node scripts/validate-translations.mjs
 node scripts/validate-translation-queue.mjs
+node scripts/test_search.mjs
 node scripts/test_session.mjs
 node scripts/test_review_api.mjs
 node scripts/test_desk_store.mjs
