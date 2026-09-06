@@ -7,14 +7,16 @@ Spec and built-vs-remaining ledger: `docs/ARCH-DSS-2026-CF-FREE.md`.
 Repo: https://github.com/apocalypse-press/opendeadsea  
 Site: https://opendeadsea.org/
 
-## Current state (2026-08-29)
+## Current state (2026-09-06)
 
-Built: 1,027-manuscript catalog, original-language reading pages, 900 complete
-machine-draft packs referenced by 904 catalog records, GitHub OAuth, D1-backed
+Built: 1,027-manuscript catalog, original-language reading pages, 927 complete
+machine-draft packs referenced by 931 catalog records, GitHub OAuth, D1-backed
 public suggestions/comments/review, source links, and deterministic validators.
-The remaining 123 catalog records have no published translation pack: 97
+The remaining 96 catalog records have no published translation pack: 70
 retain planned/error/invalid machine lines, and 26 Greek witnesses lack source
-wording in the current corpus.
+wording in the current corpus. The provider-free internal work queue contains
+the 70 source-backed records and their 149 unresolved lines; the 26 Greek
+records are retained as `source_acquisition_required`, not discarded.
 
 Remaining: sustained human review, accepted-translation release tooling, the
 GitHub PR bridge, and full BDB/Jastrow ingestion.
@@ -27,6 +29,14 @@ fails the export. Those packs are for human review, not the edition. The catalog
 manuscript as no translation, machine draft, human checked, or pending approval
 (`python3 scripts/export_translation_queue.py`). Partial/rejected Explorer work
 stays unpublished and therefore remains in no translation.
+
+Queue unpublished, source-backed work without calling a provider:
+`python3 scripts/export_translation_work_queue.py`. The generated
+`corpus/translation-work-queue.json` rechecks current source wording and binds
+each queued line to the Explorer corpus commit, source hash, evidence hash, and
+cohort hash. Records with no current wording are listed separately for source
+acquisition. This planning artifact cannot publish drafts or change Explorer's
+production freeze.
 
 The signed-in desk (`/account/`) stores translation suggestions, comments,
 reviews, and approvals in D1. GitHub OAuth is live. Git history is shown on
@@ -41,6 +51,7 @@ functions/                GitHub OAuth + D1 suggestion/review API
 schema/                   D1 and corpus contracts
 corpus/mss/               Canonical generated manuscript records
 corpus/translations/      Machine-draft packs and public queue
+corpus/translation-work-queue.json  Provider-free unpublished work plan
 corpus/search-metadata.json  Canonical book aliases and named-scroll metadata
 corpus/fragments/         Diplomatic JSON contract fixtures
 site/m/                   Exact generated manuscript/chapter presentation
@@ -61,6 +72,7 @@ node scripts/validate-photo-links.mjs
 node scripts/validate-search-metadata.mjs
 node scripts/validate-translations.mjs
 node scripts/validate-translation-queue.mjs
+node scripts/validate-translation-work-queue.mjs
 node scripts/test_search.mjs
 node scripts/test_session.mjs
 node scripts/test_review_api.mjs

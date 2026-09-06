@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opendeadsea.org/schema/translation-work-queue.schema.json",
+  "title": "Open Dead Sea provider-free translation work queue",
+  "type": "object",
+  "required": [
+    "queue_version",
+    "authorization",
+    "source",
+    "summary",
+    "records",
+    "excluded_records",
+    "queue_sha256"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "queue_version": {
+      "const": "opendeadsea-untranslated-source-work-queue-v1"
+    },
+    "authorization": { "type": "string", "minLength": 1 },
+    "source": {
+      "type": "object",
+      "required": [
+        "catalog_path",
+        "catalog_sha256",
+        "public_queue_path",
+        "public_queue_sha256",
+        "explorer_database",
+        "explorer_corpus_commit",
+        "detached_source",
+        "wording_policy"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "catalog_path": { "const": "corpus/manuscripts.json" },
+        "catalog_sha256": { "$ref": "#/$defs/sha256" },
+        "public_queue_path": { "const": "corpus/translations/queue.json" },
+        "public_queue_sha256": { "$ref": "#/$defs/sha256" },
+        "explorer_database": { "type": "string", "minLength": 1 },
+        "explorer_corpus_commit": { "type": "string", "minLength": 1 },
+        "detached_source": { "type": "string", "minLength": 1 },
+        "wording_policy": { "type": "string", "minLength": 1 }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "catalog_records",
+        "untranslated_records",
+        "eligible_records",
+        "excluded_records",
+        "queued_lines",
+        "prior_statuses",
+        "source_languages"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "catalog_records": { "type": "integer", "minimum": 0 },
+        "untranslated_records": { "type": "integer", "minimum": 0 },
+        "eligible_records": { "type": "integer", "minimum": 0 },
+        "excluded_records": { "type": "integer", "minimum": 0 },
+        "queued_lines": { "type": "integer", "minimum": 0 },
+        "prior_statuses": {
+          "type": "object",
+          "required": ["planned", "invalid", "error"],
+          "additionalProperties": false,
+          "properties": {
+            "planned": { "type": "integer", "minimum": 0 },
+            "invalid": { "type": "integer", "minimum": 0 },
+            "error": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "source_languages": {
+          "type": "object",
+          "additionalProperties": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/record" }
+    },
+    "excluded_records": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/excluded" }
+    },
+    "queue_sha256": { "$ref": "#/$defs/sha256" }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "statusCounts": {
+      "type": "object",
+      "required": ["valid", "planned", "invalid", "error"],
+      "additionalProperties": false,
+      "properties": {
+        "valid": { "type": "integer", "minimum": 0 },
+        "planned": { "type": "integer", "minimum": 0 },
+        "invalid": { "type": "integer", "minimum": 0 },
+        "error": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "item": {
+      "type": "object",
+      "required": [
+        "line_id",
+        "scroll_id",
+        "scroll_label",
+        "reference",
+        "source_languages",
+        "word_count",
+        "source_condition",
+        "source_available",
+        "source_hash",
+        "source_evidence_sha256",
+        "cohort_item_sha256",
+        "prior_status",
+        "prior_attempt_count",
+        "queue_item_sha256"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "line_id": { "type": "integer", "minimum": 1 },
+        "scroll_id": { "type": "integer", "minimum": 1 },
+        "scroll_label": { "type": "string", "minLength": 1 },
+        "reference": { "type": "string", "minLength": 1 },
+        "source_languages": { "type": "string", "minLength": 1 },
+        "word_count": { "type": "integer", "minimum": 1 },
+        "source_condition": {
+          "enum": ["clean", "reconstructed", "uncertain", "reconstructed_and_uncertain"]
+        },
+        "source_available": { "const": true },
+        "source_hash": { "$ref": "#/$defs/sha256" },
+        "source_evidence_sha256": { "$ref": "#/$defs/sha256" },
+        "cohort_item_sha256": { "$ref": "#/$defs/sha256" },
+        "prior_status": { "enum": ["planned", "invalid", "error"] },
+        "prior_attempt_count": { "type": "integer", "minimum": 0 },
+        "prior_failure_class": { "type": "string", "minLength": 1 },
+        "prior_validation_error": { "type": "string", "minLength": 1 },
+        "queue_item_sha256": { "$ref": "#/$defs/sha256" }
+      }
+    },
+    "record": {
+      "type": "object",
+      "required": [
+        "catalog_id",
+        "label",
+        "path",
+        "languages",
+        "catalog_line_count",
+        "lines_with_text",
+        "detached_line_count",
+        "queue_line_count",
+        "prior_status_counts",
+        "items",
+        "record_sha256"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "catalog_id": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "minLength": 1 },
+        "languages": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "catalog_line_count": { "type": "integer", "minimum": 0 },
+        "lines_with_text": { "type": "integer", "minimum": 0 },
+        "detached_line_count": { "type": "integer", "minimum": 1 },
+        "queue_line_count": { "type": "integer", "minimum": 1 },
+        "prior_status_counts": { "$ref": "#/$defs/statusCounts" },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/item" }
+        },
+        "record_sha256": { "$ref": "#/$defs/sha256" }
+      }
+    },
+    "excluded": {
+      "type": "object",
+      "required": [
+        "catalog_id",
+        "label",
+        "path",
+        "languages",
+        "catalog_line_count",
+        "lines_with_text",
+        "reason",
+        "disposition"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "catalog_id": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "path": { "type": "string", "minLength": 1 },
+        "languages": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "catalog_line_count": { "type": "integer", "minimum": 0 },
+        "lines_with_text": { "const": 0 },
+        "reason": { "const": "no_source_wording_in_current_corpus" },
+        "disposition": { "const": "source_acquisition_required" }
+      }
+    }
+  }
+}

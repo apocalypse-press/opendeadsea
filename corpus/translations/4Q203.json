@@ -1,0 +1,585 @@
+{
+ "id": "4Q203",
+ "label": "4Q203",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 81,
+ "scroll_id": 132,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q203 f1:1": {
+   "en": "In order to approach",
+   "notes": "The transcription is heavily damaged, with uncertain readings and reconstructions. The particle 'כ##ד#י?' is uncertain and translated conservatively as 'in order to'. The verb 'א#ק#ר##[ ב' is reconstructed and translated as 'approach'. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 6729,
+   "source_hash": "015ea559f0abdde2ae94561f24c638f77d88ba1c738c16bc4a3e8071904fec6f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f1:2": {
+   "en": "Brakal",
+   "notes": "The transcription contains a mix of Aramaic and Greek characters. 'ברקאל' is transliterated as 'Brakal', but its meaning is uncertain. The Greek letter 'ε' is omitted from the translation as it cannot be independently translated. No recoverable context or gloss is available.",
+   "line_id": 6730,
+   "source_hash": "ca3b4f6decf5ca8b43d62ce96e81503e50c0288b83c3052313b0e130f5ae55d3",
+   "source_condition": "clean"
+  },
+  "4Q203 f1:3": {
+   "en": "our faces still",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 6731,
+   "source_hash": "3c2c50620961c19f99a39e77f0f8c9b0019df4531221e3301ebf7a4ce732e16c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f1:4": {
+   "en": "I arise",
+   "notes": "The final characters 'ε׃' are untranslatable and likely represent damage or an unknown symbol. The verb 'קא#ם##[' is reconstructed and uncertain, but its root 'קום' supports the translation 'arise'.",
+   "line_id": 6732,
+   "source_hash": "95c3c80c8c96f0010141b11b327186972cc3fdf98a8914f1e05fcf60ca308aec",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f2:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters with no clear lexical or semantic content. All visible forms are either reconstructed or unidentified, leaving no defensible English translation.",
+   "line_id": 6733,
+   "source_hash": "4cd63d5bc098346eb63899c17ae540d7c030627d7f408e21c31e8138493cb8c1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f2:2": {
+   "en": "upon them",
+   "notes": "The transcription is damaged and partially reconstructed, with uncertainty in the final character. The translation reflects the recoverable lexical item 'upon them' based on the visible morphology and lemma, but the final character 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 6734,
+   "source_hash": "e5bc99163ca7c09d9af294ddacf0844b0ee4ddc79df1423ed0bee6de6b3d9e20",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f2:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) in an Aramaic context, with no recoverable lexical content or defensible translation.",
+   "line_id": 6735,
+   "source_hash": "1a574a3f9ed526c3ec725a8db0454548c1fce4c6badd4eb8f231bfd964599bb3",
+   "source_condition": "clean"
+  },
+  "4Q203 f2:4": {
+   "en": "and he answered [no recoverable text]",
+   "notes": "The transcription contains uncertain and unknown elements, including a damaged verb form 'ענ ]ה#' (position 3) and an incomplete reconstructed noun 'מהו?[' (position 4). The final 'ε' and '׃' (positions 5-6) are untranslatable. The translation reflects only the recoverable 'ו' (and) and the verb 'ענה' (answered) with its visible morphology.",
+   "line_id": 6736,
+   "source_hash": "78eb0fa450fd5354b17a076cb0eda49dbb426fd4a4b9741dcccaecc3b206ff55",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f3:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed but uncertain fragment, leaving no defensible English words.",
+   "line_id": 6737,
+   "source_hash": "47d57d7d2e90016c30a5dc467fd5507ae1b5ef210a383a14b6846ac7e1b06652",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f3:2": {
+   "en": "his colleagues",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 6738,
+   "source_hash": "e66bbd5198d502969b9077789b533d1b70bc685eb96c600d9f48937c061a0cfd",
+   "source_condition": "clean"
+  },
+  "4Q203 f3:3": {
+   "en": "Hobbash and [no recoverable text]",
+   "notes": "The transcription contains significant damage and uncertainty. The word 'חובבש' is translated as 'Hobbash' based on its visible form, but its meaning is unclear (lexical_gloss '?'). The particle 'ו' is translated as 'and'. The remaining text 'א#דכ # [' is reconstructed and uncertain, with no trusted gloss available, resulting in '[no recoverable text]'.",
+   "line_id": 6739,
+   "source_hash": "7421c24441134187fa3dc8985790ef91a72c30d1a6271a01e5726803e62721dd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f3:4": {
+   "en": "And what will you give to kill?",
+   "notes": "Uncertainty in the transcription and reconstruction of 'תתנו?נ#?׳ני' and 'ק#[ טלה'. The final characters 'ε' and '׃' are omitted as they cannot be translated independently.",
+   "line_id": 6740,
+   "source_hash": "7517fa1efaa794c547054a3d2b16bed8be9e6403b47cb4f5c444c5eff5fee612",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain fragments, with no defensible English words surviving.",
+   "line_id": 6741,
+   "source_hash": "b2aeb58e1c3ebac31c46dfde36b6f013ffd11acf61eaa1b1d17226fbb83e2087",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f4:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of two unidentifiable characters (ε) in Aramaic, with no recoverable lexical content or defensible translation.",
+   "line_id": 6742,
+   "source_hash": "dab7810e5280df3795ebcd4149b4e1e30e8438baedb5bbef79d034c730853d88",
+   "source_condition": "clean"
+  },
+  "4Q203 f4:3": {
+   "en": "I said alas to the being",
+   "notes": "The phrase 'I said alas!' is supported by repeated evidence. The preposition 'to' and the noun 'being' are translated based on visible morphology and lexical glosses. Uncertainty remains due to damaged and unknown characters, particularly the initial and final 'ε' and the uncertain word following 'ε] #'.",
+   "line_id": 6743,
+   "source_hash": "0acb0a12ffcdff5ca750dd489083a35c770f8d0c34ae8a315f66099461b0b3b0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f4:4": {
+   "en": "from the earth and",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and unknown elements. The translation reflects only the recoverable words 'from' (מ#ן), 'earth' (אר#ע), and 'and' (ו). Other elements are too damaged or uncertain to translate confidently.",
+   "line_id": 6744,
+   "source_hash": "17694a819f65a2a19594879c11692eff54f37f5de2848114cca113575636a483",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f4:5": {
+   "en": "earth as",
+   "notes": "The transcription contains untranslatable characters and a reconstructed particle. The final 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 6745,
+   "source_hash": "8c113bcd747713214dd941e16dd06486e6d9f9e0eebd2429bfd0ae1893f13daf",
+   "source_condition": "reconstructed"
+  },
+  "4Q203 f4:6": {
+   "en": "They were like and wept before",
+   "notes": "Uncertain reconstruction of 'before' (קוד##[ ם); two unknown characters (ε) omitted from translation.",
+   "line_id": 6746,
+   "source_hash": "d3abfbdc8d3e06d9ba56701c827b63356c8c359e3964a429092f81817cfdaa63",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f4:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ל#[, ε, ׃) with no clear lexical or grammatical meaning. The reconstructed element ]ל#[ is speculative, and no contextual or semantic constraints provide further clarity. No defensible English translation can be derived from the surviving material.",
+   "line_id": 6747,
+   "source_hash": "9dea96c7c474ead9b84b61ede29c9a46f44f822ef28f43ea4f3b73e701df1551",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of fragmented and uncertain characters (ε, ], #, [, ε) with no clear lexical or semantic content. No defensible English translation can be derived from the visible material.",
+   "line_id": 6748,
+   "source_hash": "24fa4de2a16bb46954a793dfb934bc4c37fc74e7b213963db68b246bdaccc853",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f5:2": {
+   "en": "violence they",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The word 'חֲמַס' is tentatively translated as 'violence,' but its meaning is unclear. The pronoun 'אִנּוּן' is reconstructed and translated as 'they,' but its presence is uncertain. Two untranslatable characters (ε) are omitted from the translation.",
+   "line_id": 6749,
+   "source_hash": "2a1a771adff2e7a4a154a2dcc39a0f29f8ac3a3e936d6e38c2b201689737e008",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f5:3": {
+   "en": "they killed",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed characters. The verb 'קטל' (kill) is partially recoverable in the perfect tense, third-person masculine plural form. Other elements, including the initial and final characters, are indecipherable. No contextual constraints or repeated phrases are available to aid translation.",
+   "line_id": 6750,
+   "source_hash": "4216c789dcbe95407c8ffeb0a24c2bd0619af97b8ad9109ff0bd3b62508e5724",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f6:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and reconstructions with no defensible English equivalents.",
+   "line_id": 6751,
+   "source_hash": "5dd4be1607a51f183432819a3a99fb1ff681ab1ea8a050fe8c48488971fa71a4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f6:2": {
+   "en": "it became to",
+   "notes": "The transcription contains uncertain and unknown elements, including a damaged verb form and two untranslatable characters (ε). The phrase 'Yahweh to' is a high-confidence contextual rendering of the verb and preposition, but it is not directly supported by the visible text. The translation conservatively uses the context-free glosses for the recoverable words.",
+   "line_id": 6752,
+   "source_hash": "d4029ec6029a196e9e9b3f9d485225b9ace9f8d474d00c8b9733f0e1edd189b3",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f6:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ל#, ׃) with no clear lexical or syntactic recoverable content. The reconstructed element ]ל# is too fragmentary to support a translation. No defensible English words can be derived from the visible material.",
+   "line_id": 6753,
+   "source_hash": "7677f0b022e589bd5dc8eb22438ae199d1c5efff4b3f9bbba31e2afaa0fbd7db",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f7a:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain fragments, with no recoverable lexical items.",
+   "line_id": 6754,
+   "source_hash": "0c0ae7999314f2ac8f1c2185c3b1d6f3a9c944888e7d21f2389fb1c2516cbdfa",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f7a:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments (ε, #) with no recoverable lexical content. The second position is marked as uncertain, and no contextual or semantic constraints provide further clarification.",
+   "line_id": 6755,
+   "source_hash": "20d205ffff53e06fb531067b5008485db6638583e9c01560f865c6ce51516060",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f7a:3": {
+   "en": "and his strength",
+   "notes": "The transcription is heavily damaged, with uncertain reconstructions and an unknown final character. The translation reflects the recoverable words 'and' (ו?) and 'strength' (תוקפ##[ ׳כ ]ה##[), but the exact meaning and context remain unclear.",
+   "line_id": 6756,
+   "source_hash": "0e2054035a67c1d6db2d7894796c826a1a176983aab144b2f9c16fc5a49bbd40",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f7a:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' in an Aramaic context, with no recoverable lexical content.",
+   "line_id": 6757,
+   "source_hash": "e19c62441956c8b2224257ae3fbad58c30d78e1ae573ceaf98d5d9842ce3b987",
+   "source_condition": "clean"
+  },
+  "4Q203 f7a:5": {
+   "en": "In then he said to the being",
+   "notes": "Uncertain reconstruction of 'then' (אד##[ ין). Uncertain meaning of 'being' (והיה) and 'the being' (ההי[ ה). Untranslated fragment 'ε' due to unknown meaning.",
+   "line_id": 6758,
+   "source_hash": "6def449c5434f22225056f08197d8806baa20fcceb482e3ca41da812e51dfaa6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f7a:6": {
+   "en": "to Azazel and he served",
+   "notes": "Uncertain reconstruction and damaged text affect positions 2, 4, 7, and 8. Phrase evidence for 'to the Levites' and 'subjects of' not applied due to insufficient support and mismatch with visible morphology. Translation retains recoverable words in order, omitting unsupported relations.",
+   "line_id": 6759,
+   "source_hash": "5130380f51d8cd48509664a862613b919bc402ad9a1f69e0260a2209671573d1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f7a:7": {
+   "en": "Strong men and towns lift the whole colleague upon",
+   "notes": "Uncertain reconstruction and gloss for several words, including 'ע##[ ירי' (towns/asses/excitement/angels) and 'י?ת#נשון' (lift/take). The phrase 'the bearer his armor(s)' is a high-confidence contextual rendering for 'י?ת#נשון כול', but it is not directly translated here due to the conservative approach. The final two words 'על ε' are translated as 'upon' but the meaning of 'ε' is unclear.",
+   "line_id": 6760,
+   "source_hash": "b623f31d5d4c210ed6cedd048d664deb4532d9bd06af36ef7638a124254042ce",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f7bi:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of untranslatable fragments (ε] # [ε) with no recoverable lexical content. All visible forms are either unknown or reconstructed with high uncertainty, leaving no defensible English translation.",
+   "line_id": 6761,
+   "source_hash": "b08b8c76518adb9fe1987b9e330da044f404cb676aa9fa0b1993b98f61b5cda0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f7bi:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' in an Aramaic context, with no recoverable lexical content.",
+   "line_id": 6762,
+   "source_hash": "2bec8be95e326abdd91d2fbd0abb915f7e0539f3184127ded9a77b3ef9ab3142",
+   "source_condition": "clean"
+  },
+  "4Q203 f7bi:3": {
+   "en": "in then they were lowly they bore",
+   "notes": "Uncertain transcription and gloss for 'ע#נו' and 'ילד#ו#?'. Visible morphology guides translation.",
+   "line_id": 6763,
+   "source_hash": "ce85eb8a95741e19fb8422e82c877cafd48b725385a449133d8db6b5ccb99611",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f7bi:4": {
+   "en": "from towns",
+   "notes": "The transcription includes an uncertain character (ε) and a damaged form (]ע##ירין), which may affect the exact meaning. The lexical gloss for 'עיר' includes multiple possibilities, but 'towns' is chosen based on the plural morphology.",
+   "line_id": 6764,
+   "source_hash": "3e4900ed47f9086bf681a3ef9de116a082abd66c8d6aea23727a4d84980f2566",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f7bi:5": {
+   "en": "he withdrew and it grew strong to",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 5, 6, 7, and 8. Phrase evidence supports 'it grew strong to' for positions 5 and 6. Position 7 and 8 contain no recoverable text.",
+   "line_id": 6765,
+   "source_hash": "8112da02f09a202ad0c53dbe2aeb4e0b0090660c442ec07cd0537897f3389885",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f7bii:1": {
+   "en": "to in",
+   "notes": "The translation is highly uncertain due to fragmentary text and ambiguous lexical items. The phrase 'to in' reflects the recoverable words but lacks clear context. The suggested phrase 'Levites in' from repeated evidence is not adopted due to insufficient support. Uncertainty is noted for the reconstructed and unknown elements.",
+   "line_id": 6766,
+   "source_hash": "a5aaed66450635b22e6da167b1dc06a02cbb74ec81b2eaec18df9819666a7a5f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f7bii:2": {
+   "en": "to two tablets",
+   "notes": "The final characters 'א[ε' are damaged and cannot be translated independently; their meaning is uncertain.",
+   "line_id": 6767,
+   "source_hash": "b8fa7ce724145263f5d223f488a0e2828b1bc497b538cb582fb88fd2fab8f9fd",
+   "source_condition": "reconstructed"
+  },
+  "4Q203 f7bii:3": {
+   "en": "And the second, unto now, not he met",
+   "notes": "The transcription contains damaged and uncertain elements, including a reconstructed verb form (קר#י#?[ א]) and an unknown character (ε). The translation reflects the recoverable words in order, preserving uncertainty and damage without speculative additions.",
+   "line_id": 6768,
+   "source_hash": "b7a4c345a1f3bf6480e2786b7c790f031b5e906cff82d573426bf395ecd1faef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:1": {
+   "en": "book",
+   "notes": "The second word is untranslatable due to damage and uncertainty.",
+   "line_id": 6769,
+   "source_hash": "0c3d327a2b1c436f24f5f231ee2b77d2e9147250aded10878fb23938b4637350",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) in an Aramaic context, with no recoverable lexical content or defensible translation.",
+   "line_id": 6770,
+   "source_hash": "fea6be0dd36d2743421b7b5b6a40d0c48f6d5c7770484175d3f135e75c6b54f1",
+   "source_condition": "clean"
+  },
+  "4Q203 f8:3": {
+   "en": "Copy of the tablet of the second which is the letter",
+   "notes": "Uncertain reconstruction of 'תנ#?[ י ]נ#?' as 'second'; 'א' particles and final 'ε' character omitted from translation due to unclear meaning.",
+   "line_id": 6771,
+   "source_hash": "4a6e1b9b916f64df5c21a05ab1dda0f034d5455a7359f642fabfdb7ce723afe4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:4": {
+   "en": "In [the] writing [of the] hand [of] Enoch [the] scribe [to] interpret [the] town",
+   "notes": "The translation includes reconstructed and uncertain elements. The particle 'א#' and the unknown character 'ε' are omitted due to uncertainty. The term 'עיר' is translated as 'town' based on the provided gloss, though it has multiple possible meanings.",
+   "line_id": 6772,
+   "source_hash": "d468cb8139ded407c8a4a630ada7c1693d7d3ca42ad6340f1360037f21dc5bc1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:5": {
+   "en": "And holy to the vision and to all his colleagues",
+   "notes": "Uncertain elements include the lemma 'שמי?ח##זה#' and the unknown character 'ε'. The translation reflects the recoverable text, but the exact meaning of the uncertain elements remains unclear.",
+   "line_id": 6773,
+   "source_hash": "659252310fac3b91febc21c85db8bb0543c7f625181da5ce60fceeeb15df4cfa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:6": {
+   "en": "known let it be to who that to",
+   "notes": "The translation reflects recoverable words in order, with uncertainty in 'who' and 'that' due to damage and reconstruction. The final 'to' is uncertain and reconstructed. Phrase evidence supports 'known let it be' but not the full sequence.",
+   "line_id": 6774,
+   "source_hash": "45760c74b2f326c1ef80562c766c3386f1abc74be9e6dc177ee78c29aaddf3d6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:7": {
+   "en": "And Obed and who [men]",
+   "notes": "The transcription is heavily damaged, with multiple lacunae and uncertain readings. The term 'נש# #  #  #  # [' is reconstructed and its meaning is unclear. The Greek letter 'ε' and the final particle 'א ]' are omitted from the translation as they cannot be independently translated. The phrase 'גבריא' is translated as 'men' based on the provided gloss.",
+   "line_id": 6775,
+   "source_hash": "1c5854f69994a242c932041427e0b515a95272147522375e9f1282c8023394e1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:8": {
+   "en": "They and their sons and you who are with them",
+   "notes": "Uncertainty in transcription and glosses for several words, particularly 'א#נון', 'ב##נ#?י#?[ ׳הון', and 'נ ]ש#י'. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 6776,
+   "source_hash": "16908ec427752da80b2a3a375e2bab86cb5f19c24e70eec79d171884e9dd5ca8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:9": {
+   "en": "In her fornication and in the earth and she became upon arise and cry",
+   "notes": "Significant uncertainty due to damaged text and unclear lexical items. The phrase 'Yahweh on' is a high-confidence contextual rendering for positions 7-8, but it is not directly supported by the visible transcription. The translation conservatively retains recoverable words in order, omitting unsupported elements.",
+   "line_id": 6777,
+   "source_hash": "63bab6ff49b50f2ac6a12a80bf692cd365c96b78a7d3880846cb3260f99b8bc5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:10": {
+   "en": "And to receive upon you and upon Obed your sons",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a questionable character (ε) at the end, which is omitted from the translation. The gloss for 'בני׳כון' is interpreted as 'your sons' based on morphological cues.",
+   "line_id": 6778,
+   "source_hash": "975e5474550bc4f866e2bad1f888a639b7adde3acda0d980cb6c9c7919844b77",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:11": {
+   "en": "Damage, which you have taken a pledge in, ?",
+   "notes": "The final 'ε' is untranslatable and its meaning is uncertain. The phrase 'ropes on' is a repeated pattern but does not fit the context here.",
+   "line_id": 6779,
+   "source_hash": "3ff75f4f4cc3479076034a4edae61f0562e46e849fd4fc61154d5a659e637ec2",
+   "source_condition": "clean"
+  },
+  "4Q203 f8:12": {
+   "en": "Unto Raphael, [no recoverable text]",
+   "notes": "The verb 'מטה' is uncertain and cannot be translated with confidence. The particle 'ארו' is translated as 'behold', but the following word 'אבד#[ נ' is damaged and its meaning is uncertain. The relative particle 'די' and the preposition 'ב' are translated as 'in', but the following words are damaged and cannot be translated with confidence. The final particle 'א ]' is omitted from the translation as it cannot be translated independently.",
+   "line_id": 6780,
+   "source_hash": "828b64e7d1c596888a25a1dc1a6deb07c05f7c281f9e027a4843b40b69784d79",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:13": {
+   "en": "And which were in the wilderness and in the seas and the interpretation of this thing",
+   "notes": "Significant uncertainty due to damage and reconstruction. The transcription contains ambiguous and uncertain elements, including damaged particles and uncertain glosses. The translation conservatively reflects recoverable content, omitting unsupported material.",
+   "line_id": 6781,
+   "source_hash": "1b8b52be8e4eff72338945c9150b163f525a1a25d6ecf5caa7155de14e7142b7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:14": {
+   "en": "Upon you to come, bad man. And now, let loose the prisoner, what?",
+   "notes": "The transcription contains damaged and uncertain elements, particularly in 'ש#רו?א#' (let loose) and 'אסיר׳כון?' (prisoner). The final 'מה#[ε]' is reconstructed and uncertain. The translation conservatively reflects recoverable content without adding unlicensed material.",
+   "line_id": 6782,
+   "source_hash": "111c451a6cdd5e95fb14c792bcaced3cbcde3f658388ace33a783c00e80146b7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f8:15": {
+   "en": "and roast",
+   "notes": "The final characters 'ε' and '׃' are untranslatable and likely represent damage or an unknown symbol; their meaning or function is uncertain.",
+   "line_id": 6783,
+   "source_hash": "77370aad77cd90681179983129b2c994c726580565a0fb14ee62b66dc8b27869",
+   "source_condition": "clean"
+  },
+  "4Q203 f9:1": {
+   "en": "and whole",
+   "notes": "The transcription contains uncertain and unknown elements, including damaged characters and unclear morphology. The translation reflects only the recoverable words 'and' (וְ) and 'whole' (כֹּל). Uncertain elements are omitted from the translation but noted here.",
+   "line_id": 6784,
+   "source_hash": "0e7c48c703aa7271a9ceef437abb97a746e1a20018e20e0e453fbc41777c7d35",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f9:2": {
+   "en": "quivering from before Hadad his preciousness",
+   "notes": "Uncertain transcription and reconstruction in 'ר ]ע#לין' and 'יק#[ ר׳כה'. The initial and final 'ε' are untranslatable and omitted.",
+   "line_id": 6785,
+   "source_hash": "dc8af2ff3aacf6c74e0cca66b3e8ce24e5eb081399b72396f8087e8f73cb44d8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f9:3": {
+   "en": "blessing the one who knows all secrets you",
+   "notes": "The initial and final 'ε' are untranslatable and omitted. 'יד[ ע' is reconstructed as 'ידע' (know). The translation preserves the visible morphology and lexical items, with uncertainty in the exact syntax due to the fragmentary nature of the text.",
+   "line_id": 6786,
+   "source_hash": "b5e4327305869afb456cd7a96fcc777cf403dd3c7825e645c8c4de8cc576c44f",
+   "source_condition": "reconstructed"
+  },
+  "4Q203 f9:4": {
+   "en": "And all the thing not overpowered it",
+   "notes": "Uncertainty in the transcription and lexical gloss of 'צ#ב#ו' (thing) is noted. The final 'ε' is omitted as it cannot be translated independently.",
+   "line_id": 6787,
+   "source_hash": "7646ba9987ec4d875eb228c7b03fc972329dd970727e1a6e34edfc560b4b10c0",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f9:5": {
+   "en": "before and now",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged word (ק#[). The translation reflects only the recoverable words 'before' (ק ]ודמי׳כה), 'and' (ו), and 'now' (כען).",
+   "line_id": 6788,
+   "source_hash": "4504897822738a1e53b2f529ffd845cbe59552bec55ad813970c1ce31dad6ee3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f9:6": {
+   "en": "kingdom greatness",
+   "notes": "The transcription contains uncertain and unknown elements, including damaged characters (ε, #) and a reconstructed word (לש[). The translation reflects only the recoverable lexical items 'kingdom' and 'greatness', with uncertainty noted here.",
+   "line_id": 6789,
+   "source_hash": "ac2ac39c3724bb9628005cf3824aa8ff6f366d52062de320caaf8f874342a261",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f9:7": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain characters, with no recoverable lexical items that can be confidently rendered into English.",
+   "line_id": 6790,
+   "source_hash": "85ca9462690ec796371888f1ae9b366bf5497948c3f37739a33d8d6417b60e40",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f9:8": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 6791,
+   "source_hash": "966d63212b430835b8ac6d84c5e9b4ae462e3e1dfff81a03f19c9f54afe3de95",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f10:1": {
+   "en": "and now lord",
+   "notes": "The transcription contains uncertain and untranslatable characters (ε) at the beginning and end, which are omitted from the translation. The term 'lord' is reconstructed and uncertain, noted here for transparency.",
+   "line_id": 6792,
+   "source_hash": "661ed0c8367617700dc04550f7601d7941dc512685cd934fcf97cb66af3abaa3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f10:2": {
+   "en": "You were great and behold",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The translation reflects the recoverable words 'שגית' (you were great) and 'ה#ן?' (behold), with the conjunction 'ו' (and) connecting them. The remaining elements are either untranslatable or too uncertain to include.",
+   "line_id": 6793,
+   "source_hash": "454aeb48bf0b7fe74b030845e02500ea1ebd22df6b3fa7e707f9172fd920cfa9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f10:3": {
+   "en": "you swell and",
+   "notes": "The initial 'ε' and final 'ε׃' are untranslatable; the reconstructed 'כ[' is omitted as it lacks recoverable content.",
+   "line_id": 6794,
+   "source_hash": "cbfb52462d20a44e178b5d1dbf2310e95b35978613f90e40ae6822ff94af4927",
+   "source_condition": "reconstructed"
+  },
+  "4Q203 f11i:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic or Greek words, only a fragment 'ε]' with no clear meaning or context.",
+   "line_id": 6795,
+   "source_hash": "ae6bf2bdb579c832c149da97539fb129840714bd3b8ea462b129ad9f132c7e43",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f11i:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew. The visible characters are either untranslatable or too damaged to yield meaningful English.",
+   "line_id": 6796,
+   "source_hash": "6af508ea7c7f698ac962f6332611ce07541d40e8577059315d87ee57dd04eb52",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f11ii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) in an Aramaic context, with no recoverable lexical content.",
+   "line_id": 6797,
+   "source_hash": "14648cd28d36729a7acad953f21aaf4e4005c83320d92981607e47bcc33f310f",
+   "source_condition": "clean"
+  },
+  "4Q203 f11ii:2": {
+   "en": "and dew and rain",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged conjunction and a partially recovered word. The final characters 'אε׃' are untranslatable and omitted. Uncertainty is noted but does not alter the recoverable proposition.",
+   "line_id": 6798,
+   "source_hash": "9b9da0b1762f8275e830e4cf338fb8a69de700db667d2de67b38ab8f076eb1ed",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f12:1": {
+   "en": "and until",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 6799,
+   "source_hash": "778bd31c790afe70eaf927a6069841d0dfe7107e019b31f6fa69af41ae2e6ae0",
+   "source_condition": "clean"
+  },
+  "4Q203 f12:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter 'ε' in an Aramaic context, with no recoverable lexical content.",
+   "line_id": 6800,
+   "source_hash": "4cb286d9120f47a598fd8a1b96821ee7da54b9db899c92176cbc21ea0bd6ab4e",
+   "source_condition": "clean"
+  },
+  "4Q203 f12:3": {
+   "en": "then",
+   "notes": "The transcription is damaged and uncertain, with a reconstructed particle 'אד[ י ]ן?' and two untranslatable characters 'ε' and '׃'. The translation retains the recoverable particle 'then' based on the lemma and lexical gloss, but the overall meaning remains uncertain due to the fragmentary state of the text.",
+   "line_id": 6801,
+   "source_hash": "fe878f1a44d4abe5026f7c842de9c7860b912a0a30849cf0819f64a385a51a7c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f13:1": {
+   "en": "and they were like from",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character 'ε' and a damaged fragment. The translation reflects only the recoverable words in order, omitting untranslatable characters and preserving the structure of the source.",
+   "line_id": 6802,
+   "source_hash": "128fdbab5d89beeb373ebc301ea7e1a3613423baf966f4406969ac873063897e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f13:2": {
+   "en": "then he said to",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged preposition and unknown characters. The phrase 'he said to' is supported by repeated evidence, but the exact object of the preposition is unclear.",
+   "line_id": 6803,
+   "source_hash": "1b5b12ce2619f52b230cc5e239c8927850e7e76a580a6bae37a0105317b3c286",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f13:3": {
+   "en": "not existence to well-being",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged particle and a reconstructed noun. The phrase 'to well-being' is supported by repeated evidence, but the overall meaning remains uncertain due to the fragmentary nature of the text.",
+   "line_id": 6804,
+   "source_hash": "5ac86bd765400f8d0c08e6ad9000e06f1d0db3366e6d63386b45c6b442178219",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f13:4": {
+   "en": "to Yahweh became",
+   "notes": "The transcription is heavily damaged, with uncertain readings and unknown characters. The phrase 'to Yahweh' is supported by repeated evidence, but the overall meaning remains uncertain due to the fragmentary state of the text.",
+   "line_id": 6805,
+   "source_hash": "9053229faeaeef90187d33feb743fdefa3972671977503b0d63d6ef6d682f0b7",
+   "source_condition": "uncertain"
+  },
+  "4Q203 f14:1": {
+   "en": "These came, the strong man who",
+   "notes": "Uncertainty in the transcription and reconstruction of the final words prevents a complete translation.",
+   "line_id": 6806,
+   "source_hash": "cf6085eb727aa23e1ca1ed09fda655745aa27ea0892b0788ad13cc65a49f83dc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f14:2": {
+   "en": "A man has prevailed over my vision",
+   "notes": "The transcription is heavily damaged, with uncertain reconstructions and an unknown final character (ε). The translation is based on the recoverable words, but the exact meaning remains unclear due to the damage and uncertain glosses.",
+   "line_id": 6807,
+   "source_hash": "4989a116d37ef9442a3e7fd689a644a4b3fe827fb75d1665cac3f2fdd4365708",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f14:3": {
+   "en": "Behold, a slave of slaves",
+   "notes": "The phrase 'a slave of slaves' is supported by repeated phrase evidence. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 6808,
+   "source_hash": "9f03cd5f3f7d6dc59898b4524a434045d5919b8df72c9f349dca52e09d52999f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q203 f14:4": {
+   "en": "and if",
+   "notes": "The third and fourth words are heavily damaged, with the third being a reconstruction and the fourth untranslatable. The translation retains only the recoverable material.",
+   "line_id": 6809,
+   "source_hash": "b128655e6ff8cddcbb5a5472cba8dd5b19a5bd946f238f6ff4289f2d293e3014",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

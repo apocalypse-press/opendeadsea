@@ -1,0 +1,900 @@
+{
+ "id": "4Q401",
+ "label": "4Q401",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 126,
+ "scroll_id": 393,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q401 f1_2:1": {
+   "en": "To the skilled one, a song of the burnt-offering of the sabbath and twenty in the month",
+   "notes": "Reconstructed and uncertain elements include 'song', 'and', 'twenty', 'in', and 'month'. Two unknown characters and a damaged word are omitted.",
+   "line_id": 18040,
+   "source_hash": "8bf2a2a9a54d0c5a8788992a3243fc46383e91a44dac6c781ab86da98b6abd0b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f1_2:2": {
+   "en": "Praise to the gods in",
+   "notes": "Uncertain reconstruction of 'gods' and 'in'; final words incomplete.",
+   "line_id": 18041,
+   "source_hash": "144207887c06cc7d29e64f6bfd5d6def890bbd2796f1c18bebe299bd26d7743c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f1_2:3": {
+   "en": "and [relative] they stood before",
+   "notes": "The transcription is damaged, with uncertain and reconstructed elements. The word 'יש#[ε' is marked as uncertain and reconstructed, and its translation is based on the provided gloss. The final 'ε' is untranslatable and omitted. The phrase 'he stood before' is supported by repeated evidence but not directly licensed by the visible text, so the translation retains the third-person plural verb form from the source.",
+   "line_id": 18042,
+   "source_hash": "0a42708859a38df344fbcfc5a5426dcfdfced1cfebfd8903474e725e448bf974",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f1_2:4": {
+   "en": "kingship in whole head",
+   "notes": "Uncertain reconstruction and gloss for 'head'; phrase evidence suggests possible 'on all the tops' or 'all the chiefs', but not adopted due to low support and uncertainty in transcription.",
+   "line_id": 18043,
+   "source_hash": "68a6c06bde887a059849051ccf0047fc759b4c18cb6bc045269e72f4900b208b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f1_2:5": {
+   "en": "he reigns God",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 18044,
+   "source_hash": "ba160d2261a62b32d09d53490913abdb1fbf0400a8de2b6a03f260d7dc218152",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f1_2:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible lexical content. Positions 1-2 are reconstructed and uncertain, position 3 is a single untranslatable character, and position 4 is an untranslatable punctuation mark.",
+   "line_id": 18045,
+   "source_hash": "9060379f51f099505139eab164459e68a0f92f198f588fb6c8aac22d17f658e8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f3:1": {
+   "en": "breaths",
+   "notes": "The transcription is heavily damaged, with only the reconstructed plural feminine noun 'breaths' (נשמ#ו#?ת[) recoverable. The other characters (ε) are untranslatable and likely represent damage or editorial marks.",
+   "line_id": 18046,
+   "source_hash": "922e9e951c969d73f4e9699cc8fd3936fef8d797c8be8221c16bf6aab7f6115f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f3:2": {
+   "en": "in the head",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown prefix and suffix. The word 'רוש' is translated as 'head' based on its lexical gloss, but the context is unclear. The translation conservatively preserves the recoverable material without speculation.",
+   "line_id": 18047,
+   "source_hash": "03cec9b70930f448cc621d2c53f810fcbef3d5b243dff1fefa51de708ff66690",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f3:3": {
+   "en": "She is being superior to the seven chiefs",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the verb 'be superior' and the noun 'chiefs'. The initial 'ε' and final 'ε' are untranslatable and omitted.",
+   "line_id": 18048,
+   "source_hash": "f8ae104d425d170ec2a6c147ec1f27f244cd312f759fc1485ff18a7a66a81b04",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f3:4": {
+   "en": "its second will be superior",
+   "notes": "The transcription includes untranslatable characters (ε) and a reconstructed verb form (תגבר[). The translation reflects recoverable content conservatively.",
+   "line_id": 18049,
+   "source_hash": "930d305af9f7be534d3e9c0504f6a1cc520cbfdd2722cb74f0d8da448a8e13f1",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f3:5": {
+   "en": "the fifth",
+   "notes": "Uncertain reconstruction and unrecoverable characters present.",
+   "line_id": 18050,
+   "source_hash": "3c38b2f5f5877bcbac65371131030f5ba281532ee560213218af139a25f021b7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f4:1": {
+   "en": "a miracle",
+   "notes": "The transcription contains uncertain and untranslatable elements, including an unknown Greek character (ε) and a damaged Hebrew prefix. The recoverable word 'פלא' is translated as 'miracle'.",
+   "line_id": 18051,
+   "source_hash": "cdad1aee3937454ba06ffc1e10c9a4f276d937985313c892abf7bb074c0d651a",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f4:2": {
+   "en": "to the priests",
+   "notes": "The initial character 'ε' is not translated as it appears to be a transcription error or an unrecoverable fragment.",
+   "line_id": 18052,
+   "source_hash": "2a7b92e3028f2b0fe1d74ca9f51bcca62a596a3336e1213b18bb1d6d193042ab",
+   "source_condition": "clean"
+  },
+  "4Q401 f4:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only a Greek letter fragment (ε) and a damaged Hebrew letter (ו). No translation is possible for the surviving characters.",
+   "line_id": 18053,
+   "source_hash": "11e21b80eb721c5e8b1898e0643c9e06edb3cf62903f532c1cd1bf4241139298",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f4:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, with the first character being Greek and the second being a damaged Hebrew letter without independent meaning.",
+   "line_id": 18054,
+   "source_hash": "909ee8cb874a033932b7e6cba0dded1732a87255ca072e65d3a66bf4ad4cf7ca",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f4:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain elements, with no recoverable lexical items.",
+   "line_id": 18055,
+   "source_hash": "8483157170959ac5b593497a7ce9c0b3d9d7b469e2a1f949cc88f10479a3c3a6",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f5:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with only a partial 'ל' and an unidentifiable 'ε'. No defensible English words can be derived from the surviving material.",
+   "line_id": 18056,
+   "source_hash": "430875ededc24453585d112ce7924af0fef528dd43821edc2cc72bdf822a776d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f5:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters (ס, #, [, ε) with no clear lexical or grammatical meaning. The reconstructed and uncertain nature of the text prevents any defensible translation.",
+   "line_id": 18057,
+   "source_hash": "ce2ac83d379585ae0352dfa1c2b445fb0d64ba03c422698bf6a8f0fe81e440da",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f5:3": {
+   "en": "Seven in [no recoverable text]",
+   "notes": "The transcription contains a damaged final segment with no defensible English equivalent. The visible 'שבע' and 'ב' are translated conservatively, but the remaining characters are unrecoverable.",
+   "line_id": 18058,
+   "source_hash": "b9a4b757de45ee5b7fdd82eddf8a203f74ec456ef995c2c3fc38ffd7c67256a7",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f5:4": {
+   "en": "in the counsel of God",
+   "notes": "The transcription contains a damaged final character (ε) that cannot be translated independently and is omitted. The lemma 'אֱלֹהִים' is reconstructed and marked as uncertain, but its translation as 'God' is supported by the lexical gloss.",
+   "line_id": 18059,
+   "source_hash": "9cb9f7ab84af8821f9e1d8c5935c416948970544512efab793437657f44bdd52",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f5:5": {
+   "en": "all the kingdoms",
+   "notes": "The transcription includes a damaged and uncertain form 'ממלכו#?[ ת', reconstructed as 'kingdoms'. The final 'ε' is untranslatable and omitted.",
+   "line_id": 18060,
+   "source_hash": "38c141d58827a7ab79ca2e95abb8b7167d8dabc619e28d8645bfdb77a5d79e17",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f5:6": {
+   "en": "in attestation",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 18061,
+   "source_hash": "07d7cbc1b06d3f64204adbd8d6ac86f882ecefd4adfd58fc2735a820e5459e21",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f5:7": {
+   "en": "king",
+   "notes": "The transcription is heavily damaged, with only the word 'king' (מֶלֶךְ) partially recoverable. The remaining characters (ε and ׃) are untranslatable and likely represent damage or editorial marks. The reconstruction of 'king' is uncertain due to the fragmented state of the text.",
+   "line_id": 18062,
+   "source_hash": "c661ca61f1baf7938d1c86587e2454445a3d685a3b6250168055f7f21ae2a5a8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f6:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain characters.",
+   "line_id": 18063,
+   "source_hash": "7e0bd44c6b3c4ebda66cac2d44a517686fe883f059bee03e8aa0a0b5ee2ef366",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f6:2": {
+   "en": "seven",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged numeral. The numeral 'seven' is the only recoverable word, with the form ']ש##בעה' corresponding to the lemma 'שֶׁבַע_1'. All other elements are omitted due to uncertainty or lack of defensible translation.",
+   "line_id": 18064,
+   "source_hash": "37db5826a95346801b8999e6433fba38e67b6ec035835083664e3c4e65dca549",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f6:3": {
+   "en": "weight",
+   "notes": "The transcription contains untranslatable characters (ε]י) preceding the recoverable word 'כבוד'.",
+   "line_id": 18065,
+   "source_hash": "6858d7e59cc8324c8cdaa7235ae87137a9ab693448186c69359305cdb7628801",
+   "source_condition": "clean"
+  },
+  "4Q401 f6:4": {
+   "en": "chiefs of holiness",
+   "notes": "The first character 'ε' is untranslatable and omitted. The phrase 'officials of holiness' is supported by repeated evidence, but 'chiefs' is used to reflect the visible morphology of 'ש#רי'.",
+   "line_id": 18066,
+   "source_hash": "7854ccc52576dc9b93d8f704c1340469957f983b353836d20a610199a234bcd9",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f6:5": {
+   "en": "holiness of holy things",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The phrase 'קוד ]ש#קודשים' is rendered based on repeated phrase evidence, with uncertainty in the second word.",
+   "line_id": 18067,
+   "source_hash": "cc98f5089a0567ad317f1909597b6248b44b562d66f1bad59400e80499657070",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f6:6": {
+   "en": "his weight",
+   "notes": "The transcription is damaged, and the first character 'ε' is untranslatable. The second word is a suffixed form of 'כָּבֹוד' (weight) with a third-person masculine singular suffix, indicating 'his weight'. The final character '׃' is a punctuation mark and not translated.",
+   "line_id": 18068,
+   "source_hash": "467f29d186321937876d331200748cd9ba39def909896f828fdfa5a58eb616c4",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f7:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε, ː) and a damaged form of 'עֹולָם' (eternity) with uncertain reconstruction. No defensible English words survive.",
+   "line_id": 18069,
+   "source_hash": "e6744761400af71866d283a6aa506b6ef55023f137904ae3d46b5745533e53a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f8:1": {
+   "en": "eternities",
+   "notes": "The translation is based on the reconstructed word 'עֹולָם' (eternity) in the plural form. The surrounding characters (ε) are untranslatable and omitted. The reconstruction and uncertainty are noted.",
+   "line_id": 18070,
+   "source_hash": "f88bb32e5e20f3020d457da1cbb39ab034a26f64f33d1c4b7e86c32ac1c8024e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f8:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items translatable into English. The phrase evidence 'seas you satisfied' does not align with the recoverable material. The only identifiable word, 'שב##[ עה', is a reconstructed form of 'seven' or 'Sheba', but it is incomplete and cannot be confidently translated in this context.",
+   "line_id": 18071,
+   "source_hash": "f439fd4563aa9ee31ff4246b42f0319298b21a41a17aa18bab7f9055f211d2f0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f9:1": {
+   "en": "to be miraculous",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form. The translation reflects the recoverable lexical items, but the exact meaning remains uncertain due to the fragmentary nature of the text.",
+   "line_id": 18072,
+   "source_hash": "4df7619595463c520030d89c6469a2a87364f8175cc375387ae256ac5077d2d4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f9:2": {
+   "en": "their weeks",
+   "notes": "Translation based on recoverable lexical items. Uncertain elements and reconstructions are not included in the translation but are noted here. The transcription contains damaged and uncertain elements, including an unknown prefix and suffix markers. The word 'שובועי׳ה[ ם' is reconstructed and translated as 'their weeks' based on its morphology and lexical gloss. Other elements are omitted due to uncertainty or lack of recoverable text.",
+   "line_id": 18073,
+   "source_hash": "ffd4cb8bb05e2e9c60e5a5aecfd20a4c4deefffa93e0ed73e0b315aae3ec724a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f9:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items surviving. The only partially reconstructed word, 'מו#?עד[', is too fragmented to translate confidently. All other characters are either unknown or untranslatable.",
+   "line_id": 18074,
+   "source_hash": "dfaa0eb026723bce70f158548f689b24d7e23fac2fec9f1f46fd7b4709e3a073",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f9:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 18075,
+   "source_hash": "5b126155daadc5f627a585aede842cd42c91a9874ef92f62be1e9f35715dc51f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f10:1": {
+   "en": "justice",
+   "notes": "The initial character 'ε' and the final punctuation mark '׃' are not translated as they do not contribute to the recoverable meaning.",
+   "line_id": 18076,
+   "source_hash": "2a044c742bdb6ad2a09d96188107aeec518b2ecf41aabd4b9f6e2af48bfdc4bb",
+   "source_condition": "clean"
+  },
+  "4Q401 f11:1": {
+   "en": "and priests",
+   "notes": "The transcription contains uncertain and untranslatable elements, including a Greek letter epsilon (ε) and a damaged Hebrew conjunction (ו). The recoverable text includes the plural form of 'priest' (כוהנ[ י), which is translated conservatively without adding missing subjects or smoothing repetition.",
+   "line_id": 18077,
+   "source_hash": "6ac534ab1eb0eccf8886c242da361c93267a51789e3e1d0c9cb4f561b8cd2fad",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f11:2": {
+   "en": "gods knowledge and",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged preposition or conjunction. The translation reflects recoverable words in order, omitting untranslatable fragments. Uncertainty in the preposition/conjunction is not signaled in the translation.",
+   "line_id": 18078,
+   "source_hash": "6d50a1cd488fba63cbadb656f56d1cf997926b350ded94309ae09977cbf1daa4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f11:3": {
+   "en": "My king of justice, priest in the congregation to God",
+   "notes": "The phrase 'in the congregation to' is supported by repeated phrase evidence. The initial 'ε' and final 'ε' are untranslatable and omitted. The transcription contains damage and reconstruction, but all recoverable lexical items are accounted for.",
+   "line_id": 18079,
+   "source_hash": "a4b8b01ff3050e475e4fa75e4e9ec4aca57121afb8afd4b7ed0131a467fe1841",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f12:1": {
+   "en": "in holiness of holy things",
+   "notes": "The initial and final characters (ε) are untranslatable and omitted. The relative particle (# ש) is uncertain and omitted. The phrase 'holiness of holy things' is supported by repeated evidence.",
+   "line_id": 18080,
+   "source_hash": "6326d6cf0dffe0da6ed77f2dc519c343ea0557c95acbf4605164f00e122bd64f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f12:2": {
+   "en": "seven in portions of eternity",
+   "notes": "The transcription contains untranslatable characters and a reconstructed word. The phrase 'portions of perpetuity' is supported by repeated evidence, but 'eternity' is used here for clarity. The final character is omitted as it cannot be translated independently.",
+   "line_id": 18081,
+   "source_hash": "bdfe082ee7f5678eaf3844bc564534c3bb55da4b9b6d38f237030cfe13a82055",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f12:3": {
+   "en": "holiness of holy things to their faces",
+   "notes": "Reconstructed and uncertain elements present; translation conservatively reflects recoverable material.",
+   "line_id": 18082,
+   "source_hash": "4ce8a834a9db78fd906e6632632aab77d663fa5cc156070bcc47c1a5d4ef62a5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f13:1": {
+   "en": "king whole",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The recoverable words are 'מלך' (king) and 'כ##[ ול' (whole), but their connection and context are unclear. The phrase 'kings all' is a repeated pattern in the corpus but lacks direct support here. The translation conservatively presents the recoverable lexical items without inventing relationships or adding missing subjects.",
+   "line_id": 18083,
+   "source_hash": "888e62c100e4cd870cef349e6e9438a24a2b88261e3fb1b64b7144f6d66bb9aa",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f13:2": {
+   "en": "the second week he will praise seven to",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 4, 6, and 7. Phrase evidence suggests 'he swore to' for positions 5-6, but visible morphology and lexical glosses are prioritized. Translation retains recoverable elements conservatively.",
+   "line_id": 18084,
+   "source_hash": "7c934931dc5568b4386080a78d0143437771ad552db13c057b3e191b9d7cd5e4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f13:3": {
+   "en": "The third in priests, head, bless",
+   "notes": "Uncertain characters and reconstructions present; phrase evidence suggests 'priest chief' but is not definitive.",
+   "line_id": 18085,
+   "source_hash": "f57efa38d931dee9ecf412dbae973642fd11600cd0b1b71786de25be950553d2",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f14i:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only a damaged Greek letter epsilon (ε) and a Hebrew letter mem (ם), neither of which can be independently translated or combined into a meaningful unit.",
+   "line_id": 18086,
+   "source_hash": "9c67d016e65c85b411bf0b37aa94d2a5755f05b26eb802bdbcb664543f072a05",
+   "source_condition": "clean"
+  },
+  "4Q401 f14i:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription consists of a single Greek letter epsilon (ε) with no clear Hebrew or Aramaic context. No recoverable lexical content survives for translation.",
+   "line_id": 18087,
+   "source_hash": "15d905011791f05f685dd51499114fb4fc9029ee407671e0ef795e08bf8dac9c",
+   "source_condition": "clean"
+  },
+  "4Q401 f14i:4": {
+   "en": "his height being high upon",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed particle (על[). The phrase is fragmentary, and the exact relationship between 'height' and 'being high' is uncertain.",
+   "line_id": 18088,
+   "source_hash": "ce9373ede484eaba72a645f2b1685a18d295e85f25c87d86219466dbd6a5b52e",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f14i:5": {
+   "en": "Because she will be honored among gods",
+   "notes": "The phrase 'among gods' is supported by repeated phrase evidence. The transcription contains uncertain and reconstructed characters, but the recoverable text allows for this translation. The initial 'ε' and final 'ε' are omitted as they cannot be translated independently.",
+   "line_id": 18089,
+   "source_hash": "a397933dc766ce206903489b32c42b91ddd236390c2ce36e8e4d94dfc9340966",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f14i:6": {
+   "en": "to the heads of dominions of the heavens of kingship and its weight",
+   "notes": "Translation is highly uncertain due to extensive damage and reconstruction. The phrase 'ל#ר##אשיממש##לות#' is fragmented, with 'ל#' likely a preposition 'to' and 'ר##אשי' possibly 'heads', but both are uncertain. 'ממש##לות' is reconstructed as 'dominions'. '[ε]' and surrounding damage obscure meaning. 'מלכות' is clear as 'kingship', but 'כב[ וד ]׳כה' is partially reconstructed as 'its weight'. Contextual coherence is speculative.",
+   "line_id": 18090,
+   "source_hash": "70ed605e51a852b20db52e8ee3989b72c38f11cab47c1a8ee97da9e26b020de8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f14i:7": {
+   "en": "To praise the weight of the miracle in the gods of knowledge and praises of the kingdom in the holy ones of the holy",
+   "notes": "The phrase 'in the holy ones of the holy' is a high-confidence repeated phrase with 28 occurrences, supporting the translation. The lexical gloss for 'תשבוחות' is uncertain, but it is translated as 'praises' based on context. The transcription includes a reconstructed particle '[ ב' and a suffixed form 'מלכות׳כה', which are translated as 'in' and 'of the kingdom' respectively.",
+   "line_id": 18091,
+   "source_hash": "172bb140d090546f5d3fe471b2736d6b587366dc9457567e883a9a1e66f215be",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f14i:8": {
+   "en": "They are honored in all camps of God and fear his foundations, men of wonder.",
+   "notes": "The phrase 'camps of God' is supported by repeated evidence. 'Fear' is reconstructed but certain. 'Foundations' is certain. 'Men of wonder' is literal but uncertain due to damage.",
+   "line_id": 18092,
+   "source_hash": "6485ab0111ddf6496a93c2223ade1498dabd382ac0bea0fd5958626453c9813d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f14ii:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible English translation possible for the visible lexical items.",
+   "line_id": 18093,
+   "source_hash": "a39c5d0b82727b4a1418dec3764f429afe27a97815279980a09360924a940624",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f14ii:2": {
+   "en": "my secrets are miraculous",
+   "notes": "The transcription is heavily damaged, with reconstructions and uncertainty. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 18094,
+   "source_hash": "1d7034972df91fa7fc5400204b73e47a4d4d85283c1a1609b42099cb33721df8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f14ii:3": {
+   "en": "sound of a shout of joy",
+   "notes": "The transcription includes uncertain and damaged elements, with a reconstructed term and an untranslatable character (ε). The phrase 'sound of a shout of joy' is supported by repeated evidence, though the exact wording remains tentative due to textual damage.",
+   "line_id": 18095,
+   "source_hash": "8a6d8bf745d2d67e81160335c3257bceb461f6f335d63d76b42e713cdea90a33",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f14ii:4": {
+   "en": "Not were they able",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 18096,
+   "source_hash": "850351f4c6a1b1b1e186adee2fad50a0532bb8ed8fb33826d759d73e8f5d1e73",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f14ii:5": {
+   "en": "He will be superior to the gods",
+   "notes": "The transcription is partially damaged, with a reconstructed term and an uncertain character (ε). The verb 'יגבר' is translated as 'will be superior' based on its morphology and gloss. The noun 'אֱלֹהִים' is plural, rendered as 'gods' despite the singular verb due to visible morphology.",
+   "line_id": 18097,
+   "source_hash": "3a33b6624b2f2410bd9aca4ded8c85cd5e5b1a4baf86ec319621a6e48b85bb78",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f14ii:6": {
+   "en": "chiefs",
+   "notes": "The second and third words are damaged beyond recovery, with the second word being a reconstructed fragment and the third word being an untranslatable character. Only the first word, 'נשיאי', is translated as 'chiefs' based on its visible form and lexical gloss.",
+   "line_id": 18098,
+   "source_hash": "577f56bf13ae10a98a55699471df267e1fa029434c439226b21f14fa4ea7e84c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f14ii:7": {
+   "en": "They have heard the hidden things",
+   "notes": "The final character 'ε' is untranslatable and omitted.",
+   "line_id": 18099,
+   "source_hash": "b629dfaec7c448440880027fc68d9927fd7ef39d5ffe2213c57b6a503b3df920",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f14ii:8": {
+   "en": "to the issue of the lips of the king in",
+   "notes": "The phrase 'the utterance my lips' is supported by repeated evidence but does not fit the visible morphology; translation retains literal rendering. The final characters are damaged and untranslatable.",
+   "line_id": 18100,
+   "source_hash": "ba714c8e96ad154b95982820cddea9a3b2216b80f2f62fe06a232c259bc05f2a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f15:1": {
+   "en": "honors",
+   "notes": "The transcription is heavily damaged, with only a reconstructed plural form of 'honor' or 'weight' recoverable. The initial and final characters are untranslatable fragments. The translation reflects the sole defensible lexical item, though its context is uncertain.",
+   "line_id": 18101,
+   "source_hash": "600f8d47e293dfbc90fc098906b206f8fe7ed45b9b05b634f8c23e48854d7c8d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f15:2": {
+   "en": "and from [well] of the holiness",
+   "notes": "Uncertain reconstruction of 'well' due to damage. Two untranslatable characters omitted.",
+   "line_id": 18102,
+   "source_hash": "75cf31da348bf33948c775f6aabd1735fb4a0dd7d8002751106055626e0a87d1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f15:3": {
+   "en": "those near served",
+   "notes": "The transcription contains untranslatable characters and a reconstructed verb form. The translation reflects recoverable elements with uncertainty in the verb's reconstruction.",
+   "line_id": 18103,
+   "source_hash": "14c9cd49e0efdfa6e4a2a297e27bda17b36f4b9770cb4b32a4d82860aa55b98b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f15:4": {
+   "en": "his weight and portion",
+   "notes": "The transcription includes untranslatable characters (ε, ː) and a reconstructed word (חו[ ק). The translation omits these elements and focuses on recoverable content.",
+   "line_id": 18104,
+   "source_hash": "ad3df176085b8834c6e292b0437a24bea6fc6acd783a8440b4a85fb9ee9f5bde",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f16:1": {
+   "en": "Gods to they be high",
+   "notes": "Uncertain reconstruction and transcription damage affect the verb and its subject. The phrase 'Gods to' is supported by repeated evidence, but the verb's form and subject are unclear. The translation retains recoverable elements without inventing relations.",
+   "line_id": 18105,
+   "source_hash": "181b9bab9b1d1b7a1bd8896c706234c378b410b26bbd6ebe2b042a94bd9c3ba5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f16:2": {
+   "en": "they hear in calm",
+   "notes": "The transcription contains an untranslatable Greek letter 'ε' and an uncertain final word 'דמ##מ##ת'. The translation omits 'ε' and retains the context-free gloss 'calm' for the uncertain word.",
+   "line_id": 18106,
+   "source_hash": "44de44cb97428de459ec8ec014ec35416305353bf0ed0a41fd31d8edfd80e667",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f16:3": {
+   "en": "his holy near one",
+   "notes": "The first character 'ε' is untranslatable and omitted. 'קורב' is translated based on its morphology and lexical gloss, though its exact meaning is uncertain.",
+   "line_id": 18107,
+   "source_hash": "2c9002dc314ebca638d4e74aacf2c43e932fc24098ed42d7f2ef9dedd7bd6ea1",
+   "source_condition": "clean"
+  },
+  "4Q401 f16:4": {
+   "en": "His weight who understands in these",
+   "notes": "The initial 'ε' is untranslatable and omitted. The phrase 'מי יבין' is translated conservatively without adding a subject. The preposition 'ב' is rendered as 'in' based on its gloss. The final 'אלה' is translated as 'these' based on its morphology and gloss.",
+   "line_id": 18108,
+   "source_hash": "fe8dac6c091b13003991f04b00c19fa78b6be2201db11a81799e98977ff8c9e8",
+   "source_condition": "clean"
+  },
+  "4Q401 f16:5": {
+   "en": "in praising him holiness",
+   "notes": "The initial 'ε' is untranslatable and omitted. The phrase 'when praised' is supported by repeated evidence but not directly reflected in the visible text. The translation preserves the recoverable lexical items in order.",
+   "line_id": 18109,
+   "source_hash": "27526e00808a83918c47fc17507f272e821e34e55962630543338fcd1c2e392f",
+   "source_condition": "clean"
+  },
+  "4Q401 f16:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or reconstructed with high uncertainty.",
+   "line_id": 18110,
+   "source_hash": "2948b33ff1799a8ffde6683dfbbaaea47105836b5c353af71ac3cb5ac26291ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f17:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. All words are marked as unknown or reconstructed with uncertainty.",
+   "line_id": 18111,
+   "source_hash": "f4c01c4f2570e17c45c5e69ab21e237b05b0c0c1e03a59f526d62ddeacd5c783",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f17:2": {
+   "en": "eternity",
+   "notes": "The transcription contains untranslatable characters and a reconstructed element. The phrase evidence suggests '(the) perpetuity' but lacks sufficient support. The translation retains the context-free gloss for the recoverable word.",
+   "line_id": 18112,
+   "source_hash": "1df074aea3936587e6efb19ad57a43cef68463a3c63b940900b52dc8878084f0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f17:3": {
+   "en": "holiness",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The word 'holiness' is based on the lemma 'קֹדֶשׁ' but its integrity is compromised by surrounding unknown characters and damage. Phrase evidence suggests 'holy (dm)' as a possible rendering, but the exact form and context are unclear. The translation retains only the recoverable lexical item.",
+   "line_id": 18113,
+   "source_hash": "79fc973a734902610ac83cb07c78f406fb0eebf8a21ae9234837310938ffd311",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f17:4": {
+   "en": "knowing in discernment hidden",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and reconstructed elements. The translation reflects the recoverable words in order, but the exact meaning remains unclear due to the fragmentary state of the text. The verb 'hide' is used for 'סתר' based on the provided gloss, but its context is uncertain.",
+   "line_id": 18114,
+   "source_hash": "a6845e6f74a3dff956311f1313ede74439c6f1fa9f0555ee17b828e2de573118",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f17:5": {
+   "en": "he has founded to approach",
+   "notes": "Uncertain transcription and reconstruction in multiple words. The translation reflects recoverable lexical items but omits unsupported details.",
+   "line_id": 18115,
+   "source_hash": "fee42b42633264fa4ee07bfeaaaa1fcdb61d734879b0cd0cf134bb7c256cb062",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f17:6": {
+   "en": "and secrets",
+   "notes": "Most text is damaged or uncertain. The recoverable words are 'and' (ו) and 'secrets' (רזי).",
+   "line_id": 18116,
+   "source_hash": "1053428eb333e0566e3b9b2bbc9506e8e9177b13c0d4ed1612d1fbba4126fe88",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f18:1": {
+   "en": "from knowledge",
+   "notes": "The first character 'ε' is untranslatable and omitted. The particle 'מ##' is uncertain but treated as 'from'. 'דעת' is translated as 'knowledge'.",
+   "line_id": 18117,
+   "source_hash": "22c238c1ad8ac27db1918b8172455eaa89e2fffd1c13852a8b28c37e1ad403f7",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f18:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible English words. The first character (ε) is Greek and does not form a translatable unit with the following Hebrew letter (ל) or the punctuation mark (׃).",
+   "line_id": 18118,
+   "source_hash": "7a4dbc63bc595bbffebf4df4da02a08f7e3cae9172735ea2ecfe8a69413b515d",
+   "source_condition": "clean"
+  },
+  "4Q401 f19:1": {
+   "en": "Praise",
+   "notes": "The transcription contains untranslatable characters (ε) and a paragraph mark (׃) that are not reflected in the translation. The verb 'הללו' is in the piel stem, imperative mood, and masculine plural form, but the subject is not specified in the source text.",
+   "line_id": 18119,
+   "source_hash": "fc3a42b477594f0aabde15e2dd5b0fc3daa0ea308c9e9b6e21d683eb699fdc68",
+   "source_condition": "clean"
+  },
+  "4Q401 f20:1": {
+   "en": "generations",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an untranslatable Greek letter (ε) and a damaged Hebrew word. The only recoverable word is 'תולדות' (generations).",
+   "line_id": 18120,
+   "source_hash": "46c9823d3ac59470506ae1029b292e15f48d04092f51fed0057239a577df6635",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f20:2": {
+   "en": "understanding in",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The verb 'understand' is based on the lemma 'בין' but is uncertain. The preposition 'in' is clear, but the surrounding text is indecipherable, including untranslatable characters and punctuation. No recoverable text survives for the majority of the line.",
+   "line_id": 18121,
+   "source_hash": "b6393bfc399001a9bd3a7033b373e6fed6a1931dbb63c0ebdb4cbab0804f3039",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f21:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. All words are marked as unknown or reconstructed with uncertainty.",
+   "line_id": 18122,
+   "source_hash": "bbdbf2a13a5aed801f0c9bd8965737ccce61df339d5276e2b5563263436ce6e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f21:2": {
+   "en": "kingdoms",
+   "notes": "The transcription contains untranslatable characters and a damaged lexical unit. The word 'ממלכו' is reconstructed and uncertain, but its context-free gloss 'kingdom' is used. The plural form is inferred from the morphology.",
+   "line_id": 18123,
+   "source_hash": "db45c56f97b4183901a26d194b816277e6a482f799e850d37104422ebca0c2e3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f21:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and a reconstructed fragment 'ל[' (to), with no recoverable words or meaningful content.",
+   "line_id": 18124,
+   "source_hash": "182b4813d523df67682aeb5c216c17887f35ec67c69868897ff48ec862cc958b",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f22:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, including untranslatable characters (ε) and a reconstructed but uncertain form of 'holy' (קָדֹושׁ). No defensible English words survive.",
+   "line_id": 18125,
+   "source_hash": "03f9d98f3acea8db50ec9a8f1a441968cb8466dce25030aae8ee6d244168ff46",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f22:2": {
+   "en": "they filled their hands",
+   "notes": "Uncertain reconstruction and transcription damage affect the translation. The phrase 'fill hand' is supported by repeated evidence, but the exact wording remains tentative.",
+   "line_id": 18126,
+   "source_hash": "50ea419c636be50ee7f420ac121e4619b4ff6f3eb67095155e9c0839ed1a6b3e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f22:3": {
+   "en": "justice",
+   "notes": "The transcription contains uncertain and untranslatable characters (ε, ]כ##י, ε, ׃) surrounding the recoverable word 'צדק' (justice). The translation reflects only the recoverable term, omitting unsupported material.",
+   "line_id": 18127,
+   "source_hash": "ccfe18e039735995598fd412d7a3d3d57988fec29a8f67bc9e6b4d2deb219126",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f23:1": {
+   "en": "chief of holiness",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a possible Greek character (ε) and damaged Hebrew text. The translation reflects recoverable words but omits untranslatable fragments. Uncertainty in the source is not signaled with brackets or placeholders in the translation.",
+   "line_id": 18128,
+   "source_hash": "3c459417fe7ebcd41eb3b92efb6c33610ccda4834d68a72ccabe28e17f37a1cb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f23:2": {
+   "en": "to high places",
+   "notes": "The transcription contains uncertain characters (ε, ]ל##) and a possible phrase 'to Miriam' with limited support. The translation prioritizes the recoverable word 'מרומים' (high places) and the preposition 'ל' (to).",
+   "line_id": 18129,
+   "source_hash": "5bd98aeba04dbf37748a31dbd49a1d11d90d67d8cc2617ae43b7d4f29e3b58a4",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f23:3": {
+   "en": "eternities",
+   "notes": "The transcription is heavily damaged, with only the reconstructed word 'עֹולָם' (eternities) recoverable. The other characters are untranslatable fragments or punctuation.",
+   "line_id": 18130,
+   "source_hash": "fa736e62e8bdf908aebcf88e2311b6fa1872aa3d2aac6443dca4fd551f2163fd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f24:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible English words due to extensive damage and uncertainty. The only recoverable element is a reconstructed 'Meshech,' but it cannot be translated independently without context.",
+   "line_id": 18131,
+   "source_hash": "35a3115d12ffd70e877705df25981529cb0dc1e1fbf225f95ca9ce8c386a3084",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f24:2": {
+   "en": "peace",
+   "notes": "The transcription contains uncertain and untranslatable elements, including damaged characters and reconstructions. The only recoverable word is 'peace'.",
+   "line_id": 18132,
+   "source_hash": "8963bdcd0c1e5512921702d6277c21135782e7c4765824e5719ee3c71c452099",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f24:3": {
+   "en": "in all",
+   "notes": "The transcription contains uncertain and reconstructed elements, including untranslatable characters and damage. The translation reflects only the recoverable Hebrew words 'in' (בְּ) and 'all' (כֹּל). Other elements are omitted due to uncertainty or lack of defensible translation.",
+   "line_id": 18133,
+   "source_hash": "350e3cdf036cd4d5a4a8fed8bedbd0be4ad951729c36b40ae636a9d2a8d364f1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f25:1": {
+   "en": "they were singing",
+   "notes": "The verb 'זמר' is reconstructed and uncertain, with a possible meaning of 'prune' or 'sing'. The context suggests 'singing' as the more likely interpretation. The transcription includes damaged and uncertain characters, which are omitted from the translation.",
+   "line_id": 18134,
+   "source_hash": "9a5957de40ec2b876b0ef09a01195b33c651c0263f1abd7e8f2e744f8fedb10a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f26:1": {
+   "en": "from knowledge",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed term (דעת[). The untranslatable characters are omitted, and the reconstruction is noted.",
+   "line_id": 18135,
+   "source_hash": "f7f92ca188a294b78377502e8b28e720d4dd71d21caa32040baf8aa5cacba6d0",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f26:2": {
+   "en": "height",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and unknown elements. Only the word 'רום' (height) is recoverable. All other elements are either uncertain, reconstructed, or lack a trusted gloss.",
+   "line_id": 18136,
+   "source_hash": "068ce1a1e5cd90f19f3a57073186fe4d8c0908b55e2f45d291e2df9dab019d99",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f27:1": {
+   "en": "and they were exalted",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged verb form (רוממו[). The verb is reconstructed as a third-person plural perfect polel form of רום, 'be high,' rendered here as 'were exalted.' The final ː is omitted as untranslatable.",
+   "line_id": 18137,
+   "source_hash": "45996edf762feecb85469430e42219890cda520fed0738daa81d178b5e223180",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f28:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments, including untranslatable characters (ε) and incomplete forms (]רת, אלו#?ה##[ י). No defensible English words survive due to extensive damage and uncertainty.",
+   "line_id": 18138,
+   "source_hash": "94950a4ad66c534f531a2689ed90ddc55701f0b19f34182193f528a1881aac73",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f28:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew or Aramaic words, only fragments and punctuation marks. The visible characters (ε, ה, ׃) do not form translatable lexical units. The reconstruction is speculative and cannot be translated with confidence.",
+   "line_id": 18139,
+   "source_hash": "51ad45b4cb04daf4842491b0bd5277d1ae7057b27f4dbc319ad1d61740e21c06",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f29:1": {
+   "en": "in tongue",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters (ε) and a reconstructed segment (ה##[). The translation reflects only the recoverable words 'in' (בְּ) and 'tongue' (לשון).",
+   "line_id": 18140,
+   "source_hash": "42319be244aa359fdc6380788ddf23df7b8bf0144195eb28312eecd410b997fe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f29:2": {
+   "en": "to wonders",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and unknown elements. The word 'נפלאות' is reconstructed and uncertain, but its gloss 'wonders' is retained. Other elements like 'ε' and ']ם' are omitted as they cannot be translated independently. The particle 'ל' is translated as 'to'.",
+   "line_id": 18141,
+   "source_hash": "e3eeb22823af76ad9c5c1054238a3887e43068e18a4a5a66b9f6436b335c6912",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f30:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable Greek and Hebrew fragments, with no recoverable words. The Hebrew 'אלי[' is a reconstructed plural form of 'god' or 'these,' but it is incomplete and cannot be translated independently.",
+   "line_id": 18142,
+   "source_hash": "dacfd80077b1b05eccd60ac40a6cf882a12750c2c8525b2841f5a7bdb8eb48fc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f30:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain or reconstructed elements, leaving no defensible English words.",
+   "line_id": 18143,
+   "source_hash": "da417d41e99a1fef4807d4e2ff0215855423b305152063c02b6cad37569736a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f31:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no defensible lexical items surviving for translation.",
+   "line_id": 18144,
+   "source_hash": "61c56a26190df414686301b35e7e13e3838150fde027282d80d270f751fafb20",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f31:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments. The only identifiable word, 'כב[', is a reconstructed form of 'כָּבֹוד' (weight), but it cannot be confidently translated in this context due to extensive damage and lack of supporting evidence.",
+   "line_id": 18145,
+   "source_hash": "d78acd9b2843fb8ce5f18c0825b96684624e8fa95ffff57ff272cd6557f7cdbb",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f31:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The only identifiable lexical item is a reconstructed form of 'holiness' (קֹדֶשׁ), but it cannot be confidently translated in this context.",
+   "line_id": 18146,
+   "source_hash": "f639f67a0e6f3ac5029cde78a4a640d4228af9cba88b747cc9a6ecaf72e514e4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f32:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. All visible lexical items are either unknown or too damaged to interpret.",
+   "line_id": 18147,
+   "source_hash": "540df4680c409440d410ba3e65482430ec29baed5f5d60254ff7390e30c9a7e7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f32:2": {
+   "en": "the splendor of a kingdom",
+   "notes": "The translation follows the dominant contextual rendering of the phrase evidence for positions 2 and 3. The initial and final untranslatable characters are omitted, as they cannot be independently translated.",
+   "line_id": 18148,
+   "source_hash": "7c1d43fe780f40bd8288ec843fc62c9e02c0094f18fd5b00fea6a3ec671ff7f9",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f32:3": {
+   "en": "holiness",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters (ε) and a reconstructed term (קֹדֶשׁ). The translation reflects the recoverable lexical item 'holiness' with uncertainty noted.",
+   "line_id": 18149,
+   "source_hash": "0695471a073caca8d17fca2eee78cafda3b5878f1f8ae52595d8d3996c45b7b9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f33:1": {
+   "en": "they praise",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The verb 'י(# ה##ל #)[ לו' is reconstructed as 'הלל' (praise) in the piel stem, 3rd person masculine plural imperfect form. Other visible elements are untranslatable fragments. The translation conservatively retains only the recoverable verb form.",
+   "line_id": 18150,
+   "source_hash": "24bd066e46f540ae6415a2512ed2e25ff6e820d8d7ea1fbeab52d5c7f221cfd8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f33:2": {
+   "en": "Bedan",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed proper noun (בדני). The translation reflects only the recoverable lexical item.",
+   "line_id": 18151,
+   "source_hash": "c5870f321cae45d7db15c9b6fb5a853b404ceced5c11ecda733b926a376bf809",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f34:1": {
+   "en": "eternity",
+   "notes": "The transcription includes an untranslatable character 'ε' and an uncertain form 'עו ]ל##ם'. The latter is identified as 'עֹולָם' (eternity) with uncertain status. The untranslatable character is omitted from the translation.",
+   "line_id": 18152,
+   "source_hash": "9fb5bf80b1c475f883e624d616d01a763520fab1a2df047e416c0210bb568f78",
+   "source_condition": "uncertain"
+  },
+  "4Q401 f34:2": {
+   "en": "his weight",
+   "notes": "The transcription includes an untranslatable Greek letter 'ε' and a partially damaged Hebrew suffix. The translation reflects the recoverable Hebrew suffix 'ד׳ו' (his) and the root 'כבו' (weight), omitting the untranslatable character.",
+   "line_id": 18153,
+   "source_hash": "dbbd922663cc8acc8d28db4b405f47c8c78e751fb0828ed6c5a83a9a78c7b4e6",
+   "source_condition": "clean"
+  },
+  "4Q401 f34:3": {
+   "en": "whole",
+   "notes": "The transcription contains an untranslatable Greek letter 'ε' and a punctuation mark '׃' with no recoverable meaning.",
+   "line_id": 18154,
+   "source_hash": "646cbf5d62e8b4a88d1c297f0b6f8364d905bf227bf6e2155555317112d6b15c",
+   "source_condition": "clean"
+  },
+  "4Q401 f35:1": {
+   "en": "insight and knowledge knowing",
+   "notes": "Uncertain reconstruction and damaged text at the beginning and end of the line. The verb 'knowing' is reconstructed and uncertain.",
+   "line_id": 18155,
+   "source_hash": "fe451b108e1b328ac4c96674938ea9bc4b08e5db35433a27b9f8b200bf9bee90",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f35:2": {
+   "en": "a holy thing of holy things will be high",
+   "notes": "Uncertain transcription and reconstruction in the first and last words. The phrase 'a holy thing of holy things' is supported by repeated evidence, but its exact syntax is unclear. The verb 'will be high' is reconstructed and certain.",
+   "line_id": 18156,
+   "source_hash": "40faaed43b9e4aba80f7a59de55380a672421fac686bdff2b1cd69628834dabb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f36:1": {
+   "en": "confidential talk",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation.",
+   "line_id": 18157,
+   "source_hash": "6b6d53e8c466092aef581a1f880488554339cb4cb5a76923af0fc2993122ddc5",
+   "source_condition": "clean"
+  },
+  "4Q401 f36:2": {
+   "en": "in ornament",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged preposition 'in' and a partially recoverable noun 'ornament'. The remaining characters are untranslatable fragments.",
+   "line_id": 18158,
+   "source_hash": "51163cd45fa967867e1001656c85daeb1e856228584bbd81737ef60d121bf75f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f36:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Hebrew words, only fragments and uncertain marks.",
+   "line_id": 18159,
+   "source_hash": "debe95c578007d6e029a1f81d6b2949f41d64818678e43884863fae5a0c53902",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f37:1": {
+   "en": "praise him",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The verb 'praise' is based on the visible morphology and lexical gloss of the second word, but the context is unclear. The final 'him' is inferred from the masculine plural morphology, but its referent is uncertain.",
+   "line_id": 18160,
+   "source_hash": "756bdc5b199aba1489c8c25268cc8287f152d595d6db6b82c2d2b53434ded51f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f37:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain fragments with no defensible English translation. The visible forms include untranslatable characters and reconstructions with no clear meaning.",
+   "line_id": 18161,
+   "source_hash": "dd730c444b5e86b6e27c93670424b989833713d26c96c697d6e62bc1118c8f0f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f37:3": {
+   "en": "in splendour",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, which are omitted in the translation. The word 'הוד' is reconstructed and translated as 'splendour'.",
+   "line_id": 18162,
+   "source_hash": "7bb6671c7cfc8bf2f7fb62b25080609225773622dcc109f080567ef9bf707a1d",
+   "source_condition": "reconstructed"
+  },
+  "4Q401 f37:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, including reconstructed and untranslatable characters. No defensible English words can be derived from the surviving material.",
+   "line_id": 18163,
+   "source_hash": "6827f6e205ce1a9c83bba5676c76e7cc78f2e26f6ff17445aca9cb43ee9fbc65",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f38:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items translatable into English. The visible form ']ברכ##ו#?[' is reconstructed and uncertain, with no recoverable meaning. The other elements are untranslatable fragments.",
+   "line_id": 18164,
+   "source_hash": "27df3e2cc1d0ac2af272bf74ae86e1a4913c799e1b2a44a96fab03c320e176d3",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q401 f38:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters (ε, ː) and a damaged word (כ#ול[), with no recoverable meaning. The sole identifiable lexical item, 'כ#ול[', is a reconstructed and uncertain form of 'whole', but it cannot be translated confidently in this context.",
+   "line_id": 18165,
+   "source_hash": "7043829f32c34eed573a845e407ce2ae73e6ed42d4c87dc6ac871d37bc48d06c",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -1,0 +1,288 @@
+{
+ "id": "4Q114",
+ "label": "4Q114",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 37,
+ "scroll_id": 914,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "recovery_overlay": {
+  "version": "dss-detached-draft-recovery-publication-overlay-v1",
+  "line_count": 1,
+  "review": "provider-free-audited"
+ },
+ "lines": {
+  "4Q114 1:1": {
+   "en": "And behold, a man, one clothed in linens and girded at the hips",
+   "notes": "Uncertainty in transcription and reconstruction at positions 1 and 10. The phrase 'a man one' is supported by repeated evidence, and 'clothed linen(s)' is a contextual rendering with moderate support.",
+   "line_id": 49081,
+   "source_hash": "8f062bbf644326d37db1ef4c6391871cb43030b6ebed77c40164e72d6d6f930a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 1:2": {
+   "en": "In gold, Uphaz, and a body like Tarshish, and faces like the sight of lightning",
+   "notes": "The transcription is heavily damaged, with several uncertain and reconstructed words. The translation reflects the recoverable text, but the exact meaning remains unclear due to the fragmented state of the manuscript.",
+   "line_id": 49082,
+   "source_hash": "c689b9880e68a1e574e31148ac99ef1ffb1716a837e750fd0be70e6955efa0c9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 1:3": {
+   "en": "And [the] eye like torches of fire, and [its] arm, and [its] feet like [the] appearance of bronze.",
+   "notes": "The transcription is heavily damaged, with several uncertain and reconstructed words. The phrase 'like torches of fire' is supported by repeated phrase evidence, while 'appearance of bronze' is a dominant contextual rendering for the final three words. The translation conservatively retains all recoverable words, omitting untranslatable fragments and explaining uncertainties here.",
+   "line_id": 49083,
+   "source_hash": "91a7af0de19023ad263595c0b68a4bba0d40db9f90eae598ab0b88044c266239",
+   "source_condition": "reconstructed_and_uncertain",
+   "recovery": {
+    "prompt_version": "dss-detached-bounded-recovery-v3",
+    "provider": "api.cohere.com",
+    "model": "command-a-03-2025",
+    "request_identity": "038d9516ed17be3210beba80ff24ddef9e681cd4a26d8690a561a5e71758f9eb"
+   }
+  },
+  "4Q114 1:4": {
+   "en": "Burnished and the sound his word as the sound of the commotion and I saw I Daniel to his linen",
+   "notes": "Uncertain reconstruction of 'Daniel' and 'word'. Phrase evidence supports 'I Daniel' and 'the sound of the noise'.",
+   "line_id": 49084,
+   "source_hash": "05430ab7c46f968d22be04c8b2b411643102f3993bae361b04e861abd24ed6c2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 1:5": {
+   "en": "The vision and the men who were with me did not see the vision",
+   "notes": "",
+   "line_id": 49085,
+   "source_hash": "24a2c12eeead15f3226eb45c4194dcab21ca21bffc0bfb011b71151a95a6ca50",
+   "source_condition": "clean"
+  },
+  "4Q114 1:6": {
+   "en": "Verily, trembling great, it fell upon them, and they ran away in hiding.",
+   "notes": "The phrase 'trembling great' is supported by repeated phrase evidence. The translation follows the visible morphology and lexical glosses, with uncertainty in the reconstruction of 'ח#ר#ד##[ ה' and ']ג?דולה'. The final word '׃' is omitted as it has no recoverable gloss.",
+   "line_id": 49086,
+   "source_hash": "94e1b9dab3390a0c763452ec4b5d2e328922dab4162886f477f114bfb074bcdf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 1:7": {
+   "en": "And I remained to see the great sight this",
+   "notes": "Uncertain reconstruction of 'remain' (position 3) and 'great' (position 12). The phrase 'great (the) this' has strong repeated evidence. 'Vision (the) great' is a possible alternative for positions 10-12, but 'sight' is retained for simplicity. 'I I was left behind I' and 'I was left behind I alone' are unsupported by the visible morphology.",
+   "line_id": 49087,
+   "source_hash": "b057867ba792fa598a7cf1269d29e4f852885695d590aed20e8c83530a1f1055",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 1:8": {
+   "en": "And not remained in strength and splendour turned upon to destruction and not",
+   "notes": "Uncertain transcription at position 12. Reconstructed text at position 13.",
+   "line_id": 49088,
+   "source_hash": "f35a4c86210ecddb31b8b17dd93e56ccb6a85ce3be32a91c7fa0dfa9459d0058",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 1:9": {
+   "en": "I restrained strength and I heard the sound of his words",
+   "notes": "Uncertainty in reconstruction and transcription affects 'strength' (position 2), 'hear' (position 5), and 'sound' (position 7). Phrase evidence supports 'the sound his words' (positions 6-8) but is not mandatory. No recoverable text for the punctuation mark (position 3).",
+   "line_id": 49089,
+   "source_hash": "52fbe0a4407eee6df1c6ce29828cfe8bab47a7d3f9eda74ed15d350541fdc0fe",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 1:10": {
+   "en": "The sound of his words and I was dazed upon the face and the face of the earth",
+   "notes": "The phrase 'I was dazed' is a paraphrase of the repeated phrase evidence for positions 6-8. The phrase 'the face of the land' is a paraphrase of the repeated phrase evidence for positions 10-11. The phrase 'the sound his words' is a paraphrase of the repeated phrase evidence for positions 1-2.",
+   "line_id": 49090,
+   "source_hash": "6d44c9e263a8db47ca7397979fd3364cb3d6618b8eb9e095beb80ed158c60d5d",
+   "source_condition": "reconstructed"
+  },
+  "4Q114 1:11": {
+   "en": "and he said to",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The verb 'י#?אמר' is uncertain but supported by phrase evidence 'he said to'.",
+   "line_id": 49091,
+   "source_hash": "9fc5a654e8c57b41fc797b087058982569ead75da8099e08b5969884a7f06fa0",
+   "source_condition": "uncertain"
+  },
+  "4Q114 1:12": {
+   "en": "Daniel, man of preciousness(es), understand in the words which I [am] speaking to you",
+   "notes": "The phrase 'man of preciousness(es)' is a supported rendering of a repeated phrase. The relative clause 'which I [am] speaking' is supported by repeated phrase evidence and contextual constraints. The final 'to you' is a high-confidence reconstruction of the suffix on 'speak'.",
+   "line_id": 49092,
+   "source_hash": "9b32e343cace9d01b7185c9402e83b8d047e4b6c2922727c0c657de0e61fd18a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 1:13": {
+   "en": "And stand upon your place, that now I have sent to you, and in speaking with you",
+   "notes": "Uncertainty in the transcription and reconstruction of some words, particularly 'דבר ]׳ו#?' and 'עמ׳י', may affect the precise meaning.",
+   "line_id": 49093,
+   "source_hash": "3af102ddd20b9b4be4e7beeff1efea5d710fb013eb8532347694dbe801bbb8ae",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 1:14": {
+   "en": "The word this I stood trembling and he said to do not fear Daniel that",
+   "notes": "Uncertain reconstruction of 'he said' (position 9) and 'to' (position 10). Uncertainty in the verb 'fear' (position 12) due to damage. Phrase evidence suggests 'this I stood' (positions 4-5) and 'the word this' (positions 2-4) but the translation retains all recoverable words in order.",
+   "line_id": 49094,
+   "source_hash": "38fb1050f5d8007a6125c648f8169755084088ca436395bea424f1a0d9911bbd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 1:15": {
+   "en": "From the first day, which you gave your heart to understand and to humble yourself before your God",
+   "notes": "The phrase 'the first day' is supported by repeated phrase evidence. The verb 'gave' is translated based on the context-free gloss of 'נתן'. The phrase 'humble yourself before your God' is supported by repeated phrase evidence, though the verb 'התע##נות' is uncertain.",
+   "line_id": 49095,
+   "source_hash": "94815b5f01a96c03fdb02a5eae9a28641b08b79bb5a83e19e8f12c4e5fc9ce56",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 1:16": {
+   "en": "They heard the word, and I have come in the way of the chiefs of the kingdom of Persia",
+   "notes": "Uncertainty in the reconstruction of 'way' (position 7) and the final verb 'stand' (position 13).",
+   "line_id": 49096,
+   "source_hash": "dd8a5aa034748253c2655994b3fcf0312e6323c6675dc6398ed091f3feea5e95",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 2:1": {
+   "en": "to my counterpart twenty and one day and behold Michael one of the princes",
+   "notes": "Reconstructed text in position 2. Phrase evidence supports 'one of the princes' for positions 10-12.",
+   "line_id": 49097,
+   "source_hash": "1376d473d4c8cf395c36728290fe717bc9e97f669bd16d132ec4824497b6cf96",
+   "source_condition": "reconstructed"
+  },
+  "4Q114 2:2": {
+   "en": "The first ones came to help me and I remained there by the kings of Persia and I came",
+   "notes": "The phrase 'the kings of Persia' is a high-confidence reconstruction based on repeated phrase evidence. The sequence 'I I am left' is simplified to 'I remained' for natural English flow, retaining the first-person singular agency.",
+   "line_id": 49098,
+   "source_hash": "fcfa1fcefc5b2f6c39e073ba1b752386d49dbbd9083c6ed06a838709da2776e5",
+   "source_condition": "reconstructed"
+  },
+  "4Q114 2:3": {
+   "en": "to make you understand what will meet your people in the end of days, for there is still a vision for days",
+   "notes": "The phrase 'the end of the days' is supported by repeated evidence. The verb 'make understand' is reconstructed and uncertain. The preposition 'to' is repeated before 'days' at the end, but its presence is uncertain due to the text's fragmentation.",
+   "line_id": 49099,
+   "source_hash": "a9ada434e2ad08d95eedfdb0e8dadf927f40a7ebe71ac84e28e1cd06692ea39e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 2:4": {
+   "en": "And as speaking with as these words I gave the face of the land and I was bound and behold",
+   "notes": "The translation follows the visible transcription and morphology, with phrase evidence supporting 'these words' and 'face of the land'. The verb 'נתן' is translated as 'gave' in the context of setting or giving words. The verb 'אלם' is translated as 'bound' in the Nifal stem, which can mean 'be bound' or 'be silenced'. The final 'behold' is a direct translation of 'הנה', which is a particle indicating a sudden realization or introduction of a new element.",
+   "line_id": 49100,
+   "source_hash": "10482f028cd4f7b4424431c8fcbdc19c745a33c1de9e8a465652bac409834fc5",
+   "source_condition": "reconstructed"
+  },
+  "4Q114 2:5": {
+   "en": "As likeness of sons of man touched upon my lips and I opened my mouth and I spoke and I said",
+   "notes": "Reconstructed text in positions 2. Uncertain text in positions 2.",
+   "line_id": 49101,
+   "source_hash": "ae2d39cbb5fb88fc43c5e22870e7e7665ae6fbd7a8c278087162ddf6258c3ba8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 2:6": {
+   "en": "To the one standing before my lord in a vision, the messengers turned upon me, and I did not restrain",
+   "notes": "The phrase 'standing to before' is a reconstruction based on repeated phrase evidence. The term 'messengers' is chosen for 'ציר׳י' based on contextual evidence, though 'convulsion' or 'pivot' are possible alternatives. The final verb 'עצרתי' is translated as 'I did not restrain' to maintain the first-person perspective indicated by the morphology.",
+   "line_id": 49102,
+   "source_hash": "b260e2d369e5b21e32f23d5598bb0f0e7655ccc31358ad94fcc6fb3b866eb694",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 2:12": {
+   "en": "Verily, I will report to you the written trustworthiness",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown symbol (ε) and a damaged separator (׃). The phrase 'he told to' is a high-confidence repeated pattern for 'אגיד ל׳ך', but it is not used here to preserve the first-person agency of the visible morphology. The translation conservatively retains all recoverable lexical items in order.",
+   "line_id": 49103,
+   "source_hash": "e1d338b880da89464b8002a3d5d01135bcd00999cee8e37578341eb6e32be6f8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 2:13": {
+   "en": "And there is no one [who] shows himself strong with these [Michael] your chief And I",
+   "notes": "The translation incorporates the highest-supported repeated phrase evidence for positions 3-4 and contextual rendering for positions 4-5. Uncertainty in the transcription is noted for positions 3, 4, 8, 9, 10, and 12. The damaged syntax and uncertain lexical items are preserved without adding unlicensed content.",
+   "line_id": 49104,
+   "source_hash": "b8fcc67d067db0204765224622c2d6695e56e5137a256d989531d14afa12ac3c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 2:14": {
+   "en": "In the first year of Darius the Mede, I stood to strengthen and fortify him, and now",
+   "notes": "The phrase 'year one of' is supported by repeated evidence. The translation preserves the visible morphology and lexical items, with uncertainty noted for the final word.",
+   "line_id": 49105,
+   "source_hash": "9003bdd9102a01d178b067b4499fab92d05bac26575705bfe5498376db8d69eb",
+   "source_condition": "uncertain"
+  },
+  "4Q114 2:15": {
+   "en": "Trustworthiness, I report to you: behold, still three kings standing for Persia and the fourth",
+   "notes": "Uncertainty in the transcription of 'אגי?ד' and 'עומדי?ם' is not reflected in the translation. The phrase 'king [was] standing' is supported by repeated evidence but adapted to fit the plural context.",
+   "line_id": 49106,
+   "source_hash": "14a61626de950fdf0b3f69404311b42eec8a6653faf5081bf60d86df58854e58",
+   "source_condition": "uncertain"
+  },
+  "4Q114 2:16": {
+   "en": "He will gain great wealth more than everyone and in his riches he will blind the whole kingdom",
+   "notes": "Uncertain terms: 'wealth' (position 2), 'and' (position 6), 'riches' (position 10), 'blind/be awake/be naked' (position 11). Reconstructed terms: 'as/like' (position 7), 'blind/be awake/be naked' (position 11).",
+   "line_id": 49107,
+   "source_hash": "5d2628f78efbc6516e366c85a480287e89ba1ce2c43f42396b4f845f1f943c1b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 3:12": {
+   "en": "Great and in property much and in those times many will stand upon the king of the south and the descendants of Perez",
+   "notes": "Uncertain transcription and reconstruction in 'great' (ג#?דול), 'in' (ב#), and 'property' (ר#כ[ וש). The phrase 'the descendants of Perez' is a contextual rendering with moderate support.",
+   "line_id": 49108,
+   "source_hash": "3ebd50c9c7127e250c53d4a3855a5eb593dc178cd10a9e37cd37b708b6f0d458",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 3:13": {
+   "en": "They will be lifted to stand in the vision and stumble. And he will come, the king of the north, and pour out and seize a town.",
+   "notes": "The translation follows the visible transcription and morphology, with high-confidence phrase evidence for 'the king of the north' and 'he will capture a city'. Uncertain elements include the reconstruction of 'stand' (position 3), 'vision' (position 4), and 'pour out' (position 14), as well as the uncertain particle at position 16. The lexical gloss for 'סולל' (position 15) is unclear, but the context suggests a possible meaning related to 'pour out'. The translation conservatively preserves all recoverable elements without adding unlicensed content.",
+   "line_id": 49109,
+   "source_hash": "73914f45685bd328e1e459f62d1a633964e30e76d8ed7a57f5c548109e6901bc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 3:14": {
+   "en": "Fortifications and arms of the south will not stand and a people of his choice and no strength to stand and he made the coming",
+   "notes": "Uncertain transcription and reconstruction in multiple places. The phrase 'strength to stand' is supported by repeated evidence. The phrase 'the [one who] comes into' is a paraphrase based on repeated evidence, but 'the coming' is a more conservative translation given the uncertainty. Omitted untranslatable source characters and punctuation.",
+   "line_id": 49110,
+   "source_hash": "282e2602b4ae3735c5585394177624c4e7111a449af7adfe4a903d657a8e832c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 3:15": {
+   "en": "As his pleasure, there is none standing before his face. And he will stand in the land of the beauty and all its protection. And he will put his sons to come in power.",
+   "notes": "Positions 2, 4, 7, 10, 11, 17, and 22 are uncertain. Positions 2, 17, and 22 are suffixed forms with uncertain antecedents.",
+   "line_id": 49111,
+   "source_hash": "66a82c0b6fd130095389122922169d507014b91ba6ec26c070daa137d1c15e0e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 3:16": {
+   "en": "and the upright with him and he will make and with a daughter of men he will give to destroy and she will not stand",
+   "notes": "The translation is highly uncertain due to extensive damage and unclear context. The phrase 'כע מ # כ # # #וי?שרים' is largely unrecoverable, with 'כע' and 'מ # כ #' having no clear meaning. 'וי?שרים' is tentatively translated as 'and the upright' based on the gloss 'right' for 'יָשָׁר'. 'עמ׳וי?עשה' is rendered as 'with him and he will make' based on morphology and glosses. 'וב##[ ת ]א##נ#?שים' is reconstructed as 'and with a daughter of men' using phrase evidence. 'י?תןל׳ולהשחי(# ת #)׳ו?' is translated as 'he will give to destroy' based on glosses and morphology. 'ולאתעמדולאל׳ו?' is rendered as 'and she will not stand' based on visible morphology and glosses. Uncertainty is pervasive, especially in damaged and reconstructed sections.",
+   "line_id": 49112,
+   "source_hash": "c76313ebafd6238e02c8b090d1dfefdf4461046a3f3605fc1f4bcdd68c23bcbc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 4:13": {
+   "en": "For they had planned on his thoughts and ate a piece, they break his strength",
+   "notes": "Uncertain elements include the gloss for 'מחש ]ב##ות' and the reconstruction of 'ו#?'. The phrase 'eat a piece' is supported by repeated evidence, and 'he had planned on' is a contextual rendering with limited support.",
+   "line_id": 49113,
+   "source_hash": "e5ff2aac91237e587540e472383b6b82dc0cf9aaf818d1602e199f1effdd42fd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 4:14": {
+   "en": "He washes off and they fell many slain ones. And the two kings their heart.",
+   "notes": "Uncertain reconstruction of 'wash off' and 'fall'. Phrase evidence supports 'they fell slain [ones] many' and 'the two the kings'. Uncertainty in the connection between clauses.",
+   "line_id": 49114,
+   "source_hash": "f9ba27f2795c0ed8de9b56a3f9b04f3220f820f6b87d9bfdc4cf3f0f32f52579",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 4:15": {
+   "en": "To an evil deed and upon one table of lies they will speak, and it will not prosper, that still the end",
+   "notes": "Uncertain transcription in 'מ#רע' and 'כזב##['. Reconstructed text in 'כזב##['.",
+   "line_id": 49115,
+   "source_hash": "faf810d816e31601546997597cdaf1df1f5b2d03cdafcc8ad8f6bac856d65e40",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 4:16": {
+   "en": "To [the] appointment and he will return his land with great property and his heart upon [the] covenant of holiness and he made and he returned to his land to [the] appointment he will return and he came",
+   "notes": "The translation follows the visible transcription and morphology, incorporating high-confidence phrase evidence for contextual disambiguation. Uncertainty in reconstruction and glossing is noted but does not alter the translation's conservative approach. The phrase '[the] covenant of holiness' is supported by repeated evidence. Other renderings follow lexical glosses and visible morphology. No unsupported elements are added; all recoverable words are accounted for.",
+   "line_id": 49116,
+   "source_hash": "180d8be72fd18c65335a6f35b948e07ce81110eeb090709ae1a62cc0b2ecdd25",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q114 4:17": {
+   "en": "In the south and it was not like the first and like the last",
+   "notes": "The transcription contains uncertain and unknown elements, including a damaged preposition 'ב##', a questionable conjunction 'ו#?', a reconstructed verb 'ת[ היה', and an untranslatable character 'ε'. The final punctuation mark '׃' is omitted from the translation. The phrase 'כראשנה' and 'כאחרנה' are translated based on their lexical glosses, but their exact relationship to the preceding negation is unclear.",
+   "line_id": 49117,
+   "source_hash": "05c49756a9c0441eb1f0ab8a83c9fdd4bec83de1032837bb9ee5a1b6716536ab",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

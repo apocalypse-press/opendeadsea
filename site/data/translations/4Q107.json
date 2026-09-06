@@ -1,0 +1,358 @@
+{
+ "id": "4Q107",
+ "label": "4Q107",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 47,
+ "scroll_id": 907,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "recovery_overlay": {
+  "version": "dss-detached-draft-recovery-publication-overlay-v1",
+  "line_count": 1,
+  "review": "provider-free-audited"
+ },
+ "lines": {
+  "4Q107 f1:1": {
+   "en": "After our wall, he will gaze from the windows, he blossoms from the openings",
+   "notes": "Uncertain reconstruction of 'after' (אַחַר) and 'gaze' (שׁגח). Unclear meaning of 'blossom/glance' (צוץ_2) and 'openings' (חָרָךְ). Transcription damage affects several words.",
+   "line_id": 48743,
+   "source_hash": "0f1d69233c50dd8b3549077c3161bf34f42569122617edbbce7879fdb5a50bde",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f1:2": {
+   "en": "He answered David and said to arise before the beautiful one and go to",
+   "notes": "Uncertainty in the transcription affects the translation of 'רע#י?ת##׳י#?' and 'לכ#י'. The phrase evidence for 'he answered David' is prioritized, but the context is unclear. The translation remains conservative, preserving the recoverable material without adding assumptions.",
+   "line_id": 48744,
+   "source_hash": "d49a8c09df517ae89e8b4738146855596ed4ba28c48fc189f197fb07b5bd4dd6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f1:3": {
+   "en": "For behold the winter has passed, the rain has come after, it has gone to him. Behold the time",
+   "notes": "The verb 'pass' (position 5) is uncertain. The phrase 'go to' (positions 9-10) is supported by repeated phrase evidence.",
+   "line_id": 48745,
+   "source_hash": "478db5e073c0f3005f4317bdaa3e7c457d951324ebabc984acaff0f10f5ed6ee",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f1:4": {
+   "en": "The blossoms were seen in the earth at the time the song touched and sound",
+   "notes": "Uncertain reading in position 5 (א##רץ). Phrase evidence suggests 'they were seen in the land' for positions 3-5, but the translation retains all recoverable words in order.",
+   "line_id": 48746,
+   "source_hash": "e3543cdc98ab55f044c941d7714e51579f5456ec9204e5cd731347403aa8a993",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f1:5": {
+   "en": "The dove heard in our land. Behold the fig embalmed.",
+   "notes": "Uncertainty in the transcription and reconstruction of 'א#רצ׳נו' (earth/land) noted. Phrase evidence suggests 'I heard in my own' but is not directly applicable here due to grammatical mismatch.",
+   "line_id": 48747,
+   "source_hash": "165140e0c37f832180dab193e7de0770498e42cbac86b515b29cf7301a6cc38a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f1:6": {
+   "en": "Unripe figs and the vines, perule gave a scent. Arise to my companion.",
+   "notes": "The phrase 'ל׳ך רעית׳י' is translated as 'to my companion' based on the supplied gloss, but the dominant contextual rendering 'for harm' is not adopted as it does not fit the context. The phrase 'נתנו ריח' is translated as 'gave a scent' based on the supplied gloss, but the dominant contextual rendering 'I will put spirit' is not adopted as it does not fit the context. The phrase 'קומי' is translated as 'arise' based on the supplied gloss, but the dominant contextual rendering 'I will raise up for' is not adopted as it does not fit the context.",
+   "line_id": 48748,
+   "source_hash": "c760ec24a4b7e80ced40c02076f530501c7a9d5e2a086d4a4e4afcf1c8eb8649",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f1:7": {
+   "en": "Beautiful one, go to",
+   "notes": "The transcription is partially reconstructed, with the first word containing a damaged letter. The phrase 'go to' is supported by repeated evidence.",
+   "line_id": 48749,
+   "source_hash": "dd19ab636c4df9ba70d481abd485cda6ba5a53a13f5196e2aebf88b4fb69dc87",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f1:8": {
+   "en": "Dove in festivals the rock in the hiding place the skipping see me",
+   "notes": "Uncertain glosses for 'חגוי' and 'מדלגה' are retained as 'festivals' and 'skipping' respectively. The phrase is fragmented and does not form a complete sentence.",
+   "line_id": 48750,
+   "source_hash": "0f782b38ede9f196e35d31795f1d7c63e620f5b239ad441c20936280c5b92bb4",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f1:9": {
+   "en": "Your appearance, hear me, your hearsay that your sound is pleasant",
+   "notes": "The phrase 'they have heard (et) report' is a repeated pattern but does not fit the visible morphology and syntax. The translation retains the recoverable words in order, preserving the uncertainty in the damaged object marker (אֵת) and the reconstructed particle (את).",
+   "line_id": 48751,
+   "source_hash": "1163902cb85ec1cb1ebc028191f817d17e4916c42b45e1295c0ed804265283e0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f1:10": {
+   "en": "And a lovely sight. Seize for us foxes, small ones, who are harmful.",
+   "notes": "The phrase 'seize for us' is supported by repeated phrase evidence. The verb 'seize' is an imperative, and 'for us' is indicated by the suffix on 'ל׳נו'. The word 'מחבלים' is translated as 'harmful' based on the lexical gloss, but its exact sense in this context is uncertain.",
+   "line_id": 48752,
+   "source_hash": "ecc1b7555e1585b2caad0c9e07865699430fc92b5b132b2e9d62a349750c03bd",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f1:11": {
+   "en": "Vineyards and our vineyards of perule David to and I to the shepherd",
+   "notes": "The translation follows the visible transcription and morphology. The phrase 'David to' is supported by repeated phrase evidence. 'I to the shepherd' is a conservative rendering of the recoverable words, though the syntax is fragmented. No uncertainty is signaled in the translation itself.",
+   "line_id": 48753,
+   "source_hash": "ccc8c992221de055a4f361126630d08c31a22680e57b2f80b8255ca88b8d424a",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f1:12": {
+   "en": "In lilies, until it will breathe the day, and they will flee the shadows, turn",
+   "notes": "The phrase 'it will breathe the day' and 'they will flee the shadows' are supported by repeated phrase evidence. The final verb 'turn' is an imperative with no clear object or direction in the source.",
+   "line_id": 48754,
+   "source_hash": "3b4fa7bf96402c81f29c257d6a4aa002f3583f6639adc74eaff602347a91b836",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f1:13": {
+   "en": "Be like, to David, gazelle upon mountains piece",
+   "notes": "Uncertain reconstruction and meaning of 'בתר' (piece) at the end. Phrase 'to David' supported by repeated evidence but contextually ambiguous.",
+   "line_id": 48755,
+   "source_hash": "5dff40dcb4379fa95a869d7050ae00e4e20e8c6690d2da15e3386a91cf4db5ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f1:14": {
+   "en": "Upon my couch in nights of nights I sought",
+   "notes": "Uncertainty in the transcription affects the exact form of 'nights'; the translation reflects the visible morphology and context.",
+   "line_id": 48756,
+   "source_hash": "4384520a4f21cd670b39af3cf514bf81d20cb331a7df4c1272b4b29cc66940c8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f1:15": {
+   "en": "That I loved the soul, I sought him, and I did not find him. I will arise now.",
+   "notes": "The phrase '[the one] whom it loves self' is a repeated pattern in the DSS, but the translation follows the visible morphology and lexical glosses directly. The particle 'נא' is translated as 'now' for clarity, though its gloss is 'yeah/raw'.",
+   "line_id": 48757,
+   "source_hash": "ce4bbd749575fcb94721b90db54407fd503dc37c20f273b796aabdc5c99c77a9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f2i:5": {
+   "en": "I adjure you",
+   "notes": "The transcription contains an uncertain character (ε) and a damaged object marker (את׳כ ]מ#ה). The phrase 'I adjure' is supported by repeated phrase evidence, but the object is uncertain and not translated.",
+   "line_id": 48758,
+   "source_hash": "0c669773fb9eee07c06ac32288eb8917dd2c35ec983e892b3a0c8c335e127a9f",
+   "source_condition": "uncertain"
+  },
+  "4Q107 f2i:6": {
+   "en": "O daughters of Jerusalem by she-gazelles or does of the field if you will awaken",
+   "notes": "The phrase 'O daughters of Jerusalem by' and 'does of the field' follow high-confidence repeated phrase evidence. The verb 'will awaken' is selected from the lexical gloss options for 'עור_2' in the hifil stem, imperative mood, and plural masculine form. The translation conservatively retains all recoverable words in order, including the particles 'or' and 'if'.",
+   "line_id": 48759,
+   "source_hash": "f9d8c31840543c302b3b3f075c293579a03c7fc24e9800fd4119d2774cb367ef",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f2i:7": {
+   "en": "And if you awaken the love until she desires",
+   "notes": "The transcription contains reconstructed text and an uncertain word. The term 'אהבה' (love) is feminine singular, matching the verb 'תחפץ' (she desires). The final word 'א ]פ#ר#יו[ ן ]' is reconstructed as 'litter' but its relevance is unclear and omitted from the translation.",
+   "line_id": 48760,
+   "source_hash": "d96d6e9b17c26d5317b6ca73aa7f2413244983e9f235025ceafbc74098055fc9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f2i:8": {
+   "en": "He made for the king Solomon from the trees of Lebanon",
+   "notes": "The phrase 'he made' is a reconstruction of the damaged verb form. The phrase 'the king Solomon' is supported by repeated phrase evidence. The preposition 'for' is a conservative rendering of the suffix on the verb. The phrase 'from the trees of Lebanon' is a literal translation of the remaining words.",
+   "line_id": 48761,
+   "source_hash": "6c1377d835adbcf72491abea314fe06c3bb0304c2637696fa8cff2815c826bef",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f2i:9": {
+   "en": "He made silver pillars and a gold saddle-cloth for its chariot and purple-wool",
+   "notes": "Uncertainty in the transcription and reconstruction of 'מ ]ר#כב׳ו' (chariot) and 'ארגמן#?' (purple-wool) is noted but does not affect the translation of recoverable words.",
+   "line_id": 48762,
+   "source_hash": "41a34afb1d27d1c63298f51520870801e26607f516beb2a9bb0a821caab4470c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f2i:10": {
+   "en": "In your midst, fitted love from the daughters of Jerusalem",
+   "notes": "The phrase 'daughters of Jerusalem' is supported by repeated phrase evidence. The final punctuation mark is omitted as it cannot be translated independently.",
+   "line_id": 48763,
+   "source_hash": "9aa31da4727f7458e5f2d5e746b3288886f1235cb927fa2cb92fa1458077ed7a",
+   "source_condition": "clean"
+  },
+  "4Q107 f2i:11": {
+   "en": "Go out and see, daughters of Zion, in king Solomon",
+   "notes": "The transcription is partially reconstructed and uncertain. The phrase 'king Solomon' is supported by repeated evidence, but the overall context remains unclear.",
+   "line_id": 48764,
+   "source_hash": "982316847c7eadadfdc496b2cec148c29d6636b5205a1206f5702b90ae3368c9",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f2i:12": {
+   "en": "In a wreath that surrounded to mother in the day of marriage",
+   "notes": "The phrase 'to mother' is supported by repeated phrase evidence. The sequence 'in the day' is uncertain due to low pattern support.",
+   "line_id": 48765,
+   "source_hash": "1437d3b62547b1aada51640cd7dfd3b52fad4f3f8a33a55ec979c5f5aae89ed5",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f2i:13": {
+   "en": "And on the day of the joy of his heart",
+   "notes": "The phrase 'on the day of the joy of his heart' is supported by repeated phrase evidence and contextual rendering. The reconstruction of the first word 'ו' is noted but does not affect the translation.",
+   "line_id": 48766,
+   "source_hash": "43c2143247e4bcad88a851358336606d0d062915fdf84df3a961ef8fa954db47",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f2i:14": {
+   "en": "Behold, beautiful [my] friend",
+   "notes": "Uncertainty in the transcription of the third word, 'ר ]ע##י#?ת##׳י#?', is reflected in the bracketed '[my]' in the translation. The phrase evidence supports the rendering of 'יפה רַעְיָה' as 'beautiful [my] friend'.",
+   "line_id": 48767,
+   "source_hash": "2d7bf3259c1513789d80ce0f1bc6b720e404bcde4b855dba55ab401e11b2709d",
+   "source_condition": "uncertain"
+  },
+  "4Q107 f2ii:1": {
+   "en": "Behold, beautiful are your eyes, doves, from the distance to your veil",
+   "notes": "The transcription is partially damaged and reconstructed, with uncertainty in positions 1, 5, and 6. The phrase 'beautiful are your eyes' is supported by repeated evidence. The prepositions 'from' and 'to' are translated based on their context-free glosses, with 'distance' interpreted as a contextual fit.",
+   "line_id": 48768,
+   "source_hash": "c4ab71733b12e55d470a887d29fc0b4971bd8effacd1d55fa8d60c4d8ad9d67b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f2ii:2": {
+   "en": "Your hair like a flock of she-goats that have gone down from Gilead",
+   "notes": "Reconstructed and uncertain elements include 'flock' (עֵדֶר_1), 'the' (הַ), and 'she-goats' (עֵז). The phrase 'flock of she-goats' and 'she-goats which they have descended' are supported by repeated evidence.",
+   "line_id": 48769,
+   "source_hash": "7f7007ffee60321f33ccbbf1630bb02e16de538ed7810c8ee22d0e26f17bac53",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f2ii:3": {
+   "en": "Your teeth like a flock, shorn, that ascended from the washing",
+   "notes": "Uncertain reconstruction of 'shorn' and 'from the washing'. Visible text does not fully support 'ascended' or 'washing' but is retained as the highest-confidence gloss.",
+   "line_id": 48770,
+   "source_hash": "311bcfc40ad2fd504bb83514fae65011ed6c74a282072cba18e3055b363b3155",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f2ii:4": {
+   "en": "who bear twins and are bereaved of children, there is not among them, as a thread",
+   "notes": "The phrase 'deprived of offspring there [is] not among' is supported by repeated evidence. The final punctuation mark is omitted as it cannot be translated independently.",
+   "line_id": 48771,
+   "source_hash": "ec6661eaa5227d7ffbb9af66d9443abf6e727fa56adffed31c3d741429f8f567",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f2ii:5": {
+   "en": "The scarlet of your lips and your speech is lovely as a slice of the pomegranate",
+   "notes": "Uncertainty in the transcription at position 9, where the form 'ה#' is marked as uncertain. The phrase 'slice of (the) pomegranate' is supported by repeated phrase evidence.",
+   "line_id": 48772,
+   "source_hash": "4d1c9597bf5304902f2c9a094a282c5ec663f703481972d464ead9311d7002e1",
+   "source_condition": "uncertain"
+  },
+  "4Q107 f2ii:6": {
+   "en": "your temple and from the distance to your veil",
+   "notes": "Uncertainty in the transcription affects the preposition 'to' and the final word 'veil'.",
+   "line_id": 48773,
+   "source_hash": "ae7ee6557e9415f1cf3a4b3542b5f2ad316398e7a26ee820bad3e9ff6245d55d",
+   "source_condition": "uncertain"
+  },
+  "4Q107 f2ii:7": {
+   "en": "You from Lebanon, all you from Lebanon",
+   "notes": "",
+   "line_id": 48774,
+   "source_hash": "b3a06056ef00d54cd75315880e8965c269a5095ea256ae3d1532cc1f1e0cf4ae",
+   "source_condition": "clean"
+  },
+  "4Q107 f2ii:8": {
+   "en": "Come, you will regard from the heads or from dwellings",
+   "notes": "The lemma 'אומנון' has no trusted gloss, and the final word 'מענ?ות' is uncertain. The phrase 'אבאיתשורימן' is translated based on the provided morphology and glosses, but the exact meaning is unclear due to the uncertainty in the source text.",
+   "line_id": 48775,
+   "source_hash": "38d14e4e04d7a34ddd5a06f1d351607b51a94cf0dd92361b728600333bf67480",
+   "source_condition": "uncertain"
+  },
+  "4Q107 f2ii:9": {
+   "en": "Lions, leopards from the mountains",
+   "notes": "The transcription is heavily damaged, with uncertain readings for 'אר#י#?ו#?ת##' (lions) and 'אח##ו#?ת##׳י#?' (sister). The verb 'לבבת׳ני' is also uncertain, but its context-free gloss 'bake / stir' does not fit the context. The translation focuses on the recoverable nouns and preposition.",
+   "line_id": 48776,
+   "source_hash": "6bd4568bcafb06ca9321836a71caf7a046b1f90199426ec285fcd3bd9ade0129",
+   "source_condition": "uncertain"
+  },
+  "4Q107 f2ii:10": {
+   "en": "The bride has baked in one from your eyes in one necklace",
+   "notes": "Uncertainty in transcription and morphology affects the translation of 'מ##' (from) and 'ע##ינ?י?׳ך##' (your eyes). The phrase is fragmented and may not represent a complete thought.",
+   "line_id": 48777,
+   "source_hash": "ca63e1478e7ee1ce88b69a797b4b58a00310913a1a15ce740a24624ff24e8e03",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f2ii:11": {
+   "en": "From your necklets, how beautiful are your beloved ones, my sister",
+   "notes": "The transcription is partially damaged, particularly in the second word, which is uncertain. The phrase 'how beautiful' is supported by repeated evidence, and 'my sister' is a direct translation of the final word with its suffix. The verb 'be beautiful' is translated actively to preserve the original voice.",
+   "line_id": 48778,
+   "source_hash": "590d26e9651496dd38d49c1c128c66ac2391c04adebbb2008258d5ba9bd0fc52",
+   "source_condition": "reconstructed_and_uncertain",
+   "recovery": {
+    "prompt_version": "dss-detached-bounded-recovery-v3",
+    "provider": "api.cohere.com",
+    "model": "command-a-03-2025",
+    "request_identity": "9b888e782b9103045121651690ac4124955f57c09057b9a13a7dda562d0c3659"
+   }
+  },
+  "4Q107 f2ii:12": {
+   "en": "What is good, beloved ones, from wine and scent?",
+   "notes": "Uncertain reconstruction of 'be good' (position 3) and 'scent' (position 8). Phrase evidence suggests 'what? [is] good' and '[are] good love(s)' but the latter is not fully supported by the visible text. The translation prioritizes recoverable words and their order, with minimal smoothing for readability.",
+   "line_id": 48779,
+   "source_hash": "8ef8f1fedfa3757a8a24986abe18732c328a708b2cf68af6fc549e3cfca4f119",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f2ii:13": {
+   "en": "Your oil from every spice. Honey they drip",
+   "notes": "The phrase 'Your oil' is inferred from the suffixed form 'שמנ׳ך'. The sentence structure is fragmented, and the translation preserves the visible lexical items without adding conjectural elements.",
+   "line_id": 48780,
+   "source_hash": "57912dc26229810154613ee78dc2ed27bbbdc4cbc70b864788f28491a322b005",
+   "source_condition": "clean"
+  },
+  "4Q107 f2ii:14": {
+   "en": "Your lips, my sister, drip honey and milk",
+   "notes": "The transcription includes a reconstructed conjunction 'and' before 'milk'. The final mark is untranslatable and omitted.",
+   "line_id": 48781,
+   "source_hash": "e394456710fdec189e4070a22cad04325bd12493c53a3bb68d58cd699eb1d9ee",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f3:7": {
+   "en": "And karcom, reed, and cinnamon, with every tree, incense, myrrh",
+   "notes": "The term 'karcom' is of uncertain meaning. The transcription includes reconstructed and uncertain elements, particularly around the cinnamon reference.",
+   "line_id": 48782,
+   "source_hash": "04b8faeb0261984dd7ab9b770a2b6aea6fccda472346dc9c59104d70d462a014",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f3:8": {
+   "en": "And their tents with all the chiefs in balsam-trees, a well of gardens",
+   "notes": "Uncertain reconstruction of 'chiefs' and 'balsam-trees'. The phrase 'all the chiefs' is supported by repeated evidence, but its context is unclear. The term 'balsam-trees' is a reconstructed form with high uncertainty.",
+   "line_id": 48783,
+   "source_hash": "62e7788abc255ec6dc61b5cae056fa78f2637c9b3428d2065daa3a0aefb84477",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f3:9": {
+   "en": "A well of water living, and flows from Lebanon. Awake, north.",
+   "notes": "The phrase 'a well of water living' is supported by repeated phrase evidence. 'Flows from Lebanon' is a conservative translation of the visible tokens. 'Awake, north' follows the imperative verb and noun in sequence, with 'north' preferred as a noun over a directional adjective due to its morphology.",
+   "line_id": 48784,
+   "source_hash": "3c93291c869311439a1ff3b48f7a1f9ad2aa800f2e8f944ae118a22e93ca1161",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f3:10": {
+   "en": "And come, Teman, breathe garden, flow balsam-trees, he came beloved one",
+   "notes": "Uncertain reconstruction of damaged verbs 'breathe' and 'flow'; repeated phrase evidence supports 'he came David' but 'David' is not recoverable here; translation retains 'beloved one' for the final noun.",
+   "line_id": 48785,
+   "source_hash": "740d110103d644032712f16fd690767cee8dde66b2113152ed461873005a4e1d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f3:11": {
+   "en": "to garden and he will eat from goats I came to my garden my sister bride",
+   "notes": "Uncertain reading in 'garden' (position 2). Reconstructed text in 'to' (position 1) and 'goats' (position 6).",
+   "line_id": 48786,
+   "source_hash": "ea5f8d4ccbd3f3e795422818e22e516e9465f9cc10e8d22b97a52e5b1feba159",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f3:12": {
+   "en": "I plucked myrrh with balsam-tree I drank wine with milk",
+   "notes": "Reconstructed text in position 4. No uncertainty in the transcription.",
+   "line_id": 48787,
+   "source_hash": "74b1cd6aab9a2efae0635106f8fbbfd4e11953b2bb6396b9d53fa1102eff985f",
+   "source_condition": "reconstructed"
+  },
+  "4Q107 f3:13": {
+   "en": "I ate forest with honey eat fellows drink and be drunk",
+   "notes": "Uncertain reconstruction of 'honey' and 'forest'. The phrase 'honey he will eat' is supported by repeated evidence but does not align with the visible morphology. The translation retains the visible verb forms and word order, avoiding invented relations or subjects.",
+   "line_id": 48788,
+   "source_hash": "8b6fd164ff00b2cd05758b3bdeabf1c16bb2a7ce95d94c8b9a7a9c6499300a8d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q107 f3:14": {
+   "en": "beloved ones",
+   "notes": "The transcription is damaged and uncertain, with a reconstructed word and unknown punctuation marks. The translation reflects the recoverable lexical item 'beloved ones' but omits untranslatable characters and punctuation.",
+   "line_id": 48789,
+   "source_hash": "8f66509c6efc6277f9912f91bcbfe6cae19ba289f791a7fefe8facf52c1cf4c6",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

@@ -64,7 +64,7 @@ church numbering. Abegg-derived DSS *values* in `~/dss` remain CC BY-NC
 Token fields: `t` is the surface form; `lex` is the lemma (academic
 morph code). Lexicon records may carry optional `strongs` metadata.
 
-## Implementation status (2026-08-29)
+## Implementation status (2026-09-06)
 
 Public site: `https://opendeadsea.org/`. Repo:
 `https://github.com/apocalypse-press/opendeadsea`. Pages project
@@ -83,12 +83,13 @@ and follow its review.
 | DNS / host | `opendeadsea.org` on Cloudflare, apex/`www` proxied to Pages | No origin VPS |
 | Lander | Direct reading and contribution path at `/` | No claim that machine English is checked |
 | Reading site | Catalog, manuscript/chapter pages, works, community texts, fuzzy alias/reference search, lexeme, proposals, account, history | 1,027 catalog records; original wording from ETCBC/dss |
-| Translation drafts | 896 complete packs, referenced by 900 catalog records where split catalog entries share a pack | Machine drafts remain clearly labeled and open for line correction; 127 records lack a publishable pack |
+| Translation drafts | 927 complete packs, referenced by 931 catalog records where split catalog entries share a pack | Machine drafts remain clearly labeled and open for line correction; 96 records lack a publishable pack |
 | Suggestion form | One-click **Improve translation** beside each draft line; optional note | Saves to D1 before showing success; no browser-only ghost proposal |
 | OAuth routes | `/auth/login`, `/callback`, `/logout`, `/auth/mock` (off), `/api/me` | GitHub OAuth live. Access token is discarded after identity lookup. |
 | Trust and desk | D1 users, proposals, comments, votes, approvals, and public events | Production preview personas disabled; write authorization reloads current D1 tier |
-| Corpus contract | `schema/fragment.schema.json`, `schema/lexicon.schema.json`, `schema/manuscript.schema.json`, `schema/translation.schema.json`, `schema/translation-queue.schema.json`, `corpus/search-metadata.json`, `scripts/validate-*.mjs` | Original-language wording from ETCBC/dss. First-draft English packs plus catalog queue buckets. Sources: `docs/SOURCES.md`. |
+| Corpus contract | `schema/fragment.schema.json`, `schema/lexicon.schema.json`, `schema/manuscript.schema.json`, `schema/translation.schema.json`, `schema/translation-queue.schema.json`, `schema/translation-work-queue.schema.json`, `corpus/search-metadata.json`, `scripts/validate-*.mjs` | Original-language wording from ETCBC/dss. First-draft English packs, catalog buckets, and a provider-free hash-bound work queue. Sources: `docs/SOURCES.md`. |
 | Translation queue | No translation, machine draft, human checked, pending approval | Only complete public packs are actionable; partial/rejected Explorer work stays unpublished |
+| Unpublished work queue | 70 source-backed records / 149 unresolved lines; 26 no-source catalog records retained for source acquisition | Internal planning only; no provider, publication, release, or production-unfreeze authority |
 | Desk | `/account/`, `/review/`, `/proposal/`, `/history/` | D1 is authoritative. Accepted suggestions are not yet folded automatically into a translation pack/Git release. |
 | Sentence diagram | Public Diagram control, with no sign-in required, when a Macula parent tree exists. | MT/WLC syntax, not the Qumran line. No button when parent links are missing (Isaiah and some latter prophets) or for Greek NT. |
 | Lemma rule | Academic morph code (`id` in `corpus/lexicon/`) is the primary key. Hebrew/Aramaic words link to `/lex/?q=`; copy controls are separate for original and English text. Strong's is a public-domain lookup, never the key. CAL is outbound for Aramaic. | Full BDB 1906 / Jastrow 1903 ingestion still open |

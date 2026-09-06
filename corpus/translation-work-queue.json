@@ -1,0 +1,4326 @@
+{
+  "queue_version": "opendeadsea-untranslated-source-work-queue-v1",
+  "authorization": "Provider-free detached translation planning only. This queue cannot call a provider, publish a draft, alter a quality gate, change corpus metadata, or unfreeze DSS Explorer production.",
+  "source": {
+    "catalog_path": "corpus/manuscripts.json",
+    "catalog_sha256": "f845b5d4af835e039111bdf7d426d658aaef549242df67338f8ed9a7b51675ec",
+    "public_queue_path": "corpus/translations/queue.json",
+    "public_queue_sha256": "b93eeab0662163c8e4ef391e31e58d728edc5b3916c0f580340d731a430545a6",
+    "explorer_database": "~/dss-explorer/data/dss.sqlite3",
+    "explorer_corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+    "detached_source": "~/dss-explorer/reviews/p*_w*_c*-command-a-03-2025-detached-drafts.json plus audited recovery overlay",
+    "wording_policy": "both normalized text and source_text must be nonempty and at least one source word must exist"
+  },
+  "summary": {
+    "catalog_records": 1027,
+    "untranslated_records": 96,
+    "eligible_records": 70,
+    "excluded_records": 26,
+    "queued_lines": 149,
+    "prior_statuses": {
+      "planned": 62,
+      "invalid": 87,
+      "error": 0
+    },
+    "source_languages": {
+      "Aramaic": 27,
+      "Aramaic, Hebrew": 15,
+      "Hebrew": 107
+    }
+  },
+  "records": [
+    {
+      "catalog_id": "KhQ1",
+      "label": "KhQ1",
+      "path": "/m/KhQ1/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 15,
+      "lines_with_text": 15,
+      "detached_line_count": 15,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 14,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 36602,
+          "scroll_id": 733,
+          "scroll_label": "KhQ1",
+          "reference": "KhQ1 1:10",
+          "source_languages": "Hebrew",
+          "word_count": 4,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "f694df402f71c1be74e2c8dcbc71b31abe76535cece52e1cbeaac0a2c32efee9",
+          "source_evidence_sha256": "fdd1276e349dd059c5af0b1d6e10afb939fc55cec54f54b939e36b60eee623f9",
+          "cohort_item_sha256": "7bc5d00303cae7d391320b5d4fed9dba969863c0f06584cd2a6b3c74f349b74d",
+          "prior_status": "invalid",
+          "prior_attempt_count": 57,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "0fefa0ecfbb1be0a83587ede89b60c283bd4b453595a0c262abad0b1a220598f"
+        }
+      ],
+      "record_sha256": "4551266065cec4c65c710256835ffaac18b80867e52f159b83744a2b12d68918"
+    },
+    {
+      "catalog_id": "Xq2",
+      "label": "Xq2",
+      "path": "/m/Xq2/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 26,
+      "lines_with_text": 26,
+      "detached_line_count": 26,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 25,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 51254,
+          "scroll_id": 975,
+          "scroll_label": "Xq2",
+          "reference": "Xq2 1:17",
+          "source_languages": "Hebrew",
+          "word_count": 20,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "e7cf60411c788de3ee4ca461ee6673d7e8a5c44b075d8361172d64342a46735e",
+          "source_evidence_sha256": "937142a321cb7c1fa16304f6395172684988f4cc39a69f0c27342dbc4e9a2fcc",
+          "cohort_item_sha256": "a577af667b5b524eca951975d20f25df73891a0ac3934495645b08447d753f80",
+          "prior_status": "invalid",
+          "prior_attempt_count": 13,
+          "prior_validation_error": "translation contained source editorial-marker residue",
+          "queue_item_sha256": "028c807a3df039b7642f9a519bb5698f39f83f0a10c2068f28b84227711699a4"
+        }
+      ],
+      "record_sha256": "655f087a4e1af309d274181c2de5db2491d8fd7c3a6842c0a06a6efb325f63a8"
+    },
+    {
+      "catalog_id": "1Q20",
+      "label": "1Q20",
+      "path": "/m/1Q20/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 466,
+      "lines_with_text": 465,
+      "detached_line_count": 465,
+      "queue_line_count": 6,
+      "prior_status_counts": {
+        "valid": 459,
+        "planned": 0,
+        "invalid": 6,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 2578,
+          "scroll_id": 15,
+          "scroll_label": "1Q20",
+          "reference": "1Q20 2:9",
+          "source_languages": "Aramaic",
+          "word_count": 13,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "102fd27f92399cc40afce078f27c6c0ae6b03d60be2d131364494ccbdcee52da",
+          "source_evidence_sha256": "0af09115f0f6b832c03c2821fce5b5bb73ec7e23f7926179644c53940a3a2a8e",
+          "cohort_item_sha256": "917b764d468fd6f3313453ce65541f828c2ea29b806fc1522dcd44b8c8a8f4d6",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "eec1436d2e60524e4c4ebfcbb66d750de89ef938786ff2bd1caa3998a50b6375"
+        },
+        {
+          "line_id": 2772,
+          "scroll_id": 15,
+          "scroll_label": "1Q20",
+          "reference": "1Q20 12:8",
+          "source_languages": "Aramaic",
+          "word_count": 21,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "3035830d4b7d820ef7cc5e09e393236efe729c24f9113c38b755d10bc2bbf8c1",
+          "source_evidence_sha256": "9886102b53df4b89bddd834bf63a057e47e8a786c53ef1621e7e82639644953d",
+          "cohort_item_sha256": "86658819e020ccb2fcaddb6c2889f303c883003af319c0b01dbcbc5769b54369",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "b6ae63f5a33d26fcec9ba1de7a3384da1f452cb7aaf09535277d61e08bff74ab"
+        },
+        {
+          "line_id": 2820,
+          "scroll_id": 15,
+          "scroll_label": "1Q20",
+          "reference": "1Q20 15:12",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 12,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "e5b6d41a1efb76f9094eafb6cb48deb9eaa392ed139c94600bcd4fc660f7f643",
+          "source_evidence_sha256": "526606ad1fce10ee7c309396a5a356e173166f38562deefa42e5498e09f7fa3a",
+          "cohort_item_sha256": "5e7f2400da1f1824d81610fd83c014275fafa7d1b5278061df91502c0ff7ea1b",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "c6cfb564fdd043db05a32978d232eafb7a0e8213e90e5b8a0c8c76a1b7e3bb2e"
+        },
+        {
+          "line_id": 2852,
+          "scroll_id": 15,
+          "scroll_label": "1Q20",
+          "reference": "1Q20 17:11",
+          "source_languages": "Aramaic",
+          "word_count": 22,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "63e1e613ad466ff940dbc2979eb0e3e6100d15e7f44299b8240e934fb084abce",
+          "source_evidence_sha256": "8cc213342401e8083a0700187cf12da10ec530ab286f63a7257e052e94f5ef12",
+          "cohort_item_sha256": "62ec9fdf0344fd8600b2206df3ee98179871f680f429d37278df25628e0e47db",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "95473df56edb42a1b42b9c1fc1e3b50d5c2bc82734dcb05b1dfa25ccbac74fe1"
+        },
+        {
+          "line_id": 2937,
+          "scroll_id": 15,
+          "scroll_label": "1Q20",
+          "reference": "1Q20 21:18",
+          "source_languages": "Aramaic",
+          "word_count": 27,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "784b19aaaff5ac902fb5cce10c33d37b4b9a52f208d72bd1847a3c267b9300ff",
+          "source_evidence_sha256": "de2e39cdec14edf9d22ada74c6cba460473fab2323475577fa8dc63f1c05828a",
+          "cohort_item_sha256": "2d03bd2701654ecb91b7f05f1ad62247cd5e548c66d911239f39f0af39e217cd",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "ab83f368f9b4856ac9c71276aba1d417fc753283e519e41c73aca03d40904c03"
+        },
+        {
+          "line_id": 2974,
+          "scroll_id": 15,
+          "scroll_label": "1Q20",
+          "reference": "1Q20 22:21",
+          "source_languages": "Aramaic",
+          "word_count": 20,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "10de569351a32dbde2759b1d16d23f5a443e3c0f78d224cddba330b57eca98f7",
+          "source_evidence_sha256": "b94590a2689a3a3a107ad69844e3d9c9f1f73272479617e11065a35a97c07fe2",
+          "cohort_item_sha256": "9a2f25b6a04b00a4678a6c5ab95cb47ba26d8a5f9cd5c3b1cf1d51617726b0ce",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "761dda75effbc600d11045562b93087c5f41a9ee321612517658a48ca1e982dc"
+        }
+      ],
+      "record_sha256": "a7af2a40f8811258e8d623aa3ba8e331760aee704707e557466d93dc6cc8726e"
+    },
+    {
+      "catalog_id": "1Q23",
+      "label": "1Q23",
+      "path": "/m/1Q23/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 83,
+      "lines_with_text": 83,
+      "detached_line_count": 83,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 82,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 3254,
+          "scroll_id": 18,
+          "scroll_label": "1Q23",
+          "reference": "1Q23 f29:1",
+          "source_languages": "Aramaic",
+          "word_count": 5,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "66e8f88af8d967ec6012c6fa6cc148a1c3f58663f4f9b59dc5b12da50ac980d6",
+          "source_evidence_sha256": "1e4de9d10fe12fa109d626e30d42ed2f83a073fda3dbaf65bfd606c4c414601c",
+          "cohort_item_sha256": "2ba7a96ef5c0462ea1ad7a25beb3708240a85c7f424291c68dab303ffddb6b2e",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "76056297d3b1173cce268be1d81773340b8024138f9ce80c2213da4d4d7661e4"
+        }
+      ],
+      "record_sha256": "9694b0a21d9f61c6b18064a770a5501617ec21fdcabac4ee0bc59d9d169c815e"
+    },
+    {
+      "catalog_id": "1Q27",
+      "label": "1Q27",
+      "path": "/m/1Q27/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 60,
+      "lines_with_text": 60,
+      "detached_line_count": 60,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 59,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 3377,
+          "scroll_id": 22,
+          "scroll_label": "1Q27",
+          "reference": "1Q27 f1ii:7",
+          "source_languages": "Hebrew",
+          "word_count": 7,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "bc00077c24f21b5fd858d801354ebae4beb62e2abce7ea380a2bb22dde9533ea",
+          "source_evidence_sha256": "396ff03e287a3ceb8c49888f2d640f8ee5eca65c8c345fec4e899efc1d2cda5c",
+          "cohort_item_sha256": "dbfc05fb1040897255bb053147d6a2a9302dd2156ca552f5bacaa52c8b45a3a1",
+          "prior_status": "invalid",
+          "prior_attempt_count": 4,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "128c55e10de17273fdb5e14505836eaf907245e0796aaa239b20f6d248ff2773"
+        }
+      ],
+      "record_sha256": "31f48fd0de3071d457ecbcefd455cdca5f3ce7e2b53ada428c0415ce4d07d602"
+    },
+    {
+      "catalog_id": "1Q8",
+      "label": "1Q8",
+      "path": "/m/1Q8/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 565,
+      "lines_with_text": 565,
+      "detached_line_count": 565,
+      "queue_line_count": 2,
+      "prior_status_counts": {
+        "valid": 563,
+        "planned": 0,
+        "invalid": 2,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 38699,
+          "scroll_id": 747,
+          "scroll_label": "1Q8",
+          "reference": "1Q8 3:5",
+          "source_languages": "Hebrew",
+          "word_count": 21,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "bb8eb75f06a79d9ec6b66d9425d7bd19872d8543ff1dcd5a3df599e0c57850bf",
+          "source_evidence_sha256": "8f47281af1d0b5e977d09bab70b0f30ff90ed26b6680e0f3be6f040b2304fa7f",
+          "cohort_item_sha256": "0b016c4380ee4f6336eafd8fb63756f60d8def0bac81ca431d8ac637a7833db6",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "090bab67c7bb1d8e93caa4df13e7bc82287dd2b41b602cc76159109b14f675dc"
+        },
+        {
+          "line_id": 38778,
+          "scroll_id": 747,
+          "scroll_label": "1Q8",
+          "reference": "1Q8 9a:6",
+          "source_languages": "Hebrew",
+          "word_count": 20,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "8997b9ca636c415588a728edce7a9256065ce5fd91a25652801196b1109fb8f2",
+          "source_evidence_sha256": "8ec97cb0a8b4225a66a0ee8503ed56d8436666de3ee86dc8a53236e97b08031e",
+          "cohort_item_sha256": "cdc223c62bcf3c21a0674871040afc4e362a6b2acf243c56a02d3e4776cc2176",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "7b74d58ad912ca16836f32394bde3f4a3ebf79f954198b4567400846e4b07912"
+        }
+      ],
+      "record_sha256": "f91f836ad05d26d586fe6d8d8fa813113efad9d43efd3fc19198fae83bc22a58"
+    },
+    {
+      "catalog_id": "1QHa",
+      "label": "1QHa",
+      "path": "/m/1QHa/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 933,
+      "lines_with_text": 931,
+      "detached_line_count": 931,
+      "queue_line_count": 5,
+      "prior_status_counts": {
+        "valid": 926,
+        "planned": 0,
+        "invalid": 5,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 1624,
+          "scroll_id": 7,
+          "scroll_label": "1QHa",
+          "reference": "1QHa 9:11",
+          "source_languages": "Hebrew",
+          "word_count": 15,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "8265c24d26490db5b9085458600f7ee23b64e40180bb3a6e5fcc3193646cd2d1",
+          "source_evidence_sha256": "ce8d42aa29f6757cf3d57fae43d66e48145ce701c328a2eb03a1224b21738778",
+          "cohort_item_sha256": "fae2c70cd6b513756112cc272d750357bb0c2bebac73ddcb6f1f03dabee550b7",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "de797fd967e180fc0d2b377896fdf2a380130ea31080273021a04a87dcf0b6db"
+        },
+        {
+          "line_id": 1644,
+          "scroll_id": 7,
+          "scroll_label": "1QHa",
+          "reference": "1QHa 9:31",
+          "source_languages": "Hebrew",
+          "word_count": 19,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "9c9fd6b401abf0a4cb64678dd226dc5ef70011ef34e2f491cd315adf50d7ebf2",
+          "source_evidence_sha256": "2d72d406d1d05156a68a01c93c14cc24c84bc72761de174fecccacd51a2a1b29",
+          "cohort_item_sha256": "7361f3210c67fe1166d6ae37df2e3ddde3ee91e2da06113d62b1f21fbea399a0",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "c85a0e6aad51659ff908ccb957852a0cdbb75626d22ce84107bc06a806b302ff"
+        },
+        {
+          "line_id": 1741,
+          "scroll_id": 7,
+          "scroll_label": "1QHa",
+          "reference": "1QHa 12:8",
+          "source_languages": "Hebrew",
+          "word_count": 19,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "88a8f05665ca8949c319461fe2974b6fb61e5523723cfc44984026dfdb6ad5ba",
+          "source_evidence_sha256": "ae2ddefc6fc48ebfaffdbd1e6794af1e2231ac437f61d82b6f6adbe44a857e78",
+          "cohort_item_sha256": "a0a6a2b53dcd5d2b9d7a444a0cc6e4df34d407e536ac6f00d24d12a20be11415",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "139f291746bd764830a2c3ececa3bbd021a52a4effb155b0f0c5812f47940254"
+        },
+        {
+          "line_id": 1963,
+          "scroll_id": 7,
+          "scroll_label": "1QHa",
+          "reference": "1QHa 17:33",
+          "source_languages": "Hebrew",
+          "word_count": 15,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "c1d43aea941a5112d78019c197b4b5fb78517b6b7658b02ff8dfe248291df41a",
+          "source_evidence_sha256": "07667cb2ba3ff74d2f3e9c00e372dc6fafd39688e09c4f16478785a5bee4acfd",
+          "cohort_item_sha256": "0e18870ba5d7504a771e8208bacc6b5bf51a81155ce3e8d1466f85a9b5d92829",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "0f5cd46c546f2d96e64a1acfa3d65b740594c9a7f1a6abd55131f634281deb41"
+        },
+        {
+          "line_id": 2207,
+          "scroll_id": 7,
+          "scroll_label": "1QHa",
+          "reference": "1QHa 24:13",
+          "source_languages": "Hebrew",
+          "word_count": 12,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "40516c436c74093b34f34a6cb8aa127a32e92f27a51534e1ac10a503bf245a2f",
+          "source_evidence_sha256": "2de08c97eb6f254f1ee6fc7520cdfd12353e747c39c4ff9f2bb212c1ac9500e1",
+          "cohort_item_sha256": "cd3de5ba00112ba066063c07cd5ca689e3778e2b9ee4ea9ca5d2543680e7546f",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "21312c938de79a976399889761ca9060f727cf86d25eb56d264bc378961d5829"
+        }
+      ],
+      "record_sha256": "75809f52442bbe0dbe614fb468580fe5bfa9c0e992a0c104d8759668e684ed6c"
+    },
+    {
+      "catalog_id": "11Q1",
+      "label": "11Q1",
+      "path": "/m/11Q1/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 175,
+      "lines_with_text": 174,
+      "detached_line_count": 174,
+      "queue_line_count": 3,
+      "prior_status_counts": {
+        "valid": 171,
+        "planned": 2,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 50520,
+          "scroll_id": 965,
+          "scroll_label": "11Q1",
+          "reference": "11Q1 5:6",
+          "source_languages": "Hebrew",
+          "word_count": 16,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "315d1fe870fd674c41a87a06a1fc6361358c7ea94c60adba2410cab06f0180f5",
+          "source_evidence_sha256": "4fe8f9d95b56e9d0e9e01d85f5dcd0c44308e9d4d52eacbe8c234ad88052baf2",
+          "cohort_item_sha256": "42ca2dad9404e05e54792faee136b0aef0d4262029cbcaaec8d29c1d4b1e43ae",
+          "prior_status": "invalid",
+          "prior_attempt_count": 1,
+          "prior_validation_error": "the no-recoverable-text sentinel was not the entire translation",
+          "queue_item_sha256": "6594faf749588f2b85e6f5f73cd6b4742ca4998c0be9d0822aa5134cd16d8ef6"
+        },
+        {
+          "line_id": 50557,
+          "scroll_id": 965,
+          "scroll_label": "11Q1",
+          "reference": "11Q1 fu:1",
+          "source_languages": "Hebrew",
+          "word_count": 4,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "cf54efc3625403e1ae5353ba3bafdfc058d126582565299822ee25b57027a5e5",
+          "source_evidence_sha256": "af480d99bd549ff4696679fd6c6ee98af8b68d5876f1bae8565b6b7277fadef2",
+          "cohort_item_sha256": "7f206e8ed448e08680b38ba7d9f936d204d311e564432c6821f0a4d619e4860a",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "d0258bfe690bcacd7bb85ef3bf9ff076c05749178ee69c9661c60daec4d31b36"
+        },
+        {
+          "line_id": 50559,
+          "scroll_id": 965,
+          "scroll_label": "11Q1",
+          "reference": "11Q1 faf:1",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "3839b466554f5155b622c0d8a26c25b26df4a29e6d6852677324b12561487dc9",
+          "source_evidence_sha256": "0e02147fd1bba4e5779f8cb6abccc3028ad3a36b590ca70d9155dd265da53a02",
+          "cohort_item_sha256": "801c00c4d2fb46974e8d8b6691eff2428de12f2c671f41c922edaabbb8457bf0",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "a436f7c63da489c11ffce7417d772894683a094476b1c0c49bf96f9631138168"
+        }
+      ],
+      "record_sha256": "cd2133d2ed8e41b198031d840be8069a965dfea5d9c4b60c7bef4eafdac7bd12"
+    },
+    {
+      "catalog_id": "11Q10",
+      "label": "11Q10",
+      "path": "/m/11Q10/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 429,
+      "lines_with_text": 429,
+      "detached_line_count": 429,
+      "queue_line_count": 6,
+      "prior_status_counts": {
+        "valid": 423,
+        "planned": 0,
+        "invalid": 6,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 32991,
+          "scroll_id": 674,
+          "scroll_label": "11Q10",
+          "reference": "11Q10 7A:2",
+          "source_languages": "Aramaic",
+          "word_count": 8,
+          "source_condition": "reconstructed",
+          "source_available": true,
+          "source_hash": "babf9e09248ca536482f1f487715975fbe1add3d54ec27648d952fce1dd87b68",
+          "source_evidence_sha256": "ed290465cb34a4f2c8716a4c3610cb63e5b9b19eb19d41b173ac3626b3f7f6af",
+          "cohort_item_sha256": "ffa80a95f6f53d84edf434a647c945fa65d42cd1b9b3cde11f0add2a42d25cb5",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "5cb803fd0754f3be41ffab67e8853093368403bacdcedfd7088ddec097a9e1e2"
+        },
+        {
+          "line_id": 33036,
+          "scroll_id": 674,
+          "scroll_label": "11Q10",
+          "reference": "11Q10 11:8",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 9,
+          "source_condition": "reconstructed",
+          "source_available": true,
+          "source_hash": "b7cfea22795cb7526abee92dab2e1b1119272b9d0b9a31a54e3ff46a268e701d",
+          "source_evidence_sha256": "f3d312f3692056dc1989ac048e59fbb2773d6a96fd50bd4657cf8e100a9e9898",
+          "cohort_item_sha256": "778d78adfacaad19be4e4fb1f25f9d255971bfbcc0990bac6332357ad380f0e5",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_validation_error": "translation contained forbidden source-script characters: 'ε ε property and honest he will divide'",
+          "queue_item_sha256": "27eef9340ff62c1b557393e2a0283f25e4bf536f4ecba96cddf82b9cad10384b"
+        },
+        {
+          "line_id": 33059,
+          "scroll_id": 674,
+          "scroll_label": "11Q10",
+          "reference": "11Q10 14:1",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 10,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "a9965808d1eb3ced8739dde6f7c1ebc5945e7c9d5f04f8a208f9161aa4ff0b78",
+          "source_evidence_sha256": "aa2ea7afd842a642488127ba3ac70da6944a2966f96b11a546f2ac5b63f6cac1",
+          "cohort_item_sha256": "62a8dd6e3563c652473c3e37ea46725475cf979e88d133a11524c46fcfa9e1f4",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "e8d220bd794172cf182d6ccf5f583ce406cba2072e6e5983853fc9f0fa3a4610"
+        },
+        {
+          "line_id": 33094,
+          "scroll_id": 674,
+          "scroll_label": "11Q10",
+          "reference": "11Q10 17:6",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 5,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "4637aad6da158d7c8eb7746e69445fa7795dbd5103020e47ae0f2e47df6b9fa4",
+          "source_evidence_sha256": "628248fcdc9cbc964ee855682272b3db8b273278a72af5415a40a0a5ad2b81a2",
+          "cohort_item_sha256": "e53bf2733b382fe9ec8856155ccf17b904726045ac1ea28bea0f7995e01aee86",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "12ac86c7143456556ade55a904a5a7dcd980f06fef75aeb2a3709259af33dc8f"
+        },
+        {
+          "line_id": 33186,
+          "scroll_id": 674,
+          "scroll_label": "11Q10",
+          "reference": "11Q10 27:2",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 12,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "5d1c9cf24a25182b1ba229f4af102baf1bb2413626b4ca64f821678940794805",
+          "source_evidence_sha256": "b29973360c68160df5390c3614f78ed8755fd1ca2d594a36101af7f720a59832",
+          "cohort_item_sha256": "dc1fbfdb6b560d2da5e732fdf0a6a8ce113f86f1b75580483e879e90f91fe2df",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "b5da293d0c8c18a23506c0023724a272d179d4e0bf97240199068d08cb74c3f9"
+        },
+        {
+          "line_id": 33244,
+          "scroll_id": 674,
+          "scroll_label": "11Q10",
+          "reference": "11Q10 32:10",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 11,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "d2d81caac17af8ee068c59428764b4d4f9f06698315f13b99c1ecd61e4f1d3c3",
+          "source_evidence_sha256": "0e0fbac3d95e701a4a7248fc6e73b09738d9fe4c18d318464dcd10dfd01d7887",
+          "cohort_item_sha256": "bd248df1f0683f38b4eecf494ee9a1f6551cf46d449230c6e6f3e3087a160f68",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "b838818659867a073c8031e7d90089a40ac328fc410db549ce8d618af6f14a9d"
+        }
+      ],
+      "record_sha256": "87bcfd3d6be64c16f4786efbf90e5d9be677e1bb191970a4e2131da157097204"
+    },
+    {
+      "catalog_id": "11Q18",
+      "label": "11Q18",
+      "path": "/m/11Q18/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 246,
+      "lines_with_text": 246,
+      "detached_line_count": 246,
+      "queue_line_count": 2,
+      "prior_status_counts": {
+        "valid": 244,
+        "planned": 1,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 33858,
+          "scroll_id": 682,
+          "scroll_label": "11Q18",
+          "reference": "11Q18 f13:5",
+          "source_languages": "Aramaic",
+          "word_count": 11,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "7ffb78c46c8ef180abf7ab114b80a567fea954b1b891ad64c511dbc205f33be5",
+          "source_evidence_sha256": "e0f4718b2fbfd62ea9f4a2767986bb361b079d856a835c1c45b7c4ae3107cd30",
+          "cohort_item_sha256": "451b3bd206863f2ae89edbd846641b44127bc2d450dbe08aded7a266f926250c",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "3fa3afda02b08925286483961145a231e7445bff4ea405883473a610f0e08fa2"
+        },
+        {
+          "line_id": 34001,
+          "scroll_id": 682,
+          "scroll_label": "11Q18",
+          "reference": "11Q18 f32:8",
+          "source_languages": "Aramaic",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "5f3f838ff02f2d57a1baebe01b0c2aaa1f1e54de9fd36340f4194776efa6b838",
+          "source_evidence_sha256": "35744563ca0e7e55cb311ccca9451ce0a7549dacd0d48c63a06c0c2f2055fa34",
+          "cohort_item_sha256": "b31dc4957702b86c47fc26cc05c77b69f2840995f7711bb66e27630cdff83060",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "71576fdb0416fa0f63935423a52e872d02f3ab3eabf724f8df3686e666f33f7f"
+        }
+      ],
+      "record_sha256": "ed851e8564f17a54d4fb456654f494757026644dba0647c4a288a6dd59c30f2e"
+    },
+    {
+      "catalog_id": "11Q20",
+      "label": "11Q20",
+      "path": "/m/11Q20/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 252,
+      "lines_with_text": 252,
+      "detached_line_count": 252,
+      "queue_line_count": 2,
+      "prior_status_counts": {
+        "valid": 250,
+        "planned": 0,
+        "invalid": 2,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 35155,
+          "scroll_id": 684,
+          "scroll_label": "11Q20",
+          "reference": "11Q20 5:2",
+          "source_languages": "Hebrew",
+          "word_count": 13,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "217642b6602a71a56c0ea76c62fbdc813fd637e0d69711c0cb4eeb0f98bfe6d1",
+          "source_evidence_sha256": "0eaa59485e19415223a0c1001bfc671215dec77a15d4442397edf1f69aa70ea1",
+          "cohort_item_sha256": "96496d23a49a47e25bd132eaf71dace8e185a3de55ba6bab9e2eea49b3c3aceb",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "13ae4a7269b3e895cc9d7e8995cbc5fd1ac6052e3da36cd909d16ad3babd0915"
+        },
+        {
+          "line_id": 35163,
+          "scroll_id": 684,
+          "scroll_label": "11Q20",
+          "reference": "11Q20 5:10",
+          "source_languages": "Hebrew",
+          "word_count": 17,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "d537a0aa06eb7cbb7b0faf3ecd9184b20ec3bad1834405533197503a75bbbde4",
+          "source_evidence_sha256": "02cde1006e170fdd34f2ac5052e260552660a5d56268e43ce27d63da40330df4",
+          "cohort_item_sha256": "b5582cea48fd0b7040cfa27ad74c5fe3a5b0419965e642d675a93c2673de9cde",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "1cbc5d39fa80b37ae0b85b8013b669923063b10c159f594af6ddb57503a7146c"
+        }
+      ],
+      "record_sha256": "30cb4a693722242206aaf0ce2dc178cff9e649558fd95ef58363a4a8ae3117c0"
+    },
+    {
+      "catalog_id": "3Q15",
+      "label": "3Q15",
+      "path": "/m/3Q15/",
+      "languages": [
+        "Greek",
+        "Hebrew"
+      ],
+      "catalog_line_count": 181,
+      "lines_with_text": 181,
+      "detached_line_count": 181,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 180,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 4381,
+          "scroll_id": 88,
+          "scroll_label": "3Q15",
+          "reference": "3Q15 11:16",
+          "source_languages": "Hebrew",
+          "word_count": 8,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "a092eaae2c44069b6c48a465bafc6428e37d85be9e26029c176b839d6450832e",
+          "source_evidence_sha256": "580390c07d2355aabcc4db00fa9eafe08d4e5e9991039ca92fbe0aec66a679ee",
+          "cohort_item_sha256": "22704edeed94f0f3915378756d71bed7863d01f10d1974cef682af78f972b884",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "e9890b830cf74f78eb3403300d91333aebb64e6778abb02c504d7c34d4c4895e"
+        }
+      ],
+      "record_sha256": "c98f70ebb68350f92515e4cc96dec05c67f57ec0a6984920ef7e6a8f200097fe"
+    },
+    {
+      "catalog_id": "4Q171",
+      "label": "4Q171",
+      "path": "/m/4Q171/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 101,
+      "lines_with_text": 100,
+      "detached_line_count": 100,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 99,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 5372,
+          "scroll_id": 108,
+          "scroll_label": "4Q171",
+          "reference": "4Q171 f1_2ii:10",
+          "source_languages": "Hebrew",
+          "word_count": 14,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "29b03bba789eae2c8e051ba594172246ef61bc6d7fedb450cf8b04fc2df250e4",
+          "source_evidence_sha256": "87229a03f29c5452a2319a05b2b00391062bec21f0653eb7d1433fd58c109bdb",
+          "cohort_item_sha256": "9e668af36301686b85f0f5b51fb7a238755a331f9ee0d0ed9b1c197d2d38f909",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "82f78f2e7a8427c8e5c1c76af20d35e06e8bdb2723b16c83e1d60609caad6a54"
+        }
+      ],
+      "record_sha256": "aaf798492b68b94d3ebeebb40660342e2308c93898f8acaa38326a976fb22d41"
+    },
+    {
+      "catalog_id": "4Q176a",
+      "label": "4Q176a",
+      "path": "/m/4Q176a/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 9,
+      "lines_with_text": 9,
+      "detached_line_count": 9,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 8,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 5801,
+          "scroll_id": 114,
+          "scroll_label": "4Q176a",
+          "reference": "4Q176a f1_2:2",
+          "source_languages": "Hebrew",
+          "word_count": 20,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "ded313057507e03d86534083a50ea81ea09548b5e00281a0b8655407bc987027",
+          "source_evidence_sha256": "5f72c0b61d5803dd191b7f5b0c0132fd92c51a58b6f580751805693f8b6d17cf",
+          "cohort_item_sha256": "d021b56cb4fd15ac9c9fa8cb24e6745dda7f68b6723709d59cea0e12b76fb3e4",
+          "prior_status": "invalid",
+          "prior_attempt_count": 91,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "b6cbcb07825ca48eb8ba095503d11c7f131f9a20a13d64a4298eee1e177e9fab"
+        }
+      ],
+      "record_sha256": "52574c16b1e6232e1affbcda5d7d6273f712efcfa43c8d5fc68151a7aa6a982d"
+    },
+    {
+      "catalog_id": "4Q177",
+      "label": "4Q177",
+      "path": "/m/4Q177/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 140,
+      "lines_with_text": 140,
+      "detached_line_count": 140,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 139,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 5892,
+          "scroll_id": 115,
+          "scroll_label": "4Q177",
+          "reference": "4Q177 f14:3",
+          "source_languages": "Hebrew",
+          "word_count": 10,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "45c54721e19ce91c3c27096f2240bd9903ad9a3677f36004e9ea8bca0fd4de03",
+          "source_evidence_sha256": "35d906d39ad602d569857cfc5744a1d142d5bf1fb1b98e4b29ba3e6d74e77e83",
+          "cohort_item_sha256": "b6257d26e29015074984bc1140cf6fd67a16399ad7be474a6a81017dffe36902",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "c2a820c4eb02d6ce9163eb414c66a91574f857f38ce25d328e24c1a45a535d9c"
+        }
+      ],
+      "record_sha256": "ea136ab9f79133c06f6a62051a8fcad3daea2886538397da3abd78fb71a8d958"
+    },
+    {
+      "catalog_id": "4Q186",
+      "label": "4Q186",
+      "path": "/m/4Q186/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 41,
+      "lines_with_text": 41,
+      "detached_line_count": 41,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 40,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 6235,
+          "scroll_id": 124,
+          "scroll_label": "4Q186",
+          "reference": "4Q186 f2i:1",
+          "source_languages": "Hebrew",
+          "word_count": 10,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "ab35b727edb88887d2377c51c7911a0d4b59e025771dbbc513b82e69290c97d8",
+          "source_evidence_sha256": "8030ec05a660907be549a18bf35c17e3c8d2ac59a40fa1ca4b75acc172718a2d",
+          "cohort_item_sha256": "387e1078e8a03194061365a1a851e9e0fe2974f601f725ec536b90d548eeb15a",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "1e873f9d430ec1f13f28c1bff6bd3600d551f9c20ced22f3484aa50633177b63"
+        }
+      ],
+      "record_sha256": "9d6a5a3d02e64848dbdc1a7b28a2edf16b1490ed599db18327a4efae1073ecad"
+    },
+    {
+      "catalog_id": "4Q196",
+      "label": "4Q196",
+      "path": "/m/4Q196/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 166,
+      "lines_with_text": 166,
+      "detached_line_count": 166,
+      "queue_line_count": 2,
+      "prior_status_counts": {
+        "valid": 164,
+        "planned": 0,
+        "invalid": 2,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 6260,
+          "scroll_id": 125,
+          "scroll_label": "4Q196",
+          "reference": "4Q196 f2:8",
+          "source_languages": "Aramaic",
+          "word_count": 12,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "d182591661e6aa2a0081e0193e5f1f6de1db01be1859987179e29af360e65a32",
+          "source_evidence_sha256": "e6a294a39284b306bc701e8cababf51a4382af76c2d8583d81e366ac4494a0c7",
+          "cohort_item_sha256": "6324b5d4c1dae6e8c91e16ab7d82175d5bb76c56451a07ba2a139424ddfe8948",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "24d3ed9aba8431d888459e2c4e7b0badf1cbd25c842fa0e2c000d34c1441b5b8"
+        },
+        {
+          "line_id": 6300,
+          "scroll_id": 125,
+          "scroll_label": "4Q196",
+          "reference": "4Q196 f14i:1",
+          "source_languages": "Aramaic",
+          "word_count": 6,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "01daed561d171ecfec94077dd015596e07f0b6d44b5c58f5705b48436f28f70a",
+          "source_evidence_sha256": "8127204c853f266a8f67ce74642017dc6d3af285a092cacb430cb4a1e963c19d",
+          "cohort_item_sha256": "8acd83bb9a55b6785939293a08831b3b1d4def56af5f1d335dd7a4b164b74248",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "3719c24e12b26d7ce2605c0325b6d3aa2802a1611eec23eb32b8e29cf1b8d14e"
+        }
+      ],
+      "record_sha256": "30be1bf1a446e829a5b0588c0b1fdd53f9a01ab4cfed1a5d103c8da7b8c50c62"
+    },
+    {
+      "catalog_id": "4Q201",
+      "label": "4Q201",
+      "path": "/m/4Q201/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 93,
+      "lines_with_text": 93,
+      "detached_line_count": 93,
+      "queue_line_count": 2,
+      "prior_status_counts": {
+        "valid": 91,
+        "planned": 0,
+        "invalid": 2,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 6615,
+          "scroll_id": 130,
+          "scroll_label": "4Q201",
+          "reference": "4Q201 f1iii:10",
+          "source_languages": "Aramaic",
+          "word_count": 10,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "d43f130ba93156425779cd17b97e436364dbcbc3191c90dc70a7b622c4de6da7",
+          "source_evidence_sha256": "4ba5e511060fa1ea4bba12a334608188fb96e27982c147f1757244a85a9b3af7",
+          "cohort_item_sha256": "d6ec6c16eb3962f5ab963d8b001470d9201ef827e58e399baff7e5a42214efaa",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "d2c38a416c0b37c8c8a0672f34133686c98cac908d9a7814ba3dd2c800393fc6"
+        },
+        {
+          "line_id": 6647,
+          "scroll_id": 130,
+          "scroll_label": "4Q201",
+          "reference": "4Q201 f1v:4",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 17,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "61e53b0c52e548510ca3961752a969f9f79952624fcec239dc893d143ff5b6fc",
+          "source_evidence_sha256": "33ee196f790ad30179447f3a61db651a728ffe635f13220f1281d415bcd10bf7",
+          "cohort_item_sha256": "42691ee5532db479380c255c6f353461757af8c5c62e76a7457b45df7cac1877",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "0680118b00c64c9bdacac5ffb740d5641b475391e58f01b162a35eabfbb9f4b2"
+        }
+      ],
+      "record_sha256": "f74b5f16034704d8451a5f3be53cdf52839f65d79769ddb7258e0591fed0c1d1"
+    },
+    {
+      "catalog_id": "4Q202",
+      "label": "4Q202",
+      "path": "/m/4Q202/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 55,
+      "lines_with_text": 55,
+      "detached_line_count": 55,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 54,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 6676,
+          "scroll_id": 131,
+          "scroll_label": "4Q202",
+          "reference": "4Q202 f1ii:2",
+          "source_languages": "Aramaic",
+          "word_count": 14,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "14d18a1f0b281d5d83975af4255d167c88c99c1de6a4c95a0516ef40c3c72527",
+          "source_evidence_sha256": "71a9dbea78d55df1abba02ddf3f0a77752c4fcefc4586c058b818ecb1732d2cd",
+          "cohort_item_sha256": "05d868fce0ed44b978ed89607369c0b715f0aa936fb1aee22f8324c626230858",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_failure_class": "contract_or_prompt_change_required",
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "86d48e83fd804a99fde2a439b13440ac84074002aff7a20933129c066868321b"
+        }
+      ],
+      "record_sha256": "6fb5829b2d42b4a9c1aae37622266ae1a49f7ef82f5bba6579defb6cc6e0a6af"
+    },
+    {
+      "catalog_id": "4Q204",
+      "label": "4Q204",
+      "path": "/m/4Q204/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 126,
+      "lines_with_text": 126,
+      "detached_line_count": 126,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 125,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 6883,
+          "scroll_id": 133,
+          "scroll_label": "4Q204",
+          "reference": "4Q204 f1xii:23",
+          "source_languages": "Aramaic",
+          "word_count": 6,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "cdfd2a5484f61a99f5251f365e9c3eb05c2625306a9d463d56b3607bee2b3a34",
+          "source_evidence_sha256": "bcc3611120fbc8e8d88659a4a9b4bfa0bffd19b93b2a817c3f46ca85261d7b08",
+          "cohort_item_sha256": "c2acb9e3a38fb22b2dbfb019f6df8cecb7f14638b57781daa8b682ddfd2cce3a",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "705b5cf903f498a63ab0efb160b298af0cb1c7d14a4919e7dcead8e10abc7392"
+        }
+      ],
+      "record_sha256": "a8cb03d4b15eab8812916894db074732f14d3e44fdd6cbdcf2994af232c0c9a2"
+    },
+    {
+      "catalog_id": "4Q205",
+      "label": "4Q205",
+      "path": "/m/4Q205/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 31,
+      "lines_with_text": 31,
+      "detached_line_count": 31,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 30,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 6943,
+          "scroll_id": 134,
+          "scroll_label": "4Q205",
+          "reference": "4Q205 f1xii:1",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 24,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "aeabb32d81b8cc13817302bf093f1d070e76fd22cb51ccb8fb64d39f75b8fe7f",
+          "source_evidence_sha256": "465639c156058f20cbd81d39b447678c55a91cc13c5085d86ea56cb4d63ac415",
+          "cohort_item_sha256": "d5fbc517bc1f71380653a99521531e24c86d41c2e5cf426202cf3ae587666f7b",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_failure_class": "retryable_transport",
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "f994b24523a753451d317e85102150cad23f945bd19c574ac5281ddb461a64f9"
+        }
+      ],
+      "record_sha256": "cce068481598aa352f92fc94355a11664c5a6abe0c23994b70931892164c1e33"
+    },
+    {
+      "catalog_id": "4Q206",
+      "label": "4Q206",
+      "path": "/m/4Q206/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 86,
+      "lines_with_text": 86,
+      "detached_line_count": 86,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 85,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 7038,
+          "scroll_id": 135,
+          "scroll_label": "4Q206",
+          "reference": "4Q206 f4ii:18",
+          "source_languages": "Aramaic",
+          "word_count": 19,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "e205af7b2f8366960e33061fcb2c519dd558a7fa582451395ac749e68e42537f",
+          "source_evidence_sha256": "dddb15ea701a716a8086a57d280f6c64799e699eced567e4a7c4a965ec16170a",
+          "cohort_item_sha256": "e8b7a14a0d2fb77fe578ff925914e8063778a6f57172962200edf3f7c879288c",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "7d9417998b98989d707318c00f136d356e0f2ebbbcf6421f32a5457527481f98"
+        }
+      ],
+      "record_sha256": "4aec227d56c487bfd784a9d08a3ae17c1526444dbbc5b848385f23f83c17fd76"
+    },
+    {
+      "catalog_id": "4Q212",
+      "label": "4Q212",
+      "path": "/m/4Q212/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 55,
+      "lines_with_text": 55,
+      "detached_line_count": 55,
+      "queue_line_count": 2,
+      "prior_status_counts": {
+        "valid": 53,
+        "planned": 0,
+        "invalid": 2,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 7436,
+          "scroll_id": 141,
+          "scroll_label": "4Q212",
+          "reference": "4Q212 f1iv:26",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 18,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "6717ffb382db8a510406ac5670e508cf00b67661affa98570f0498ed8c037b27",
+          "source_evidence_sha256": "9273074f8c40cb5a0cd7d5c811869af7a70cfa49d5404190669b790e11b8b9f8",
+          "cohort_item_sha256": "9e8548d76ce08cc2db0f5f8dabdf82efc484734d7ef25a63dc4c4c694eeaa93c",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "a70693c6fd2fe518fb5fbe7842c9528b1d0fc0c1f3fa96723a8379ad7aaa9854"
+        },
+        {
+          "line_id": 7448,
+          "scroll_id": 141,
+          "scroll_label": "4Q212",
+          "reference": "4Q212 f1v:25",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 16,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "cccde73ec2a07f749300ecf2ab5049e597fbe9811c20e0b362a34d4b510dbfa0",
+          "source_evidence_sha256": "7ccd8e6d5dc3084c93847432e4e264828f7e5b5f987d3fa530570b7b2633de59",
+          "cohort_item_sha256": "d60d90bf164ce8d5a06b2a601943e9c5dbb74138f687135a068b3a52c9fa9970",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "5e6ef1f7d97f11e642eb958e53a66dacba91016c42f8faffd0dd7af0d6ab2166"
+        }
+      ],
+      "record_sha256": "70c80c4919391cbce6266a7a2f763b77521b1603d2659d187bd7ed2f8d62e990"
+    },
+    {
+      "catalog_id": "4Q213",
+      "label": "4Q213",
+      "path": "/m/4Q213/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 57,
+      "lines_with_text": 57,
+      "detached_line_count": 57,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 56,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 7460,
+          "scroll_id": 142,
+          "scroll_label": "4Q213",
+          "reference": "4Q213 f1i:11",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 17,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "420e5e3b8291db45a16ff32420a83821c40e85c7bb3554740085c3bbc2521a87",
+          "source_evidence_sha256": "3940f8f29d82958eb15f7c434c936daffb435768c3e81e1758fc0ee6f8915e24",
+          "cohort_item_sha256": "632807ba71702f5add7fe95057d8e9953093608800067a93a99537c7af8914cf",
+          "prior_status": "invalid",
+          "prior_attempt_count": 4,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "f3931efdbc61cfeeb291e210d48c978d978ef98b69f040328a5be32fd33c2053"
+        }
+      ],
+      "record_sha256": "20ea899fca1f2d6b7f8829959ddcf11f70ee084d5c0f5035dcca311071bdb935"
+    },
+    {
+      "catalog_id": "4Q213a",
+      "label": "4Q213a",
+      "path": "/m/4Q213a/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 44,
+      "lines_with_text": 44,
+      "detached_line_count": 44,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 43,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 7523,
+          "scroll_id": 143,
+          "scroll_label": "4Q213a",
+          "reference": "4Q213a f2:7",
+          "source_languages": "Aramaic",
+          "word_count": 4,
+          "source_condition": "reconstructed",
+          "source_available": true,
+          "source_hash": "a485fd9225b4af0703b27ccc0112e33ef7e3dfff7a4b7763813bd795225e895e",
+          "source_evidence_sha256": "a04f4e3adffdc0140d906a8e33f599245a9c731f9d2fd8c2a2e931e904e04d00",
+          "cohort_item_sha256": "de6bc45824668332a55d11701b0805f41bd7d718070f0bef78ab0cc20964db56",
+          "prior_status": "invalid",
+          "prior_attempt_count": 5,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "078a3f4bc64c10a50b54783d292323e10af3d27ca21f878ed7f78fe5d00e915b"
+        }
+      ],
+      "record_sha256": "88de8d8d405c9b52efa15ebe51763a7c555bc772c65f5cccbd80ece8b7030b1a"
+    },
+    {
+      "catalog_id": "4Q214",
+      "label": "4Q214",
+      "path": "/m/4Q214/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 33,
+      "lines_with_text": 33,
+      "detached_line_count": 33,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 32,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 7570,
+          "scroll_id": 145,
+          "scroll_label": "4Q214",
+          "reference": "4Q214 f2:6",
+          "source_languages": "Aramaic",
+          "word_count": 13,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "caed290897ac22ad97a44cad4f3dee2bdabc58d1833d3e41ae39e97208fffc63",
+          "source_evidence_sha256": "76a853321963bab533080e0863d13f8e5ab192b37ecccee772c07ac5ebeca812",
+          "cohort_item_sha256": "7c15c3bb8eb253b377456fdb54c0202b93abd5d44ab006b027dccdeae98e4f60",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "b8f26c1dfd9cb5cf11e64baa91280ab37c05b389e2defa5874d5a2f3b1164517"
+        }
+      ],
+      "record_sha256": "b3887efb36bb88ac396af4fe8057e7bc8b40e8b7a28aaec0dfc9e7e929e7ae06"
+    },
+    {
+      "catalog_id": "4Q214a",
+      "label": "4Q214a",
+      "path": "/m/4Q214a/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 17,
+      "lines_with_text": 17,
+      "detached_line_count": 17,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 16,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 7596,
+          "scroll_id": 146,
+          "scroll_label": "4Q214a",
+          "reference": "4Q214a f2_3i:4",
+          "source_languages": "Aramaic",
+          "word_count": 15,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "9dd964351b48cee4f9b0b6aafb21d64e61bb98d13cef9c85bbc882c9dac5cb09",
+          "source_evidence_sha256": "43e4b327e897e211d1adb45f904226208b2cd615dee8bd568c4f6d8820679f8e",
+          "cohort_item_sha256": "981ce39d76e588b9f4c7c52c48dbf4d23cd040dc89ea7ecb0c2a211dc8acdba0",
+          "prior_status": "invalid",
+          "prior_attempt_count": 54,
+          "prior_failure_class": "contract_or_prompt_change_required",
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "68ca4f315ccef50a767221190937b971f3145c4a55ad5e711c0b02d0082609fd"
+        }
+      ],
+      "record_sha256": "38af01b6ea2a7421e34aa1854f8a2af0814d2844d91a358137a74acca6282651"
+    },
+    {
+      "catalog_id": "4Q214b",
+      "label": "4Q214b",
+      "path": "/m/4Q214b/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 23,
+      "lines_with_text": 23,
+      "detached_line_count": 23,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 22,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 7616,
+          "scroll_id": 147,
+          "scroll_label": "4Q214b",
+          "reference": "4Q214b f2_6i:7",
+          "source_languages": "Aramaic",
+          "word_count": 20,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "2e26e712e27a49c674e5c9ef5b8d5bc5a97fa1d4ff04dda1f8005014b264930d",
+          "source_evidence_sha256": "5a1d041d9b50c22e0edd7be8a4588336ca53d3de61b0a09837ad883a9b2720f3",
+          "cohort_item_sha256": "f2e03a199a13215a5d6be03867180f13122817e5cba79e55cf025d3c515fc308",
+          "prior_status": "invalid",
+          "prior_attempt_count": 28,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "7431ee08eaed084075f005dedc838a750e26b554c14e4a0069d3760f3ddfe44b"
+        }
+      ],
+      "record_sha256": "30125eb54850684cb37a484aff990011063a524f426cc8a3a973e6e1c3b19e7c"
+    },
+    {
+      "catalog_id": "4Q246",
+      "label": "4Q246",
+      "path": "/m/4Q246/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 18,
+      "lines_with_text": 18,
+      "detached_line_count": 18,
+      "queue_line_count": 2,
+      "prior_status_counts": {
+        "valid": 16,
+        "planned": 0,
+        "invalid": 2,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 8577,
+          "scroll_id": 170,
+          "scroll_label": "4Q246",
+          "reference": "4Q246 f1i:5",
+          "source_languages": "Aramaic",
+          "word_count": 7,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "16aaffb3aa89e7449535ed8541218ddb9b20b4b724e1f933c4c604c9e61f44b2",
+          "source_evidence_sha256": "9a2658b013b388554982c6799e9481a910ab11c48c0d52d84d7e7463b70c6ae8",
+          "cohort_item_sha256": "fd70c1c99ca40c229fe74ff8303ea7461bb4c79de5ed555d2a8adb3829038806",
+          "prior_status": "invalid",
+          "prior_attempt_count": 49,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "1e080da6f64f0d66ce1a24161b218954ac496e2178e6bf0aba57f103102d7831"
+        },
+        {
+          "line_id": 8587,
+          "scroll_id": 170,
+          "scroll_label": "4Q246",
+          "reference": "4Q246 f1ii:6",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 15,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "3f0c873ae0d0fe2bd86929f4df223e202e8eae4915621b3e30afb4391dbf306e",
+          "source_evidence_sha256": "69e615a167a7d709d99a7ed781e7164411bd0713f44ee1f12a6d509e7f317b16",
+          "cohort_item_sha256": "c292f482608ec527082acc7ea4909ac02e7334753e11fb40bf6a72343409e1eb",
+          "prior_status": "invalid",
+          "prior_attempt_count": 48,
+          "prior_failure_class": "contract_or_prompt_change_required",
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "05e689cb6e9e1d29246778b99b79b470ac6bf919b5a22ddbb55effe96d1b5c3a"
+        }
+      ],
+      "record_sha256": "17bb1790e07d32bebe6bab94a3167d24a24f606fc6bd7e4f85ce2fc07c906b2a"
+    },
+    {
+      "catalog_id": "4Q255",
+      "label": "4Q255",
+      "path": "/m/4Q255/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 25,
+      "lines_with_text": 25,
+      "detached_line_count": 25,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 24,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 9593,
+          "scroll_id": 217,
+          "scroll_label": "4Q255",
+          "reference": "4Q255 f2:1",
+          "source_languages": "Hebrew",
+          "word_count": 11,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "0db4046d2e7cd3e5997b6bbd87787e4cef2ae665c77042a822f342e2672aa695",
+          "source_evidence_sha256": "92250d6b431805b972199291b66ae6209be2911b281bedfeb9903ee3fc7c813d",
+          "cohort_item_sha256": "0725605244fc94507699b2ac7c6ffbb7af4c9af6ab73e217e2a6f553d91c0c00",
+          "prior_status": "invalid",
+          "prior_attempt_count": 17,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "aa21d2c5cdc16faac36ede4e26fe09d407f54c07689a81a395c66d1bb366d2f3"
+        }
+      ],
+      "record_sha256": "a2878601c3085db8bf82f469cf223f17426f5eca0b3f83b3cd1bd92d89d8130e"
+    },
+    {
+      "catalog_id": "4Q256",
+      "label": "4Q256",
+      "path": "/m/4Q256/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 59,
+      "lines_with_text": 59,
+      "detached_line_count": 59,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 58,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 9647,
+          "scroll_id": 218,
+          "scroll_label": "4Q256",
+          "reference": "4Q256 18:1",
+          "source_languages": "Hebrew",
+          "word_count": 20,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "24b984d704c33c8d95f1c0971ff6d3617abbaa740d8bed5e71de8439e4027570",
+          "source_evidence_sha256": "221731fcb82265cbe6580e324bfe441b7344078269838ae9283fd2d23aa1023a",
+          "cohort_item_sha256": "29ae0cceb312abe352de983cab1cafa5b5ee82b2ca87b9051957ea5e51ce95ed",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "c7d25aa80c4aedbde4518cecdb49c48f11d560761783ca3c21d856a86fe44283"
+        }
+      ],
+      "record_sha256": "2ca0e0108f42070e3a30e0ee0f8c1708f08f0efcce15c58e5cd7b85c7239cf7f"
+    },
+    {
+      "catalog_id": "4Q259",
+      "label": "4Q259",
+      "path": "/m/4Q259/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 54,
+      "lines_with_text": 54,
+      "detached_line_count": 54,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 53,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 9814,
+          "scroll_id": 221,
+          "scroll_label": "4Q259",
+          "reference": "4Q259 2:4",
+          "source_languages": "Hebrew",
+          "word_count": 16,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "4c1cd2da8469dd213a90a8995f0f7df20a5bd19dd69b83e1c8580aa3b49482e9",
+          "source_evidence_sha256": "42b8dcee62a33818af41b0d9b4e0c56f3c341c6f80debcf4a37c83c2d8a5f472",
+          "cohort_item_sha256": "b534d140ed283e838fe2b7347d729594ba40e95a77a4bd89d9c53b2a497b6739",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "11aa11baee51bb9b95ef40ffdba22a5029b4a2f16916ae3b1474cfd560c84baa"
+        }
+      ],
+      "record_sha256": "01748a2391860bdb60f0ac8c6ddae3e82c6f31858d6bfb9d6169d5793e1950ce"
+    },
+    {
+      "catalog_id": "4Q261",
+      "label": "4Q261",
+      "path": "/m/4Q261/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 43,
+      "lines_with_text": 43,
+      "detached_line_count": 43,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 42,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 9891,
+          "scroll_id": 223,
+          "scroll_label": "4Q261",
+          "reference": "4Q261 f2a_c:3",
+          "source_languages": "Hebrew",
+          "word_count": 14,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "d97730dc7462dc8327e09caa3abf5f6700bae76d8a6e3c25988becfe029bf4ad",
+          "source_evidence_sha256": "83e65b279da2139e2bf06977550eb305281bfa59dc2a642d480b3766eed76ce6",
+          "cohort_item_sha256": "0a32ae93aa80061956f78aa0a15f4783666904c482e2c8d503cf463bd99b2858",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "48989c6c82c1be2b2739f41022e8ef331f33413f3788520ecc43803d24e5a985"
+        }
+      ],
+      "record_sha256": "941abd87a30ca7a5d2dc19f24a343f8b6be032d57140c9670e04238da57e459d"
+    },
+    {
+      "catalog_id": "4Q267",
+      "label": "4Q267",
+      "path": "/m/4Q267/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 162,
+      "lines_with_text": 162,
+      "detached_line_count": 162,
+      "queue_line_count": 10,
+      "prior_status_counts": {
+        "valid": 152,
+        "planned": 10,
+        "invalid": 0,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 10628,
+          "scroll_id": 230,
+          "scroll_label": "4Q267",
+          "reference": "4Q267 f1:2",
+          "source_languages": "Hebrew",
+          "word_count": 4,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "44fc008e3f558fab23987abd2ff4464c4085acac41822913821e074da77e3abb",
+          "source_evidence_sha256": "9cab880b1a9669fba773487013ad58dbb5df5ac3f6d11808d9f974df5f17affa",
+          "cohort_item_sha256": "c65a2e8394093eea2339983badeafa99cb90b4545606fecab2d055fba0d55245",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "188f44216efd6dc1ce61593f30dcf81c20ddb176ee042646f7852cc887be5149"
+        },
+        {
+          "line_id": 10654,
+          "scroll_id": 230,
+          "scroll_label": "4Q267",
+          "reference": "4Q267 f3:5",
+          "source_languages": "Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "fc9bffa21ba8250de23204fabcc1c0bbd0a019cf3e605cce6902411b4931d178",
+          "source_evidence_sha256": "292ecfef2c063e2f10d1f17e9c464682963896440c1b75e70920227f2a256e17",
+          "cohort_item_sha256": "4f5a54b473a2e1ef4d412a24fe5603aff32458e0ea2afaaca0eb81c1e7dfadbd",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "b2fd1318c8ce0416bc29d8c700ce2f90e186ca0c7d3b7e7ff101b0e30218b506"
+        },
+        {
+          "line_id": 10661,
+          "scroll_id": 230,
+          "scroll_label": "4Q267",
+          "reference": "4Q267 f4:5",
+          "source_languages": "Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "fd950c034ecacbc31e625cd4ce228d371fb7c587b69397653c853ef1e1df4781",
+          "source_evidence_sha256": "e6a5a620db15bababe35a97b9e1fc82de53420b4b6590cb0b1d72d0aa4ee4a64",
+          "cohort_item_sha256": "7198847c23f5d84fde17ab215998b83c2f078a307ee75b975465500c773439e9",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "80d7e24c2de556e1ec31a1d33eafaa9f305de7338689160a300738481eef0586"
+        },
+        {
+          "line_id": 10664,
+          "scroll_id": 230,
+          "scroll_label": "4Q267",
+          "reference": "4Q267 f4:8",
+          "source_languages": "Hebrew",
+          "word_count": 5,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "9bdaab267109b3e91eea2f886fea1032304f53afa13ad9930f80fba49b1c8638",
+          "source_evidence_sha256": "89dff0d5f233e77b150c8ec65f230a33a35accbd0c1a79200124551f96d835f6",
+          "cohort_item_sha256": "3c66a77c51b53fd4b47c607bb0ffca1a97f0cb0b162ba443a43ca55cc16d8bc4",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "0695e4ab0747fa9f4f731848a7447663936841c0687c7d20642a44b950a4f20f"
+        },
+        {
+          "line_id": 10693,
+          "scroll_id": 230,
+          "scroll_label": "4Q267",
+          "reference": "4Q267 f6:4",
+          "source_languages": "Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "752131f27ef8733b4b448386b51554b3e60aa306d380f97f0cdaceb1516c5287",
+          "source_evidence_sha256": "180633486d6bce3ba363198d7353433844cec0c3ceb5760c5e291842767f3390",
+          "cohort_item_sha256": "ec3ca3cf2f02a2b6480909f7f37dd05e9553ab67dd2cf5584d421eb983c7da02",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "c3107bef5250225742ea9131d0dbb084c0400bc2648d9b2edf7b8893faf2cc1e"
+        },
+        {
+          "line_id": 10704,
+          "scroll_id": 230,
+          "scroll_label": "4Q267",
+          "reference": "4Q267 f7:8",
+          "source_languages": "Hebrew",
+          "word_count": 1,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "a9b0e1cf66136c60f01a911977a559bd1fabe02de0dbac8e0f52e605c43f8dc0",
+          "source_evidence_sha256": "0ba61e3073cbdc199dc9445ccc977f324c13269d8d3d69f50a7bab1b317d249d",
+          "cohort_item_sha256": "97a7ccdc3fde406791934a4ef393c5890a4f54a5a2ec507c8215d388e76a81f7",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "233d13924e85daff7d9294d4b451cb736c9a46c0b0a1e213b0b1937ec12db189"
+        },
+        {
+          "line_id": 10705,
+          "scroll_id": 230,
+          "scroll_label": "4Q267",
+          "reference": "4Q267 f7:11",
+          "source_languages": "Hebrew",
+          "word_count": 1,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "ad202220de0796b1f2c3d82eb52385945ec68d352b8950f3229426f015eabf42",
+          "source_evidence_sha256": "d052358e02c94cd14796e20edf04d1a8ee5592660dfed5727756391dd643d436",
+          "cohort_item_sha256": "76d47bcf44279a158d8d11e9d2cc24f377ed1ab6ecc90b5eaed1816de9e5979e",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "6c68e7378014930719eaf1c077f341f2b74791e9f2a5465166e99e157149a0ca"
+        },
+        {
+          "line_id": 10728,
+          "scroll_id": 230,
+          "scroll_label": "4Q267",
+          "reference": "4Q267 f9ii:5",
+          "source_languages": "Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "285dcb57c6d7a5f95cdeabe85d3752d43092912e2514b47ded69948c8edf3d87",
+          "source_evidence_sha256": "4bd8e135da8627fea0562a8e028eeadef31e9a3e0c8b7672ccb10634df45ee3d",
+          "cohort_item_sha256": "b0e9a56dfb72bef6cce62fd31651d7ca9e04c709ca45da029e46a2cb675698f0",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "9b82b462fcb25537a20f61ffab8ed968b2c38b156203658144e3530c0b3fd5e1"
+        },
+        {
+          "line_id": 10729,
+          "scroll_id": 230,
+          "scroll_label": "4Q267",
+          "reference": "4Q267 f9ii:7",
+          "source_languages": "Hebrew",
+          "word_count": 1,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "ec95fafcc3b16ccedb222c3551472717d12ca2b8d35dff1a7741bef3efd760e0",
+          "source_evidence_sha256": "0036d0289901e115503022cd7e936f829314d595cf1d2b0d1e0873e89673f503",
+          "cohort_item_sha256": "ae2e20de0e18479d549a8fb7e0651a28ac9563ee53235c6d9250deedd0d54218",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "831fd68be99717bb8f978e4b926a3e0fb4fd8adecd5dd8a19526b7811b36f8a8"
+        },
+        {
+          "line_id": 10778,
+          "scroll_id": 230,
+          "scroll_label": "4Q267",
+          "reference": "4Q267 f15:2",
+          "source_languages": "Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "438aaacdfa9055b567a7fa6f2500a9fc76d9fe9b835acd918271a0e4ae12466d",
+          "source_evidence_sha256": "784e68aeec95777c57d116aadd06964d72bcead3bccd968cffba9a996265c8b1",
+          "cohort_item_sha256": "661b84d28f45d1938e07929c5d951adcb35318b1db3832216f033263076a27dd",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "c15cc056db9f222296901aae7fead97d83dcca1b0613bb118ed301b8d0136e2e"
+        }
+      ],
+      "record_sha256": "25b992eee66dd7d58f297544177b4aaf4f57d2c7e659ba0637b94f11fb9760f8"
+    },
+    {
+      "catalog_id": "4Q27",
+      "label": "4Q27",
+      "path": "/m/4Q27/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 449,
+      "lines_with_text": 447,
+      "detached_line_count": 447,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 446,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 42714,
+          "scroll_id": 808,
+          "scroll_label": "4Q27",
+          "reference": "4Q27 f75_79:6",
+          "source_languages": "Hebrew",
+          "word_count": 20,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "be8dd0de540deb3a7d06ce61b61c02d455c04660bbcadeb267f2cbb665efd39d",
+          "source_evidence_sha256": "e1f38816421092e0aca783d6216557f487a38b365de6b7af046338b96aba7c78",
+          "cohort_item_sha256": "98035115d0e1b4556765a476bb7be0aff62ad9fc85096f76f366b83017c2e173",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "dd0b03416094851886ced76650ac0963a6759382c8758e35f24057c4fa2b265e"
+        }
+      ],
+      "record_sha256": "e8c3de151368629d57826c319f0e7e90844aae941b62f7cca8c06cf89a83d0fd"
+    },
+    {
+      "catalog_id": "4Q270",
+      "label": "4Q270",
+      "path": "/m/4Q270/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 194,
+      "lines_with_text": 194,
+      "detached_line_count": 194,
+      "queue_line_count": 2,
+      "prior_status_counts": {
+        "valid": 192,
+        "planned": 0,
+        "invalid": 2,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 10975,
+          "scroll_id": 233,
+          "scroll_label": "4Q270",
+          "reference": "4Q270 f3ii:13",
+          "source_languages": "Hebrew",
+          "word_count": 16,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "be4c29b5e966f26d7024273b6250d761516e74b2b4ae751ceeb03a7213da27d0",
+          "source_evidence_sha256": "1e643f55a7570a2241c187a656e7ecd510447f5d4fc45535003b9c6c7d84fbd6",
+          "cohort_item_sha256": "965e86f3185a2da5278c8a6c5dc8f479b0d17ac858fb8acbe86f0bd0ed67af6e",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "31aaf4b6c47ef3461fe82dde5f02b44885cbbd967aefcd32d90139a884d10162"
+        },
+        {
+          "line_id": 11017,
+          "scroll_id": 233,
+          "scroll_label": "4Q270",
+          "reference": "4Q270 f5:15",
+          "source_languages": "Hebrew",
+          "word_count": 16,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "7881ce49abbd794f97607c18228406522cfb9aca7f4214847b5d1bbc94efd420",
+          "source_evidence_sha256": "387e12a77c7563af119431b3d9aaf2c75adc8628e1ca7664668c8a6a8bcbb20e",
+          "cohort_item_sha256": "89f8ba8bd4e16d8518c62b1a7d5094aa456a9f3dc353a5e9bf1c52d07f31113d",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "4ccafa2e82015b88a6c9a83d33b65544c425a00179ed9720508da00dccb6e656"
+        }
+      ],
+      "record_sha256": "aa05fc06266f6601c3c9cae20d57d63ffdbcaecbabfc3be540af11a8f28de996"
+    },
+    {
+      "catalog_id": "4Q274",
+      "label": "4Q274",
+      "path": "/m/4Q274/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 53,
+      "lines_with_text": 53,
+      "detached_line_count": 53,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 52,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 11329,
+          "scroll_id": 237,
+          "scroll_label": "4Q274",
+          "reference": "4Q274 f3i:9",
+          "source_languages": "Hebrew",
+          "word_count": 9,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "0454a596116cee33c5cd516011b72d201c19939857ebc78397938acfaa8e6442",
+          "source_evidence_sha256": "b1662b10ee6020af5fb8a49432c5a766119ed4e0ff6d006f82fb756883ea1ed1",
+          "cohort_item_sha256": "b6fb1f9f4ef5d86b112461ec80fe1ee69e4ff7a405d0266e2f3b61759e946b54",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "3175d863968b78e8ad38c273e55b6800e1914c4c7c14dd1d8c88383118ddda93"
+        }
+      ],
+      "record_sha256": "23b06ca5411e63243db1915f2f2d60fed0acca1382b224a318f5dc537fdd3a8f"
+    },
+    {
+      "catalog_id": "4Q298",
+      "label": "4Q298",
+      "path": "/m/4Q298/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 48,
+      "lines_with_text": 48,
+      "detached_line_count": 48,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 47,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 11946,
+          "scroll_id": 282,
+          "scroll_label": "4Q298",
+          "reference": "4Q298 f3_4ii:3",
+          "source_languages": "Hebrew",
+          "word_count": 9,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "86febc1faef0ef4ab87a6da72555db9bb26083313dd86f8bf29e8c7fbb4c5d1c",
+          "source_evidence_sha256": "b853cdcbdf1332cf3f951bf74a9da7f2fad45046d01e384c0bcbae4fedebd6bb",
+          "cohort_item_sha256": "c72e3c9bb98ccd8aa643a88a4f238b004439885c6a7d402839f962a6eeecc365",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "7b1ad2ac744e1ecc9e65132b51023e88b5e960a6c76c380920aeb35e07a89f59"
+        }
+      ],
+      "record_sha256": "8a31613c15c91d15bab222d9fca23b0791feb40dfb03d2f1079c3a4ce4a19e0b"
+    },
+    {
+      "catalog_id": "4Q317",
+      "label": "4Q317",
+      "path": "/m/4Q317/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 347,
+      "lines_with_text": 347,
+      "detached_line_count": 347,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 346,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 12808,
+          "scroll_id": 295,
+          "scroll_label": "4Q317",
+          "reference": "4Q317 f2:23",
+          "source_languages": "Hebrew",
+          "word_count": 4,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "83d0064d8206b1ca34ac05e5437dce47d5f2fa0675775a52aef8aa6d3b0b2190",
+          "source_evidence_sha256": "c2b933bf32818f161959f4059b53c782a03743e898484f618ab4215c00543bd9",
+          "cohort_item_sha256": "1afa3c9a9b8f631565031ea04c3cd404bd8dfb2d7004e39f1b405cc63c364dd2",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "cc5b6295a10c76ab28b1ece0161a6bf4f33448cd71b0c506d970223f8131b461"
+        }
+      ],
+      "record_sha256": "ed46724d9ba9a78e6468448b030a571578c81947e7052666e564f66d9da192b1"
+    },
+    {
+      "catalog_id": "4Q318",
+      "label": "4Q318",
+      "path": "/m/4Q318/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 31,
+      "lines_with_text": 31,
+      "detached_line_count": 31,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 30,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 13112,
+          "scroll_id": 296,
+          "scroll_label": "4Q318",
+          "reference": "4Q318 7:4",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 19,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "34954d9e834697ffa9a0cfa6a4b5d8abf4b000884c507de646b7c8b3b0eda703",
+          "source_evidence_sha256": "130272430b66f3ce466d5b0588679ae730ffc948a4f7c9cbf6b8e99bd188eaa8",
+          "cohort_item_sha256": "0f7f0c24022b75ad546c50d184e43ca077776f2e24eebea4dd6f967285d1641b",
+          "prior_status": "invalid",
+          "prior_attempt_count": 4,
+          "prior_failure_class": "contract_or_prompt_change_required",
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "e3facc86724bbe96ccf05441deb70702c1e08bac052f1d85f173b2465ce2af01"
+        }
+      ],
+      "record_sha256": "65b7a1ff82e025b29d14ee34bd2e0f11d0a8319f1f3e72a1b08d46ade8526afe"
+    },
+    {
+      "catalog_id": "4Q320",
+      "label": "4Q320",
+      "path": "/m/4Q320/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 129,
+      "lines_with_text": 124,
+      "detached_line_count": 124,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 123,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 13422,
+          "scroll_id": 298,
+          "scroll_label": "4Q320",
+          "reference": "4Q320 f4v:3",
+          "source_languages": "Hebrew",
+          "word_count": 9,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "2bc01b3c388b1a3e388546741b98b067f927a7df7850964422a2b05a4c708f3c",
+          "source_evidence_sha256": "d9c97785f1509392023cadeab65882c14455aad1237028eb1778dbb070e76266",
+          "cohort_item_sha256": "2b185663281708c0118b481fc839a82b90152d2761696b0b20422d66ef22d1a4",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "51765ecd48e0ca4f2441410ae0a20edfc8c588628ed0f58aa508932fd00ca339"
+        }
+      ],
+      "record_sha256": "701245442f6433982178695b2657c2ae2bef60400e1c5707e04937019927505c"
+    },
+    {
+      "catalog_id": "4Q364",
+      "label": "4Q364",
+      "path": "/m/4Q364/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 405,
+      "lines_with_text": 405,
+      "detached_line_count": 405,
+      "queue_line_count": 3,
+      "prior_status_counts": {
+        "valid": 402,
+        "planned": 3,
+        "invalid": 0,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 14443,
+          "scroll_id": 349,
+          "scroll_label": "4Q364",
+          "reference": "4Q364 fF:1",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "dc2f258367a309e977940e3b3f253eff30154597625914302ebf331a60b4be10",
+          "source_evidence_sha256": "876fc586641566d1378676329c2be3917f2099a30f789f0588fe8ca52b1e23d7",
+          "cohort_item_sha256": "f7930fcc2ae623ee9d737910fd05b0723bfe769401fc71ee1319e02e710d7405",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "7ff84202925894f3406ff1c8036866e7d8165f873e2e37705ec0683bc45e9aa6"
+        },
+        {
+          "line_id": 14464,
+          "scroll_id": 349,
+          "scroll_label": "4Q364",
+          "reference": "4Q364 fQ:2",
+          "source_languages": "Hebrew",
+          "word_count": 1,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "37055464106f537f253b6e2577e5ac390481653e49ac7186d207a09aedd770ee",
+          "source_evidence_sha256": "606278e91ffad88bb17325533a81c6e1c036770f3128bd14a2cbab4f115e85e4",
+          "cohort_item_sha256": "899e0dafb34fb84125e00a0ad6092a84859d3807d8207afaf3309438e32a40f2",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "193f164acbd08eedd7e05f82f1a3576dbc9812a300c1d60a442147c939a42edc"
+        },
+        {
+          "line_id": 14465,
+          "scroll_id": 349,
+          "scroll_label": "4Q364",
+          "reference": "4Q364 fQ:3",
+          "source_languages": "Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "e0859f43f96f8a4839c81f070ab856bc41baec9456bfd905aa69e6706cfc48bf",
+          "source_evidence_sha256": "8c8c387577f096781f045f9dafcf3855f0e379b5632f4e1eaf21408b228f8cd3",
+          "cohort_item_sha256": "130b0e01896ab7ad7a1346174efd67795ef3ec9b1ed2e3aa6620c9e62f192615",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "d6c981a5e4c1a76a443aa0107f2a33f0730aee0acf7a39bfbb6f1e0534278b4e"
+        }
+      ],
+      "record_sha256": "5f210ea604a5cb9c616df204cc167dcc99a2d18f2e07631d1cbaa9d3bdfac547"
+    },
+    {
+      "catalog_id": "4Q365",
+      "label": "4Q365",
+      "path": "/m/4Q365/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 321,
+      "lines_with_text": 321,
+      "detached_line_count": 321,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 320,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 14598,
+          "scroll_id": 350,
+          "scroll_label": "4Q365",
+          "reference": "4Q365 f12a_bii:10",
+          "source_languages": "Hebrew",
+          "word_count": 19,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "d09f16a5a49fc278c911e91791ded2a364de17764879f65721a30785fef9544a",
+          "source_evidence_sha256": "05d0eac184c8fa554aa8ff19db3882f8fcd859630ca4d10f811365f6e396cc6e",
+          "cohort_item_sha256": "125981bb85ae69eeab9d71cd699eeb8a7b45caa0b051275b2951a67126ab5997",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "59b5e00e151360c84bb4fcf0620331b06d6c94e7e3c512fcc28a446eeee63989"
+        }
+      ],
+      "record_sha256": "5c34afd5716f8606e6727c3247805d79cb4e11285b1de0e3c1384b8477215a61"
+    },
+    {
+      "catalog_id": "4Q374",
+      "label": "4Q374",
+      "path": "/m/4Q374/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 68,
+      "lines_with_text": 68,
+      "detached_line_count": 68,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 67,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 15331,
+          "scroll_id": 361,
+          "scroll_label": "4Q374",
+          "reference": "4Q374 f2ii:2",
+          "source_languages": "Hebrew",
+          "word_count": 6,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "ad0a0cb15b8b1e2a9b9383d349277b1367b934f6aa42c3665c5fdefbbb5cccf5",
+          "source_evidence_sha256": "22555ce7583861b5a76e7e30c77c2c72fff59ea8da1767bb2e56a21827650b45",
+          "cohort_item_sha256": "94979d8e5f1e48090b6f7afa7793f2f41f60c662c81dda8b60f75f2bebc5f367",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "0e04469d1b158f615056fb2e78c2198cce2176cb6d931c7c90af2ceaaaa6986f"
+        }
+      ],
+      "record_sha256": "b0f0a6f3baa1382f6c8058efff6c5e6b35f5a979e180775e9e22e5bed72dd87a"
+    },
+    {
+      "catalog_id": "4Q377",
+      "label": "4Q377",
+      "path": "/m/4Q377/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 44,
+      "lines_with_text": 44,
+      "detached_line_count": 44,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 43,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 15445,
+          "scroll_id": 364,
+          "scroll_label": "4Q377",
+          "reference": "4Q377 f2ii:7",
+          "source_languages": "Hebrew",
+          "word_count": 19,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "2a6651d1a0f371084bc536b0dce879b675b1e48ec8f9cfba3bc5ff88f87edb91",
+          "source_evidence_sha256": "80a1301d7b700135566d41bbaa438b43ef01b4fcecefb534de8d97ba6a012881",
+          "cohort_item_sha256": "6f78dcafe98bf214c6555157218de0f31986bcf08e31fc11da75bd8dc7a3fdad",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "529696a9123534f2ebe7cab8c563354828ef47784d4e1ed8a828495dc021b347"
+        }
+      ],
+      "record_sha256": "3c40a8040deff7f41f4d08e60f82063c70e31f53509e936efab41d20acd29855"
+    },
+    {
+      "catalog_id": "4Q381",
+      "label": "4Q381",
+      "path": "/m/4Q381/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 370,
+      "lines_with_text": 369,
+      "detached_line_count": 369,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 368,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 15942,
+          "scroll_id": 368,
+          "scroll_label": "4Q381",
+          "reference": "4Q381 f24a+b:9",
+          "source_languages": "Hebrew",
+          "word_count": 17,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "484e1aeeba3d521cba7230419baa7758ff64e9c84650c6054d06dddb36d7010f",
+          "source_evidence_sha256": "aaf96080ffab62b23133f6e7a9938a7d422f2607dca28a97dc7fa98ad99b9a72",
+          "cohort_item_sha256": "90efca39a315dc121ba39bb73f1fb64d81d384e779e94f8ce58f8d5f38e00de3",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "225ec025355bea1c18640f2e5e977032e400c9c49d89ece8023acdbc86a312b5"
+        }
+      ],
+      "record_sha256": "f0141a3332e19567f60b2d8525303860bb3dcab3a764ced9f2d2a77027be57b2"
+    },
+    {
+      "catalog_id": "4Q394",
+      "label": "4Q394",
+      "path": "/m/4Q394/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 146,
+      "lines_with_text": 146,
+      "detached_line_count": 146,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 145,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 17726,
+          "scroll_id": 386,
+          "scroll_label": "4Q394",
+          "reference": "4Q394 f3_7i:7",
+          "source_languages": "Hebrew",
+          "word_count": 13,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "885bfde837826467a47ce8fce1da8d4c31e2a980c79fd566349023c3b7939f72",
+          "source_evidence_sha256": "67132b20fc9a4940b759a603429421577ea22cbe0ed90db88d569cc48d51facf",
+          "cohort_item_sha256": "4c98dc9e5c8dbf910c27f3f7820606aff68195a4a7ab05eb432b2bc3df19cf4c",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "30f2fbc044a86b2b8bc04f6ac2d5c43e7667947546d04465779ac9162231fd64"
+        }
+      ],
+      "record_sha256": "ff6d1b317057ab4ec39bf388e12ebb5ef0cf11e7f1cccd34116a288d9a3505ea"
+    },
+    {
+      "catalog_id": "4Q396",
+      "label": "4Q396",
+      "path": "/m/4Q396/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 39,
+      "lines_with_text": 39,
+      "detached_line_count": 39,
+      "queue_line_count": 2,
+      "prior_status_counts": {
+        "valid": 37,
+        "planned": 0,
+        "invalid": 2,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 17804,
+          "scroll_id": 388,
+          "scroll_label": "4Q396",
+          "reference": "4Q396 f1_2i:3",
+          "source_languages": "Hebrew",
+          "word_count": 12,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "7cb365eb9d9ec702b0982e7fa9bf0b27b72eea2e63092fe07fbc6e0279ab2b2f",
+          "source_evidence_sha256": "a13da1888e519ef1467666253aa3616733dd3d3fd9026701ba2c10be19084629",
+          "cohort_item_sha256": "0fe0b06ea0c41e40d5377402275d791ca426ba0717cf3a233f34be6c6801adb7",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_failure_class": "contract_or_prompt_change_required",
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "1a0105d5b2ae5b2fa80eeb8dcb32a48596e4f8db770c9db712019689fd334bdc"
+        },
+        {
+          "line_id": 17806,
+          "scroll_id": 388,
+          "scroll_label": "4Q396",
+          "reference": "4Q396 f1_2i:5",
+          "source_languages": "Hebrew",
+          "word_count": 21,
+          "source_condition": "reconstructed",
+          "source_available": true,
+          "source_hash": "8dbeea48e2d602c3b6d450c6ef98742f9d1bb3588fa9cb0462a2d087314af52b",
+          "source_evidence_sha256": "d0cf53bbcfc9cfb976351abe4b3c4a481996e3f0a2626e3d0cdd176ebf356498",
+          "cohort_item_sha256": "e016b3de3f14a1b6aa4529ab163dfdbd1ed855612c6e68624f448538f680b9cb",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "a552c22fe7b6a5ea3f0588ac3c39415063a5043cc3200ab7fe811cdd4f89d016"
+        }
+      ],
+      "record_sha256": "361e1f58f5b433e4ce22592a3e42e414b2263ed94f81e4e5cf05a71bd387839e"
+    },
+    {
+      "catalog_id": "4Q416",
+      "label": "4Q416",
+      "path": "/m/4Q416/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 137,
+      "lines_with_text": 137,
+      "detached_line_count": 137,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 136,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 19238,
+          "scroll_id": 408,
+          "scroll_label": "4Q416",
+          "reference": "4Q416 f2ii:3",
+          "source_languages": "Hebrew",
+          "word_count": 14,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "63369725d3891a28d91f609902c0537cc509ac0386d838a135300179dca40747",
+          "source_evidence_sha256": "c91b6630c01657f741082189ca7820f565a148eb1480170dbec8979799ef1961",
+          "cohort_item_sha256": "0bc944d6d4e0029e4756b511f0fbb10a889bc1df0285c1427fe1dade2fb0372b",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "f33f8f8fde6f134be0057ec51dc4ff0e4824157cbfd4f0ee927c65c9820ed52c"
+        }
+      ],
+      "record_sha256": "d034249baf16077dccf69e7a7592b472468a2159a8ceddf8dc1011bd094d82a2"
+    },
+    {
+      "catalog_id": "4Q423",
+      "label": "4Q423",
+      "path": "/m/4Q423/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 98,
+      "lines_with_text": 98,
+      "detached_line_count": 98,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 97,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 20944,
+          "scroll_id": 418,
+          "scroll_label": "4Q423",
+          "reference": "4Q423 f1_2i:7",
+          "source_languages": "Hebrew",
+          "word_count": 13,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "0f6b06634cdf154922bf664730bfefa1912463f2a32762e7aa9f94c262baab54",
+          "source_evidence_sha256": "be525bc81fc14b66dde20373426532e73ca7110eb03da6c28db56b14ce9d0ae5",
+          "cohort_item_sha256": "6276b1787418f386cc6953981185f2caeb0fa46511df2317dc6b19715a7c4ab9",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "f3f1921e0d88acff20eddc3a05ff3a350d34a06819d1c1e69ce913506a5165b7"
+        }
+      ],
+      "record_sha256": "568a78a8300060cee7b3a9e628e792f94c4c414545c85943f38e78e5cf305d60"
+    },
+    {
+      "catalog_id": "4Q432",
+      "label": "4Q432",
+      "path": "/m/4Q432/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 60,
+      "lines_with_text": 60,
+      "detached_line_count": 60,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 59,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 21621,
+          "scroll_id": 427,
+          "scroll_label": "4Q432",
+          "reference": "4Q432 f11:2",
+          "source_languages": "Hebrew",
+          "word_count": 15,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "0f76ea57d598a68163f2212179c5ed0b607f1ed3112bb16af61e6ca8f7aecb6c",
+          "source_evidence_sha256": "8b56b6576768a2a529c0824dc3ed42c6e457dbf891d3c5529dc2eecd2fcc3bb7",
+          "cohort_item_sha256": "26180ffe48e02802668f4353161fdb723c531803b749bb9c2b0482b41dfad7a1",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "921060da0cfbf2b02f07d29102566c4860156d29d95d6f3e40a271001d01dd49"
+        }
+      ],
+      "record_sha256": "bd19bf26f758556cf00850b6924322e91ff5d10b5e903ab84b10d7a7e9f4aaa0"
+    },
+    {
+      "catalog_id": "4Q444",
+      "label": "4Q444",
+      "path": "/m/4Q444/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 18,
+      "lines_with_text": 18,
+      "detached_line_count": 18,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 17,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 22030,
+          "scroll_id": 442,
+          "scroll_label": "4Q444",
+          "reference": "4Q444 f1_4i+5:3",
+          "source_languages": "Hebrew",
+          "word_count": 19,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "845a9b9e242c443a832099847a766b30f8beb77eebb85274128b82c363a22fa3",
+          "source_evidence_sha256": "f320c571d71eecaccaf9d4796d7f46bcd179605ee0a2f3efa203b87dae839be4",
+          "cohort_item_sha256": "53931a55a6895fd20740c0b456e0aa18e1be63babe5d2436bd31dd17496718ef",
+          "prior_status": "invalid",
+          "prior_attempt_count": 46,
+          "prior_failure_class": "retryable_transport",
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "e810351a72456c7f78b30fa7d0e81a6a6ca5c13bddf7e00d5a60f98b4f2cff57"
+        }
+      ],
+      "record_sha256": "8c52c9cb7eee65cc13f890b45d75fbf0b83b0b3b5fe3545a270331812923912d"
+    },
+    {
+      "catalog_id": "4Q496",
+      "label": "4Q496",
+      "path": "/m/4Q496/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 266,
+      "lines_with_text": 266,
+      "detached_line_count": 266,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 265,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 23543,
+          "scroll_id": 534,
+          "scroll_label": "4Q496",
+          "reference": "4Q496 f24:2",
+          "source_languages": "Hebrew",
+          "word_count": 4,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "613e3def3ff46a62e2f762cbd7c6b57e8d2f2f1b8a0955f866291f9b32487c4f",
+          "source_evidence_sha256": "b0e0cabe79dffbc0481658d672f7ff331dc813319e0a897c91de12b60cd80aa8",
+          "cohort_item_sha256": "05c48ab0143dca1b75899f71dcc8c3162f1d8a1cfdf83dd6786220cfa9756184",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "64fe2e5f8597c9344d055e2f078713e2a00cbd9097778aed74b502533a9751b8"
+        }
+      ],
+      "record_sha256": "b304cb54bfb295cd5446473eaa3db9ecfef663b0565a0cecc50c7465473b346d"
+    },
+    {
+      "catalog_id": "4Q504",
+      "label": "4Q504",
+      "path": "/m/4Q504/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 363,
+      "lines_with_text": 363,
+      "detached_line_count": 363,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 362,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 25650,
+          "scroll_id": 542,
+          "scroll_label": "4Q504",
+          "reference": "4Q504 f3ii:18",
+          "source_languages": "Hebrew",
+          "word_count": 10,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "eea9318ecd5d039d873c8956286bd2860220a7998f779e1b5e297d7e716d6caf",
+          "source_evidence_sha256": "e62e6f39074e59143cb019fdfcbc769154e2c8f4c406b887ba8e70a83ec652ec",
+          "cohort_item_sha256": "d310a270945cfe3cd47d98833a6a47267e9ce4d562e0329e4a4d11ff24fe099c",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "6861758272c3de04124906bac9ac3d2641743aba4e87f8b5bcda030fccec8805"
+        }
+      ],
+      "record_sha256": "c17a752005becda020bf1054c65f3331820e68e2cd3f305dad1947bf5be8b6d3"
+    },
+    {
+      "catalog_id": "4Q509",
+      "label": "4Q509",
+      "path": "/m/4Q509/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 822,
+      "lines_with_text": 822,
+      "detached_line_count": 822,
+      "queue_line_count": 3,
+      "prior_status_counts": {
+        "valid": 819,
+        "planned": 3,
+        "invalid": 0,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 26808,
+          "scroll_id": 547,
+          "scroll_label": "4Q509",
+          "reference": "4Q509 f218:1",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "982c37410e92198da1bef18b647c38d895e7be140df2dff98949382aa33c3d7e",
+          "source_evidence_sha256": "4f9c5f9774386b2fab06220d302849b9320454ac835f711ea859d80b959a4327",
+          "cohort_item_sha256": "2a237d13444a1ef3fb9512c84c984bc162b245fe857000285a2fe963ef085f8c",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "13d5fcd2794a882ea540cb94eeca8d896d846364c3812ca01e71f76ddf260ea9"
+        },
+        {
+          "line_id": 26936,
+          "scroll_id": 547,
+          "scroll_label": "4Q509",
+          "reference": "4Q509 f290:1",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "582d30fd2f4e36c2fe22b5652f3aaa94e0b3a379ca0a90d32421fc21ac2540a8",
+          "source_evidence_sha256": "7420f1e0fb644800f12047115d95e21de93fc8376a1682d0fdd22e8a9cde90c8",
+          "cohort_item_sha256": "707183ad04ec72c1af22ac1d257a15149eefdf816c4e27c1341d6dcc752bd3ef",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "005aad043080750cc154172c22e2824491e527f45d6879be0e404a673781f112"
+        },
+        {
+          "line_id": 26958,
+          "scroll_id": 547,
+          "scroll_label": "4Q509",
+          "reference": "4Q509 f309:1",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "c3fb24bc7821adc4b7a342dab4fd7f77fdb80f801508dc80ebc7d6b1e84f7061",
+          "source_evidence_sha256": "cc7b728b7ab7872696fe61d85ab2be278c1b917d10b2f7ff363457434b9c3042",
+          "cohort_item_sha256": "06ca8ba290a6ee0f27887fa2b6687320c9d02bd632a51fa236e6da33f6e99596",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "2bd93e962d8c516252d93d045b14ffb584317195adf1079a696786772e53d333"
+        }
+      ],
+      "record_sha256": "50b7a4c702ddef15bb1c6e655f77cd0e7e0d8456526a681ffce6f5c7045d4fbf"
+    },
+    {
+      "catalog_id": "4Q51",
+      "label": "4Q51",
+      "path": "/m/4Q51/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 888,
+      "lines_with_text": 886,
+      "detached_line_count": 886,
+      "queue_line_count": 2,
+      "prior_status_counts": {
+        "valid": 884,
+        "planned": 0,
+        "invalid": 2,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 44497,
+          "scroll_id": 836,
+          "scroll_label": "4Q51",
+          "reference": "4Q51 f47:1",
+          "source_languages": "Hebrew",
+          "word_count": 11,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "01d0a91f3fb284615b060d8c2935ae66f0d255536c354dc8d747f88934d53890",
+          "source_evidence_sha256": "6914c9009a3418af95044719a47d1936e45dd07a2e54cb7ee917edc875035b0e",
+          "cohort_item_sha256": "1aec6418fb4d50b2395cf5833f38632855a19397d7cf82b5388283c2e036916b",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "4545b66c9aa35f75ccdfc820fb027a9b2b207ccd49d6b53793886fc37440d4aa"
+        },
+        {
+          "line_id": 44785,
+          "scroll_id": 836,
+          "scroll_label": "4Q51",
+          "reference": "4Q51 f102ii+103_106i+107_109a_b:21",
+          "source_languages": "Hebrew",
+          "word_count": 18,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "d2a0b18edc9d376d87d6823bfb20ad6773646432668598a4059ee82900bfd9be",
+          "source_evidence_sha256": "04f56025b8e4b696d87736fd1cc890ce915492929fd08049c176ec62a051830a",
+          "cohort_item_sha256": "443d92081f73c253da83682c4d05971af3f6ed5a8df4d8df49f431b246c70a17",
+          "prior_status": "invalid",
+          "prior_attempt_count": 1,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "5bd58fb883230239d5e41c63438cfc16d0fa3f788d99ec65955e9c66d1702394"
+        }
+      ],
+      "record_sha256": "98440aa2fc73be146346cb0386b8662bd1327e16a6c18e6f8d6d1a1d2d1f3030"
+    },
+    {
+      "catalog_id": "4Q513",
+      "label": "4Q513",
+      "path": "/m/4Q513/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 144,
+      "lines_with_text": 144,
+      "detached_line_count": 144,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 143,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 28202,
+          "scroll_id": 551,
+          "scroll_label": "4Q513",
+          "reference": "4Q513 f1_2i:4",
+          "source_languages": "Hebrew",
+          "word_count": 24,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "18fffb9a8e5b737b04af6dc84035145c1be2f4437062259c0646807ef267db25",
+          "source_evidence_sha256": "cb54b5582813d12ac56671fcf16e694d496e83f309dfaa4c9f8616f63cd15f5b",
+          "cohort_item_sha256": "e3627eec4dc65d6ccdddc619f7461aa36987855e4827ab2e2a4c9366365da3fc",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "f45340b90231e0ce073a5ef08fb09237f761a18e71b7f112462ecef2880bd391"
+        }
+      ],
+      "record_sha256": "17cf246548186a6b5165c62ea0a21025692270e744e59ba2d7e5e59c257bd4b4"
+    },
+    {
+      "catalog_id": "4Q525",
+      "label": "4Q525",
+      "path": "/m/4Q525/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 295,
+      "lines_with_text": 295,
+      "detached_line_count": 295,
+      "queue_line_count": 10,
+      "prior_status_counts": {
+        "valid": 285,
+        "planned": 9,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 29020,
+          "scroll_id": 563,
+          "scroll_label": "4Q525",
+          "reference": "4Q525 f2ii+3:6",
+          "source_languages": "Hebrew",
+          "word_count": 19,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "3509f21ee2f4687d3b875c4997079a2ee81ca56e96ca9895f3695e2765112220",
+          "source_evidence_sha256": "549c1fde8d1ab1dbb4b39318e050ba5374d978a3d990508b867b4f69aad87f78",
+          "cohort_item_sha256": "e17ee602a9c4ef5736b75cb64b99c84629d3eb47f0f42b03dc633bdccf13dbda",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "c18df5100a1a8557f1b7c2caad47fcf9475f88bde154e245786e0e63b3aec0b6"
+        },
+        {
+          "line_id": 29124,
+          "scroll_id": 563,
+          "scroll_label": "4Q525",
+          "reference": "4Q525 f14i:28",
+          "source_languages": "Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "f4cf1e32d0b69ae34ac9dc1e8d9907dc9ff13e358bf6807ffe6a62d4d900f3e4",
+          "source_evidence_sha256": "70b6442c41a6007456f6a885bb98a7e65adf8506ef921573d40c7f0e93a5635d",
+          "cohort_item_sha256": "0fa63e294c5b443b9170b75e2f6f967430a63a05d288b224ebca187894478327",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "e9c3a6b1c71af1642fcb7be92aef483ce3c96cde96576b37fd73ef413760083b"
+        },
+        {
+          "line_id": 29141,
+          "scroll_id": 563,
+          "scroll_label": "4Q525",
+          "reference": "4Q525 f14ii:17",
+          "source_languages": "Hebrew",
+          "word_count": 1,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "08e9a1d9748441f660ba8b3e96d6c7a69ef4375b6dcb9f9d2ba02840a1daf76b",
+          "source_evidence_sha256": "d5dd7e5565442424de50fe777af92e67695fffae6199ac7cc5a79b007e4b0308",
+          "cohort_item_sha256": "3ea2eeb77a8592a9dd83080c49573dbf139d13758b77fc0ca08259bc34ec6d3d",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "2a4366e68b17e25489bad279a1820ff015c1c3433558c0f64a73781efdf65712"
+        },
+        {
+          "line_id": 29196,
+          "scroll_id": 563,
+          "scroll_label": "4Q525",
+          "reference": "4Q525 f21:7",
+          "source_languages": "Hebrew",
+          "word_count": 5,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "1e3fe38760b80849d34adaa3c3db2de9b7013f15f852117c75f04647eaf04383",
+          "source_evidence_sha256": "7c7620b1d853d2c2d47c5aea3b0b94cbb47451f4a30b61bf64117e8b617ed567",
+          "cohort_item_sha256": "113d3e8964b23c4435848f061fbecc6cbd938c30a9eeec9730bd1e6693be6037",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "55be3cabf33934f643fd913b19c5c7bf12809053e575db56c78cd5797e3ce62c"
+        },
+        {
+          "line_id": 29218,
+          "scroll_id": 563,
+          "scroll_label": "4Q525",
+          "reference": "4Q525 f24i:8",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "d7990142ff47fe7d0c674717ac0817e5059a2bca636a543101a5ccbca81b5ff2",
+          "source_evidence_sha256": "95286d8c0d7b05d79837b9fd196ecc692e0343ec7a170ec572989e5dadbd04a7",
+          "cohort_item_sha256": "1644dc3a39b0c3c7f2f9133f8fee22c29f17cef5d66cbba954717131bce17ea2",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "7fe1e99102c857353b9e96b819617d3f7230a626b0f0dad504e46febe406a2ca"
+        },
+        {
+          "line_id": 29239,
+          "scroll_id": 563,
+          "scroll_label": "4Q525",
+          "reference": "4Q525 f27:2",
+          "source_languages": "Hebrew",
+          "word_count": 4,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "07d6ef3dbcead0e2f5c1626f1ab06eccee7b8d10acdeae894506b774d89fbfae",
+          "source_evidence_sha256": "6174a9d82f47595df62dfa950c626c0267a416e88df140f44c5de0fb15f7a5e5",
+          "cohort_item_sha256": "f331851ff44cbdaa2447b5180334cf4ed7d4564222aa0912cc5f8fb63073c147",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "044ef868b6727a55816b8adc6917b3bfb3e87090a3fec06254d4b928a3a0420e"
+        },
+        {
+          "line_id": 29291,
+          "scroll_id": 563,
+          "scroll_label": "4Q525",
+          "reference": "4Q525 f45:2",
+          "source_languages": "Hebrew",
+          "word_count": 1,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "37e682c21279ea9c3e156856e8c6543a0a25aee6991f56cefd3ae5cd2e461c2b",
+          "source_evidence_sha256": "e75bc25fd304c1bcf898d7864a57cccd1ba773147b076ad426052c594f9024da",
+          "cohort_item_sha256": "f6e1d950c0096748791aabb86d9bd05534507e68d39c1bc7fe1969197cf551f0",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "11dbb6e45a3c78a6915910ede0860ab711dfec7fb23f44149dc207a7edaac2c1"
+        },
+        {
+          "line_id": 29292,
+          "scroll_id": 563,
+          "scroll_label": "4Q525",
+          "reference": "4Q525 f45:3",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "a0ee7877849f89492d5d6ae00203b3f8f9bdc8af8eab2078f271d5ea5e2ba57b",
+          "source_evidence_sha256": "3ec1d086da22fc30681f17795a8f3f99c70dc1e01a77cf579d6076565e61582c",
+          "cohort_item_sha256": "0726c5c2a8a9f9dcb24121563a50c6c48bee4398a8704871f6c32aaf0a4ba2ec",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "adfb2b72a16344fde03942581129bcc12a121f16d31899bd7f47d7340e68fec6"
+        },
+        {
+          "line_id": 29298,
+          "scroll_id": 563,
+          "scroll_label": "4Q525",
+          "reference": "4Q525 f48:2",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "c743d3498c37752e3bf8bac95f0845d170616965d8b599c5896eaa51e23c6d50",
+          "source_evidence_sha256": "b037cb7d2af96a08d570a5b7a9e2d550580f93bb6ce8694490d14ddd1b68d924",
+          "cohort_item_sha256": "36da9c9deabbcf334729a1605780cf7c3278bd3b1fc6da6e7935a45d1438c87e",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "384adf03db005cb206f4bc957086a7da17c8f465fe78584c5fa5f7302e0b90e7"
+        },
+        {
+          "line_id": 29302,
+          "scroll_id": 563,
+          "scroll_label": "4Q525",
+          "reference": "4Q525 f50:1",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "69ae74aa1e276839437f8d934e87c0e48aff6cbc54003307a2016e6e3db7d95d",
+          "source_evidence_sha256": "1b9e07b69840b3a3156848ca495f6cf95d84c3717181950d0f42b53341f5b79c",
+          "cohort_item_sha256": "fe161f7a9938c4edf7c9a3fe559165324ddbbd09058b7c70b98d2d9dfbb00e43",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "074b770243d8ad8500ecade54ce39cb1c9d9c63a254fee8ebce5a7ad88344686"
+        }
+      ],
+      "record_sha256": "b00ef564983478c8af2f72bb3d4affd151ba07b5629b06d8915297861a4f1932"
+    },
+    {
+      "catalog_id": "4Q531",
+      "label": "4Q531",
+      "path": "/m/4Q531/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 195,
+      "lines_with_text": 195,
+      "detached_line_count": 195,
+      "queue_line_count": 2,
+      "prior_status_counts": {
+        "valid": 193,
+        "planned": 0,
+        "invalid": 2,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 29422,
+          "scroll_id": 569,
+          "scroll_label": "4Q531",
+          "reference": "4Q531 f2+3:6",
+          "source_languages": "Aramaic",
+          "word_count": 12,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "f903f72066e79729bf30ef06b67543b208a889b5003e931ee59f887a8f2464b3",
+          "source_evidence_sha256": "5e282d3d65480dec0dd5ec128e0277de85bfe0ae65f744e61b42d141d0a41d4c",
+          "cohort_item_sha256": "e7fe02d9fce432f9988b9f38f97ba910806d2ffa4a33205e47a1492f811df959",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "81eb24a537b98af71db0d9b6bed00bab4b18e587c753d983beb8a00bdfb52fe0"
+        },
+        {
+          "line_id": 29440,
+          "scroll_id": 569,
+          "scroll_label": "4Q531",
+          "reference": "4Q531 f7:2",
+          "source_languages": "Aramaic",
+          "word_count": 11,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "13bc9791e59059364aa14fd9c18275a44fa975a7e2713a6e0d6679a9307cd124",
+          "source_evidence_sha256": "03733b3749a7a7bfdefb67803fda28fdf271a41f25a1c60b192eeeb6bc869dc2",
+          "cohort_item_sha256": "456e4dfaaebc9a63f721f1f31421604da15d0288ba345137da66cff2129be51a",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "af7ebdeb79324dcceef57a3a84eb1fb92fef031e060bf7d6a94c6a99a86ddb7e"
+        }
+      ],
+      "record_sha256": "d8bc5ffb0799fcd7fe534f30e2b7ea8c9b7dbc54151d5e58cf8bb36e3c2d77f9"
+    },
+    {
+      "catalog_id": "4Q534",
+      "label": "4Q534",
+      "path": "/m/4Q534/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 51,
+      "lines_with_text": 51,
+      "detached_line_count": 51,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 50,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 29675,
+          "scroll_id": 572,
+          "scroll_label": "4Q534",
+          "reference": "4Q534 f1i:10",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 14,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "258b86b044b9172e5143637caaf6482b2c57ec2a9d6f034db4078ec5cc29e570",
+          "source_evidence_sha256": "c2c483fe7230ce0a4850ae4a79c38a9968c55e487c0909eee07873bbc01a2796",
+          "cohort_item_sha256": "4ce2810597fc8ca6dcefbd511d08ab085f326dc922a572696999f94406398730",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_failure_class": "contract_or_prompt_change_required",
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "40f2b93e0797312677daa3c0f23b1eaf9c17217b4d6553811f116a2d369d88a3"
+        }
+      ],
+      "record_sha256": "34e4da8106d889e980b4d1a5ec05ed5f8970cae543706ce95b6844adc39df347"
+    },
+    {
+      "catalog_id": "4Q537",
+      "label": "4Q537",
+      "path": "/m/4Q537/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 62,
+      "lines_with_text": 62,
+      "detached_line_count": 62,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 61,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 29790,
+          "scroll_id": 575,
+          "scroll_label": "4Q537",
+          "reference": "4Q537 f14:3",
+          "source_languages": "Aramaic",
+          "word_count": 11,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "98c0957bbbe1f84240f3e524adfafe125fc3fe183bb24cd8431bdae9326c40ce",
+          "source_evidence_sha256": "c2772c275f0805f8a41c3e02124e0bfaeea77393593e561e43a2a393dbbf4a7c",
+          "cohort_item_sha256": "16ea54ba2182e51eec1f7ba4d1d9811570f048bd880096098b19088a9ecf4950",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "afbda11833543d88f7696cbc598884ea3e08a5320f92b19262fa752089315e94"
+        }
+      ],
+      "record_sha256": "ed37731217545e06b1a429472bb478f6a586694e540e6f882ef92fd61e45977a"
+    },
+    {
+      "catalog_id": "4Q54",
+      "label": "4Q54",
+      "path": "/m/4Q54/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 42,
+      "lines_with_text": 42,
+      "detached_line_count": 42,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 41,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 45303,
+          "scroll_id": 841,
+          "scroll_label": "4Q54",
+          "reference": "4Q54 f5:4",
+          "source_languages": "Hebrew",
+          "word_count": 18,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "865fea034a3f5be1782c0abc0c74b69549560fdbeba0f50182097e9998e8be53",
+          "source_evidence_sha256": "6ff17d6004e782f664929fc593e6836b82ca4e83b09236789bede1d1907acd20",
+          "cohort_item_sha256": "09e620148904be3d23a4735acd21edf76cff7f0721fd19f66584f58dded3fca6",
+          "prior_status": "invalid",
+          "prior_attempt_count": 3,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "606f7162ebcd19a0e99591523f26a0ee520146e768934922e90394aa132f9788"
+        }
+      ],
+      "record_sha256": "337ffc69ae0444daeb2c80dc45b1491dd8b0de130fd543beb3a24b8582e99025"
+    },
+    {
+      "catalog_id": "4Q541",
+      "label": "4Q541",
+      "path": "/m/4Q541/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 118,
+      "lines_with_text": 118,
+      "detached_line_count": 118,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 117,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 29973,
+          "scroll_id": 579,
+          "scroll_label": "4Q541",
+          "reference": "4Q541 f24ii:5",
+          "source_languages": "Aramaic",
+          "word_count": 18,
+          "source_condition": "uncertain",
+          "source_available": true,
+          "source_hash": "83cb449030f9fb3ba37f7a8004192b4b23227bd545565b128e423061e123b39c",
+          "source_evidence_sha256": "1df51630f2ccaa856e6675160951338c8a9ff0b6f68af6de5ed7020fc529ab0a",
+          "cohort_item_sha256": "e9b9d91d33efbd1d9710d1038ed2fb3b5aab0bddc0191e0462056c061a2f70cc",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "a019e7bda917f6d8427653376e16b225b8c19dbb8c1f383bee76c2f8f148df8f"
+        }
+      ],
+      "record_sha256": "a349616131e8efcbdd5c0144ddbd5d758787138f6c4bbb25bc35a8bf78797e05"
+    },
+    {
+      "catalog_id": "4Q548",
+      "label": "4Q548",
+      "path": "/m/4Q548/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 23,
+      "lines_with_text": 23,
+      "detached_line_count": 23,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 22,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 30415,
+          "scroll_id": 586,
+          "scroll_label": "4Q548",
+          "reference": "4Q548 f1ii_2:13",
+          "source_languages": "Aramaic",
+          "word_count": 29,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "3d4256bcc187dc729f45f1c078586bcfe4bd86fecc5b9f564bca57f059cc6d10",
+          "source_evidence_sha256": "6573ba58117efdfb4360dddb5541c04770034006a2c2b287b028151f325c04cc",
+          "cohort_item_sha256": "62d342942a9b5dda4ee2f75fe96373c20c68997cd9662ffe4a906ea0982e581f",
+          "prior_status": "invalid",
+          "prior_attempt_count": 24,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "35d0146a8546cabbc25e71be403d16a4fcc6f605125ae589aa2445b73c4cbc46"
+        }
+      ],
+      "record_sha256": "66f1fb4041b63a1c06a78e450c8dde95145a0438c3b7b8858487f35a5385a3f7"
+    },
+    {
+      "catalog_id": "4Q558",
+      "label": "4Q558",
+      "path": "/m/4Q558/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 341,
+      "lines_with_text": 341,
+      "detached_line_count": 341,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 340,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 30895,
+          "scroll_id": 599,
+          "scroll_label": "4Q558",
+          "reference": "4Q558 f21a_b:2",
+          "source_languages": "Aramaic",
+          "word_count": 5,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "20ac8232e0b725656810ca070b9a64a83a2d872dfd3ce09eb08addc04f37572e",
+          "source_evidence_sha256": "0e55279d505df9e41447104d55ba8f0e4b82933ea107a537de4044f0caa15caa",
+          "cohort_item_sha256": "d68fb3ac9fa5b6d22fac9f31e2737895b6cabe6d5175db6d441f7fd7880ed804",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "656c4575bc04dc19a865b94dfba697eb418996d7881fe3d674def93dfa5ba8bd"
+        }
+      ],
+      "record_sha256": "7a1dfa53148940a175bd49e7cb55525a2a09ab43f1432002990144e7bc385bda"
+    },
+    {
+      "catalog_id": "4Q561",
+      "label": "4Q561",
+      "path": "/m/4Q561/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 41,
+      "lines_with_text": 41,
+      "detached_line_count": 41,
+      "queue_line_count": 1,
+      "prior_status_counts": {
+        "valid": 40,
+        "planned": 0,
+        "invalid": 1,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 31267,
+          "scroll_id": 603,
+          "scroll_label": "4Q561",
+          "reference": "4Q561 f1i:4",
+          "source_languages": "Aramaic",
+          "word_count": 7,
+          "source_condition": "reconstructed_and_uncertain",
+          "source_available": true,
+          "source_hash": "ec46f7a140d974985f240718a798b5401b5bd58cf2ec5aee97b67d59ac0ab43b",
+          "source_evidence_sha256": "3bdee277bb7736cc0feda398e801a3ccc867ea862e9db8ba9bc48885e844b54b",
+          "cohort_item_sha256": "eecd10f4377ffff3cfa937e39cc41422ffeeb64da74f7f0cac051ee771448a0f",
+          "prior_status": "invalid",
+          "prior_attempt_count": 2,
+          "prior_failure_class": "retryable_transport",
+          "prior_validation_error": "translation contained a non-translation uncertainty placeholder",
+          "queue_item_sha256": "1e9ba8e3ca215c35a52541b899c6b98f3add9691e403d5a9690d991d3c9068c2"
+        }
+      ],
+      "record_sha256": "1f21f12b1ffc54273bd198b9b71ab5dc427580d849a793281fe47d0fc4914988"
+    },
+    {
+      "catalog_id": "4Q70",
+      "label": "4Q70",
+      "path": "/m/4Q70/",
+      "languages": [
+        "Aramaic",
+        "Hebrew"
+      ],
+      "catalog_line_count": 180,
+      "lines_with_text": 179,
+      "detached_line_count": 179,
+      "queue_line_count": 10,
+      "prior_status_counts": {
+        "valid": 169,
+        "planned": 10,
+        "invalid": 0,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 46445,
+          "scroll_id": 860,
+          "scroll_label": "4Q70",
+          "reference": "4Q70 f4ii+8_10:4",
+          "source_languages": "Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "5b3cc02702456a8030fcce62e4c3ac912ac9f4a2e4c5495c892eef82a63151a5",
+          "source_evidence_sha256": "befcb28b2fb7d178c85ff1a9d7857f714078e9c2782a37677e3e5573dfaee3dd",
+          "cohort_item_sha256": "be5281300077fc6ab553b723e305ccfdb4dbc71dd19da6547b9fd7ec574c9800",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "8c4d0e9b1e45e774a1e801cdca99d7e72d79346aef55f20cb43e5d3074a5b507"
+        },
+        {
+          "line_id": 46461,
+          "scroll_id": 860,
+          "scroll_label": "4Q70",
+          "reference": "4Q70 f11_12:4",
+          "source_languages": "Aramaic, Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "5a83cfbb31b468b9bf5710aef39a1d9b9f8d0bc2681821baba35cd5ba493bd0c",
+          "source_evidence_sha256": "2ed5a8057aa76555bbdb0e3a5e8a892eaa423b364e8b299c931d917788a4386b",
+          "cohort_item_sha256": "5c52e491c1fee9c2a2510648db4a784f9b40fa7819f724e9f9fbd5da0565632e",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "96074d8ce9441c548489f346309136a1508c777f786529f96e30a79e6ee37331"
+        },
+        {
+          "line_id": 46559,
+          "scroll_id": 860,
+          "scroll_label": "4Q70",
+          "reference": "4Q70 f36:2",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "5e6d22ee9ed3109c87d5a246e38192ad4b3797eb64fc7ca074c8324835d6f7ab",
+          "source_evidence_sha256": "695df3c203636ca0608609ae21b723212bb5fe364d75b4eced60401c2f21543a",
+          "cohort_item_sha256": "798e5e906610b5d57e9b6b2d0bae7f6751a07cd8bca2909c894fd27f3d058198",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "982568953c2ae09dafa3da12456f38bb59aaae672bbec6e3d45bbee835d1ad49"
+        },
+        {
+          "line_id": 46560,
+          "scroll_id": 860,
+          "scroll_label": "4Q70",
+          "reference": "4Q70 f37:1",
+          "source_languages": "Hebrew",
+          "word_count": 1,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "04b7b6736850bd24138bb2623d781fe1a2867417f3d39d77c9fa89edb2eb9b6b",
+          "source_evidence_sha256": "fb34e519a30f5d47e63cd1dc5107f38123157280124dd38259ff3728a9b18f39",
+          "cohort_item_sha256": "5256ed0e51083ea25a10806adc0ddbcdad120efd187898a21f0cea89e2cb503e",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "4aabb70bdccfb964cff8199512ceb32b4fbaf340fd0e878b93a47b2538ea4433"
+        },
+        {
+          "line_id": 46566,
+          "scroll_id": 860,
+          "scroll_label": "4Q70",
+          "reference": "4Q70 f39i:2",
+          "source_languages": "Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "693ca9e584c96f2112abb6f2ba2a21610a24d2d1e2a460aaf3badf691feef42e",
+          "source_evidence_sha256": "91250260735a01cebe51c17679957c32259599a2038cecf573345b5d37416fdd",
+          "cohort_item_sha256": "9f44f4a2deca7868fbc6d10235ebf5d3ad57743ec8a9dca6973c88178c9797ca",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "b5fb2fc0ae440cb6702cb8dd5660ca8d7b39066d1bad065408923499e37c0563"
+        },
+        {
+          "line_id": 46569,
+          "scroll_id": 860,
+          "scroll_label": "4Q70",
+          "reference": "4Q70 f40:1",
+          "source_languages": "Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "6674af33ea12f5b1469424a726317d42eedd989b1b13f1807b7ac2aaa0dcefab",
+          "source_evidence_sha256": "38fae7b38626ace1f67b86841df7d65f05e5244da6a21f3c842016781ca9f1d5",
+          "cohort_item_sha256": "a457b66ac0f4a290da6eb0db49a8a5e5e5fe515a6b5554b3570c635e1b3d7d45",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "23b20df2cff305bfa0e4d80bb14267cba3375cb0d987c40bb1ae1271a70be9ae"
+        },
+        {
+          "line_id": 46576,
+          "scroll_id": 860,
+          "scroll_label": "4Q70",
+          "reference": "4Q70 f43:1",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "37a8c557b3bae074338dfe78179d862b684e4353d18830963dcb3769936f444c",
+          "source_evidence_sha256": "5fcf1be8061f363b7c79198194fa60ba638888056b4eb6ad94b1ee329bc34760",
+          "cohort_item_sha256": "c0a7016aea94c634405c50e1532a7850c34ec098008a7905fd91f2004278a0da",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "08f51f8993b3c84065eed85714931e873f9924c8f62d8bef0b789254a6f0a4f7"
+        },
+        {
+          "line_id": 46577,
+          "scroll_id": 860,
+          "scroll_label": "4Q70",
+          "reference": "4Q70 f43:2",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "5a4e0f20e74a7f6a80187b99a10fd551ef505eb05d15db1cd132a08be51c7e6f",
+          "source_evidence_sha256": "adf65a59f6605320d4062546799709183e6d8f7cfe1cc3f53566fcac00a358a4",
+          "cohort_item_sha256": "faf88d3f5a6dbf3dcc8fa666561397b07ba628a34c0b0f05ef7610aacb9d1603",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "864c9f514dd850d1dc8f7835e16b07c46b3a56c1cb8efc2208e4fec71ab4878e"
+        },
+        {
+          "line_id": 46583,
+          "scroll_id": 860,
+          "scroll_label": "4Q70",
+          "reference": "4Q70 f46:2",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "1166a8ff29edec7465c3a0f9cc16d599d5efab5b2aecefaadbebde0d98262c6d",
+          "source_evidence_sha256": "07a353b3ec88f27240fe5f660604dfc492a1267eb84d9a84626d0de9e469244a",
+          "cohort_item_sha256": "6c894bf137b69edad1d18f487d92b48bfd9f1aaec992a2ad8376301831f43f55",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "e9ffbb355e5270eec9505e225bd59264b35faaf8b906ef0def41dfcac9f68c06"
+        },
+        {
+          "line_id": 46585,
+          "scroll_id": 860,
+          "scroll_label": "4Q70",
+          "reference": "4Q70 f47:2",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "2e887d80c4257e9de0fbcde0a62e056f410e9de7e61fc8c70f874c5068b9e349",
+          "source_evidence_sha256": "8f51239eb8c64eea062431ad8d9eaa9f6219caadccc6ab0d9a7c7bb53a5c7e77",
+          "cohort_item_sha256": "157de8a1a983b587cf364f4c920c79bb255092943623f8ba2739fa0b266babb3",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "7c993523e40053820f5ee64093efa7de3326ed3ea7c2353b3470b8d649b59684"
+        }
+      ],
+      "record_sha256": "0752669056ffb16eb2bed935a3d858d657aafe3787e25316da5e6216af4fa7d8"
+    },
+    {
+      "catalog_id": "4Q84",
+      "label": "4Q84",
+      "path": "/m/4Q84/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 202,
+      "lines_with_text": 201,
+      "detached_line_count": 201,
+      "queue_line_count": 3,
+      "prior_status_counts": {
+        "valid": 198,
+        "planned": 3,
+        "invalid": 0,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 48001,
+          "scroll_id": 876,
+          "scroll_label": "4Q84",
+          "reference": "4Q84 f28ii_30i+31:18",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "f4c6ef017adcd1e2084d7c276b2d7d41b511f9a39a66a37d9834a07eab4cf442",
+          "source_evidence_sha256": "bc4a1c8171ae6bfeffe9d2ed19f2a3ff3d675a232434d0c7dec8356c323e73c5",
+          "cohort_item_sha256": "46109bbdd00eceb8d1d912f90a34d9d1ee03142eb75681e760566479d472f99d",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "b74329bd45ca7b188ecccc94b8cc739751cb96016a7a2146f3d33c37e50aeec5"
+        },
+        {
+          "line_id": 48003,
+          "scroll_id": 876,
+          "scroll_label": "4Q84",
+          "reference": "4Q84 f30ii+32i+33_34:8",
+          "source_languages": "Hebrew",
+          "word_count": 8,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "4b474ef68bf42134203a3d9327e678a7cf6e9ed8bebbe5032376d424921e4cd3",
+          "source_evidence_sha256": "c20c416251aad07854f8ac58d208752982cb8d573a5b72585386a07a290f8950",
+          "cohort_item_sha256": "6e1335f3e241f715e3e1edd7d6f13c1a8cb0f1d0ce4419514426d23a2311d5f8",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "c4ee4921e363dbf3a87f32bba5b66e28940c742b023a63e7caf33c1c43fbbf54"
+        },
+        {
+          "line_id": 48013,
+          "scroll_id": 876,
+          "scroll_label": "4Q84",
+          "reference": "4Q84 f32ii:8",
+          "source_languages": "Hebrew",
+          "word_count": 1,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "70508a79fd6c72045eaf16f53d3d44016cc2e1bce4a5d384738300415454bcc0",
+          "source_evidence_sha256": "2b1d3e3f80c28047b4f7e4e5490a922fa13e7b19f17ea6184cbadc71be469c58",
+          "cohort_item_sha256": "dd44dae625ae5447fd2111eb8c29c8a8823295e2ccecae50bbcbd76502f12dd6",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "559d141b31b7aeecbc83b407ac8235433fd3dc0ffae3ba10a6696ba53eb4e23a"
+        }
+      ],
+      "record_sha256": "d5ec57e3f2d77f71cdb6bbbace37233e788c22d7270164b0e54c9f0ba9f196ca"
+    },
+    {
+      "catalog_id": "6Q4",
+      "label": "6Q4",
+      "path": "/m/6Q4/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 151,
+      "lines_with_text": 151,
+      "detached_line_count": 151,
+      "queue_line_count": 11,
+      "prior_status_counts": {
+        "valid": 140,
+        "planned": 11,
+        "invalid": 0,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 49930,
+          "scroll_id": 957,
+          "scroll_label": "6Q4",
+          "reference": "6Q4 f5:0",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "c522faa4368f28d597076544991a8f90227a05fea5073b331647387f91a35ab5",
+          "source_evidence_sha256": "e209b731df55adcbbb31052057120a2ce5ca279b9674ae45edf4fdbc0b9c9aa1",
+          "cohort_item_sha256": "201e9ef453da5c5cd1d62e4a480ff8b702dc54a1c8d252a73cf4a6586852514d",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "4fbcca8a1cb250f92a52536107985e83b4a715eb54f3350212b8e8d35f4bbf7c"
+        },
+        {
+          "line_id": 49937,
+          "scroll_id": 957,
+          "scroll_label": "6Q4",
+          "reference": "6Q4 f6_7:0",
+          "source_languages": "Hebrew",
+          "word_count": 10,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "58365dcc8b14b048940e518d718257c1e2b5622bf5f652222cdc768529565202",
+          "source_evidence_sha256": "36a1d1cf8f6810b2cf93591add0677ade9965a3b25c79dffb72e84c17725d03a",
+          "cohort_item_sha256": "7e033d5888004953fbbfc9cb300a3e79d320e8a52aa41761229e53b71ff340e9",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "90b8670ae088480d7d0b75cfaba042048976c07ac639716acaf7826872d88ce5"
+        },
+        {
+          "line_id": 49944,
+          "scroll_id": 957,
+          "scroll_label": "6Q4",
+          "reference": "6Q4 f10_14+72:0",
+          "source_languages": "Hebrew",
+          "word_count": 15,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "3162847e1796c68601c4be5b987e5f3d826365adc4a839cf1afae0071fcfa3a5",
+          "source_evidence_sha256": "c92c6a29b8f1dd2c87308ef5ccc58e1eaffe5b9748440587f08c57f6d85f8c5d",
+          "cohort_item_sha256": "bbf4c14988c8cdedcf5a94f5f31bf7667d3787727fbef845bf88b584d0bda688",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "110c720cbfd301c61e3fd8458db97308cc7d28d0cc513c55cf63c7d976ce2488"
+        },
+        {
+          "line_id": 49951,
+          "scroll_id": 957,
+          "scroll_label": "6Q4",
+          "reference": "6Q4 f15:0",
+          "source_languages": "Hebrew",
+          "word_count": 10,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "9325c12cf8b9f719264390dee949f0936b70cebb91f27840334dfd051fbee3ed",
+          "source_evidence_sha256": "890d7d0cb8f6a9f6733548582067508050577bcb2a844c6d1c43fa2eeb664817",
+          "cohort_item_sha256": "e153349b88292dc34800380ea06b1d6f3f1e1e915650eb3419d459938bcd4aea",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "8ede79c05cf80f2bd66765a5078c10f33229c4100b28c0f0c11fcc6427cde825"
+        },
+        {
+          "line_id": 49959,
+          "scroll_id": 957,
+          "scroll_label": "6Q4",
+          "reference": "6Q4 f16:0",
+          "source_languages": "Hebrew",
+          "word_count": 14,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "db80985950e834ec6e3fc1a9ca7a87dbb4b699bfa2188ba454d146f87852e15c",
+          "source_evidence_sha256": "93df7d2c75135a38ce49b3f77b65c6ad6d89fbddcfaab15d378f570e704e3db9",
+          "cohort_item_sha256": "083528587d23c223aa1476766680e0dafdbfdfca58929664895fce385b51cf06",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "bbf3eec5e911a130bf1956a622ba5f0c961f1971b5ead56ee4a2ca0366d59e29"
+        },
+        {
+          "line_id": 49983,
+          "scroll_id": 957,
+          "scroll_label": "6Q4",
+          "reference": "6Q4 f23:1",
+          "source_languages": "Hebrew",
+          "word_count": 5,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "f1cfdd47245119f36d55e4b85b1965094cf7da670e13536bb1a3f4dc0af7ec16",
+          "source_evidence_sha256": "82d574909b83d13f14e10d0aa4cc39c948d36d138848fc08a140a7c149357251",
+          "cohort_item_sha256": "7a051cae3522867ba2f52c657158c23f2e0d172019ddaef975949cda142f5288",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "11ce78e955379d7772ca684cfa8e70663f66a9fb6adb45e042395b28e98dca32"
+        },
+        {
+          "line_id": 49987,
+          "scroll_id": 957,
+          "scroll_label": "6Q4",
+          "reference": "6Q4 f25:2",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "8e048ec1b00f2c88528a3f1aab1b81f835905b09b388a602f18f8d7d2c747c7b",
+          "source_evidence_sha256": "016788fc9aac7f0b0a5631096ad88e0d70bb57caa7f4d62f5a39ab1abd9d87ed",
+          "cohort_item_sha256": "7a8f44ff86b9814e4b0043fe13560a7d18412898279761c025e60dfad8625690",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "787739a167ea60c0edc8572eae38e0ee6b1196bcd97980594c81ed877981c6d9"
+        },
+        {
+          "line_id": 49990,
+          "scroll_id": 957,
+          "scroll_label": "6Q4",
+          "reference": "6Q4 f26:2",
+          "source_languages": "Hebrew",
+          "word_count": 4,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "0195bc96b1f7c5e19d893a549ec11125d594be2e64dd18a9b7ac7d20da59a7ba",
+          "source_evidence_sha256": "8cbb5f6e987d92f721e3dd0bfc141f3e0bfba6dca1f778f12e94f57b9c4b480d",
+          "cohort_item_sha256": "bb2f57c7371bb72d7a74e65e2506aee6a9ed51ccb106974743620af39a907a39",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "d27301f46cb78708be1ac0cdb7aaccf8cd0b6cd4f3f9f5dee50b624787d1a8b3"
+        },
+        {
+          "line_id": 49992,
+          "scroll_id": 957,
+          "scroll_label": "6Q4",
+          "reference": "6Q4 f27:2",
+          "source_languages": "Hebrew",
+          "word_count": 4,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "e7fb8ef230be157cf0180c4ec5086c77d3204a2d82fdc7847489a66169512845",
+          "source_evidence_sha256": "9a9deb5b7e4c179fb2035edf5e99d19b369e7ef3c48545097b5f5f53449a8e19",
+          "cohort_item_sha256": "ef618363cc9cf01116e5d97b4dd71618aafab50452f81c3d69d8d1e7d78a4865",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "de3c87d1c78eed227fce2123afdf16c2b4d30ebd3f3f783a442149e1332017a3"
+        },
+        {
+          "line_id": 50050,
+          "scroll_id": 957,
+          "scroll_label": "6Q4",
+          "reference": "6Q4 f66:2",
+          "source_languages": "Hebrew",
+          "word_count": 4,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "c2d3fbe0a2fd148710ac64557f52aaf4315e7135cc4c4bcf99eed75c68498ba9",
+          "source_evidence_sha256": "264a90f83203a33070c12fc09fb0e229fdad3352168350a0dfb089006d4f9adc",
+          "cohort_item_sha256": "f157472ba1e1e1ec910463cc2abd6be2a50ee72b5d0ed52401d328c896107828",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "0f77552a5b3b940022083239aa2f06b6faceb80bc869c0d1342140a4bbf3529f"
+        },
+        {
+          "line_id": 50057,
+          "scroll_id": 957,
+          "scroll_label": "6Q4",
+          "reference": "6Q4 f73:1",
+          "source_languages": "Hebrew",
+          "word_count": 4,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "9257d89831bf0aa8cbb652171b298152c8da2e37e1d485b04563b8ecf8750941",
+          "source_evidence_sha256": "6c743a75ed564f3bc2db0f48c49705c0b2dd706c14e7b68cd7afd2030cf057e8",
+          "cohort_item_sha256": "57cbfd43a8e6c87d85ddfbdc4c039c2f6dfc092ab10b1a3666ed78f44fb34ce6",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "7b59eddc0be2bc30f96085d3e7bb63731b1cb4991b0c708073bd817d051d02ef"
+        }
+      ],
+      "record_sha256": "6a9616efe64af0578db5ea408bd5f3f486b22f009e6c2f6cd905e7b4dd2a6a4b"
+    },
+    {
+      "catalog_id": "Mur88",
+      "label": "Mur88",
+      "path": "/m/Mur88/",
+      "languages": [
+        "Hebrew"
+      ],
+      "catalog_line_count": 655,
+      "lines_with_text": 617,
+      "detached_line_count": 617,
+      "queue_line_count": 10,
+      "prior_status_counts": {
+        "valid": 607,
+        "planned": 10,
+        "invalid": 0,
+        "error": 0
+      },
+      "items": [
+        {
+          "line_id": 51533,
+          "scroll_id": 981,
+          "scroll_label": "Mur88",
+          "reference": "Mur88 2:8",
+          "source_languages": "Hebrew",
+          "word_count": 6,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "6b33ea2f7a7db67671fd4279f6ea5f9d6ec3eed79103ed96dcd07c1d52b1b089",
+          "source_evidence_sha256": "a10739d76774f8713172b08e74ebdc96bdd9f5b7494809c48d84606366cf32ab",
+          "cohort_item_sha256": "da69208f2af233f0964a0dab89a60818816cfc1e10dc827f29bba49b0f3d5042",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "9eeede20452aab4d2f2f33bf752843aef4f34bab541e74a52ebf1415e112a14d"
+        },
+        {
+          "line_id": 51574,
+          "scroll_id": 981,
+          "scroll_label": "Mur88",
+          "reference": "Mur88 3:29",
+          "source_languages": "Hebrew",
+          "word_count": 10,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "3624736dc9a540f384d046d4aa071391540b665369e99c8c42a95bfe04348b17",
+          "source_evidence_sha256": "e6673a5dd96235545e4c73840e6de32f4c6958262d207f317015754bf26fe683",
+          "cohort_item_sha256": "6aa08cfb47fc76281228895da8d4bab5579155ddfb5d0aaf1d89b5aba057dfad",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "ea630e2981fcbcfddcbaf5ee31317efe1175026bef6c60180dc4a830fe549457"
+        },
+        {
+          "line_id": 51588,
+          "scroll_id": 981,
+          "scroll_label": "Mur88",
+          "reference": "Mur88 7:1",
+          "source_languages": "Hebrew",
+          "word_count": 10,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "879bfe2e83898c7c49799cff06840e1da9e9869b08ba20d6063bcb3122b386fc",
+          "source_evidence_sha256": "1c58245d7a0e103a16b2271e66c4721c8d4072834128473f05b934e7e8a5fb30",
+          "cohort_item_sha256": "0cf9ba408922f58fc077258fc7c4aba528baec35ed2e54ea5ba84eb8209d4311",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "9350a869ad4914ad1c34df47662b919deb2bb70c65ab2d1753cf0536948e5e43"
+        },
+        {
+          "line_id": 51783,
+          "scroll_id": 981,
+          "scroll_label": "Mur88",
+          "reference": "Mur88 12:18",
+          "source_languages": "Hebrew",
+          "word_count": 3,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "37846c560f32f871bdd880a3202f61cb529cb33cac8cfec67d54ec1032427965",
+          "source_evidence_sha256": "f632854b6a3af75f747ba40fcc0436d2f49964abb1f9b189fa2792c3abe25a68",
+          "cohort_item_sha256": "a0fc1216f64e5f197ef54d6573eb8560753b4694e6c01f54291fe591d4bef72b",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "cc0ba8af396efc2df78a50ff6754aa87e4a0a23513f9e73d4df617d77f3117aa"
+        },
+        {
+          "line_id": 51851,
+          "scroll_id": 981,
+          "scroll_label": "Mur88",
+          "reference": "Mur88 14:14",
+          "source_languages": "Hebrew",
+          "word_count": 4,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "02dc7a6db2285fc908e39a4eacdba1ee52f20b08f520ed1e8b21cbc9e15a32b2",
+          "source_evidence_sha256": "ccc78aca63ea97d2b735f12012dc19309c788416e3b31f5f997dd928b54b11d5",
+          "cohort_item_sha256": "ae363b96e813b21e34c851e093099ee357c5bea708e83e2e00aec674e15b12fe",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "63e8e9c060eb7ed8cdd1cd7d1a936c5338c11592aff4fd096c6db2daaad1352e"
+        },
+        {
+          "line_id": 51998,
+          "scroll_id": 981,
+          "scroll_label": "Mur88",
+          "reference": "Mur88 18:15",
+          "source_languages": "Hebrew",
+          "word_count": 1,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "35e0a344352e5de306e199917ab4c7e34623ed7ea2c56aad6a0b69694bc9bfb0",
+          "source_evidence_sha256": "7d7dd08ca374c2018ac31901321194a8a1273a7662d83acf86aef124ccc7a6ea",
+          "cohort_item_sha256": "2eede3a1b92020a8de7b26d470186e83df438a60132271a80a28f41af6170ca7",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "1cda11de9005b670cfd1e6fe90725d73fb65ff262c00e7a477c791879a586440"
+        },
+        {
+          "line_id": 51999,
+          "scroll_id": 981,
+          "scroll_label": "Mur88",
+          "reference": "Mur88 18:16",
+          "source_languages": "Hebrew",
+          "word_count": 1,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "f109be8838c61b1226fb1fb4710092a17dec43bbc53afbad5717d6cb3a6ff73f",
+          "source_evidence_sha256": "55ded1e7899b6358d4560a052e78680657b194806656cc238c995c099f2d526f",
+          "cohort_item_sha256": "f56e2ce4b4cfdd360251a684e2640cedaaa3e89f8c15f3fc3d51edab119a1afb",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "a0bd8bb09b95ac846fa16a7e88379c577b30c93d2615757be17229ef2bd96a4d"
+        },
+        {
+          "line_id": 52000,
+          "scroll_id": 981,
+          "scroll_label": "Mur88",
+          "reference": "Mur88 18:17",
+          "source_languages": "Hebrew",
+          "word_count": 2,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "d22a431142febe1c0f1ab79e0e2b812485fe9190ac5e6f12dd688cc28279be51",
+          "source_evidence_sha256": "a8c72eff7460963564390e0bd1201fb2d720dc7ac606de08e829b82e8f54161e",
+          "cohort_item_sha256": "0ff4df91f53eb2f5b5f40f12de00bc8c35b00fdb51e4abfa5ea2bf612d6e6597",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "23e5a90bda2885e32e05aca9c1218559921b4091af333d114d0b87f0c82bf165"
+        },
+        {
+          "line_id": 52040,
+          "scroll_id": 981,
+          "scroll_label": "Mur88",
+          "reference": "Mur88 19:26",
+          "source_languages": "Hebrew",
+          "word_count": 1,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "5ee34eedde01359a47a5f85f715ef729ddb61afb40beede6458400930fab0249",
+          "source_evidence_sha256": "9b8b4d3abe6d28997b6e5f458a514bfddc2d7f81feb5bdcf9a146c49315fdd91",
+          "cohort_item_sha256": "962fd4a034a36096b98b25bd55c4c96a77b5530754796410c7ea6de1b86d7183",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "85645f8b0fb92b2d7c9c1fe80f084df791372871e3c84eac5c678cedb270413a"
+        },
+        {
+          "line_id": 52098,
+          "scroll_id": 981,
+          "scroll_label": "Mur88",
+          "reference": "Mur88 21:19",
+          "source_languages": "Hebrew",
+          "word_count": 5,
+          "source_condition": "clean",
+          "source_available": true,
+          "source_hash": "85a0ae0f14eca47170e9b2e51e15ce5253ba058963ff5dcdf6d6fa4bb2efac34",
+          "source_evidence_sha256": "91ea3ec1ce3692a59943121b9c497f115ebaa31ebfb597284e9535fb95791e5c",
+          "cohort_item_sha256": "8b578e3cec7e9fbb12db50dc00598f81c347cf03a64e37a00bd51f84d148d3c9",
+          "prior_status": "planned",
+          "prior_attempt_count": 0,
+          "queue_item_sha256": "051d64b00fbbb310dc823b4aed7bd7692f9f25d2a3b84991528786dcadc4dd93"
+        }
+      ],
+      "record_sha256": "1461e36a5e2dd771bf3d471cd636783c6ef9a820f3145d921273b4069e551a6e"
+    }
+  ],
+  "excluded_records": [
+    {
+      "catalog_id": "8HevXIIgr",
+      "label": "8HevXIIgr",
+      "path": "/m/8HevXIIgr/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "4Q119",
+      "label": "4Q119",
+      "path": "/m/4Q119/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "4Q120",
+      "label": "4Q120",
+      "path": "/m/4Q120/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "4Q121",
+      "label": "4Q121",
+      "path": "/m/4Q121/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "4Q122",
+      "label": "4Q122",
+      "path": "/m/4Q122/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "4Q126",
+      "label": "4Q126",
+      "path": "/m/4Q126/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "4Q127",
+      "label": "4Q127",
+      "path": "/m/4Q127/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q1",
+      "label": "7Q1",
+      "path": "/m/7Q1/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q10",
+      "label": "7Q10",
+      "path": "/m/7Q10/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q11",
+      "label": "7Q11",
+      "path": "/m/7Q11/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q12",
+      "label": "7Q12",
+      "path": "/m/7Q12/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q13",
+      "label": "7Q13",
+      "path": "/m/7Q13/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q14",
+      "label": "7Q14",
+      "path": "/m/7Q14/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q15",
+      "label": "7Q15",
+      "path": "/m/7Q15/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q16",
+      "label": "7Q16",
+      "path": "/m/7Q16/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q17",
+      "label": "7Q17",
+      "path": "/m/7Q17/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q18",
+      "label": "7Q18",
+      "path": "/m/7Q18/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q19",
+      "label": "7Q19",
+      "path": "/m/7Q19/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q2",
+      "label": "7Q2",
+      "path": "/m/7Q2/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q3",
+      "label": "7Q3",
+      "path": "/m/7Q3/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q4",
+      "label": "7Q4",
+      "path": "/m/7Q4/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q5",
+      "label": "7Q5",
+      "path": "/m/7Q5/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q6",
+      "label": "7Q6",
+      "path": "/m/7Q6/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q7",
+      "label": "7Q7",
+      "path": "/m/7Q7/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q8",
+      "label": "7Q8",
+      "path": "/m/7Q8/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    },
+    {
+      "catalog_id": "7Q9",
+      "label": "7Q9",
+      "path": "/m/7Q9/",
+      "languages": [
+        "Greek"
+      ],
+      "catalog_line_count": 0,
+      "lines_with_text": 0,
+      "reason": "no_source_wording_in_current_corpus",
+      "disposition": "source_acquisition_required"
+    }
+  ],
+  "queue_sha256": "2484f13ed3a0a606333d1f5944e7e2a04b6deaa46ef50b88f0875a7750e7e1e2"
+}

@@ -141,6 +141,37 @@ body {
   color: var(--color-text-secondary);
 }
 
+.project-update {
+  max-width: 1056px;
+  margin: 0 auto var(--space-20);
+  padding: var(--space-8) var(--space-6);
+  border: 1px solid var(--color-border-default);
+  background: var(--color-surface-page);
+}
+
+.project-update-label {
+  margin: 0 0 var(--space-3);
+  color: var(--color-text-link);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.project-update h2 {
+  margin: 0 0 var(--space-3);
+  font-family: var(--font-serif);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.project-update > p:last-child {
+  margin: 0;
+  max-width: var(--measure);
+  color: var(--color-text-secondary);
+}
+
 .split {
   display: grid;
   grid-template-columns: 1fr;
@@ -322,6 +353,7 @@ button:focus-visible {
 @media (min-width: 800px) {
   .mast,
   .hero,
+  .project-update,
   .split,
   .band,
   footer {

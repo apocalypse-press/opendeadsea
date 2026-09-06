@@ -1,0 +1,886 @@
+{
+ "id": "4Q208",
+ "label": "4Q208",
+ "status": "first-draft",
+ "review": "human-pending",
+ "authorization": "machine-aid first draft for crowdsourced human review; not the edition translation, not a BHSA gloss, not a DSS Explorer release",
+ "line_count": 124,
+ "scroll_id": 137,
+ "corpus_commit": "2403d16654984fc5567a5bd263086d9ad2a7a1dd",
+ "generator": {
+  "model": "command-a-03-2025",
+  "backend": "cohere_v2",
+  "prompt_version": "dss-static-v17",
+  "response_contract": "dss-cohere-v2-single-line-object-v1"
+ },
+ "lines": {
+  "4Q208 f1:1": {
+   "en": "Seventh and half and fire in night one ten in",
+   "notes": "Uncertain reconstruction of 'half' and 'fire'; uncertain meaning of initial 'seventh'; uncertain syntax and connections between phrases.",
+   "line_id": 7059,
+   "source_hash": "b4a3bb0636af1ac5a6336ed918d453d2690f4d85118555f3355ca208f581f496",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f1:2": {
+   "en": "Weeks five and half in then he stood and dealt with the door",
+   "notes": "Uncertain transcription and reconstruction in 'ש#ביעינ?ח#מ##שאופל#[ ג׃ובאדינערבועללתרעא ]; visible morphology and lexical glosses are incomplete or uncertain for several words.",
+   "line_id": 7060,
+   "source_hash": "1768ee2e1c4766aae9664b4bea84b6e4103192590ba67d110052f4ab9e31dd85",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f1:3": {
+   "en": "First, and he received the rest of the nights of Dan.",
+   "notes": "The transcription contains a mix of Aramaic and Hebrew with uncertain characters (ε) and punctuation (׃). The particle 'א' and the final '׃' are omitted as their function is unclear. The reconstruction of 'שאר[' is noted but not bracketed in the translation. The translation follows the visible morphology and lexical glosses, with 'קבל' rendered as 'received' and 'לילי' as 'nights'.",
+   "line_id": 7061,
+   "source_hash": "03b74f2d909434bc99668ae6c4f3e50a5d4e5af9e25a76f6a9553794acbbf32a",
+   "source_condition": "reconstructed"
+  },
+  "4Q208 f2:1": {
+   "en": "half and in",
+   "notes": "The transcription contains uncertain and untranslatable elements, including damaged characters and punctuation. The translation reflects only the recoverable lexical items 'half', 'and', and 'in'. The remaining elements are omitted due to uncertainty or lack of translatable content.",
+   "line_id": 7062,
+   "source_hash": "f9cc8a999faf3dae9310889c82e843fe92db5f3ef2a7113ad86cc2cd173a429e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f3:1": {
+   "en": "and he placed in light",
+   "notes": "The phrase 'in light' is a reconstruction based on the visible morphology and lexical gloss. The initial 'ε' and final 'ε' are untranslatable and omitted. The phrase 'at the river' and 'they compare with' are not supported by the visible text and are not used in the translation.",
+   "line_id": 7063,
+   "source_hash": "41db7dc56686ad13c62c4bd1159d32bfa5fb0c07cd34ab509930095f8a4beb1d",
+   "source_condition": "reconstructed"
+  },
+  "4Q208 f3:2": {
+   "en": "and he ruled in the rest of the adders of Dan",
+   "notes": "The transcription contains uncertain and reconstructed elements, including the final 'Dan' which is marked as both reconstructed and uncertain. The initial 'ε' and final 'ε' are untranslatable and omitted.",
+   "line_id": 7064,
+   "source_hash": "1724ce28d8195db84a8aed74e36b012afd1345daba7c15d36ce32b49e809b048",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f3:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain elements, with no defensible English words surviving.",
+   "line_id": 7065,
+   "source_hash": "6c2ea1ccd61f0208f0865420094220f42d9a0a7d0515b22af324e4eb7c5df04f",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f4:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains a mix of Greek (ε) and Hebrew/Aramaic characters, but no coherent lexical units survive. The reconstructed 'דנ[' (Dan) is incomplete and lacks context. All other elements are untranslatable fragments or unknowns.",
+   "line_id": 7066,
+   "source_hash": "0d85a8f7b5de8a1c9ae97d20e75dc3ba50ba07e091bde4ee27e482462963d63b",
+   "source_condition": "reconstructed"
+  },
+  "4Q208 f5:1": {
+   "en": "Five and a half, and he collected in adders, Dan's seventh two, and they compare with it",
+   "notes": "Uncertain elements include the verb 'collect' (position 6), the preposition 'in' (position 7), and the noun 'adders' (position 8). The phrase 'they compare with' is supported by repeated phrase evidence but with moderate confidence.",
+   "line_id": 7067,
+   "source_hash": "3d8771bf30d1c0c095d1061737a5bb0539f4f031e7269cbc3b7988aea31a2d0f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f5:2": {
+   "en": "The light of the seventh, two. And in then he went out and ruled in the rest of the days",
+   "notes": "Uncertain reconstruction of 'אֱדַיִן' (then) and 'נפק' (went out). The word 'שביעינ' is of unknown meaning. The final particle 'א' is untranslatable.",
+   "line_id": 7068,
+   "source_hash": "22d92c462910ff60bb68fa0e4eb0ab5f6830707e0dfb3231bba42b9ea571d1e4",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f5:3": {
+   "en": "Dan's seventh five and he fired in the night four in seven",
+   "notes": "Uncertain transcription and glosses for 'שביעינ' and 'ח ]מ##ש#א##'. Reconstructed '[ דנ' and 'ב['. Phrase evidence supports 'four in' and 'in seven'.",
+   "line_id": 7069,
+   "source_hash": "1a10d759d438ced511a29abad86535f60467e2601a4a5635c2a41c7fced40354",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f5:4": {
+   "en": "Two and then he stood bail and dealt with and received the rest of the night of Dan",
+   "notes": "The translation follows the recoverable words in order, preserving the visible morphology and lexical glosses. The final word 'דנ' is translated as 'Dan' based on the provided lemma and gloss. No uncertainty is indicated in the source, but the phrase is fragmented and context is limited.",
+   "line_id": 7070,
+   "source_hash": "117248481e796258f40cd7d1d2558ff84d56129bd759a0563712a60f87113581",
+   "source_condition": "reconstructed"
+  },
+  "4Q208 f5:5": {
+   "en": "Seventh five and he waited in adders of Dan seventh two and half",
+   "notes": "Uncertain reconstruction and gloss for several words, including 'שביעינ' (seventh?), 'חמשא' (five?), 'ק ]ו#?י' (waited?), and 'א' (unknown particle?). The phrase is fragmented and context is unclear.",
+   "line_id": 7071,
+   "source_hash": "dfc7d99f1b838930721cab63995fa113ebcee33161e8fe223df157a8441ef0fd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f6:1": {
+   "en": "And he collected in adders of Dan",
+   "notes": "The transcription contains uncertain and unknown elements, including a reconstructed word (adders) and two unknown characters (ε). The translation reflects the recoverable content, but the exact meaning remains uncertain due to these issues.",
+   "line_id": 7072,
+   "source_hash": "b8a98a39c52161a742f104ebf7f13f60616de7890970ee675898e530271e624e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f6:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew. All characters are either untranslatable or uncertain, with no recoverable meaning.",
+   "line_id": 7073,
+   "source_hash": "73b41d9ae845598f75d3861f9d4a44f121d7c29fad4b2bbdf43e535ec4fdbaaf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f7:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. All words are marked as unknown or reconstructed with uncertainty.",
+   "line_id": 7074,
+   "source_hash": "e1d2a452e03871153997a9236b231a41a570bf5def85c952a92a1d8db298b3f8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f7:2": {
+   "en": "in the rest",
+   "notes": "The transcription contains uncertain characters (ε) and a damaged word (שאר#), limiting confidence in the translation.",
+   "line_id": 7075,
+   "source_hash": "cee474435d89bfbe1ee28e9713c9fee627036dbf8bff28a5dbc3ae6d3adc33b6",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f7:3": {
+   "en": "one of the seventh",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The phrase 'one of the seventh' is based on the recoverable words 'חַד' (one) and 'שׁביע' (seventh), but the overall meaning remains unclear due to the fragmented state of the text.",
+   "line_id": 7076,
+   "source_hash": "f30775b66da9a35661ed72586b6172ee43b0e44698faa3c8cdc29580a1081b2c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f8:1": {
+   "en": "and he fired",
+   "notes": "The verb 'אנ ]י#?ר' is uncertain and may not be fully recoverable. The translation reflects the visible morphology and lexical gloss, but the exact meaning is unclear.",
+   "line_id": 7077,
+   "source_hash": "5d04bf19163b632faf306146a9dbe38fa357fce40e0f814cf0e1af4fe09ea651",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f8:2": {
+   "en": "and in then he stood and he dealt",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 7, and 8. Position 1 and 8 are untranslatable fragments. Position 4 is reconstructed. Verb senses in positions 5 and 7 are context-free glosses.",
+   "line_id": 7078,
+   "source_hash": "4dfbbf5ea4a454b138ddfe0b49105b9eb6f4d80e9e2f171d92f6eea486c04989",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f8:3": {
+   "en": "in the covering",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form 'כ#ס#[ ה' (covering) and two unknown characters 'ε'. The translation reflects the recoverable lexical items, but the exact meaning remains uncertain due to damage and ambiguous script.",
+   "line_id": 7079,
+   "source_hash": "2c98721716161c064a2b61a7916c49361fedbdeaf43e84451b1c32486d7e8070",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f9:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain reconstructions, leaving no defensible English words.",
+   "line_id": 7080,
+   "source_hash": "e833b4c8b9963124f0aaf314b2d7647bc0c890afc4420535fd25f87c99c40214",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f9:2": {
+   "en": "an adder of Dan one",
+   "notes": "The transcription is heavily damaged, with uncertain and reconstructed elements. The translation reflects recoverable words in order, but the exact meaning remains unclear due to the fragmentary state of the text.",
+   "line_id": 7081,
+   "source_hash": "79c6247aa1a776e7fa629e55d6571ebed0b00bfc79f8c10574cc660b5fe2b1ca",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f9:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ר##[, ׃) with no clear lexical or grammatical meaning. The reconstructed element ]ר##[ is speculative, and no context or phrase evidence supports a translation. The source provides no defensible English words.",
+   "line_id": 7082,
+   "source_hash": "23f0c73903e8d3e278f5b585964b908c8ab0c84187028d4f8af36116aa4164ab",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f10a:1": {
+   "en": "sun",
+   "notes": "The transcription is damaged and uncertain, with only the word for 'sun' recoverable. The initial 'ε' and final 'א' are unclear and omitted from the translation.",
+   "line_id": 7083,
+   "source_hash": "73e1fce91ba9243902fa5eb81d44610f3ac08b2047d8597b94e0f4933a66c34d",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f10a:2": {
+   "en": "sun",
+   "notes": "The transcription contains an uncertain character (ε) and a damaged word (]ש##מש), which is identified as 'sun' based on the lemma and lexical gloss. The particle 'א' has no trusted gloss and is omitted from the translation.",
+   "line_id": 7084,
+   "source_hash": "9e0d79b6dfc8ea4388ccea94ac53af5109dca66dff0f02e909355dce2baf6288",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f10a:3": {
+   "en": "and in then",
+   "notes": "The transcription contains uncertain and unknown elements, including an untranslatable character (ε) and uncertain forms (ש#ביע, אדינ#?). The translation reflects only the recoverable and certain words: 'and' (ו), 'in' (ב), and 'then' (אדינ#?). The uncertain forms are omitted from the translation, and their uncertainty is noted here.",
+   "line_id": 7085,
+   "source_hash": "6d93eb2ffcfa2668db2d1a2eef5ea8e1ce34000e98af8300b7b79109d0103a8e",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f10a:4": {
+   "en": "than all the adders",
+   "notes": "The phrase 'than all the adders' is supported by repeated phrase evidence. The transcription is highly fragmented, with uncertain and unknown elements. The word 'adders' is the only recoverable term with a clear gloss. Other elements are omitted due to uncertainty or lack of defensible translation.",
+   "line_id": 7086,
+   "source_hash": "4a9db3a275e682740ed2fa2bb4663776f87039fcf8758f4084e10805ec676ee9",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f10a:5": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no translatable lexical content, consisting only of a Greek letter epsilon (ε) and a Hebrew punctuation mark (׃) without recoverable meaning.",
+   "line_id": 7087,
+   "source_hash": "075d4dbb9c8d0d24cdd7bbfbe2c5bb5ab239c0a733633dd88f6097ae6b983417",
+   "source_condition": "clean"
+  },
+  "4Q208 f10a:6": {
+   "en": "Seth six seventh half seventh",
+   "notes": "The transcription contains uncertain and ambiguous elements, including an unknown character 'ε' and uncertain readings for ']ש##ת##א#'. The translation preserves recoverable words in order, but the exact meaning remains unclear due to damage and ambiguity.",
+   "line_id": 7088,
+   "source_hash": "53c0e146cdb5e948577171dea2f3fa116d396e18ad94bf81cf97ae38fed0f36f",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f10a:7": {
+   "en": "not in the night the first",
+   "notes": "Uncertain transcription and gloss for several tokens. The translation reflects recoverable words in order, but the exact meaning is unclear due to damage and ambiguous particles.",
+   "line_id": 7089,
+   "source_hash": "605a09ae3c2979f4ccbd6e8769b87d235dd2c94b159b7ccfe175a53db9f91f84",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f10a:8": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription is heavily damaged, with multiple uncertain and unknown tokens. No coherent translation can be constructed from the surviving material.",
+   "line_id": 7090,
+   "source_hash": "73ba26a2409745afb013d879a4bb34ea553ecab87c72ed6c0957e01f7b0b32e5",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f10a:9": {
+   "en": "sun by day",
+   "notes": "The transcription is heavily damaged, with uncertain readings for several words. The visible form 'ש##מ##ש' is identified as 'sun', and 'י?ו?מ#מ##' as 'by day'. Other elements are too fragmented to translate confidently.",
+   "line_id": 7091,
+   "source_hash": "ad0a57a9850a10cc0eb358f6b2f927d75faa1ec8c5f0afc5991556c5f38ecac5",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f10a:10": {
+   "en": "Half of the seventh and it was like",
+   "notes": "The transcription contains uncertain and damaged elements, including the first character (ε), the word 'ש##ב##יע##', the conjunction 'ו?', and the verb 'ש##ו?י?'. The final character (׃) is omitted as it cannot be translated independently. The translation reflects the recoverable content conservatively.",
+   "line_id": 7092,
+   "source_hash": "2e02b6ac9940fa10c4715437ac6faa62e6861718d46097b84c438d08bea43b8e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f10b:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain or reconstructed forms, leaving no defensible English words.",
+   "line_id": 7093,
+   "source_hash": "ddd70befc66bd7e947a3a25764589cfb76b6892da391304123c462fd36097233",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f10b:2": {
+   "en": "half",
+   "notes": "The transcription contains uncertain and untranslatable elements, including damaged characters and punctuation. The only recoverable word is 'פלג' (half).",
+   "line_id": 7094,
+   "source_hash": "95d509bca4fb73a43dd50f2c0e5fc9b52f6f4b495ca8ec34d5dbfa98418cc042",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f11:1": {
+   "en": "And in then he stood bail and he dealt with",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form (ע#[ רב) and two unknown characters (ε). The translation reflects recoverable words in order, omitting untranslatable characters. Uncertainty in the verb's exact sense is noted but not bracketed in the translation.",
+   "line_id": 7095,
+   "source_hash": "6f028cdb52c887cd8a93fdc1b7fb670f713a7342ea47e42cf9ed088c56b376cf",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f11:2": {
+   "en": "and he collected in adders of Dan",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character 'ε' at the start and end, and a damaged particle 'א##['. The verb 'ק ]וי' is translated as 'collected' based on the pael stem, but the exact sense is uncertain. The noun 'יממ' is translated as 'adders' based on the lexical gloss, but the context is unclear. The adjective 'דנ' is translated as 'of Dan' based on the lexical gloss.",
+   "line_id": 7096,
+   "source_hash": "b44cf2c6f864980f8177419427b96e610f24afe4b2a9e2dacf3b704b351f9e05",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f11:3": {
+   "en": "And then he went out from the door of the second and he ruled in the rest of the days of Dan",
+   "notes": "The transcription contains uncertain and reconstructed elements, including positions 9, 12, and 18. The translation reflects recoverable content conservatively, omitting unsupported details.",
+   "line_id": 7097,
+   "source_hash": "719284bfe81a7c5b00b9f4d4389a8d7b197213ccb7ccccfbbacc83e6136787e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f12:1": {
+   "en": "seventh",
+   "notes": "The transcription is heavily damaged, with only the root 'שׁביע' (seventh) partially recoverable. The initial 'ε' and other fragments are untranslatable. Uncertainty is high due to missing context and damaged script.",
+   "line_id": 7098,
+   "source_hash": "aa322917b4f2b8baab2c13afdb4bee81840635193e0345bae8ecf7a593bce8b2",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f12:2": {
+   "en": "in",
+   "notes": "The initial character 'ε' and the final punctuation '׃' are omitted from the translation as they cannot be independently translated. The surviving translatable content is the preposition 'ב׳ה' glossed as 'in'.",
+   "line_id": 7099,
+   "source_hash": "d0f37c6fa33b8d295e36cc23634154fe9f933f357e07a67fc809e774bb238088",
+   "source_condition": "clean"
+  },
+  "4Q208 f13:1": {
+   "en": "in the covering",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form 'כסה' (cover) and unknown characters 'ε'. The translation reflects the recoverable lexical items, but uncertainty remains due to the fragmentary nature of the text.",
+   "line_id": 7100,
+   "source_hash": "872ccdcfb192effddaee94d901ef5bca5e3c52d3eb535f7b21305ca3e9b1f421",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f13:2": {
+   "en": "and in then he went out",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form and unknown characters. The translation reflects recoverable words in order, preserving uncertainty without speculative additions.",
+   "line_id": 7101,
+   "source_hash": "1aad1abc38444c89b22f8bb79f60e1d081cfbaf673e79c0cde872844bb531f96",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f14i:1": {
+   "en": "three and half",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The transcription is damaged, and the translation reflects only the recoverable words.",
+   "line_id": 7102,
+   "source_hash": "0c83181a0f99f512d2d717ee681869f2f34c4658881fdd4ffcbcb635631afb1b",
+   "source_condition": "clean"
+  },
+  "4Q208 f14i:2": {
+   "en": "and half and he collected",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged particle and a partially legible noun. The verb 'קוי' is translated as 'collected' based on its morphology and lexical gloss, but the exact sense is uncertain due to the fragmented context. The initial character 'ε' and the final punctuation mark '׃' are omitted from the translation as they cannot be independently translated.",
+   "line_id": 7103,
+   "source_hash": "665e52ee30b3c3b2e25f116af0f74821cf3614a47ef34e14e9a6a110067fcb41",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f14ii:1": {
+   "en": "Day adders",
+   "notes": "The transcription is damaged and uncertain, with a reconstructed word 'י?מ##[ מ' (adders) and an unclear particle 'א'. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 7104,
+   "source_hash": "290ced0157070edf12a2b6a7a4c5d9c12fecb5ef09ffc2bf28ff3dff4425c4d0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f14ii:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only damaged or untranslatable fragments, with no defensible English words surviving.",
+   "line_id": 7105,
+   "source_hash": "aa1d0d0e0150983707dbbb768adfaaac37d811f6017d13dbddd2f225b9393fef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f14ii:3": {
+   "en": "Dan's seventh",
+   "notes": "The second word is reconstructed and uncertain, with no trusted gloss available. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 7106,
+   "source_hash": "4af3b2f02a6783470a6cd8126cb720b42040310e617e796491a9ec5fa46506c5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f14ii:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible lexical items in either Aramaic or Hebrew, with all characters being either untranslatable or uncertain.",
+   "line_id": 7107,
+   "source_hash": "ace2d67416bca3dfa3b854d8265c3c0856ae73ba07b4246d6baa25878d1370af",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f15:1": {
+   "en": "and half in night in its covering",
+   "notes": "The transcription contains untranslatable characters (ε) and a reconstructed word (לילא##[). The translation reflects recoverable words in order, omitting unsupported material.",
+   "line_id": 7108,
+   "source_hash": "bbaa7d7c285d140c81e490f77f4c0574dce9229a8828e46ab10cde1497b571ef",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f15:2": {
+   "en": "Seventh and half and he gathered from his light to seventh",
+   "notes": "The transcription is heavily damaged, with two reconstructed words and two uncertain words. The translation reflects the recoverable lexical items in order, but the exact meaning is unclear due to the damage and uncertain glosses. The phrase 'he gathered from his light' is based on the visible morphology and lexical gloss, but the context is insufficient to confirm this interpretation.",
+   "line_id": 7109,
+   "source_hash": "81638be91873092ef1a59b2d1dab804e303569bf753bd0d78f49dd8cccd9be2b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f15:3": {
+   "en": "And then he went out from the third door and he kindled in the rest of the night of Dan",
+   "notes": "The transcription contains uncertain particles and a damaged final word. The translation omits untranslatable particles and assumes 'דנ' as a proper noun despite damage.",
+   "line_id": 7110,
+   "source_hash": "ebd15a0dcfbfe33e5cdda911eb800f9973757bbe56b6d2a0a7ca2275bc43617a",
+   "source_condition": "reconstructed"
+  },
+  "4Q208 f15:4": {
+   "en": "And the seventh, and half, and he waited in the day of Dan, the seventh",
+   "notes": "Uncertain elements include the lemma 'קוה' (position 7) and the reconstructed word 'דֵּן' (position 11). The characters 'ε' (positions 2 and 13) are omitted as they cannot be translated independently.",
+   "line_id": 7111,
+   "source_hash": "28778e44cdb6a3e6120e5876b35e62e6d26af8216c16b30de195d436970d6fe7",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f15:5": {
+   "en": "And then he stood bail and dealt with and covered the rest of the adders of Dan",
+   "notes": "The transcription is partially damaged and reconstructed, with uncertainty in the word 'יממ##[' (adders). The phrase is fragmented, and the exact meaning of 'שביעינ' is unclear.",
+   "line_id": 7112,
+   "source_hash": "00bdcb1c6d3621e6a1908ba3c2432c0bc3b3170aabb2b0ecba322963f73aca7b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f15:6": {
+   "en": "And in the night of the covering of the sevens",
+   "notes": "The translation includes reconstructed and uncertain elements. The word 'ε' at positions 4 and 8 is untranslatable and omitted. The final punctuation mark '׃' is omitted as it has no direct English equivalent.",
+   "line_id": 7113,
+   "source_hash": "7f63e4515e1756658284a4d112ca5c1593d05813a2dcb0733c8d014c4ebe1359",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f16:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only untranslatable fragments (ε] # [ε) with no recoverable lexical content. The reconstructed and uncertain elements provide no basis for defensible English wording.",
+   "line_id": 7114,
+   "source_hash": "bcaec3106eb0e4425918177c2b581e41d697be2064d7138bf9b225974879054c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f16:2": {
+   "en": "from his light",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged suffix (ר׳ה), which are omitted in the translation. The suffix is reconstructed as part of the word 'נְהֹור' (light).",
+   "line_id": 7115,
+   "source_hash": "afb72357130b0eccf6101af1ba432ee0843f2e0ef306220c21503a5ff085beab",
+   "source_condition": "clean"
+  },
+  "4Q208 f16:3": {
+   "en": "door fourth",
+   "notes": "Uncertain transcription and reconstruction of several words. The first and last characters are untranslatable. The particle 'א' is omitted as its function is unclear.",
+   "line_id": 7116,
+   "source_hash": "9c73303e59ae363b3f248e2409ec2b02a0ebdcbc919fafaf39569abb1723231e",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f16:4": {
+   "en": "and half and",
+   "notes": "The transcription contains uncertain and reconstructed elements, including an unknown character (ε) and a damaged particle (ו?[). The translation reflects only the recoverable words in order, with uncertainty noted here.",
+   "line_id": 7117,
+   "source_hash": "975ce734dc14e50615725aa224482002902ad64ec6af5905bc2c9a457c79ca36",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f16:5": {
+   "en": "and in then",
+   "notes": "The transcription contains untranslatable characters (ε) at the beginning and end, omitted from the translation. No recoverable text corresponds to these characters.",
+   "line_id": 7118,
+   "source_hash": "03a3b0c248d2a6c8616a8872cfaa83f2b6466c6993f803fcf6b6ffa3bbb4df0a",
+   "source_condition": "clean"
+  },
+  "4Q208 f16:6": {
+   "en": "and half and",
+   "notes": "The first and fifth characters (ε) are untranslatable and omitted. The final character (׃) is a punctuation mark and not translated.",
+   "line_id": 7119,
+   "source_hash": "29266d908ee0f2585df1f27dc98aee61480061649fa14eeb4da720807fffee7a",
+   "source_condition": "reconstructed"
+  },
+  "4Q208 f17:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain fragments, with no defensible English words surviving.",
+   "line_id": 7120,
+   "source_hash": "3206c752c921acca4e739f1d2e96afb748437cb71e46d8b4391e80b7c68e5fa7",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f17:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain elements, with no clear lexical or semantic content to translate.",
+   "line_id": 7121,
+   "source_hash": "7a3c265e268fa56010920e83cdcff04cc432e05a9a07c3cf29c9c8964db81189",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f17:3": {
+   "en": "adders of Dan",
+   "notes": "The transcription is heavily damaged, with uncertain readings for most words. The translation retains the recoverable lexical items 'adders' (יְמָם) and 'Dan' (דֵּן), but the overall meaning remains unclear due to the fragmentary state of the text.",
+   "line_id": 7122,
+   "source_hash": "86bf8141d25b0ef1fda92863a200f487fa2ae4e84e0d711a4f1ae5a610cb7236",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f17:4": {
+   "en": "in seven",
+   "notes": "Translation based on phrase evidence 'in seven' with high support. Uncertain and unknown elements omitted. Reconstructed text included where defensible.",
+   "line_id": 7123,
+   "source_hash": "b3a9d677a8c980357ec9f7c524625cd4d9ca9eb1ebf1669d082da6b6cf6a0abd",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f17:5": {
+   "en": "and he received the rest",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The verb 'קבל' is in the perfect tense, third-person masculine singular form, indicating a completed action. The noun 'שאר' is masculine singular, meaning 'rest' or 'remainder'.",
+   "line_id": 7124,
+   "source_hash": "666a2094d9ada57ef43403a7a64cca0fa4de6cf5215eea3e3a781ad8595667f3",
+   "source_condition": "clean"
+  },
+  "4Q208 f17:6": {
+   "en": "in adders of Dan",
+   "notes": "Uncertainty in the transcription and gloss of several words, particularly the first and last characters, which are omitted from the translation.",
+   "line_id": 7125,
+   "source_hash": "7f479f17c25c52755d924ba4477e9a1fa480c0683bab7e003a8dfef76c7083d4",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f18:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no clear lexical items translatable into English. The visible forms are either incomplete or unidentifiable, and the reconstructed material lacks sufficient context for a defensible translation.",
+   "line_id": 7126,
+   "source_hash": "d2a81a1dab493deadc1527e4640533b9e56d4f0d8a65c9c59397d74d5fa1c390",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f18:2": {
+   "en": "and he fired in the night of Dan",
+   "notes": "The transcription contains a damaged verb form ']אניר#[' reconstructed as 'נור' (fire) with uncertainty. The initial 'ε' is untranslatable and omitted. The phrase 'בלילא דנ' is translated as 'in the night of Dan' with 'ב' (in) and 'דנ' (Dan) directly reflected.",
+   "line_id": 7127,
+   "source_hash": "f2911de3fdd40cb58df18fa66f45a89b90625505c56bc9bf1a34390b87982beb",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f18:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic or Greek words, only fragments and reconstructions with no clear meaning.",
+   "line_id": 7128,
+   "source_hash": "33c2897c1168bec59a84c7a1d3b4249398deccd0d0316a7e56f1c8f12ae1872a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f19+21:1": {
+   "en": "Five, he placed in the light of the seventh, five, and then he went out and ruled",
+   "notes": "The phrase 'at the river' is a possible interpretation of 'in the light' based on repeated phrase evidence, but it is not certain. The term 'seventh' is uncertain due to damage. The translation retains all recoverable words in order, with uncertainty noted here.",
+   "line_id": 7129,
+   "source_hash": "ca4a4d5527f8114058d9ae142ade35e395d3ce7b08350ea041cb30ef4ec14b67",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f19+21:2": {
+   "en": "The rest of the adders of Dan, two and fire in night, ten in seven",
+   "notes": "The phrase 'in seven' is supported by repeated phrase evidence. The word 'שביעינ' is reconstructed and its meaning is uncertain. The translation of 'אניר' as 'fire' is based on its lexical gloss, but its exact meaning in this context is unclear.",
+   "line_id": 7130,
+   "source_hash": "cac62db73db90fd36576642bea19c1e9340ec66bfb6e3ac352d9b8d551ec6377",
+   "source_condition": "reconstructed"
+  },
+  "4Q208 f19+21:3": {
+   "en": "Five and in then he stood and he dealt with to the door and he received the rest",
+   "notes": "Uncertain reconstruction of 'he stood' and 'he dealt with'; uncertain meaning of 'א' and 'ε'; translation is conservative and preserves all recoverable words in order.",
+   "line_id": 7131,
+   "source_hash": "bc625e8fdfa77f4199eeb2d226bcfb205e76da464a123131b031284367d8869b",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f19+21:4": {
+   "en": "The night of Dan, the seventh of two, and he waited in the adders of Dan, the seventh of five",
+   "notes": "The translation includes reconstructed and uncertain elements. The phrase 'שביעינ' is repeated with unclear meaning, and 'חמשא' is uncertain. The particle 'ה' and 'א' are omitted due to lack of clear function.",
+   "line_id": 7132,
+   "source_hash": "5b259c7293fb8dfa80fba68b3a8fa3c9ba574898accc1cd59c871e0df05f2536",
+   "source_condition": "reconstructed"
+  },
+  "4Q208 f19+21:5": {
+   "en": "And half and he placed in the light",
+   "notes": "The phrase 'at the river' is a possible interpretation of positions 5-6, but it is not strongly supported. The verb 'compare with' is suggested for positions 4-5, but the evidence is not conclusive. The final character 'ε' is untranslatable and omitted.",
+   "line_id": 7133,
+   "source_hash": "db9550dddac5802bd5e1df896d897335fbf0039298286d2761e698362e5c90b4",
+   "source_condition": "reconstructed"
+  },
+  "4Q208 f19+21:6": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, with no defensible English translation possible for the surviving fragments.",
+   "line_id": 7134,
+   "source_hash": "0ac22d8406c707075ed96d570aaed0d751bc25ad02ada9de6490a9d297373cf0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f20:1": {
+   "en": "He went out from the door and ruled in the rest of the adders of Dan",
+   "notes": "Several words are reconstructed or uncertain, including the verb 'rule' and the particles 'and' and 'in'. The phrase 'adders of Dan' is uncertain due to the ambiguous gloss of 'שביע'.",
+   "line_id": 7135,
+   "source_hash": "d7295bced5e3fe13dba2441db7c33201923a76737a7660cca2febf92d5a35e42",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f20:2": {
+   "en": "One and half he kindled in the night one ten in",
+   "notes": "Uncertain reconstruction and gloss for 'ע##ש#ר##' and 'ב##[ ׳ה'. The character 'ε' and the final punctuation mark are omitted due to lack of translatable content.",
+   "line_id": 7136,
+   "source_hash": "20261a2d18e9db0c04117eaa90f6bd3d6855fbe6cda895a80e2706115a915991",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f22:1": {
+   "en": "and half",
+   "notes": "The transcription contains untranslatable characters and damage, with uncertainty in the reconstruction of 'פל#[ ג'. The translation reflects only the recoverable words 'ו' (and) and 'פְּלַג' (half).",
+   "line_id": 7137,
+   "source_hash": "893fb12e1b00f3b2b3e109da4ab00af11f0b57d29712b66859c085ae476b67bc",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f22:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain reconstructions, with no defensible English words surviving.",
+   "line_id": 7138,
+   "source_hash": "6ffa2ec4cd0123365e12b68afabb7a34b7fd80a2a0d83c7c58c4dc6e410ba834",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f22:3": {
+   "en": "and in then",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged particle and unknown characters. The translation reflects only the recoverable words in order, omitting untranslatable fragments. Uncertainty is noted but not bracketed in the translation.",
+   "line_id": 7139,
+   "source_hash": "3f9983c83c11b813d681932b24bc66fd9be4f180a327451237f11f1e1786502f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f23:1": {
+   "en": "and twenty",
+   "notes": "The transcription contains damaged and uncertain elements, including an untranslatable Greek letter (ε) and a partially reconstructed Aramaic word. The translation reflects only the recoverable content: the conjunction 'and' (ו) and the number 'twenty' (עֶשְׂרִין), with uncertainty in the reconstruction noted.",
+   "line_id": 7140,
+   "source_hash": "d2a6fe7c5a388f06167f1a1336a711ee6e5da0465e221ea08397aa8caaabc719",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f23:2": {
+   "en": "to his light [no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain reconstructions. The phrase 'to his light' is based on the recoverable words 'ל' (to) and 'נ ]ה#ור׳ה' (light). The remaining text is too damaged to translate confidently.",
+   "line_id": 7141,
+   "source_hash": "48ba0e0aad9072d2800097ffe8d81dba284f0eaac1b8d20c2d38630c6da7746c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f23:3": {
+   "en": "and he fired the rest of the night of Dan",
+   "notes": "Uncertain transcription and reconstruction in positions 2, 5, and 8. Position 1 and 8 are untranslatable fragments omitted from the translation. Position 6 is omitted as its gloss is uncertain and it does not contribute to the translation.",
+   "line_id": 7142,
+   "source_hash": "6a12ed78cb13a3e29526b8f4b67deab8ae794c57b55bc3dd447c1cd4d62f298c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f23:4": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and reconstructions with high uncertainty. No defensible English words survive.",
+   "line_id": 7143,
+   "source_hash": "c81ec49c4a5299c1142b476254b48a2b559ad3dabcb239647dbe5d3c36e5de67",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f24i:1": {
+   "en": "And then he stood bail and dealt with the door of the fourth and received",
+   "notes": "The initial character 'ε' is omitted as it cannot be translated independently. The particle 'א' and its damaged variant ']א#' are omitted due to uncertainty in translation. The translation is conservative, preserving the order and structure of recoverable words.",
+   "line_id": 7144,
+   "source_hash": "442330d486c715cafd30b14946dbbded3f05b52cd0257dd4168672caaad76847",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f24i:2": {
+   "en": "and half and he was like",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The verb 'שוי' is translated as 'was like' based on the provided gloss, but its exact sense is uncertain.",
+   "line_id": 7145,
+   "source_hash": "872903ae151821d3bf83cd3f92a88f4bd3a49fbf1c3543a6a941b22b9bc9729a",
+   "source_condition": "clean"
+  },
+  "4Q208 f24i:3": {
+   "en": "door fourth",
+   "notes": "The transcription contains untranslatable characters (ε, ]א, א) and uncertain particles (ָא). The translation retains recoverable words 'door' and 'fourth' without adding implied connectors or subjects.",
+   "line_id": 7146,
+   "source_hash": "c9d0f913fab04bf48acb2d01e6cb2fc385ed04945ad730bca18053c986b695af",
+   "source_condition": "clean"
+  },
+  "4Q208 f24i:4": {
+   "en": "in the night of three",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The word 'בלי' is partially damaged, but 'ב' is translated as 'in'. 'לי ]לא' is reconstructed as 'לֵילֵי' (night), and 'תלתא' is translated as 'three'.",
+   "line_id": 7147,
+   "source_hash": "fd9a18075d552fd4d851c2c43241b9f531a71dc2c0a903d4c820204ab9abee45",
+   "source_condition": "clean"
+  },
+  "4Q208 f24i:5": {
+   "en": "and half five",
+   "notes": "The transcription contains an uncertain character (ε) and a damaged numeral (חמ ]ש##א), which may represent 'five' but is incomplete. The conjunction 'and' (ו) and the noun 'half' (פלג) are clear. The order and syntax are preserved as closely as possible given the fragmentary state.",
+   "line_id": 7148,
+   "source_hash": "42b8a41633a1e564c57fc2975757e95c2ea62c7a982f15703835069aa967833f",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f24i:6": {
+   "en": "two sevens",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The word 'ש ]ב#יעינ' is uncertain and partially reconstructed, but its lemma 'שׁביע' suggests 'sevens'. 'תרינ' is clearly 'two'.",
+   "line_id": 7149,
+   "source_hash": "1a5c21380b056380303c60939003fb8b190c3dcda680acebe84b1a98dd52a1ef",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f24i:7": {
+   "en": "Five and in then she entered",
+   "notes": "The transcription contains uncertain and unknown elements, including an initial Greek letter (ε) and a damaged numeral (ח##משא). The translation reflects recoverable words in order, but the overall meaning remains unclear due to fragmentation.",
+   "line_id": 7150,
+   "source_hash": "a6f0c3307005042919105255a223d7fc05ea284d1ac8ec355633e8590471dd8d",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f24i:8": {
+   "en": "in seven",
+   "notes": "The initial character 'ε' and the final punctuation mark '׃' are omitted from the translation as they cannot be independently translated. The phrase 'in seven' is supported by repeated phrase evidence.",
+   "line_id": 7151,
+   "source_hash": "b08eef4f25784ee6ba248dd7bd24c96a30870d04ce2cf6b693c5dc9a1c4b7440",
+   "source_condition": "clean"
+  },
+  "4Q208 f24ii:1": {
+   "en": "and then he stood bail and dealt with the door",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters and unclear lemma assignments. The translation reflects recoverable words in order, but the overall meaning remains uncertain due to extensive damage and ambiguous lexical items.",
+   "line_id": 7152,
+   "source_hash": "840a4367d8fb41a8665ae624359d1fd186d7a915b6a77851ef5d3bb03fc7ee46",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f24ii:2": {
+   "en": "First he and received the rest of the nights of Dan",
+   "notes": "Uncertain reconstruction of 'and' (ו?) and 'take/receive' (ק#בל##[). The term 'שביעינ' is of uncertain meaning, translated here as 'nights' based on context. The character 'ε' at the end is untranslatable and omitted.",
+   "line_id": 7153,
+   "source_hash": "e62745c3092950d4914170f5b8df543bf78eb7889875d319e64464c9201d57e2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f24ii:3": {
+   "en": "and he collected",
+   "notes": "The verb 'collected' is uncertain due to damage in the source text. The particle 'and' is reconstructed. The final characters are untranslatable and omitted.",
+   "line_id": 7154,
+   "source_hash": "99e343b168f15cfbb7f05dfbd54fa7da26758f42278d7b553ab51a9d03ba836a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f25:1": {
+   "en": "and in the night fifth",
+   "notes": "The initial character 'ε' is untranslatable and omitted. The word 'חמש#י?ת' is marked as uncertain in the source.",
+   "line_id": 7155,
+   "source_hash": "dfb1911d5a9ae59986c897b90d93bfdad6272eec94aeccac16b5b46912b7163f",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f25:2": {
+   "en": "Ten in covering half seventh and he gathered from light half seventh and in then",
+   "notes": "Uncertain terms 'שביע' and 'נהור׳ה' lack trusted glosses. Reconstruction and uncertainty noted in source.",
+   "line_id": 7156,
+   "source_hash": "c2376d8ac6c2d2f30c4ecd2b834ae9866001284d16d366c4f8f03e1013dbc617",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f25:3": {
+   "en": "He went out and kindled in the rest of the night of Dan, the seventh of Seth, and half",
+   "notes": "Uncertain elements include the lexical glosses for 'שביעינ' and 'א', and the form 'פל ]ג#?' is damaged. The translation conservatively retains all recoverable material without adding speculative subjects or connectors.",
+   "line_id": 7157,
+   "source_hash": "ecc3eefe79e14ec63cb77b7eb93902fa30ae5a55334bb47968c38cb7a1f43d94",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f25:4": {
+   "en": "In adders of Dan, one sharp, and in then he stood bail and he dealt with and covered the rest of adders.",
+   "notes": "The translation includes uncertain and reconstructed elements. The sense of several words is unclear, and the text is fragmented. The phrase 'one sharp' is a possible interpretation of 'حاد' but its exact meaning in context is uncertain. The verbs 'stood bail', 'dealt with', and 'covered' are based on the provided glosses but their precise application here is unclear. The repetition of 'adders' at the end is based on the surviving text but its intended meaning is uncertain.",
+   "line_id": 7158,
+   "source_hash": "3fa0f0da6944054d56bb4fc9b1d8b895bea81a989478e1ccbc9c99d4723b1ec0",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f26:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and uncertain or reconstructed forms, leaving no defensible English words.",
+   "line_id": 7159,
+   "source_hash": "e04dae1000315beda100cabeeb690610dc833ca475fce06321afd5fa10f0648c",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f26:2": {
+   "en": "And he placed in the light",
+   "notes": "The transcription contains uncertain and unknown elements, including a damaged verb and an unclear suffix. The phrase 'in the light' is supported by repeated evidence, but the overall meaning remains uncertain due to the fragmentary nature of the text.",
+   "line_id": 7160,
+   "source_hash": "cbf896ccbb12429dcdc4676d0daa1fe132516a568c92bee379eb2f43f91bd0a5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f27:1": {
+   "en": "night [no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements. Only 'night' is recoverable with confidence. The remaining characters are either unknown, reconstructed, or too damaged to translate independently.",
+   "line_id": 7161,
+   "source_hash": "3f1118bfac5cc98619e611278802267db0a9d8882c05470e1cd9d40ec8d34ff1",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f28:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ו?א[) with no clear lexical or semantic content. The reconstructed material is too fragmentary to support a defensible translation.",
+   "line_id": 7162,
+   "source_hash": "9d38f86eafd2947ff43eebb6406fa7811a55317421bc337012efa5a265d3fa15",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f28:2": {
+   "en": "and in then",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged initial character (ε), a fragmented word (]א##), and a reconstructed term (א#[ דינ). The translation reflects only the recoverable and certain words: 'and' (ו), 'in' (ב), and 'then' (אֱדַיִן). The final ε is omitted as it cannot be translated independently.",
+   "line_id": 7163,
+   "source_hash": "a4275ded01d9154d966a976e8eb0aa16ed3bf15a4e55b944d0dfdd30d0397843",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f28:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments, with no defensible English words surviving. The visible forms include uncertain and reconstructed elements, and no contextual or lexical evidence supports a coherent translation.",
+   "line_id": 7164,
+   "source_hash": "adbc61cb0f4f1ba3f29548468681778218223a1affa6a39c3b0ca359d86ce0c2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f29:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments of Greek and Aramaic letters with no clear lexical or syntactic structure.",
+   "line_id": 7165,
+   "source_hash": "438c45f76993a23393d7f07b1d296dbde6b4b5e3fe1196216d37e7bab78e3ba5",
+   "source_condition": "clean"
+  },
+  "4Q208 f29:2": {
+   "en": "and in then",
+   "notes": "The transcription contains untranslatable characters (ε) and a damaged word reconstructed as 'then'. The final character (׃) is a punctuation mark and not translated.",
+   "line_id": 7166,
+   "source_hash": "b00a0165e4debbf76d8ba6e2de67f8e30b48acda902a1848f72fdcbfe0aaa24d",
+   "source_condition": "reconstructed"
+  },
+  "4Q208 f30:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only damaged or untranslatable characters (ε, ] # [), with no recoverable lexical content. The reconstructed and uncertain elements provide no defensible basis for translation.",
+   "line_id": 7167,
+   "source_hash": "53bf2d380665fa95a1f920f6c35aae268854958b09b4cb65346ae5e765d6520a",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f30:2": {
+   "en": "Captive and",
+   "notes": "Uncertain due to damaged text; 'ε' and '׃' are untranslatable fragments; 'ו[ε' is reconstructed as 'and'.",
+   "line_id": 7168,
+   "source_hash": "356395cc6c6aabe5c2413ce5fbd2d0e3ac49d7ff5860117ffcb44042f311a8b8",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f31:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains damaged and uncertain elements with no clear lexical glosses. The visible forms do not provide sufficient evidence for a defensible translation.",
+   "line_id": 7169,
+   "source_hash": "8bbb061d2fe0f3cda7c907d1f345e0cd3389a02b4b450539259daa12f31da338",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f32:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains no defensible Aramaic or Greek lexical units. All visible characters are either damaged or untranslatable fragments.",
+   "line_id": 7170,
+   "source_hash": "bdaf722c25a29b2006fae0b52fd974027e14bb3ec93090946044d57909ed6d1f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f32:2": {
+   "en": "he stood bail and dealt with",
+   "notes": "The transcription contains uncertain and reconstructed elements, including a damaged verb form 'על##[' and an unknown character 'ε'. The translation reflects the recoverable verbs 'ער ]ב' (stood bail) and 'ו עלל' (dealt with), but omits untranslatable characters and signals uncertainty in the notes.",
+   "line_id": 7171,
+   "source_hash": "cd66ec744e74edf92ba8a2c3a5ff419ec160312f0b6107c9cf5369aea36b4869",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f32:3": {
+   "en": "and half",
+   "notes": "The transcription contains uncertain and untranslatable elements, including a reconstructed term and unknown characters. The translation reflects only the recoverable words 'and' (ו) and 'half' (פְּלַג), with uncertainty noted for the latter.",
+   "line_id": 7172,
+   "source_hash": "5662ef2a67ad24a0e5af3e5fbe7930e82d97da7272bfcbb7252db8a121054e7f",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f33:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable characters and fragments, with no clear lexical or grammatical structure. The visible forms do not provide sufficient evidence for a defensible English translation.",
+   "line_id": 7173,
+   "source_hash": "939ee65be0deb2e932e8085adb1534fba1557eee9ac746132303d17012c101c2",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f33:2": {
+   "en": "door [no recoverable text] and",
+   "notes": "The transcription contains untranslatable characters and uncertain elements, including a reconstructed word and unknown particles. The translation reflects only the recoverable content.",
+   "line_id": 7174,
+   "source_hash": "54c25b5dfae739e1e010361c3fc6746f0a7078bbd19481356716e338e7c4a5af",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f33:3": {
+   "en": "Seth and half",
+   "notes": "The transcription contains untranslatable characters (ε) and an unknown punctuation mark (׃), which are omitted in the translation.",
+   "line_id": 7175,
+   "source_hash": "ad58381256e5af4a5ef137ca417c7fa7620946a475159dc6211d7cae65d851ae",
+   "source_condition": "clean"
+  },
+  "4Q208 f34:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters, with no clear lexical items surviving. The reconstructed form ']מ##י#?[' suggests a possible 'who' but is too uncertain to translate confidently. The other characters (ε) are untranslatable fragments.",
+   "line_id": 7176,
+   "source_hash": "6fa20d2ea89bd97697faa4c89dddd3932cced13a155f62ef997297335986aae6",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f34:2": {
+   "en": "become",
+   "notes": "The translation is based on the reconstructed verb 'הוא' (position 2), which is the only recoverable lexical item. The surrounding characters 'ε' (positions 1 and 3) are untranslatable and omitted. The verb is in the peal stem with unknown person, gender, number, and tense.",
+   "line_id": 7177,
+   "source_hash": "83a4e3f4f201df25e8f6486caff616f55a60fed1480fe0a05de1342b465b370c",
+   "source_condition": "reconstructed"
+  },
+  "4Q208 f34:3": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain characters (ε, ]ו?נ[, ׃) with no clear lexical or grammatical meaning. The reconstructed and uncertain forms provide no defensible basis for translation. No recoverable text survives.",
+   "line_id": 7178,
+   "source_hash": "b2df3f51a4b52a606f34c2d324cfbe763a22ae6def1c40d0bba0a1466be7267d",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f35:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains only fragmentary and uncertain characters, with no defensible English translation possible.",
+   "line_id": 7179,
+   "source_hash": "ccfecf688f061fd19c5106ef9b4772ad50e72381add4bb0444ec8af0942cafa5",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f35:2": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains heavily damaged and uncertain elements, including reconstructed and untranslatable characters. No defensible English words can be derived from the surviving material.",
+   "line_id": 7180,
+   "source_hash": "5f5ed8b1bf028e30f2ad1a062cbdd72183285c9f17cfc9da1e66b66258729417",
+   "source_condition": "reconstructed_and_uncertain"
+  },
+  "4Q208 f36:1": {
+   "en": "[no recoverable text]",
+   "notes": "The transcription contains untranslatable fragments and uncertain characters, with no recoverable lexical items that can be confidently rendered into English.",
+   "line_id": 7181,
+   "source_hash": "3e06b57b2b9361e5561de1b3b2a8b851fd915e40cb32dc86cd8fbce6419814b1",
+   "source_condition": "uncertain"
+  },
+  "4Q208 f36:2": {
+   "en": "to the door",
+   "notes": "The transcription contains uncertain and reconstructed elements, including damaged characters (ε, #[, ָא#[) and a potentially incomplete word (ת#רע). The translation reflects only the recoverable lexical items 'to' (לְ) and 'door' (תְּרַע), with uncertainty in the full extent of the phrase.",
+   "line_id": 7182,
+   "source_hash": "3bb1a44af48ce90f9e6f466742ed9fa81528672512aaa8d612ae362fa51e5175",
+   "source_condition": "reconstructed_and_uncertain"
+  }
+ }
+}

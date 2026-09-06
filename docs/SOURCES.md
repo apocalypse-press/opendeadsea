@@ -99,6 +99,18 @@ They are cataloged from IAA plate pages (`corpus/extra-mss.json`) so
 they have a home. **DJD transcriptions are not copied.** Wording on
 those pages is absent until a licensed Greek source is added.
 
+This is an upstream source boundary, not a Greek-language processing filter.
+Explorer's importer maps ETCBC `lang=g` to Greek and preserves Greek-tagged
+tokens when present. The 26 extra catalog records are absent from the pinned
+ETCBC/dss scroll inventory itself. The internal translation work queue marks
+them `source_acquisition_required`; an IAA photograph or a generic Septuagint
+verse is not substituted for an edition-level diplomatic transcription.
+When a licensed Greek transcription is added, route its lexical and semantic
+evidence through Bibla Lingua's native Greek path. BHSA glosses and Hebrew
+phrase matches must never be relabeled as evidence for the Greek witness. The
+current queue hold is therefore a source-acquisition boundary, not a claim that
+the semantic engine lacks Greek support.
+
 ## Not sources of the wording
 
 - Leon Levy Dead Sea Scrolls Digital Library (IAA): outbound photographs only. All rights reserved there.

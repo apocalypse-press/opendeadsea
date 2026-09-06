@@ -1,6 +1,6 @@
 # Code tree, dependencies, and cloud
 
-Operational map for the Open Dead Sea release as of 2026-08-28. Product
+Operational map for the Open Dead Sea release as of 2026-09-06. Product
 status and remaining work live in `docs/ARCH-DSS-2026-CF-FREE.md`.
 
 There is no application package or npm runtime. Pages Functions are plain
@@ -15,6 +15,7 @@ opendeadsea/
     mss/                          1,027 manuscript records
     works/                        Biblical work/coverage indexes
     translations/                Complete machine-aid first-draft packs
+    translation-work-queue.json  Provider-free unpublished source-work plan
     lexicon/                      Seed Hebrew/Aramaic lemma records
     fragments/                    Small diplomatic fragment contract fixtures
     manuscripts.json             Catalog index
@@ -52,6 +53,7 @@ opendeadsea/
     export_orig_lang.py           Explorer DB -> corpus/mss + site pages/data
     export_first_drafts.py        Complete detached drafts -> translation packs
     export_translation_queue.py   Catalog-wide publication queue
+    export_translation_work_queue.py  Hash-bound unpublished source queue
     export_diagrams.py            Available syntax diagrams
     validate-*.mjs                Deterministic corpus/release gates
     test_*.mjs, test_*.py         Session, API, desk, diagram, queue checks
@@ -84,6 +86,12 @@ database.
   -> corpus/translations/ + site/data/translations/
   -> scripts/export_translation_queue.py
   -> corpus/translations/queue.json + served copy
+
+corpus/manuscripts.json + corpus/translations/queue.json
+~/dss-explorer/reviews/*-detached-drafts.json
+~/dss-explorer/data/dss.sqlite3
+  -> scripts/export_translation_work_queue.py (current source/hash checks)
+  -> corpus/translation-work-queue.json (internal planning only; not served)
 ```
 
 Original-language wording is derived from the pinned ETCBC/dss commit recorded
@@ -168,6 +176,7 @@ node scripts/validate-photo-links.mjs
 node scripts/validate-search-metadata.mjs
 node scripts/validate-translations.mjs
 node scripts/validate-translation-queue.mjs
+node scripts/validate-translation-work-queue.mjs
 node scripts/test_search.mjs
 node scripts/test_session.mjs
 node scripts/test_review_api.mjs
